@@ -31,7 +31,7 @@ A critical distinction in benchmark design is the target of evaluation.
 * **Knowledge Probing** asks: "Does the model internally possess this information?" This is relevant when selecting a base model (e.g., choosing between Llama-3 and Mixtral). Frameworks like EleutherAI’s Harness and LightEval excel here.  
 * **System Performance** asks: "Can this application retrieve and synthesize the correct answer?" This applies to RAG systems where the model is expected to use external tools. Frameworks like DeepEval, Ragas, and Inspect are designed for this.6
 
-## **2\. The Foundation: Base Model Evaluation Frameworks**
+## **2. The Foundation: Base Model Evaluation Frameworks**
 
 When an organization needs to assess the inherent capabilities of a foundation model—determining if it "knows" the specific building codes for seismic retrofitting or the tax implications of a spin-off—it requires frameworks designed for high-throughput knowledge probing. These tools typically evaluate the model's ability to predict the next token in a sequence or select the correct option in a multiple-choice scenario based on likelihoods.
 
@@ -102,7 +102,8 @@ OpenCompass explicitly bifurcates evaluation into objective (standard metrics) a
 | **Inference** | vLLM, SGLang, GGUF 8 | Accelerate, TGI, Inference Endpoints 18 | LMDeploy, vLLM, API |
 | **Unique Strength** | **Decontamination** tools 12 | **Caching** system 16 | **Visual & Math** specialized evaluators |
 
-## **3\. The Frontier: Holistic, Safety, and Agentic Evaluation**
+
+## **3. The Frontier: Holistic, Safety, and Agentic Evaluation**
 
 As industry applications move beyond simple text generation to autonomous decision-making, the evaluation criteria must expand. It is no longer sufficient to know if a model is *correct*; we must know if it is *safe*, *unbiased*, and *capable of planning*.
 
@@ -126,7 +127,7 @@ HELM introduces the Scenario abstraction, which bundles the input text with its 
 Inspect creates an evaluation loop involving three core components:
 
 * **Datasets:** The task definitions.  
-* **Solvers:** The systems being tested. Crucially, a "Solver" in Inspect is not just a model; it can be a complex Python function that calls a model, executes a tool, parses the result, and calls the model again.25 This allows for the evaluation of ReAct (Reasoning \+ Acting) loops.  
+* **Solvers:** The systems being tested. Crucially, a "Solver" in Inspect is not just a model; it can be a complex Python function that calls a model, executes a tool, parses the result, and calls the model again.25 This allows for the evaluation of ReAct (Reasoning + Acting) loops.  
 * **Scorers:** The evaluation logic, which can assess the final output or the *trajectory* of steps the agent took to get there.23
 
 #### **3.2.2 Sandboxing and Safety**
