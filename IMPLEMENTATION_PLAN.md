@@ -36,12 +36,12 @@ etfbench/
 Create project structure and dependencies.
 
 **Tasks**:
-- [ ] Create directory structure
-- [ ] Initialize `pyproject.toml` (deepeval, pydantic, pytest, rich, typer)
-- [ ] Create `src/etfbench/__init__.py`
-- [ ] Create `.gitignore`
+- [x] Create directory structure
+- [x] Initialize `pyproject.toml` (deepeval, pydantic, pytest, rich, typer)
+- [x] Create `src/etfbench/__init__.py`
+- [x] Create `.gitignore`
 
-**Deliverable**: `pip install -e .` works
+**Deliverable**: `uv sync && uv run pytest` works
 
 ---
 

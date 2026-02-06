@@ -4,7 +4,7 @@ ETFBench: AI benchmark for ETF industry knowledge using DeepEval.
 
 ## Project State
 
-- **Current phase**: Pre-implementation (Phase 0)
+- **Current phase**: Phase 1 complete, ready for Phase 2
 - **Implementation plan**: [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md)
 - **Framework research**: [ai/early-research.md](ai/early-research.md)
 
