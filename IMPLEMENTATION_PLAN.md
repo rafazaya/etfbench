@@ -191,6 +191,9 @@ dependencies = [
     "chromadb>=0.4",
     "sentence-transformers>=2.5",
 ]
+
+[project.optional-dependencies]
+dev = ["pytest-cov", "ruff", "ty"]
 ```
 
 ---
