@@ -10,7 +10,7 @@ ETFBench: AI benchmark for ETF industry knowledge using DeepEval.
 
 ## Philosophy: Keep It Simple
 
-This project follows a strict simplicity philosophy. Before adding anything, ask:
+This project follows a philosophy of simply defining a testing infrastructure to test complex business logic and processes from the financial services arena. Before adding anything, ask:
 
 1. **Is this necessary right now?** Don't build for hypothetical futures
 2. **Can this be deleted instead of refactored?** Prefer removal over abstraction
@@ -29,17 +29,18 @@ This project follows a strict simplicity philosophy. Before adding anything, ask
 ### Documentation Rules
 
 - IMPLEMENTATION_PLAN.md = tasks and deliverables only
-- Code comments only where logic isn't self-evident
-- No docstrings on internal/private functions unless complex
+- Code comments especially when logic isn't self-evident
+- Use docstrings for modules and functions to include usage and define functionality
 - README.md for users, CLAUDE.md for agents - don't mix audiences
 
 ## Conventions
 
 ### Code Style
 
-- Python 3.11+, type hints on public APIs
-- Pydantic for data models
+- Python 3.12+, type hints on public APIs
+- Pydantic v2 for data models
 - `ruff` for formatting/linting
+- `ty` for type checking
 - Tests mirror src structure: `src/etfbench/metrics/` → `tests/test_metrics/`
 
 ### Commit Messages
