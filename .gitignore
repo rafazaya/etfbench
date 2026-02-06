@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.env.local
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Project
+results/
+data/documents/raw/
+data/vectordb/
+
+# Tool-specific
+/.claude/
