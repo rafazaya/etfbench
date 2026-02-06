@@ -50,10 +50,12 @@ Create project structure and dependencies.
 Build ETF-specific evaluation metrics using DeepEval's GEval.
 
 **Tasks**:
-- [ ] `EvidenceCitation` metric (standard/strict modes)
-- [ ] `RegulatoryAccuracy` metric (validates SEC rule references)
+- [ ] `AnswerCorrectness` metric (verify answer against expected + evidence source)
+- [ ] `RegulatoryAccuracy` metric (validates regulatory concepts are current/correct)
 - [ ] `QuantitativeAccuracy` metric (tolerance-based numerical scoring)
 - [ ] Unit tests for each metric
+
+Note: Models are NOT scored on whether they cite sources. Citations exist in the golden (test case) for benchmark transparency - evaluation reports reference the source when marking answers correct/incorrect.
 
 **Deliverable**: Three working custom metrics
 
@@ -75,10 +77,10 @@ class ETFGolden(BaseModel):
     id: str
     input: str                       # Question
     expected_output: str             # Ideal answer
-    evidence_string: str | None      # Required citation
+    evidence_source: str | None      # Where the answer comes from (for reports)
     category: str                    # capital_markets, regulatory, etc.
     difficulty: str                  # basic, intermediate, expert
-    source_documents: list[str]
+    source_documents: list[str]      # Document files containing the answer
 ```
 
 **Deliverable**: Working loader returning DeepEval test cases

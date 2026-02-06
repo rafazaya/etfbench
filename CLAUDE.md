@@ -65,9 +65,16 @@ data/goldens/     # Test case JSON files
 
 ETFBench evaluates LLMs on ETF (Exchange-Traded Fund) knowledge:
 
-- **Evidence citations required**: Answers must reference sources (SEC filings, regulations)
 - **Document sources**: SEC EDGAR, comment letters, Rule 6c-11, prospectuses
-- **Key metrics**: Citation accuracy, regulatory correctness, faithfulness
+- **Key metrics**: Answer correctness, regulatory accuracy, faithfulness
+
+### Citation Philosophy
+
+Citations are for **benchmark transparency**, not model output scoring:
+
+1. **Synthetic goldens include citations** - Each Q&A pair tracks its source document
+2. **Evaluation reports cite evidence** - Correct/incorrect verdicts reference the source
+3. **Models don't need to cite** - We evaluate answer correctness, not citation behavior
 
 ## Quick Reference
 

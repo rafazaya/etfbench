@@ -5,11 +5,11 @@
 
 ## Executive Summary
 
-General-purpose benchmarks (MMLU, GSM8K) fail to capture domain-specific knowledge in finance. Public leaderboards suffer from data contamination and Goodhart's Law. ETFBench requires custom, industry-specific evaluation with evidence citation requirements.
+General-purpose benchmarks (MMLU, GSM8K) fail to capture domain-specific knowledge in finance. Public leaderboards suffer from data contamination and Goodhart's Law. ETFBench requires custom, industry-specific evaluation with traceable evidence sources.
 
 **Decision**: Use DeepEval as primary framework for:
-- Synthetic data generation from ETF documents
-- Custom metrics (GEval) for citation requirements
+- Synthetic data generation from ETF documents (with evidence tracking)
+- Custom metrics (GEval) for answer correctness
 - Pytest integration for CI/CD
 - RAG pipeline evaluation
 
@@ -97,20 +97,22 @@ goldens = synthesizer.generate_goldens_from_docs(
 )
 ```
 
-**Custom Citation Metric** (GEval):
+**Answer Correctness Metric** (GEval):
 ```python
 from deepeval.metrics import GEval
 
-citation_metric = GEval(
-    name="EvidenceCitation",
-    criteria="Answer must cite specific document, section, and quote",
+correctness_metric = GEval(
+    name="AnswerCorrectness",
+    criteria="Answer must be factually correct based on the expected output",
     evaluation_steps=[
-        "Identify citations in response",
-        "Verify citations reference real documents",
-        "Check cited info supports claims"
+        "Compare actual output to expected output",
+        "Check for factual accuracy on key claims",
+        "Verify regulatory/technical details are correct"
     ]
 )
 ```
+
+Note: We don't score models on citation behavior. The benchmark itself tracks evidence sources for transparency.
 
 ---
 
@@ -118,12 +120,13 @@ citation_metric = GEval(
 
 ### FinanceBench (Most Relevant)
 
-- Requires **evidence strings** (exact source sentences from 10-K filings)
+- Requires **evidence strings** (exact source sentences from 10-K filings) in the benchmark data
 - Measures **refusal rate** (models refusing to answer financial questions)
 - Emphasizes **tabular data retrieval**
 - Finding: Models often refuse or hallucinate on financial questions
+- Note: Evidence strings are for benchmark transparency, not model output scoring
 
-**ETFBench should adopt**: Evidence citation requirements, refusal tracking.
+**ETFBench should adopt**: Evidence sources in goldens, refusal tracking.
 
 ### LegalBench
 
@@ -154,10 +157,11 @@ citation_metric = GEval(
 
 | Requirement | Solution |
 |-------------|----------|
-| Evidence citations | GEval with citation criteria |
+| Answer correctness | GEval comparing output to expected answer |
 | Regulatory accuracy | Custom metric checking SEC rule references |
 | Refusal tracking | Monitor model safety filter triggers |
 | Document corpus | SEC EDGAR, comment letters, regulations |
+| Benchmark transparency | Evidence sources stored in goldens, surfaced in reports |
 
 ### Decontamination
 
