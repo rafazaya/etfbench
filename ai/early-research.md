@@ -178,6 +178,11 @@ Use EleutherAI Harness `--check_contamination` to verify benchmark questions don
 - [UK AISI Inspect](https://inspect.aisi.org.uk/)
 - [Stanford HELM](https://crfm-helm.readthedocs.io/)
 
+### DeepEval Documentation
+- [Answer Correctness Guide](https://deepeval.com/guides/guides-answer-correctness-metric) - GEval for comparing output to expected
+- [GEval Documentation](https://deepeval.com/docs/metrics-llm-evals) - Custom LLM-as-judge metrics
+- [LLM Evaluation Metrics Guide](https://www.confident-ai.com/blog/llm-evaluation-metrics-everything-you-need-for-llm-evaluation)
+
 ### Domain Benchmarks
 - [FinanceBench](https://github.com/patronus-ai/financebench)
 - [LegalBench](https://github.com/HazyResearch/legalbench)
