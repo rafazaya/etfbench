@@ -23,13 +23,20 @@ This document outlines the implementation plan for building ETFBench using DeepE
 ```
 etfbench/
 ├── data/
-│   ├── documents/                  # Raw source materials (PDFs, regulations)
-│   │   ├── capital_markets/
-│   │   ├── creation_redemption/
-│   │   ├── regulatory/
-│   │   ├── issuers/
-│   │   ├── asset_classes/
-│   │   └── conversions/
+│   ├── documents/
+│   │   ├── raw/                    # Original downloaded files (preserved)
+│   │   │   ├── edgar/              # SEC EDGAR filings (N-1A, N-CEN, etc.)
+│   │   │   ├── comment_letters/    # SEC comment correspondence
+│   │   │   └── regulations/        # Rules, releases, guidance
+│   │   ├── processed/              # Parsed plain text
+│   │   │   ├── text/               # Full document text extractions
+│   │   │   ├── chunks/             # Chunked text for RAG/synthesis
+│   │   │   └── tables/             # Extracted table content (text)
+│   │   └── index/                  # Document metadata and indices
+│   │       ├── metadata.json       # Document catalog
+│   │       └── knowledge_graph/    # Entity relationships (optional)
+│   ├── vectordb/                   # Vector database storage
+│   │   └── chroma/                 # ChromaDB or similar
 │   └── goldens/                    # Test cases by category
 │       ├── capital_markets.json
 │       ├── creation_redemption.json
@@ -41,6 +48,21 @@ etfbench/
 │   └── etfbench/
 │       ├── __init__.py
 │       ├── config.py               # Benchmark configuration
+│       ├── collectors/             # Document collection (Phase 4)
+│       │   ├── __init__.py
+│       │   ├── edgar.py            # SEC EDGAR API client
+│       │   ├── comments.py         # Comment letter scraper
+│       │   └── base.py             # Base collector interface
+│       ├── processors/             # Document processing (Phase 4)
+│       │   ├── __init__.py
+│       │   ├── parser.py           # HTML/XML/PDF parsing
+│       │   ├── chunker.py          # Text chunking pipeline
+│       │   ├── tables.py           # Table text extraction
+│       │   └── indexer.py          # Metadata indexing
+│       ├── knowledge/              # Knowledge base (Phase 4)
+│       │   ├── __init__.py
+│       │   ├── vectorstore.py      # VDB interface
+│       │   └── graph.py            # Knowledge graph (optional)
 │       ├── synthesizer.py          # Synthetic data generation
 │       ├── metrics/
 │       │   ├── __init__.py
@@ -60,6 +82,8 @@ etfbench/
 │   ├── test_regulatory.py
 │   └── test_issuers.py
 ├── scripts/
+│   ├── collect_documents.py        # Document collection CLI
+│   ├── process_documents.py        # Document processing CLI
 │   ├── generate_synthetic.py       # Run Synthesizer on documents
 │   ├── convert_questions.py        # Convert questions.md to JSON
 │   └── run_benchmark.py            # Full benchmark execution
@@ -217,16 +241,116 @@ class ETFGolden(BaseModel):
 
 ---
 
-### Phase 4: Synthetic Data Generation
-**Goal**: Generate additional test cases from ETF documents
+### Phase 4: Document Collection & Knowledge Base
+**Goal**: Build infrastructure to collect, parse, and index public ETF documents
+
+> **Note**: This phase is intentionally high-level. Detailed implementation decisions
+> (automation scheduling, specific VDB choice, etc.) will be refined when we begin this phase.
+
+#### Document Sources
+
+| Source | Description | Priority |
+|--------|-------------|----------|
+| **SEC EDGAR Filings** | Form N-1A (registration), N-CEN (annual), prospectuses, SAIs | High |
+| **SEC Comment Letters** | Staff comments on filings, issuer responses, full correspondence threads | High |
+| **Regulatory Documents** | Rule 6c-11, exemptive applications, no-action letters, staff guidance | High |
+| **Industry Publications** | ICI research, ETF.com analysis (if permitted) | Medium |
+
+#### Storage Architecture
+
+```
+Three-tier storage:
+1. Raw Layer     → Original files preserved exactly as downloaded
+2. Processed Layer → Plain text extraction + chunked text for RAG
+3. Index Layer   → Metadata catalog + Vector DB + Knowledge Graph
+```
+
+**Design Principles**:
+- **Plain text preservation**: Always keep human-readable text copy of sources
+- **Text-focused parsing**: Extract text from tables, but deprioritize numerical/historical data extraction
+- **Incremental updates**: Support fetching new documents without re-processing everything
 
 #### Tasks
-1. [ ] Collect source documents into `data/documents/` by category
-2. [ ] Implement `synthesizer.py` with ETF-specific configuration
-3. [ ] Create `scripts/generate_synthetic.py` CLI
-4. [ ] Generate initial synthetic dataset (target: 50-100 questions per category)
-5. [ ] Implement quality filtering (discard low-quality generations)
-6. [ ] Manual review process for synthetic questions
+
+**Collection Infrastructure**:
+1. [ ] Implement base collector interface (`collectors/base.py`)
+2. [ ] Build SEC EDGAR API client (`collectors/edgar.py`)
+   - Form types: N-1A, N-CEN, 485BPOS, etc.
+   - Search by issuer, date range, form type
+3. [ ] Build comment letter scraper (`collectors/comments.py`)
+   - Parse comment/response threads
+   - Link correspondence to original filings
+4. [ ] Create `scripts/collect_documents.py` CLI
+   - Manual trigger initially, automation design deferred
+
+**Processing Pipeline**:
+5. [ ] Implement document parser (`processors/parser.py`)
+   - Handle SEC HTML/XML formats
+   - Handle PDF extraction (prospectuses)
+6. [ ] Implement table text extractor (`processors/tables.py`)
+   - Extract text content from tables
+   - Skip purely numerical tables (fee schedules, NAV history, etc.)
+7. [ ] Implement text chunker (`processors/chunker.py`)
+   - Configurable chunk size/overlap
+   - Preserve document structure metadata
+8. [ ] Create `scripts/process_documents.py` CLI
+
+**Knowledge Base**:
+9. [ ] Implement metadata indexer (`processors/indexer.py`)
+   - Document catalog with issuer, date, type, topics
+   - Full-text search capability
+10. [ ] Implement vector store interface (`knowledge/vectorstore.py`)
+    - Abstract interface (start with ChromaDB)
+    - Embed chunks with document provenance
+11. [ ] Design knowledge graph schema (`knowledge/graph.py`) - *optional, defer if complex*
+    - Entities: Issuers, Funds, Regulations, Concepts
+    - Relationships: "filed_by", "references", "amends"
+
+#### Example: Comment Letter Collection
+
+```python
+# Conceptual API - to be refined in Phase 4
+from etfbench.collectors.comments import CommentLetterCollector
+
+collector = CommentLetterCollector()
+
+# Fetch comment threads for a specific filing
+threads = collector.fetch_threads(
+    issuer="Vanguard",
+    filing_type="N-1A",
+    date_range=("2023-01-01", "2024-12-31")
+)
+
+for thread in threads:
+    print(f"Filing: {thread.filing_accession}")
+    print(f"Comments: {len(thread.sec_comments)}")
+    print(f"Responses: {len(thread.issuer_responses)}")
+```
+
+#### Open Questions (to resolve when starting Phase 4)
+
+1. **Automation**: Cron schedule? Event-driven? Manual with alerts for new filings?
+2. **VDB Choice**: ChromaDB (simple) vs Qdrant (performance) vs Weaviate (features)?
+3. **Knowledge Graph**: Worth the complexity? Start with simple metadata linking?
+4. **Rate Limiting**: SEC EDGAR has rate limits - batch strategy?
+
+#### Deliverables
+- Working document collection pipeline (CLI-triggered)
+- Plain text extraction with table content
+- Vector database populated with chunked documents
+- Document metadata index
+
+---
+
+### Phase 5: Synthetic Data Generation
+**Goal**: Generate additional test cases from collected ETF documents
+
+#### Tasks
+1. [ ] Implement `synthesizer.py` with ETF-specific configuration
+2. [ ] Create `scripts/generate_synthetic.py` CLI
+3. [ ] Generate initial synthetic dataset (target: 50-100 questions per category)
+4. [ ] Implement quality filtering (discard low-quality generations)
+5. [ ] Manual review process for synthetic questions
 
 #### Synthesizer Configuration
 
@@ -285,7 +409,7 @@ def generate_category_goldens(
 
 ---
 
-### Phase 5: Benchmark Runner
+### Phase 6: Benchmark Runner
 **Goal**: Create unified benchmark execution
 
 #### Tasks
@@ -359,7 +483,7 @@ class ETFBenchRunner:
 
 ---
 
-### Phase 6: Testing & CI/CD
+### Phase 7: Testing & CI/CD
 **Goal**: Ensure quality and automate evaluation
 
 #### Tasks
@@ -454,11 +578,27 @@ name = "etfbench"
 version = "0.1.0"
 requires-python = ">=3.11"
 dependencies = [
+    # Core evaluation
     "deepeval>=3.2.0",
     "pydantic>=2.0",
     "pytest>=8.0",
-    "rich>=13.0",        # CLI output formatting
-    "typer>=0.12",       # CLI framework
+
+    # CLI
+    "rich>=13.0",
+    "typer>=0.12",
+
+    # Document collection (Phase 4)
+    "httpx>=0.27",           # Async HTTP client for SEC APIs
+    "beautifulsoup4>=4.12",  # HTML parsing
+    "lxml>=5.0",             # XML parsing
+
+    # Document processing (Phase 4)
+    "pypdf>=4.0",            # PDF text extraction
+    "unstructured>=0.12",    # Document parsing (tables, etc.)
+
+    # Knowledge base (Phase 4)
+    "chromadb>=0.4",         # Vector database
+    "sentence-transformers>=2.5",  # Embeddings
 ]
 
 [project.optional-dependencies]
@@ -466,6 +606,15 @@ dev = [
     "pytest-cov",
     "ruff",
     "mypy",
+]
+
+# Minimal install without Phase 4 dependencies
+core = [
+    "deepeval>=3.2.0",
+    "pydantic>=2.0",
+    "pytest>=8.0",
+    "rich>=13.0",
+    "typer>=0.12",
 ]
 ```
 
@@ -478,11 +627,15 @@ dev = [
 | Phase 1 | Foundation Setup | None |
 | Phase 2 | Core Metrics | Phase 1 |
 | Phase 3 | Dataset Infrastructure | Phase 1 |
-| Phase 4 | Synthetic Generation | Phase 3, source documents |
-| Phase 5 | Benchmark Runner | Phases 2, 3 |
-| Phase 6 | Testing & CI/CD | Phases 2-5 |
+| Phase 4 | Document Collection & Knowledge Base | Phase 1 |
+| Phase 5 | Synthetic Generation | Phases 3, 4 |
+| Phase 6 | Benchmark Runner | Phases 2, 3 |
+| Phase 7 | Testing & CI/CD | Phases 2-6 |
 
-Phases 2 and 3 can be developed in parallel after Phase 1.
+**Parallelization opportunities**:
+- Phases 2, 3, and 4 can be developed in parallel after Phase 1
+- Phase 4 is the most complex and may take longest
+- Phase 6 can begin once Phases 2 and 3 are complete (doesn't need Phase 4/5)
 
 ---
 
