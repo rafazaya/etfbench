@@ -50,14 +50,14 @@ Create project structure and dependencies.
 Build ETF-specific evaluation metrics using DeepEval's GEval.
 
 **Tasks**:
-- [ ] `AnswerCorrectness` metric (verify answer against expected + evidence source)
-- [ ] `RegulatoryAccuracy` metric (validates regulatory concepts are current/correct)
-- [ ] `QuantitativeAccuracy` metric (tolerance-based numerical scoring)
-- [ ] Unit tests for each metric
+- [x] `AnswerCorrectness` metric (verify answer against expected + evidence source)
+- [x] `RegulatoryAccuracy` metric (validates regulatory concepts are current/correct)
+- [x] `QuantitativeAccuracy` metric (tolerance-based numerical scoring)
+- [x] Unit tests for each metric
 
 Note: Models are NOT scored on whether they cite sources. Citations exist in the golden (test case) for benchmark transparency - evaluation reports reference the source when marking answers correct/incorrect.
 
-**Deliverable**: Three working custom metrics
+**Deliverable**: Three working custom metrics (18 tests passing)
 
 ---
 
