@@ -1,0 +1,20 @@
+[
+  {
+    "id": "issuers_001_who_are_the_top_3_largest_issuers_of_etf",
+    "input": "Who are the top 3 largest issuers of ETFs",
+    "expected_output": "",
+    "evidence_source": null,
+    "category": "issuers",
+    "difficulty": "intermediate",
+    "source_documents": []
+  },
+  {
+    "id": "issuers_002_in_five_words_or_less_what_types_of_stra",
+    "input": "In five words or less, what types of strategies do WisdomTree ETFs invest in.",
+    "expected_output": "",
+    "evidence_source": null,
+    "category": "issuers",
+    "difficulty": "intermediate",
+    "source_documents": []
+  }
+]

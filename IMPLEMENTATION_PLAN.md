@@ -66,10 +66,10 @@ Note: Models are NOT scored on whether they cite sources. Citations exist in the
 Convert curated questions and enable data loading.
 
 **Tasks**:
-- [ ] Define `ETFGolden` Pydantic schema
-- [ ] Create `scripts/convert_questions.py`
-- [ ] Implement `datasets/loader.py` (load by category, load all)
-- [ ] Convert existing questions to JSON goldens
+- [x] Define `ETFGolden` Pydantic schema
+- [x] Create `scripts/convert_questions.py`
+- [x] Implement `datasets/loader.py` (load by category, load all)
+- [x] Convert existing questions to JSON goldens
 
 **Schema**:
 ```python
@@ -101,7 +101,7 @@ Build infrastructure for SEC documents. Detailed design deferred to execution.
 **Storage**: Three-tier (raw → processed text → index/VDB)
 
 **Tasks**:
-- [ ] SEC EDGAR collector (`collectors/edgar.py`)
+- [x] SEC EDGAR collector (`collectors/edgar.py`)
 - [ ] Comment letter scraper (`collectors/comments.py`)
 - [ ] Document parser (HTML/XML/PDF)
 - [ ] Table text extractor (skip purely numerical tables)

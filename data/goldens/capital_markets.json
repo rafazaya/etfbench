@@ -1,0 +1,38 @@
+[
+  {
+    "id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+    "input": "What are significant drivers of the ETF bid-ask spread",
+    "expected_output": "",
+    "evidence_source": null,
+    "category": "capital_markets",
+    "difficulty": "intermediate",
+    "source_documents": []
+  },
+  {
+    "id": "capital_markets_002_who_are_the_5_largest_etf_lead_market_ma",
+    "input": "Who are the 5 largest ETF lead market makers",
+    "expected_output": "",
+    "evidence_source": null,
+    "category": "capital_markets",
+    "difficulty": "intermediate",
+    "source_documents": []
+  },
+  {
+    "id": "capital_markets_003_etfs_for_which_asset_class_most_often_us",
+    "input": "ETFs for which asset class most often use negotiated baskets",
+    "expected_output": "",
+    "evidence_source": null,
+    "category": "capital_markets",
+    "difficulty": "intermediate",
+    "source_documents": []
+  },
+  {
+    "id": "capital_markets_004_how_do_clients_at_fidelity_trade_etfs",
+    "input": "How do clients at Fidelity trade ETFs",
+    "expected_output": "",
+    "evidence_source": null,
+    "category": "capital_markets",
+    "difficulty": "intermediate",
+    "source_documents": []
+  }
+]
