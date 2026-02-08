@@ -6,24 +6,56 @@ Benchmark for evaluating AI models on ETF industry knowledge using DeepEval.
 
 ---
 
+## Current Status
+
+**Last updated**: 2026-02-08
+
+**Phase**: Planning complete, ready to begin Phase 1 implementation
+
+**What's done**:
+- Reviewed and finalized 7-phase implementation plan
+- Defined single metric approach (AnswerCorrectness)
+- Established config-driven benchmark runner design
+- Identified global knowledge sources (US + EU regulatory, industry associations)
+
+**What's next**: Phase 1 - Foundation Setup
+
+### Continuation Prompt
+
+Use this prompt to resume work in a new session:
+
+```
+I'm continuing work on ETFBench, an AI benchmark for ETF industry knowledge.
+
+Please read IMPLEMENTATION_PLAN.md to understand the current state. We completed
+planning and are ready to start Phase 1 (Foundation Setup).
+
+Key decisions already made:
+- Single metric: AnswerCorrectness (not citation/regulatory metrics)
+- Difficulty: integer 0-9, calibrated by actual model performance
+- Config-driven benchmark runs (YAML files specify models + questions)
+- Start small: ~50 synthetic + 12 curated questions initially
+- Global scope: US + EU regulatory sources
+
+Please confirm you've read the plan and let's begin Phase 1 implementation.
+```
+
+---
+
 ## Directory Structure
 
 ```
 etfbench/
 ├── data/
 │   ├── documents/
-│   │   ├── raw/                    # Original files (EDGAR, comment letters)
-│   │   ├── processed/              # Plain text + chunks
-│   │   └── index/                  # Metadata + VDB
+│   │   └── raw/                    # Source files (regulatory, educational, etc.)
 │   └── goldens/                    # Test cases by category (JSON)
 ├── src/etfbench/
-│   ├── collectors/                 # SEC document collection
-│   ├── processors/                 # Parsing, chunking, indexing
-│   ├── knowledge/                  # Vector store, knowledge graph
-│   ├── metrics/                    # Citation, regulatory, quantitative
+│   ├── metrics/                    # AnswerCorrectness metric
 │   ├── datasets/                   # Golden loaders
 │   └── runners/                    # Benchmark execution
 ├── scripts/                        # CLI tools
+├── configs/                        # Benchmark run configurations (YAML)
 └── tests/
 ```
 
@@ -36,10 +68,10 @@ etfbench/
 Create project structure and dependencies using `uv`.
 
 **Tasks**:
-- [x] Create directory structure
-- [x] Initialize with `uv init` and `uv add deepeval pydantic pytest rich typer`
-- [x] Create `src/etfbench/__init__.py`
-- [x] Create `.gitignore`
+- [ ] Create directory structure
+- [ ] Initialize with `uv init` and `uv add deepeval pydantic pytest rich typer pyyaml`
+- [ ] Create `src/etfbench/__init__.py`
+- [ ] Create `.gitignore`
 
 **Deliverable**: `uv sync && uv run pytest` works
 
@@ -225,7 +257,7 @@ Config: weekly.yaml
 ### Phase 7: Testing & CI/CD
 
 **Tasks**:
-- [ ] Unit tests for metrics
+- [ ] Unit tests for AnswerCorrectness metric
 - [ ] Integration tests with sample data
 - [ ] GitHub Actions: tests on PR
 
@@ -274,7 +306,7 @@ Initial targets (will grow over time):
 | Asset Classes | 0 | 5-10 |
 | Mutual Fund Contrast | 0 | 5-10 |
 | Regulatory | 0 | 5-10 |
-| Conversions | 0 | 30 |
+| Conversions | 0 | 5-10 |
 
 ---
 
@@ -284,7 +316,7 @@ Using `uv` for package management:
 
 ```bash
 uv init
-uv add deepeval pydantic pytest rich typer
+uv add deepeval pydantic pytest rich typer pyyaml
 uv add --dev pytest-cov ruff mypy
 ```
 
@@ -296,12 +328,7 @@ dependencies = [
     "pytest>=8.0",
     "rich>=13.0",
     "typer>=0.12",
-    # Phase 4
-    "httpx>=0.27",
-    "beautifulsoup4>=4.12",
-    "pypdf>=4.0",
-    "chromadb>=0.4",
-    "sentence-transformers>=2.5",
+    "pyyaml>=6.0",        # Config file parsing
 ]
 
 [project.optional-dependencies]
