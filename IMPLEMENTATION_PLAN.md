@@ -146,15 +146,44 @@ Generate Q&A from collected documents using DeepEval Synthesizer.
 
 ### Phase 6: Benchmark Runner
 
-Unified evaluation execution.
+Run evaluations and produce results.
+
+**Design decisions**:
+- Support 3 models from the start (avoids single-to-multi migration bugs)
+- Markdown output only (keep it simple)
+- Report: aggregate score per model + per-question breakdown
+- Data aggregation/visualization will evolve as we iterate
 
 **Tasks**:
-- [ ] `runners/benchmark.py` with category aggregation
-- [ ] `scripts/run_benchmark.py` CLI (--model, --categories, --metrics)
-- [ ] Multi-model comparison mode
-- [ ] Markdown/HTML report generation
+- [ ] `runners/benchmark.py` - core evaluation engine
+- [ ] `scripts/run_benchmark.py` CLI (--models, --categories)
+- [ ] Markdown report generation
 
-**Deliverable**: Working benchmark CLI with reports
+**Example usage**:
+```bash
+uv run python scripts/run_benchmark.py --models gpt-4,claude-3,gemini-pro
+```
+
+**Report output**:
+```markdown
+# ETFBench Results - 2026-02-08
+
+## Aggregate Scores
+| Model | Score |
+|-------|-------|
+| gpt-4 | 0.82 |
+| claude-3 | 0.79 |
+| gemini-pro | 0.75 |
+
+## Per-Question Results
+| Question ID | gpt-4 | claude-3 | gemini-pro |
+|-------------|-------|----------|------------|
+| cm-001 | ✓ | ✓ | ✗ |
+| cr-001 | ✓ | ✗ | ✓ |
+...
+```
+
+**Deliverable**: Working CLI that evaluates 3 models and outputs markdown report
 
 ---
 
