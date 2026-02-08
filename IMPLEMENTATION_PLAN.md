@@ -33,11 +33,11 @@ etfbench/
 
 ### Phase 1: Foundation Setup
 
-Create project structure and dependencies.
+Create project structure and dependencies using `uv`.
 
 **Tasks**:
 - [x] Create directory structure
-- [x] Initialize `pyproject.toml` (deepeval, pydantic, pytest, rich, typer)
+- [x] Initialize with `uv init` and `uv add deepeval pydantic pytest rich typer`
 - [x] Create `src/etfbench/__init__.py`
 - [x] Create `.gitignore`
 
@@ -155,6 +155,48 @@ Unified evaluation execution.
 - [ ] Integration tests with sample data
 - [ ] GitHub Actions: tests on PR, weekly benchmarks
 
+**GitHub Actions Workflow**:
+```yaml
+name: ETFBench CI
+
+on:
+  push:
+    branches: [main]
+    paths: ['src/**', 'tests/**', 'data/goldens/**']
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+      - name: Install dependencies
+        run: uv sync --all-extras
+      - name: Run tests
+        run: uv run pytest tests/ -v
+
+  benchmark:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+      - name: Install dependencies
+        run: uv sync
+      - name: Run benchmark
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: uv run python scripts/run_benchmark.py --output results/
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: benchmark-results-${{ github.sha }}
+          path: results/
+```
+
 **Deliverable**: CI/CD pipeline, >80% coverage
 
 ---
@@ -176,6 +218,14 @@ Unified evaluation execution.
 
 ## Dependencies
 
+Using `uv` for package management:
+
+```bash
+uv init
+uv add deepeval pydantic pytest rich typer
+uv add --dev pytest-cov ruff mypy
+```
+
 ```toml
 [project]
 dependencies = [
@@ -193,7 +243,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest-cov", "ruff", "ty"]
+dev = ["pytest-cov", "ruff", "mypy"]
 ```
 
 ---
