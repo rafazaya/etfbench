@@ -47,17 +47,15 @@ Create project structure and dependencies using `uv`.
 
 ### Phase 2: Core Metrics
 
-Build ETF-specific evaluation metrics using DeepEval's GEval.
+Build evaluation metric using DeepEval's GEval.
 
 **Tasks**:
-- [x] `AnswerCorrectness` metric (verify answer against expected + evidence source)
-- [x] `RegulatoryAccuracy` metric (validates regulatory concepts are current/correct)
-- [x] `QuantitativeAccuracy` metric (tolerance-based numerical scoring)
-- [x] Unit tests for each metric
+- [ ] `AnswerCorrectness` metric (verify answer against expected output)
+- [ ] Unit tests for metric
 
-Note: Models are NOT scored on whether they cite sources. Citations exist in the golden (test case) for benchmark transparency - evaluation reports reference the source when marking answers correct/incorrect.
+**Goal**: Evaluate whether the LLM has correct ETF industry expert knowledge. We're measuring factual correctness, not citation behavior or regulatory formatting.
 
-**Deliverable**: Three working custom metrics (18 tests passing)
+**Deliverable**: One working metric with tests
 
 ---
 
