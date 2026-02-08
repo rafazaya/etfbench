@@ -149,24 +149,59 @@ Generate Q&A from collected documents using DeepEval Synthesizer.
 Run evaluations and produce results.
 
 **Design decisions**:
-- Support 3 models from the start (avoids single-to-multi migration bugs)
+- Config-driven: each run consumes a configuration file
+- Support multiple models from the start (avoids single-to-multi migration bugs)
 - Markdown output only (keep it simple)
 - Report: aggregate score per model + per-question breakdown
 - Data aggregation/visualization will evolve as we iterate
 
+**Config-driven approach rationale**: Different runs serve different purposes. A config file specifies exactly what to evaluate, enabling flexibility without code changes.
+
+**Example configs**:
+```yaml
+# configs/weekly.yaml - standard weekly benchmark
+name: "Weekly Benchmark"
+models:
+  - gpt-4
+  - claude-3
+  - gemini-pro
+questions:
+  categories: all  # or list specific categories
+
+# configs/new-model-test.yaml - testing a newly released model
+name: "Llama 4 Evaluation"
+models:
+  - llama-4
+  - gpt-4  # baseline comparison
+questions:
+  categories: all
+
+# configs/new-questions-test.yaml - validating new questions before adding to main set
+name: "New Questions Validation"
+models:
+  - gpt-4
+  - claude-3
+  - gemini-pro
+questions:
+  include: ["data/goldens/candidate/*.json"]  # test new questions
+```
+
 **Tasks**:
 - [ ] `runners/benchmark.py` - core evaluation engine
-- [ ] `scripts/run_benchmark.py` CLI (--models, --categories)
+- [ ] `scripts/run_benchmark.py` CLI that consumes config file
+- [ ] Config schema (YAML)
 - [ ] Markdown report generation
 
 **Example usage**:
 ```bash
-uv run python scripts/run_benchmark.py --models gpt-4,claude-3,gemini-pro
+uv run python scripts/run_benchmark.py --config configs/weekly.yaml
+uv run python scripts/run_benchmark.py --config configs/new-model-test.yaml
 ```
 
 **Report output**:
 ```markdown
 # ETFBench Results - 2026-02-08
+Config: weekly.yaml
 
 ## Aggregate Scores
 | Model | Score |
@@ -183,7 +218,7 @@ uv run python scripts/run_benchmark.py --models gpt-4,claude-3,gemini-pro
 ...
 ```
 
-**Deliverable**: Working CLI that evaluates 3 models and outputs markdown report
+**Deliverable**: Config-driven CLI that evaluates models and outputs markdown report
 
 ---
 
@@ -192,7 +227,12 @@ uv run python scripts/run_benchmark.py --models gpt-4,claude-3,gemini-pro
 **Tasks**:
 - [ ] Unit tests for metrics
 - [ ] Integration tests with sample data
-- [ ] GitHub Actions: tests on PR, weekly benchmarks
+- [ ] GitHub Actions: tests on PR
+
+**Design decisions**:
+- Benchmarks run ad-hoc (manually triggered), not on a schedule
+- CI runs tests only, not benchmarks (avoids API costs on every PR)
+- Benchmarks can be triggered manually via config file when needed
 
 **GitHub Actions Workflow**:
 ```yaml
@@ -215,28 +255,9 @@ jobs:
         run: uv sync --all-extras
       - name: Run tests
         run: uv run pytest tests/ -v
-
-  benchmark:
-    runs-on: ubuntu-latest
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    needs: test
-    steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v4
-      - name: Install dependencies
-        run: uv sync
-      - name: Run benchmark
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: uv run python scripts/run_benchmark.py --output results/
-      - name: Upload results
-        uses: actions/upload-artifact@v4
-        with:
-          name: benchmark-results-${{ github.sha }}
-          path: results/
 ```
 
-**Deliverable**: CI/CD pipeline, >80% coverage
+**Deliverable**: CI pipeline for tests
 
 ---
 
