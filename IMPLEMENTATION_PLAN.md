@@ -125,15 +125,22 @@ Curate industry knowledge sources that inform expert-level question creation.
 
 Generate Q&A from collected documents using DeepEval Synthesizer.
 
+**Philosophy**: Start small, validate process, iterate over months. Initial goal is a working benchmark with enough questions to evaluate a few models, not comprehensive coverage.
+
 **Tasks**:
-- [ ] Configure ETF-specific evolution mix (reasoning, comparative, multi-context)
+- [ ] Configure ETF-specific evolution mix
 - [ ] Create `scripts/generate_synthetic.py`
-- [ ] Generate 50-100 questions per category
-- [ ] Quality filtering + manual review
+- [ ] Generate initial batch (~50 questions)
+- [ ] Manual review of each question (process will evolve as database grows)
 
-**Target**: ~300 total questions (12 curated + ~288 synthetic)
+**Evolution examples**:
+- Same concept across asset classes (US equity ETF vs fixed income with derivatives)
+- Reasoning variants ("Why does X happen?")
+- Comparative variants ("How does X differ from Y?")
 
-**Deliverable**: Synthetic dataset with quality filtering
+**Initial target**: ~50 synthetic questions + 12 curated = ~62 total
+
+**Deliverable**: Small, high-quality synthetic dataset ready for initial model evaluation
 
 ---
 
@@ -206,15 +213,17 @@ jobs:
 
 ## Question Categories
 
-| Category | Curated | Synthetic Target |
-|----------|---------|------------------|
-| Capital Markets | 4 | 30 |
-| Creation-Redemption | 6 | 40 |
-| Issuers (Large/Small) | 2 | 40 |
-| Distribution/Platforms | 0 | 30 |
-| Asset Classes | 0 | 40 |
-| Mutual Fund Contrast | 0 | 30 |
-| Regulatory | 0 | 40 |
+Initial targets (will grow over time):
+
+| Category | Curated | Initial Synthetic |
+|----------|---------|-------------------|
+| Capital Markets | 4 | 5-10 |
+| Creation-Redemption | 6 | 5-10 |
+| Issuers (Large/Small) | 2 | 5-10 |
+| Distribution/Platforms | 0 | 5-10 |
+| Asset Classes | 0 | 5-10 |
+| Mutual Fund Contrast | 0 | 5-10 |
+| Regulatory | 0 | 5-10 |
 | Conversions | 0 | 30 |
 
 ---
