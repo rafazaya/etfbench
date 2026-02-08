@@ -64,10 +64,10 @@ Build evaluation metric using DeepEval's GEval.
 Convert curated questions and enable data loading.
 
 **Tasks**:
-- [x] Define `ETFGolden` Pydantic schema
-- [x] Create `scripts/convert_questions.py`
-- [x] Implement `datasets/loader.py` (load by category, load all)
-- [x] Convert existing questions to JSON goldens
+- [ ] Define `ETFGolden` Pydantic schema
+- [ ] Create `scripts/convert_questions.py`
+- [ ] Implement `datasets/loader.py` (load by category, load all)
+- [ ] Convert existing questions to JSON goldens
 
 **Schema**:
 ```python
@@ -77,9 +77,13 @@ class ETFGolden(BaseModel):
     expected_output: str             # Ideal answer
     evidence_source: str | None      # Where the answer comes from (for reports)
     category: str                    # capital_markets, regulatory, etc.
-    difficulty: str                  # basic, intermediate, expert
+    difficulty: int                  # 0-9 scale, calibrated by model performance
     source_documents: list[str]      # Document files containing the answer
 ```
+
+**Difficulty scoring rationale**: Use integer 0-9 rather than labels like "basic/intermediate/expert". After running benchmarks, we can use actual LLM correctness percentages to calibrate difficulty values. This lets us see the distribution of results and fine-tune the questionnaire based on data, not guesses.
+
+**Categories**: Expected to evolve as the benchmark matures. Current set is a starting point.
 
 **Deliverable**: Working loader returning DeepEval test cases
 
