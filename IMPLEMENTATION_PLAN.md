@@ -89,34 +89,35 @@ class ETFGolden(BaseModel):
 
 ---
 
-### Phase 4: Document Collection & Knowledge Base
+### Phase 4: Knowledge Base for Question Generation
 
-Build infrastructure for SEC documents. Detailed design deferred to execution.
+Curate industry knowledge sources that inform expert-level question creation.
 
-**Document Sources**:
-| Source | Priority |
-|--------|----------|
-| SEC EDGAR (N-1A, N-CEN, prospectuses) | High |
-| SEC Comment Letters (staff + issuer responses) | High |
-| Regulatory Documents (Rule 6c-11, no-action letters) | High |
+**Goal**: Build a document repository that supports synthetic question generation and validates that questions reflect real industry expertise. NOT building a RAG system for querying LLMs about filings.
 
-**Storage**: Three-tier (raw → processed text → index/VDB)
+**Source Categories**:
+
+| Source Type | Examples | Region |
+|-------------|----------|--------|
+| **Regulatory - US** | SEC Rule 6c-11, no-action letters, exemptive orders | US |
+| **Regulatory - EU** | UCITS directives, Central Bank of Ireland filings, CSSF (Luxembourg) | EU |
+| **Industry Associations** | ICI research, ETFGI, European ETF associations | Global |
+| **Trade Publications** | ETF.com, ETFStream, IndexUniverse | US/EU |
+| **Issuer Educational** | BlackRock/Vanguard/State Street/Amundi ETF education | Global |
+| **Academic** | Papers on ETF mechanics, market microstructure | Global |
+| **Reference Filings** | N-1A, N-CEN (US), KIID/KID (EU) - for context, not LLM querying | US/EU |
 
 **Tasks**:
-- [x] SEC EDGAR collector (`collectors/edgar.py`)
-- [ ] Comment letter scraper (`collectors/comments.py`)
-- [ ] Document parser (HTML/XML/PDF)
-- [ ] Table text extractor (skip purely numerical tables)
-- [ ] Text chunker with metadata
-- [ ] Vector store interface (ChromaDB initially)
-- [ ] Metadata indexer
+- [ ] Document collector(s) for priority sources
+- [ ] Simple storage (raw files + metadata index)
+- [ ] Source catalog tracking what we have
 
-**Open questions** (resolve at execution):
-- Automation: cron vs event-driven vs manual?
-- VDB: ChromaDB vs Qdrant vs Weaviate?
-- Knowledge graph: worth complexity?
+**What we're NOT building** (yet):
+- Vector database / embeddings
+- RAG retrieval system
+- Knowledge graph
 
-**Deliverable**: CLI-triggered document pipeline, VDB with chunks
+**Deliverable**: Organized document repository with metadata, ready for synthetic generation
 
 ---
 
