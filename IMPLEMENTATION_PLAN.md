@@ -6,24 +6,56 @@ Benchmark for evaluating AI models on ETF industry knowledge using DeepEval.
 
 ---
 
+## Current Status
+
+**Last updated**: 2026-02-08
+
+**Phase**: Planning complete, ready to begin Phase 1 implementation
+
+**What's done**:
+- Reviewed and finalized 7-phase implementation plan
+- Defined single metric approach (AnswerCorrectness)
+- Established config-driven benchmark runner design
+- Identified global knowledge sources (US + EU regulatory, industry associations)
+
+**What's next**: Phase 1 - Foundation Setup
+
+### Continuation Prompt
+
+Use this prompt to resume work in a new session:
+
+```
+I'm continuing work on ETFBench, an AI benchmark for ETF industry knowledge.
+
+Please read IMPLEMENTATION_PLAN.md to understand the current state. We completed
+planning and are ready to start Phase 1 (Foundation Setup).
+
+Key decisions already made:
+- Single metric: AnswerCorrectness (not citation/regulatory metrics)
+- Difficulty: integer 0-9, calibrated by actual model performance
+- Config-driven benchmark runs (YAML files specify models + questions)
+- Start small: ~50 synthetic + 12 curated questions initially
+- Global scope: US + EU regulatory sources
+
+Please confirm you've read the plan and let's begin Phase 1 implementation.
+```
+
+---
+
 ## Directory Structure
 
 ```
 etfbench/
 ├── data/
 │   ├── documents/
-│   │   ├── raw/                    # Original files (EDGAR, comment letters)
-│   │   ├── processed/              # Plain text + chunks
-│   │   └── index/                  # Metadata + VDB
+│   │   └── raw/                    # Source files (regulatory, educational, etc.)
 │   └── goldens/                    # Test cases by category (JSON)
 ├── src/etfbench/
-│   ├── collectors/                 # SEC document collection
-│   ├── processors/                 # Parsing, chunking, indexing
-│   ├── knowledge/                  # Vector store, knowledge graph
-│   ├── metrics/                    # Citation, regulatory, quantitative
+│   ├── metrics/                    # AnswerCorrectness metric
 │   ├── datasets/                   # Golden loaders
 │   └── runners/                    # Benchmark execution
 ├── scripts/                        # CLI tools
+├── configs/                        # Benchmark run configurations (YAML)
 └── tests/
 ```
 
@@ -33,31 +65,29 @@ etfbench/
 
 ### Phase 1: Foundation Setup
 
-Create project structure and dependencies.
+Create project structure and dependencies using `uv`.
 
 **Tasks**:
 - [ ] Create directory structure
-- [ ] Initialize `pyproject.toml` (deepeval, pydantic, pytest, rich, typer)
+- [ ] Initialize with `uv init` and `uv add deepeval pydantic pytest rich typer pyyaml`
 - [ ] Create `src/etfbench/__init__.py`
 - [ ] Create `.gitignore`
 
-**Deliverable**: `pip install -e .` works
+**Deliverable**: `uv sync && uv run pytest` works
 
 ---
 
 ### Phase 2: Core Metrics
 
-Build ETF-specific evaluation metrics using DeepEval's GEval.
+Build evaluation metric using DeepEval's GEval.
 
 **Tasks**:
-- [ ] `AnswerCorrectness` metric (verify answer against expected + evidence source)
-- [ ] `RegulatoryAccuracy` metric (validates regulatory concepts are current/correct)
-- [ ] `QuantitativeAccuracy` metric (tolerance-based numerical scoring)
-- [ ] Unit tests for each metric
+- [ ] `AnswerCorrectness` metric (verify answer against expected output)
+- [ ] Unit tests for metric
 
-Note: Models are NOT scored on whether they cite sources. Citations exist in the golden (test case) for benchmark transparency - evaluation reports reference the source when marking answers correct/incorrect.
+**Goal**: Evaluate whether the LLM has correct ETF industry expert knowledge. We're measuring factual correctness, not citation behavior or regulatory formatting.
 
-**Deliverable**: Three working custom metrics
+**Deliverable**: One working metric with tests
 
 ---
 
@@ -79,42 +109,47 @@ class ETFGolden(BaseModel):
     expected_output: str             # Ideal answer
     evidence_source: str | None      # Where the answer comes from (for reports)
     category: str                    # capital_markets, regulatory, etc.
-    difficulty: str                  # basic, intermediate, expert
+    difficulty: int                  # 0-9 scale, calibrated by model performance
     source_documents: list[str]      # Document files containing the answer
 ```
+
+**Difficulty scoring rationale**: Use integer 0-9 rather than labels like "basic/intermediate/expert". After running benchmarks, we can use actual LLM correctness percentages to calibrate difficulty values. This lets us see the distribution of results and fine-tune the questionnaire based on data, not guesses.
+
+**Categories**: Expected to evolve as the benchmark matures. Current set is a starting point.
 
 **Deliverable**: Working loader returning DeepEval test cases
 
 ---
 
-### Phase 4: Document Collection & Knowledge Base
+### Phase 4: Knowledge Base for Question Generation
 
-Build infrastructure for SEC documents. Detailed design deferred to execution.
+Curate industry knowledge sources that inform expert-level question creation.
 
-**Document Sources**:
-| Source | Priority |
-|--------|----------|
-| SEC EDGAR (N-1A, N-CEN, prospectuses) | High |
-| SEC Comment Letters (staff + issuer responses) | High |
-| Regulatory Documents (Rule 6c-11, no-action letters) | High |
+**Goal**: Build a document repository that supports synthetic question generation and validates that questions reflect real industry expertise. NOT building a RAG system for querying LLMs about filings.
 
-**Storage**: Three-tier (raw → processed text → index/VDB)
+**Source Categories**:
+
+| Source Type | Examples | Region |
+|-------------|----------|--------|
+| **Regulatory - US** | SEC Rule 6c-11, no-action letters, exemptive orders | US |
+| **Regulatory - EU** | UCITS directives, Central Bank of Ireland filings, CSSF (Luxembourg) | EU |
+| **Industry Associations** | ICI research, ETFGI, European ETF associations | Global |
+| **Trade Publications** | ETF.com, ETFStream, IndexUniverse | US/EU |
+| **Issuer Educational** | BlackRock/Vanguard/State Street/Amundi ETF education | Global |
+| **Academic** | Papers on ETF mechanics, market microstructure | Global |
+| **Reference Filings** | N-1A, N-CEN (US), KIID/KID (EU) - for context, not LLM querying | US/EU |
 
 **Tasks**:
-- [ ] SEC EDGAR collector (`collectors/edgar.py`)
-- [ ] Comment letter scraper (`collectors/comments.py`)
-- [ ] Document parser (HTML/XML/PDF)
-- [ ] Table text extractor (skip purely numerical tables)
-- [ ] Text chunker with metadata
-- [ ] Vector store interface (ChromaDB initially)
-- [ ] Metadata indexer
+- [ ] Document collector(s) for priority sources
+- [ ] Simple storage (raw files + metadata index)
+- [ ] Source catalog tracking what we have
 
-**Open questions** (resolve at execution):
-- Automation: cron vs event-driven vs manual?
-- VDB: ChromaDB vs Qdrant vs Weaviate?
-- Knowledge graph: worth complexity?
+**What we're NOT building** (yet):
+- Vector database / embeddings
+- RAG retrieval system
+- Knowledge graph
 
-**Deliverable**: CLI-triggered document pipeline, VDB with chunks
+**Deliverable**: Organized document repository with metadata, ready for synthetic generation
 
 ---
 
@@ -122,59 +157,168 @@ Build infrastructure for SEC documents. Detailed design deferred to execution.
 
 Generate Q&A from collected documents using DeepEval Synthesizer.
 
+**Philosophy**: Start small, validate process, iterate over months. Initial goal is a working benchmark with enough questions to evaluate a few models, not comprehensive coverage.
+
 **Tasks**:
-- [ ] Configure ETF-specific evolution mix (reasoning, comparative, multi-context)
+- [ ] Configure ETF-specific evolution mix
 - [ ] Create `scripts/generate_synthetic.py`
-- [ ] Generate 50-100 questions per category
-- [ ] Quality filtering + manual review
+- [ ] Generate initial batch (~50 questions)
+- [ ] Manual review of each question (process will evolve as database grows)
 
-**Target**: ~300 total questions (12 curated + ~288 synthetic)
+**Evolution examples**:
+- Same concept across asset classes (US equity ETF vs fixed income with derivatives)
+- Reasoning variants ("Why does X happen?")
+- Comparative variants ("How does X differ from Y?")
 
-**Deliverable**: Synthetic dataset with quality filtering
+**Initial target**: ~50 synthetic questions + 12 curated = ~62 total
+
+**Deliverable**: Small, high-quality synthetic dataset ready for initial model evaluation
 
 ---
 
 ### Phase 6: Benchmark Runner
 
-Unified evaluation execution.
+Run evaluations and produce results.
+
+**Design decisions**:
+- Config-driven: each run consumes a configuration file
+- Support multiple models from the start (avoids single-to-multi migration bugs)
+- Markdown output only (keep it simple)
+- Report: aggregate score per model + per-question breakdown
+- Data aggregation/visualization will evolve as we iterate
+
+**Config-driven approach rationale**: Different runs serve different purposes. A config file specifies exactly what to evaluate, enabling flexibility without code changes.
+
+**Example configs**:
+```yaml
+# configs/weekly.yaml - standard weekly benchmark
+name: "Weekly Benchmark"
+models:
+  - gpt-4
+  - claude-3
+  - gemini-pro
+questions:
+  categories: all  # or list specific categories
+
+# configs/new-model-test.yaml - testing a newly released model
+name: "Llama 4 Evaluation"
+models:
+  - llama-4
+  - gpt-4  # baseline comparison
+questions:
+  categories: all
+
+# configs/new-questions-test.yaml - validating new questions before adding to main set
+name: "New Questions Validation"
+models:
+  - gpt-4
+  - claude-3
+  - gemini-pro
+questions:
+  include: ["data/goldens/candidate/*.json"]  # test new questions
+```
 
 **Tasks**:
-- [ ] `runners/benchmark.py` with category aggregation
-- [ ] `scripts/run_benchmark.py` CLI (--model, --categories, --metrics)
-- [ ] Multi-model comparison mode
-- [ ] Markdown/HTML report generation
+- [ ] `runners/benchmark.py` - core evaluation engine
+- [ ] `scripts/run_benchmark.py` CLI that consumes config file
+- [ ] Config schema (YAML)
+- [ ] Markdown report generation
 
-**Deliverable**: Working benchmark CLI with reports
+**Example usage**:
+```bash
+uv run python scripts/run_benchmark.py --config configs/weekly.yaml
+uv run python scripts/run_benchmark.py --config configs/new-model-test.yaml
+```
+
+**Report output**:
+```markdown
+# ETFBench Results - 2026-02-08
+Config: weekly.yaml
+
+## Aggregate Scores
+| Model | Score |
+|-------|-------|
+| gpt-4 | 0.82 |
+| claude-3 | 0.79 |
+| gemini-pro | 0.75 |
+
+## Per-Question Results
+| Question ID | gpt-4 | claude-3 | gemini-pro |
+|-------------|-------|----------|------------|
+| cm-001 | ✓ | ✓ | ✗ |
+| cr-001 | ✓ | ✗ | ✓ |
+...
+```
+
+**Deliverable**: Config-driven CLI that evaluates models and outputs markdown report
 
 ---
 
 ### Phase 7: Testing & CI/CD
 
 **Tasks**:
-- [ ] Unit tests for metrics
+- [ ] Unit tests for AnswerCorrectness metric
 - [ ] Integration tests with sample data
-- [ ] GitHub Actions: tests on PR, weekly benchmarks
+- [ ] GitHub Actions: tests on PR
 
-**Deliverable**: CI/CD pipeline, >80% coverage
+**Design decisions**:
+- Benchmarks run ad-hoc (manually triggered), not on a schedule
+- CI runs tests only, not benchmarks (avoids API costs on every PR)
+- Benchmarks can be triggered manually via config file when needed
+
+**GitHub Actions Workflow**:
+```yaml
+name: ETFBench CI
+
+on:
+  push:
+    branches: [main]
+    paths: ['src/**', 'tests/**', 'data/goldens/**']
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+      - name: Install dependencies
+        run: uv sync --all-extras
+      - name: Run tests
+        run: uv run pytest tests/ -v
+```
+
+**Deliverable**: CI pipeline for tests
 
 ---
 
 ## Question Categories
 
-| Category | Curated | Synthetic Target |
-|----------|---------|------------------|
-| Capital Markets | 4 | 30 |
-| Creation-Redemption | 6 | 40 |
-| Issuers (Large/Small) | 2 | 40 |
-| Distribution/Platforms | 0 | 30 |
-| Asset Classes | 0 | 40 |
-| Mutual Fund Contrast | 0 | 30 |
-| Regulatory | 0 | 40 |
-| Conversions | 0 | 30 |
+Initial targets (will grow over time):
+
+| Category | Curated | Initial Synthetic |
+|----------|---------|-------------------|
+| Capital Markets | 4 | 5-10 |
+| Creation-Redemption | 6 | 5-10 |
+| Issuers (Large/Small) | 2 | 5-10 |
+| Distribution/Platforms | 0 | 5-10 |
+| Asset Classes | 0 | 5-10 |
+| Mutual Fund Contrast | 0 | 5-10 |
+| Regulatory | 0 | 5-10 |
+| Conversions | 0 | 5-10 |
 
 ---
 
 ## Dependencies
+
+Using `uv` for package management:
+
+```bash
+uv init
+uv add deepeval pydantic pytest rich typer pyyaml
+uv add --dev pytest-cov ruff mypy
+```
 
 ```toml
 [project]
@@ -184,16 +328,11 @@ dependencies = [
     "pytest>=8.0",
     "rich>=13.0",
     "typer>=0.12",
-    # Phase 4
-    "httpx>=0.27",
-    "beautifulsoup4>=4.12",
-    "pypdf>=4.0",
-    "chromadb>=0.4",
-    "sentence-transformers>=2.5",
+    "pyyaml>=6.0",        # Config file parsing
 ]
 
 [project.optional-dependencies]
-dev = ["pytest-cov", "ruff", "ty"]
+dev = ["pytest-cov", "ruff", "mypy"]
 ```
 
 ---

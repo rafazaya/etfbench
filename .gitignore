@@ -12,6 +12,9 @@ build/
 .venv/
 venv/
 
+# Pytest
+.pytest_cache/
+
 # IDE
 .idea/
 .vscode/

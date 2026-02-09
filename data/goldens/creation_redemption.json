@@ -1,0 +1,56 @@
+[
+  {
+    "id": "creation_redemption_001_why_would_funds_use_the_t_1_create_redee",
+    "input": "Why would funds use the T-1 create/redeem process",
+    "expected_output": "",
+    "evidence_source": null,
+    "category": "creation_redemption",
+    "difficulty": "intermediate",
+    "source_documents": []
+  },
+  {
+    "id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+    "input": "What is a normal amount of collateral an AP would need if they cannot deliver on the full creation basket",
+    "expected_output": "",
+    "evidence_source": null,
+    "category": "creation_redemption",
+    "difficulty": "intermediate",
+    "source_documents": []
+  },
+  {
+    "id": "creation_redemption_003_what_is_typically_the_maximum_amount_of",
+    "input": "What is typically the maximum amount of variable fee that can be charged for redemptions on ETF shares",
+    "expected_output": "",
+    "evidence_source": null,
+    "category": "creation_redemption",
+    "difficulty": "intermediate",
+    "source_documents": []
+  },
+  {
+    "id": "creation_redemption_004_what_costs_do_the_creation_fee_cover",
+    "input": "What costs do the creation fee cover",
+    "expected_output": "",
+    "evidence_source": null,
+    "category": "creation_redemption",
+    "difficulty": "intermediate",
+    "source_documents": []
+  },
+  {
+    "id": "creation_redemption_005_what_would_constitute_a_non_standard_ord",
+    "input": "What would constitute a non-standard order that would require approval",
+    "expected_output": "",
+    "evidence_source": null,
+    "category": "creation_redemption",
+    "difficulty": "intermediate",
+    "source_documents": []
+  },
+  {
+    "id": "creation_redemption_006_who_are_typically_the_parties_involved_i",
+    "input": "Who are typically the parties involved in an AP agreement",
+    "expected_output": "",
+    "evidence_source": null,
+    "category": "creation_redemption",
+    "difficulty": "intermediate",
+    "source_documents": []
+  }
+]

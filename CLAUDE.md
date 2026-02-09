@@ -2,9 +2,8 @@
 
 ETFBench: AI benchmark for ETF industry knowledge using DeepEval.
 
-## Project State
+## Project Resources
 
-- **Current phase**: Pre-implementation (Phase 0)
 - **Implementation plan**: [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md)
 - **Framework research**: [ai/early-research.md](ai/early-research.md)
 
@@ -66,8 +65,8 @@ data/goldens/     # Test case JSON files
 
 ETFBench evaluates LLMs on ETF (Exchange-Traded Fund) knowledge:
 
-- **Document sources**: SEC EDGAR, comment letters, Rule 6c-11, prospectuses
-- **Key metrics**: Answer correctness, regulatory accuracy, faithfulness
+- **Document sources**: US (SEC EDGAR, Rule 6c-11), EU (UCITS, Central Bank of Ireland, CSSF), industry associations
+- **Key metric**: AnswerCorrectness (factual correctness of ETF expert knowledge)
 
 ### Citation Philosophy
 
