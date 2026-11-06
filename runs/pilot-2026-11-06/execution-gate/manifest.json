@@ -1,0 +1,26 @@
+{
+  "status": "blocked",
+  "date": "2026-11-06",
+  "haiku_gate": "reported NONE in explicit empty-stdin repeat; CLI documented --tools empty",
+  "luna_gate": "failed; callable tools reported in both probes",
+  "etf_questions_sent": 0,
+  "grades": 0,
+  "blind_regrades": 0,
+  "tool_calls_observed": 0,
+  "probe_exit_codes": {
+    "haiku": 0,
+    "luna": 0,
+    "haiku-clean-stdin": 0,
+    "luna-clean-stdin": 0
+  },
+  "stdin": {
+    "initial": "inherited; possible pipe contamination",
+    "repeat": "subprocess.DEVNULL"
+  },
+  "versions": {
+    "claude": "2.1.318",
+    "codex": "0.166.0"
+  },
+  "config_reference": "https://learn.chatgpt.com/docs/config-file/config-reference",
+  "schema_url": "https://developers.openai.com/codex/config-schema.json"
+}

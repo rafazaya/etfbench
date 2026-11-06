@@ -2,14 +2,18 @@
 
 **provisional, not goldens**
 
-Rafa changed the task on 2026-11-06 to preparation only. No ETF model answers,
-grades, scores or self-consistency results exist. Stop here for independent
-Opus and Sol review of every pair. Model execution is a separate future task.
+The preparation was independently reviewed by Opus and Sol; Rafa then authorized
+a merged provisional pilot and conditional model execution on 2026-11-06.
+[references-reviewed.json](references-reviewed.json) merges both reviews;
+[merge-log.md](merge-log.md) records all changes and qualifications.
+Execution stopped at the strict no-tools gate: Luna still reported callable
+tools. No ETF answers, grades, scores or self-consistency results exist.
+See [results.md](results.md) for the blocker and saved probe evidence.
 No golden data, converter, application code or benchmark configuration changed.
 
 ## Review artifact
 
-[references.json](references.json) is the single question/reference review file:
+[references.json](references.json) is the unchanged original preparation file:
 44 pairs (all 40 QL questions plus 4 legacy questions), and 8 explicit legacy
 exclusions. All 52 candidates are accounted for exactly once. Legacy IDs are
 the existing IDs, retained for traceability without promoting those candidates.
@@ -91,9 +95,9 @@ Before the plan change, only two CLI availability probes ran in empty temporary
 directories: Haiku reported NONE with `--tools ""` and strict empty MCP config;
 Luna still reported callable functions/collaboration tools despite disabling
 web, shell and multiple feature flags. Neither probe asked an ETF question or
-called a model tool. No ETF model run is authorized by this preparation. A
-future operator must resolve Luna's tool-exposure gate before attempting a
-strict no-tools evaluation. No packages, API-key judge or DeepEval run was used.
+called a model tool. The later authorization required stopping if either model could not run
+without tools/web. Fresh probes again failed Luna’s gate; resolve tool exposure
+before attempting the strict evaluation. No packages, API-key judge or DeepEval run was used.
 
 Validation for this preparation: JSON parse, exact 40+12 candidate coverage,
 original-question equality, unique IDs, required fields, nonempty points and
