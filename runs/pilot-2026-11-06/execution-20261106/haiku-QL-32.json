@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-32",
+  "tier": "C",
+  "answer": "**Tracking error** is the annualized standard deviation of daily (fund total return minus benchmark total return) over the agreed one-year window. **Tracking difference** is the cumulative gap over the same period. The two can diverge: low error with persistent negative difference points to fees or drag, not noise.\n\nIf error exceeds the mandate range, investigate:\n\n**Portfolio**\n- Replication method (full vs. sampling) and optimizer residuals\n- Cash drag from subscriptions, dividends, or redemptions\n- Rebalance and reconstitution timing versus index effective dates\n- Corporate-action handling (splits, spin-offs, mergers)\n- Sector or issuer constraints that force deviations\n\n**Pricing**\n- Closing-price source and timing versus index calculation\n- Stale or erroneous security prices\n- Dividend ex-date and reinvestment treatment in the benchmark versus the fund\n\n**Operating**\n- Trading costs and market impact on creations and redemptions\n- Securities lending income offsetting drag\n- Expense accruals and withholding tax reclaims\n- Settlement failures and reconciliation errors",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-u6uwrjyf",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "For a US equity index ETF, define tracking error as variability of daily fund-minus-benchmark total returns over an agreed one-year period, separately from cumulative tracking difference. If error exceeds the mandate's expected range, what portfolio, pricing and operating causes should be investigated? No numerical expected range or single cause is assumed."
+      ],
+      "stdout": "haiku-QL-32-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

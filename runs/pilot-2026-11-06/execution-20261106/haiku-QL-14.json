@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-14",
+  "tier": "C",
+  "answer": "**Start with the fund's website.** Rule 6c-11 requires ETFs to post their full portfolio holdings daily before market open, usually under a \"Holdings\" tab. These are the holdings used for that day's NAV. For lagged detail, check the fund's N-PORT filings on SEC EDGAR, and read the prospectus and SAI for basket policies.\n\n**Holdings vs. transaction basket:** Holdings show what the fund owns. The transaction basket, or PCF (Portfolio Composition File), lists the securities and cash used in creations and redemptions. It can differ through cash-in-lieu, substitutions, or custom baskets. It is distributed through NSCC to authorized participants, so don't assume it's public.\n\n**Requesting the PCF:**\n- Ask your broker, who may be an AP or can route the request through one.\n- Contact the sponsor's client services or distributor and ask whether the current basket file is available to non-APs.\n- Check whether the sponsor's site publishes a creation/redemption basket link. Some do, but not all.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-pdbb5o2r",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for a retail investor without NSCC participant access researching a US Rule 6c-11 ETF, where should the investor start for daily holdings and how might they request the actual PCF? Distinguish holdings from transaction baskets; do not assume any named fund offers a free public PCF."
+      ],
+      "stdout": "haiku-QL-14-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

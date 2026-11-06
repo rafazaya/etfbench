@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-24",
+  "tier": "C",
+  "answer": "I can't reliably answer this as stated, and I don't want to invent section citations or limits.\n\nRule 6c-11 under the Investment Company Act of 1940 (adopted 2019) lets qualifying ETFs operate without individual exemptive orders, subject to conditions. I'm not confident about how paragraph (b) is organized, what its four categories are, or the exact limits on affiliate transactions and delayed foreign-investment delivery. Those details could also have changed by November 2026, and my knowledge has a June 2026 cutoff.\n\nTo get accurate answers, check:\n- **17 CFR \u00a7 270.6c-11** on eCFR (current text and amendment history)\n- The SEC adopting release (Release No. IC-33646, September 2019)\n- Fund counsel or the SEC's Division of Investment Management staff guidance\n\nI'm happy to explain the rule's general framework or help you draft questions for counsel.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-6a7mq0jx",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, what four categories of conditional operational relief does Rule 6c-11(b) provide for US ETFs? Explain the limits on affiliate transactions and delayed foreign-investment delivery."
+      ],
+      "stdout": "haiku-QL-24-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

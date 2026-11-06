@@ -1,0 +1,18 @@
+{
+  "accepted_answers": 88,
+  "luna_transcripts": 47,
+  "discarded_luna_attempts": 3,
+  "voids": 0,
+  "ids_and_tiers": "pass",
+  "transcript_answer_and_tool_audit": "pass",
+  "reference_bytes_unchanged": "pass",
+  "goldens_diff": "empty",
+  "grade_hash": "pass",
+  "test_command": "python -m unittest discover -s runs/pilot-2026-11-06 -p 'test_*.py'",
+  "tests": "4 methods passed including two retry subcases",
+  "ruff": "passed after import ordering and formatting",
+  "cli_versions": {
+    "codex": "codex-cli 0.166.0",
+    "claude": "2.1.318 (Claude Code)"
+  }
+}

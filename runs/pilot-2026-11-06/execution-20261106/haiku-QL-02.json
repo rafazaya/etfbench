@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-02",
+  "tier": "C",
+  "answer": "When a '40 Act ETF liquidates, the board typically approves a plan, halts creations and redemptions, and stops trading. Investors don't normally lose the whole investment. The fund sells its portfolio, pays expenses and liabilities, and distributes the remaining net assets pro rata, usually in cash. Each holder receives shares multiplied by the final net asset value per share. A loss arises only if that amount is below the holder's cost basis.\n\nTiming varies. Investors usually get advance notice and can sell before the last trading day. Proceeds may be paid on or shortly after the liquidation date, with a final payment possible once reserves are released.\n\nFor taxable accounts, the liquidating distribution is generally treated as a sale. Gain or loss equals proceeds minus adjusted basis, short- or long-term depending on holding period, and is reported on Form 1099-B. Earlier distributions are taxed separately, and wash-sale rules can apply to repurchases within 30 days.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-h6yrscgw",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, what normally happens to a US '40 Act ETF investor's holding when the ETF liquidates? Distinguish receiving remaining proceeds from losing the whole investment, and address amount, timing and taxable-account consequences without assuming a fund-specific timetable."
+      ],
+      "stdout": "haiku-QL-02-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

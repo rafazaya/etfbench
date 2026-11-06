@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b0f4-f944-7611-b53a-868d2ff47c33"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Cash collateral may be required for securities the AP has not yet delivered, typically as a percentage of the **market value of those undelivered securities**. It is **not a universal rate**: the percentage can vary by agreement, fund, or transaction."}}
+{"type":"turn.completed","usage":{"input_tokens":8386,"cached_input_tokens":7296,"cache_write_input_tokens":0,"output_tokens":56,"reasoning_output_tokens":0}}

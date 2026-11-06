@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-15",
+  "tier": "B",
+  "answer": "**Authorized Participants (APs)** are large institutions, usually broker-dealers, that have signed agreements with an ETF's distributor. Only APs can create or redeem **creation units**, typically blocks of 25,000 to 100,000 shares. They exchange baskets of underlying securities (or cash) for ETF shares, or the reverse. This process keeps the ETF's market price close to its net asset value (NAV) by arbitraging premiums and discounts.\n\n**Market makers** provide continuous two-sided quotes on exchanges, so investors can buy and sell throughout the day. They earn the bid-ask spread and manage inventory risk, typically hedging with futures, swaps, or the underlying stocks. Most market makers are APs, since creation and redemption helps them manage inventory, but many are not.\n\n**Key difference:** APs handle the primary-market mechanics that link ETF supply to the underlying basket. Market makers handle secondary-market liquidity for ordinary investors. In practice, one firm often does both, and the two roles work together to keep ETFs trading near NAV.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-t3x43x1d",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "How do APs and market makers differ in ETF trading?"
+      ],
+      "stdout": "haiku-QL-15-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

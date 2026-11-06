@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-26",
+  "tier": "B",
+  "answer": "Under Rule 6c-11(d), an ETF relying on the rule must keep records of its custom-basket and exchanged-basket activity. These include the identity and quantity of each security or other asset in each basket, the date and time of each creation or redemption, and the basis for any custom basket, including the policies and procedures governing those baskets and the records showing compliance with them.\n\nThe records must be kept for at least five years, with the first two in an easily accessible place. That retention period follows the general 1940 Act books-and-records framework.\n\nI'm working from memory and can't confirm the exact subparagraph numbering or wording as of November 2026. Check the current eCFR text of 17 CFR 270.6c-11 and any later SEC amendments before relying on this for compliance.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-l7ewajy2",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, what AP-agreement and exchanged-basket records must a US ETF preserve under Rule 6c-11(d), and for how long must they be retained and readily accessible?"
+      ],
+      "stdout": "haiku-QL-26-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

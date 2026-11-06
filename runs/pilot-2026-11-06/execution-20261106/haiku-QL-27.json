@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-27",
+  "tier": "B",
+  "answer": "**Rule 6c-11 (17 CFR 270.6c-11) requirements for custom baskets:**\n\n- **Written policies and procedures** governing how custom baskets are constructed and accepted. They must be reasonably designed to ensure each basket is in the fund's best interest and does not favor particular authorized participants.\n- **Custom-basket parameters**: the fund's policies should set the conditions under which a deviation from the Portfolio Composition File is acceptable, and each accepted basket must meet them.\n- **Review roles**: named persons or functions (typically adviser trading and compliance staff) approve baskets, with board oversight of the policies.\n- **Records** (under Rules 31a-1 and 31a-2): the policies, each custom basket's composition, the best-interest determination, and the approver's identity, kept for the required retention periods.\n\n**Custom basket vs. non-standard order:** A custom basket is a deviation from the published basket composition that the fund accepts under its custom-basket policies and the rule's conditions. A non-standard order, such as a cash-in-lieu or other departure handled under the fund's creation and redemption procedures, is generally outside those conditions, though the fund should still document how it treats such orders.\n\nThis reflects my understanding as of my knowledge cutoff. Check the current rule text and SEC staff FAQs before relying on it.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-l5lb25ca",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, what written basket policies, custom-basket parameters, review roles and compliance records does a US Rule 6c-11 ETF need? Distinguish a custom basket from a non-standard order."
+      ],
+      "stdout": "haiku-QL-27-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

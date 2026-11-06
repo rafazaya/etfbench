@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-18",
+  "tier": "C",
+  "answer": "**Rule 485(a) (new series of an existing trust):** The post-effective amendment generally becomes effective **75 days after filing** under Rule 485(a)(1), without a Commission order.\n\n**Why it isn't an end-to-end launch guarantee:**\n- **Effectiveness is only a legal milestone.** It doesn't cover exchange listing approval, ticker and CUSIP assignment, DTC setup, custodian and transfer-agent readiness, or authorized participant agreements.\n- **Staff comments can reset the timeline.** If the SEC staff comments, the registrant must respond, often with further amendments. Material changes can require a new filing, which restarts the clock.\n- **Filing completeness matters.** Missing financials, exhibits, or legal opinions can delay effectiveness.\n- **Seed capital and operations** must be in place before trading begins.\n\n**Initial registration of a new trust** differs. It uses Form N-1A under Section 8(a). Absent a delaying amendment, the registration becomes effective 20 days after filing. Most sponsors file a delaying amendment, so effectiveness waits for a Commission order. Rule 485(a) applies only after the trust is already registered.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-cwktrgsp",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for a new ordinary ETF series added to an existing US trust by a Rule 485(a) post-effective amendment, with no separate exemptive relief needed, what filing-effectiveness period normally applies, and why is it not an end-to-end launch guarantee? Distinguish initial registration of a new trust."
+      ],
+      "stdout": "haiku-QL-18-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

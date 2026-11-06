@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-30",
+  "tier": "C",
+  "answer": "**Contract terms**\n- Term, renewal mechanics, and which party controls non-renewal\n- Termination for convenience or cause, and cure periods\n- Fee structure (basis points of AUM, minimums, escalators, caps)\n- Licence scope: sublicensing, marketing use, and permitted fund types\n- Index methodology changes and successor-index rights\n- Transition assistance, data continuity, and wind-down terms\n- Assignment, change-of-control, liability caps, and indemnities\n\n**Naming dependencies**\n- Fund name, ticker, prospectus, and marketing references to the index\n- Rule 35d-1 name-policy implications and shareholder notice requirements for changes\n- Exchange listing rules and SEC filing lead times\n\n**Affiliated-information issues**\n- Whether the index provider or calculation agent is affiliated with the adviser, sponsor, or an authorized participant\n- Access to rebalance or constituent information, and information barriers\n- Revenue sharing or related-party fees, and whether Section 15(c) review applies\n- Prospectus disclosure of any affiliation\n\n**Contingency**\nIdentify candidate replacement indexes in advance, but do not assume substitution rights exist. Confirm them against the actual contract and with counsel.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-adl0wait",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "For a US index ETF board reviewing an index licence and failed-renewal contingency, what contract terms, naming dependencies and affiliated-information issues should it examine? Treat the checklist as diligence, not a universal notice period or guaranteed substitution right."
+      ],
+      "stdout": "haiku-QL-30-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

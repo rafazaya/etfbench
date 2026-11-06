@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+  "tier": "C",
+  "answer": "**Underlying liquidity and hedging costs:** An ETF's quoted spread reflects what market makers expect to pay to hedge and to create or redeem shares. If the underlying securities are thinly traded or hard to price, market makers face wider hedging costs and more uncertainty about fair value, so they quote wider spreads. Creation and redemption costs (basket trading, fees, settlement, and FX or time-zone gaps for international holdings) set a floor that authorized participants must recover.\n\n**Why volume alone is incomplete:** ETF volume measures secondary-market trading, but liquidity also depends on primary-market capacity, which creation units can absorb without visible volume. Volume is also backward-looking and can be inflated by market-maker churn. It says little about depth at the quoted size, the time of day, or conditions in stressed markets, when underlying liquidity can drop sharply.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-tib7_2j5",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "For a US ETF, explain how underlying-market liquidity and market-maker hedging and creation/redemption costs influence the quoted bid-ask spread. Why is historical exchange volume alone an incomplete guide? Do not rank drivers or give universal spread levels."
+      ],
+      "stdout": "haiku-capital_markets_001_what_are_significant_drivers_of_the_etf-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

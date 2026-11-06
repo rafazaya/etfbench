@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+  "tier": "A",
+  "answer": "I can't see the specific bank's AP agreements, so I can't confirm its terms. Industry practice generally works like this:\n\n- **Collateral:** When an AP receives creations or redemptions before the underlying securities settle, the bank typically requires cash collateral for the undelivered securities.\n- **Base:** The percentage is usually applied to the current market value of the undelivered securities, marked to market daily.\n- **Rate:** Common levels are around 102% to 105% of market value. Less liquid or international holdings often carry higher rates.\n- **Not universal:** Rates vary by bank, by AP, by asset class, and by the creditworthiness and agreement terms of each counterparty. Some agreements use fixed rates, others use tiered or negotiated ones.\n\nTo answer precisely, check the collateral or \"cash in lieu\" section of the executed agreement, along with any schedules or annexes, since those usually set the exact percentage and base.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-vc9ho15f",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, in the bank's reviewed US ETF AP agreements, what cash collateral may be required for securities not yet delivered, what value is the percentage applied to, and is it a universal rate?"
+      ],
+      "stdout": "haiku-creation_redemption_002_what_is_a_normal_amount_of_collateral_an-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "source": "https://raw.githubusercontent.com/openai/codex/main/codex-rs/core/config.schema.json",
+  "properties": {
+    "web_search": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/WebSearchMode"
+        }
+      ],
+      "description": "Controls the web search tool mode: disabled, cached, indexed, or live."
+    },
+    "sandbox_mode": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/SandboxMode"
+        }
+      ],
+      "description": "Sandbox mode to use."
+    },
+    "sandbox_workspace_write": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/SandboxWorkspaceWrite"
+        }
+      ],
+      "description": "Sandbox configuration to apply if `sandbox` is `WorkspaceWrite`."
+    },
+    "approval_policy": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/AskForApproval"
+        }
+      ],
+      "description": "Default approval policy for executing commands."
+    },
+    "instructions": {
+      "description": "System instructions.",
+      "type": "string"
+    },
+    "model_reasoning_effort": {
+      "$ref": "#/definitions/ReasoningEffort"
+    },
+    "project_doc_max_bytes": {
+      "default": 32768,
+      "description": "Maximum total bytes of project instruction content across all selected environments.",
+      "format": "uint",
+      "minimum": 0.0,
+      "type": "integer"
+    }
+  },
+  "definitions": {
+    "SandboxMode": {
+      "enum": [
+        "read-only",
+        "workspace-write",
+        "danger-full-access"
+      ],
+      "type": "string"
+    },
+    "SandboxWorkspaceWrite": {
+      "additionalProperties": false,
+      "properties": {
+        "exclude_slash_tmp": {
+          "default": false,
+          "type": "boolean"
+        },
+        "exclude_tmpdir_env_var": {
+          "default": false,
+          "type": "boolean"
+        },
+        "network_access": {
+          "default": false,
+          "type": "boolean"
+        },
+        "writable_roots": {
+          "default": [],
+          "items": {
+            "$ref": "#/definitions/AbsolutePathBuf"
+          },
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "WebSearchMode": {
+      "enum": [
+        "disabled",
+        "cached",
+        "indexed",
+        "live"
+      ],
+      "type": "string"
+    }
+  }
+}

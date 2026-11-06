@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-23",
+  "tier": "A",
+  "answer": "**Rule 6c-11 eligible without a new order (subject to conditions):**\n- Index-based ETFs, including leveraged and inverse ones. The rule doesn't exclude them, but they must also satisfy Rule 18f-4.\n- Actively managed ETFs that publish full holdings daily.\n\n**Generally need separate relief:**\n- Non-transparent or semi-transparent actives, which rely on individual exemptive orders.\n- UIT-structured ETFs (e.g., SPDR S&P 500 ETF Trust, SPDR Dow Jones Industrial Average ETF Trust), which rely on their own relief.\n- ETFs organized as share classes of mutual funds, which rely on separate relief.\n- Products outside the 1940 Act, such as commodity pools, which fall under the CEA and other regimes.\n\n**Rule 18f-4 interaction:** Leveraged and inverse funds using derivatives must either comply with the VaR test (relative or absolute) or qualify as limited derivatives users. Failure to comply affects eligibility regardless of 6c-11 status.\n\n*Caveat: My knowledge runs to June 2026, so verify the current rule text, any SEC staff relief, and 2026 developments with counsel.*",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-1n2qi90x",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, which US ETF structures can rely on Rule 6c-11 subject to its conditions, and which need separate relief? Include leveraged/inverse ETFs and the interaction with Rule 18f-4."
+      ],
+      "stdout": "haiku-QL-23-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

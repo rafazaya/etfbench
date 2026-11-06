@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-40",
+  "tier": "C",
+  "answer": "Here's what to expect, though your fund's notices will set the actual dates:\n\n- **Notices:** Expect a shareholder letter or proxy/information statement describing the conversion, the effective date, and any vote. Read it closely, since whole-fund conversions often involve a reorganization.\n- **Deadlines:** Watch for a cutoff to redeem or exchange before conversion, and check for any redemption fees.\n- **Account steps:** Shares held directly with the fund usually convert automatically into ETF shares, but they can't trade on an exchange from the fund's transfer agent. Open a brokerage account and transfer the position in-kind, or confirm the fund's instructions for doing so.\n- **Trading:** Once in a brokerage, ETF shares trade intraday at market prices, not at end-of-day NAV.\n- **Fractional shares:** Mutual fund fractions may be cashed out or rounded at conversion, and not all brokers support fractional ETF trading.\n- **Tax:** Reorganizations are often tax-free, but cash received for fractions is generally taxable. Keep cost-basis records.\n- **Distributions:** Update reinvestment settings.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-78sibdgj",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for a US mutual fund held directly with the fund that is converting the whole fund into an ETF, what account/transfer steps might an investor need to take? Address notices, deadlines, trading access and fractional shares without assuming a fund-specific timetable or confusing conversion with adding an ETF class."
+      ],
+      "stdout": "haiku-QL-40-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

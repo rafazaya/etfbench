@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-35",
+  "tier": "C",
+  "answer": "**Sub-fund level:** Under Irish UCITS rules, ETF status attaches to the **sub-fund**, not the umbrella. An umbrella is a single legal entity with segregated sub-funds. Only sub-funds that meet the ETF criteria (exchange listing with market-making, described as ETF features in the prospectus) are UCITS ETFs. The umbrella is not an ETF, and non-ETF sibling sub-funds must not be labelled as ETFs.\n\n**Listed-class level:** Trading identifiers (ISIN, ticker, listing venue such as Euronext Dublin, LSE or Xetra) attach to each **listed share class**. Unlisted classes in an ETF sub-fund share its UCITS ETF status but have no exchange ticker. Describe them as unlisted classes of a UCITS ETF, not as exchange-traded products.\n\nVerify against the current prospectus, the Central Bank of Ireland register and the venue listing for the specific ISIN. I cannot check live records.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-cl_i0emz",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, under Irish UCITS rules, where is the UCITS ETF identifier used for a mixed umbrella and for a sub-fund with listed and unlisted classes? Explain sub-fund versus listed-class identification and avoid labelling non-ETF siblings as ETFs."
+      ],
+      "stdout": "haiku-QL-35-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-38",
+  "tier": "C",
+  "answer": "I can't confirm the specific provisions you're asking about. I'm not aware of an express 2026 exception to Regulation 26(2) of the Irish UCITS Regulations (S.I. 352/2011, as amended), nor of a Central Bank Q&A numbered 1030 setting out a waiver approach. Citing either would risk inventing regulatory text.\n\nWhat I can offer as general practice:\n\n- **Cash vs. in-kind:** Irish ETFs often set different cut-offs for the two, typically with an earlier deadline for in-kind creations and redemptions because the basket must be delivered and validated before the valuation point.\n- **Hedged vs. unhedged classes:** Share classes usually share the fund's dealing day, but hedged classes may need earlier cut-offs so that FX hedging trades can be executed and allocated.\n\nFor a definitive answer, check:\n1. The consolidated text of S.I. 352/2011 on the Irish Statute Book.\n2. The Central Bank of Ireland's UCITS Q&A and any 2026 notices.\n3. The fund's prospectus and supplement, which set the actual cut-off times.\n\nIf you can share the relevant extract, I can help you interpret it.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-c7tnvje5",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, under Irish UCITS Regulation 26(2), which different dealing cut-offs are permitted for cash versus in-kind dealing and class-level currency-hedged versus unhedged classes? Distinguish the express 2026 exceptions from the older Q&A 1030 waiver approach."
+      ],
+      "stdout": "haiku-QL-38-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

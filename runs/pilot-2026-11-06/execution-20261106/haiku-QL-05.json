@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-05",
+  "tier": "B",
+  "answer": "**Why the ETF can distribute fewer gains:** Under IRC \u00a7852(b)(6), a RIC recognizes no gain when it distributes appreciated securities in redemption of its shares. ETFs use this routinely. Authorized participants redeem ETF shares for a basket of securities, and the fund can choose low-basis lots to hand out, purging embedded gains without a taxable sale. A cash-dealing mutual fund must sell holdings to meet redemptions, realizing gains that flow to all remaining shareholders.\n\n**Limits of the benefit:**\n- It covers only in-kind redemptions. Cash creations or redemptions, and cash-in-lieu components, force taxable sales.\n- Sales for rebalancing, index reconstitution, dividend or corporate-action handling, or portfolio changes still generate gains that must be distributed.\n- Fund-level gains are not eliminated; \u00a7852 still requires distributing at least 90% of income, and the 4% excise tax applies.\n- It defers rather than erases tax. Investors owe tax on their own gains when they sell shares.\n- Benefits depend on the fund's shareholder flows and basket design. Less-liquid or non-US holdings often rely on cash, reducing the advantage.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-5isfa8vt",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, why can an in-kind US equity ETF taxed as an IRS RIC distribute fewer capital gains than a standalone cash-dealing mutual fund holding the same stocks, for a US taxable investor? State the limits of the tax benefit."
+      ],
+      "stdout": "haiku-QL-05-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

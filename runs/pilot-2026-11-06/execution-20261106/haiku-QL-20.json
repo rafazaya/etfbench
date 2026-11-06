@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-20",
+  "tier": "A",
+  "answer": "Under a unitary fee, the fund pays one management fee to the adviser, and the adviser pays the fund's ordinary operating expenses (custody, transfer agency, administration, audit, legal, and index licensing) from it. Management-fee revenue belongs to the adviser, its ordinary costs are its outlay, and the remainder is its profit.\n\nWhen a platform adviser engages a brand sponsor to assume expenses, the sponsor typically funds some or all costs that would otherwise shrink that remainder. How revenue and costs are split between adviser and sponsor is set by their bilateral agreement, not by any standard formula. The fund's disclosed fee does not change.\n\nThe continuing obligation runs to the fund. The adviser remains bound under the investment advisory and unitary-fee agreements to pay the fund's ordinary expenses, whether or not the sponsor performs. The sponsor's assumption is a side contract that does not transfer the fund's liability or release the adviser. The board must also review the advisory contract under Section 15(c) of the Investment Company Act. Confirm specifics with fund counsel.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-7zur254r",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, in a US series-trust unitary-fee model where the platform adviser contracts with a brand sponsor to assume expenses for the fee remainder, how are management-fee revenue and ordinary operating costs allocated? Identify the continuing obligation to the fund; do not invent a standard percentage split."
+      ],
+      "stdout": "haiku-QL-20-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-36",
+  "tier": "B",
+  "answer": "**Short answer:** Secondary-market holders generally cannot redeem directly with an Irish UCITS ETF. Direct creation and redemption is limited to Authorised Participants (APs) dealing in creation units.\n\n**Exceptional route:** Direct redemption by ordinary holders exists only if the prospectus provides for it, typically on fund termination or prolonged exchange suspension. The manager must notify the Central Bank of Ireland and investors, state the redemption deadline and process, and redeem at net asset value. Any redemption charge must stay within the prospectus maximum, and dilution adjustments protect remaining holders.\n\n**Ordinary exchange dealing:** Holders buy and sell on the exchange at market price, with market makers and APs providing liquidity. Costs are the bid-ask spread, brokerage, and any premium or discount to NAV. No fund-level redemption occurs.\n\n**Caveat:** Verify specific terms against the fund's prospectus and KIID, and check current Central Bank guidance, as 2026 rule changes may postdate my knowledge.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-c3xdz87d",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, under the Irish UCITS ETF framework, when can a secondary-market holder redeem directly with the fund, and what notification, process and cost protections apply? Distinguish this exceptional route from ordinary exchange dealing."
+      ],
+      "stdout": "haiku-QL-36-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-28",
+  "tier": "C",
+  "answer": "**Application:** The ETF files a Section 6(c) exemptive application under the Investment Company Act, plus any other needed relief (e.g., Sections 12(d)(1), 17(a), 22(d)), usually after pre-filing discussions with SEC staff.\n\n**Notice:** Staff reviews the application and amendments. The SEC then issues a notice of application, published in the Federal Register, which opens a roughly 25-day window for interested persons to request a hearing.\n\n**Order:** If no hearing is requested and staff comments are resolved, the SEC issues the exemptive order. If a hearing is requested, the matter proceeds to a hearing process.\n\n**Expedited review:** Rule 0-5 allows an applicant to request expedited treatment, such as a shortened notice period. It is discretionary and generally requires a showing of urgency, with relief substantially identical to prior precedent.\n\n**45-day clock:** Under Rule 0-5, the Commission generally must act within 45 days of filing, meaning it issues a notice or takes other action on the application. This is a deadline on the Commission's initial step, not a total approval timeline. Overall time depends on staff comments, amendments, and any hearing.\n\nVerify current rule text before relying on this.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-2xfo80z9",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for a US ETF requesting relief not supplied by Rule 6c-11, describe application, notice and order stages. When is Rule 0-5 expedited review available, and what does its 45-day clock mean? Do not give a universal total approval time."
+      ],
+      "stdout": "haiku-QL-28-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

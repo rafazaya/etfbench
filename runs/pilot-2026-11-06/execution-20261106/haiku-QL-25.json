@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-25",
+  "tier": "C",
+  "answer": "**Rule 6c-11 website disclosures (free, public, as of 2026-11-06; verify against 17 CFR 270.6c-11 and any later amendments)**\n\n**Portfolio holdings vs. transaction baskets:**\n- **Portfolio holdings:** The securities and other assets used to calculate NAV. Post these daily on the fund's website, as of the prior business day.\n- **Transaction basket (Portfolio Composition File):** The creation/redemption basket for that day. Post it before trading opens. It can differ from the holdings, for example through custom baskets or cash components.\n\n**Daily:** NAV, market price, and the premium/discount, with the prior day's figures.\n\n**Historical (posted as of each calendar quarter-end):**\n- A chart and table of premium/discount history for the most recent five years, or since inception if shorter.\n- Median bid-ask spread history.\n\n**Sustained deviation:** If the market price departs from NAV by more than 2% for seven consecutive business days, the fund must post a statement explaining the causes and the steps it plans to take.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-_33wtt_z",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, what public, free website holdings, price/NAV, premium/discount and spread disclosures does a US Rule 6c-11 ETF need, including timing/history and the sustained-deviation explanation? Distinguish portfolio holdings from transaction baskets."
+      ],
+      "stdout": "haiku-QL-25-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

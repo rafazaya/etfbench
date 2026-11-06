@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "creation_redemption_006_who_are_typically_the_parties_involved_i",
+  "tier": "A",
+  "answer": "I can't see the reviewed AP forms, so this is a general framework, not a clause-level review. Please paste the relevant sections if you need specifics.\n\n**US (Rule 6c-11):** The rule sets conditions for ETFs to operate without individual exemptive relief, including custom-basket policies and daily disclosure. It doesn't prescribe AP agreement parties. In practice, the AP agreement is typically signed by the issuing trust (usually a Delaware statutory trust) on behalf of a specific fund series, with the principal underwriter/distributor and the authorized participant (a broker-dealer and DTC participant) as counterparties. The trust has no separate legal personality, so the signature block and series designation matter.\n\n**Ireland (ICAV):** An ICAV is a corporate vehicle with separate legal personality under the ICAV Act 2015, governed by a board and Central Bank of Ireland UCITS rules. Its umbrella structure gives statutory segregation between sub-funds. Participating dealers sign agreements with the ICAV and its distributor, and a UCITS depositary plays an oversight role with no direct US equivalent. Rule 6c-11 has no Irish analogue.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-2wrd74lg",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, distinguish the parties permitted by Rule 6c-11 from the main signatories and trust's status in the reviewed US AP agreement forms; contrast the Irish ICAV arrangement."
+      ],
+      "stdout": "haiku-creation_redemption_006_who_are_typically_the_parties_involved_i-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

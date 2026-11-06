@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-22",
+  "tier": "C",
+  "answer": "**No.** Appointing a principal underwriter does not by itself assure a sales force or asset gathering.\n\n**Legal/operational distribution** (typically included in the principal underwriter role):\n- Acts as the 1940 Act distributor and FINRA-registered broker-dealer of record.\n- Handles creation/redemption order processing with authorized participants.\n- Reviews fund communications for FINRA compliance.\n- Maintains regulatory filings and supervisory obligations.\n\n**Separately contracted commercial functions** (vary by platform package and are not guaranteed):\n- Wholesaling and sales coverage of advisors and institutions.\n- Marketing support, content, and events.\n- Intermediary access: wirehouse and RIA platform approvals, model-portfolio inclusion, and shelf-space or onboarding fees.\n- Data, education, and analytics services.\n\nPlatforms differ in what they bundle. Some offer compliance-only distribution, while others include wholesaling or intermediary onboarding for an additional fee. Asset gathering depends mainly on the sponsor's investment performance, pricing, marketing budget, and intermediary relationships, so sponsors should confirm exactly which services are contracted and who performs them.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-3wzarjb9",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, does appointment of a principal underwriter on a US ETF series-trust platform itself assure a sales force and asset gathering? Distinguish legal/operational distribution from separately contracted marketing and intermediary access; do not assume all platform packages are identical."
+      ],
+      "stdout": "haiku-QL-22-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

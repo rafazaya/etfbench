@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-07",
+  "tier": "C",
+  "answer": "**No.** Historical share volume shows how much has traded, not how much a new order can trade without moving the price. For ETFs, liquidity also depends on the underlying basket.\n\n**Creation/redemption:** Authorized participants (APs) exchange baskets of underlying securities for creation units (typically 25,000 to 100,000 shares) and back again. This arbitrage links secondary-market prices to NAV, so the ETF's liquidity can draw on the underlying market, not just its own trading.\n\n**Additional indicators to examine:**\n- **Quoted spread and displayed depth** at the NBBO, plus realized effective spreads\n- **Premium/discount to iNAV**, which signals stress or dislocation\n- **Underlying liquidity:** bid-ask spreads and trading volume of holdings, especially for bonds or small caps\n- **Number of market makers and APs**\n- **Creation/redemption activity** and shares outstanding\n- **Closing auction and intraday volume patterns**\n\nThese are observable conditions, not guarantees. Actual fill quality for your order depends on market conditions at execution.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-rotc26tk",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "For a US ETF, is historical exchange share volume alone enough to assess liquidity for a new order? Explain the creation/redemption mechanism and which additional observable liquidity indicators to examine; do not promise execution capacity."
+      ],
+      "stdout": "haiku-QL-07-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

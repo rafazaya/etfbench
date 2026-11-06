@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-10",
+  "tier": "B",
+  "answer": "No. An ordinary retail investor cannot redeem individual ETF shares directly with a US '40 Act ETF. Creations and redemptions happen only in large blocks, called creation units (commonly 25,000 to 100,000 shares), and only through Authorized Participants (APs). APs are large broker-dealers with signed agreements with the fund's distributor. They deliver or receive either a basket of underlying securities (in-kind) or cash, depending on the fund.\n\nThe usual alternative is the secondary market. The investor sells shares on the exchange through their broker, at the prevailing bid or market price, to another investor or a market maker. APs and market makers arbitrage any gap between the share price and NAV by creating or redeeming units, which keeps the price close to NAV. The investor pays the bid-ask spread and any commissions, and receives the sale proceeds in the normal settlement cycle.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-qe1clg09",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, in ordinary dealing in a US '40 Act ETF (excluding reorganization, merger, conversion or liquidation), can an ordinary retail investor redeem individual ETF shares directly with the fund? Explain the usual alternative."
+      ],
+      "stdout": "haiku-QL-10-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

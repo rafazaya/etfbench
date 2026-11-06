@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-13",
+  "tier": "B",
+  "answer": "**Why cash:** If derivative positions (swaps, futures, OTC contracts) can't practicably be transferred to or from an authorized participant (AP), the fund can't deliver or accept them in kind. The fund instead takes in or pays out cash and enters or unwinds the derivative exposure itself. A cash component makes up the difference when only part of the portfolio can move in kind.\n\n**Contrast with transferable securities:** Creations and redemptions of ordinary securities are usually in kind. This avoids trading costs and market impact, keeps tracking error low, and generally avoids triggering taxable gains at the fund level, since in-kind redemptions don't force sales.\n\n**Limits of the explanation:**\n- Impracticability is a fact-specific judgment. Some cleared derivatives can be novated to an AP's clearing broker, so cash isn't always necessary.\n- Cash is also used for other reasons: illiquid or foreign holdings, operational convenience, and AP capacity constraints.\n- Cash creations shift costs and tax consequences to the fund and its shareholders, so they aren't neutral.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-_b0gd757",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "For a US ETF using derivative positions that cannot practicably be transferred to or from an AP under its dealing arrangements, why might creations/redemptions use cash or a cash component? Contrast with transferable securities and state the limits of this explanation."
+      ],
+      "stdout": "haiku-QL-13-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

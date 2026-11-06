@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b0f4-980f-7701-9157-dad9dfc01212"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"**Yes.** Under the Central Bank of Ireland’s UCITS Q&A 1088, a fund may have both listed ETF share classes and unlisted share classes. The prospectus should clearly compare the classes’ **dealing arrangements, settlement arrangements, costs, minimum subscription amounts, rights, liquidity and pricing**.\n\nThis is the Irish disclosure point; it does not import US share-class exemptive conditions."}}
+{"type":"turn.completed","usage":{"input_tokens":26252,"cached_input_tokens":15872,"cache_write_input_tokens":0,"output_tokens":410,"reasoning_output_tokens":247}}

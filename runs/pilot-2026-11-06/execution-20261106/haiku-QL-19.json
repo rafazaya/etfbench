@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-19",
+  "tier": "B",
+  "answer": "**Core governance and service providers (roles, not necessarily separate firms)**\n- Board of trustees (independent majority) and chief compliance officer\n- Investment adviser, plus sub-adviser if applicable\n- Principal underwriter/distributor\n- Administrator, fund accountant, and transfer agent\n- Custodian\n- Independent auditor and fund counsel\n- Valuation designee (Rule 2a-5) and liquidity risk program administration (Rule 22e-4)\n\n**Market infrastructure**\n- Exchange listing\n- Authorized participants for creation and redemption\n- Market makers and liquidity providers\n- DTC/NSCC clearing and settlement\n- Pricing and NAV/iNAV data vendors\n\n**Conditional, strategy-dependent**\n- Index provider and license (index-tracking funds)\n- Securities lending agent (if lending)\n- Derivatives risk manager under Rule 18f-4, plus FCMs or prime brokers (if using derivatives)\n- Sub-custodians (foreign holdings)\n- Commodity pool operator registration (commodity exposure)\n\n**Bundling:** Adviser affiliates often provide administration, accounting, and transfer agency. The CCO may be an adviser employee, and the distributor may be affiliated. Independent trustees and the auditor are the roles that generally must stand apart.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-gliscn94",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "For a US '40 Act ETF launch, list the core governance, service-provider and market-infrastructure arrangements. Distinguish roles that may be bundled and index/lending arrangements needed only for the relevant strategy or program; do not imply every role needs a separately hired firm."
+      ],
+      "stdout": "haiku-QL-19-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

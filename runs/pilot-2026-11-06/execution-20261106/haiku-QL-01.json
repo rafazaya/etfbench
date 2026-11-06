@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-01",
+  "tier": "C",
+  "answer": "**Short answer:** Sponsor insolvency generally does not give the sponsor's creditors the fund's portfolio, and it does not automatically wipe out the shares. Neither outcome is guaranteed.\n\n**Asset separation (the usual structure):**\n- The fund is a separate legal entity that owns its portfolio. Assets sit with a custodian in the fund's name, and the sponsor has no ownership interest in them.\n- Under the 1940 Act, the adviser's bankruptcy typically terminates the advisory contract. The board must then appoint a replacement, often under an interim agreement (Rule 15a-4), and shareholder approval is needed for a permanent one. The fund generally continues.\n\n**Limits and non-guarantees:**\n- Creditors could argue for substantive consolidation or veil piercing, though this is rare and fact-dependent.\n- Sponsor-owned seed shares and unpaid fees or reimbursements are sponsor assets and are exposed.\n- Licenses, index agreements, and marketing contracts may be disrupted.\n- If no successor adviser is found, the fund may liquidate, which harms shareholders even though they keep their claim.\n- Bankruptcy outcomes depend on the specific documents, custody arrangements, and court rulings. I can't verify developments after my knowledge cutoff.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-_uiu7h79",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for an ordinary US '40 Act ETF whose fund and adviser/sponsor are separate entities, does sponsor insolvency itself give the sponsor's creditors the portfolio or wipe out the shares? Distinguish asset separation from a guaranteed outcome in every insolvency."
+      ],
+      "stdout": "haiku-QL-01-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

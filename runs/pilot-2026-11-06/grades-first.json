@@ -1,0 +1,1738 @@
+[
+  {
+    "model": "haiku",
+    "id": "QL-01",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "No material false statement established against references; replacement and liquidation mechanisms covered."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-02",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Sale before trading ends, variable schedule, net proceeds and tax covered."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-03",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "No explicit market-maker seed versus durable investor seed distinction; no board replacement power.",
+    "material_false_statement_or_note": "Seed capital is treated partly as a loss-funding runway rather than clearly separating fund assets and sponsor expense support."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-04",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Daily accrual distinguished from payment."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-05",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "No explicit statement that section 852(b)(6) is not ETF-exclusive.",
+    "material_false_statement_or_note": "Cash creations do not necessarily force sales; rebalancing sales need not always produce distributable gains. The categorical wording overstates the limitation."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-06",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "Does not expressly say remaining lots receive no basis step-up or discuss AP tax.",
+    "material_false_statement_or_note": "Shared benefit and cash-redemption limits are correct; no false basis-reset claim."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-07",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Mechanism and observable indicators covered."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-08",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Arbitrage and limits covered."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-09",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Says creation/redemption are the only mechanisms changing share count; share splits also change shares outstanding."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-10",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Ordinary retail exchange exit correctly distinguished."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-11",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "miss"
+      },
+      {
+        "point": 3,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "Reviewed signature pattern and transfer-agent/trust status missing; NSCC/DTC route distinction incomplete.",
+    "material_false_statement_or_note": "Appropriately declines to invent unseen form details."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-12",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      },
+      {
+        "point": 3,
+        "status": "miss"
+      }
+    ],
+    "missed_or_incomplete": "Agency processing income and fee-waiver/adviser-payment qualification absent.",
+    "material_false_statement_or_note": "Core no-retainer/no-duty answer is sound."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-13",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Conditional transferability and cash cost/tax consequences covered."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-14",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Holdings versus PCF and nonpublic access covered."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-15",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "miss"
+      }
+    ],
+    "missed_or_incomplete": "No designated LMM or quoting commitments.",
+    "material_false_statement_or_note": "Core AP/market-maker separation covered; no material false statement established for the unsupported prevalence claim."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-16",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "Does not expressly discuss board removal/liquidation or sponsor role alternatives.",
+    "material_false_statement_or_note": "Control and shared-cost trade-off covered."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-17",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "miss"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "No $100,000 initial net-worth distinction or contract-specific payer example.",
+    "material_false_statement_or_note": "Assigns one-time costs categorically to sponsor rather than establishing contractual allocation."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-18",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "No 60-day other-amendment contrast; 95-day later designation optional.",
+    "material_false_statement_or_note": "75-day new-series clock and operational versus initial-registration distinction covered. Section 8(a) wording conflates statutory registration contexts, but the 20-day initial Securities Act clock is substantively recognizable."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-19",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      },
+      {
+        "point": 4,
+        "status": "hit"
+      },
+      {
+        "point": 5,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "Seed capital and PCF workflow omitted.",
+    "material_false_statement_or_note": "Most governance, compliance and infrastructure roles covered."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-20",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "Does not expressly describe the fee remainder passing to the brand partner.",
+    "material_false_statement_or_note": "Continuing adviser obligation and contractual split clear."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-21",
+    "verdict": "wrong",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "miss"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "Platform adviser continuing obligation missing.",
+    "material_false_statement_or_note": "Substitutes sponsor/fund enforcement and shareholder-asset exposure for the adviser backstop explicitly asked about."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-22",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Distributor appointment does not assure sales; contract scope varies."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-23",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "Master-feeder exclusion missing.",
+    "material_false_statement_or_note": "Oversimplifies 18f-4 compliance alternatives; central leveraged/inverse eligibility is correct."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-24",
+    "verdict": "wrong",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "miss"
+      }
+    ],
+    "missed_or_incomplete": "All four operational-relief categories missing.",
+    "material_false_statement_or_note": "Explicit uncertainty and refusal, not a confident invented answer."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-25",
+    "verdict": "wrong",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "miss"
+      },
+      {
+        "point": 3,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "30-day median methodology, correct history and one-year explanation retention missing.",
+    "material_false_statement_or_note": "Invents mandatory public PCF, five-year history and remedial steps. Uses seven days instead of more than seven."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-26",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "miss"
+      }
+    ],
+    "missed_or_incomplete": "AP agreements, cash balancing amount, AP identity and weights omitted.",
+    "material_false_statement_or_note": "Five years/two accessible years correct; extra record details do not substitute for required ones."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-27",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      },
+      {
+        "point": 3,
+        "status": "partial"
+      },
+      {
+        "point": 4,
+        "status": "miss"
+      }
+    ],
+    "missed_or_incomplete": "Revision/departure process and technical custom-basket definition missing.",
+    "material_false_statement_or_note": "Suggests a non-standard order is outside rule conditions; contractual non-standard classification does not exempt basket compliance."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-28",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "Two grants/three years, comparison/certification and clock tolling absent.",
+    "material_false_statement_or_note": "Expedited route is framed as urgency and discretionary shortening; a hearing request does not automatically produce a hearing."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-29",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Seed durability and inquiry checklist covered."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-30",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "Exclusivity omitted.",
+    "material_false_statement_or_note": "Renewal contingency, naming and affiliated-information controls otherwise strong."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-31",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Diagnostic sequence and possible corrective actions covered."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-32",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      },
+      {
+        "point": 4,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Separates persistent fee drag from variability and supplies concrete causes."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-33",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "US example not answered; UCITS noncash-reinvestment ban, restricted cash reinvestment and collateral standards incomplete.",
+    "material_false_statement_or_note": "Generic risk discussion sound; no claim that collateral eliminates loss."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-34",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      },
+      {
+        "point": 3,
+        "status": "miss"
+      }
+    ],
+    "missed_or_incomplete": "30-business-day public quarter-end holdings, nondiscrimination, impaired-arbitrage/information-request procedures and conditional iNAV disclosures missing.",
+    "material_false_statement_or_note": "Acknowledges currency uncertainty; does not establish requested current requirements."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-35",
+    "verdict": "wrong",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "miss"
+      }
+    ],
+    "missed_or_incomplete": "Actual UCITS ETF identifier placements and permission at listed-class level absent.",
+    "material_false_statement_or_note": "Replaces identifier rule with tickers/ISINs and categorical sub-fund-only ETF status, missing class-level identification permission."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-36",
+    "verdict": "wrong",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "miss"
+      },
+      {
+        "point": 3,
+        "status": "miss"
+      },
+      {
+        "point": 4,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "Significant-NAV-deviation trigger, regulated-market notification and non-excessive-cost protection missing.",
+    "material_false_statement_or_note": "Says direct redemption only if prospectus permits, typically termination/suspension; substitutes CBI/investor notification for regulated-market notification."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-37",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Comparison categories covered substantively despite uncertainty about Q&A number."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-38",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "miss"
+      }
+    ],
+    "missed_or_incomplete": "Express 2026 exceptions and superseded waiver approach not recognized.",
+    "material_false_statement_or_note": "General different-cutoff practice covered; answers from an older regulatory framework and disclaims awareness."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-39",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "partial"
+      },
+      {
+        "point": 4,
+        "status": "miss"
+      }
+    ],
+    "missed_or_incomplete": "Threshold breach notice/assessment and monitoring periods missing.",
+    "material_false_statement_or_note": "Illustrative order-level tagging/allocation does not establish actual representative order framework."
+  },
+  {
+    "model": "haiku",
+    "id": "QL-40",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Account transfer, timing and fractional-cash/tax outcomes covered conditionally."
+  },
+  {
+    "model": "haiku",
+    "id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Underlying/hedging/basket cost economics and volume limitation covered."
+  },
+  {
+    "model": "haiku",
+    "id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      },
+      {
+        "point": 3,
+        "status": "miss"
+      }
+    ],
+    "missed_or_incomplete": "115% example and AP replacement-purchase shortfall liability absent.",
+    "material_false_statement_or_note": "Gives 102-105% generic collateral figures in place of reviewed 115%/105% terms."
+  },
+  {
+    "model": "haiku",
+    "id": "creation_redemption_004_what_costs_do_the_creation_fee_cover",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      },
+      {
+        "point": 3,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "Waivers/adviser payment and distinct fixed-fee recipient omitted.",
+    "material_false_statement_or_note": "Categorically makes fund payee of all fees, contradicting direct custodian/service-provider fixed fees."
+  },
+  {
+    "model": "haiku",
+    "id": "creation_redemption_006_who_are_typically_the_parties_involved_i",
+    "verdict": "wrong",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "miss"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "ETF/service-provider regulatory baseline and reviewed distributor/AP, TA and beneficiary pattern missing.",
+    "material_false_statement_or_note": "Says trust has no separate legal personality and assumes trust as typical main signatory; Delaware statutory trust is a separate legal entity."
+  },
+  {
+    "model": "luna",
+    "id": "QL-01",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "No explicit qualified-custodian or board authority detail.",
+    "material_false_statement_or_note": "Asset separation, replacement/liquidation and recovery limits substantively covered."
+  },
+  {
+    "model": "luna",
+    "id": "QL-02",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Net proceeds, variable timing and taxable distributions covered."
+  },
+  {
+    "model": "luna",
+    "id": "QL-03",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "No explicit market-maker versus investor seed distinction or board replacement power.",
+    "material_false_statement_or_note": "Strong economics but seed-type distinction incomplete."
+  },
+  {
+    "model": "luna",
+    "id": "QL-04",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "miss"
+      },
+      {
+        "point": 3,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "Daily accrual not specified; annual fee table absent.",
+    "material_false_statement_or_note": "Indirect fund-asset expense covered without required accrual timing."
+  },
+  {
+    "model": "luna",
+    "id": "QL-05",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "Not explicitly states RIC nonrecognition is not ETF-exclusive.",
+    "material_false_statement_or_note": "Core mechanism and practical/investor limits covered; no material false statement established."
+  },
+  {
+    "model": "luna",
+    "id": "QL-06",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "No explicit no-basis-step-up statement or mutual-fund cash-flow example.",
+    "material_false_statement_or_note": "Shared portfolio benefit, trading limits and relief qualification covered."
+  },
+  {
+    "model": "luna",
+    "id": "QL-07",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Primary versus secondary liquidity and observables covered."
+  },
+  {
+    "model": "luna",
+    "id": "QL-08",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Mechanism and market-friction limits covered."
+  },
+  {
+    "model": "luna",
+    "id": "QL-09",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Creation increases, redemption decreases and trading leaves share count unchanged."
+  },
+  {
+    "model": "luna",
+    "id": "QL-10",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Retail exchange dealing correctly distinguished."
+  },
+  {
+    "model": "luna",
+    "id": "QL-11",
+    "verdict": "wrong",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "miss"
+      },
+      {
+        "point": 3,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "Reviewed signature pattern and NSCC/DTC eligibility mechanics missing.",
+    "material_false_statement_or_note": "Opens by denying clearing-agency membership requirement, then immediately quotes the requirement; internally contradictory on the question's central eligibility test."
+  },
+  {
+    "model": "luna",
+    "id": "QL-12",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      },
+      {
+        "point": 3,
+        "status": "miss"
+      }
+    ],
+    "missed_or_incomplete": "No agency client fees or waiver/adviser-payment qualification.",
+    "material_false_statement_or_note": "Core no-sponsor-payment/no-continuing-duty answer covered."
+  },
+  {
+    "model": "luna",
+    "id": "QL-13",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Conditional derivative transferability, fund trading and cost/tax distinctions covered."
+  },
+  {
+    "model": "luna",
+    "id": "QL-14",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Public holdings versus actual PCF access correctly separated."
+  },
+  {
+    "model": "luna",
+    "id": "QL-15",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "miss"
+      }
+    ],
+    "missed_or_incomplete": "No LMM designation and quoting commitments.",
+    "material_false_statement_or_note": "Core role distinction covered."
+  },
+  {
+    "model": "luna",
+    "id": "QL-16",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "No explicit board adviser-replacement/liquidation power or role variants.",
+    "material_false_statement_or_note": "Shared infrastructure and control trade-off covered."
+  },
+  {
+    "model": "luna",
+    "id": "QL-17",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "No $100,000 net-worth distinction or filed payer example; retained-margin equation not explicit.",
+    "material_false_statement_or_note": "Contractual payer variation recognized; break-even described verbally rather than with retained fee less variable rate."
+  },
+  {
+    "model": "luna",
+    "id": "QL-18",
+    "verdict": "wrong",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "miss"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "Correct new-series 75-day clock absent.",
+    "material_false_statement_or_note": "Reverses the relevant clock: new series said to be 60 days and initial registration said to be 75 days under section 8(a)."
+  },
+  {
+    "model": "luna",
+    "id": "QL-19",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      },
+      {
+        "point": 3,
+        "status": "partial"
+      },
+      {
+        "point": 4,
+        "status": "hit"
+      },
+      {
+        "point": 5,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "Auditor, counsel, seed capital, PCF, officers and named CCO/38a-1 program omitted.",
+    "material_false_statement_or_note": "Useful infrastructure summary, incomplete launch checklist."
+  },
+  {
+    "model": "luna",
+    "id": "QL-20",
+    "verdict": "wrong",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "miss"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "Adviser continuing expense obligation not recognized.",
+    "material_false_statement_or_note": "Treats sponsor-assumed expenses as exceptions to adviser liability and limits partner obligation to fee remainder, defeating specified loss-bearing model."
+  },
+  {
+    "model": "luna",
+    "id": "QL-21",
+    "verdict": "wrong",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "miss"
+      },
+      {
+        "point": 2,
+        "status": "miss"
+      },
+      {
+        "point": 3,
+        "status": "miss"
+      }
+    ],
+    "missed_or_incomplete": "Brand sponsor shortfall and adviser backstop not distinguished.",
+    "material_false_statement_or_note": "Assigns shortfall to ambiguous adviser/unitary provider, then fund/shareholders on sponsor failure instead of continuing platform-adviser obligation."
+  },
+  {
+    "model": "luna",
+    "id": "QL-22",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Legal underwriter role does not guarantee sales or intermediary access."
+  },
+  {
+    "model": "luna",
+    "id": "QL-23",
+    "verdict": "wrong",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "miss"
+      },
+      {
+        "point": 3,
+        "status": "miss"
+      }
+    ],
+    "missed_or_incomplete": "Master-feeder/nontransparent exclusions not covered correctly.",
+    "material_false_statement_or_note": "Categorically excludes leveraged/inverse ETFs despite 18f-4 route."
+  },
+  {
+    "model": "luna",
+    "id": "QL-24",
+    "verdict": "wrong",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "Redeemability and market-price trading relief omitted; affiliate scope wrong.",
+    "material_false_statement_or_note": "Invents affiliated-index fund-of-funds category and counts affiliate relief twice. Foreign 15-day limit is correct."
+  },
+  {
+    "model": "luna",
+    "id": "QL-25",
+    "verdict": "wrong",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      },
+      {
+        "point": 3,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "Required historical table/graph scope, daily spread timing, seven-day trigger and one-year explanation retention absent.",
+    "material_false_statement_or_note": "Invents trigger of premiums/discounts on more than 2% of days in rolling 30-day period; conflates explanation retention with price history."
+  },
+  {
+    "model": "luna",
+    "id": "QL-26",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "Basket weights/descriptions, cash balancing amount and explicit custom-compliance statement omitted.",
+    "material_false_statement_or_note": "AP-agreement retention and five/two-year periods correct."
+  },
+  {
+    "model": "luna",
+    "id": "QL-27",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      },
+      {
+        "point": 4,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "Departure/revision process not explicit.",
+    "material_false_statement_or_note": "Precise technical custom-basket definition, personnel review and compliance records covered; segregation of duties is extra unsupported detail, not required for credit."
+  },
+  {
+    "model": "luna",
+    "id": "QL-28",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "Two substantially identical grants in three years, formal request/markups/certification and tolling absent.",
+    "material_false_statement_or_note": "Calls 45 days a target and allows one prior application; also confuses no hearing request with Commission decision to order hearing."
+  },
+  {
+    "model": "luna",
+    "id": "QL-29",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Selection/expertise/commitments and temporary seed distinction covered."
+  },
+  {
+    "model": "luna",
+    "id": "QL-30",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "Exclusivity omitted.",
+    "material_false_statement_or_note": "Broad contract, naming and information-controls checklist otherwise sound."
+  },
+  {
+    "model": "luna",
+    "id": "QL-31",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Timing, peers, frictions, participation and corrective options covered."
+  },
+  {
+    "model": "luna",
+    "id": "QL-32",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "miss"
+      },
+      {
+        "point": 4,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "Constant daily fee versus variability distinction not addressed.",
+    "material_false_statement_or_note": "Expense accruals listed without isolating constant daily fee drag; no explicit false claim that fees always raise error."
+  },
+  {
+    "model": "luna",
+    "id": "QL-33",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "US minimum-collateral example and UCITS reinvestment prohibition/restrictions absent.",
+    "material_false_statement_or_note": "Distinct default, collateral and reinvestment risks covered; no guarantee of safety."
+  },
+  {
+    "model": "luna",
+    "id": "QL-34",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      },
+      {
+        "point": 3,
+        "status": "miss"
+      }
+    ],
+    "missed_or_incomplete": "KID/marketing, nondiscrimination, 30-business-day holdings, procedures and conditional iNAV details absent.",
+    "material_false_statement_or_note": "General periodic route recognized but requested current requirements incomplete."
+  },
+  {
+    "model": "luna",
+    "id": "QL-35",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "miss"
+      }
+    ],
+    "missed_or_incomplete": "Constitution/prospectus/KID/marketing placements and historical permission absent.",
+    "material_false_statement_or_note": "Frames class identification as the rule instead of clearly stating sub-fund OR listed-class identifier permission."
+  },
+  {
+    "model": "luna",
+    "id": "QL-36",
+    "verdict": "wrong",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "miss"
+      },
+      {
+        "point": 3,
+        "status": "partial"
+      },
+      {
+        "point": 4,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "Significant-NAV-deviation trigger and regulated-market notification absent.",
+    "material_false_statement_or_note": "Restricts exceptional redemption to secondary-market unavailability and invents cost-only disinvestment limit instead of non-excessive-cost standard."
+  },
+  {
+    "model": "luna",
+    "id": "QL-37",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Coexistence and requested comparison categories covered, broker use implicit in dealing rather than explicit."
+  },
+  {
+    "model": "luna",
+    "id": "QL-38",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "Class-level currency-hedging condition and unchanged dealing frequency not explicit.",
+    "material_false_statement_or_note": "Misattributes CBI Q&A 1030 to ESMA; core express-2026 versus waiver distinction correct."
+  },
+  {
+    "model": "luna",
+    "id": "QL-39",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "partial"
+      },
+      {
+        "point": 4,
+        "status": "miss"
+      }
+    ],
+    "missed_or_incomplete": "Board-approved thresholds/periods, net-of-charges burden and breach notice/assessment incomplete.",
+    "material_false_statement_or_note": "Misreads order-specific partly as individual transaction orders; no harmful-subsidy label for shared tax benefit."
+  },
+  {
+    "model": "luna",
+    "id": "QL-40",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "Does not explicitly say fractional cash can be taxable.",
+    "material_false_statement_or_note": "Transfer, notices and whole-fund versus class distinction covered."
+  },
+  {
+    "model": "luna",
+    "id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+    "verdict": "correct",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "hit"
+      },
+      {
+        "point": 3,
+        "status": "hit"
+      }
+    ],
+    "missed_or_incomplete": "",
+    "material_false_statement_or_note": "Underlying/hedging/basket economics and historical-volume limits covered."
+  },
+  {
+    "model": "luna",
+    "id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      },
+      {
+        "point": 3,
+        "status": "miss"
+      }
+    ],
+    "missed_or_incomplete": "No 115%/105% examples or AP shortfall liability.",
+    "material_false_statement_or_note": "Correct valuation base and non-universality; declines numeric terms instead of guessing."
+  },
+  {
+    "model": "luna",
+    "id": "creation_redemption_004_what_costs_do_the_creation_fee_cover",
+    "verdict": "partial",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "hit"
+      },
+      {
+        "point": 2,
+        "status": "partial"
+      },
+      {
+        "point": 3,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "Waivers/adviser payment and specific fixed-to-provider versus variable-to-fund distinction absent.",
+    "material_false_statement_or_note": "Permits distinct designated recipients and separates AP compensation correctly."
+  },
+  {
+    "model": "luna",
+    "id": "creation_redemption_006_who_are_typically_the_parties_involved_i",
+    "verdict": "wrong",
+    "key_point_assessment": [
+      {
+        "point": 1,
+        "status": "partial"
+      },
+      {
+        "point": 2,
+        "status": "miss"
+      },
+      {
+        "point": 3,
+        "status": "partial"
+      }
+    ],
+    "missed_or_incomplete": "Reviewed distributor/AP, TA and beneficiary pattern absent; Irish contrast only tentative.",
+    "material_false_statement_or_note": "Replaces regulatory clearing-agency definition with generic broker/participant and ETF-only agreement; assumes trust/AP as main form signatories."
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-39",
+  "tier": "B",
+  "answer": "**Cross-subsidization**\n- **Mutual fund \u2192 ETF:** Mutual fund cash redemptions force portfolio sales, generating trading costs and realized gains that can be spread across all holders, including ETF shareholders.\n- **ETF \u2192 mutual fund:** Cash-settled ETF creations and redemptions require trades that burden the shared portfolio, so mutual fund holders can bear those costs. In-kind ETF redemptions can purge low-basis lots, which may benefit everyone.\n\n**Monitoring categories**\n- **Transaction costs:** Attribute spreads, market impact, and commissions to the originating class.\n- **Cash:** Track flow-driven cash balances and allocate cash drag by class.\n- **Gains:** Track realized gains by source (cash vs. in-kind) and by lot selection.\n\n**Conceptual example (illustrative):** A $10M mutual fund redemption that forces a $10M sale of appreciated holdings can realize gains shared across all classes.\n\n**Representative order-specific framework (illustrative):** Tag each order with its class of origin, settlement type (cash or in-kind), and cost components, then allocate accordingly. Thresholds and allocation methods should follow the board-approved policy, not a universal standard.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-obv7c7y5",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for a US fund with ETF and mutual fund classes sharing a portfolio, explain cross-subsidization in both directions and the transaction-cost, cash and gains monitoring categories. Separate conceptual examples from the representative order-specific framework and do not invent universal thresholds."
+      ],
+      "stdout": "haiku-QL-39-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

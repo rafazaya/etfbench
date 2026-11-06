@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b0f4-4072-7293-8f43-81c24e113691"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The fund’s contractual partner—the adviser or other unitary-fee provider—bears the economic shortfall: it must cover fund expenses exceeding the agreed fee revenue. The fund’s service providers are still owed by the fund under their contracts; if the sponsor fails to pay, the fund remains liable (and ultimately shareholders bear the cost)."}}
+{"type":"turn.completed","usage":{"input_tokens":8384,"cached_input_tokens":7296,"cache_write_input_tokens":0,"output_tokens":71,"reasoning_output_tokens":0}}

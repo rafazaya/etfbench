@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-03",
+  "tier": "A",
+  "answer": "**Sponsor economics**\n- **Breakeven AUM:** estimated annual costs (admin, custody, audit, legal, licensing, distribution) divided by net fee after waivers. Track the gap between current AUM and this threshold.\n- **Waiver terms:** how long fee waivers or expense caps last, and the sponsor's willingness to keep absorbing costs.\n- **Sponsor scale:** fund count, shared overhead, and any history of closures.\n\n**Seed capital**\n- **Runway:** whether seed covers losses until breakeven at observed flow rates.\n- **Concentration:** whether a single seed holder controls a large share, since its redemption could trigger a sharp decline.\n- **Organic flows:** net flows excluding seed, to separate genuine demand from sponsor-supplied assets.\n\n**Market health**\n- Trading volume, bid-ask spreads, creation/redemption activity, and active authorized participants.\n- Platform access, such as wirehouse, RIA model portfolio, and brokerage inclusion.\n\nClosure under the 1940 Act requires board approval, so board minutes and filings (N-PORT, N-CEN, prospectus supplements) are useful early signals.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-_ozq81gx",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "For a small, newly launched US '40 Act ETF over its next year, what sponsor-economics and seed-capital indicators would you assess for closure risk? Explain indicators rather than predict a guaranteed closure or survival probability."
+      ],
+      "stdout": "haiku-QL-03-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

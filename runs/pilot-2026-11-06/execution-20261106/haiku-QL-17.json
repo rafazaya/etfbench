@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-17",
+  "tier": "C",
+  "answer": "**Seed vs. expenditure:** Seed capital is sponsor cash invested in fund shares. It is a balance-sheet asset, recovered on redemption, and carries market risk. It is not an expense. Expenditure is cash spent and not recovered.\n\n**One-time (sponsor-paid):** registration and legal, index license setup, platform onboarding, listing, launch marketing.\n\n**Recurring (paid from the unitary fee, sponsor-funded above the cap):** fund administration, custody, transfer agent, audit, compliance, trustee fees, index royalties, market-maker incentives, regulatory filings, platform fees.\n\n**Outside the fee (investor-borne):** trading spreads, taxes, extraordinary litigation.\n\n**Break-even:** Let f be the unitary fee, v the variable cost rate, and F the fixed annual cost. Then break-even AUM = F / (f \u2212 v), which requires f > v. For a target retained margin M, AUM = (F + M) / (f \u2212 v). Seed carrying cost is an opportunity cost, modeled separately.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-e2z9i8u7",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for one ordinary US equity ETF on a third-party platform under a unitary fee, budgeted in USD, which one-time and recurring cost categories and payer allocations should the sponsor establish? Distinguish seed assets from expenditure and explain break-even at a positive retained margin; do not invent a current vendor quote or universal dollar range."
+      ],
+      "stdout": "haiku-QL-17-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

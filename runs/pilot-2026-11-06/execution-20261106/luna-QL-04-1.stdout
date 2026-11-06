@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b0f3-fcc9-7be0-9d30-d7775fa63c1b"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"An ETF’s expense ratio is **not usually charged as a separate bill**. The fund accrues its operating expenses over time and pays them from fund assets. That slightly reduces the fund’s net asset value and, all else equal, its returns.\n\nFor example, a 0.20% annual expense ratio on a $10,000 investment is about $20 per year, though the actual dollar impact varies with the investment’s value. You generally won’t see a distinct expense-ratio debit in your brokerage account. Other costs—such as trading commissions, bid–ask spreads, or taxes—are separate."}}
+{"type":"turn.completed","usage":{"input_tokens":8338,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":127,"reasoning_output_tokens":0}}

@@ -1,0 +1,645 @@
+[
+  {
+    "model": "haiku",
+    "id": "QL-04",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-08",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-07",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-01",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-03",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-09",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-02",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-10",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-05",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-06",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-12",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-15",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-13",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-11",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-16",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-17",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-14",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-18",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-22",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-21",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-20",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-19",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-29",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-26",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-24",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-23",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-31",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-27",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-30",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-34",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-32",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-28",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-25",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-33",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-37",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-38",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-35",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-40",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-36",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "QL-39",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "creation_redemption_004_what_costs_do_the_creation_fee_cover",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "haiku",
+    "id": "creation_redemption_006_who_are_typically_the_parties_involved_i",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-02",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-04",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-01",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-06",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-05",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-10",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-09",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-03",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-08",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-07",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-15",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-12",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-13",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-14",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-16",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-21",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-17",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-18",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-20",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-19",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-22",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-23",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-11",
+    "attempt": 1,
+    "tool_calls": [
+      "command_execution"
+    ],
+    "discarded": true
+  },
+  {
+    "model": "luna",
+    "id": "QL-11",
+    "attempt": 2,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-24",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-25",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-29",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-26",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-31",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-33",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-30",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-35",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-27",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-36",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-28",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-40",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-32",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-38",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-37",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-39",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "creation_redemption_006_who_are_typically_the_parties_involved_i",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "QL-34",
+    "attempt": 1,
+    "tool_calls": [
+      "command_execution"
+    ],
+    "discarded": true
+  },
+  {
+    "model": "luna",
+    "id": "QL-34",
+    "attempt": 2,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "creation_redemption_004_what_costs_do_the_creation_fee_cover",
+    "attempt": 1,
+    "tool_calls": [],
+    "discarded": false
+  },
+  {
+    "model": "luna",
+    "id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+    "attempt": 1,
+    "tool_calls": [
+      "mcp_tool_call"
+    ],
+    "discarded": true
+  },
+  {
+    "model": "luna",
+    "id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+    "attempt": 2,
+    "tool_calls": [],
+    "discarded": false
+  }
+]

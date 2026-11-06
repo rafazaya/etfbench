@@ -1,0 +1,42 @@
+[
+  {
+    "label": "B1",
+    "verdict": "correct",
+    "reason": "Daily NAV accrual and separate payment timing covered."
+  },
+  {
+    "label": "B2",
+    "verdict": "wrong",
+    "reason": "Misses the specified platform-adviser expense backstop."
+  },
+  {
+    "label": "B3",
+    "verdict": "partial",
+    "reason": "Correct flow mechanics but only-mechanisms claim excludes share splits."
+  },
+  {
+    "label": "B4",
+    "verdict": "correct",
+    "reason": "Cost sharing and control constraints covered."
+  },
+  {
+    "label": "B5",
+    "verdict": "partial",
+    "reason": "Correct base but missing 115%/105% reviewed terms and AP shortfall."
+  },
+  {
+    "label": "B6",
+    "verdict": "correct",
+    "reason": "Asset segregation and non-guarantee covered."
+  },
+  {
+    "label": "B7",
+    "verdict": "correct",
+    "reason": "Shared tax mechanism and limits covered."
+  },
+  {
+    "label": "B8",
+    "verdict": "partial",
+    "reason": "No explicit taxable fractional-cash consequence."
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-06",
+  "tier": "B",
+  "answer": "**Short answer:** Yes, potentially, but only indirectly and only if the fund's exemptive relief and portfolio conditions permit it.\n\n**Mechanism:** ETF-class authorized participants redeem creation units in kind, receiving portfolio securities rather than cash. The RIC can choose which low-basis lots to deliver, and under IRC \u00a7852(b)(6) it generally doesn't recognize gain on in-kind distributions in redemption. Because the classes share one portfolio, fewer realized gains reduce the taxable distributions allocated across all classes, including mutual fund classes.\n\n**Limits:**\n- Benefit depends on ETF-class redemption volume and available lots; it isn't guaranteed.\n- Mutual fund class cash redemptions can still force sales that realize gains.\n- Lot selection is constrained by basket rules and the need to keep the portfolio representative.\n- Cross-class fairness rules under Rule 18f-3 and the fund's multi-class plan still apply.\n- Relief varies by fund, so the mechanism must be verified against each fund's own order and prospectus.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-o7icyy4c",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for a US IRS RIC already permitted to operate ETF and mutual fund classes sharing one portfolio, can ETF-class in-kind redemptions benefit mutual fund class shareholders? Explain the mechanism and limits, without assuming every fund has share-class relief."
+      ],
+      "stdout": "haiku-QL-06-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

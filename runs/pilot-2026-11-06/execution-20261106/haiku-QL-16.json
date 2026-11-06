@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-16",
+  "tier": "A",
+  "answer": "For one ordinary ETF with a limited budget, a series-trust platform usually wins on cost and speed. Building your own trust makes sense only if you need governance control the platform can't provide.\n\n**Platform:** The trust already has a board, compliance program, and service providers, and fixed costs are shared across series. You accept the platform's board, vendor choices, and policies, and your fund's reputation and continuity depend partly on the platform.\n\n**Own trust:** You choose trustees, providers, and governance, and avoid platform dependence. But independent trustees, D&O coverage, audit, legal, and compliance costs fall on a single fund, which is hard to justify for one product.\n\n**Diligence either way:** Confirm the fee schedule and minimums, who controls the board and whether it can change, provider lock-in, liability allocation, and exit or wind-down terms. Check that the board will accommodate your strategy, such as derivatives or custom baskets.\n\nNot every sponsor fits this pattern. A sponsor with a distinctive strategy needing bespoke governance may justify its own trust. Most single-fund sponsors should start on a platform.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-u5e9slxi",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "For a new US sponsor planning one ordinary ETF, with limited fixed-cost budget and no existing trust, board or servicing infrastructure, how should it compare a series-trust platform with building its own trust? Include the control trade-off and avoid assuming one answer suits every sponsor."
+      ],
+      "stdout": "haiku-QL-16-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

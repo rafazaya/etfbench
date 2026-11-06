@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b0f4-15e1-7732-b974-4d0906b8474e"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Generally, no. In ordinary dealing, a US ’40 Act ETF issues and redeems shares directly with the fund only in large blocks called **creation units**, and only through authorized participants (typically broker-dealers). Retail investors ordinarily can’t redeem individual shares with the fund.\n\nInstead, they buy and sell ETF shares on an exchange through a broker, at market prices that may differ slightly from the ETF’s net asset value."}}
+{"type":"turn.completed","usage":{"input_tokens":8382,"cached_input_tokens":3968,"cache_write_input_tokens":0,"output_tokens":89,"reasoning_output_tokens":0}}

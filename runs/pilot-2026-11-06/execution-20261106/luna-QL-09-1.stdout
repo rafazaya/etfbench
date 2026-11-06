@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b0f4-157b-72d2-a510-21ba06528dd2"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Authorized participants (APs) increase ETF shares outstanding by delivering a creation basket—cash or securities—to the fund in exchange for large blocks of new shares (“creation units”). They decrease shares outstanding by returning creation-unit shares to the fund and receiving the redemption basket. These transactions occur in the primary market, typically with the ETF, and help align its market price with net asset value. Ordinary investors usually trade existing shares with one another on an exchange; those trades don’t change shares outstanding."}}
+{"type":"turn.completed","usage":{"input_tokens":7501,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":101,"reasoning_output_tokens":0}}

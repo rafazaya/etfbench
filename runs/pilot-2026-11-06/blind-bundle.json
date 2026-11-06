@@ -1,0 +1,105 @@
+[
+  {
+    "label": "B1",
+    "question": "How is an ETF expense ratio collected from investors?",
+    "key_points": [
+      "Operating expenses come out of fund assets and reduce returns; they are indirect investor costs rather than a separate investor bill. The prospectus fee table states the annual expense ratio. [SEC fees bulletin](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated).",
+      "For ETFs, the costs accrue through daily deductions reflected in NAV. The annual rate is not a charge taken in full each day. [ICI, ETF expenses and fees, 2025, section V](https://www.ici.org/files/2025/per31-07.pdf).",
+      "Daily accrual is reflected in NAV; the service provider payment date is contractual and distinct."
+    ],
+    "grader_notes": [
+      "**Confidence: high.** Daily accrual and the service provider's actual payment date are different things; the latter follows the contract."
+    ],
+    "answer": "An ETF's expense ratio is not billed to investors. The fund pays it from its own assets, which lowers the fund's net asset value (NAV) and therefore your returns.\n\n- **Daily accrual:** The fund accrues about 1/365 of the annual expense ratio each day, based on its net assets.\n- **Payment from assets:** The sponsor (the fund company) or its service providers are paid from the fund's assets, often monthly or quarterly.\n- **NAV impact:** The daily accrual is already reflected in the NAV that is published each trading day, so the share price and performance figures you see are net of fees.\n- **No separate charge:** You won't see a line item or receive an invoice, and you don't need to sell shares to pay it.\n\nSeparate costs, such as brokerage commissions, bid-ask spreads, and taxes, are not part of the expense ratio."
+  },
+  {
+    "label": "B2",
+    "question": "As of 2026-11-06, in the US series-trust unitary-fee contractual-partner model where the brand sponsor assumes expenses, who bears the economic shortfall when assets are too small, and who still owes expenses to the fund if the sponsor fails to pay?",
+    "key_points": [
+      "In the specified unitary-fee contractual-partner model, the sponsor/partner bears the economic shortfall from insufficient assets under its cost-assumption arrangement.",
+      "The platform adviser still owes the fund its promised expenses if the partner does not pay.",
+      "Fixed costs can make a small fund unprofitable. This is a contractual allocation, not a universal obligation for shareholders to reimburse sponsor losses."
+    ],
+    "grader_notes": [
+      "Accept equivalent factual wording; do not require citations or an exact checklist order. No new pair-level editorial approval or golden eligibility is conferred."
+    ],
+    "answer": "The fund\u2019s contractual partner\u2014the adviser or other unitary-fee provider\u2014bears the economic shortfall: it must cover fund expenses exceeding the agreed fee revenue. The fund\u2019s service providers are still owed by the fund under their contracts; if the sponsor fails to pay, the fund remains liable (and ultimately shareholders bear the cost)."
+  },
+  {
+    "label": "B3",
+    "question": "How do creations and redemptions change the number of ETF shares outstanding?",
+    "key_points": [
+      "Creation issues new ETF shares to the AP in exchange for a basket, increasing shares outstanding.",
+      "Redemption returns shares to the fund and destroys them, reducing shares outstanding.",
+      "Secondary-market trades transfer existing shares between investors and do not themselves change shares outstanding."
+    ],
+    "grader_notes": [
+      "Accept equivalent factual wording; do not require citations or an exact checklist order. No new pair-level editorial approval or golden eligibility is conferred."
+    ],
+    "answer": "Creations and redemptions are the only mechanisms that change an ETF's shares outstanding, and they run through **authorized participants (APs)**, typically large broker-dealers.\n\n- **Creation:** When demand pushes the ETF's price above its NAV, an AP delivers a basket of the underlying securities (or cash) to the fund and receives a creation unit, often 25,000 to 100,000 shares. Shares outstanding **increase** by that amount.\n- **Redemption:** When the price falls below NAV, an AP returns creation units to the fund and receives the underlying basket (or cash). Shares outstanding **decrease**.\n\nOrdinary secondary-market trades between investors don't change shares outstanding. They only transfer existing shares between buyers and sellers. This arbitrage process is what keeps the ETF's market price close to its NAV."
+  },
+  {
+    "label": "B4",
+    "question": "For a new US sponsor planning one ordinary ETF, with limited fixed-cost budget and no existing trust, board or servicing infrastructure, how should it compare a series-trust platform with building its own trust? Include the control trade-off and avoid assuming one answer suits every sponsor.",
+    "key_points": [
+      "A third-party series trust supplies an existing board, officers and service providers, spreading fixed governance and servicing costs across funds.",
+      "The sponsor gives up control of those parties; the board can replace the adviser or liquidate the fund. The sponsor can be adviser, sub-adviser or contractual partner.",
+      "For a small sponsor seeking one launch without governance infrastructure, a platform is a plausible fit, subject to the control-versus-fixed-cost trade-off."
+    ],
+    "grader_notes": [
+      "Accept equivalent factual wording; do not require citations or an exact checklist order. No new pair-level editorial approval or golden eligibility is conferred.",
+      "No universal platform winner or exact recommendation wording required."
+    ],
+    "answer": "A series-trust platform is usually the lower-fixed-cost route for a first ETF: it can provide an established trust, independent board, and service-provider infrastructure, reducing setup work and ongoing governance burden. Compare the platform\u2019s fees and minimums with the sponsor\u2019s expected scale, and scrutinize its service levels, launch timeline, termination or transition terms, and how much flexibility it allows.\n\nBuilding a proprietary trust offers greater control over governance, policies, provider selection, branding, and future product development\u2014but requires more legal and operational setup, board and compliance support, and recurring expense. For one ordinary ETF, those fixed costs may be hard to justify unless the sponsor expects meaningful scale or values independence enough to pay for it.\n\nThe trade-off is not simply \u201ccheap versus control\u201d: a platform can constrain decisions and create reliance on shared infrastructure, while a standalone trust gives control but also puts the burden of operating and overseeing that infrastructure on the sponsor. Model total costs and operational responsibilities under both paths, then choose based on scale, control priorities, and growth plans."
+  },
+  {
+    "label": "B5",
+    "question": "As of 2026-11-06, in the bank's reviewed US ETF AP agreements, what cash collateral may be required for securities not yet delivered, what value is the percentage applied to, and is it a universal rate?",
+    "key_points": [
+      "Reviewed AP-agreement text describes cash collateral typically at 115% of the value of undelivered securities, with 105% in some forms.",
+      "The approved Custodian section identifies at least 105% under iShares terms. These are agreement examples, not a universal percentage of the entire creation basket.",
+      "The AP remains liable for a shortfall if the fund buys the missing securities itself."
+    ],
+    "grader_notes": [
+      "Accept equivalent factual wording; do not require citations or an exact checklist order. No new pair-level editorial approval or golden eligibility is conferred."
+    ],
+    "answer": "I can't see the specific bank's AP agreements, so I can't confirm its terms. Industry practice generally works like this:\n\n- **Collateral:** When an AP receives creations or redemptions before the underlying securities settle, the bank typically requires cash collateral for the undelivered securities.\n- **Base:** The percentage is usually applied to the current market value of the undelivered securities, marked to market daily.\n- **Rate:** Common levels are around 102% to 105% of market value. Less liquid or international holdings often carry higher rates.\n- **Not universal:** Rates vary by bank, by AP, by asset class, and by the creditworthiness and agreement terms of each counterparty. Some agreements use fixed rates, others use tiered or negotiated ones.\n\nTo answer precisely, check the collateral or \"cash in lieu\" section of the executed agreement, along with any schedules or annexes, since those usually set the exact percentage and base."
+  },
+  {
+    "label": "B6",
+    "question": "As of 2026-11-06, for an ordinary US '40 Act ETF whose fund and adviser/sponsor are separate entities, does sponsor insolvency itself give the sponsor's creditors the portfolio or wipe out the shares? Distinguish asset separation from a guaranteed outcome in every insolvency.",
+    "key_points": [
+      "The portfolio belongs to the fund, separately from its adviser; adviser creditors do not acquire a claim on that portfolio just because the adviser fails. Sponsor failure therefore does not by itself wipe out ETF shares. [ICI presentation to the Federal Reserve, \u201cProtecting Fund Assets \u2014 Custody\u201d](https://www.federalreserve.gov/newsevents/rr-commpublic/ici_meeting_20110104.pdf#page=1).",
+      "Fund assets are held for the fund by a qualified custodian (\u00a717(f)), separately from the adviser's own assets; if the adviser/sponsor fails, the fund's board can appoint a new adviser, merge or liquidate the fund. In a liquidation, shareholders receive their share of net assets, not nothing."
+    ],
+    "grader_notes": [
+      "Asset separation is high confidence; the ordinary insolvency conclusion is medium confidence inference. No guarantee against investment loss; not applicable to ETNs. Board responses are case-specific, supported by Participants rather than the ICI custody source."
+    ],
+    "answer": "No. For an ordinary U.S. \u201940 Act ETF, the portfolio is held for the fund\u2014not owned by its adviser or sponsor. If the sponsor is a separate legal entity, its creditors generally cannot claim fund assets merely because the sponsor becomes insolvent, and sponsor insolvency by itself does not erase ETF shares.\n\nThat is **asset separation**, not a guarantee of an uninterrupted or loss-free outcome. The fund may still face operational disruption, replacement of the adviser, liquidation, trading halts, or losses from market movements, fraud, custody failures, or other legal and factual complications. If the fund itself becomes insolvent or is liquidated, shareholders\u2019 recovery depends on the fund\u2019s assets and liabilities; ETF shares are not insured against loss."
+  },
+  {
+    "label": "B7",
+    "question": "As of 2026-11-06, for a US IRS RIC already permitted to operate ETF and mutual fund classes sharing one portfolio, can ETF-class in-kind redemptions benefit mutual fund class shareholders? Explain the mechanism and limits, without assuming every fund has share-class relief.",
+    "key_points": [
+      "ETF and mutual fund classes own the same portfolio. Removing appreciated, low-basis securities through ETF in-kind redemptions can reduce gains distributed to either class.",
+      "This removes embedded gains, without stepping up the basis of securities left behind. Cash sales can still generate gains; mutual fund cash flows can impose gains and costs on ETF holders.",
+      "The potential shared benefit is not guaranteed and depends on strategy and practical in-kind capacity. The fund-level rule does not exempt investor or AP gains."
+    ],
+    "grader_notes": [
+      "Accept equivalent factual wording; do not require citations or an exact checklist order. No new pair-level editorial approval or golden eligibility is conferred."
+    ],
+    "answer": "**Short answer:** Yes, potentially, but only indirectly and only if the fund's exemptive relief and portfolio conditions permit it.\n\n**Mechanism:** ETF-class authorized participants redeem creation units in kind, receiving portfolio securities rather than cash. The RIC can choose which low-basis lots to deliver, and under IRC \u00a7852(b)(6) it generally doesn't recognize gain on in-kind distributions in redemption. Because the classes share one portfolio, fewer realized gains reduce the taxable distributions allocated across all classes, including mutual fund classes.\n\n**Limits:**\n- Benefit depends on ETF-class redemption volume and available lots; it isn't guaranteed.\n- Mutual fund class cash redemptions can still force sales that realize gains.\n- Lot selection is constrained by basket rules and the need to keep the portfolio representative.\n- Cross-class fairness rules under Rule 18f-3 and the fund's multi-class plan still apply.\n- Relief varies by fund, so the mechanism must be verified against each fund's own order and prospectus."
+  },
+  {
+    "label": "B8",
+    "question": "As of 2026-11-06, for a US mutual fund held directly with the fund that is converting the whole fund into an ETF, what account/transfer steps might an investor need to take? Address notices, deadlines, trading access and fractional shares without assuming a fund-specific timetable or confusing conversion with adding an ETF class.",
+    "key_points": [
+      "A shareholder holding directly with the mutual fund may need to open a brokerage account and transfer the holding before conversion. Some fund accounts cannot hold ETF shares; inaction can leave the investor unable to trade the converted holding until a transfer is arranged. Conversion-notice terms govern deadlines, account eligibility and fractional-share treatment. [SEC conversion bulletin, \u201cWhat do I need to do?\u201d](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/mutual-fund-conversion-exchange-traded-fund).",
+      "Fractional mutual fund shares may be redeemed for cash before conversion because the ETF typically does not issue fractional shares. This can be taxable in a taxable account; the specific conversion notice controls."
+    ],
+    "grader_notes": [
+      "**Confidence: high.** The bulletin describes possible outcomes, not a single mandatory transfer timetable for all conversions."
+    ],
+    "answer": "In a whole-fund conversion, the mutual fund is reorganized into an ETF; this is different from a mutual fund simply adding an ETF share class. The fund\u2019s notice and prospectus/supplement should spell out the process and dates\u2014there is no universal timetable.\n\nAn investor holding shares directly with the fund may need to:\n\n- **Review notices promptly** for the conversion date, any election or response deadline, account restrictions, and what happens if no action is taken. Confirm the fund has current contact and tax-reporting details.\n- **Open or designate a brokerage account** if required. ETF shares generally trade through a broker, unlike directly held mutual-fund shares. Ask the fund or its transfer agent whether it can arrange a brokerage transfer, what information/forms are needed, and whether the investor must initiate it.\n- **Check trading access and timing.** Trading may be unavailable during processing; after conversion, buying or selling generally requires a brokerage account and occurs at market prices during exchange hours, potentially at a premium or discount to NAV.\n- **Ask how fractional shares are handled.** ETFs generally trade in whole shares on exchanges. The plan may cash out a fractional remainder or handle it another way; don\u2019t assume it will transfer intact.\n\nFollow the fund\u2019s own instructions and confirm any account, tax, or transfer implications with the fund/transfer agent and broker."
+  }
+]

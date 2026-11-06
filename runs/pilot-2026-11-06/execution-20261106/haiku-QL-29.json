@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-29",
+  "tier": "C",
+  "answer": "**Selection**\n- What criteria were used to choose the exchange and LMM, and were alternatives compared?\n- Does the LMM have conflicts, such as affiliated trading desks, ownership ties, or competing products?\n- What quoting obligations, spread commitments, and performance metrics apply?\n\n**Relevant-market expertise**\n- Has the LMM made markets in this asset class and liquidity profile?\n- Does it have adequate staffing, technology, and surveillance capacity?\n- What is its record on quoting compliance?\n\n**Capital and seed support**\n- Is the seed a temporary market-maker commitment or lasting investor capital?\n- What are the duration, exit terms, and unwind mechanics?\n- Does any support create fee dependence, exclusivity, or influence over fund decisions? Is it disclosed?\n\n**Temporary vs. lasting**\n- Market-maker seed is typically short-term, inventory-based, and should exit as organic liquidity develops.\n- Investor assets should be judged on durable flows and retention, not on seed.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-8xv9_wrv",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "For a US ETF board's diligence on a proposed exchange/LMM arrangement, what questions should it ask about selection, relevant-market expertise and capital or seed support? Distinguish temporary market-maker seed from lasting investor assets; treat the checklist as suggested inquiry rather than a mandatory approval rule."
+      ],
+      "stdout": "haiku-QL-29-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

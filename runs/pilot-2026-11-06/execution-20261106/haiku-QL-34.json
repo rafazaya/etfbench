@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-34",
+  "tier": "C",
+  "answer": "I can't see the bank draft, so I can't confirm what \"2026 regulations\" or CBI Q&A 1012 (April 2025) say. Please share the text if you need precise citations. The general framework below is from my training knowledge, which predates the 2026 changes.\n\n- **Transparency-policy disclosures:** The fund's prospectus and KIID/KID must state its transparency policy, including whether it publishes full holdings daily or uses a periodic route, and how this relates to tracking and the ETF's market-making model.\n\n- **Daily public holdings:** Standard UCITS ETFs typically publish full portfolio holdings daily on the website, with NAV and indicative values intraday.\n\n- **Conditional periodic-holdings route:** Where permitted, a fund may publish holdings less often (for example, monthly or quarterly) but must provide daily basket or portfolio composition files to authorised participants and market makers so arbitrage works. The exact conditions and frequencies are set by the CBI rules and should be checked against the 2026 text.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-d6o7rp4s",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for an Irish UCITS ETF or ETF share class, distinguish transparency-policy disclosures, daily public holdings and the conditional periodic-holdings route with daily AP/market-maker arbitrage information. Use the 2026 regulations and CBI Q&A 1012 (April 2025) identified in the bank draft."
+      ],
+      "stdout": "haiku-QL-34-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-33",
+  "tier": "C",
+  "answer": "**Borrower default:** The borrower fails to return securities. Controls include borrower credit approval, exposure limits, and indemnified agency lending, where the agent bank covers default losses. The indemnity is only as strong as the indemnifier's credit.\n\n**Collateral shortfall:** Collateral value falls below the loan value through price moves, FX, or collateral issuer stress. Controls include daily mark-to-market, margin calls, haircuts, and over-collateralization (US practice is typically about 102% for cash and 105% for non-US securities).\n\n**Cash reinvestment risk:** Cash collateral is invested and loses value, so the lender cannot return the full cash owed. Controls include conservative eligible-investment guidelines, maturity and liquidity limits, and stress testing.\n\n**Bank's US iShares example:** I don't have that document, so I can't verify its specifics. Share it and I'll map it against these categories.\n\n**UCITS:** Lent securities must be recallable at any time. Collateral and reinvestment rules follow ESMA guidelines, and SFTR requires reporting.\n\nCollateral and indemnities reduce losses but do not eliminate them, particularly in gap moves or when reinvested cash loses value.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-p72v3u4l",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "For ETF securities lending, distinguish borrower/default, collateral-shortfall and cash-reinvestment risks and controls. Separate the bank's US iShares example from UCITS recall/collateral rules; do not promise collateral eliminates losses."
+      ],
+      "stdout": "haiku-QL-33-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

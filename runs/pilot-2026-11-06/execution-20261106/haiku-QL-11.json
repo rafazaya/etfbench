@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-11",
+  "tier": "A",
+  "answer": "I can't see your bank's reviewed US agreement forms, so I can't say how they compare. Here is the rule framework as I understand it, which you should verify against current text.\n\n**Rule 6c-11 counterparties:** The rule defines an authorized participant as a participant in the clearing process of a registered clearing agency (in practice, a DTC/NSCC member, typically a broker-dealer) that has an agreement with the ETF or its service provider. The ETF's basket and creation/redemption mechanics must work through that clearing infrastructure.\n\n**Written agreement:** The rule's definition contemplates an agreement with the ETF or a service provider, but it doesn't prescribe the AP agreement's content. Market practice covers creation/redemption procedures, settlement timing, transmittal of baskets and cash, and indemnities.\n\n**Comparing the bank's forms:** Check (1) which entity is the contracting party (the ETF, its trust, sponsor, or distributor), (2) whether the bank is a DTC/NSCC participant or uses a clearing agent, and (3) whether the forms cover custom baskets and settlement mechanics.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-fgs9tax8",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for a US Rule 6c-11 ETF, what clearing/settlement eligibility and written agreement does an AP need? Distinguish the rule's permitted counterparties from the parties in the bank's reviewed US agreement forms."
+      ],
+      "stdout": "haiku-QL-11-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

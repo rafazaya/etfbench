@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-12",
+  "tier": "C",
+  "answer": "**Are APs paid by the sponsor?** Generally, no. Authorized Participants (usually large broker-dealers) earn money from the spread between an ETF's price and its underlying basket, not from the sponsor. They pay creation and redemption transaction fees, which are meant to cover the fund's trading costs. Sponsors sometimes negotiate specific arrangements, but there is no standard payment to APs.\n\n**Must they keep creating and redeeming?** No. APs have a contractual participant agreement with the fund's distributor, but no legal obligation to create or redeem at any given time. They act when arbitrage is profitable. When an ETF trades at a premium or discount to its net asset value, APs step in to close the gap. If the gap is too costly to arbitrage, as in the March 2020 bond ETF dislocations, they may pull back.\n\nSeparately, exchange-designated market makers may have quoting obligations, but these are distinct from AP creation and redemption duties.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-8qjab1nv",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "Are APs paid by the ETF sponsor, and must they keep creating and redeeming?"
+      ],
+      "stdout": "haiku-QL-12-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

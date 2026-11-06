@@ -6,9 +6,10 @@ The preparation was independently reviewed by Opus and Sol; Rafa then authorized
 a merged provisional pilot and conditional model execution on 2026-11-06.
 [references-reviewed.json](references-reviewed.json) merges both reviews;
 [merge-log.md](merge-log.md) records all changes and qualifications.
-Execution stopped at the strict no-tools gate: Luna still reported callable
-tools. No ETF answers, grades, scores or self-consistency results exist.
-See [results.md](results.md) for the blocker and saved probe evidence.
+Execution is complete under Rafa’s clarified no-search/network-isolation gate.
+All 44 questions ran on both models; three tool-using Luna first answers were
+discarded and retried tool-free. See [results.md](results.md) for provisional
+scores, all-answer grades, the masked eight-answer repeat and isolation evidence.
 No golden data, converter, application code or benchmark configuration changed.
 
 ## Review artifact
@@ -104,3 +105,12 @@ original-question equality, unique IDs, required fields, nonempty points and
 citations, source path existence and content hashes, classification T/V flag
 coverage, and an unchanged `data/goldens/` tree. No runner script was added;
 the commit contains documentation and reference data only.
+
+## Completed execution
+
+The earlier strict-tool-gate paragraphs above and the `execution_status` in
+`references-reviewed.json` describe the preparation stage and are retained as
+history. The controlling execution record is [results.md](results.md).
+Run artifacts live in `execution-20261106/`; `run_pilot.py` collects answers and
+`test_run_pilot.py` tests isolation/audit/retry behavior. Re-running the collector
+incurs model calls and overwrites its execution files; preserve this run first.

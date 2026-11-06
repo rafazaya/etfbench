@@ -204,3 +204,12 @@ Every row includes the common format split and factual restatement of any source
 ## Evidence limits
 
 Read both full JSON reviews and all 44 original pairs. Fresh merge checks inspected Corgi fee terms, CME EFP mechanics and Rule 0-5. Other primary-source verification is inherited from the named reviewers, not claimed as a fresh full source audit. Existing source_manifest hashes describe preparation inputs, not a new approved snapshot. Review file hashes are recorded in merge_provenance.
+
+## Execution continuation — 2026-11-06
+
+Rafa clarified that Luna may retain shell/functions with web search disabled,
+network-disabled sandboxing, empty working directories and transcript auditing.
+The probe passed; all 44 questions/model completed. Three Luna first answers
+used tools, were discarded and retried once without tools; no voids.
+[results.md](results.md) records the scores and limitations. Reviewed references
+remain unchanged and provisional; no golden or vault content changed.

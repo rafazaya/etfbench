@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "creation_redemption_004_what_costs_do_the_creation_fee_cover",
+  "tier": "C",
+  "answer": "**Fund transaction fees (creation/redemption)**\n\n- **Fixed fee:** covers per-order processing costs such as transfer agent, custody, settlement, and operations.\n- **Variable fee:** covers the fund's cost of trading the basket, including bid-ask spreads, market impact, commissions, and transfer taxes or stamp duties. It is set so that remaining shareholders don't bear the cost of the AP's order.\n\n**Who bears them:** The authorized participant (AP) pays the fee on its order. Fees are paid into the fund to offset its costs.\n\n**Recipients:** The fund is the payee, but its service providers (transfer agent, custodian, executing brokers) may be the entities that actually receive payment for specific services. So the payer and the ultimate recipients can differ.\n\n**AP compensation (separate):** The fund doesn't pay the AP a fee. The AP earns arbitrage profit from ETF market price versus basket/NAV, minus its own trading, financing, and hedging costs, and it also pays the transaction fee.\n\nI can't confirm developments after my June 2026 knowledge cutoff, so check each fund's prospectus and current SEC rules as of 2026-11-06.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-x4ko1_z9",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for US ETF creation/redemption transaction charges, what costs do fixed and variable fees cover, who bears them, and may their recipients differ? Distinguish fund charges from AP compensation."
+      ],
+      "stdout": "haiku-creation_redemption_004_what_costs_do_the_creation_fee_cover-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

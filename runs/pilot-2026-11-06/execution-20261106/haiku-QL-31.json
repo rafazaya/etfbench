@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-31",
+  "tier": "C",
+  "answer": "The board should first confirm the measurement. Compare premiums and discounts against contemporaneous NAV and bid/ask midpoints, and check for stale prices, fair-value adjustments, or foreign-market holdings that trade outside US hours.\n\nNext, benchmark against peers. If similar ETFs with overlapping holdings show the same pattern, the cause is more likely market-wide or in the underlying assets than specific to this fund.\n\nThen examine underlying trading frictions, such as holdings liquidity, settlement timing, and creation/redemption constraints.\n\nFinally, review AP and market-maker participation: creation and redemption activity, quoting behavior, and whether capacity or credit limits are binding.\n\nCorrective options, scaled to the findings, could include:\n- Revising fair-value or pricing policies\n- Engaging APs and market makers\n- Adjusting creation baskets or in-kind mechanics\n- Enhancing investor disclosure\n- Updating liquidity risk management\n\nThe board should document its findings and reasoning before concluding that arbitrage has failed.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-quzptz9u",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "For a US equity ETF showing repeated closing premiums or discounts over several weeks in normal markets, what should its board investigate before concluding arbitrage has failed? Check contemporaneous valuation/market hours, peers, underlying trading frictions and AP/market-maker participation; propose inquiry and corrective options rather than a single presumed cause or mandatory numerical trigger."
+      ],
+      "stdout": "haiku-QL-31-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

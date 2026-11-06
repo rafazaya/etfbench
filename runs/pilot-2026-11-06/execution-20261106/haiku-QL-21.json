@@ -1,0 +1,35 @@
+{
+  "model": "haiku",
+  "id": "QL-21",
+  "tier": "A",
+  "answer": "**Shortfall:** The brand sponsor bears it. Under the unitary fee, the sponsor pays the fund's operating expenses from the fee and absorbs any gap when AUM is too small to cover them, so shareholders pay only the fixed fee.\n\n**Sponsor default:** The sponsor still owes the fund under the expense-assumption agreement, and the fund can enforce that contract. The fund's own obligations to service providers don't disappear, though. Those providers can look to the series' assets, which are ring-fenced from other series under the trust's series provisions, and the trustees may need to waive fees, suspend operations, or liquidate the series if assets are insufficient.\n\n**Caveat:** Specifics depend on the trust agreement, the expense agreement, and the sponsor's contract terms, so check those documents for the actual allocation of liability. This is general industry context, not legal advice.",
+  "void": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-answer-8l4qf6_e",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert in 150 words or fewer, as of 2026-11-06.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, in the US series-trust unitary-fee contractual-partner model where the brand sponsor assumes expenses, who bears the economic shortfall when assets are too small, and who still owes expenses to the fund if the sponsor fails to pay?"
+      ],
+      "stdout": "haiku-QL-21-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}
