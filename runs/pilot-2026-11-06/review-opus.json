@@ -1,0 +1,430 @@
+{
+ "reviewer": "Claude Opus 5.5 (claude-opus-5-5)",
+ "reviewed_on": "2026-11-06",
+ "input": "runs/pilot-2026-11-06/references.json (44 pairs)",
+ "independence": "Did not read review-sol.json.",
+ "summary": {
+  "counts": {
+   "fix": 8,
+   "accept": 36
+  },
+  "most_important_problems": [
+   "Several references contain source notes or citations-in-prose instead of answer content (capital_markets_001, creation_redemption_004, QL-12). A grader cannot score against a pointer to a fact.",
+   "QL-36 cites only the 2014 ESMA guidelines; the current Irish source is S.I. 316 of 2026 Reg 90 (in force 7 July 2026).",
+   "QL-25 misstates the 2% deviation explanation as 'retained' for a year; the rule requires it to stay on the website for at least one year.",
+   "QL-11 omits Rule 6c-11(a)(1)'s clearing-agency definition of an AP, which the question asks for.",
+   "Format issue across Tier C: 'Confidence', 'Do not…' and 'Proposed' text is mixed into key points. In the next format, split it into key_points versus grader_notes, so the hidden reference states what a correct answer contains and separately what not to penalise or credit."
+  ],
+  "verified_current_as_of_2026-11-06": [
+   "S.I. 316/2026 Regs 26(2), 88 and 90 (text extracted from the CBI PDF)",
+   "CBI UCITS Q&A: the 42nd edition (Apr 2025) is still current; the 41st (Nov 2024) introduced class-level naming",
+   "Rule 6c-11 (a)(1), (b)(3), (c)(1)(vi), (d): no amendment since 2020",
+   "Rule 0-5 (a)–(f)",
+   "Rule 485(a)(1)–(3)",
+   "Corgi SAI creation/redemption fee terms"
+  ],
+  "not_verified": [
+   "investor.gov bulletins (403)",
+   "ESMA paragraph numbers in QL-33",
+   "One + One liquidation filing, Lazard correspondence, Simplify filing, IDC/ICI pages (taken as cited)"
+  ],
+  "decision_points": {
+   "QL-17_QL-18_narrowings": "Accept both as narrowed, flagged tasks: their references are correct and gradeable. Record that they do not measure the original cost and time questions. Those need Rafa-vouched, dated ranges if he wants them benchmarked.",
+   "QL-26_source_supplement": "Accept. Rule 6c-11(d)(1) does require retaining all written AP agreements for five years, the first two easily accessible (verified). Add the line to Market Mechanics before any golden release.",
+   "creation_fee_tier_C": "Accept Tier C for the pilot, with the fix above that spells out the vouched waiver. The fee direction and purpose are already Tier B in Market Mechanics; only the recipient split (custodian vs fund) needs the Tier C correction, and the Corgi filing confirms it. Before golden use, Rafa should approve the inbox correction and remove or fix the Participants AP 'Costs' line that says the AP recoups costs through the fees."
+  },
+  "for_rafa_as_practitioner": [
+   "QL-17/18: do you want to vouch typical white-label launch cost and annual minimums, and a typical end-to-end launch time, so the original questions can be benchmarked?",
+   "QL-12: apart from fee waivers, do sponsors ever pay APs directly (for example for custom or heartbeat activity)? If so, 'the sponsor does not pay the AP' needs qualifying.",
+   "QL-22: do platforms commonly sell marketing and distribution as add-ons?",
+   "The excluded 'maximum variable redemption fee' item: the Corgi SAI allows up to 3%, which shows there is no universal 2% cap under Rule 6c-11 (2% is the old exemptive-order and Rule 22c-2 figure). Rafa could vouch whether 2% remains the market norm, which would revive that question."
+  ]
+ },
+ "pairs": [
+  {
+   "id": "QL-01",
+   "verdict": "fix",
+   "issues": [
+    "Key points give the conclusion but not the mechanism a grader most expects: custody of fund assets with a separate qualified custodian, and the board's power to replace the adviser or liquidate. Both are already in the bank (Participants: The fund — Custodian, §17(f); Sponsor — Risks)."
+   ],
+   "fixes": {
+    "add_key_point": "Fund assets are held for the fund by a qualified custodian (§17(f)), separately from the adviser's own assets; if the adviser/sponsor fails, the fund's board can appoint a new adviser, merge or liquidate the fund. In a liquidation, shareholders receive their share of net assets (see QL-02), not nothing."
+   },
+   "verified": [
+    "Participants, The fund — Connections (custodian §17(f)) and Sponsor — Risks (board can replace adviser or liquidate)"
+   ]
+  },
+  {
+   "id": "QL-02",
+   "verdict": "accept",
+   "issues": [],
+   "verified": [
+    "Tier C content consistent with Participants, The fund — Risks ('A liquidation is taxable for shareholders')"
+   ]
+  },
+  {
+   "id": "QL-03",
+   "verdict": "accept",
+   "issues": [
+    "Tier A support confirmed in Participants Sponsor — Economics/Risks. Sharpened question appropriately removes the probability prediction."
+   ],
+   "verified": []
+  },
+  {
+   "id": "QL-04",
+   "verdict": "accept",
+   "issues": [],
+   "verified": []
+  },
+  {
+   "id": "QL-05",
+   "verdict": "accept",
+   "issues": [],
+   "verified": [
+    "ETF Tax Efficiency and Participants, The fund — Tax treatment (§852(b)(6) covers mutual funds too)"
+   ]
+  },
+  {
+   "id": "QL-06",
+   "verdict": "accept",
+   "issues": [
+    "Currency OK: SEC share-class orders granted from late 2025 and through 2026; sharpened question correctly assumes relief rather than presuming it."
+   ],
+   "verified": []
+  },
+  {
+   "id": "QL-07",
+   "verdict": "accept",
+   "issues": [],
+   "verified": []
+  },
+  {
+   "id": "QL-08",
+   "verdict": "accept",
+   "issues": [],
+   "verified": []
+  },
+  {
+   "id": "QL-09",
+   "verdict": "accept",
+   "issues": [],
+   "verified": []
+  },
+  {
+   "id": "QL-10",
+   "verdict": "accept",
+   "issues": [
+    "Excluding liquidation/reorganisation exceptions is a fair, flagged narrowing. Consistent with Participants, ETF investor."
+   ],
+   "verified": []
+  },
+  {
+   "id": "QL-11",
+   "verdict": "fix",
+   "issues": [
+    "The sharpened question asks for clearing/settlement eligibility, but the key points cite only the reviewed forms. Rule 6c-11(a)(1) itself defines an AP as a member or participant of an SEC-registered clearing agency with a written agreement with the ETF or a service provider. That is the regulatory baseline and belongs in the reference. Verified on Cornell LII on 2026-11-06."
+   ],
+   "fixes": {
+    "replace_key_point_1": "Rule 6c-11(a)(1) defines an AP as a member or participant of an SEC-registered clearing agency that has a written agreement with the ETF or one of its service providers allowing it to place creation/redemption orders."
+   },
+   "verified": [
+    "17 CFR 270.6c-11(a)(1), Cornell LII, 2026-11-06"
+   ]
+  },
+  {
+   "id": "QL-12",
+   "verdict": "fix",
+   "issues": [
+    "'The ETF/sponsor does not pay the AP' needs Rafa's vouched qualification from Market Mechanics: sponsors often waive the fund's creation/redemption fee on custom redemptions, so the sponsor absorbs a cost the AP would otherwise bear. A model that mentions sponsor-funded fee waivers should not be marked wrong.",
+    "Meta text ('See the fee-conflict proposal below') refers to the inbox layout and should not appear in a reference."
+   ],
+   "fixes": {
+    "replace_key_point_2": "Confidence: high. The fund's transaction fee is a cost charged to the AP, not AP compensation. Sponsors/advisers may waive or pay that fee (Rafa, vouched: often on custom redemptions). That subsidises the AP's cost on particular transactions; it is not a retainer for AP status. A separate market-maker/LMM quoting arrangement is a different question."
+   },
+   "verified": [
+    "ETF Market Mechanics, Baskets (vouched waiver)"
+   ]
+  },
+  {
+   "id": "QL-13",
+   "verdict": "accept",
+   "issues": [],
+   "verified": []
+  },
+  {
+   "id": "QL-14",
+   "verdict": "accept",
+   "issues": [
+    "Verified that Rule 6c-11(c) requires holdings disclosure, not basket publication."
+   ],
+   "verified": [
+    "17 CFR 270.6c-11(c), 2026-11-06"
+   ]
+  },
+  {
+   "id": "QL-15",
+   "verdict": "accept",
+   "issues": [
+    "The source (Participants AP and LMM sections) is general-knowledge prose that has not been reviewed yet ('pending Rafa's review'). Tier B is correct under the policy, but this pair is weaker than other Tier B pairs."
+   ],
+   "verified": []
+  },
+  {
+   "id": "QL-16",
+   "verdict": "accept",
+   "issues": [],
+   "verified": []
+  },
+  {
+   "id": "QL-17",
+   "verdict": "accept",
+   "issues": [
+    "This is a material narrowing, and it is flagged. The pair no longer tests the original question (a dollar cost), which is what practitioners usually want answered. The narrowed reference is correct: §14(a) $100,000; break-even = fixed costs ÷ (retained fee − variable cost rate) when that margin is positive.",
+    "Tier C. The Lazard correspondence is a single example."
+   ],
+   "ruling": "Accept the narrowed task for the pilot, but record it as not measuring the original question. Rafa could restore the original by vouching a dated range (for example one-time launch cost and annual platform minimum on a white-label trust)."
+  },
+  {
+   "id": "QL-18",
+   "verdict": "accept",
+   "issues": [
+    "This is a material narrowing, and it is flagged. Rule 485(a) verified: 60 days by default; 75 days for a new series; a designated later date is capped at 80/95 days; the SEC may accelerate."
+   ],
+   "ruling": "Accept the narrowing: it is gradeable and correct. The original question ('how long does a launch take') needs a vouched practitioner range to be benchmarked. Optional addition: 'a designated later effective date can be at most 95 days after filing for a new-series amendment'.",
+   "verified": [
+    "17 CFR 230.485(a)(1)–(3), Cornell LII, 2026-11-06"
+   ]
+  },
+  {
+   "id": "QL-19",
+   "verdict": "accept",
+   "issues": [],
+   "verified": []
+  },
+  {
+   "id": "QL-20",
+   "verdict": "accept",
+   "issues": [],
+   "verified": []
+  },
+  {
+   "id": "QL-21",
+   "verdict": "accept",
+   "issues": [],
+   "verified": []
+  },
+  {
+   "id": "QL-22",
+   "verdict": "accept",
+   "issues": [
+    "The narrowing is reasonable. Rafa should confirm the practical implication as a practitioner: whether white-label platforms typically sell marketing or distribution as an optional add-on."
+   ],
+   "verified": []
+  },
+  {
+   "id": "QL-23",
+   "verdict": "accept",
+   "issues": [
+    "Currency checked: as of 2026-11-06, Rule 6c-11 has not been amended since 2020 (85 FR 83291). Share-class ETFs proceed under exemptive orders (multiple grants in 2025–26, plus a March 2026 broker trading-relief order). The reference stays correct."
+   ],
+   "verified": [
+    "Cornell LII amendment history; Federal Register 2026 share-class notices"
+   ]
+  },
+  {
+   "id": "QL-24",
+   "verdict": "accept",
+   "issues": [
+    "Rule 6c-11(b)(3) verified: 5% voting holding of the ETF, or of an investment company that is an affiliate of the ETF. 'Specified 5% voting holdings' is accurate enough to grade against."
+   ],
+   "verified": [
+    "17 CFR 270.6c-11(b), 2026-11-06"
+   ]
+  },
+  {
+   "id": "QL-25",
+   "verdict": "fix",
+   "issues": [
+    "'explanation retained at least a year' misstates the rule. The statement and discussion must be posted on the website and kept there for at least one year (6c-11(c)(1)(vi)). It is a website-maintenance requirement, not a records-retention one."
+   ],
+   "fixes": {
+    "replace_in_key_point_1": "…requires a website statement discussing the factors reasonably believed to have contributed, maintained on the website for at least one year thereafter."
+   },
+   "verified": [
+    "17 CFR 270.6c-11(c)(1)(vi), 2026-11-06"
+   ]
+  },
+  {
+   "id": "QL-26",
+   "verdict": "accept",
+   "issues": [
+    "The supplement is correct. Rule 6c-11(d) verified: five years, the first two easily accessible. (d)(1) covers all written AP agreements; (d)(2) covers basket records, with exactly the four items listed."
+   ],
+   "verified": [
+    "17 CFR 270.6c-11(d), 2026-11-06"
+   ],
+   "ruling": "Accept the supplement. Recommend adding the AP-agreement retention line to Market Mechanics, 'Basket controls and publication', so that a future release does not depend on a reviewer-side completion."
+  },
+  {
+   "id": "QL-27",
+   "verdict": "accept",
+   "issues": [],
+   "verified": []
+  },
+  {
+   "id": "QL-28",
+   "verdict": "fix",
+   "issues": [
+    "Rule 0-5 verified (two substantially identical grants within three years; 45 days to notice or an ineligibility notice; the clock is tolled for amendments). One imprecision: after the notice period, the order issues unless the Commission orders a hearing (0-5(b)). 'An order can follow' understates that default."
+   ],
+   "fixes": {
+    "replace_in_key_point_1": "after notice, interested persons can request a hearing; unless the Commission orders one, an order is issued after the notice period."
+   },
+   "verified": [
+    "17 CFR 270.0-5(a)–(f), Cornell LII, 2026-11-06"
+   ]
+  },
+  {
+   "id": "QL-29",
+   "verdict": "accept",
+   "issues": [],
+   "verified": []
+  },
+  {
+   "id": "QL-30",
+   "verdict": "accept",
+   "issues": [],
+   "verified": []
+  },
+  {
+   "id": "QL-31",
+   "verdict": "accept",
+   "issues": [],
+   "verified": []
+  },
+  {
+   "id": "QL-32",
+   "verdict": "accept",
+   "issues": [],
+   "verified": []
+  },
+  {
+   "id": "QL-33",
+   "verdict": "accept",
+   "issues": [
+    "ESMA paragraph numbers not re-verified. The content matches the guidelines as generally stated."
+   ],
+   "verified": []
+  },
+  {
+   "id": "QL-34",
+   "verdict": "accept",
+   "issues": [
+    "Verified: S.I. 316 of 2026 (in force 7 July 2026) Reg 88(3)–(4) is exactly as stated. The 42nd edition (April 2025) is still the current CBI UCITS Q&A as of 2026-11-06, and Q&A 1012 there is the transparency route."
+   ],
+   "verified": [
+    "S.I. 316/2026 text (pdftotext); CBI UCITS guidance page"
+   ]
+  },
+  {
+   "id": "QL-35",
+   "verdict": "accept",
+   "issues": [
+    "Verified: Reg 88(1)–(2) allows the identifier at sub-fund or listed-class level and requires listed and unlisted classes to be clearly distinguished; Reg 88(5) bars non-ETFs from using 'ETF'. The 41st Q&A edition (Nov 2024) revised 1016/1088 to allow class-level naming, so the draft is right that this was not new in 2026. Several law-firm summaries describe it as a 2026 change, so expect some models to say so; the reference correctly treats that as inaccurate."
+   ],
+   "verified": [
+    "S.I. 316/2026 Reg 88; CBI 41st-edition notice"
+   ]
+  },
+  {
+   "id": "QL-36",
+   "verdict": "fix",
+   "issues": [
+    "The question asks for the Irish framework as of 2026-11-06, but the reference cites only the 2014 ESMA guidelines. The rules are now codified in S.I. 316 of 2026 Reg 90: the mandatory prospectus/marketing statement that units cannot usually be sold back (90(1)); the direct-redemption right when the price varies significantly from NAV (90(2)); notifying the regulated market (90(3)); disclosure of process and costs, with costs 'not excessive' (90(4)). The substance is unchanged, but the current source should be cited."
+   ],
+   "fixes": {
+    "add_key_point": "Current Irish source: 2026 CBI UCITS Regulations, Reg 90. Prospectus and marketing must carry the prescribed warning that secondary-market units cannot usually be sold back to the fund (90(1)); where the stock-exchange value varies significantly from NAV, secondary-market holders may sell directly back (90(2)); the regulated market is told (90(3)); the prospectus discloses process and costs, and costs must not be excessive (90(4))."
+   },
+   "tier_note": "This is a primary-source supplement like QL-26. Keep Tier B and disclose the supplement.",
+   "verified": [
+    "S.I. 316/2026 Reg 90 text"
+   ]
+  },
+  {
+   "id": "QL-37",
+   "verdict": "accept",
+   "issues": [],
+   "verified": []
+  },
+  {
+   "id": "QL-38",
+   "verdict": "accept",
+   "issues": [
+    "Verified word for word: Reg 26(2) requires the same dealing procedures and frequencies, but a UCITS ETF may have different cut-offs for cash and in-kind dealing, and for hedged and unhedged classes where hedging is at class level. The reference is exact."
+   ],
+   "verified": [
+    "S.I. 316/2026 Reg 26(2)"
+   ]
+  },
+  {
+   "id": "QL-39",
+   "verdict": "accept",
+   "issues": [],
+   "verified": []
+  },
+  {
+   "id": "QL-40",
+   "verdict": "accept",
+   "issues": [
+    "investor.gov returned 403 to the fetch, so the bulletin wording is not re-verified. The content is plausible and consistent."
+   ],
+   "verified": []
+  },
+  {
+   "id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+   "verdict": "fix",
+   "issues": [
+    "The key points describe source notes ('The QL-07 draft links…', 'The bank's LMM section says…') rather than stating the answer. A grader needs content statements.",
+    "The sharpened question names the three drivers to discuss, which hands the model the answer and narrows the question materially. The change note says this, but the reference should not penalise other legitimate drivers.",
+    "The LMM 'Costs' line is unreviewed general-knowledge prose."
+   ],
+   "fixes": {
+    "replace_key_points": [
+     "Spreads reflect the liquidity and trading cost of the underlying holdings: less liquid or wider-spread underlyings mean wider ETF quotes.",
+     "Market makers earn the spread and pay their hedging and creation/redemption costs out of it, so those costs feed into the quoted spread.",
+     "Historical exchange volume measures trading in existing shares; APs can create or redeem, so volume alone does not measure spread or capacity for a new order. This is a qualitative account, not a quantitative spread model."
+    ],
+    "grader_note": "Do not penalise other well-reasoned drivers (volatility, underlying market closed during ETF trading hours, number of competing market makers), but they are not required."
+   }
+  },
+  {
+   "id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+   "verdict": "accept",
+   "issues": [
+    "Approved AP lines and Custodian section support it (115%; 105% in some forms; iShares at least 105%)."
+   ],
+   "verified": []
+  },
+  {
+   "id": "creation_redemption_004_what_costs_do_the_creation_fee_cover",
+   "verdict": "fix",
+   "issues": [
+    "Key point 3 refers to 'Rafa's vouched observation' without stating it, so a grader cannot use it.",
+    "Corgi SAI verified: a fixed $300 fee is payable to the custodian or another service provider and may be waived or paid by the adviser; the variable fee (up to 2% or 3%) for cash/non-standard orders covers the fund's trading costs and taxes."
+   ],
+   "fixes": {
+    "replace_key_point_3": "Sponsors often waive the fund's creation/redemption fee for the AP on custom redemptions, so the sponsor rather than the AP absorbs that cost (Rafa, vouched; ETF Market Mechanics).",
+    "grader_note": "Do not credit claims that the fund's fee reimburses or compensates the AP (the unreviewed AP 'Costs' line in Participants says this; the correction is pending)."
+   },
+   "verified": [
+    "Corgi ETF Trust I N-1A/A, SAI 'Creation/Redemption Transaction Fees', 2026-11-06"
+   ]
+  },
+  {
+   "id": "creation_redemption_006_who_are_typically_the_parties_involved_i",
+   "verdict": "accept",
+   "issues": [],
+   "verified": []
+  }
+ ]
+}
