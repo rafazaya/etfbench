@@ -1,0 +1,102 @@
+# ETFBench reference preparation — 2026-11-06
+
+**provisional, not goldens**
+
+Rafa changed the task on 2026-11-06 to preparation only. No ETF model answers,
+grades, scores or self-consistency results exist. Stop here for independent
+Opus and Sol review of every pair. Model execution is a separate future task.
+No golden data, converter, application code or benchmark configuration changed.
+
+## Review artifact
+
+[references.json](references.json) is the single question/reference review file:
+44 pairs (all 40 QL questions plus 4 legacy questions), and 8 explicit legacy
+exclusions. All 52 candidates are accounted for exactly once. Legacy IDs are
+the existing IDs, retained for traceability without promoting those candidates.
+
+- Tier A: 8 pairs, based on Rafa-approved Participants sections/lines.
+- Tier B: 12 pairs, based on other bank sections, including source-checked
+  share-class material whose separate editorial approval was not established.
+- Tier C: 24 pairs, requiring the unapproved 2026-11-05 inbox research drafts.
+
+Each pair preserves the original question, a sharpened question where needed,
+a change note, tier, requested answer date, reference key points and citations.
+Use the sharpened question if present; otherwise use the original. References
+must remain hidden from tested models. Mixed pairs carry the least-approved tier
+needed for their answer. Citations inside Tier C key points are retained from
+the drafts, including confidence levels and qualifications; these are not new
+endorsements. The bank/source paths and SHA-256 hashes identify the inputs used,
+without copying entire vault notes.
+
+## Wording and exclusions
+
+39 questions were sharpened. Original wording is unchanged only for QL-04,
+QL-08, QL-09, QL-12 and QL-15. The other 35 QL questions and all 4 included
+legacy questions have explicit scope, assumptions, dates or grading constraints.
+This includes every classification-table V flag and every T flag; all records
+also carry `answer_as_of: 2026-11-06`. Judgment prompts ask for the reference
+checklist/trade-offs rather than an unscoped recommendation. No difficulty
+calibration or score is assigned.
+
+The 8 legacy exclusions are recorded with their full original IDs, wording and
+individual reasons in `excluded`: top-five LMM ranking, most-frequent negotiated-
+basket asset class, Fidelity workflow, T−1 order-process rationale, maximum
+variable redemption fee, non-standard-order approval definition, top-three
+issuer ranking and WisdomTree strategy description. Neither lists of firms nor
+related mechanics substitute for the missing ranking, contractual or brand facts.
+
+## Review decisions
+
+1. **QL-17 and QL-18 are material narrowings.** The existing drafts do not supply
+   a defensible current all-in launch-price range or universal commercial launch
+   duration. QL-17 instead asks for budget categories/payers and a qualified
+   break-even model; QL-18 asks about the documented new-series filing clock.
+   Rafa/reviewers should accept these revised tasks or exclude them pending
+   additional research; do not grade a model as missing an unsupported quote.
+2. **QL-26 has a disclosed source supplement.** The bank's basket-records
+   paragraph omits AP-agreement retention. Its explicitly linked Rule 6c-11(d)(1)
+   was directly inspected on 2026-11-06 to complete the key points. Tier B here
+   describes the bank-linked reference, not newly approved bank prose. Reviewers
+   must accept this supplementation or request a bank update/exclusion.
+3. **Creation-fee conflict remains unapproved.** The legacy fee pair uses Tier C
+   inbox correction, with explicit payer/recipient distinctions. It does not
+   silently resolve or edit the contradictory AP Economics section in the vault.
+4. **Tier A is not golden eligibility.** Even approved material still lacks a
+   reviewed versioned claim release and pair-level review. QL-06 and QL-39 remain
+   conservatively B because source-checking alone does not establish approval.
+
+## Method and limits
+
+Read CLAUDE.md, IMPLEMENTATION_PLAN.md, ai/knowledge-bank-decisions.md and the
+full questions.md, including classification, mappings and flags. Read the ETF
+Participants, Market Mechanics, Tax Efficiency, Structure and Regulation,
+Share Class Structure and Share Class Board Considerations notes, the question
+research drafts/fee correction in ETF inbox, and Participants review evidence.
+References closely paraphrase those materials or preserve draft bullet text;
+no new external-demand questions were added. Tier C is intentionally unapproved.
+
+The answer date is a requested evaluation cutoff, **not a certification that all
+linked laws, contracts or access channels were freshly verified on that date**.
+Most references inherit the bank/drafts' research dates and limitations; only
+the QL-26 source-level completion was additionally inspected for this artifact.
+No new broad legal, tax or market research was performed. Reviewers should check
+currency and exact source wording independently, especially conditional Irish
+rules, US relief and contract examples. Cases originally mapped to both regimes
+are sometimes narrowed to US because that is the defensible reference scope;
+this set is not balanced or statistically representative. Related questions
+remain related and should not be treated as independent evidence in a later
+performance estimate or split across training and evaluation by paraphrase.
+
+Before the plan change, only two CLI availability probes ran in empty temporary
+directories: Haiku reported NONE with `--tools ""` and strict empty MCP config;
+Luna still reported callable functions/collaboration tools despite disabling
+web, shell and multiple feature flags. Neither probe asked an ETF question or
+called a model tool. No ETF model run is authorized by this preparation. A
+future operator must resolve Luna's tool-exposure gate before attempting a
+strict no-tools evaluation. No packages, API-key judge or DeepEval run was used.
+
+Validation for this preparation: JSON parse, exact 40+12 candidate coverage,
+original-question equality, unique IDs, required fields, nonempty points and
+citations, source path existence and content hashes, classification T/V flag
+coverage, and an unchanged `data/goldens/` tree. No runner script was added;
+the commit contains documentation and reference data only.

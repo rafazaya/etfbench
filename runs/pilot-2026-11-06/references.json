@@ -1,0 +1,956 @@
+{
+  "status": "provisional, not goldens",
+  "prepared_on": "2026-11-06",
+  "model_runs_authorized": false,
+  "tier_policy": "A: Rafa-approved sections established by task context and Participants review records. B: other existing bank sections; source-checking alone is not treated as Rafa editorial approval. C: unapproved 2026-11-05 inbox drafts. Mixed pairs use the least-approved tier required (C over B over A). QL-26 explicitly supplements bank prose from its own linked rule; review required.",
+  "pairs": [
+    {
+      "id": "QL-01",
+      "original_question": "What happens to an ETF's assets if its sponsor goes bankrupt?",
+      "sharpened_question": "As of 2026-11-06, for an ordinary US '40 Act ETF whose fund and adviser/sponsor are separate entities, does sponsor insolvency itself give the sponsor's creditors the portfolio or wipe out the shares? Distinguish asset separation from a guaranteed outcome in every insolvency.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "The portfolio belongs to the fund, separately from its adviser; adviser creditors do not acquire a claim on that portfolio just because the adviser fails. Sponsor failure therefore does not by itself wipe out ETF shares. [ICI presentation to the Federal Reserve, “Protecting Fund Assets — Custody”](https://www.federalreserve.gov/newsevents/rr-commpublic/ici_meeting_20110104.pdf#page=1).",
+        "**Confidence: high** for asset separation; **medium** for the resulting insolvency conclusion, which is an inference for an ordinary separate fund/adviser structure. This is not a guarantee against investment losses or a conclusion about every insolvency case. Do not extend it to an ETN, which is issuer debt. A successor adviser, merger or liquidation is case-specific, not established by this source."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-01, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "QL-02",
+      "original_question": "Does an investor lose the investment when an ETF closes?",
+      "sharpened_question": "As of 2026-11-06, what normally happens to a US '40 Act ETF investor's holding when the ETF liquidates? Distinguish receiving remaining proceeds from losing the whole investment, and address amount, timing and taxable-account consequences without assuming a fund-specific timetable.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Closure normally means selling the assets and paying the remaining proceeds proportionately to shareholders. It does not automatically mean losing the whole investment; the amount and payment date can differ from the last NAV or exchange price. An investor can normally sell before trading ends. [SEC fund-liquidation bulletin](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-96).",
+        "In one filed 2026 liquidation, shareholders receive NAV after charges, taxes, expenses and liabilities, with possible final income/gain distributions; taxable holders can realize a gain or loss. [One + One ETF liquidation supplement, March 13, 2026](https://www.sec.gov/Archives/edgar/data/1884021/000121390026027879/ea0281711-02_497.htm). General tax principle: liquidation distributions recover basis, with excess taxable as capital gain; a loss may await the final distribution. [IRS Publication 550, “Liquidating Distributions”](https://www.irs.gov/publications/p550).",
+        "**Confidence: high.** The filing is an example, not a universal liquidation timetable or allocation of closing costs."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-02, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "QL-03",
+      "original_question": "How can an investor assess whether a small or new ETF is likely to close?",
+      "sharpened_question": "For a small, newly launched US '40 Act ETF over its next year, what sponsor-economics and seed-capital indicators would you assess for closure risk? Explain indicators rather than predict a guaranteed closure or survival probability.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "A",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Fixed operating costs mean a small fund can lose money at any reasonable fee; small and young funds are exposed to closure risk.",
+        "The sponsor bears break-even risk through the entity paying costs. Assess its willingness and ability to support losses, rather than treating size alone as a guaranteed closure prediction.",
+        "Market-maker seed is temporary inventory that can be redeemed; investor seed is more lasting, but subsidized seed investors can leave. A series-trust board can replace the adviser or liquidate the fund."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "Sponsor — Economics / Risks"
+        }
+      ]
+    },
+    {
+      "id": "QL-04",
+      "original_question": "How is an ETF expense ratio collected from investors?",
+      "sharpened_question": null,
+      "change_note": "",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Operating expenses come out of fund assets and reduce returns; they are indirect investor costs rather than a separate investor bill. The prospectus fee table states the annual expense ratio. [SEC fees bulletin](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated).",
+        "For ETFs, the costs accrue through daily deductions reflected in NAV. The annual rate is not a charge taken in full each day. [ICI, ETF expenses and fees, 2025, section V](https://www.ici.org/files/2025/per31-07.pdf).",
+        "**Confidence: high.** Daily accrual and the service provider's actual payment date are different things; the latter follows the contract."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-04, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "QL-05",
+      "original_question": "Why can an ETF be more tax efficient than a mutual fund holding the same stocks?",
+      "sharpened_question": "As of 2026-11-06, why can an in-kind US equity ETF taxed as an IRS RIC distribute fewer capital gains than a standalone cash-dealing mutual fund holding the same stocks, for a US taxable investor? State the limits of the tax benefit.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "B",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "An in-kind redemption transfers appreciated securities instead of selling them for cash; IRC 852(b)(6) provides fund-level nonrecognition on a qualifying shareholder-demanded redemption.",
+        "Low-basis lots can leave the portfolio, reducing embedded gains and subsequent distributions. Mutual fund cash redemptions more often require portfolio sales.",
+        "This is not an ETF-only legal exemption, a guarantee of no distributions, or exemption of the investor from tax on selling shares. In-kind benefits depend on deliverable assets and the transaction."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Tax Efficiency.md",
+          "section": "The ETF mechanism: in-kind redemptions; Limits"
+        },
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Share Class Structure.md",
+          "section": "Tax mechanism and limits (qualifications)"
+        }
+      ]
+    },
+    {
+      "id": "QL-06",
+      "original_question": "Can a mutual fund benefit from the tax efficiency of its ETF share class?",
+      "sharpened_question": "As of 2026-11-06, for a US IRS RIC already permitted to operate ETF and mutual fund classes sharing one portfolio, can ETF-class in-kind redemptions benefit mutual fund class shareholders? Explain the mechanism and limits, without assuming every fund has share-class relief.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "B",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "ETF and mutual fund classes own the same portfolio. Removing appreciated, low-basis securities through ETF in-kind redemptions can reduce gains distributed to either class.",
+        "This removes embedded gains, without stepping up the basis of securities left behind. Cash sales can still generate gains; mutual fund cash flows can impose gains and costs on ETF holders.",
+        "The potential shared benefit is not guaranteed and depends on strategy and practical in-kind capacity. The fund-level rule does not exempt investor or AP gains."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Share Class Structure.md",
+          "section": "Scope; Tax mechanism and limits"
+        }
+      ],
+      "tier_note": "Source-checked on 2026-11-05 per task context, but no separate Rafa editorial approval established here. Conservatively B; reviewers may recommend reclassification with approval evidence."
+    },
+    {
+      "id": "QL-07",
+      "original_question": "Is an ETF's exchange trading volume enough to judge its liquidity?",
+      "sharpened_question": "For a US ETF, is historical exchange share volume alone enough to assess liquidity for a new order? Explain the creation/redemption mechanism and which additional observable liquidity indicators to examine; do not promise execution capacity.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Exchange volume measures trading in existing shares. APs can create additional shares or redeem them against a basket, so historic share volume alone does not measure the capacity to meet a new order. [ICI ETF basics, creation/redemption and arbitrage](https://www.ici.org/faqs/faqs_etfs).",
+        "Proposed assessment: examine quoted spreads and depth, underlying-market liquidity and AP/market-maker activity as well as share volume. Underlying liquidity affects spreads; IDC suggests monitoring spreads, volume and intermediary activity. [IDC oversight paper, ETF design and trading](https://www.idc.org/idc/issues/types/etf/publications/ci.idc_12_etfs).",
+        "**Confidence: high** for the mechanism; **medium** for this practical assessment, a synthesis rather than a guaranteed execution-capacity measure."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-07, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "QL-08",
+      "original_question": "What keeps an ETF's market price close to its underlying asset value?",
+      "sharpened_question": null,
+      "change_note": "",
+      "tier": "B",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "APs exchange baskets for ETF shares in creations, and return ETF shares for baskets in redemptions.",
+        "When market price deviates from NAV, profitable creation/redemption arbitrage pulls price back toward portfolio value; APs often act for market makers.",
+        "This is an economic mechanism, not a guaranteed equality of price and NAV."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Market Mechanics.md",
+          "section": "Creation and redemption"
+        }
+      ]
+    },
+    {
+      "id": "QL-09",
+      "original_question": "How do creations and redemptions change the number of ETF shares outstanding?",
+      "sharpened_question": null,
+      "change_note": "",
+      "tier": "B",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Creation issues new ETF shares to the AP in exchange for a basket, increasing shares outstanding.",
+        "Redemption returns shares to the fund and destroys them, reducing shares outstanding.",
+        "Secondary-market trades transfer existing shares between investors and do not themselves change shares outstanding."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Market Mechanics.md",
+          "section": "Primary vs secondary market; Creation and redemption"
+        }
+      ]
+    },
+    {
+      "id": "QL-10",
+      "original_question": "Can an ordinary retail investor redeem ETF shares directly with the fund?",
+      "sharpened_question": "As of 2026-11-06, in ordinary dealing in a US '40 Act ETF (excluding reorganization, merger, conversion or liquidation), can an ordinary retail investor redeem individual ETF shares directly with the fund? Explain the usual alternative.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "B",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "In ordinary US ETF dealing, APs transact directly with the fund in creation units; retail investors trade existing shares through brokers on exchanges.",
+        "An ordinary retail sale is a secondary-market transaction, not a direct redemption with the fund. The prompt excludes reorganization, merger, conversion and liquidation exceptions."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Market Mechanics.md",
+          "section": "Primary vs secondary market"
+        }
+      ]
+    },
+    {
+      "id": "QL-11",
+      "original_question": "Who can be an authorized participant, and what agreement is needed?",
+      "sharpened_question": "As of 2026-11-06, for a US Rule 6c-11 ETF, what clearing/settlement eligibility and written agreement does an AP need? Distinguish the rule's permitted counterparties from the parties in the bank's reviewed US agreement forms.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "A",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Rule 6c-11 permits an AP agreement with the ETF itself or one of its service providers.",
+        "In the reviewed US forms, the distributor and AP are main counterparties; the transfer agent countersigns, and the trust is a third-party beneficiary, sometimes signing for specified provisions.",
+        "The reviewed forms require NSCC netting membership for the clearing process and/or DTC participation outside it. Eligibility is not synonymous with being a market maker."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "The trust (umbrella vehicle) — Connections; Authorized participant (AP) — approved AP-agreement lines"
+        }
+      ]
+    },
+    {
+      "id": "QL-12",
+      "original_question": "Are APs paid by the ETF sponsor, and must they keep creating and redeeming?",
+      "sharpened_question": null,
+      "change_note": "",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "AP status does not require ongoing creations or redemptions, and the ETF/sponsor does not pay the AP for that role. Dealer APs earn through dealing; agency APs can charge clients for processing creations/redemptions. [IDC 2025 primer, p. 4](https://www.idc.org/system/files/2025-09/25-idc-etf-primer.pdf#page=5).",
+        "**Confidence: high.** This does not describe a separate market-maker quoting contract. See the fee-conflict proposal below: the fund's transaction fee is a cost charged to the AP, not AP compensation."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-12, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "QL-13",
+      "original_question": "Why might a creation or redemption use cash instead of securities?",
+      "sharpened_question": "For a US ETF whose strategy uses futures or OTC derivatives, why might creations or redemptions require cash rather than delivery of those positions? Contrast this with deliverable securities; do not assume every derivative is treated identically.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "B",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "In-kind delivery requires assets that can actually be transferred. The note identifies stocks, bonds and more recently options as deliverable examples.",
+        "The note identifies futures and OTC derivatives as outside custom in-kind transfers; a fund built on them has to transact for cash.",
+        "Cash dealing means the fund must trade rather than simply transfer securities, limiting the practical in-kind tax benefit. Do not generalize to all derivatives or all bonds."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Market Mechanics.md",
+          "section": "What can move in kind"
+        }
+      ]
+    },
+    {
+      "id": "QL-14",
+      "original_question": "Where can an investor obtain an ETF's daily basket or portfolio composition file?",
+      "sharpened_question": "As of 2026-11-06, for a retail investor without NSCC participant access researching a US Rule 6c-11 ETF, where should the investor start for daily holdings and how might they request the actual PCF? Distinguish holdings from transaction baskets; do not assume any named fund offers a free public PCF.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "The fund website's daily portfolio download is the public starting point, but holdings are not necessarily the creation/redemption basket. Rule 6c-11 requires public holdings disclosure, not publication of every transaction basket. [Rule 6c-11(c)(1)–(3)](https://www.law.cornell.edu/cfr/text/17/270.6c-11).",
+        "NSCC distributes the PCF through its participant workflow. An investor needing that exact file should ask the sponsor's capital-markets team or broker about access; a public downloadable PCF is not assured. [DTCC ETF timeline](https://dtcclearning.com/products-and-services/equities-clearing/etf-processing/etf-timeline.html).",
+        "**Confidence: high** for the distinction and NSCC route; **medium** for the suggested contact route (practical recommendation). No universal free retail PCF portal verified."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-14, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "QL-15",
+      "original_question": "How do APs and market makers differ in ETF trading?",
+      "sharpened_question": null,
+      "change_note": "",
+      "tier": "B",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "APs create and redeem with the fund in the primary market; market makers quote bids and offers and provide secondary-market liquidity.",
+        "Market makers manage inventory by creating/redeeming through APs. One firm can perform both roles, but the roles are distinct.",
+        "An LMM is designated for a particular ETF with quoting commitments; do not assume all market makers are APs."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "Authorized participant (AP); Market makers and the lead market maker (LMM)"
+        }
+      ]
+    },
+    {
+      "id": "QL-16",
+      "original_question": "Should a new sponsor build its own ETF trust or use a white-label platform?",
+      "sharpened_question": "For a new US sponsor planning one ordinary ETF, with limited fixed-cost budget and no existing trust, board or servicing infrastructure, how should it compare a series-trust platform with building its own trust? Include the control trade-off and avoid assuming one answer suits every sponsor.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "A",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "A third-party series trust supplies an existing board, officers and service providers, spreading fixed governance and servicing costs across funds.",
+        "The sponsor gives up control of those parties; the board can replace the adviser or liquidate the fund. The sponsor can be adviser, sub-adviser or contractual partner.",
+        "For the stated small sponsor seeking one launch without governance infrastructure, a platform is a plausible fit; retain the control-versus-fixed-cost trade-off rather than declaring a universal winner."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "Sponsor — Role / Risks; The trust (umbrella vehicle) — Economics / Risks"
+        }
+      ]
+    },
+    {
+      "id": "QL-17",
+      "original_question": "How much does it cost to launch and operate an ETF?",
+      "sharpened_question": "As of 2026-11-06, for one ordinary US equity ETF on a third-party platform under a unitary fee, budgeted in USD, which one-time and recurring cost categories and payer allocations should the sponsor establish? Distinguish seed assets from expenditure and explain break-even at a positive retained margin; do not invent a current vendor quote or universal dollar range.",
+      "change_note": "Material narrowing: replaces unsupported current launch-price request with budgeting categories, payer allocation and break-even model. No defensible current all-in USD range in draft; reviewer/Rafa must accept this revised task.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Separate initial seed assets from money spent launching and running the business. The Act's ordinary initial public-offering condition is $100,000 of net worth, subject to its alternative provisions; that is not a quoted launch bill or a commercial break-even asset level. [Investment Company Act §14(a)](https://www.law.cornell.edu/uscode/text/15/80a-14).",
+        "Cost allocation is contractual: in Lazard's filed response, the manager bears the new ETF's organization costs without recoupment, and pays trustees directly under its unitary fee. [Lazard SEC correspondence, comments 11–12, 2025](https://www.sec.gov/Archives/edgar/data/2051630/000093041325001085/filename1.htm).",
+        "**Draft decision aid (analytical, not a sourced market quote):** budget one-time legal/filing/setup work plus recurring servicing, listing, index and sales costs, then identify who pays each. Sponsor break-even assets ≈ annual fixed costs ÷ (retained fee rate minus variable cost rate), only when that margin is positive. **Confidence: high** for the cited legal/contract facts; **medium** for the simplified model. **Unverified:** a representative current dollar price or all-in launch/annual-cost range; do not promote the older interview's price as a market standard."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-17, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "QL-18",
+      "original_question": "How long does an ETF launch take?",
+      "sharpened_question": "As of 2026-11-06, for a new ordinary ETF series added to an existing US trust by a Rule 485(a) post-effective amendment, with no separate exemptive relief needed, what filing-effectiveness period normally applies, and why is it not an end-to-end launch guarantee? Distinguish initial registration of a new trust.",
+      "change_note": "Material narrowing: replaces generic launch duration with the documented new-series filing clock and its limits. No universal commercial timeline supported; reviewer/Rafa must accept this revised task.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Adding a series by post-effective amendment normally has a 75-day automatic-effectiveness period; other material amendments normally use 60 days. The rule allows designated later dates and SEC acceleration. These are filing clocks, not promised end-to-end launch times. [Rule 485(a)(1)–(3)](https://www.law.cornell.edu/cfr/text/17/230.485).",
+        "A filed example elects the 75-day route and states that shares cannot be sold before effectiveness. [Simplify registration amendment, January 30, 2024, cover](https://www.sec.gov/Archives/edgar/data/1810747/000182912624000561/simplifyetf_485apos.htm).",
+        "**Confidence: high.** Preparatory work, exchange readiness and any separate relief add their own time; **unverified:** a universal commercial launch estimate. Do not present 75 days as a guaranteed launch deadline or as the rule for a new trust's initial registration."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-18, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "QL-19",
+      "original_question": "Which service providers and infrastructure does an ETF launch require?",
+      "sharpened_question": "For a US '40 Act ETF launch, list the core governance, service-provider and market-infrastructure arrangements. Distinguish roles that may be bundled and index/lending arrangements needed only for the relevant strategy or program; do not imply every role needs a separately hired firm.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "B",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Identify the fund/trust, board/officers, adviser, distributor/principal underwriter, custodian, administrator/fund accountant, transfer agent and independent auditor.",
+        "ETF operating arrangements include AP agreements, seed capital, exchange listing/market-making arrangements, and clearing/settlement and PCF workflows.",
+        "Counsel and pricing support belong in the launch checklist; an index strategy also needs an index licence. Securities lending is conditional on operating a lending program, not a universal launch prerequisite.",
+        "Roles may be bundled at a platform or service bank; this is an operational checklist, not a claim that each role requires a separately hired firm."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "The trust (umbrella vehicle) — Connections; Sponsor — Connections; Exchange / listing venue; DTCC (NSCC and DTC); Other service providers"
+        }
+      ]
+    },
+    {
+      "id": "QL-20",
+      "original_question": "How do a white-label provider and the sponsor split management-fee revenue and operating costs?",
+      "sharpened_question": "As of 2026-11-06, in a US series-trust unitary-fee model where the platform adviser contracts with a brand sponsor to assume expenses for the fee remainder, how are management-fee revenue and ordinary operating costs allocated? Identify the continuing obligation to the fund; do not invent a standard percentage split.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "A",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "In the specified contractual-partner model, the platform adviser receives the advisory fee and contracts with the brand firm, which assumes fund expenses in exchange for the fee remainder.",
+        "Under a unitary fee the adviser owes ordinary expenses subject to stated exclusions; the adviser retains its obligation to the fund even when a partner assumes costs.",
+        "The sponsor earns through its contracted share and bears the residual economics; there is no universal percentage split. Distinguish this from a sponsor appointed directly as adviser or sub-adviser."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "Adviser and sub-adviser — Connections / Economics; Sponsor — Economics"
+        }
+      ]
+    },
+    {
+      "id": "QL-21",
+      "original_question": "Who bears the costs if a white-label ETF fails to gather enough assets?",
+      "sharpened_question": "As of 2026-11-06, in the US series-trust unitary-fee contractual-partner model where the brand sponsor assumes expenses, who bears the economic shortfall when assets are too small, and who still owes expenses to the fund if the sponsor fails to pay?",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "A",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "In the specified unitary-fee contractual-partner model, the sponsor/partner bears the economic shortfall from insufficient assets under its cost-assumption arrangement.",
+        "The platform adviser still owes the fund its promised expenses if the partner does not pay.",
+        "Fixed costs can make a small fund unprofitable. This is a contractual allocation, not a universal obligation for shareholders to reimburse sponsor losses."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "Adviser and sub-adviser — Risks; Sponsor — Economics / Risks"
+        }
+      ]
+    },
+    {
+      "id": "QL-22",
+      "original_question": "Does a sponsor need its own sales and distribution arrangements when using a series-trust platform?",
+      "sharpened_question": "As of 2026-11-06, does appointment of a principal underwriter on a US ETF series-trust platform itself assure a sales force and asset gathering? Distinguish legal/operational distribution from separately contracted marketing and intermediary access; do not assume all platform packages are identical.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "A distributor appointment is not a promise to gather assets. In Simplify's filing, Foreside is principal underwriter/national distributor and receives its annual fee and expenses from the adviser's resources. [Simplify SAI, “Distributor”](https://www.sec.gov/Archives/edgar/data/1810747/000182912624000561/simplifyetf_485apos.htm).",
+        "**Proposed implication:** a platform sponsor should separately agree who supplies salespeople, marketing and intermediary access; a series-trust service package cannot be assumed to include them. **Confidence: high** for this contract example; **medium** for the practical implication. A claim that every sponsor must employ its own sales team is not supported."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-22, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "QL-23",
+      "original_question": "Which ETFs can rely on Rule 6c-11 rather than obtaining individual exemptive relief?",
+      "sharpened_question": "As of 2026-11-06, which US ETF structures can rely on Rule 6c-11 subject to its conditions, and which need separate relief? Include leveraged/inverse ETFs and the interaction with Rule 18f-4.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "A",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Rule 6c-11 covers registered open-end ETFs, rather than UIT ETFs, subject to its conditions.",
+        "Leveraged/inverse ETFs may rely on it when complying with applicable Rule 18f-4 requirements; they are not categorically excluded.",
+        "Nontransparent active ETFs, master-feeder structures and ETF share classes rely on separate exemptive orders rather than this rule alone. Ordinary reliance includes daily public holdings disclosure."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "The fund — Regulation"
+        }
+      ]
+    },
+    {
+      "id": "QL-24",
+      "original_question": "What exemptions does Rule 6c-11 provide for ETF operations?",
+      "sharpened_question": "As of 2026-11-06, what four categories of conditional operational relief does Rule 6c-11(b) provide for US ETFs? Explain the limits on affiliate transactions and delayed foreign-investment delivery.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "ETF shares count as redeemable securities despite creation-unit dealing; exchange trades can occur at market prices; basket exchanges get limited affiliated-transaction relief where affiliation arises solely from specified 5% voting holdings; foreign-market holidays/delivery cycles can permit delivery as soon as practicable, up to 15 days. [Rule 6c-11(b)](https://www.law.cornell.edu/cfr/text/17/270.6c-11).",
+        "**Confidence: high.** This is conditional relief from specified restrictions, not a waiver of the '40 Act or permission for all affiliate transactions."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-24, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "QL-25",
+      "original_question": "What website and portfolio disclosures must a Rule 6c-11 ETF make?",
+      "sharpened_question": "As of 2026-11-06, what public, free website holdings, price/NAV, premium/discount and spread disclosures does a US Rule 6c-11 ETF need, including timing/history and the sustained-deviation explanation? Distinguish portfolio holdings from transaction baskets.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Before trading: prior-close holdings with identifiers, descriptions, quantities and weights. Also publish prior-day NAV, market price and premium/discount; historical premium/discount table and graph; and a 30-calendar-day median spread. A premium or discount above 2% for more than seven consecutive trading days requires an explanation retained at least a year. [Rule 6c-11(c)(1)–(2)](https://www.law.cornell.edu/cfr/text/17/270.6c-11).",
+        "**Confidence: high.** The history covers the last calendar year and completed quarters since (or shorter fund life). The website must be public and free."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-25, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "QL-26",
+      "original_question": "What records must an ETF relying on Rule 6c-11 retain?",
+      "sharpened_question": "As of 2026-11-06, what AP-agreement and exchanged-basket records must a US ETF preserve under Rule 6c-11(d), and for how long must they be retained and readily accessible?",
+      "change_note": "Specifies Rule 6c-11(d). AP-agreement retention is completed from the exact rule linked by the bank, not from bank prose; reviewer must check this disclosed supplementation.",
+      "tier": "B",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Retain records of each exchanged basket: holdings identifiers/descriptions, quantities and weights, custom-basket designation and compliance statement where applicable, cash balancing amount and transacting AP identity.",
+        "Keep these records for at least five years, with the first two readily accessible.",
+        "Also retain all written AP agreements or copies for the same period. This last requirement is explicit in the section-linked Rule 6c-11(d)(1), but omitted from the bank prose; it is a disclosed source-level completion requiring reviewer attention."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Market Mechanics.md",
+          "section": "Basket controls and publication"
+        },
+        {
+          "url": "https://www.law.cornell.edu/cfr/text/17/270.6c-11#d",
+          "section": "Rule 6c-11(d)(1)–(2); direct inspection of bank-linked source on 2026-11-06"
+        }
+      ],
+      "tier_note": "B bank coverage, completed from its explicitly linked Rule 6c-11(d)(1), directly checked 2026-11-06. AP-agreement retention is absent from bank prose. Review this supplementation before accepting the pair; it is not newly approved bank text."
+    },
+    {
+      "id": "QL-27",
+      "original_question": "What policies and controls are required to use custom baskets?",
+      "sharpened_question": "As of 2026-11-06, what written basket policies, custom-basket parameters, review roles and compliance records does a US Rule 6c-11 ETF need? Distinguish a custom basket from a non-standard order.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "B",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Adopt and implement written policies for basket construction and acceptance.",
+        "For custom baskets, specify detailed parameters protecting the fund and shareholders and a process for revisions or departures.",
+        "Identify adviser employee titles/roles reviewing each custom basket for compliance; preserve custom-basket status and compliance records.",
+        "A custom basket is not synonymous with a non-standard order."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Market Mechanics.md",
+          "section": "Basket controls and publication"
+        }
+      ]
+    },
+    {
+      "id": "QL-28",
+      "original_question": "What is the process for obtaining ETF exemptive relief, and how long might it take?",
+      "sharpened_question": "As of 2026-11-06, for a US ETF requesting relief not supplied by Rule 6c-11, describe application, notice and order stages. When is Rule 0-5 expedited review available, and what does its 45-day clock mean? Do not give a universal total approval time.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "File an application identifying the relief and supporting facts; after notice, interested parties can seek a hearing, and an order can follow the notice period. Expedited review requires two substantially identical grants within three years. Its 45-day clock is to notice or an ineligibility/time-needed response, pauses for amendments, and is not a guaranteed final order. [Rule 0-5(a)–(f)](https://www.law.cornell.edu/cfr/text/17/270.0-5).",
+        "**Confidence: high.** No universal overall approval time established. First determine whether Rule 6c-11 already supplies the needed ETF relief (QL-23); do not treat the 2012 board paper's pre-rule process as necessary for every launch."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-28, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "QL-29",
+      "original_question": "What should an ETF board consider when selecting the lead market maker, including seed-capital support?",
+      "sharpened_question": "For a US ETF board's diligence on a proposed exchange/LMM arrangement, what questions should it ask about selection, relevant-market expertise and capital or seed support? Distinguish temporary market-maker seed from lasting investor assets; treat the checklist as suggested inquiry rather than a mandatory approval rule.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Ask why the exchange/LMM was chosen, what the LMM knows about the relevant market, and what capital—including seed capital—it is willing to commit. [IDC oversight paper, “ETF Contractual Relationships”](https://www.idc.org/idc/issues/types/etf/publications/ci.idc_12_etfs).",
+        "**Confidence: high** as suggested board inquiry, not a prescribed approval checklist or a claim that every LMM provides seed capital.",
+        "The approved Sponsor Economics section distinguishes temporary market-maker seed inventory from more lasting investor assets; neither should be assumed permanent, and subsidized investors can leave."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-29, Research draft; source links embedded in key points"
+        },
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "Sponsor — Economics, Seed capital (approved supplement)"
+        }
+      ]
+    },
+    {
+      "id": "QL-30",
+      "original_question": "What should a board examine in an ETF's index-licensing agreement and renewal contingency plan?",
+      "sharpened_question": "For a US index ETF board reviewing an index licence and failed-renewal contingency, what contract terms, naming dependencies and affiliated-information issues should it examine? Treat the checklist as diligence, not a universal notice period or guaranteed substitution right.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Examine licence cost, exclusivity, duration, termination and expiry; ask what happens if renewal fails, whether the ETF name depends on the index name, and how affiliated-provider information is controlled. [IDC oversight paper, “Index provider”](https://www.idc.org/idc/issues/types/etf/publications/ci.idc_12_etfs).",
+        "**Confidence: high** as suggested inquiry. **Proposed control (medium; inference):** plan renewal/substitution work before expiry. No universal notice period or right to substitute an index verified."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-30, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "QL-31",
+      "original_question": "What should a board investigate when an ETF persistently trades at a premium or discount?",
+      "sharpened_question": "For a US equity ETF showing repeated closing premiums or discounts over several weeks in normal markets, what should its board investigate before concluding arbitrage has failed? Check contemporaneous valuation/market hours, peers, underlying trading frictions and AP/market-maker participation; propose inquiry and corrective options rather than a single presumed cause or mandatory numerical trigger.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Request causes and corrective options for persistent deviations; review spreads against peers and AP/market-maker participation. These are IDC's suggested inquiries. [IDC oversight paper, “Trading of ETF Shares”](https://www.idc.org/idc/issues/types/etf/publications/ci.idc_12_etfs).",
+        "**Proposed diagnosis (medium; synthesis):** test stale NAV inputs/market-hour differences, underlying trading costs and impediments to creation/redemption before assuming an arbitrage failure. The SEC discusses these frictions in its adopting release. [Release 33-10695, sections I.B and II.C](https://www.sec.gov/files/rules/final/2019/33-10695.pdf).",
+        "**Confidence: high** for suggested monitoring; **medium** for the diagnostic sequence. The 2% website trigger (QL-25) is not a safe-harbor tolerance or a general board-meeting trigger."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-31, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "QL-32",
+      "original_question": "What can cause an index ETF's tracking error to exceed expectations?",
+      "sharpened_question": "For a US equity index ETF, define tracking error as variability of daily fund-minus-benchmark total returns over an agreed one-year period, separately from cumulative tracking difference. If error exceeds the mandate's expected range, what portfolio, pricing and operating causes should be investigated? No numerical expected range or single cause is assumed.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Investigate sampling, index rebalances, pricing differences, diversification limits and fees. [IDC oversight paper, “Portfolio Management and Trading”](https://www.idc.org/idc/issues/types/etf/publications/ci.idc_12_etfs).",
+        "A filed prospectus also identifies cash holdings and dividend-accrual timing as sources of divergence. [Simplify prospectus, “Tracking Error Risk”](https://www.sec.gov/Archives/edgar/data/1810747/000182912624000561/simplifyetf_485apos.htm).",
+        "**Confidence: high** for causes. **Proposed precision (analytical):** distinguish the return gap over a period (tracking difference) from variability of that gap (tracking error); agree the benchmark, period and measurement method before diagnosing an excess."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-32, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "QL-33",
+      "original_question": "What risks does an ETF's securities-lending program create, and how can they be reduced?",
+      "sharpened_question": "For ETF securities lending, distinguish borrower/default, collateral-shortfall and cash-reinvestment risks and controls. Separate the bank's US iShares example from UCITS recall/collateral rules; do not promise collateral eliminates losses.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "US ('40 Act), iShares example: borrower failure can delay recovery or leave collateral short of replacement cost; investing cash collateral can itself lose money. Collateral is maintained at least equal to the current market value of securities lent; these controls do not remove loss risk. [iShares SAI, “Securities Lending,” pp. 16–17 of PDF](https://www.ishares.com/us/literature/sai/sai-ishares-us-etf-10-31.pdf#page=17).",
+        "UCITS: maintain the ability to recall loans; collateral needs daily valuation, liquidity, credit quality, diversification and appropriate haircuts. Noncash collateral cannot be reinvested; cash reinvestment is restricted and must be diversified. [ESMA guidelines, paragraphs 30 and 43–47](https://www.esma.europa.eu/sites/default/files/library/2015/11/esma-2014-0011-01-00_en_0.pdf).",
+        "**Confidence: high.** US example terms are not UCITS rules; collateral-reinvestment loss is distinct from borrower default."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-33, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "QL-34",
+      "original_question": "What portfolio-transparency requirements apply to an Irish UCITS ETF or ETF share class?",
+      "sharpened_question": "As of 2026-11-06, for an Irish UCITS ETF or ETF share class, distinguish transparency-policy disclosures, daily public holdings and the conditional periodic-holdings route with daily AP/market-maker arbitrage information. Use the 2026 regulations and CBI Q&A 1012 (April 2025) identified in the bank draft.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Disclose the transparency policy and where portfolio/iNAV information is available in the prospectus, KID/KIID and marketing. [2026 regulations, Reg. 88(3)–(4)](https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-%28supervision-and-enforcement%29-act-2013-%28section-48%281%29%29-%28undertakings-for-collective-investment-in-transferable-securities%29-regul.pdf#page=64).",
+        "CBI permits daily holdings on a nondiscriminatory basis, or periodic holdings with daily arbitrage information available nondiscriminatorily to APs/market makers, prospectus disclosure of that information, procedures for impaired arbitrage and investor information requests, and public quarter-end holdings within 30 business days. [CBI Q&A 1012, pp. 5–6, April 2025](https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/guidance/42nd-edition-ucits-qa.pdf#page=5).",
+        "**Confidence: high.** Periodic disclosure is conditional, not permission to withhold all useful daily information. Unlike the US Rule 6c-11 route, this does not require daily public full holdings."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-34, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "QL-35",
+      "original_question": "Where must the UCITS ETF identifier appear when only some sub-funds or classes are exchange-traded?",
+      "sharpened_question": "As of 2026-11-06, under Irish UCITS rules, where is the UCITS ETF identifier used for a mixed umbrella and for a sub-fund with listed and unlisted classes? Explain sub-fund versus listed-class identification and avoid labelling non-ETF siblings as ETFs.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Use “UCITS ETF” in the name, constitution, prospectus, KID/KIID and marketing. For a mixed umbrella, identify the ETF sub-fund; for mixed listed/unlisted classes, the identifier may be at sub-fund or listed-class level, with the classes clearly distinguished. [2026 regulations, Reg. 88(1)–(2)](https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-%28supervision-and-enforcement%29-act-2013-%28section-48%281%29%29-%28undertakings-for-collective-investment-in-transferable-securities%29-regul.pdf#page=64); [CBI Q&A 1016 and 1088](https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/guidance/42nd-edition-ucits-qa.pdf#page=6).",
+        "**Confidence: high.** Do not label the non-ETF siblings as ETFs. The 2025 Q&A already allowed class-level identification; describing that permission as first introduced in 2026 would be inaccurate."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-35, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "QL-36",
+      "original_question": "When may a secondary-market investor redeem directly with a UCITS ETF?",
+      "sharpened_question": "As of 2026-11-06, under the Irish UCITS ETF framework, when can a secondary-market holder redeem directly with the fund, and what notification, process and cost protections apply? Distinguish this exceptional route from ordinary exchange dealing.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "B",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "When the exchange price differs significantly from NAV, secondary-market holders must be allowed to redeem directly with the fund.",
+        "The regulated market must be told, and the prospectus explains the process and costs.",
+        "The approved Participants ManCo section further says the responsible party determines significant variation and keeps direct-redemption costs not excessive. This is an exception to ordinary exchange dealing, not an unrestricted routine retail redemption right."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Structure and Regulation.md",
+          "section": "UCITS ETF and index safeguards"
+        },
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "Management company (UCITS) — Duties"
+        }
+      ]
+    },
+    {
+      "id": "QL-37",
+      "original_question": "Can a UCITS have both listed ETF and unlisted share classes, and what differences must be disclosed?",
+      "sharpened_question": "As of 2026-11-06, under Irish CBI Q&A 1088, can listed ETF and unlisted classes coexist, and which dealing, settlement, costs, minimums, rights, liquidity and price differences must the prospectus compare? Do not apply US share-class exemptive conditions.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Listed and unlisted classes may coexist. The prospectus comparison table covers dealing access/frequency, settlement, broker use, costs, minimum amounts and shareholder rights; it also addresses unlisted-class liquidity and differences in class prices. [CBI Q&A 1088, pp. 6–7](https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/guidance/42nd-edition-ucits-qa.pdf#page=6).",
+        "**Confidence: high.** This is an Irish disclosure framework, not authority to offer US ETF classes under Rule 6c-11. Naming is handled in QL-35."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-37, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "QL-38",
+      "original_question": "Can a UCITS ETF have different dealing cut-offs for cash, in-kind, hedged and unhedged classes?",
+      "sharpened_question": "As of 2026-11-06, under Irish UCITS Regulation 26(2), which different dealing cut-offs are permitted for cash versus in-kind dealing and class-level currency-hedged versus unhedged classes? Distinguish the express 2026 exceptions from the older Q&A 1030 waiver approach.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Cash and in-kind dealing may have different cut-offs; hedged and unhedged classes may also differ when currency hedging is at class level. The 2026 rule states these exceptions directly. [2026 regulations, Reg. 26(2)](https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-%28supervision-and-enforcement%29-act-2013-%28section-48%281%29%29-%28undertakings-for-collective-investment-in-transferable-securities%29-regul.pdf#page=34).",
+        "**Historical distinction:** Q&A 1030 required a reasoned waiver application; do not carry that old requirement into the express 2026 exceptions. [CBI Q&A 1030, April 2025](https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/guidance/42nd-edition-ucits-qa.pdf#page=14).",
+        "**Confidence: high.** This permits particular cut-off differences, not arbitrary different dealing frequencies or every kind of hedged class."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-38, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "QL-39",
+      "original_question": "What does cross-subsidization mean for a fund with ETF and mutual fund share classes?",
+      "sharpened_question": "As of 2026-11-06, for a US fund with ETF and mutual fund classes sharing a portfolio, explain cross-subsidization in both directions and the transaction-cost, cash and gains monitoring categories. Separate conceptual examples from the representative order-specific framework and do not invent universal thresholds.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "B",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "In a shared portfolio, one class can bear transaction costs, cash drag or capital-gains distributions caused by another class. Monitor both ETF-to-mutual-fund and mutual-fund-to-ETF effects.",
+        "Examples include mutual fund cash redemptions causing sales/gains borne by ETF holders; ETF in-kind redemptions can instead remove embedded gains benefiting both classes.",
+        "The representative order/application framework uses board-approved thresholds, methods and periods for transaction costs, cash levels and capital-gains distributions. No universal numerical limits are specified.",
+        "A threshold breach prompts notice and assessment, not automatic illegality or mandatory closure; conceptual examples must be separated from obligations under a particular order."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Share Class Board Considerations.md",
+          "section": "Cross-Subsidization Monitoring; Ongoing Adviser Report; Tax Management"
+        }
+      ],
+      "tier_note": "Source-checked on 2026-11-05 per task context, but no separate Rafa editorial approval established here. Conservatively B; reviewers may recommend reclassification with approval evidence."
+    },
+    {
+      "id": "QL-40",
+      "original_question": "What must a directly held mutual fund investor do when the fund converts to an ETF?",
+      "sharpened_question": "As of 2026-11-06, for a US mutual fund held directly with the fund that is converting the whole fund into an ETF, what account/transfer steps might an investor need to take? Address notices, deadlines, trading access and fractional shares without assuming a fund-specific timetable or confusing conversion with adding an ETF class.",
+      "change_note": "Scope and grading task made explicit; see sharpened wording.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "A shareholder holding directly with the mutual fund may need to open a brokerage account and transfer the holding before conversion. Some fund accounts cannot hold ETF shares; inaction can leave the investor unable to trade the converted holding until a transfer is arranged. Read the conversion notice for deadlines, account eligibility and fractional-share treatment. [SEC conversion bulletin, “What do I need to do?”](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/mutual-fund-conversion-exchange-traded-fund).",
+        "**Confidence: high.** The bulletin describes possible outcomes, not a single mandatory transfer timetable for all conversions."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates (2026-11-05) — QL-40, Research draft; source links embedded in key points"
+        }
+      ]
+    },
+    {
+      "id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+      "original_question": "What are significant drivers of the ETF bid-ask spread",
+      "sharpened_question": "For a US ETF, explain how underlying-market liquidity and market-maker hedging and creation/redemption costs influence the quoted bid-ask spread. Why is historical exchange volume alone an incomplete guide? Do not rank drivers or give universal spread levels.",
+      "change_note": "Scope narrowed to documented examples/mechanisms; no universal number or ranking inferred.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "The QL-07 draft links underlying liquidity to spreads and recommends considering quoted depth and AP/market-maker activity rather than volume alone.",
+        "The bank's LMM section says market makers earn spreads and pay hedging and creation/redemption costs from them; those costs belong in assessing quotes.",
+        "APs can create and redeem additional shares, so existing share volume alone does not measure new-order capacity. This is a qualitative synthesis, not a quantitative spread model."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Question-led candidates — QL-07 research draft (ICI and IDC source links)"
+        },
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "Market makers and the lead market maker (LMM) — Costs (unreviewed)"
+        }
+      ]
+    },
+    {
+      "id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+      "original_question": "What is a normal amount of collateral an AP would need if they cannot deliver on the full creation basket",
+      "sharpened_question": "As of 2026-11-06, in the bank's reviewed US ETF AP agreements, what cash collateral may be required for securities not yet delivered, what value is the percentage applied to, and is it a universal rate?",
+      "change_note": "Scope narrowed to documented examples/mechanisms; no universal number or ranking inferred.",
+      "tier": "A",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Reviewed AP-agreement text describes cash collateral typically at 115% of the value of undelivered securities, with 105% in some forms.",
+        "The approved Custodian section identifies at least 105% under iShares terms. These are agreement examples, not a universal percentage of the entire creation basket.",
+        "The AP remains liable for a shortfall if the fund buys the missing securities itself."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "Authorized participant (AP) — approved AP-agreement collateral lines; Custodian — Connections; Sources (Thornburg/ALPS and DoubleLine forms)"
+        }
+      ]
+    },
+    {
+      "id": "creation_redemption_004_what_costs_do_the_creation_fee_cover",
+      "original_question": "What costs do the creation fee cover",
+      "sharpened_question": "As of 2026-11-06, for US ETF creation/redemption transaction charges, what costs do fixed and variable fees cover, who bears them, and may their recipients differ? Distinguish fund charges from AP compensation.",
+      "change_note": "Scope narrowed to documented examples/mechanisms; no universal number or ranking inferred.",
+      "tier": "C",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Transaction charges protect remaining shareholders from processing, brokerage and related trading costs; they are costs borne by the AP unless waived or paid by another party, not payments to the AP.",
+        "In the cited Corgi SAI, fixed fees can go to the custodian/service provider and variable fees to the fund; adviser payment or waiver can cover the fixed charge. Do not assert every fee component always goes to the fund.",
+        "Preserve Rafa's vouched observation of custom-redemption fee waivers, without using the contradictory unreviewed AP Economics claim that fund fees reimburse the AP."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Creation/redemption fee conflict — proposed correction (2026-11-05); SEC release p.12 n.27, Corgi SAI, Davis supplement, Putnam prospectus (links in source)"
+        },
+        {
+          "url": "https://www.sec.gov/files/rules/final/2019/33-10695.pdf#page=12",
+          "section": "p.12 n.27 and pp.57–58, as cited by inbox correction"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2078265/000182912625010217/corgietftrusti_n-1aa.htm",
+          "section": "Creation Transaction Fees; Redemption Transaction Fees, as cited by inbox correction"
+        }
+      ]
+    },
+    {
+      "id": "creation_redemption_006_who_are_typically_the_parties_involved_i",
+      "original_question": "Who are typically the parties involved in an AP agreement",
+      "sharpened_question": "As of 2026-11-06, distinguish the parties permitted by Rule 6c-11 from the main signatories and trust's status in the reviewed US AP agreement forms; contrast the Irish ICAV arrangement.",
+      "change_note": "Scope narrowed to documented examples/mechanisms; no universal number or ranking inferred.",
+      "tier": "A",
+      "answer_as_of": "2026-11-06",
+      "key_points": [
+        "Rule 6c-11 permits the agreement with the ETF or a service provider.",
+        "In the reviewed US forms the AP and distributor are main counterparties, the transfer agent accepts/countersigns and the trust is a third-party beneficiary, sometimes signing specified provisions.",
+        "In the bank's UCITS description the ICAV signs directly with each AP on behalf of sub-funds; this is not the typical reviewed US signature pattern."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "The trust (umbrella vehicle) — Connections, AP agreements; approved 2026-11-05"
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "capital_markets_002_who_are_the_5_largest_etf_lead_market_ma",
+      "original_question": "Who are the 5 largest ETF lead market makers",
+      "reason": "Bank lists market-maker examples, but no dated top-five LMM ranking or size metric. Examples are not a ranking."
+    },
+    {
+      "id": "capital_markets_003_etfs_for_which_asset_class_most_often_us",
+      "original_question": "ETFs for which asset class most often use negotiated baskets",
+      "reason": "Bank describes deliverable assets and custom baskets, but gives no comparative frequency evidence establishing which asset class most often uses negotiated baskets."
+    },
+    {
+      "id": "capital_markets_004_how_do_clients_at_fidelity_trade_etfs",
+      "original_question": "How do clients at Fidelity trade ETFs",
+      "reason": "No defensible Fidelity-specific trading workflow/reference in the bank or question drafts. General broker trading is not a platform-specific answer."
+    },
+    {
+      "id": "creation_redemption_001_why_would_funds_use_the_t_1_create_redee",
+      "original_question": "Why would funds use the T-1 create/redeem process",
+      "reason": "PCF submission on T−1 is documented, but does not establish why a fund would use a T−1 create/redeem order process. Do not conflate file publication and order timing."
+    },
+    {
+      "id": "creation_redemption_003_what_is_typically_the_maximum_amount_of",
+      "original_question": "What is typically the maximum amount of variable fee that can be charged for redemptions on ETF shares",
+      "reason": "No defensible maximum variable redemption-fee percentage and applicable fund/contract basis found. No generic cap inferred from unrelated redemption-fee rules."
+    },
+    {
+      "id": "creation_redemption_005_what_would_constitute_a_non_standard_ord",
+      "original_question": "What would constitute a non-standard order that would require approval",
+      "reason": "Approved text addresses indemnity for non-standard terms, not a defined list of non-standard orders requiring approval. Custom-basket controls do not supply that missing contract-specific definition."
+    },
+    {
+      "id": "issuers_001_who_are_the_top_3_largest_issuers_of_etf",
+      "original_question": "Who are the top 3 largest issuers of ETFs",
+      "reason": "No dated top-three ETF issuer ranking, geography and asset metric in the reviewed bank or drafts."
+    },
+    {
+      "id": "issuers_002_in_five_words_or_less_what_types_of_stra",
+      "original_question": "In five words or less, what types of strategies do WisdomTree ETFs invest in.",
+      "reason": "No WisdomTree-specific strategy reference in the bank or drafts; a five-word brand description would be invented."
+    }
+  ],
+  "source_manifest": [
+    {
+      "path": "/home/rafa/code/etfbench/questions.md",
+      "sha256": "fe2b9a6df96bc1ec6ae45957462666ecc4611b73234eb13056922013ac58d893"
+    },
+    {
+      "path": "/home/rafa/code/etfbench/ai/knowledge-bank-decisions.md",
+      "sha256": "757b265b18272b46653360a300b4ddffcd4a6af6868df5cb66a45e7c07854cff"
+    },
+    {
+      "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+      "sha256": "8aae50e747c91fb3b0b96de591f524e060f1d8eb833d3a5885bd65f1294f2de3"
+    },
+    {
+      "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Market Mechanics.md",
+      "sha256": "a13cecfb9230e44e8d6db1d83edbfb6c14864a2b60e27bea6fd66e4e75d5e12a"
+    },
+    {
+      "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+      "sha256": "88826c98d0e77e99f0357ab37ddfac97396e7043f2ccb2d6407e156eddb16dd1"
+    },
+    {
+      "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Share Class Board Considerations.md",
+      "sha256": "b56ef3c01f361c8737d8361b5d9715700d054c58d148b6e47e43b7492851b14e"
+    },
+    {
+      "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Share Class Structure.md",
+      "sha256": "fc67f29e9213a21026c14c0973fa5c44c93ad962f0f6a149764a76d1adc25cdb"
+    },
+    {
+      "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Structure and Regulation.md",
+      "sha256": "6b6a6012491b6316b6b5817829e8f78502235d68b3f639f5672e7afa088d0bd7"
+    },
+    {
+      "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Tax Efficiency.md",
+      "sha256": "dcf681a096865a83d57bafc1782667c9b155552fd03d12e55b3b8736ae35a93e"
+    },
+    {
+      "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF.md",
+      "sha256": "b212e19ff30a095aa3c8c750d2951607689de3e6734a6671af1e0f141ef26cdb"
+    },
+    {
+      "path": "/home/rafa/Documents/zmoot/Rafa/10 Agent Work/reviews/ETF Participants.md.review.md",
+      "sha256": "ad645406a74a6e7e9f1e4088ddaff24129675b0779ee49b60c2843c273f242b9"
+    }
+  ],
+  "review_status": "Awaiting independent Opus and Sol review of every pair. Neither review nor model execution was performed in this task."
+}
