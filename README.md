@@ -13,6 +13,7 @@ uv sync
 ```bash
 uv sync --all-extras
 uv run pytest
+uv run ty check
 ```
 
 ## Documentation

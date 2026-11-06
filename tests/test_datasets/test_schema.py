@@ -81,6 +81,6 @@ class TestETFGolden:
             "category": "capital_markets",
         }
 
-        golden = ETFGolden(**data)
+        golden = ETFGolden.model_validate(data)
         assert golden.id == "cap_001"
         assert golden.category == "capital_markets"
