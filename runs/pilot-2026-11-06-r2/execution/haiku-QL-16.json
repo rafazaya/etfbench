@@ -1,0 +1,41 @@
+{
+  "model": "haiku",
+  "id": "QL-16",
+  "tier": "A",
+  "answer": "For a single ETF, the choice mainly turns on fixed-cost absorption versus governance control.\n\n**Series-trust platform:** Lower upfront cost and faster launch. The host supplies the trust, board, administration, and compliance infrastructure. Trade-offs include limited say over trustees and service providers, governance standards set by the host, and shared-trust exposure to other sponsors' issues. Migrating later can be costly.\n\n**Own trust:** Full control over board, providers, and fee structure. But fixed costs (independent trustees, legal, audit, administration, custody, fidelity bond, D&O, compliance) are substantial and rarely justified for one small fund.\n\n**Practical test:** Divide annual fixed costs by projected AUM for years one through three. Then weigh that cost against how much governance control your strategy actually needs. Review platform exit terms and migration provisions. Confirm details with fund counsel, since terms vary widely.",
+  "original_answer": "For a single ETF, the choice mainly turns on fixed-cost absorption versus governance control.\n\n**Series-trust platform:** Lower upfront cost and faster launch. The host supplies the trust, board, administration, and compliance infrastructure. Trade-offs include limited say over trustees and service providers, governance standards set by the host, and shared-trust exposure to other sponsors' issues. Migrating later can be costly.\n\n**Own trust:** Full control over board, providers, and fee structure. But fixed costs (independent trustees, legal, audit, administration, custody, fidelity bond, D&O, compliance) are substantial and rarely justified for one small fund.\n\n**Practical test:** Divide annual fixed costs by projected AUM for years one through three. Then weigh that cost against how much governance control your strategy actually needs. Review platform exit terms and migration provisions. Confirm details with fund counsel, since terms vary widely.",
+  "void": false,
+  "words_before": 134,
+  "words_after_shorten": null,
+  "words_final": 134,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-290b6bxx",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a new US sponsor planning one ordinary ETF, with limited fixed-cost budget and no existing trust, board or servicing infrastructure, how should it compare a series-trust platform with building its own trust? Include the control trade-off and avoid assuming one answer suits every sponsor.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-16-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": []
+}

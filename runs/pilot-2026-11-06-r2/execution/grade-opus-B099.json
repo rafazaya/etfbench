@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer correctly states that CBI Q&A 1088 allows listed ETF and unlisted classes to coexist, subject to prospectus disclosure. It covers the required comparison areas: dealing access (on-exchange versus directly with the fund), settlement, costs, minimum investment and holding amounts, class rights, liquidity, and price differences (market price versus NAV-based dealing). It also follows the instruction not to apply US exemptive conditions. Minor omissions: it does not name dealing frequency or broker use explicitly, though broker use is implied by on-exchange dealing. It also does not say the liquidity point is specific to the unlisted class or that the comparison takes table form. These gaps are not material, and the answer contains no errors.",
+  "blind_id": "B099"
+}

@@ -1,0 +1,5 @@
+{
+  "grade": "partial",
+  "rationale": "Correct on the central point: it says a new series added to an existing trust under Rule 485(a) normally becomes effective on the 75th day after filing. It also correctly explains that effectiveness is not a launch guarantee, citing exchange listing, seed capital, AP agreements, service providers, NSCC/DTC readiness and staff comments. However, the requested distinction for a new trust contains a material error. It says a brand-new trust files under Section 8(a) and Rule 485(a) and 'typically also faces the 75-day period.' Rule 485(a) governs post-effective amendments, not initial registration statements. The grader notes specifically say not to present 75 days as the rule for a new trust's initial registration. Minor omissions: it does not mention the 60-day period for other material amendments, SEC acceleration, or the 95-day cap on a designated later effective date. Its reference to a 'delaying amendment' only loosely tracks the rule's mechanism for designating a later date.",
+  "blind_id": "B075"
+}

@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-36",
+  "tier": "B",
+  "answer": "**Direct redemption with the fund (exceptional route)** Ordinary secondary-market holders of Irish UCITS ETFs generally cannot redeem directly with the fund. Only Authorised Participants (APs) create and redeem in creation-unit size in the primary market. A direct route for non-AP holders exists only if the prospectus provides for it, typically around fund termination, a merger, or a dealing suspension. Check the current prospectus and KIID. **Protections where a route exists** - **Notice:** Requests must follow the prospectus's dealing-day and cut-off rules. Suspensions must be notified to the Central Bank of Ireland and to unitholders. - **Process:** Redemption is at the calculated NAV, with fair treatment across unitholders. - **Costs:** Redemption charges and anti-dilution levies (such as swing pricing) must be disclosed and capped under the prospectus. **Exchange dealing (ordinary route)** Holders sell on the exchange to another investor at market price. The fund is not a counterparty and no notice",
+  "original_answer": "**Direct redemption with the fund (exceptional route)**\n\nOrdinary secondary-market holders of Irish UCITS ETFs generally cannot redeem directly with the fund. Redemption in creation-unit size runs through Authorised Participants (APs), who are the only parties that create and redeem in the primary market. A direct route for non-AP holders exists only where the prospectus provides for it, typically around fund termination, a merger, or a suspension of dealing. Investors should check the current prospectus and key investor information document.\n\n**Protections where a route exists**\n- **Notice:** Redemption requests must follow the prospectus's dealing-day and cut-off rules. Suspensions must be notified to the Central Bank of Ireland and to unitholders.\n- **Process:** Redemption is at the calculated NAV, with fair treatment across unitholders.\n- **Costs:** Any redemption charges and anti-dilution levies (such as swing pricing) must be disclosed and capped under the prospectus.\n\n**Exchange dealing (ordinary route)**\nHolders sell on the exchange to another investor at the market price. The fund is not a counterparty, no notice is required, and the cost is the bid-ask spread plus any brokerage. Settlement is usually T+2.\n\n*Caveat: this reflects general framework principles. Verify specifics against the fund's current documentation.*",
+  "void": false,
+  "words_before": 195,
+  "words_after_shorten": 177,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-7exbwfp_",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, under the Irish UCITS ETF framework, when can a secondary-market holder redeem directly with the fund, and what notification, process and cost protections apply? Distinguish this exceptional route from ordinary exchange dealing.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-36-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-qbgdm7hh",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Direct redemption with the fund (exceptional route)**\n\nOrdinary secondary-market holders of Irish UCITS ETFs generally cannot redeem directly with the fund. Redemption in creation-unit size runs through Authorised Participants (APs), who are the only parties that create and redeem in the primary market. A direct route for non-AP holders exists only where the prospectus provides for it, typically around fund termination, a merger, or a suspension of dealing. Investors should check the current prospectus and key investor information document.\n\n**Protections where a route exists**\n- **Notice:** Redemption requests must follow the prospectus's dealing-day and cut-off rules. Suspensions must be notified to the Central Bank of Ireland and to unitholders.\n- **Process:** Redemption is at the calculated NAV, with fair treatment across unitholders.\n- **Costs:** Any redemption charges and anti-dilution levies (such as swing pricing) must be disclosed and capped under the prospectus.\n\n**Exchange dealing (ordinary route)**\nHolders sell on the exchange to another investor at the market price. The fund is not a counterparty, no notice is required, and the cost is the bid-ask spread plus any brokerage. Settlement is usually T+2.\n\n*Caveat: this reflects general framework principles. Verify specifics against the fund's current documentation.*"
+      ],
+      "stdout": "haiku-QL-36-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "grade": "partial",
+  "rationale": "Correct: the answer says fixed fees cover routine processing and administrative costs, and variable fees cover trading, market-impact and cash-substitution costs. It says the AP placing the order pays, that the charges protect existing shareholders from dilution, and that terms are fund-specific. It also correctly separates fund transaction charges from AP compensation and does not claim the fund's fee reimburses the AP. Substantive omissions: it never mentions waivers. It misses that the AP bears the charge unless waived or paid by another party, and it omits the observation that sponsors often waive custom-redemption charges. It also does not answer whether fixed and variable charges can go to different recipients (e.g., fixed to the custodian or service provider, variable to the fund). Instead it treats 'recipients can differ' as fund versus AP, and only vaguely notes that fund fees may go to a service provider. Saying the AP 'typically pays the fund' is slightly imprecise for fixed charges paid to the custodian.",
+  "blind_id": "B096"
+}

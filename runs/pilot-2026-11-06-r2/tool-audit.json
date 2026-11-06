@@ -1,0 +1,244 @@
+[
+  {
+    "stdout": "luna-QL-01-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-02-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-03-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-03-shorten-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-04-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-05-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-05-shorten-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-06-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-07-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-08-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-09-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-10-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-11-initial-1.stdout",
+    "tool_calls": [
+      "command_execution"
+    ]
+  },
+  {
+    "stdout": "luna-QL-11-initial-2.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-12-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-13-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-14-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-15-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-16-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-16-shorten-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-17-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-17-shorten-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-18-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-19-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-20-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-21-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-22-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-23-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-24-initial-1.stdout",
+    "tool_calls": [
+      "command_execution"
+    ]
+  },
+  {
+    "stdout": "luna-QL-24-initial-2.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-25-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-25-shorten-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-26-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-27-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-28-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-29-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-30-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-31-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-31-shorten-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-32-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-33-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-33-shorten-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-34-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-34-shorten-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-35-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-36-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-37-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-38-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-39-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-40-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-QL-40-shorten-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-capital_markets_001_what_are_significant_drivers_of_the_etf-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-capital_markets_001_what_are_significant_drivers_of_the_etf-shorten-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-creation_redemption_002_what_is_a_normal_amount_of_collateral_an-initial-1.stdout",
+    "tool_calls": [
+      "mcp_tool_call",
+      "mcp_tool_call"
+    ]
+  },
+  {
+    "stdout": "luna-creation_redemption_002_what_is_a_normal_amount_of_collateral_an-initial-2.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-creation_redemption_004_what_costs_do_the_creation_fee_cover-initial-1.stdout",
+    "tool_calls": []
+  },
+  {
+    "stdout": "luna-creation_redemption_006_who_are_typically_the_parties_involved_i-initial-1.stdout",
+    "tool_calls": [
+      "mcp_tool_call",
+      "mcp_tool_call"
+    ]
+  },
+  {
+    "stdout": "luna-creation_redemption_006_who_are_typically_the_parties_involved_i-initial-2.stdout",
+    "tool_calls": []
+  }
+]

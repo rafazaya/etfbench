@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-20",
+  "tier": "A",
+  "answer": "**Allocation:**\n- **Management-fee revenue:** The unitary fee accrues to the platform adviser as advisory compensation.\n- **Ordinary operating costs:** Custody, fund administration, transfer agency, audit, legal, and index or licensing fees are paid from the unitary fee. Costs above its coverage are the sponsor's responsibility under the sponsorship agreement, which may direct payment to the adviser or to providers.\n\n**Continuing obligation:** The platform adviser remains primarily liable to the trust and fund under the investment advisory agreement and unitary-fee arrangement. The sponsor's assumption of the fee remainder is a contract between sponsor and adviser and does not release the adviser from ensuring the fund's expenses are paid. The arrangement should be disclosed in the prospectus and statement of additional information.\n\n**Verify:** Confirm exact terms against the fund's current prospectus, SAI, and sponsorship agreement, since disclosure requirements and expense-limitation mechanics vary by filing.",
+  "original_answer": "**Allocation:**\n- **Management-fee revenue:** The unitary fee accrues to the platform adviser as its advisory compensation.\n- **Ordinary operating costs:** Fund-level costs such as custody, fund administration, transfer agency, audit, legal, and index or licensing fees are paid from the unitary fee. Costs above the fee's coverage are the sponsor's responsibility under the sponsorship agreement, which may direct payment to the adviser or to providers.\n\n**Continuing obligation to the fund:** The platform adviser remains primarily liable to the trust and fund under the investment advisory agreement and the unitary-fee arrangement. The sponsor's assumption of the fee remainder is a contract between the sponsor and the adviser. It does not release the adviser from its duty to ensure the fund's expenses are paid. The adviser must keep the fund solvent for its obligations, and the arrangement should disclose the sponsor's role in the prospectus and statement of additional information.\n\n**Verify:** Confirm the exact terms against the fund's current prospectus, SAI, and sponsorship agreement, since disclosure requirements and expense-limitation mechanics vary by filing.",
+  "void": false,
+  "words_before": 171,
+  "words_after_shorten": 142,
+  "words_final": 142,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-t13zj14r",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, in a US series-trust unitary-fee model where the platform adviser contracts with a brand sponsor to assume expenses for the fee remainder, how are management-fee revenue and ordinary operating costs allocated? Identify the continuing obligation to the fund; do not invent a standard percentage split.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-20-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-_kb_y5uk",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Allocation:**\n- **Management-fee revenue:** The unitary fee accrues to the platform adviser as its advisory compensation.\n- **Ordinary operating costs:** Fund-level costs such as custody, fund administration, transfer agency, audit, legal, and index or licensing fees are paid from the unitary fee. Costs above the fee's coverage are the sponsor's responsibility under the sponsorship agreement, which may direct payment to the adviser or to providers.\n\n**Continuing obligation to the fund:** The platform adviser remains primarily liable to the trust and fund under the investment advisory agreement and the unitary-fee arrangement. The sponsor's assumption of the fee remainder is a contract between the sponsor and the adviser. It does not release the adviser from its duty to ensure the fund's expenses are paid. The adviser must keep the fund solvent for its obligations, and the arrangement should disclose the sponsor's role in the prospectus and statement of additional information.\n\n**Verify:** Confirm the exact terms against the fund's current prospectus, SAI, and sponsorship agreement, since disclosure requirements and expense-limitation mechanics vary by filing."
+      ],
+      "stdout": "haiku-QL-20-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

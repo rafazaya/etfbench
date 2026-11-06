@@ -1,0 +1,5 @@
+{
+  "grade": "partial",
+  "rationale": "The answer covers most of the central content. It correctly lists AP-agreement preservation and per-basket records: identifier, description, quantity and weight of each holding, cash balancing amount, and the transacting AP. It also correctly gives a five-year retention period with the first two years readily accessible for basket records. However, it omits a required basket-record element: the custom-basket designation and the statement of compliance with the fund's custom-basket policies, where applicable. It also contains a localized error on AP agreements. It says they must be kept 'for at least five years after its termination', but Rule 6c-11(d) sets a flat minimum of five years, the first two in an easily accessible place, with no termination-based trigger. One substantive omission plus one localized misstatement of the retention rule makes this partial rather than correct.",
+  "blind_id": "B126"
+}

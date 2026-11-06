@@ -1,0 +1,41 @@
+{
+  "model": "haiku",
+  "id": "QL-30",
+  "tier": "C",
+  "answer": "**Contract terms:** Licensed fund types and AUM caps; term, renewal mechanics, and who controls renewal; termination for cause and convenience; notice periods (confirm, don't assume); fee structure, minimums, and step-ups; change-of-control clauses; methodology change rights; sublicensing; post-termination run-off or transition rights; liability caps and indemnities.\n\n**Naming dependencies:** Fund name, ticker, and prospectus references tied to the index trademark; marketing, exchange listing, and website usage; what must change, and how quickly, if the licence lapses.\n\n**Affiliated-information issues:** Whether the index provider or calculation agent is affiliated with the adviser, sponsor, or distributor; overlap between index governance and adviser personnel; data-sharing and confidentiality; related-party fees; conflict disclosures and board oversight under the 1940 Act.\n\n**Contingency diligence:** Identify candidate substitute indices and test their methodology, tracking, and liquidity; assess the prospectus and shareholder-approval implications of a change; establish board escalation triggers.\n\nSubstitution is not guaranteed; counsel should confirm the actual terms.",
+  "original_answer": "**Contract terms:** Licensed fund types and AUM caps; term, renewal mechanics, and who controls renewal; termination for cause and convenience; notice periods (confirm, don't assume); fee structure, minimums, and step-ups; change-of-control clauses; methodology change rights; sublicensing; post-termination run-off or transition rights; liability caps and indemnities.\n\n**Naming dependencies:** Fund name, ticker, and prospectus references tied to the index trademark; marketing, exchange listing, and website usage; what must change, and how quickly, if the licence lapses.\n\n**Affiliated-information issues:** Whether the index provider or calculation agent is affiliated with the adviser, sponsor, or distributor; overlap between index governance and adviser personnel; data-sharing and confidentiality; related-party fees; conflict disclosures and board oversight under the 1940 Act.\n\n**Contingency diligence:** Identify candidate substitute indices and test their methodology, tracking, and liquidity; assess the prospectus and shareholder-approval implications of a change; establish board escalation triggers.\n\nSubstitution is not guaranteed; counsel should confirm the actual terms.",
+  "void": false,
+  "words_before": 148,
+  "words_after_shorten": null,
+  "words_final": 148,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-0zejru5m",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a US index ETF board reviewing an index licence and failed-renewal contingency, what contract terms, naming dependencies and affiliated-information issues should it examine? Treat the checklist as diligence, not a universal notice period or guaranteed substitution right.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-30-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": []
+}

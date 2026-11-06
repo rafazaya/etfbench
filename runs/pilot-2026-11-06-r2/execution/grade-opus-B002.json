@@ -1,0 +1,5 @@
+{
+  "grade": "partial",
+  "rationale": "Correct on the central point: a new series added by a Rule 485(a) post-effective amendment normally becomes effective on the 75th day after filing. The answer also rightly treats effectiveness as a registration step, not a launch guarantee. It lists real follow-on steps: exchange listing, AP agreements, seed capital, service providers, NSCC/DTC readiness, and staff comments. It correctly says a Rule 6c-11 ETF needs no exemptive order.\n\nHowever, the requested distinction for a new trust is materially wrong. The answer says a brand-new trust files under 'Section 8(a) and Rule 485(a)' and 'typically also faces the 75-day period.' Rule 485 governs post-effective amendments, so it does not cover a new trust's initial registration. The grader notes say not to present 75 days as the rule for a new trust. That section is also cut off mid-sentence.\n\nOmissions: it does not mention the 60-day period for other material amendments. It does not mention designated later effective dates (at most 95 days for a new-series amendment), though it does reference delaying amendments and earlier action.",
+  "blind_id": "B002"
+}

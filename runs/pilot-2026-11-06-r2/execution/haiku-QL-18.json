@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-18",
+  "tier": "C",
+  "answer": "**Effectiveness period:** A new series of an existing trust filed under Rule 485(a) generally becomes effective on the 75th day after filing, absent a delaying amendment or earlier staff action. Rule 485(b) can make an amendment effective sooner, but it is generally unavailable for a new series without a qualifying basis. A Rule 6c-11 ETF needs no exemptive order, so 485(a) applies. **Not a launch guarantee:** Effectiveness only legally registers the series. Launch still requires: - Exchange listing approval and ticker/CUSIP assignment - Seed capital and authorized participant agreements - Custody, transfer agent, and fund accounting setup - Blue-sky notice filings and NSCC/DTC readiness - Resolution of staff comments, which may require further amendments and delay the date **New trusts:** A brand-new trust files Form N-1A under Section 8(a) and Rule 485(a) and typically also faces the 75-day period. It must first be formed under state law and register under",
+  "original_answer": "**Effectiveness period:** A new series of an existing trust filed under Rule 485(a) generally becomes effective on the **75th day after filing**, absent a delaying amendment or earlier staff action. Rule 485(b) can make an amendment effective sooner, but it is generally unavailable for a new series without a qualifying basis. A Rule 6c-11 ETF needs no exemptive order, so 485(a) applies.\n\n**Why it isn't a launch guarantee:** Effectiveness only makes the series legally registered. Launch still depends on:\n- Exchange listing approval and ticker or CUSIP assignment\n- Seed capital and authorized participant agreements\n- Custody, transfer agent, and fund accounting setup\n- Blue-sky notice filings and NSCC/DTC readiness\n- Staff comments that may require a further amendment, which can push the date back\n\n**Initial registration of a new trust:** A brand-new trust files a Form N-1A registration statement under Section 8(a) and Rule 485(a) and typically also faces the 75-day period. The trust must first be formed under state law and register under the Investment Company Act, which adds steps before any series can launch.",
+  "void": false,
+  "words_before": 177,
+  "words_after_shorten": 161,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-yhnmp3jk",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for a new ordinary ETF series added to an existing US trust by a Rule 485(a) post-effective amendment, with no separate exemptive relief needed, what filing-effectiveness period normally applies, and why is it not an end-to-end launch guarantee? Distinguish initial registration of a new trust.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-18-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-5q2t7rzs",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Effectiveness period:** A new series of an existing trust filed under Rule 485(a) generally becomes effective on the **75th day after filing**, absent a delaying amendment or earlier staff action. Rule 485(b) can make an amendment effective sooner, but it is generally unavailable for a new series without a qualifying basis. A Rule 6c-11 ETF needs no exemptive order, so 485(a) applies.\n\n**Why it isn't a launch guarantee:** Effectiveness only makes the series legally registered. Launch still depends on:\n- Exchange listing approval and ticker or CUSIP assignment\n- Seed capital and authorized participant agreements\n- Custody, transfer agent, and fund accounting setup\n- Blue-sky notice filings and NSCC/DTC readiness\n- Staff comments that may require a further amendment, which can push the date back\n\n**Initial registration of a new trust:** A brand-new trust files a Form N-1A registration statement under Section 8(a) and Rule 485(a) and typically also faces the 75-day period. The trust must first be formed under state law and register under the Investment Company Act, which adds steps before any series can launch."
+      ],
+      "stdout": "haiku-QL-18-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

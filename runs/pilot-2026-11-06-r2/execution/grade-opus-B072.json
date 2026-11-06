@@ -1,0 +1,5 @@
+{
+  "grade": "partial",
+  "rationale": "The answer gets two things right. It says the identifier can go on the listed class, with the classes distinguished. It also warns against labelling non-ETF siblings as ETFs. It does not claim that class-level identification was new in 2026. However, it makes a substantive error on sub-fund-level identification. It says ETF status attaches to a share class rather than a sub-fund, and that the whole sub-fund should not be called an ETF if it also has non-ETF classes. Under Reg. 88(1)\u2013(2) and CBI Q&A 1016/1088, a sub-fund with mixed listed and unlisted classes may carry the identifier at either sub-fund or listed-class level. In a mixed umbrella, the ETF sub-fund itself must be identified. The answer reframes that rule as class-only. It also only partly covers where the identifier must appear: name, constitution, prospectus, KID/KIID and marketing.",
+  "blind_id": "B072"
+}

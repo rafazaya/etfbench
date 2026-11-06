@@ -1,0 +1,5 @@
+{
+  "grade": "wrong",
+  "rationale": "The answer correctly says secondary-market holders generally cannot redeem directly with the fund and correctly contrasts this with ordinary exchange dealing, where the fund is not a counterparty. However, it misstates the central trigger. The key points say the direct route arises where the exchange value varies significantly from NAV, as determined by the responsible party (Reg 90(2)). The answer instead ties the route to termination, merger or dealing suspension and to whatever the prospectus provides. It never mentions significant deviation from NAV. The notification protection is also wrong. The required notification is to the regulated market (Reg 90(3)), but the answer describes suspension notices to the CBI and unitholders. It omits the prescribed prospectus and marketing warning (Reg 90(1)). It mentions cost disclosure but not the requirement that costs not be excessive; it says 'capped under the prospectus' instead. The central mechanism (trigger, who decides, and the regulated-market notice) is therefore incorrect or missing, not just incomplete. The answer is also truncated.",
+  "blind_id": "B009"
+}

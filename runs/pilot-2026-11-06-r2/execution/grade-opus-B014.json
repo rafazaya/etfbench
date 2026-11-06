@@ -1,0 +1,5 @@
+{
+  "grade": "partial",
+  "rationale": "The first point is correct. The answer says the sponsor absorbs the shortfall when a small fund's fee income falls below its fixed expense obligations, and that shareholders keep a fixed expense ratio. This matches the first key point and the fixed-costs/small-fund economics.\n\nThe second point has a material error. The key point says the platform adviser still owes the fund its promised expenses if the partner does not pay. Instead, the answer says the fund itself remains liable and shareholders bear the unpaid amounts through reduced NAV, then seek recourse against the sponsor. That is the shareholder-reimbursement outcome the rubric explicitly rejects.\n\nThe answer also merges the sponsor and adviser into one party ('The sponsor (adviser)'). It never identifies the platform adviser as a separate party with a backstop obligation, which is the core of the contractual-partner model.\n\nOne of the two central facts is correct and the other is wrong, so this grades as partial.",
+  "blind_id": "B014"
+}

@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-32",
+  "tier": "C",
+  "answer": "**Definitions**\n- **Tracking error:** annualized standard deviation of daily (fund return \u2212 benchmark return) over the agreed one-year window (daily returns \u00d7 \u221a252).\n- **Tracking difference:** cumulative fund return minus cumulative benchmark return over the same period. It captures persistent drag such as fees and is reported separately.\n\n**Causes to investigate when tracking error exceeds the mandate's range**\n\n**Portfolio:** sampling or optimization versus full replication, and resulting active weights; cash drag and cash buffer levels; timing of index reconstitutions, rebalances, and corporate actions; weight drift, caps, and liquidity-constrained holdings.\n\n**Pricing:** fair-value adjustments and closing-price timing versus benchmark pricing; non-synchronous or stale prices; FX rate sources and fixing times; dividend accrual and withholding assumptions.\n\n**Operating:** execution slippage, commissions, and trade timing; creation/redemption flows and in-kind handling; securities lending income and collateral management; settlement failures and custody issues; benchmark data errors or delayed index updates.",
+  "original_answer": "**Definitions**\n- **Tracking error:** the annualized standard deviation of daily (fund return \u2212 benchmark return) over the agreed one-year window (typically daily returns \u00d7 \u221a252).\n- **Tracking difference:** the cumulative fund return minus the cumulative benchmark return over the same period. It captures persistent drag such as fees and is reported separately.\n\n**Causes to investigate when tracking error exceeds the mandate's range**\n\n**Portfolio**\n- Sampling or optimization versus full replication, and resulting active weights\n- Cash drag and cash buffer levels\n- Timing of index reconstitutions, rebalances, and corporate actions\n- Weight drift, caps, and liquidity-constrained holdings\n\n**Pricing**\n- Fair-value adjustments and closing-price timing versus benchmark pricing\n- Non-synchronous or stale prices\n- FX rate sources and fixing times\n- Dividend accrual and withholding assumptions\n\n**Operating**\n- Execution slippage, commissions, and trade timing\n- Creation/redemption flows and in-kind handling\n- Securities lending income and collateral management\n- Settlement failures and custody issues\n- Benchmark data errors or delayed index updates",
+  "void": false,
+  "words_before": 160,
+  "words_after_shorten": 143,
+  "words_final": 143,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-kkkt9j62",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a US equity index ETF, define tracking error as variability of daily fund-minus-benchmark total returns over an agreed one-year period, separately from cumulative tracking difference. If error exceeds the mandate's expected range, what portfolio, pricing and operating causes should be investigated? No numerical expected range or single cause is assumed.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-32-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-sd8np24v",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Definitions**\n- **Tracking error:** the annualized standard deviation of daily (fund return \u2212 benchmark return) over the agreed one-year window (typically daily returns \u00d7 \u221a252).\n- **Tracking difference:** the cumulative fund return minus the cumulative benchmark return over the same period. It captures persistent drag such as fees and is reported separately.\n\n**Causes to investigate when tracking error exceeds the mandate's range**\n\n**Portfolio**\n- Sampling or optimization versus full replication, and resulting active weights\n- Cash drag and cash buffer levels\n- Timing of index reconstitutions, rebalances, and corporate actions\n- Weight drift, caps, and liquidity-constrained holdings\n\n**Pricing**\n- Fair-value adjustments and closing-price timing versus benchmark pricing\n- Non-synchronous or stale prices\n- FX rate sources and fixing times\n- Dividend accrual and withholding assumptions\n\n**Operating**\n- Execution slippage, commissions, and trade timing\n- Creation/redemption flows and in-kind handling\n- Securities lending income and collateral management\n- Settlement failures and custody issues\n- Benchmark data errors or delayed index updates"
+      ],
+      "stdout": "haiku-QL-32-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

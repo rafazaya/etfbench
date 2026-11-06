@@ -1,0 +1,5 @@
+{
+  "grade": "partial",
+  "rationale": "The answer correctly separates the two roles. APs create and redeem creation units with the fund in the primary market, which helps align price with NAV. Market makers quote bids and offers and provide secondary-market liquidity. It also says market makers may use an AP's creation/redemption process for hedging or arbitrage, that market makers need not be APs, and that one firm can perform both roles while the roles stay distinct. These points cover most of key points 1 and 2 and part of 3, with no material errors. However, it never mentions a lead market maker (LMM) designated for a particular ETF with quoting commitments. That is a required element of key point 3, not an optional example. Its link between market-maker inventory management and creation/redemption is also only implicit ('hedge or arbitrage a price mismatch'), not explicit. The core content is accurate, but the missing LMM point is a substantive omission.",
+  "blind_id": "B060"
+}

@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "Covers the central mechanism. AP in-kind redemptions let the fund deliver low-basis lots, and IRC \u00a7852(b)(6) gives the RIC nonrecognition on them, so appreciated lots are purged without realized gains. It contrasts this with a cash-redeeming mutual fund that sells holdings and distributes gains to remaining holders. Limits are well covered: cash creations/redemptions, rebalancing and index-change sales can still realize gains, so distributions are not guaranteed to be zero. Reliance on cash in bond and international ETFs addresses the dependence on deliverable assets. The investor's own sale remains taxable, and the effect is deferral. Minor omissions: it does not say explicitly that \u00a7852(b)(6) is not ETF-specific and applies to any RIC meeting in-kind redemptions, though framing it as a RIC rule implies this. 'Must sell' slightly overstates the mutual-fund case, but it fits the cash-dealing premise. The ending is truncated but substantively complete.",
+  "blind_id": "B028"
+}

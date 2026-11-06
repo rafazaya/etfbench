@@ -1,0 +1,5 @@
+{
+  "grade": "partial",
+  "rationale": "The answer covers much of the core: a free public website; prior-day holdings posted before trading opens; daily NAV, closing market price and premium/discount; history for the last calendar year plus completed quarters; a 30-day median bid-ask spread; and the 2%/seven-trading-day trigger. Its distinction between the actual portfolio and creation/redemption baskets is reasonable. However, it gets the retention period wrong for the sustained-deviation explanation, which the question specifically asks about. It says to keep the explanation only until the deviation no longer exceeds 2%, but the rule requires keeping the statement and the discussion of contributing factors on the website for at least one year. It also says 'table or chart', when the rule requires both a table and a line graph. It omits required holdings details (identifiers, descriptions, quantities, weights) and the spread method (NBBO snapshots every 10 seconds, divided by the midpoint, shown as a percentage rounded to a hundredth). It also omits the shorter-fund-life alternative for the history period.",
+  "blind_id": "B111"
+}

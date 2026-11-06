@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b0fd-c588-7683-8bac-ddfc1f1ee69c"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Generally, no. In ordinary U.S. ETF operations, only **Authorized Participants (APs)**—typically broker-dealers with agreements with the fund—may redeem directly, and then only in large **Creation Unit** blocks, usually in kind or for cash. An ordinary retail investor cannot present individual shares to the fund for redemption.\n\nThe usual alternative is to sell the ETF shares on an exchange through a broker, like a stock. The market price may be above or below the ETF’s net asset value; APs’ create/redeem activity and arbitrage generally help keep it close."}}
+{"type":"turn.completed","usage":{"input_tokens":8388,"cached_input_tokens":4864,"cache_write_input_tokens":0,"output_tokens":123,"reasoning_output_tokens":0}}

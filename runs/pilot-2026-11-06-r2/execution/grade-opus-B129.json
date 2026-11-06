@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer correctly concludes that historical exchange volume alone is not enough. It explains that volume reflects secondary trading in existing shares, and that APs can create or redeem shares in blocks against the underlying basket or cash. It notes that this arbitrage keeps price near NAV and depends on how liquid the underlying securities are. This covers key point 1. For key point 2, it lists quoted and effective spreads, displayed depth, underlying basket liquidity (constituent spreads, volume, depth), creation/redemption activity, and the number and quality of market makers and APs. It also adds reasonable extras such as premium/discount, closing auction volume, and behavior under stress. It does not promise execution capacity and points to pre-trade analysis for specific orders. The 'typically 25,000 to 100,000 shares' creation unit range is an incidental example and is broadly plausible. There are no material errors or omissions.",
+  "blind_id": "B129"
+}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b0fd-c457-7073-85a2-99a3d705b488"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Authorized participants (APs) create ETF shares by delivering a basket of securities—or cash—to the fund in exchange for a large block of new shares. This increases shares outstanding. To redeem, APs return ETF shares to the fund and receive securities or cash; the fund cancels those shares, decreasing shares outstanding.\n\nThese transactions usually happen in large “creation units” on the primary market, not through ordinary investors trading ETF shares with one another on the exchange. Exchange trading alone doesn’t change shares outstanding."}}
+{"type":"turn.completed","usage":{"input_tokens":8353,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":105,"reasoning_output_tokens":0}}

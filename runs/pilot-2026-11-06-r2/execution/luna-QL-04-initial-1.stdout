@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b0fd-af61-7c80-a751-09bc90721245"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"An ETF’s expense ratio isn’t usually charged as a separate fee to your account. The fund pays its operating expenses from its assets, so those costs gradually reduce the ETF’s net asset value and returns.\n\nFor example, a 0.20% annual expense ratio on a $10,000 investment is about $20 per year, reflected over time—not typically billed as a $20 transaction. Your actual cost varies with your investment’s value and holding period.\n\nTrading commissions, bid–ask spreads, and taxes are separate costs and aren’t included in the expense ratio."}}
+{"type":"turn.completed","usage":{"input_tokens":8346,"cached_input_tokens":4864,"cache_write_input_tokens":0,"output_tokens":118,"reasoning_output_tokens":0}}

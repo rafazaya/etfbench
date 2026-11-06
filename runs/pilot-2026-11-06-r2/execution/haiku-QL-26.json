@@ -1,0 +1,41 @@
+{
+  "model": "haiku",
+  "id": "QL-26",
+  "tier": "B",
+  "answer": "Under Rule 6c-11(d) of the Investment Company Act of 1940, an ETF must preserve:\n\n1. **Authorized participant (AP) agreements:** copies of all agreements with APs.\n2. **Exchanged-basket records:** records of the composition of each creation and redemption basket exchanged with APs, including the related transaction information.\n\n**Retention:** Records must be kept for at least **five years**, with the **first two years** in an easily accessible place.\n\nThis reflects the rule as I understand it. I can't check live sources, so confirm the current text and any post-2026 amendments on eCFR or the SEC website before relying on it for compliance.",
+  "original_answer": "Under Rule 6c-11(d) of the Investment Company Act of 1940, an ETF must preserve:\n\n1. **Authorized participant (AP) agreements:** copies of all agreements with APs.\n2. **Exchanged-basket records:** records of the composition of each creation and redemption basket exchanged with APs, including the related transaction information.\n\n**Retention:** Records must be kept for at least **five years**, with the **first two years** in an easily accessible place.\n\nThis reflects the rule as I understand it. I can't check live sources, so confirm the current text and any post-2026 amendments on eCFR or the SEC website before relying on it for compliance.",
+  "void": false,
+  "words_before": 100,
+  "words_after_shorten": null,
+  "words_final": 100,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-j3_huj3g",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, what AP-agreement and exchanged-basket records must a US ETF preserve under Rule 6c-11(d), and for how long must they be retained and readily accessible?\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-26-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": []
+}

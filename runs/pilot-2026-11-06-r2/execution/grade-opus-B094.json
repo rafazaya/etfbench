@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer covers the central mechanism: the ETF delivers appreciated stock baskets to authorized participants instead of selling for cash, and under RIC rules a qualifying in-kind redemption generally does not trigger fund-level gain recognition (the 852(b)(6) nonrecognition point, uncited, which is acceptable). It explains that low-basis lots can be pushed out, reducing embedded gains, while a cash-dealing mutual fund more often sells holdings and realizes gains that are distributed. The limits are well stated: the benefit is deferral or reduction rather than zero distributions; dividends and gains from other sales remain taxable; investors are still taxed when they sell ETF shares; reinvested distributions are still taxable; and results depend on flows, turnover and the ability to redeem in kind. It also notes that a mutual fund may avoid sales too. Minor omission: it does not say explicitly that the nonrecognition is a general RIC rule rather than an ETF-only exemption, though 'Under the RIC rules' implies this. There are no material errors.",
+  "blind_id": "B094"
+}

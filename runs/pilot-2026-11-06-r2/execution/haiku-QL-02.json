@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-02",
+  "tier": "C",
+  "answer": "**Normally you receive cash, not a total loss.** A '40 Act ETF liquidates under a board-approved plan: it sells its holdings, pays expenses and liabilities, and distributes the remaining net assets to shareholders.\n\n- **Amount:** You receive your pro-rata share of final NAV per share, which can be above or below your purchase price. You lose everything only if the assets are worthless, which is rare for a diversified fund.\n- **Timing:** The fund announces a liquidation date, and cash follows. Until then, you can usually sell on exchange at market price, which may differ from NAV. Notice and payment schedules vary, so check the notice.\n- **Taxes:** In taxable accounts, the distribution is generally treated as a sale of your shares. Gains or losses are measured against your cost basis. Capital gain distributions paid before liquidation are taxed separately. Expect a Form 1099-B.",
+  "original_answer": "**Normally you receive cash, not a total loss.** A '40 Act ETF liquidates under a board-approved plan. It sells its holdings, pays its liabilities and expenses, and distributes the remaining net assets to shareholders.\n\n- **Amount:** You receive your pro-rata share of net assets, based on the final NAV per share. That can be above or below the price you paid. You lose everything only if the assets are worth nothing, which is rare for a diversified fund.\n- **Timing:** The fund announces a liquidation date and the cash distribution follows. Until then, you can usually sell on exchange at market price, which may differ from NAV. The notice period and payment schedule vary by fund, so check the fund's notice.\n- **Taxable accounts:** The liquidating distribution is generally treated as a sale of your shares. You owe capital gains tax on any gain, or claim a capital loss, measured against your cost basis. Any capital gain distributions paid before liquidation are taxed separately. Expect a Form 1099-B.",
+  "void": false,
+  "words_before": 168,
+  "words_after_shorten": 144,
+  "words_final": 144,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-83c41q3f",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, what normally happens to a US '40 Act ETF investor's holding when the ETF liquidates? Distinguish receiving remaining proceeds from losing the whole investment, and address amount, timing and taxable-account consequences without assuming a fund-specific timetable.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-02-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-7ijbhdtt",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Normally you receive cash, not a total loss.** A '40 Act ETF liquidates under a board-approved plan. It sells its holdings, pays its liabilities and expenses, and distributes the remaining net assets to shareholders.\n\n- **Amount:** You receive your pro-rata share of net assets, based on the final NAV per share. That can be above or below the price you paid. You lose everything only if the assets are worth nothing, which is rare for a diversified fund.\n- **Timing:** The fund announces a liquidation date and the cash distribution follows. Until then, you can usually sell on exchange at market price, which may differ from NAV. The notice period and payment schedule vary by fund, so check the fund's notice.\n- **Taxable accounts:** The liquidating distribution is generally treated as a sale of your shares. You owe capital gains tax on any gain, or claim a capital loss, measured against your cost basis. Any capital gain distributions paid before liquidation are taxed separately. Expect a Form 1099-B."
+      ],
+      "stdout": "haiku-QL-02-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

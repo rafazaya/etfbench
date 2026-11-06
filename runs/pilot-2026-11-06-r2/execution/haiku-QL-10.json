@@ -1,0 +1,41 @@
+{
+  "model": "haiku",
+  "id": "QL-10",
+  "tier": "B",
+  "answer": "**No.** In ordinary dealing, a retail investor cannot redeem individual ETF shares directly with a US '40 Act ETF. Creation and redemption happen only in large blocks, called creation units (commonly 25,000 to 100,000 shares), and only through Authorized Participants (APs). These are large broker-dealers with agreements with the fund's distributor. Under Rule 6c-11, the fund's shares trade on an exchange, and the creation/redemption mechanism is reserved for APs.\n\n**The usual alternative** is to sell your shares on the exchange through your broker at the prevailing market price. Your buyer is typically another investor or a market maker. Market makers and APs keep the price close to net asset value (NAV) by creating or redeeming creation units when the price drifts too far from NAV. Your sale price may still be slightly above (premium) or below (discount) NAV, especially for thinly traded funds or during volatile markets.",
+  "original_answer": "**No.** In ordinary dealing, a retail investor cannot redeem individual ETF shares directly with a US '40 Act ETF. Creation and redemption happen only in large blocks, called creation units (commonly 25,000 to 100,000 shares), and only through Authorized Participants (APs). These are large broker-dealers with agreements with the fund's distributor. Under Rule 6c-11, the fund's shares trade on an exchange, and the creation/redemption mechanism is reserved for APs.\n\n**The usual alternative** is to sell your shares on the exchange through your broker at the prevailing market price. Your buyer is typically another investor or a market maker. Market makers and APs keep the price close to net asset value (NAV) by creating or redeeming creation units when the price drifts too far from NAV. Your sale price may still be slightly above (premium) or below (discount) NAV, especially for thinly traded funds or during volatile markets.",
+  "void": false,
+  "words_before": 147,
+  "words_after_shorten": null,
+  "words_final": 147,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-0yqtz_uu",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, in ordinary dealing in a US '40 Act ETF (excluding reorganization, merger, conversion or liquidation), can an ordinary retail investor redeem individual ETF shares directly with the fund? Explain the usual alternative.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-10-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": []
+}

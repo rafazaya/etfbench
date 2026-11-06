@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer covers the central mechanism. The fund sells its holdings, pays liabilities and expenses, and distributes the remaining net assets pro rata. It says this is not a total loss unless the assets are worthless.\n\nOn amount, it ties the payout to final net assets per share after expenses, which may differ from what the investor paid. On timing, it notes the payment follows a liquidation date and that investors can usually sell on exchange before trading ends, at a market price that may differ from NAV. It also says schedules vary by fund, so it does not assume a fund-specific timetable.\n\nOn taxable accounts, it gives a correct treatment: gain or loss measured against cost basis, with pre-liquidation distributions taxed separately.\n\nMinor omissions are not material:\n- It does not say the final payout may differ from the last published NAV or exchange price.\n- It does not mention the IRS point that a loss may not be recognized until the final distribution.\n- It does not list taxes or other charges deducted before payment.",
+  "blind_id": "B108"
+}

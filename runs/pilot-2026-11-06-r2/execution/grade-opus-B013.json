@@ -1,0 +1,5 @@
+{
+  "grade": "partial",
+  "rationale": "The answer covers the central requested facts. It identifies cash collateral of 115% for undelivered securities, applies the percentage to the value of those undelivered securities rather than the whole order or basket, and says 115% is not universal. However, it omits several key points. It never mentions the 105% rate found in some reviewed forms, including the 'at least 105%' iShares terms in the Custodian section, which is the main evidence that the rate is not universal. Its 'up to 115%' wording also mischaracterizes the reviewed text, which describes 115% as typical and 105% in some forms, not 115% as a ceiling. Finally, it leaves out that the AP remains liable for any shortfall if the fund buys the missing securities itself.",
+  "blind_id": "B013"
+}

@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "Point 1 is covered: the answer says illiquid, wide or off-hours underlying baskets raise hedging risk and widen quotes, and that hedging and creation/redemption costs (basket or futures execution, inventory risk, fees, taxes, basket sourcing) widen the arbitrage band and the quote. Point 2 is covered: it frames the quoted spread as reflecting the market maker's cost to hedge and make a two-sided market. It does not explicitly say the market maker earns the spread, but that link is clearly implied. Point 3 is covered: volume measures only secondary-market trading and says little about creation/redemption capacity or underlying depth, and liquidity is better judged by underlying conditions and creation/redemption capacity. Extra drivers (off-hours underlying, fragmented listings, stress behavior) are sound. The answer gives no ranking, no universal spread levels and no promised capacity. Minor omission: it does not mention the executable spread or depth of the ETF itself, which is not material.",
+  "blind_id": "B058"
+}

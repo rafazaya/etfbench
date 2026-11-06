@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-24",
+  "tier": "C",
+  "answer": "I can't reliably reproduce the exact four categories of Rule 6c-11(b) relief or the precise affiliate-transaction and delayed-delivery limits from memory, so I don't want to give wrong citations or day counts. Check the current text on eCFR (17 CFR 270.6c-11) and the adopting release (Release No. IC-33646, 2019), since the rule and staff guidance may have changed by November 2026.\n\nWith reasonable confidence, the rule exempts qualifying ETFs from certain Investment Company Act provisions, including the redemption and resale-price provisions of Sections 22(d) and 22(e), subject to conditions addressing:\n\n- **Affiliate limits:** restrictions on affiliated persons acting as authorized participants or otherwise influencing creation and redemption baskets.\n- **Custom baskets:** written policies and procedures keeping basket construction consistent and non-discriminatory.\n- **Foreign investments:** later settlement of creations and redemptions where local market settlement requires it, with timing conditions.\n\nFor exact conditions and thresholds, consult the rule text or counsel.",
+  "original_answer": "I can't reliably reproduce the exact four categories of Rule 6c-11(b) relief or the precise affiliate-transaction and delayed-delivery limits from memory, and I don't want to give you wrong citations or day counts. Please check the current text on eCFR (17 CFR 270.6c-11) and the adopting release (Release No. IC-33646, 2019), since the rule and related staff guidance may have changed by November 2026.\n\nWhat I can say with reasonable confidence: the rule exempts qualifying ETFs from certain Investment Company Act provisions, including the redemption and resale-price provisions of Sections 22(d) and 22(e), subject to conditions. Those conditions generally address:\n\n- **Affiliate limits:** restrictions on affiliated persons acting as authorized participants or otherwise influencing creation and redemption baskets, so that transactions don't favor insiders.\n- **Custom baskets:** written policies and procedures to keep basket construction consistent and non-discriminatory.\n- **Foreign investments:** permission to settle creations and redemptions later than the standard cycle where local market settlement requires it, with conditions on timing.\n\nFor exact conditions, thresholds, and which relief categories apply, consult the rule text or counsel.",
+  "void": false,
+  "words_before": 177,
+  "words_after_shorten": 150,
+  "words_final": 150,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-0cls19ww",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, what four categories of conditional operational relief does Rule 6c-11(b) provide for US ETFs? Explain the limits on affiliate transactions and delayed foreign-investment delivery.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-24-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-dnbem_1f",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\nI can't reliably reproduce the exact four categories of Rule 6c-11(b) relief or the precise affiliate-transaction and delayed-delivery limits from memory, and I don't want to give you wrong citations or day counts. Please check the current text on eCFR (17 CFR 270.6c-11) and the adopting release (Release No. IC-33646, 2019), since the rule and related staff guidance may have changed by November 2026.\n\nWhat I can say with reasonable confidence: the rule exempts qualifying ETFs from certain Investment Company Act provisions, including the redemption and resale-price provisions of Sections 22(d) and 22(e), subject to conditions. Those conditions generally address:\n\n- **Affiliate limits:** restrictions on affiliated persons acting as authorized participants or otherwise influencing creation and redemption baskets, so that transactions don't favor insiders.\n- **Custom baskets:** written policies and procedures to keep basket construction consistent and non-discriminatory.\n- **Foreign investments:** permission to settle creations and redemptions later than the standard cycle where local market settlement requires it, with conditions on timing.\n\nFor exact conditions, thresholds, and which relief categories apply, consult the rule text or counsel."
+      ],
+      "stdout": "haiku-QL-24-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

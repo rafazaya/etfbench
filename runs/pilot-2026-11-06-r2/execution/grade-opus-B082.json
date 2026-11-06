@@ -1,0 +1,5 @@
+{
+  "grade": "wrong",
+  "rationale": "The answer explicitly declines to state the four categories and the specific limits, so the central requested facts are missing. The partial content it offers is incorrect or misdirected. It does not identify the four categories: shares treated as redeemable securities; secondary-market trading at market prices (22(d)/22c-1); affiliated in-kind basket exchanges (17(a)); and delayed delivery for foreign holdings (22(e)). It mislabels the affiliate relief as 'restrictions on affiliated persons acting as authorized participants' when the rule actually grants Section 17(a) relief for in-kind basket transactions with persons affiliated solely through 5%/25%-type voting holdings (or affiliates of such persons). It lists custom baskets as a relief category, but that is a condition under 6c-11(c), not a 6c-11(b) relief. The foreign-delivery item omits the 'as soon as practicable, no later than 15 days' limit and the holiday/settlement-cycle trigger. It also miscasts 22(e) as 'resale-price' relief. This is an abstention with errors and none of the key specifics.",
+  "blind_id": "B082"
+}

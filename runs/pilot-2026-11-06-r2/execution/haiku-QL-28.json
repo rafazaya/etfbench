@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-28",
+  "tier": "C",
+  "answer": "**Stages (Section 6(c) exemptive relief):** 1. **Pre-filing consultation** with SEC Division of Investment Management staff. 2. **Application** under Section 6(c), plus any other needed sections (e.g., 12(d)(1), 17(a), 22(d)), with a supporting memo. 3. **Notice** published in the Federal Register. Interested persons may then request a hearing. 4. **Order** granting or denying relief, issued if no hearing is requested or the request is resolved. **Rule 0-5 expedited review:** Requested in the filing, usually for applications substantially identical to relief the Commission already granted. The Commission decides whether to accept it, so it is not automatic. **The 45-day clock:** Rule 0-5 sets a 45-day period after filing for Commission action on the notice. It is a procedural marker, not a guaranteed approval date. Hearing requests, staff comments, and amendments can extend the timeline. **Caveat:** Confirm current rule text and staff practice before relying on this, since timing varies. There is no",
+  "original_answer": "**Stages (Section 6(c) exemptive relief):**\n1. **Pre-filing consultation** with SEC Division of Investment Management staff.\n2. **Application** filed under Section 6(c), plus any other sections needed (e.g., 12(d)(1), 17(a), 22(d)), with a supporting memo.\n3. **Notice** of the application, published in the Federal Register. Interested persons then have a period to request a hearing.\n4. **Order** granting or denying relief, issued if no hearing is requested or the request is resolved.\n\n**Rule 0-5 expedited review:** Expedited handling is requested in the filing, usually for applications substantially identical to relief the Commission already granted. The Commission decides whether to accept it, so it is not automatic.\n\n**The 45-day clock:** Rule 0-5 sets a 45-day period after filing for Commission action on the notice. It is a procedural timing marker, not a guaranteed approval date. Requests for hearing, staff comments, and amendments can extend the timeline.\n\n**Caveat:** Confirm current rule text and staff practice before relying on this, since timing varies. There is no universal total approval time.",
+  "void": false,
+  "words_before": 166,
+  "words_after_shorten": 153,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-zbkuabxf",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for a US ETF requesting relief not supplied by Rule 6c-11, describe application, notice and order stages. When is Rule 0-5 expedited review available, and what does its 45-day clock mean? Do not give a universal total approval time.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-28-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-4i2e1vrb",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Stages (Section 6(c) exemptive relief):**\n1. **Pre-filing consultation** with SEC Division of Investment Management staff.\n2. **Application** filed under Section 6(c), plus any other sections needed (e.g., 12(d)(1), 17(a), 22(d)), with a supporting memo.\n3. **Notice** of the application, published in the Federal Register. Interested persons then have a period to request a hearing.\n4. **Order** granting or denying relief, issued if no hearing is requested or the request is resolved.\n\n**Rule 0-5 expedited review:** Expedited handling is requested in the filing, usually for applications substantially identical to relief the Commission already granted. The Commission decides whether to accept it, so it is not automatic.\n\n**The 45-day clock:** Rule 0-5 sets a 45-day period after filing for Commission action on the notice. It is a procedural timing marker, not a guaranteed approval date. Requests for hearing, staff comments, and amendments can extend the timeline.\n\n**Caveat:** Confirm current rule text and staff practice before relying on this, since timing varies. There is no universal total approval time."
+      ],
+      "stdout": "haiku-QL-28-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

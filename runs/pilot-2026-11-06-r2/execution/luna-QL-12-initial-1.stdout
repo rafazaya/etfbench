@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b0fd-d157-79a3-ab0b-27c0642f67f8"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Generally, no. Authorized participants (APs) are typically broker-dealers that transact directly with the ETF in large creation-unit blocks. They aren’t paid a standing fee by the sponsor; they may earn trading spreads or charge clients, and the fund may pass through transaction fees to cover costs.\n\nThere’s generally no obligation to keep creating or redeeming. AP agreements usually allow them to choose whether and when to act, and they can stop participating. If no AP steps in, ETF shares can still trade on an exchange, but liquidity and how closely the price tracks NAV may suffer."}}
+{"type":"turn.completed","usage":{"input_tokens":8358,"cached_input_tokens":7296,"cache_write_input_tokens":0,"output_tokens":121,"reasoning_output_tokens":0}}

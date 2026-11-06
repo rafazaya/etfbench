@@ -1,0 +1,5 @@
+{
+  "grade": "wrong",
+  "rationale": "The answer omits the central definition in Rule 6c-11(a)(1), under which an AP is a member or participant of an SEC-registered clearing agency with a written agreement with the ETF or one of its service providers allowing it to place creation/redemption orders. It also wrongly says the rule does not detail permitted AP counterparties, when the rule does specify the ETF or its service providers. It describes APs as 'broker-dealers acting under fund arrangements,' which is inaccurate. It covers none of the reviewed-form facts: the distributor and AP as main counterparties, the transfer agent countersigning, and the trust as a third-party beneficiary that sometimes signs for specified provisions. It mentions NSCC/DTC generally but does not state the forms' NSCC netting membership or DTC participation requirement, and it does not note that eligibility differs from being a market maker. Abstaining on the forms is reasonable, but the rule-level content it does give is materially wrong or missing.",
+  "blind_id": "B120"
+}

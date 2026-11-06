@@ -1,0 +1,5 @@
+{
+  "grade": "partial",
+  "rationale": "Covered: The answer correctly sends the investor to the sponsor's website holdings or portfolio page for daily holdings. It distinguishes holdings from the PCF, noting cash components, sampling and substitutions. It says the PCF is distributed mainly through NSCC to authorized participants. It suggests contacting the sponsor or a broker, warns not to assume a public PCF exists, and adds a reasonable N-PORT cross-check.\n\nError: In the request section it states that Rule 6c-11 'generally requires daily public posting' of the PCF or creation basket. That is wrong. Rule 6c-11 requires public disclosure of portfolio holdings, not publication of every transaction basket. This misstates the regulatory distinction the question centers on and conflicts with the answer's own caveat.\n\nMinor: It points to 'investor relations' rather than the capital-markets team. Under the grader notes this is acceptable, since the contact route is only a practical, medium-confidence recommendation.",
+  "blind_id": "B040"
+}

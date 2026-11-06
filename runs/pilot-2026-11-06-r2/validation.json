@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "questions_per_model": 44,
+  "blind_entries": 130,
+  "final_entries": 88,
+  "source_reference_sha256": "3448c392bdb9211bf88ed2e467f153fba8e3b3f79cd66928de4b4f8663605767",
+  "answer_call_count": 134,
+  "opus_calls": 130,
+  "accepted_finals_tool_free": 88,
+  "all_final_word_counts_at_most": 150,
+  "round1_and_goldens_unchanged_from": "da8007a",
+  "s_hash_verified": true,
+  "word_counts": {
+    "haiku": {
+      "over_limit": 32,
+      "truncated": 17
+    },
+    "luna": {
+      "over_limit": 10,
+      "truncated": 0
+    }
+  }
+}

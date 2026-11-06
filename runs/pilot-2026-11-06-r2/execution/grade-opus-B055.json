@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer correctly says 'No': retail investors cannot redeem individual ETF shares directly with the fund in ordinary dealing. It covers the first key point, explaining that only Authorized Participants create and redeem, and only in creation units, while shares otherwise trade on an exchange. It also covers the second key point by naming the usual alternative: selling through a broker on the exchange at market price, a secondary-market transaction whose buyer is typically another investor or a market maker. The incidental details are accurate and not material errors: typical creation unit sizes, APs' agreements with the distributor, the Rule 6c-11 framing, arbitrage keeping prices near NAV, and premiums or discounts. It does not rely on the excluded reorganization or liquidation exceptions.",
+  "blind_id": "B055"
+}

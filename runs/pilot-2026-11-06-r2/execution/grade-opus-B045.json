@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer gets the central point right. It says a '40 Act ETF's portfolio belongs to the fund as a distinct legal entity and is held with a qualified custodian. It concludes that sponsor or adviser insolvency alone does not make the portfolio available to the sponsor's creditors or cancel shareholders' interests. That matches key point 1 and the custody and separation part of key point 2. It also distinguishes asset separation from a guaranteed outcome, as the question asks: it names fraud, commingling, operational disruption, litigation, delays and the fund's own insolvency as ways losses can still occur. This is consistent with the grader note that there is no guarantee against loss. One omission: it does not describe the board's options after adviser failure (appoint a new adviser, merge or liquidate) or say that in a liquidation shareholders receive their pro-rata net assets. The grader notes call board responses case-specific, and the question does not directly ask about them, so this is not a material omission for the central question. There are no material errors.",
+  "blind_id": "B045"
+}

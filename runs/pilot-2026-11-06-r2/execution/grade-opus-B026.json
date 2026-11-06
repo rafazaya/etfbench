@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer covers all three key points. (1) It explains that APs exchange ETF shares with the fund for the underlying basket and vice versa, which is creation and redemption. (2) It explains the premium and discount arbitrage: at a premium, APs create and sell shares; at a discount, they buy and redeem. Both push price toward NAV. It also links market makers to APs, saying market makers hedge inventory through the APs, which is roughly equivalent to APs acting for market makers. (3) It treats the process as an economic mechanism rather than a guarantee: it says the price is kept 'close', the mechanism 'works best' with liquid assets, and deviations can persist for illiquid holdings. The added points on transparency, iNAV and creation-unit size are accurate. No material errors.",
+  "blind_id": "B026"
+}

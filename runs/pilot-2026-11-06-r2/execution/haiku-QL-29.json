@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-29",
+  "tier": "C",
+  "answer": "**Selection:** How was the LMM/exchange chosen, and what alternatives were considered? What affiliations or conflicts exist with the sponsor, index provider, or authorized participants? Can the firm meet quoting obligations during stress? **Relevant-market expertise:** What is the firm's track record in this asset class, liquidity tier, and creation/redemption mechanics? Who is staffed on the account, and what continuity plan exists if key people leave? What measurable results (spreads, depth, time at the NBBO) can be reported? **Capital and seed support:** Is the seed temporary market-maker inventory? If so, what is the unwind plan and timing? Will the market maker keep quoting after seed is withdrawn? Which investor assets are expected to last, and what drives their retention? Are there volume-linked payments, rebates, or fee-sharing that could create incentives? What are the termination terms, and how would spreads be affected on exit? These are suggested lines of inquiry, not mandatory approval",
+  "original_answer": "**Selection**\n- How was the LMM/exchange chosen, and what alternatives were considered?\n- What affiliations or conflicts exist with the sponsor, index provider, or authorized participants?\n- Can the firm support this fund's quoting obligations during stress?\n\n**Relevant-market expertise**\n- What is the track record in this asset class, liquidity tier, and creation/redemption mechanics?\n- Who is staffed on the account, and what continuity plan exists if key people leave?\n- What measurable results (spreads, depth, time at the NBBO) can be reported?\n\n**Capital and seed support**\n- Is the seed temporary market-maker inventory? If so, what is the unwind plan and timing?\n- Will the market maker keep quoting after seed is withdrawn?\n- Which investor assets are expected to last, and what drives their retention?\n- Are there payments, rebates, or fee-sharing tied to volume that could create incentives?\n- What are the termination terms, and how would spreads be affected on exit?\n\nThese are suggested lines of inquiry, not mandatory approval criteria.",
+  "void": false,
+  "words_before": 165,
+  "words_after_shorten": 151,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-ieh_jo5c",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a US ETF board's diligence on a proposed exchange/LMM arrangement, what questions should it ask about selection, relevant-market expertise and capital or seed support? Distinguish temporary market-maker seed from lasting investor assets; treat the checklist as suggested inquiry rather than a mandatory approval rule.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-29-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-dhn26m8k",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Selection**\n- How was the LMM/exchange chosen, and what alternatives were considered?\n- What affiliations or conflicts exist with the sponsor, index provider, or authorized participants?\n- Can the firm support this fund's quoting obligations during stress?\n\n**Relevant-market expertise**\n- What is the track record in this asset class, liquidity tier, and creation/redemption mechanics?\n- Who is staffed on the account, and what continuity plan exists if key people leave?\n- What measurable results (spreads, depth, time at the NBBO) can be reported?\n\n**Capital and seed support**\n- Is the seed temporary market-maker inventory? If so, what is the unwind plan and timing?\n- Will the market maker keep quoting after seed is withdrawn?\n- Which investor assets are expected to last, and what drives their retention?\n- Are there payments, rebates, or fee-sharing tied to volume that could create incentives?\n- What are the termination terms, and how would spreads be affected on exit?\n\nThese are suggested lines of inquiry, not mandatory approval criteria."
+      ],
+      "stdout": "haiku-QL-29-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer covers all three key points. (1) It describes creations and redemptions accurately: APs exchange large blocks of ETF shares with the fund for the underlying securities, or the reverse. (2) It explains the premium and discount arbitrage correctly. At a premium, APs buy the underlying securities, create shares, and sell them. At a discount, they buy ETF shares and redeem them. Both actions push the price toward NAV. It also notes that market makers quote continuously and hedge through APs, which is equivalent to saying APs often act for market makers. (3) It frames the process as an economic mechanism rather than a guarantee, noting that it works best with liquid assets and that deviations can persist for thinly traded bonds or emerging-market stocks. Extra details such as typical creation unit sizes and iNAV transparency are accurate and do not introduce material errors.",
+  "blind_id": "B003"
+}

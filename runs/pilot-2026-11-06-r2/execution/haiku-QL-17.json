@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-17",
+  "tier": "C",
+  "answer": "**One-time costs (sponsor-paid):** legal and registration (N-1A, 33 Act), index license setup, exchange listing and platform onboarding, systems and data integration, launch marketing, and initial audit. **Recurring costs:** Paid from the unitary fee, with the sponsor absorbing any excess above the cap: index licensing, fund administration, custody, transfer agency, audit, legal, board, insurance, and exchange and data fees. Sponsor overhead and platform distribution payments are typically sponsor-borne. **Seed assets vs. expenditure:** Seed capital is a sponsor-owned investment, not an expense. It remains on the balance sheet and is recovered as shares are sold and redeemed. Only the costs above count as expenditure. **Break-even:** With F as annual fixed costs, f the fee rate, and v variable cost as a share of AUM, break-even AUM is F / (f \u2212 v). Retained margin is positive only above that level. Treat the seed's cost of capital as an opportunity-cost hurdle, not a",
+  "original_answer": "**One-time costs (sponsor-paid):** legal and registration (N-1A, 33 Act), index license setup, exchange listing and platform onboarding, systems and data integration, launch marketing, and initial audit.\n\n**Recurring costs (paid from the unitary fee, with the sponsor absorbing any excess above the cap):** index licensing, fund administration, custody, transfer agency, audit, legal, board, insurance, and exchange and data fees. Sponsor overhead and platform distribution payments are typically sponsor-borne.\n\n**Seed assets vs. expenditure:** Seed capital is a sponsor-owned investment, not an expense. It stays on the balance sheet and is recovered as shares are sold and redeemed. Only the costs above are expenditure.\n\n**Break-even:** Let F be annual fixed costs, f the fee rate, and v variable cost as a share of AUM. Break-even AUM is F / (f \u2212 v). Retained margin is positive only above that level. Treat the seed's cost of capital as an opportunity-cost hurdle, not a cash expense.",
+  "void": false,
+  "words_before": 151,
+  "words_after_shorten": 152,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-hl7jn_0k",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for one ordinary US equity ETF on a third-party platform under a unitary fee, budgeted in USD, which one-time and recurring cost categories and payer allocations should the sponsor establish? Distinguish seed assets from expenditure and explain break-even at a positive retained margin; do not invent a current vendor quote or universal dollar range.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-17-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-msoqqg_g",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**One-time costs (sponsor-paid):** legal and registration (N-1A, 33 Act), index license setup, exchange listing and platform onboarding, systems and data integration, launch marketing, and initial audit.\n\n**Recurring costs (paid from the unitary fee, with the sponsor absorbing any excess above the cap):** index licensing, fund administration, custody, transfer agency, audit, legal, board, insurance, and exchange and data fees. Sponsor overhead and platform distribution payments are typically sponsor-borne.\n\n**Seed assets vs. expenditure:** Seed capital is a sponsor-owned investment, not an expense. It stays on the balance sheet and is recovered as shares are sold and redeemed. Only the costs above are expenditure.\n\n**Break-even:** Let F be annual fixed costs, f the fee rate, and v variable cost as a share of AUM. Break-even AUM is F / (f \u2212 v). Retained margin is positive only above that level. Treat the seed's cost of capital as an opportunity-cost hurdle, not a cash expense."
+      ],
+      "stdout": "haiku-QL-17-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

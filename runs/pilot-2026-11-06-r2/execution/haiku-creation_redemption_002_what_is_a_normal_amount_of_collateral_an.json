@@ -1,0 +1,41 @@
+{
+  "model": "haiku",
+  "id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+  "tier": "A",
+  "answer": "I don't have the bank's reviewed AP agreements, and no documents were provided, so I can't confirm the specific terms as of 2026-11-06.\n\nIn general industry practice, the bank may require cash collateral for securities a creation-unit depositor has not yet delivered. The collateral is usually a percentage of the market value of the undelivered securities, often around 102% to 105%, and is typically marked to market daily. The percentage varies by agreement and by counterparty credit profile, so it is not a universal rate.\n\nTo answer precisely, please share the agreement or the relevant clause, or give me its file path. I'll then quote the collateral percentage, the value it applies to, and any rate variations.",
+  "original_answer": "I don't have the bank's reviewed AP agreements, and no documents were provided, so I can't confirm the specific terms as of 2026-11-06.\n\nIn general industry practice, the bank may require cash collateral for securities a creation-unit depositor has not yet delivered. The collateral is usually a percentage of the market value of the undelivered securities, often around 102% to 105%, and is typically marked to market daily. The percentage varies by agreement and by counterparty credit profile, so it is not a universal rate.\n\nTo answer precisely, please share the agreement or the relevant clause, or give me its file path. I'll then quote the collateral percentage, the value it applies to, and any rate variations.",
+  "void": false,
+  "words_before": 117,
+  "words_after_shorten": null,
+  "words_final": 117,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-lorqajd0",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, in the bank's reviewed US ETF AP agreements, what cash collateral may be required for securities not yet delivered, what value is the percentage applied to, and is it a universal rate?\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-creation_redemption_002_what_is_a_normal_amount_of_collateral_an-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": []
+}

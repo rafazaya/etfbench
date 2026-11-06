@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer covers the central mechanism. When an AP cannot practicably transfer derivative positions under the dealing arrangements, the fund accepts cash or a mixed basket and enters, closes or adjusts the exposure itself. It contrasts this with transferable securities, which can be delivered in kind and help the fund avoid trading costs and tax consequences. It also says cash dealing can impose trading costs, market impact and tax effects on the fund and its shareholders, which captures key point 2. It does not explicitly mention realized gains or that the size and tax result depend on the strategy and transaction, but 'potential tax consequences' and 'tax effects' convey this adequately. It states the limits correctly: this is a practical explanation, not a rule; the prospectus and basket policies govern; derivatives may sometimes be transferable; and funds may use cash for other reasons. It makes no blanket claim that derivatives cannot be transferred, which satisfies the grader note. No material errors.",
+  "blind_id": "B010"
+}

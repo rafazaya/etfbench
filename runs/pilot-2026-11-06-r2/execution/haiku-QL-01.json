@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-01",
+  "tier": "C",
+  "answer": "**Generally, no.** Separation is the structural default, not a guarantee. **Portfolio:** The fund is a separate legal entity (usually a Delaware statutory trust or Maryland corporation) that owns its assets. An independent custodian holds them under 1940 Act custody rules. Sponsor creditors normally have no claim. **Shares:** Shares represent interests in the fund, not claims on the sponsor. Sponsor insolvency does not cancel them. **What can still go wrong:** - **Commingling or fraud** can create creditor claims despite the structure. - **Affiliated exposures**, such as cash sweeps at sponsor-affiliated banks or securities lending, may be at risk. - **Adviser, administrator, or distributor contracts** may terminate, delaying creations and redemptions or forcing board action such as replacement, reorganization, or liquidation. - **Index or ticker licenses** may be affected. Outcomes depend on the facts and documents, so verify against the prospectus, SAI, custody agreement, and sponsor filings. This is general information, not",
+  "original_answer": "**Generally, no.** Separation is the structural default, not a guarantee.\n\n**Portfolio:** The fund is a separate legal entity (usually a Delaware statutory trust or Maryland corporation) that owns its assets. An independent custodian holds them under 1940 Act custody rules. Sponsor creditors normally have no claim to these assets.\n\n**Shares:** Shares represent interests in the fund, not claims on the sponsor. Sponsor insolvency does not cancel them.\n\n**What can still go wrong:**\n- **Commingling or fraud** can create creditor claims despite the structure.\n- **Affiliated exposures**, such as cash sweeps at sponsor-affiliated banks or securities-lending arrangements, may be at risk.\n- **Adviser, administrator, or distributor contracts** may terminate, which can delay creations and redemptions or force board action such as replacement, reorganization, or liquidation.\n- **Licenses** for index or ticker may be affected.\n\nOutcomes depend on the facts and the documents, so verify against the prospectus, SAI, custody agreement, and sponsor filings. This is general information, not legal advice.",
+  "void": false,
+  "words_before": 159,
+  "words_after_shorten": 152,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-bvspslar",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for an ordinary US '40 Act ETF whose fund and adviser/sponsor are separate entities, does sponsor insolvency itself give the sponsor's creditors the portfolio or wipe out the shares? Distinguish asset separation from a guaranteed outcome in every insolvency.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-01-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-1wzi1t0t",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Generally, no.** Separation is the structural default, not a guarantee.\n\n**Portfolio:** The fund is a separate legal entity (usually a Delaware statutory trust or Maryland corporation) that owns its assets. An independent custodian holds them under 1940 Act custody rules. Sponsor creditors normally have no claim to these assets.\n\n**Shares:** Shares represent interests in the fund, not claims on the sponsor. Sponsor insolvency does not cancel them.\n\n**What can still go wrong:**\n- **Commingling or fraud** can create creditor claims despite the structure.\n- **Affiliated exposures**, such as cash sweeps at sponsor-affiliated banks or securities-lending arrangements, may be at risk.\n- **Adviser, administrator, or distributor contracts** may terminate, which can delay creations and redemptions or force board action such as replacement, reorganization, or liquidation.\n- **Licenses** for index or ticker may be affected.\n\nOutcomes depend on the facts and the documents, so verify against the prospectus, SAI, custody agreement, and sponsor filings. This is general information, not legal advice."
+      ],
+      "stdout": "haiku-QL-01-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

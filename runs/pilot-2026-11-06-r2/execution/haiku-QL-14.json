@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-14",
+  "tier": "C",
+  "answer": "**Daily holdings:** Check the fund sponsor's website under \"Holdings\" or \"Portfolio.\" Rule 6c-11 generally requires ETFs to post full holdings daily, but confirm this for your fund. For a lagged cross-check, use the fund's N-PORT filing on SEC EDGAR (quarterly) or a data vendor.\n\n**Holdings vs. PCF:**\n- **Holdings** are the fund's actual portfolio snapshot.\n- **The PCF (Portfolio Composition File)** is the basket used for creations and redemptions. It can differ from holdings due to cash components, representative sampling, or substitutions. It's distributed mainly via NSCC to authorized participants.\n\n**Requesting the PCF:** Check the sponsor's website first, since Rule 6c-11 generally requires daily public posting, but don't assume it's there. If it isn't, contact the sponsor's investor relations, or ask your broker or a market-data provider. Specify the \"PCF\" or \"creation basket\" for the current business day.",
+  "original_answer": "**Daily holdings:** Start with the fund sponsor's website, usually the \"Holdings\" or \"Portfolio\" tab. Rule 6c-11 generally requires ETFs to post their full holdings daily, but confirm this for your specific fund. For a cross-check, use the fund's N-PORT filing on SEC EDGAR, which is quarterly and lagged, or a data vendor.\n\n**Holdings vs. transaction baskets:**\n- **Holdings** are the fund's actual portfolio, a snapshot of what it owns.\n- **The PCF (Portfolio Composition File)** is the basket used for creations and redemptions. It may differ from holdings because of cash components, representative sampling, or substitutions, and it is distributed mainly through NSCC to authorized participants.\n\n**Requesting the PCF:** Check the sponsor's website first, since Rule 6c-11 generally requires daily public posting. Don't assume it's there for a named fund. If it isn't, contact the sponsor's investor relations, or ask your broker or a market-data provider whether they can supply it. Ask specifically for the \"PCF\" or \"creation basket\" for the current business day.",
+  "void": false,
+  "words_before": 164,
+  "words_after_shorten": 138,
+  "words_final": 138,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-vdbx4344",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for a retail investor without NSCC participant access researching a US Rule 6c-11 ETF, where should the investor start for daily holdings and how might they request the actual PCF? Distinguish holdings from transaction baskets; do not assume any named fund offers a free public PCF.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-14-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-vaql73yo",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Daily holdings:** Start with the fund sponsor's website, usually the \"Holdings\" or \"Portfolio\" tab. Rule 6c-11 generally requires ETFs to post their full holdings daily, but confirm this for your specific fund. For a cross-check, use the fund's N-PORT filing on SEC EDGAR, which is quarterly and lagged, or a data vendor.\n\n**Holdings vs. transaction baskets:**\n- **Holdings** are the fund's actual portfolio, a snapshot of what it owns.\n- **The PCF (Portfolio Composition File)** is the basket used for creations and redemptions. It may differ from holdings because of cash components, representative sampling, or substitutions, and it is distributed mainly through NSCC to authorized participants.\n\n**Requesting the PCF:** Check the sponsor's website first, since Rule 6c-11 generally requires daily public posting. Don't assume it's there for a named fund. If it isn't, contact the sponsor's investor relations, or ask your broker or a market-data provider whether they can supply it. Ask specifically for the \"PCF\" or \"creation basket\" for the current business day."
+      ],
+      "stdout": "haiku-QL-14-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

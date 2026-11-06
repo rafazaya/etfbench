@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer correctly separates tracking error (annualized standard deviation of daily fund-minus-benchmark returns over the agreed year) from tracking difference (the cumulative return gap). It assigns persistent fee drag to tracking difference and does not claim that a constant fee deduction raises the standard deviation, which matches the grader note. It covers the central causes: sampling/optimization versus full replication, index rebalances and reconstitutions, cash drag, pricing and closing-price timing differences, dividend accrual, and trading and execution effects. Caps and weight constraints roughly stand in for diversification limits. Minor omissions: variable expenses are not named explicitly, though commissions and securities-lending income partly cover them, and there is no explicit statement that the benchmark and measurement method must be agreed before diagnosis. The FX item is incidental for a US equity ETF but not wrong. None of these is a material error.",
+  "blind_id": "B089"
+}

@@ -1,0 +1,41 @@
+{
+  "model": "haiku",
+  "id": "QL-31",
+  "tier": "C",
+  "answer": "**Investigate before concluding arbitrage has failed:**\n\n1. **Timing and valuation:** Confirm premiums and discounts are measured against contemporaneous NAV or iNAV, not stale or end-of-day figures. Check whether foreign or thinly traded holdings were fair-valued, and whether the gap coincides with closed-market hours.\n2. **Peers:** Compare with ETFs holding similar assets or tracking the same index. Is the pattern fund-specific or sector-wide?\n3. **Underlying frictions:** Assess holdings' liquidity, bid-ask spreads, halts, settlement timing, and time-zone effects.\n4. **AP and market-maker participation:** Review creation and redemption activity, the number of active APs, basket composition, and any capacity or balance-sheet constraints.\n5. **Data integrity:** Verify iNAV calculations, pricing feeds, and trade reporting.\n\n**Corrective options, chosen to fit the findings:** improve disclosure or fair-value methodology, recruit additional APs or market makers, adjust basket or in-kind processes, add liquidity commitments, revisit portfolio or index construction, or pursue adviser remediation. Document conclusions and reassess periodically.",
+  "original_answer": "**Investigate before concluding arbitrage has failed:**\n\n1. **Timing and valuation:** Confirm premiums and discounts are measured against contemporaneous NAV or iNAV, not stale or end-of-day figures. Check whether foreign or thinly traded holdings were fair-valued, and whether the gap coincides with closed-market hours.\n2. **Peers:** Compare with ETFs holding similar assets or tracking the same index. Is the pattern fund-specific or sector-wide?\n3. **Underlying frictions:** Assess holdings' liquidity, bid-ask spreads, halts, settlement timing, and time-zone effects.\n4. **AP and market-maker participation:** Review creation and redemption activity, the number of active APs, basket composition, and any capacity or balance-sheet constraints.\n5. **Data integrity:** Verify iNAV calculations, pricing feeds, and trade reporting.\n\n**Corrective options, chosen to fit the findings:** improve disclosure or fair-value methodology, recruit additional APs or market makers, adjust basket or in-kind processes, add liquidity commitments, revisit portfolio or index construction, or pursue adviser remediation. Document conclusions and reassess periodically.",
+  "void": false,
+  "words_before": 150,
+  "words_after_shorten": null,
+  "words_final": 150,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-m29w4kdg",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a US equity ETF showing repeated closing premiums or discounts over several weeks in normal markets, what should its board investigate before concluding arbitrage has failed? Check contemporaneous valuation/market hours, peers, underlying trading frictions and AP/market-maker participation; propose inquiry and corrective options rather than a single presumed cause or mandatory numerical trigger.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-31-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": []
+}

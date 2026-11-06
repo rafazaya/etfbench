@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-33",
+  "tier": "C",
+  "answer": "**Risks and controls (ETF lending)** - **Borrower default:** Borrowers fail to return securities. Controls include credit review, counterparty limits, daily exposure monitoring, and agent indemnities. - **Collateral shortfall:** Collateral falls below loan value through market moves, issuer default, or slow margin calls. Controls include over-collateralization, daily mark-to-market, margin calls, and haircuts on non-cash collateral. - **Cash reinvestment:** Reinvested cash may lose value or become illiquid, causing a shortfall when loans are returned. Controls include eligible-investment limits, maturity and liquidity caps, and stress testing. **US (iShares-style example):** I don't have the bank's document, so this reflects general US practice. Lending is typically agent-led with indemnification. Cash collateral is commonly reinvested within prescribed limits, and recalls are contractual. **UCITS:** Governed by the UCITS Directive and ESMA guidelines. Collateral must be liquid, diversified, and independently held, with haircuts. Cash reinvestment is restricted, and funds must be able to recall loaned securities at any",
+  "original_answer": "**Risks and controls (ETF lending)**\n\n- **Borrower default:** The borrower fails to return securities. Controls include borrower credit review, counterparty limits, daily exposure monitoring, and agent indemnities.\n- **Collateral shortfall:** Collateral falls below the loan value through market moves, issuer default, or slow margin calls. Controls include over-collateralization, daily mark-to-market, margin calls, and haircuts on non-cash collateral.\n- **Cash reinvestment:** Reinvested cash may lose value or become illiquid, leaving a shortfall when loans are returned. Controls include eligible-investment limits, maturity and liquidity caps, and stress testing.\n\n**US (iShares-style example):** I don't have the bank's document, so this reflects general US practice. Lending is typically agent-led with indemnification. Cash collateral is commonly reinvested within prescribed limits, and recalls are contractual.\n\n**UCITS:** Governed by the UCITS Directive and ESMA guidelines. Collateral must be liquid, diversified, and independently held, with haircuts. Cash reinvestment is restricted, and funds must be able to recall loaned securities at any time.\n\nCollateral reduces but does not eliminate losses, and indemnity value depends on the agent's credit quality.",
+  "void": false,
+  "words_before": 170,
+  "words_after_shorten": 167,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-zm_bdhij",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For ETF securities lending, distinguish borrower/default, collateral-shortfall and cash-reinvestment risks and controls. Separate the bank's US iShares example from UCITS recall/collateral rules; do not promise collateral eliminates losses.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-33-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-ap85zpjz",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Risks and controls (ETF lending)**\n\n- **Borrower default:** The borrower fails to return securities. Controls include borrower credit review, counterparty limits, daily exposure monitoring, and agent indemnities.\n- **Collateral shortfall:** Collateral falls below the loan value through market moves, issuer default, or slow margin calls. Controls include over-collateralization, daily mark-to-market, margin calls, and haircuts on non-cash collateral.\n- **Cash reinvestment:** Reinvested cash may lose value or become illiquid, leaving a shortfall when loans are returned. Controls include eligible-investment limits, maturity and liquidity caps, and stress testing.\n\n**US (iShares-style example):** I don't have the bank's document, so this reflects general US practice. Lending is typically agent-led with indemnification. Cash collateral is commonly reinvested within prescribed limits, and recalls are contractual.\n\n**UCITS:** Governed by the UCITS Directive and ESMA guidelines. Collateral must be liquid, diversified, and independently held, with haircuts. Cash reinvestment is restricted, and funds must be able to recall loaned securities at any time.\n\nCollateral reduces but does not eliminate losses, and indemnity value depends on the agent's credit quality."
+      ],
+      "stdout": "haiku-QL-33-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

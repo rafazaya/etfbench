@@ -1,0 +1,41 @@
+{
+  "model": "haiku",
+  "id": "QL-34",
+  "tier": "C",
+  "answer": "I can't see the bank draft, so I can't confirm the 2026 regulations or CBI Q&A 1012 (April 2025) it cites. Please check the CBI website or share the text before relying on them. My general understanding of the framework:\n\n- **Transparency-policy disclosures:** The prospectus and KID should describe the fund's holdings-disclosure policy, including frequency, timing and who receives the information.\n- **Daily public holdings:** Standard UCITS ETFs publish their full portfolio daily, alongside an indicative NAV (iNAV), so market makers can price and hedge.\n- **Conditional periodic-holdings route:** A fund (typically actively managed or semi-transparent) may disclose holdings less often than daily. In that case it generally must give authorised participants and market makers alternative daily information, such as a basket or proxy portfolio and an iNAV, so that arbitrage still works. The exact conditions should be checked against the cited guidance.",
+  "original_answer": "I can't see the bank draft, so I can't confirm the 2026 regulations or CBI Q&A 1012 (April 2025) it cites. Please check the CBI website or share the text before relying on them. My general understanding of the framework:\n\n- **Transparency-policy disclosures:** The prospectus and KID should describe the fund's holdings-disclosure policy, including frequency, timing and who receives the information.\n- **Daily public holdings:** Standard UCITS ETFs publish their full portfolio daily, alongside an indicative NAV (iNAV), so market makers can price and hedge.\n- **Conditional periodic-holdings route:** A fund (typically actively managed or semi-transparent) may disclose holdings less often than daily. In that case it generally must give authorised participants and market makers alternative daily information, such as a basket or proxy portfolio and an iNAV, so that arbitrage still works. The exact conditions should be checked against the cited guidance.",
+  "void": false,
+  "words_before": 143,
+  "words_after_shorten": null,
+  "words_final": 143,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-dykisge1",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for an Irish UCITS ETF or ETF share class, distinguish transparency-policy disclosures, daily public holdings and the conditional periodic-holdings route with daily AP/market-maker arbitrage information. Use the 2026 regulations and CBI Q&A 1012 (April 2025) identified in the bank draft.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-34-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": []
+}

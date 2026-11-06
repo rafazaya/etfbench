@@ -1,0 +1,5 @@
+{
+  "grade": "partial",
+  "rationale": "Correct: the answer says collateral is a percentage of the market value of undelivered securities and that the rate is not universal. Missing: the reviewed-agreement figure of typically 115%, and that the AP stays liable for any shortfall if the fund buys the missing securities itself. Error: its generic range of 102%\u2013105% understates the typical 115%; 105% is only the lower variant. It also hedges heavily by disclaiming access to the agreements. Useful core content with a substantive omission and a localized numeric error.",
+  "blind_id": "B020"
+}

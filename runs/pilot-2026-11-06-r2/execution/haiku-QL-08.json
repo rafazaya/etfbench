@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-08",
+  "tier": "B",
+  "answer": "Authorized participants (APs) keep an ETF's market price close to its net asset value (NAV) through arbitrage: - **Creation and redemption:** APs exchange large blocks of ETF shares (often 25,000 to 50,000) with the fund for the underlying securities, or the reverse. - **Price gaps trigger trades:** If the ETF trades at a premium to NAV, APs buy the underlying securities, deliver them to create new shares, and sell those shares in the market. At a discount, they buy ETF shares and redeem them for securities. Both actions push the price back toward NAV. - **Market makers:** Continuous two-sided quotes, hedged through APs, narrow spreads and keep trading orderly. - **Transparency:** Daily holdings disclosure and intraday indicative NAV (iNAV) help traders spot mispricing quickly. The mechanism works best when underlying assets are liquid and reliably priced. For thinly traded assets, such as some bonds or emerging-market stocks, deviations can persist",
+  "original_answer": "Arbitrage by **authorized participants (APs)** keeps an ETF's market price close to its net asset value (NAV):\n\n- **Creation and redemption:** APs can exchange large blocks of ETF shares (often 25,000 to 50,000) with the fund for the underlying basket of securities, or vice versa.\n- **Price gaps trigger trades:** If the ETF trades at a premium to NAV, APs buy the underlying securities, deliver them to create new shares, and sell those shares in the market. If it trades at a discount, they buy ETF shares and redeem them for securities. Both actions push the price back toward NAV.\n- **Market makers:** Continuous two-sided quotes from market makers, who hedge their inventory through the APs, narrow spreads and keep trading orderly.\n- **Transparency:** Daily holdings disclosure and intraday indicative NAV (iNAV) let traders spot mispricing quickly.\n\nThe mechanism works best when the underlying assets are liquid and can be priced reliably. For thinly traded assets, such as some bonds or emerging-market stocks, deviations can persist for longer.",
+  "void": false,
+  "words_before": 168,
+  "words_after_shorten": 151,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-r4ommut7",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "What keeps an ETF's market price close to its underlying asset value?\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-08-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-r66c8b13",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\nArbitrage by **authorized participants (APs)** keeps an ETF's market price close to its net asset value (NAV):\n\n- **Creation and redemption:** APs can exchange large blocks of ETF shares (often 25,000 to 50,000) with the fund for the underlying basket of securities, or vice versa.\n- **Price gaps trigger trades:** If the ETF trades at a premium to NAV, APs buy the underlying securities, deliver them to create new shares, and sell those shares in the market. If it trades at a discount, they buy ETF shares and redeem them for securities. Both actions push the price back toward NAV.\n- **Market makers:** Continuous two-sided quotes from market makers, who hedge their inventory through the APs, narrow spreads and keep trading orderly.\n- **Transparency:** Daily holdings disclosure and intraday indicative NAV (iNAV) let traders spot mispricing quickly.\n\nThe mechanism works best when the underlying assets are liquid and can be priced reliably. For thinly traded assets, such as some bonds or emerging-market stocks, deviations can persist for longer."
+      ],
+      "stdout": "haiku-QL-08-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

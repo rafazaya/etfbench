@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer covers the central mechanism. In-kind redemptions to APs let the fund deliver low-basis lots instead of selling them, and it correctly cites IRC \u00a7852(b)(6) for RIC-level nonrecognition. It also explains that this purges embedded gains, while a cash-dealing mutual fund sells holdings to meet redemptions and passes the gains to the remaining shareholders. The limits are adequately stated: the benefit applies only to in-kind transactions, cash and rebalancing or index-change sales can still realize gains, it depends on AP activity and deliverable assets (bond and international funds rely more on cash), distributions are not eliminated, and the investor's own sale of shares is still taxable. Minor issues: it never explicitly says this is not an ETF-only legal exemption, though it implicitly grounds the benefit in RIC law rather than ETF status. It also says the mutual fund 'must sell' rather than 'more often' sells. Neither is a material error given that the question stipulates a cash-dealing fund.",
+  "blind_id": "B024"
+}

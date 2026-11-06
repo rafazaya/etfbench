@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "Key point 1 is covered. The answer explains that bilateral OTC swaps and forwards, subject to ISDA, margin and credit terms, generally cannot be taken over by an AP. In that case the fund takes or pays cash and enters or exits the exposure itself, with a cash component covering the non-transferable portion. It hedges with 'generally' and frames the issue as practicability, not a blanket prohibition on all derivatives or futures, so it complies with the grader note. Key point 2 is mostly covered. It says cash creations shift trading costs and market impact onto the fund, and it contrasts this with in-kind transfers, which avoid realizing gains inside the fund. That implies cash dealing can reduce tax efficiency. Omissions: it does not say outright that cash redemptions may realize gains in the fund, and it does not note that the magnitude and tax result depend on the strategy and transaction. The added limits (operational or structural reasons for using cash, and partial replication with transferable holdings) are reasonable and not materially wrong. These are minor gaps, not material errors.",
+  "blind_id": "B122"
+}

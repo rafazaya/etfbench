@@ -1,0 +1,652 @@
+[
+  {
+    "blind_id": "B001",
+    "grade": "correct",
+    "rationale": "Identifies adviser fee recipient, partner expense burden and continuing adviser obligation; no universal split."
+  },
+  {
+    "blind_id": "B002",
+    "grade": "partial",
+    "rationale": "Correct 75-day new-series clock and operational caveats, but incorrectly extends Rule 485(a) and that clock to a new trust initial registration."
+  },
+  {
+    "blind_id": "B003",
+    "grade": "correct",
+    "rationale": "Creation/redemption premium/discount arbitrage and limits are explained."
+  },
+  {
+    "blind_id": "B004",
+    "grade": "correct",
+    "rationale": "Covers timing, valuation, peers, underlying frictions, AP participation and conditional corrective options."
+  },
+  {
+    "blind_id": "B005",
+    "grade": "correct",
+    "rationale": "Explains shared infrastructure, fixed-cost advantage, control sacrifice and conditional fit for one fund."
+  },
+  {
+    "blind_id": "B006",
+    "grade": "correct",
+    "rationale": "Explains underlying liquidity, hedging and transaction costs in quotes, and primary-market capacity beyond historical volume."
+  },
+  {
+    "blind_id": "B007",
+    "grade": "partial",
+    "rationale": "Useful categories and break-even formula, but payer allocation and sponsor-owned/recoverable seed are categorical rather than contractual; omits initial legal-capital distinction."
+  },
+  {
+    "blind_id": "B008",
+    "grade": "wrong",
+    "rationale": "Fails statutory clearing-agency membership plus written agreement definition and supplies no reviewed signature pattern; generic NSCC/DTC context does not answer central distinctions."
+  },
+  {
+    "blind_id": "B009",
+    "grade": "wrong",
+    "rationale": "Substitutes prospectus/termination/suspension route for significant NAV deviation and misses regulated-market notification and non-excessive cost protection."
+  },
+  {
+    "blind_id": "B010",
+    "grade": "correct",
+    "rationale": "Conditional nontransferability, fund cash implementation, trading/tax costs and no blanket derivative prohibition all covered."
+  },
+  {
+    "blind_id": "B011",
+    "grade": "partial",
+    "rationale": "ICAV direct corporate agreement contrast is useful, but misses rule-permitted service-provider agreement, distributor/AP main parties, TA countersignature and trust beneficiary status."
+  },
+  {
+    "blind_id": "B012",
+    "grade": "correct",
+    "rationale": "Net liquidation proceeds, timing uncertainty, market-value risk and taxable gain/loss covered."
+  },
+  {
+    "blind_id": "B013",
+    "grade": "correct",
+    "rationale": "Gives reviewed 115% example, undelivered-securities value base and nonuniversality; other form examples and shortfall liability are supporting detail beyond explicit question."
+  },
+  {
+    "blind_id": "B014",
+    "grade": "wrong",
+    "rationale": "Conflates sponsor with adviser and substitutes fund/shareholder liability for the platform adviser's continuing expense obligation."
+  },
+  {
+    "blind_id": "B015",
+    "grade": "partial",
+    "rationale": "Useful core website disclosures and trigger, but states explanation only remains until deviation ceases rather than at least one year; history table/graph and spread methodology incomplete."
+  },
+  {
+    "blind_id": "B016",
+    "grade": "partial",
+    "rationale": "Useful fixed-cost, subsidy and seed-concentration checks, but no temporary market-maker versus investor-seed distinction or clear sponsor willingness/capacity to absorb losses."
+  },
+  {
+    "blind_id": "B017",
+    "grade": "correct",
+    "rationale": "Separate fund ownership and custody, sponsor failure not cancelling shares, conditional board responses and no absolute guarantee."
+  },
+  {
+    "blind_id": "B018",
+    "grade": "correct",
+    "rationale": "Shared low-basis in-kind gain removal, no fund recognition, benefit across classes and cash-sale limitation explained."
+  },
+  {
+    "blind_id": "B019",
+    "grade": "partial",
+    "rationale": "Gets voluntary activity, AP dealing income and transaction-fee direction right, but omits sponsor waiver/absorption and overstates absence of market-maker quoting duties."
+  },
+  {
+    "blind_id": "B020",
+    "grade": "partial",
+    "rationale": "Correct value base and nonuniversal agreement terms, and 105% occurs in reviewed forms; misses main 115% example and introduces unsupported 102%."
+  },
+  {
+    "blind_id": "B021",
+    "grade": "partial",
+    "rationale": "Distinguishes daily versus alternative daily arbitrage information, but omits nondiscrimination, quarterly public holdings deadline, impaired-arbitrage/request procedures and marketing disclosures."
+  },
+  {
+    "blind_id": "B022",
+    "grade": "partial",
+    "rationale": "Application/notice/order useful, but 45 days starts at filing rather than notice; omits two precedents within three years, markups/certification and pause mechanics."
+  },
+  {
+    "blind_id": "B023",
+    "grade": "wrong",
+    "rationale": "Declines exact categories and substitutes custom-basket policies for operational relief, missing redeemable status, market-price dealing and 15-day ceiling."
+  },
+  {
+    "blind_id": "B024",
+    "grade": "correct",
+    "rationale": "Low-basis in-kind nonrecognition mechanism and limitations including cash sales and investor tax covered."
+  },
+  {
+    "blind_id": "B025",
+    "grade": "correct",
+    "rationale": "Correct issuance/cancellation and distinction from existing-share exchange trading."
+  },
+  {
+    "blind_id": "B026",
+    "grade": "correct",
+    "rationale": "Correct creation/redemption arbitrage with conditional liquidity limitations."
+  },
+  {
+    "blind_id": "B027",
+    "grade": "partial",
+    "rationale": "Some ICAV and AP agreement context correct, but misreads permitted counterparties and misses distributor/AP, TA and beneficiary signature pattern."
+  },
+  {
+    "blind_id": "B028",
+    "grade": "correct",
+    "rationale": "Core tax mechanism and limitations survive truncation despite incomplete last phrase."
+  },
+  {
+    "blind_id": "B029",
+    "grade": "correct",
+    "rationale": "Daily accrual through NAV distinct from payment timing, annual ratio and indirect investor cost covered."
+  },
+  {
+    "blind_id": "B030",
+    "grade": "correct",
+    "rationale": "Fixed costs and sponsor capacity/support plus temporary versus persistent seed adequately cover core risk assessment without certainty."
+  },
+  {
+    "blind_id": "B031",
+    "grade": "correct",
+    "rationale": "Qualifying in-kind gain nonrecognition, low-basis removal and practical/investor-tax limits clearly explained."
+  },
+  {
+    "blind_id": "B032",
+    "grade": "wrong",
+    "rationale": "Sponsor shortfall identified but answer redirects essential continuing adviser obligation to fund liability and recourse against sponsor."
+  },
+  {
+    "blind_id": "B033",
+    "grade": "partial",
+    "rationale": "Correct process and filing-to-notice 45-day distinction, but omits two precedents within three years, markups/certification and actual pause rules."
+  },
+  {
+    "blind_id": "B034",
+    "grade": "correct",
+    "rationale": "Covers contemporaneous valuation, peer and underlying frictions, intermediary participation and conditional remedies."
+  },
+  {
+    "blind_id": "B035",
+    "grade": "correct",
+    "rationale": "Core providers, governance and CCO, clearing and strategy-specific arrangements covered; seed capital and PCF detail omitted but checklist centrally sufficient."
+  },
+  {
+    "blind_id": "B036",
+    "grade": "wrong",
+    "rationale": "Contradicts clearing membership/participation requirement with an invented indirect eligibility alternative and misstates reviewed counterparties."
+  },
+  {
+    "blind_id": "B037",
+    "grade": "correct",
+    "rationale": "Sponsor capacity and credible subsidy plus fixed costs and seed durability explain closure indicators without certainty."
+  },
+  {
+    "blind_id": "B038",
+    "grade": "correct",
+    "rationale": "Comprehensive valuation/frictions, peer and intermediary checks with conditional remedies."
+  },
+  {
+    "blind_id": "B039",
+    "grade": "correct",
+    "rationale": "Correct underlying and hedging costs, basket costs and why past volume misses current capacity."
+  },
+  {
+    "blind_id": "B040",
+    "grade": "partial",
+    "rationale": "Good holdings/PCF distinction and NSCC/contact routes, but implies Rule 6c-11 requires public PCF posting."
+  },
+  {
+    "blind_id": "B041",
+    "grade": "partial",
+    "rationale": "Useful transparent/UIT/share-class coverage, but categorically excludes leveraged/inverse despite 18f-4 route; also false 2024 effective date."
+  },
+  {
+    "blind_id": "B042",
+    "grade": "correct",
+    "rationale": "Public holdings distinguished from non-assured public PCF access, with relevant sponsor/service-provider contact path."
+  },
+  {
+    "blind_id": "B043",
+    "grade": "wrong",
+    "rationale": "Explicitly cannot provide requested exceptions or waiver distinction and substitutes uniform-cutoff practice."
+  },
+  {
+    "blind_id": "B044",
+    "grade": "correct",
+    "rationale": "Correct cash/in-kind and currency-hedged/unhedged exceptions replacing waiver; question supplies class-level hedge context and answer limits generalization."
+  },
+  {
+    "blind_id": "B045",
+    "grade": "correct",
+    "rationale": "Fund ownership/custody and nonautomatic insolvency loss with conditional limitations covered."
+  },
+  {
+    "blind_id": "B046",
+    "grade": "correct",
+    "rationale": "Covers cost, term, renewal, termination, naming and affiliate conflicts; exclusivity omitted but diligence otherwise centrally complete and contingency conditional."
+  },
+  {
+    "blind_id": "B047",
+    "grade": "partial",
+    "rationale": "Correct new-series 75 days and no launch guarantee, but invents initial-registration 60-day effectiveness under section 8(a)."
+  },
+  {
+    "blind_id": "B048",
+    "grade": "correct",
+    "rationale": "Explains creation/redemption, underlying liquidity, spread/depth and intermediary hedging with no capacity guarantee."
+  },
+  {
+    "blind_id": "B049",
+    "grade": "partial",
+    "rationale": "Fixed/variable costs and AP payer direction correct, but denies differing fee recipients and omits waiver/absorption."
+  },
+  {
+    "blind_id": "B050",
+    "grade": "correct",
+    "rationale": "Correct open-end coverage including leveraged/inverse subject to 18f-4 and excluded structures; master-feeder omission supporting."
+  },
+  {
+    "blind_id": "B051",
+    "grade": "wrong",
+    "rationale": "Misses central significant-NAV-deviation exception, regulated-market notification and non-excessive costs; substitutes termination/suspension."
+  },
+  {
+    "blind_id": "B052",
+    "grade": "partial",
+    "rationale": "Avoids labelling non-ETF siblings, but requires class-only identifier, omits sub-fund option and document placements, and confuses label with ISIN/LEI."
+  },
+  {
+    "blind_id": "B053",
+    "grade": "correct",
+    "rationale": "Separates seed from launch/recurring expenditure, contractual payer/exclusions and revenue-versus-cost break-even; no invented quote."
+  },
+  {
+    "blind_id": "B054",
+    "grade": "partial",
+    "rationale": "Application/notice/order and filing-to-notice clock useful; expedited two-precedent eligibility, filing requirements and pause details incomplete."
+  },
+  {
+    "blind_id": "B055",
+    "grade": "correct",
+    "rationale": "AP creation-unit dealing versus ordinary retail exchange sale clearly distinguished."
+  },
+  {
+    "blind_id": "B056",
+    "grade": "correct",
+    "rationale": "Ordinary retail cannot redeem individual shares; sells through broker; AP creation-unit mechanism covered."
+  },
+  {
+    "blind_id": "B057",
+    "grade": "correct",
+    "rationale": "Notice-specific transfer/account action, cutoffs, brokerage trading and taxable fractional cashout covered; explicit consequence of inaction supporting."
+  },
+  {
+    "blind_id": "B058",
+    "grade": "correct",
+    "rationale": "Underlying/hedging and creation costs feed quotes; volume not current primary/underlying capacity."
+  },
+  {
+    "blind_id": "B059",
+    "grade": "partial",
+    "rationale": "Both subsidy directions and monitoring categories correct, but substitutes causal order-tagging for actual board thresholds/methods/periods and breach notice/assessment."
+  },
+  {
+    "blind_id": "B060",
+    "grade": "correct",
+    "rationale": "Primary AP role versus secondary quoting, overlap and intermediary inventory use correctly explained; LMM detail optional to broad question."
+  },
+  {
+    "blind_id": "B061",
+    "grade": "correct",
+    "rationale": "No asset-gathering guarantee; separates legal distribution, marketing and platform access with contractual variation."
+  },
+  {
+    "blind_id": "B062",
+    "grade": "partial",
+    "rationale": "Useful holdings/basket distinction and NSCC route, but incorrectly suggests public PCF posting required under 6c-11."
+  },
+  {
+    "blind_id": "B063",
+    "grade": "correct",
+    "rationale": "Adviser receives fee, partner contractual expense economics and adviser retains covered obligations; no standard split."
+  },
+  {
+    "blind_id": "B064",
+    "grade": "wrong",
+    "rationale": "Invents joint-transaction and prospectus-delivery categories and omits redeemability and market-price dealing; 15-day foreign limit alone insufficient."
+  },
+  {
+    "blind_id": "B065",
+    "grade": "correct",
+    "rationale": "Transfer/account action, notice-dependent cutoffs, brokerage trading and fractional cash tax covered."
+  },
+  {
+    "blind_id": "B066",
+    "grade": "partial",
+    "rationale": "Correct bidirectional effects and three monitoring categories, but order-specific thresholds, methods/periods and breach notice/assessment absent."
+  },
+  {
+    "blind_id": "B067",
+    "grade": "partial",
+    "rationale": "Useful transparent/other structure distinctions, but categorical leveraged/inverse exclusion despite 18f-4 and false 2024 effective date."
+  },
+  {
+    "blind_id": "B068",
+    "grade": "partial",
+    "rationale": "Separates three risk types and UCITS recall/restricted cash reinvestment, but missing noncash reinvestment prohibition and reviewed US minimum collateral terms."
+  },
+  {
+    "blind_id": "B069",
+    "grade": "correct",
+    "rationale": "Issuance, cancellation and unchanged shares on secondary trades correct."
+  },
+  {
+    "blind_id": "B070",
+    "grade": "correct",
+    "rationale": "Net proceeds, value/timing uncertainty, preclosure sale and taxable-account gain/loss covered."
+  },
+  {
+    "blind_id": "B071",
+    "grade": "correct",
+    "rationale": "Explains primary capacity beyond historical volume and spreads, depth, underlying and intermediary indicators without promising execution."
+  },
+  {
+    "blind_id": "B072",
+    "grade": "partial",
+    "rationale": "Correct sibling distinction but falsely prohibits sub-fund-level identification for mixed classes and incompletely lists document placements."
+  },
+  {
+    "blind_id": "B073",
+    "grade": "partial",
+    "rationale": "Risk taxonomy and UCITS recall/restricted cash reinvestment useful; omits noncash prohibition and reviewed US collateral minimum."
+  },
+  {
+    "blind_id": "B074",
+    "grade": "correct",
+    "rationale": "Selection, expertise, commitments and seed persistence are covered as suggested inquiry."
+  },
+  {
+    "blind_id": "B075",
+    "grade": "partial",
+    "rationale": "Correct new-series 75 days and operational caveats but incorrectly applies Rule 485(a) to initial new-trust registration."
+  },
+  {
+    "blind_id": "B076",
+    "grade": "partial",
+    "rationale": "No standing status payment and no duty to act are correct; omits sponsor waiver/payment of transaction fees and ambiguous pass-through fee direction."
+  },
+  {
+    "blind_id": "B077",
+    "grade": "correct",
+    "rationale": "Correct new issuance, cancellation and secondary-market transfer distinction."
+  },
+  {
+    "blind_id": "B078",
+    "grade": "partial",
+    "rationale": "Distinguishes periodic holdings plus daily arbitrage information, but lacks quarter-end 30-business-day deadline, nondiscrimination, procedures and KID/marketing disclosures."
+  },
+  {
+    "blind_id": "B079",
+    "grade": "correct",
+    "rationale": "Correct AP primary and market-maker secondary roles and overlap; LMM optional to broad comparison."
+  },
+  {
+    "blind_id": "B080",
+    "grade": "correct",
+    "rationale": "Coexistence and substantive dealing/settlement/cost/minimum/rights/liquidity/price comparison covered despite uncertainty about citation number."
+  },
+  {
+    "blind_id": "B081",
+    "grade": "partial",
+    "rationale": "Correct indirect NAV deduction and annual rate, but no daily accrual or distinction from provider payment timing."
+  },
+  {
+    "blind_id": "B082",
+    "grade": "wrong",
+    "rationale": "Abstains from four categories and precise limits; generic related policies not the requested relief."
+  },
+  {
+    "blind_id": "B083",
+    "grade": "wrong",
+    "rationale": "Conflates partner/adviser and directs essential backstop answer to fund/shareholder liability."
+  },
+  {
+    "blind_id": "B084",
+    "grade": "correct",
+    "rationale": "Separate assets/custody, shares survive sponsor insolvency and conditional risks covered."
+  },
+  {
+    "blind_id": "B085",
+    "grade": "correct",
+    "rationale": "Suggested selection/expertise/capital inquiry and temporary versus durable assets covered."
+  },
+  {
+    "blind_id": "B086",
+    "grade": "correct",
+    "rationale": "Core governance, CCO/providers, infrastructure and conditional index/lending roles covered with bundling; seed/counsel omission incidental to otherwise complete overview."
+  },
+  {
+    "blind_id": "B087",
+    "grade": "partial",
+    "rationale": "Both directions and three monitoring categories useful; incorrectly substitutes individual-order expected-effects review for board thresholds/methods/periods and breach assessment."
+  },
+  {
+    "blind_id": "B088",
+    "grade": "correct",
+    "rationale": "Underlying and hedging costs plus creation/redemption frictions feed spreads, and volume alone misses capacity."
+  },
+  {
+    "blind_id": "B089",
+    "grade": "correct",
+    "rationale": "Correct variability versus cumulative difference, fee drag kept distinct; strong portfolio/pricing/operational cause checklist."
+  },
+  {
+    "blind_id": "B090",
+    "grade": "partial",
+    "rationale": "Useful cost categories and formula but categorical sponsor-owned/recoverable seed and payer allocation overgeneralized; retained margin confused with profit above fixed-cost break-even."
+  },
+  {
+    "blind_id": "B091",
+    "grade": "partial",
+    "rationale": "Central significant-NAV-deviation route correct, but no regulated-market notification or non-excessive-cost requirement."
+  },
+  {
+    "blind_id": "B092",
+    "grade": "partial",
+    "rationale": "ICAV contrast useful but rule counterparties and reviewed US distributor/AP, TA and beneficiary pattern absent."
+  },
+  {
+    "blind_id": "B093",
+    "grade": "correct",
+    "rationale": "Conditional nontransferable derivatives lead to fund cash implementation; transferable securities, fund costs and operational limits explained."
+  },
+  {
+    "blind_id": "B094",
+    "grade": "correct",
+    "rationale": "Correct low-basis in-kind mechanism, conditional benefits and investor-tax limitations."
+  },
+  {
+    "blind_id": "B095",
+    "grade": "partial",
+    "rationale": "Useful written parameters/compliance records, but no adviser employee titles, departure process or representative second-basket definition; non-standard-order distinction oversimplified."
+  },
+  {
+    "blind_id": "B096",
+    "grade": "partial",
+    "rationale": "Correct fixed/variable purposes, AP payer and fund/service-provider possibilities, but doesn't clearly distinguish fixed recipient from variable fund recipient and omits waiver/sponsor absorption."
+  },
+  {
+    "blind_id": "B097",
+    "grade": "correct",
+    "rationale": "Shared low-basis gain removal, fund nonrecognition and cash-flow limitations covered."
+  },
+  {
+    "blind_id": "B098",
+    "grade": "correct",
+    "rationale": "Written parameters/departure process, adviser employee roles, records and initial-day basket distinction covered; definition redundant but central substance right."
+  },
+  {
+    "blind_id": "B099",
+    "grade": "correct",
+    "rationale": "Coexistence and prospectus access/settlement/cost/minimum/rights/liquidity/pricing comparisons covered."
+  },
+  {
+    "blind_id": "B100",
+    "grade": "correct",
+    "rationale": "Contract cost/term/renewal/termination, naming dependency, confidentiality and transition safeguards covered; exclusivity incidental omission."
+  },
+  {
+    "blind_id": "B101",
+    "grade": "correct",
+    "rationale": "Daily indirect NAV accrual distinct from monthly/quarterly payment, annual expenses and prospectus disclosure covered."
+  },
+  {
+    "blind_id": "B102",
+    "grade": "correct",
+    "rationale": "Selection, expertise, capital commitments and temporary seed versus independent demand covered as inquiry."
+  },
+  {
+    "blind_id": "B103",
+    "grade": "partial",
+    "rationale": "Core disclosures and correct sustained trigger, but invents mandatory basket publication, substitutes wrong spread periods, and omits one-year explanation retention/methodology."
+  },
+  {
+    "blind_id": "B104",
+    "grade": "partial",
+    "rationale": "Useful fixed costs, subsidies and seed checks, but no market-maker temporary inventory distinction or clear sponsor capacity; persistent seed characterized as weak demand without qualification."
+  },
+  {
+    "blind_id": "B105",
+    "grade": "correct",
+    "rationale": "Legal distribution is not guaranteed asset gathering; separate or bundled sales/access contractual scope correctly explained."
+  },
+  {
+    "blind_id": "B106",
+    "grade": "partial",
+    "rationale": "Useful conditional periodic route, but missing nondiscrimination, quarter-end deadline, procedures and KID/marketing placements."
+  },
+  {
+    "blind_id": "B107",
+    "grade": "wrong",
+    "rationale": "Cannot identify requested express exceptions or historical waiver distinction and substitutes contrary uniform-cutoff practice."
+  },
+  {
+    "blind_id": "B108",
+    "grade": "correct",
+    "rationale": "Net assets after liabilities, nonautomatic total loss, uncertain timing, preclosure exchange sale and taxable gains/losses covered."
+  },
+  {
+    "blind_id": "B109",
+    "grade": "correct",
+    "rationale": "Variability versus cumulative gap defined and fee mean drag distinguished; strong portfolio/pricing/operations checklist."
+  },
+  {
+    "blind_id": "B110",
+    "grade": "partial",
+    "rationale": "Three risk categories and controls sound, but lacks UCITS noncash reinvestment prohibition/cash reinvestment restrictions and reviewed US collateral floor."
+  },
+  {
+    "blind_id": "B111",
+    "grade": "partial",
+    "rationale": "Useful website categories and trigger but wrong explanation retention and incomplete table/graph and spread methodology."
+  },
+  {
+    "blind_id": "B112",
+    "grade": "partial",
+    "rationale": "Useful account/transfer/notices and fractional disposal possibilities, but no potential taxable fractional cashout or explicit trading block from inaction."
+  },
+  {
+    "blind_id": "B113",
+    "grade": "partial",
+    "rationale": "Processing versus trading costs and AP fee direction correct, but recipient distinction wrong/unclear and waiver/absorption missing."
+  },
+  {
+    "blind_id": "B114",
+    "grade": "correct",
+    "rationale": "Shared infrastructure/fixed-cost versus control trade-off and conditional one-fund fit clearly covered."
+  },
+  {
+    "blind_id": "B115",
+    "grade": "partial",
+    "rationale": "Good three-risk separation and recall controls; UCITS reinvestment prohibitions/restrictions and reviewed US collateral floor omitted."
+  },
+  {
+    "blind_id": "B116",
+    "grade": "partial",
+    "rationale": "Useful sibling distinction, but false mandatory class-only identifier, incomplete document list and distracting LEI/ISIN treatment."
+  },
+  {
+    "blind_id": "B117",
+    "grade": "correct",
+    "rationale": "Platform fixed-cost and infrastructure benefit versus provider/governance control and one-fund fit covered; independent board limits implicit."
+  },
+  {
+    "blind_id": "B118",
+    "grade": "correct",
+    "rationale": "Correct premium/discount creation-redemption arbitrage with limits from market closures/costs."
+  },
+  {
+    "blind_id": "B119",
+    "grade": "partial",
+    "rationale": "Useful portfolio/pricing/operations causes and variability distinction, but does not explicitly define requested tracking-error statistic; fee accrual effects not separated from constant mean drag."
+  },
+  {
+    "blind_id": "B120",
+    "grade": "wrong",
+    "rationale": "Does not provide statutory member/participant plus agreement definition or reviewed US signature pattern; generic NSCC/DTC practice insufficient."
+  },
+  {
+    "blind_id": "B121",
+    "grade": "correct",
+    "rationale": "Primary versus secondary roles, overlap and inventory adjustment covered; LMM detail incidental to broad question."
+  },
+  {
+    "blind_id": "B122",
+    "grade": "correct",
+    "rationale": "Fund cash implementation for impracticably transferable derivatives, transferable securities and transaction-cost limits covered."
+  },
+  {
+    "blind_id": "B123",
+    "grade": "partial",
+    "rationale": "Correct agreement/basket record classes and five/two-year retention, but omits cash balancing, AP identity and custom-basket designation/compliance content."
+  },
+  {
+    "blind_id": "B124",
+    "grade": "partial",
+    "rationale": "Good conditional transfer/account and trading access advice, but misses potential taxable fractional cashout and inaction trading block."
+  },
+  {
+    "blind_id": "B125",
+    "grade": "partial",
+    "rationale": "Shared benefit and nonrecognition limits useful, but no low-basis embedded-gain removal and no mutual-fund cash-sale reverse effect."
+  },
+  {
+    "blind_id": "B126",
+    "grade": "partial",
+    "rationale": "Useful agreement and basket fields/retention, but no custom-basket designation and compliance statement, and unsupported five-years-after-termination agreement rule."
+  },
+  {
+    "blind_id": "B127",
+    "grade": "partial",
+    "rationale": "Voluntary AP activity and fee direction correct, but omits fee waiver/absorption and overstates lack of market-maker quoting duties."
+  },
+  {
+    "blind_id": "B128",
+    "grade": "correct",
+    "rationale": "Seed distinct from costs, contractual payer/exclusions, expense categories and break-even revenue versus costs sufficiently explained without quotes."
+  },
+  {
+    "blind_id": "B129",
+    "grade": "correct",
+    "rationale": "Primary-market capacity, underlying and intermediary liquidity plus spread/depth and execution uncertainty covered."
+  },
+  {
+    "blind_id": "B130",
+    "grade": "correct",
+    "rationale": "Adviser receives fee and retains obligation despite partner expense assumption, with contractual allocation and no split invented."
+  }
+]

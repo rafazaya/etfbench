@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer covers the central mechanism. It says direct-held accounts may need to move shares to a brokerage, and that the investor should start the transfer early. It also says that after conversion, shares trade on an exchange through a brokerage and NAV redemption no longer applies. This conveys the trading-access problem, though it does not state outright that inaction could leave the investor unable to trade until a transfer is arranged. On notices and deadlines, it defers to the fund's specific notices and avoids imposing a fixed timetable, as the grader note requires. On fractional shares, it says ETFs generally trade whole shares and that fractions are typically cashed out, possibly with tax consequences. It does not specify that the tax issue arises in taxable accounts, which is a minor omission. It correctly distinguishes a full conversion from adding an ETF share class. The extra details on proxies, ACATS, limit orders and dividend settings are reasonable and contain no material errors.",
+  "blind_id": "B065"
+}

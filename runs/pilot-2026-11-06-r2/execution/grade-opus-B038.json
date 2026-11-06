@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer covers the central requested mechanism. It addresses stale NAV/valuation inputs and market-hour differences (synchronized estimate vs. stale NAV, foreign/thinly traded holdings, fair value, time zones, closing auction). It compares against peers on spreads and behavior. It covers underlying trading frictions and creation/redemption impediments (creation/redemption costs, settlement/transfer constraints, hard-to-trade securities) and AP/market-maker participation (quoting, inventory, hedging, declining or concentrated participation). It proposes inquiry plus corrective options (disclosure, valuation/data improvements, liquidity-provider outreach, operational changes). It explicitly rejects a single numerical trigger and avoids presuming one cause. Minor quibble: it mentions bonds and foreign holdings for a US equity ETF, but framed as checks, so this is not a material error. No mischaracterization of the 2% website disclosure threshold.",
+  "blind_id": "B038"
+}

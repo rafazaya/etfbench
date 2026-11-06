@@ -1,0 +1,290 @@
+[
+  {
+    "blind_id": "B001",
+    "grade": "partial",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "Adviser/Sponsor Economics allocate fee remainder to partner in return for expenses. Answer gets adviser backstop but describes only above-fee costs and never partner revenue. This requested allocation is substantive; accept O.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B005",
+    "grade": "correct",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "Trust Economics/Risks establish cost sharing and control sacrifice. Answer conveys both and asks who controls providers. Board replacement/liquidation is supporting illustration to this comparison, not an explicitly requested separate fact. Retain S.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B011",
+    "grade": "wrong",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "Trust Connections makes distributor/AP main parties, TA accepting and trust beneficiary, versus direct ICAV signature. Answer's central contrast is trust signature versus ICAV signature, so it reverses the requested US distinction. Accept O despite some correct ICAV background.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B013",
+    "grade": "partial",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "AP Duties says typically 115%, with 105% in some forms and no universal ceiling. Answer turns the example into 'up to 115%'. This is a localized error; 105% and shortfall omissions alone would not force downgrade. Accept O for ceiling wording.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B014",
+    "grade": "wrong",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "Adviser Risks expressly retains expenses when partner defaults. This is the defining requested backstop, not optional detail. Answer conflates entities and supplies the contrary shareholder outcome. Retain S despite correct generic shortfall economics.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B018",
+    "grade": "correct",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Share Class Structure.md",
+    "reasoning": "Tax mechanism/Shared benefit supports low-basis removal across classes with cash-sale limitations. Those central elements are present; no claim of stepped-up remaining basis or investor immunity. Extra caveats are not mandatory absent that claim. Retain S.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B022",
+    "grade": "wrong",
+    "source": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.0-5",
+    "reasoning": "Rule 0-5(d)-(f) puts eligibility and 45-day action before notice, not a final-order clock following notice. Answer reverses the requested clock and lacks actual two-precedent eligibility. Correct generic process does not cure central error. Accept O.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B027",
+    "grade": "wrong",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "Trust Connections distinguishes rule-permitted ETF/service-provider counterparty and reviewed distributor/AP/TA/beneficiary pattern. Answer misreads permitted parties as AP delegates and misses the central US structure. Accept O.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B030",
+    "grade": "partial",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "Sponsor Economics/Risks distinguishes redeemable market-maker inventory from investor seed, with subsidy-driven exits. Generic temporary/affiliated seed does not convey this important seed-source mechanism. Accept O; board detail alone would not require downgrade.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B032",
+    "grade": "wrong",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "Adviser Risks gives platform adviser backstop. Answer instead makes fund liability/recourse the answer, never names adviser. Correct economic shortfall is insufficient when the central requested distinction is contradicted. Retain S.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B035",
+    "grade": "partial",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "Sponsor Connections requires seed arranged, and launch infrastructure includes PCF and listing. Seed missing; answer also adds a questionable strategy-only treatment of liquidity program. Central checklist useful but incomplete. Accept O; no need to penalize optional valuation designee alone.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B037",
+    "grade": "partial",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "Sponsor Economics distinguishes market-maker inventory from investor assets and possible subsidy exits. Detailed generic seed diligence still omits that mechanism. Accept O consistently with B030.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B041",
+    "grade": "wrong",
+    "source": "https://www.sec.gov/newsroom/press-releases/2020-269",
+    "reasoning": "SEC 2020 amendment expressly allows leveraged/inverse reliance subject to 18f-4. Explicitly requested eligibility is reversed, so wrong despite other correct structure classifications. Accept O.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B044",
+    "grade": "correct",
+    "source": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-%28supervision-and-enforcement%29-act-2013-%28section-48%281%29%29-%28undertakings-for-collective-investment-in-transferable-securities%29-regul.pdf",
+    "reasoning": "Regulation 26(2) permits both named cut-off distinctions with class-level currency hedging. That qualifier is already in the question and answer stays in that context. It expressly rejects a new waiver/general class exception. Extra disclosure/operational framing does not require waiver. Retain S; make self-contained qualifier mandatory in a future rubric.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B052",
+    "grade": "wrong",
+    "source": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-%28supervision-and-enforcement%29-act-2013-%28section-48%281%29%29-%28undertakings-for-collective-investment-in-transferable-securities%29-regul.pdf",
+    "reasoning": "Regulation 88 permits sub-fund or listed-class identifier and prescribes document placements. Class-only prohibition and LEI/ISIN substitution miss the requested choice. Correct non-ETF sibling warning cannot rescue this central error. Accept O.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B053",
+    "grade": "partial",
+    "source": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+    "reasoning": "QL-17 analytical aid separates fixed costs from retained fee minus variable cost and requires positive unit margin. Answer substitutes generic revenue exceeding total costs. Explicitly requested positive-margin break-even is not supplied; accept O. Do not require $100,000 or Lazard example absent an explicit question.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B060",
+    "grade": "correct",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "AP/Market makers sections establish primary versus secondary roles, overlap and use of APs. Answer covers them. Broad question does not request designated LMM subtype; omission of that supporting subtype is not substantive here. Retain S.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B063",
+    "grade": "correct",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "Sponsor/Adviser Economics and Risks give adviser fee, expense partner for remainder, adviser backstop. Answer explicitly supplies all three and no universal split. 'Retains revenue' is immediately qualified by fee-remainder contract. Retain S; exclusions/appointment alternatives are ancillary.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B067",
+    "grade": "wrong",
+    "source": "https://www.sec.gov/newsroom/press-releases/2020-269",
+    "reasoning": "SEC 2020 amendment removes leveraged/inverse exclusion, subject to 18f-4. Requested interaction is centrally reversed. Accept O consistently with B041.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B076",
+    "grade": "correct",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "AP Economics says no pay for status, voluntary activity, dealer/agency earnings; transaction fees are costs, with waiver qualifications in reviewed correction. Answer supplies central status/activity facts without an opposing fee claim. Waiver detail is secondary to this broad question. Accept O.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B079",
+    "grade": "correct",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "Market-maker/AP primary-secondary distinction and overlap correct. LMM is a designated subtype in source, not demanded by broad comparison question. Retain S consistently with B060.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B081",
+    "grade": "partial",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "Adviser Economics gives daily NAV accrual distinct from monthly payment. Answer only says gradual costs and annual example; misses requested collection cadence mechanism. Retain S; service-provider date alone is not mandatory.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B083",
+    "grade": "wrong",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "Adviser Risks explicitly keeps adviser obligation on partner default. Answer substitutes shareholder-funded fund liability and conflates sponsor/adviser; central distinction false. Retain S consistently with original B014.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B086",
+    "grade": "partial",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "Trust/Sponsor Connections and other-provider sections include seed, market-making, counsel and pricing. Multiple substantive launch arrangements absent, beyond permissible incidental omission. Accept O.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B092",
+    "grade": "wrong",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "Trust Connections has distributor/AP main parties, TA and beneficiary trust. Answer instead makes trust signature the central US contrast. Accept O consistently with shortened B011.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B093",
+    "grade": "correct",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "Fund dealings explanation is conditional on practical transferability. Answer gets fund cash implementation and fund trading costs right and contrasts in-kind avoiding gains; that conveys tax downside without saying cash always generates gains. Retain S; truncated final supporting example adds no contradiction.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B097",
+    "grade": "correct",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Share Class Structure.md",
+    "reasoning": "Tax mechanism/Shared benefit: pooled low-basis gain removal and cash-sale limits covered. No contrary investor immunity or basis-step-up claim. Retain S consistently with B018.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B098",
+    "grade": "partial",
+    "source": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+    "reasoning": "6c-11(a) defines nonrepresentative basket or representative basket differing from initial same-day basket. Answer adds representative 'non-pro-rata' as an independent trigger, broadening category. Localized definition error merits partial despite strong policies/records. Accept O.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B114",
+    "grade": "correct",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "Trust Economics/Risks establish shared infrastructure and control trade-off. Answer directly compares these for a one-fund sponsor. Board removal and possible sponsor appointment roles are ancillary examples to broad comparison. Retain S consistently with original B005.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B116",
+    "grade": "wrong",
+    "source": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-%28supervision-and-enforcement%29-act-2013-%28section-48%281%29%29-%28undertakings-for-collective-investment-in-transferable-securities%29-regul.pdf",
+    "reasoning": "Regulation 88 permits either sub-fund or listed-class label and mandates document placements. Answer prohibits sub-fund option and substitutes security identifiers. Accept O consistently with original B052.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B117",
+    "grade": "correct",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "Trust/Sponsor sections support cost sharing and reduced sponsor control. Answer explicitly states host board and limited say over trustees/providers and weighs scale. Board removal detail not separately necessary to requested comparison. Retain S.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B119",
+    "grade": "correct",
+    "source": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+    "reasoning": "QL-32 reviewed analytical precision distinguishes variable daily active returns from cumulative gap. Prompt provides variability definition; answer uses daily series, consistent methods and expressly separates cumulative gap. No claim that constant fees raise variability. Accept O; formula repetition not essential in context.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B121",
+    "grade": "correct",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "Primary/secondary roles and overlap correct; source LMM is subtype, not explicitly requested by broad question. Retain S consistently with shortened B079.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B124",
+    "grade": "partial",
+    "source": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/mutual-fund-conversion-exchange-traded-fund",
+    "reasoning": "SEC bulletin specifically flags potentially taxable fractional redemption. Answer discusses fractional disposition but misses that consequence along with explicit inaction trading limitation. Useful transfer process is partial; retain S and apply also to capped B112 (agreed partial).",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B128",
+    "grade": "partial",
+    "source": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+    "reasoning": "QL-17 analytical break-even requires positive retained fee minus variable cost, then fixed-cost coverage. Generic revenue above expenses omits explicitly requested margin condition. Accept O consistently with original B053; legal capital example not independently required.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  },
+  {
+    "blind_id": "B130",
+    "grade": "partial",
+    "source": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "reasoning": "Sponsor Economics allocates remainder to expense-assuming partner. Answer instead says only excess above coverage sponsor-paid and muddles receipt versus assumption of remainder; backstop right but economics incomplete. Accept O consistently with capped B001.",
+    "resolved_by": "S after independent grades frozen",
+    "source_checked_on": "2026-11-06"
+  }
+]

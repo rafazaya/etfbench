@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-03",
+  "tier": "A",
+  "answer": "**Sponsor economics** - **Breakeven AUM:** Compare expected fee revenue (AUM \u00d7 net expense ratio) with fixed costs: audit, legal, fund accounting, index licensing, exchange listing, compliance, and board fees. - **Fee waivers and expense caps:** Check how long costs are absorbed and what happens when caps expire. - **Lineup economics:** Determine whether other funds share overhead and whether a weak fund drains resources from stronger ones. **Seed capital** - **Seed size, source, duration:** Note whether seed is sponsor- or third-party-funded and how long it's committed. - **Seed-to-flows ratio:** Track how organic inflows replace seed. Long-unredeemed seed signals weak demand. - **Seed concentration:** Watch for one holder controlling a large share of assets. **Growth and viability** - **Net flows vs. market returns:** Separate asset growth from inflows. - **Distribution access:** Track platform, model, and advisor adoption. - **Trading activity:** Monitor volume, spreads, creation/redemption activity, and authorized participant count. **Closure triggers:** Review",
+  "original_answer": "**Sponsor economics**\n- **Breakeven AUM:** Compare expected fee revenue (AUM \u00d7 net expense ratio) against fixed costs such as audit, legal, fund accounting, index licensing, exchange listing, compliance, and board fees. Estimate the AUM needed to cover these.\n- **Fee waivers and expense caps:** Check how long the sponsor will absorb costs and what happens when the cap expires.\n- **Lineup economics:** Assess whether the sponsor's other funds share overhead and whether a weak fund draws resources from stronger ones.\n\n**Seed capital**\n- **Seed size, source, and duration:** Note whether seed is sponsor-funded or from a third party, and how long it is committed.\n- **Seed-to-flows ratio:** Track how much organic inflow replaces seed. Seed that stays unredeemed for long periods signals weak demand.\n- **Seed concentration:** Watch for a single holder controlling a large share of assets.\n\n**Growth and viability signals**\n- **Net flows versus market returns:** Separate asset growth from inflows.\n- **Distribution access:** Track platform, model, and advisor adoption.\n- **Trading activity:** Monitor volume, spreads, creation/redemption activity, and authorized participant count.\n\n**Closure triggers:** Review the board's minimum-AUM policy and any stated liquidation thresholds.",
+  "void": false,
+  "words_before": 186,
+  "words_after_shorten": 159,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-sq9lvurq",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a small, newly launched US '40 Act ETF over its next year, what sponsor-economics and seed-capital indicators would you assess for closure risk? Explain indicators rather than predict a guaranteed closure or survival probability.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-03-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-pjtqxeru",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Sponsor economics**\n- **Breakeven AUM:** Compare expected fee revenue (AUM \u00d7 net expense ratio) against fixed costs such as audit, legal, fund accounting, index licensing, exchange listing, compliance, and board fees. Estimate the AUM needed to cover these.\n- **Fee waivers and expense caps:** Check how long the sponsor will absorb costs and what happens when the cap expires.\n- **Lineup economics:** Assess whether the sponsor's other funds share overhead and whether a weak fund draws resources from stronger ones.\n\n**Seed capital**\n- **Seed size, source, and duration:** Note whether seed is sponsor-funded or from a third party, and how long it is committed.\n- **Seed-to-flows ratio:** Track how much organic inflow replaces seed. Seed that stays unredeemed for long periods signals weak demand.\n- **Seed concentration:** Watch for a single holder controlling a large share of assets.\n\n**Growth and viability signals**\n- **Net flows versus market returns:** Separate asset growth from inflows.\n- **Distribution access:** Track platform, model, and advisor adoption.\n- **Trading activity:** Monitor volume, spreads, creation/redemption activity, and authorized participant count.\n\n**Closure triggers:** Review the board's minimum-AUM policy and any stated liquidation thresholds."
+      ],
+      "stdout": "haiku-QL-03-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

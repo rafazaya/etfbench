@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "Covers all three key points: creation delivers a basket (or cash) to the fund in exchange for newly issued shares, increasing shares outstanding; redemption returns creation units which the fund cancels, decreasing shares outstanding; secondary-market trades transfer ownership without changing the share count. Additional details (creation unit sizes, NAV pricing, arbitrage mechanism) are accurate or reasonably hedged ('typically') and introduce no material error.",
+  "blind_id": "B077"
+}

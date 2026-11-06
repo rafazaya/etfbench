@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-06",
+  "tier": "B",
+  "answer": "Yes, but the benefit is pooled, not reserved for mutual fund holders.\n\n**Mechanism:** Under IRC \u00a7852(b)(6), a RIC generally doesn't recognize gain when distributing appreciated securities in redemption of its shares. When ETF-class holders redeem in kind, the fund delivers low-basis securities, so embedded gains leave the portfolio unrealized. Since all classes share one portfolio, fewer realized gains mean smaller capital gains distributions, helping every class in proportion to its NAV.\n\n**Limits:**\n- The benefit depends on ETF-class redemption volume and which lots are delivered. Cash-based trading can still realize gains.\n- Mutual fund redemptions are typically cash, forcing sales that realize gains and partly offsetting the benefit.\n- Class-level expenses and in-kind basket costs must be allocated under the fund's multi-class plan (Rule 18f-3).\n- Benefits are shared pro rata, so MF holders get no dedicated advantage.",
+  "original_answer": "Yes, but the benefit is pooled, not reserved for mutual fund holders.\n\n**Mechanism:** Under IRC \u00a7852(b)(6), a RIC generally doesn't recognize gain when it distributes appreciated securities in redemption of its shares. When ETF-class holders redeem in kind, the fund hands out low-basis securities, so the embedded gains leave the portfolio without being realized. Because all classes share one portfolio, fewer realized gains means smaller capital gains distributions, which helps every class, including the mutual fund class, in proportion to its NAV.\n\n**Limits:**\n- The benefit depends on ETF-class redemption volume and on which lots are delivered. Gains can still be realized through cash-based trading.\n- Mutual fund redemptions are typically cash, so they can force sales that realize gains, partly offsetting the benefit.\n- Class-level expenses and any costs of in-kind baskets must be allocated among classes under the fund's multi-class plan (Rule 18f-3 framework).\n- Benefits are shared pro rata, so MF holders don't capture a dedicated advantage.",
+  "void": false,
+  "words_before": 160,
+  "words_after_shorten": 138,
+  "words_final": 138,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-m4avjdgy",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for a US IRS RIC already permitted to operate ETF and mutual fund classes sharing one portfolio, can ETF-class in-kind redemptions benefit mutual fund class shareholders? Explain the mechanism and limits, without assuming every fund has share-class relief.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-06-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-mz4qe8ee",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\nYes, but the benefit is pooled, not reserved for mutual fund holders.\n\n**Mechanism:** Under IRC \u00a7852(b)(6), a RIC generally doesn't recognize gain when it distributes appreciated securities in redemption of its shares. When ETF-class holders redeem in kind, the fund hands out low-basis securities, so the embedded gains leave the portfolio without being realized. Because all classes share one portfolio, fewer realized gains means smaller capital gains distributions, which helps every class, including the mutual fund class, in proportion to its NAV.\n\n**Limits:**\n- The benefit depends on ETF-class redemption volume and on which lots are delivered. Gains can still be realized through cash-based trading.\n- Mutual fund redemptions are typically cash, so they can force sales that realize gains, partly offsetting the benefit.\n- Class-level expenses and any costs of in-kind baskets must be allocated among classes under the fund's multi-class plan (Rule 18f-3 framework).\n- Benefits are shared pro rata, so MF holders don't capture a dedicated advantage."
+      ],
+      "stdout": "haiku-QL-06-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

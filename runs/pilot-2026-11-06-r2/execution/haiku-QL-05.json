@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-05",
+  "tier": "B",
+  "answer": "**Why ETFs can distribute fewer gains:** When an authorized participant redeems ETF shares, the fund can deliver low-basis securities in kind rather than selling them for cash. Under IRC \u00a7852(b)(6), a RIC recognizes no gain on that in-kind distribution, so it can purge its most appreciated lots without realizing gains. A cash-redeeming mutual fund must sell holdings, and those sales can generate capital gain distributions passed to all remaining shareholders. **Limits:** - The benefit applies only to in-kind redemptions. Cash creations and redemptions and rebalancing or index-change sales can still realize gains. - It depends on AP participation. Many bond and international ETFs rely more on cash. - Short-term gains still distribute as ordinary income. Dividends and interest are unaffected. - Your own sale of ETF shares is still taxable. The benefit avoids fund-level distributions, not tax altogether. - It requires RIC qualification, and the result is deferral, not permanent",
+  "original_answer": "**Why the ETF can distribute fewer gains:** When an authorized participant redeems ETF shares, the fund can hand over low-basis securities in kind instead of selling them for cash. Under IRC \u00a7852(b)(6), the RIC recognizes no gain on that in-kind distribution. The fund can therefore purge its most appreciated lots without realizing gains. A cash-dealing mutual fund must sell holdings to meet redemptions, and those sales can generate capital gain distributions that are passed to all remaining shareholders, including those who did not sell.\n\n**Limits of the benefit:**\n- It applies only to in-kind redemptions. Cash creations or redemptions, and rebalancing or index-change sales, can still realize gains.\n- It depends on AP participation and creation/redemption activity. Some ETFs, such as many bond and international funds, rely more on cash.\n- Short-term gains are still distributed as ordinary income, and dividends and interest are unaffected.\n- Your own sale of ETF shares is still taxable, so the benefit is avoiding fund-level distributions, not eliminating tax.\n- The fund must qualify as a RIC, and the result is deferral of gains rather than permanent exemption.",
+  "void": false,
+  "words_before": 184,
+  "words_after_shorten": 151,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-o9u_vl20",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, why can an in-kind US equity ETF taxed as an IRS RIC distribute fewer capital gains than a standalone cash-dealing mutual fund holding the same stocks, for a US taxable investor? State the limits of the tax benefit.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-05-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-jzk2gcac",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Why the ETF can distribute fewer gains:** When an authorized participant redeems ETF shares, the fund can hand over low-basis securities in kind instead of selling them for cash. Under IRC \u00a7852(b)(6), the RIC recognizes no gain on that in-kind distribution. The fund can therefore purge its most appreciated lots without realizing gains. A cash-dealing mutual fund must sell holdings to meet redemptions, and those sales can generate capital gain distributions that are passed to all remaining shareholders, including those who did not sell.\n\n**Limits of the benefit:**\n- It applies only to in-kind redemptions. Cash creations or redemptions, and rebalancing or index-change sales, can still realize gains.\n- It depends on AP participation and creation/redemption activity. Some ETFs, such as many bond and international funds, rely more on cash.\n- Short-term gains are still distributed as ordinary income, and dividends and interest are unaffected.\n- Your own sale of ETF shares is still taxable, so the benefit is avoiding fund-level distributions, not eliminating tax.\n- The fund must qualify as a RIC, and the result is deferral of gains rather than permanent exemption."
+      ],
+      "stdout": "haiku-QL-05-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

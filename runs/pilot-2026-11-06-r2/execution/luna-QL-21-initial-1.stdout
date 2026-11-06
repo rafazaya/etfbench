@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b0fd-ed99-7313-bed0-ea23ca6962b1"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The **sponsor bears the economic shortfall**: if the fund’s unitary fee doesn’t cover its operating costs, the sponsor is contractually responsible for the excess.\n\nBut that allocation **doesn’t necessarily release the fund from its own payment obligations**. If the fund is party to agreements with service providers, it may still owe them expenses if the sponsor fails to pay; the fund may then have a claim against the sponsor under the expense-assumption agreement. The exact result depends on the governing contracts and any guarantees or indemnities."}}
+{"type":"turn.completed","usage":{"input_tokens":17230,"cached_input_tokens":8192,"cache_write_input_tokens":0,"output_tokens":245,"reasoning_output_tokens":93}}

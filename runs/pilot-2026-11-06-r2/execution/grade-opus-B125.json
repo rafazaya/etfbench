@@ -1,0 +1,5 @@
+{
+  "grade": "partial",
+  "rationale": "The answer gets the central mechanism right. It says the ETF class delivers appreciated securities in kind to APs, the RIC generally recognizes no gain under \u00a7852(b)(6), and because all classes share one portfolio this can reduce capital-gains distributions to mutual-fund holders too. It also says the benefit is not guaranteed, depends on the fund actually making in-kind redemptions instead of sales, does not erase realized gains, and that share-class relief cannot be assumed. Several key-point limits are missing, though. (1) It never says in-kind redemptions remove embedded low-basis gains without stepping up the basis of securities left behind. (2) It omits that mutual-fund-class cash flows can force cash sales and so impose gains and costs on ETF-class holders. (3) It does not say the fund-level nonrecognition rule leaves investor and AP gains taxable. (4) It does not discuss strategy and practical in-kind capacity beyond a general 'depends' remark. The core is correct, but these are substantive omissions on the requested limits.",
+  "blind_id": "B125"
+}

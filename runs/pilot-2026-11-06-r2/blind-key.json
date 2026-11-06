@@ -1,0 +1,652 @@
+{
+  "B001": {
+    "model": "haiku",
+    "id": "QL-20",
+    "version": "final"
+  },
+  "B002": {
+    "model": "haiku",
+    "id": "QL-18",
+    "version": "final"
+  },
+  "B003": {
+    "model": "haiku",
+    "id": "QL-08",
+    "version": "final"
+  },
+  "B004": {
+    "model": "haiku",
+    "id": "QL-31",
+    "version": "final"
+  },
+  "B005": {
+    "model": "luna",
+    "id": "QL-16",
+    "version": "original"
+  },
+  "B006": {
+    "model": "haiku",
+    "id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+    "version": "original"
+  },
+  "B007": {
+    "model": "haiku",
+    "id": "QL-17",
+    "version": "original"
+  },
+  "B008": {
+    "model": "haiku",
+    "id": "QL-11",
+    "version": "original"
+  },
+  "B009": {
+    "model": "haiku",
+    "id": "QL-36",
+    "version": "final"
+  },
+  "B010": {
+    "model": "luna",
+    "id": "QL-13",
+    "version": "final"
+  },
+  "B011": {
+    "model": "haiku",
+    "id": "creation_redemption_006_who_are_typically_the_parties_involved_i",
+    "version": "final"
+  },
+  "B012": {
+    "model": "luna",
+    "id": "QL-02",
+    "version": "final"
+  },
+  "B013": {
+    "model": "luna",
+    "id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+    "version": "final"
+  },
+  "B014": {
+    "model": "haiku",
+    "id": "QL-21",
+    "version": "original"
+  },
+  "B015": {
+    "model": "luna",
+    "id": "QL-25",
+    "version": "final"
+  },
+  "B016": {
+    "model": "haiku",
+    "id": "QL-03",
+    "version": "final"
+  },
+  "B017": {
+    "model": "haiku",
+    "id": "QL-01",
+    "version": "original"
+  },
+  "B018": {
+    "model": "haiku",
+    "id": "QL-06",
+    "version": "original"
+  },
+  "B019": {
+    "model": "haiku",
+    "id": "QL-12",
+    "version": "original"
+  },
+  "B020": {
+    "model": "haiku",
+    "id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+    "version": "final"
+  },
+  "B021": {
+    "model": "haiku",
+    "id": "QL-34",
+    "version": "final"
+  },
+  "B022": {
+    "model": "luna",
+    "id": "QL-28",
+    "version": "final"
+  },
+  "B023": {
+    "model": "haiku",
+    "id": "QL-24",
+    "version": "final"
+  },
+  "B024": {
+    "model": "haiku",
+    "id": "QL-05",
+    "version": "original"
+  },
+  "B025": {
+    "model": "luna",
+    "id": "QL-09",
+    "version": "final"
+  },
+  "B026": {
+    "model": "haiku",
+    "id": "QL-08",
+    "version": "original"
+  },
+  "B027": {
+    "model": "luna",
+    "id": "creation_redemption_006_who_are_typically_the_parties_involved_i",
+    "version": "final"
+  },
+  "B028": {
+    "model": "haiku",
+    "id": "QL-05",
+    "version": "final"
+  },
+  "B029": {
+    "model": "haiku",
+    "id": "QL-04",
+    "version": "original"
+  },
+  "B030": {
+    "model": "luna",
+    "id": "QL-03",
+    "version": "final"
+  },
+  "B031": {
+    "model": "luna",
+    "id": "QL-05",
+    "version": "final"
+  },
+  "B032": {
+    "model": "luna",
+    "id": "QL-21",
+    "version": "final"
+  },
+  "B033": {
+    "model": "haiku",
+    "id": "QL-28",
+    "version": "final"
+  },
+  "B034": {
+    "model": "luna",
+    "id": "QL-31",
+    "version": "final"
+  },
+  "B035": {
+    "model": "haiku",
+    "id": "QL-19",
+    "version": "final"
+  },
+  "B036": {
+    "model": "luna",
+    "id": "QL-11",
+    "version": "final"
+  },
+  "B037": {
+    "model": "luna",
+    "id": "QL-03",
+    "version": "original"
+  },
+  "B038": {
+    "model": "luna",
+    "id": "QL-31",
+    "version": "original"
+  },
+  "B039": {
+    "model": "luna",
+    "id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+    "version": "final"
+  },
+  "B040": {
+    "model": "haiku",
+    "id": "QL-14",
+    "version": "final"
+  },
+  "B041": {
+    "model": "haiku",
+    "id": "QL-23",
+    "version": "original"
+  },
+  "B042": {
+    "model": "luna",
+    "id": "QL-14",
+    "version": "final"
+  },
+  "B043": {
+    "model": "haiku",
+    "id": "QL-38",
+    "version": "final"
+  },
+  "B044": {
+    "model": "luna",
+    "id": "QL-38",
+    "version": "final"
+  },
+  "B045": {
+    "model": "luna",
+    "id": "QL-01",
+    "version": "final"
+  },
+  "B046": {
+    "model": "haiku",
+    "id": "QL-30",
+    "version": "final"
+  },
+  "B047": {
+    "model": "luna",
+    "id": "QL-18",
+    "version": "final"
+  },
+  "B048": {
+    "model": "luna",
+    "id": "QL-07",
+    "version": "final"
+  },
+  "B049": {
+    "model": "haiku",
+    "id": "creation_redemption_004_what_costs_do_the_creation_fee_cover",
+    "version": "original"
+  },
+  "B050": {
+    "model": "luna",
+    "id": "QL-23",
+    "version": "final"
+  },
+  "B051": {
+    "model": "haiku",
+    "id": "QL-36",
+    "version": "original"
+  },
+  "B052": {
+    "model": "haiku",
+    "id": "QL-35",
+    "version": "original"
+  },
+  "B053": {
+    "model": "luna",
+    "id": "QL-17",
+    "version": "original"
+  },
+  "B054": {
+    "model": "haiku",
+    "id": "QL-28",
+    "version": "original"
+  },
+  "B055": {
+    "model": "haiku",
+    "id": "QL-10",
+    "version": "final"
+  },
+  "B056": {
+    "model": "luna",
+    "id": "QL-10",
+    "version": "final"
+  },
+  "B057": {
+    "model": "haiku",
+    "id": "QL-40",
+    "version": "final"
+  },
+  "B058": {
+    "model": "haiku",
+    "id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+    "version": "final"
+  },
+  "B059": {
+    "model": "haiku",
+    "id": "QL-39",
+    "version": "original"
+  },
+  "B060": {
+    "model": "luna",
+    "id": "QL-15",
+    "version": "final"
+  },
+  "B061": {
+    "model": "haiku",
+    "id": "QL-22",
+    "version": "final"
+  },
+  "B062": {
+    "model": "haiku",
+    "id": "QL-14",
+    "version": "original"
+  },
+  "B063": {
+    "model": "luna",
+    "id": "QL-20",
+    "version": "final"
+  },
+  "B064": {
+    "model": "luna",
+    "id": "QL-24",
+    "version": "final"
+  },
+  "B065": {
+    "model": "haiku",
+    "id": "QL-40",
+    "version": "original"
+  },
+  "B066": {
+    "model": "haiku",
+    "id": "QL-39",
+    "version": "final"
+  },
+  "B067": {
+    "model": "haiku",
+    "id": "QL-23",
+    "version": "final"
+  },
+  "B068": {
+    "model": "haiku",
+    "id": "QL-33",
+    "version": "original"
+  },
+  "B069": {
+    "model": "haiku",
+    "id": "QL-09",
+    "version": "final"
+  },
+  "B070": {
+    "model": "haiku",
+    "id": "QL-02",
+    "version": "final"
+  },
+  "B071": {
+    "model": "haiku",
+    "id": "QL-07",
+    "version": "final"
+  },
+  "B072": {
+    "model": "luna",
+    "id": "QL-35",
+    "version": "final"
+  },
+  "B073": {
+    "model": "haiku",
+    "id": "QL-33",
+    "version": "final"
+  },
+  "B074": {
+    "model": "haiku",
+    "id": "QL-29",
+    "version": "final"
+  },
+  "B075": {
+    "model": "haiku",
+    "id": "QL-18",
+    "version": "original"
+  },
+  "B076": {
+    "model": "luna",
+    "id": "QL-12",
+    "version": "final"
+  },
+  "B077": {
+    "model": "haiku",
+    "id": "QL-09",
+    "version": "original"
+  },
+  "B078": {
+    "model": "luna",
+    "id": "QL-34",
+    "version": "original"
+  },
+  "B079": {
+    "model": "haiku",
+    "id": "QL-15",
+    "version": "final"
+  },
+  "B080": {
+    "model": "haiku",
+    "id": "QL-37",
+    "version": "final"
+  },
+  "B081": {
+    "model": "luna",
+    "id": "QL-04",
+    "version": "final"
+  },
+  "B082": {
+    "model": "haiku",
+    "id": "QL-24",
+    "version": "original"
+  },
+  "B083": {
+    "model": "haiku",
+    "id": "QL-21",
+    "version": "final"
+  },
+  "B084": {
+    "model": "haiku",
+    "id": "QL-01",
+    "version": "final"
+  },
+  "B085": {
+    "model": "haiku",
+    "id": "QL-29",
+    "version": "original"
+  },
+  "B086": {
+    "model": "luna",
+    "id": "QL-19",
+    "version": "final"
+  },
+  "B087": {
+    "model": "luna",
+    "id": "QL-39",
+    "version": "final"
+  },
+  "B088": {
+    "model": "luna",
+    "id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+    "version": "original"
+  },
+  "B089": {
+    "model": "haiku",
+    "id": "QL-32",
+    "version": "original"
+  },
+  "B090": {
+    "model": "haiku",
+    "id": "QL-17",
+    "version": "final"
+  },
+  "B091": {
+    "model": "luna",
+    "id": "QL-36",
+    "version": "final"
+  },
+  "B092": {
+    "model": "haiku",
+    "id": "creation_redemption_006_who_are_typically_the_parties_involved_i",
+    "version": "original"
+  },
+  "B093": {
+    "model": "haiku",
+    "id": "QL-13",
+    "version": "final"
+  },
+  "B094": {
+    "model": "luna",
+    "id": "QL-05",
+    "version": "original"
+  },
+  "B095": {
+    "model": "haiku",
+    "id": "QL-27",
+    "version": "final"
+  },
+  "B096": {
+    "model": "luna",
+    "id": "creation_redemption_004_what_costs_do_the_creation_fee_cover",
+    "version": "final"
+  },
+  "B097": {
+    "model": "haiku",
+    "id": "QL-06",
+    "version": "final"
+  },
+  "B098": {
+    "model": "luna",
+    "id": "QL-27",
+    "version": "final"
+  },
+  "B099": {
+    "model": "luna",
+    "id": "QL-37",
+    "version": "final"
+  },
+  "B100": {
+    "model": "luna",
+    "id": "QL-30",
+    "version": "final"
+  },
+  "B101": {
+    "model": "haiku",
+    "id": "QL-04",
+    "version": "final"
+  },
+  "B102": {
+    "model": "luna",
+    "id": "QL-29",
+    "version": "final"
+  },
+  "B103": {
+    "model": "haiku",
+    "id": "QL-25",
+    "version": "final"
+  },
+  "B104": {
+    "model": "haiku",
+    "id": "QL-03",
+    "version": "original"
+  },
+  "B105": {
+    "model": "luna",
+    "id": "QL-22",
+    "version": "final"
+  },
+  "B106": {
+    "model": "luna",
+    "id": "QL-34",
+    "version": "final"
+  },
+  "B107": {
+    "model": "haiku",
+    "id": "QL-38",
+    "version": "original"
+  },
+  "B108": {
+    "model": "haiku",
+    "id": "QL-02",
+    "version": "original"
+  },
+  "B109": {
+    "model": "haiku",
+    "id": "QL-32",
+    "version": "final"
+  },
+  "B110": {
+    "model": "luna",
+    "id": "QL-33",
+    "version": "final"
+  },
+  "B111": {
+    "model": "luna",
+    "id": "QL-25",
+    "version": "original"
+  },
+  "B112": {
+    "model": "luna",
+    "id": "QL-40",
+    "version": "final"
+  },
+  "B113": {
+    "model": "haiku",
+    "id": "creation_redemption_004_what_costs_do_the_creation_fee_cover",
+    "version": "final"
+  },
+  "B114": {
+    "model": "luna",
+    "id": "QL-16",
+    "version": "final"
+  },
+  "B115": {
+    "model": "luna",
+    "id": "QL-33",
+    "version": "original"
+  },
+  "B116": {
+    "model": "haiku",
+    "id": "QL-35",
+    "version": "final"
+  },
+  "B117": {
+    "model": "haiku",
+    "id": "QL-16",
+    "version": "final"
+  },
+  "B118": {
+    "model": "luna",
+    "id": "QL-08",
+    "version": "final"
+  },
+  "B119": {
+    "model": "luna",
+    "id": "QL-32",
+    "version": "final"
+  },
+  "B120": {
+    "model": "haiku",
+    "id": "QL-11",
+    "version": "final"
+  },
+  "B121": {
+    "model": "haiku",
+    "id": "QL-15",
+    "version": "original"
+  },
+  "B122": {
+    "model": "haiku",
+    "id": "QL-13",
+    "version": "original"
+  },
+  "B123": {
+    "model": "haiku",
+    "id": "QL-26",
+    "version": "final"
+  },
+  "B124": {
+    "model": "luna",
+    "id": "QL-40",
+    "version": "original"
+  },
+  "B125": {
+    "model": "luna",
+    "id": "QL-06",
+    "version": "final"
+  },
+  "B126": {
+    "model": "luna",
+    "id": "QL-26",
+    "version": "final"
+  },
+  "B127": {
+    "model": "haiku",
+    "id": "QL-12",
+    "version": "final"
+  },
+  "B128": {
+    "model": "luna",
+    "id": "QL-17",
+    "version": "final"
+  },
+  "B129": {
+    "model": "haiku",
+    "id": "QL-07",
+    "version": "original"
+  },
+  "B130": {
+    "model": "haiku",
+    "id": "QL-20",
+    "version": "original"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-40",
+  "tier": "C",
+  "answer": "**Key steps** (verify against the fund's notices, since timing varies): 1. **Read the notices** for the shareholder vote or proxy, conversion date, and record date. Conversions are often structured as tax-free reorganizations. 2. **Note your cutoffs:** the last day to buy, redeem, or exchange into the mutual fund, and when automatic investment plans stop. 3. **Confirm where your shares will sit.** Direct-held accounts may convert automatically at the transfer agent or require a move to a brokerage. If you must act, start an ACATS or in-kind transfer early. 4. **Expect fractional-share handling.** ETFs generally trade whole shares, so fractions are typically cashed out, which can be taxable. Confirm the treatment and whether your broker supports fractional ETF shares. 5. **Adjust trading habits.** You'll buy and sell on an exchange through a brokerage, using limit orders to manage bid-ask spreads. Redemption at NAV no longer applies. 6. **Review dividends and taxes.**",
+  "original_answer": "**Key steps (verify against the fund's notices, since timing varies):**\n\n1. **Read the notices.** Look for the shareholder vote or proxy, the conversion date, and the record date. Conversions are often structured as tax-free reorganizations.\n2. **Find your cutoff dates.** Check the last day to buy, redeem, or exchange into the mutual fund, and whether automatic investment plans stop.\n3. **Confirm where your shares will sit.** Direct-held accounts may convert automatically at the fund's transfer agent or require you to move them to a brokerage. If you must act, initiate an ACATS or in-kind transfer early.\n4. **Expect fractional-share handling.** ETFs generally trade whole shares. Fractions are typically cashed out, which can be taxable. Confirm the treatment and whether your broker supports fractional ETF shares.\n5. **Update trading habits.** After conversion, you buy and sell on an exchange through a brokerage, using limit orders to manage bid-ask spreads. Redemption at NAV no longer applies.\n6. **Review dividends and taxes.** Reinvestment settings and distribution schedules may change.\n\nNote that a full conversion differs from adding an ETF share class, which typically leaves existing mutual fund holdings unchanged.",
+  "void": false,
+  "words_before": 186,
+  "words_after_shorten": 175,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-ydz1gtaf",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for a US mutual fund held directly with the fund that is converting the whole fund into an ETF, what account/transfer steps might an investor need to take? Address notices, deadlines, trading access and fractional shares without assuming a fund-specific timetable or confusing conversion with adding an ETF class.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-40-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-p8zofll8",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Key steps (verify against the fund's notices, since timing varies):**\n\n1. **Read the notices.** Look for the shareholder vote or proxy, the conversion date, and the record date. Conversions are often structured as tax-free reorganizations.\n2. **Find your cutoff dates.** Check the last day to buy, redeem, or exchange into the mutual fund, and whether automatic investment plans stop.\n3. **Confirm where your shares will sit.** Direct-held accounts may convert automatically at the fund's transfer agent or require you to move them to a brokerage. If you must act, initiate an ACATS or in-kind transfer early.\n4. **Expect fractional-share handling.** ETFs generally trade whole shares. Fractions are typically cashed out, which can be taxable. Confirm the treatment and whether your broker supports fractional ETF shares.\n5. **Update trading habits.** After conversion, you buy and sell on an exchange through a brokerage, using limit orders to manage bid-ask spreads. Redemption at NAV no longer applies.\n6. **Review dividends and taxes.** Reinvestment settings and distribution schedules may change.\n\nNote that a full conversion differs from adding an ETF share class, which typically leaves existing mutual fund holdings unchanged."
+      ],
+      "stdout": "haiku-QL-40-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

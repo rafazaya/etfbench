@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-13",
+  "tier": "B",
+  "answer": "Derivatives such as OTC swaps and forwards are bilateral contracts with a specific counterparty, governed by ISDA terms, margin, and credit limits. An authorized participant (AP) generally cannot take these over, so the fund accepts cash on creation and pays cash on redemption, then enters or exits the derivative exposure itself. A cash component in the basket covers the non-transferable portion. Transferable securities such as equities and bonds can move in kind. This shifts trading costs to the APs, keeps the portfolio intact, and generally avoids realizing gains inside the fund, supporting tax efficiency. Limits of this explanation: - It explains practicability, not preference. Cash creations shift trading costs and market impact onto the fund, often offset by transaction fees. - Cash may be used for operational or structural reasons, such as in commodity or leveraged funds, even when derivatives are not the binding constraint. - Some derivative exposure can",
+  "original_answer": "Derivatives such as OTC swaps and forwards are bilateral contracts with a specific counterparty, subject to ISDA terms, margin, and credit limits. An authorized participant (AP) generally cannot take them over, so the fund accepts cash on creation and pays cash on redemption, then enters or exits the derivative exposure itself. A cash component in the basket covers the non-transferable portion.\n\nTransferable securities such as equities and bonds can move in kind. This keeps trading costs with the APs, leaves the portfolio intact, and generally avoids realizing gains inside the fund, supporting tax efficiency.\n\nThe limits of this explanation:\n- It explains practicability, not preference. Cash creations shift trading costs and market impact onto the fund, often offset by transaction fees.\n- Cash may be used for operational or structural reasons, such as in commodity or leveraged funds, even when derivatives are not the binding constraint.\n- Some derivative exposure can be replicated with transferable holdings, so the constraint is not absolute.",
+  "void": false,
+  "words_before": 162,
+  "words_after_shorten": 161,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-a1kk2ptm",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a US ETF using derivative positions that cannot practicably be transferred to or from an AP under its dealing arrangements, why might creations/redemptions use cash or a cash component? Contrast with transferable securities and state the limits of this explanation.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-13-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-v6a831ji",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\nDerivatives such as OTC swaps and forwards are bilateral contracts with a specific counterparty, subject to ISDA terms, margin, and credit limits. An authorized participant (AP) generally cannot take them over, so the fund accepts cash on creation and pays cash on redemption, then enters or exits the derivative exposure itself. A cash component in the basket covers the non-transferable portion.\n\nTransferable securities such as equities and bonds can move in kind. This keeps trading costs with the APs, leaves the portfolio intact, and generally avoids realizing gains inside the fund, supporting tax efficiency.\n\nThe limits of this explanation:\n- It explains practicability, not preference. Cash creations shift trading costs and market impact onto the fund, often offset by transaction fees.\n- Cash may be used for operational or structural reasons, such as in commodity or leveraged funds, even when derivatives are not the binding constraint.\n- Some derivative exposure can be replicated with transferable holdings, so the constraint is not absolute."
+      ],
+      "stdout": "haiku-QL-13-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer states that listed and unlisted classes of the same Irish UCITS sub-fund can coexist. It covers every comparison area the question names: dealing (exchange trading vs dealing with the administrator), settlement, costs, minimums, shareholder rights, liquidity and price differences. It correctly declines to apply US exemptive conditions. Weaknesses: it disclaims being able to verify Q&A 1088 and presents the items as what a prospectus 'typically' compares rather than as a requirement. It does not separately name broker use, though this is implied by the on-exchange vs administrator dealing contrast. It frames the price point as exchange price vs NAV premium/discount rather than differences between class prices, which is related but less precise. These are not material errors, and the central content is covered.",
+  "blind_id": "B080"
+}

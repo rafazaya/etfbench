@@ -1,0 +1,64 @@
+{
+  "status": "provisional, not goldens",
+  "sources": [
+    {
+      "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+      "sha256": "e7218ed4a48faad1e0096f76ca92f62409d0529ac50d7557ffd74864d5dff59a",
+      "checked_on": "2026-11-06",
+      "scope": "Relevant cited sections read for disagreement adjudication; not full fresh external audit."
+    },
+    {
+      "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Share Class Structure.md",
+      "sha256": "fc67f29e9213a21026c14c0973fa5c44c93ad962f0f6a149764a76d1adc25cdb",
+      "checked_on": "2026-11-06",
+      "scope": "Relevant cited sections read for disagreement adjudication; not full fresh external audit."
+    },
+    {
+      "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+      "sha256": "77a9b8ec63af8c4ab8b96b875bff26eb2364c01b31a96b34ffac6898ea5051ce",
+      "checked_on": "2026-11-06",
+      "scope": "Relevant cited sections read for disagreement adjudication; not full fresh external audit."
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+      "scope": "(a) AP and custom basket definitions; (b)-(d) operational context; updated through 2026-11-04.",
+      "checked_on": "2026-11-06",
+      "access": "web fetch/search; relevant source text inspected"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.0-5",
+      "scope": "(d)-(f): expedited eligibility, filing inputs and filing-to-notice clock.",
+      "checked_on": "2026-11-06",
+      "access": "web fetch/search; relevant source text inspected"
+    },
+    {
+      "url": "https://www.sec.gov/newsroom/press-releases/2020-269",
+      "scope": "2020 amendments allow leveraged/inverse ETFs subject to applicable 18f-4.",
+      "checked_on": "2026-11-06",
+      "access": "web fetch/search; relevant source text inspected"
+    },
+    {
+      "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-%28supervision-and-enforcement%29-act-2013-%28section-48%281%29%29-%28undertakings-for-collective-investment-in-transferable-securities%29-regul.pdf",
+      "scope": "Regulations 26(2) and 88: cutoff exceptions and naming/placement options.",
+      "checked_on": "2026-11-06",
+      "access": "web fetch/search; relevant source text inspected"
+    },
+    {
+      "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/guidance/42nd-edition-ucits-qa.pdf",
+      "scope": "April 17 2025 Q&A, opened for historical context; 2026 instrument controls naming/cutoffs.",
+      "checked_on": "2026-11-06",
+      "access": "web fetch/search; relevant source text inspected"
+    },
+    {
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/mutual-fund-conversion-exchange-traded-fund",
+      "scope": "Account/trading access and potentially taxable fractional-share cashout.",
+      "checked_on": "2026-11-06",
+      "access": "web fetch/search; relevant source text inspected"
+    }
+  ],
+  "limitations": [
+    "SEC final-rule PDF fetch failed; official SEC press release used for amendment.",
+    "LII rule mirrors consulted initially; official eCFR text then inspected.",
+    "No vault edits or promotion of draft material."
+  ]
+}

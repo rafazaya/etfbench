@@ -1,0 +1,41 @@
+{
+  "model": "haiku",
+  "id": "QL-22",
+  "tier": "C",
+  "answer": "**No.** Appointing a principal underwriter satisfies a legal and operational requirement, but it does not guarantee sales or asset gathering.\n\n- **Legal/operational distribution:** The principal underwriter, a FINRA-registered broker-dealer, handles the sponsor's regulatory distribution role, such as creation/redemption processing, AP coordination, and compliance oversight.\n- **Separately contracted marketing:** Sales force support, wholesaling, advertising, and content are typically separate agreements, and their scope varies by platform package.\n- **Intermediary access:** Asset gathering depends on whether wirehouses, RIAs, and model providers add the fund to their approved lists. That requires due diligence, platform fees, and relationship work outside the underwriter appointment.\n\nPlatform packages differ in what they bundle, so the underwriter alone does not determine distribution outcomes. Verify the specific contract terms and each service's scope before assuming sales support.",
+  "original_answer": "**No.** Appointing a principal underwriter satisfies a legal and operational requirement, but it does not guarantee sales or asset gathering.\n\n- **Legal/operational distribution:** The principal underwriter, a FINRA-registered broker-dealer, handles the sponsor's regulatory distribution role, such as creation/redemption processing, AP coordination, and compliance oversight.\n- **Separately contracted marketing:** Sales force support, wholesaling, advertising, and content are typically separate agreements, and their scope varies by platform package.\n- **Intermediary access:** Asset gathering depends on whether wirehouses, RIAs, and model providers add the fund to their approved lists. That requires due diligence, platform fees, and relationship work outside the underwriter appointment.\n\nPlatform packages differ in what they bundle, so the underwriter alone does not determine distribution outcomes. Verify the specific contract terms and each service's scope before assuming sales support.",
+  "void": false,
+  "words_before": 128,
+  "words_after_shorten": null,
+  "words_final": 128,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-uw9hx4__",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, does appointment of a principal underwriter on a US ETF series-trust platform itself assure a sales force and asset gathering? Distinguish legal/operational distribution from separately contracted marketing and intermediary access; do not assume all platform packages are identical.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-22-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": []
+}

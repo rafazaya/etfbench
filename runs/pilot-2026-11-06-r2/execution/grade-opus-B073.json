@@ -1,0 +1,5 @@
+{
+  "grade": "partial",
+  "rationale": "Useful central content: the answer separates borrower default, collateral shortfall, and cash-reinvestment risk. Each comes with sensible controls, and reinvestment loss is treated as distinct from borrower default, which the grader notes require. It does not claim collateral eliminates losses; it notes reinvestment losses can cause a shortfall. UCITS coverage is mostly right: ability to recall, liquid and diversified collateral, haircuts, and restricted cash reinvestment. Omissions: (1) The US iShares example is effectively abstained on. It gives only generic 'agent-led with indemnification' practice and misses the specific SAI points: borrower failure can delay recovery or leave collateral short of replacement cost, collateral is kept at least equal to the market value of securities lent, and loss risk remains. (2) UCITS misses daily valuation, credit quality, the ban on reinvesting noncash collateral, and the requirement that reinvested cash be diversified. (3) The answer is truncated mid-sentence. These substantive omissions, especially on the US example, keep it from full credit.",
+  "blind_id": "B073"
+}

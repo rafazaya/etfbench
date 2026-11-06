@@ -1,0 +1,41 @@
+{
+  "model": "haiku",
+  "id": "QL-27",
+  "tier": "B",
+  "answer": "**Rule 6c-11 custom-basket requirements (as of 2026-11-06, general summary, not legal advice):**\n\n**Written policies and procedures:** Governing basket construction and acceptance, with detailed parameters, eligible securities, and why custom baskets are in the fund's and shareholders' best interests.\n\n**Custom-basket parameters:** Limits on deviation from the standard basket, pricing and valuation methods, and treatment of cash and tax implications.\n\n**Review roles:** Board (or its delegate) oversight of the policies, with compliance and portfolio-management responsibilities assigned.\n\n**Compliance records:** Documentation of each custom basket, its rationale, approvals, and adherence to the policies, retained under the fund's recordkeeping obligations.\n\n**Custom basket vs. non-standard order:** A custom basket differs in composition from the fund's standard creation/redemption basket. A non-standard order is generally a deviation in terms (timing, cash component, or fees) within an otherwise standard basket. Confirm classification with counsel, since the rule's terms should be checked against the current text.",
+  "original_answer": "**Rule 6c-11 custom-basket requirements (as of 2026-11-06, general summary, not legal advice):**\n\n**Written policies and procedures:** Governing basket construction and acceptance, with detailed parameters, eligible securities, and why custom baskets are in the fund's and shareholders' best interests.\n\n**Custom-basket parameters:** Limits on deviation from the standard basket, pricing and valuation methods, and treatment of cash and tax implications.\n\n**Review roles:** Board (or its delegate) oversight of the policies, with compliance and portfolio-management responsibilities assigned.\n\n**Compliance records:** Documentation of each custom basket, its rationale, approvals, and adherence to the policies, retained under the fund's recordkeeping obligations.\n\n**Custom basket vs. non-standard order:** A custom basket differs in composition from the fund's standard creation/redemption basket. A non-standard order is generally a deviation in terms (timing, cash component, or fees) within an otherwise standard basket. Confirm classification with counsel, since the rule's terms should be checked against the current text.",
+  "void": false,
+  "words_before": 146,
+  "words_after_shorten": null,
+  "words_final": 146,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-o8clk0gu",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, what written basket policies, custom-basket parameters, review roles and compliance records does a US Rule 6c-11 ETF need? Distinguish a custom basket from a non-standard order.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-27-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": []
+}

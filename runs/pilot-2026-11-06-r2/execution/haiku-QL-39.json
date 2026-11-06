@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-39",
+  "tier": "B",
+  "answer": "**Cross-subsidization (both directions)**\n- **Mutual fund to ETF:** MF cash redemptions can force portfolio sales that realize gains and incur impact costs. Unless allocated by cause, ETF holders bear them.\n- **ETF to mutual fund:** Cash-settled ETF creations or redemptions, or ETF-driven trading, can push costs onto MF holders. Conversely, in-kind ETF redemptions can remove low-basis lots that benefit all holders.\n\n**Monitoring categories**\n- **Transaction costs:** commissions, spreads, and market impact, allocated by originating class.\n- **Cash:** redemption reserves, cash drag, and cash-creation costs.\n- **Gains:** realized gains, lot selection, in-kind offsets, and distributions.\n\n**Illustrative example:** A large MF redemption forces sale of a low-basis lot, distributing gains to remaining holders.\n\n**Order-level framework:** Tag each order by originating class and flow type, allocate fills with documented causal rationale, compare realized gains by class, and reconcile cash to pending flows. Specific tolerances should come from board-approved policy, not universal standards.",
+  "original_answer": "**Cross-subsidization (both directions)**\n- **Mutual fund to ETF:** MF cash redemptions can force portfolio sales that realize gains and incur impact costs. If those costs aren't allocated by cause, ETF holders bear them.\n- **ETF to mutual fund:** Cash-settled ETF creations or redemptions, or ETF-driven trading, can push costs onto MF holders. Conversely, in-kind ETF redemptions can remove low-basis lots that benefit all holders.\n\n**Monitoring categories**\n- **Transaction costs:** commissions, spreads, and market impact, allocated by originating class.\n- **Cash:** redemption reserves, cash drag, and cash-creation costs.\n- **Gains:** realized gains, lot selection, in-kind offsets, and distributions.\n\n**Conceptual examples (illustrative):** A large MF redemption forces the sale of a low-basis lot, distributing gains to the remaining holders.\n\n**Representative order-specific framework:** Tag each order by originating class and flow type, allocate fills with documented causal rationale, compare realized gains by class, and reconcile cash to pending flows. Specific tolerances should come from board-approved policy, not universal standards.",
+  "void": false,
+  "words_before": 156,
+  "words_after_shorten": 149,
+  "words_final": 149,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-s2fnij4u",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for a US fund with ETF and mutual fund classes sharing a portfolio, explain cross-subsidization in both directions and the transaction-cost, cash and gains monitoring categories. Separate conceptual examples from the representative order-specific framework and do not invent universal thresholds.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-39-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-sbm8i6hu",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Cross-subsidization (both directions)**\n- **Mutual fund to ETF:** MF cash redemptions can force portfolio sales that realize gains and incur impact costs. If those costs aren't allocated by cause, ETF holders bear them.\n- **ETF to mutual fund:** Cash-settled ETF creations or redemptions, or ETF-driven trading, can push costs onto MF holders. Conversely, in-kind ETF redemptions can remove low-basis lots that benefit all holders.\n\n**Monitoring categories**\n- **Transaction costs:** commissions, spreads, and market impact, allocated by originating class.\n- **Cash:** redemption reserves, cash drag, and cash-creation costs.\n- **Gains:** realized gains, lot selection, in-kind offsets, and distributions.\n\n**Conceptual examples (illustrative):** A large MF redemption forces the sale of a low-basis lot, distributing gains to the remaining holders.\n\n**Representative order-specific framework:** Tag each order by originating class and flow type, allocate fills with documented causal rationale, compare realized gains by class, and reconcile cash to pending flows. Specific tolerances should come from board-approved policy, not universal standards."
+      ],
+      "stdout": "haiku-QL-39-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

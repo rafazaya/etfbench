@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer covers all central mechanics. It states that the expense ratio is not billed separately but is paid indirectly from fund assets, which lowers returns. It says the fee accrues daily as a percentage of net assets and is reflected in NAV, which implies a fractional daily accrual rather than the full annual rate. It also separates daily accrual from actual payment to the adviser and service providers, which happens on a periodic schedule ('typically monthly or quarterly'). This matches the grader note that the payment date is contractual and distinct from accrual. It mentions the prospectus as a disclosure source, though not specifically the fee table, which is a minor omission. Extra details are accurate and incidental: fee components, waivers, net-of-fee performance, and brokerage commissions being separate. There is no material error.",
+  "blind_id": "B029"
+}

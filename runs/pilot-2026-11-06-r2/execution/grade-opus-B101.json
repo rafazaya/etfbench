@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer covers the central mechanism. Expenses are not billed separately and are deducted from fund assets. They accrue daily as a percentage of net assets and are reflected in NAV, which lowers returns, so the investor cost is indirect. The answer states the annual rate as a percentage without implying that the full rate is charged each day. It correctly separates the daily accrual from the actual payment to the adviser and service providers. Its 'typically monthly or quarterly' qualifier is consistent with payment timing following the contract. It also mentions the prospectus and annual report disclosure, net-of-fee performance, fee waivers, and the fact that brokerage commissions are separate. There is no material error. It does not explicitly name the prospectus fee table, but it does mention the prospectus, which is a minor point.",
+  "blind_id": "B101"
+}

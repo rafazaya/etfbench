@@ -1,0 +1,41 @@
+{
+  "model": "haiku",
+  "id": "QL-25",
+  "tier": "C",
+  "answer": "**Portfolio holdings (daily):** Post the full holdings used to calculate NAV on a free, public website each business day before trading opens, reflecting the prior close.\n\n**Transaction baskets (separate):** Post the creation and redemption basket composition each business day before trading opens. The basket can differ from portfolio holdings, and it includes cash components where applicable.\n\n**Price, NAV, and premium/discount:** Publish daily NAV, closing market price, and premium/discount. Show history for the most recent calendar year and each quarter since, plus a frequency distribution of premiums and discounts. Add median bid-ask spread for the same periods.\n\n**Sustained deviation:** If the premium or discount exceeds 2% for more than seven consecutive trading days, post a website statement explaining the reasons.\n\nVerify timing and thresholds against the current Rule 6c-11 text and Form N-1A, as I can't confirm the latest amendments.",
+  "original_answer": "**Portfolio holdings (daily):** Post the full holdings used to calculate NAV on a free, public website each business day before trading opens, reflecting the prior close.\n\n**Transaction baskets (separate):** Post the creation and redemption basket composition each business day before trading opens. The basket can differ from portfolio holdings, and it includes cash components where applicable.\n\n**Price, NAV, and premium/discount:** Publish daily NAV, closing market price, and premium/discount. Show history for the most recent calendar year and each quarter since, plus a frequency distribution of premiums and discounts. Add median bid-ask spread for the same periods.\n\n**Sustained deviation:** If the premium or discount exceeds 2% for more than seven consecutive trading days, post a website statement explaining the reasons.\n\nVerify timing and thresholds against the current Rule 6c-11 text and Form N-1A, as I can't confirm the latest amendments.",
+  "void": false,
+  "words_before": 139,
+  "words_after_shorten": null,
+  "words_final": 139,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-h9k1qtd2",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, what public, free website holdings, price/NAV, premium/discount and spread disclosures does a US Rule 6c-11 ETF need, including timing/history and the sustained-deviation explanation? Distinguish portfolio holdings from transaction baskets.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-25-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": []
+}

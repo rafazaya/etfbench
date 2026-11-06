@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b0fe-8b69-7a40-ade3-1c98affa6695"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"For securities a creation-unit purchaser has not yet delivered, the reviewed agreements may require **cash collateral of up to 115% of the value of those undelivered securities**. The percentage is applied to the **market value of the securities owed**, not the order’s total value or the cash component. **115% is not universal**: the agreement and fund’s procedures govern, and requirements may vary by fund or circumstances."}}
+{"type":"turn.completed","usage":{"input_tokens":8396,"cached_input_tokens":7296,"cache_write_input_tokens":0,"output_tokens":90,"reasoning_output_tokens":0}}

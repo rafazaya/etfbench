@@ -1,0 +1,5 @@
+{
+  "grade": "partial",
+  "rationale": "Correct on the core trigger: direct redemption is available only where the market value varies significantly from NAV. It also correctly says the prospectus discloses the process and costs, and it separates this exceptional route from ordinary broker dealing at market prices. However, the question explicitly asks for notification and cost protections, and two are missing. First, it omits the requirement to notify the regulated market (Reg 90(3)). Second, it does not say direct-redemption costs must not be excessive; it only says transaction costs may apply, which leaves out the key protection. It also does not mention the mandatory prospectus/marketing warning that secondary-market units cannot usually be sold back to the fund, though this is partly implied. Nor does it say who determines significant variation; it attributes this to the fund's disclosed criteria. These omissions in the requested protections are substantive, so the answer is partial.",
+  "blind_id": "B091"
+}

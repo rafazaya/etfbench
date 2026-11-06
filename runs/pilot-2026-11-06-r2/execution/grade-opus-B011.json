@@ -1,0 +1,5 @@
+{
+  "grade": "wrong",
+  "rationale": "The answer's central US conclusion contradicts the key points. Its 'key contrast' says US ETFs sign through the trust's trustees, and it calls the fund/trust and AP the typical parties. The reviewed US forms instead make the AP and distributor the main counterparties, with the transfer agent accepting or countersigning. The trust is only a third-party beneficiary that sometimes signs specified provisions. The answer also leaves out the transfer agent and the third-party-beneficiary status entirely. On Rule 6c-11, it says only that the rule does not prescribe signatories. It never states that the rule permits the agreement to be with the ETF or a service provider. The Irish ICAV part is broadly right: the ICAV signs AP agreements as a corporate body. However, it does not say the ICAV signs directly with each AP on behalf of its sub-funds. Its contrast with the US pattern also rests on the mistaken trust-signatory premise. Because the main requested distinction is wrong, the answer cannot be graded partial.",
+  "blind_id": "B011"
+}

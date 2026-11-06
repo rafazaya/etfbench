@@ -1,0 +1,5 @@
+{
+  "grade": "wrong",
+  "rationale": "The answer's central conclusion contradicts key point 1: it states Rule 6c-11 does NOT require an AP to be a clearing-agency member and allows an alternative via a written agreement with a participant. Rule 6c-11(a)(1) defines an AP as a member or participant of an SEC-registered clearing agency with a written agreement with the ETF or one of its service providers. The answer also omits that the agreement may be with a service provider. On key point 2, it says the forms' parties are the ETF/trust and the AP. The key says the distributor and AP are the main counterparties, the transfer agent countersigns, and the trust is a third-party beneficiary that sometimes signs for specified provisions. The answer omits key point 3 entirely: the forms' NSCC netting membership/DTC participation requirements and the distinction from market-maker status. The central facts are false or missing.",
+  "blind_id": "B036"
+}

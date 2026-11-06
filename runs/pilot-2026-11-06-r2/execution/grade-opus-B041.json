@@ -1,0 +1,5 @@
+{
+  "grade": "wrong",
+  "rationale": "The answer's central claim about leveraged/inverse ETFs is false. It says they are 'excluded from the rule' and 'continue under individual exemptive orders.' Under Rule 6c-11 as amended together with Rule 18f-4, leveraged/inverse ETFs may rely on 6c-11 if they comply with the applicable 18f-4 requirements. They are not categorically excluded. That contradicts a key point, and the 18f-4 section repeats the error by saying such funds satisfy 18f-4 'alongside their exemptive orders.' The answer gets some points right: UIT ETFs are outside the rule, nontransparent active ETFs and share-class ETFs need separate orders, and daily holdings disclosure is a condition. It also correctly says 18f-4 applies separately. However, it omits master-feeder structures, and the claim that 6c-11 was 'effective 2024' is inaccurate (it was adopted in 2019 and effective in 2019/2020). Because the answer gets the requested leveraged/inverse and 18f-4 interaction backwards, the grade is wrong rather than partial.",
+  "blind_id": "B041"
+}

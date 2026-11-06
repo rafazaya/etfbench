@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer covers the central facts. It says Rule 6c-11 applies to open-end management company ETFs subject to conditions, and it correctly excludes UIT ETFs. It states that leveraged/inverse ETFs can rely on the rule, that their status alone does not require separate relief, and that derivatives use brings in Rule 18f-4 (derivatives risk program, VaR limits, reporting). It also says Rule 18f-4 neither grants nor bars Rule 6c-11 reliance, which matches the key point that these funds are not categorically excluded. It correctly says nontransparent/semi-transparent ETFs and share-class ETFs need separate exemptive relief. It names daily portfolio-holdings website disclosure as a condition, along with basket procedures and recordkeeping. The only gap is that master-feeder structures are not named among those needing separate orders. This is one example in a list and does not undermine the central framework. The added ETN point and the generic limited-user exception wording are accurate and introduce no material error.",
+  "blind_id": "B050"
+}

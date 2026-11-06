@@ -1,0 +1,5 @@
+{
+  "grade": "wrong",
+  "rationale": "The answer explicitly declines to give the four categories of Rule 6c-11(b) relief and the exact limits, and its partial content is inaccurate. It omits the core categories: ETF shares treated as redeemable securities despite creation-unit-only dealing; secondary-market trades at market prices (22(d)/22c-1 relief); limited 17(a) relief for in-kind basket exchanges where affiliation arises solely from specified 5% holdings; and delayed delivery of foreign investments as soon as practicable, up to 15 days. It misstates the affiliate relief as 'restrictions on affiliated persons acting as authorized participants' rather than limited relief permitting basket transactions with persons affiliated solely through 5% voting holdings. It wrongly lists custom-basket policies, a 6c-11(c) condition, as a 6c-11(b) relief category. It mentions later foreign settlement but gives no 15-day limit or holiday/delivery-cycle basis. The hedged abstention plus these errors leaves none of the requested facts correctly covered.",
+  "blind_id": "B023"
+}

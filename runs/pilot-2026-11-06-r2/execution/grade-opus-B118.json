@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer names authorized participant arbitrage as the mechanism and describes both sides of it. On creations, APs buy the underlying securities and exchange them for new ETF shares, which they sell when the price is above NAV. On redemptions, APs buy ETF shares and exchange them for the underlying securities when the price is below NAV. It explains how this profitable arbitrage pulls the price back toward NAV. It also treats the link as an economic mechanism rather than a guarantee, noting that divergences can occur during volatility, when underlying markets are closed, or when costs and constraints limit arbitrage. It does not mention that APs often act for market makers, but that is incidental. No material errors.",
+  "blind_id": "B118"
+}

@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-15",
+  "tier": "B",
+  "answer": "**Authorized Participants (APs)** are large institutions, typically broker-dealers, with signed agreements with an ETF's distributor. Only APs can create or redeem shares directly with the fund, in large blocks called creation units (often 25,000 to 100,000 shares). They exchange baskets of underlying securities, or cash, for ETF shares, keeping the ETF's market price close to its net asset value (NAV).\n\n**Market makers** provide continuous two-sided quotes on the exchange, earning the bid-ask spread and giving investors liquidity. They don't need an AP agreement, though many are also APs and use creations and redemptions to offset inventory and hedge risk.\n\n**Key difference:** APs have a direct primary-market relationship with the fund, while market makers operate in the secondary market. Most ETF trades occur between investors and market makers on exchange, and APs arbitrage any gap between ETF price and NAV, keeping the ETF trading near fair value.",
+  "original_answer": "**Authorized Participants (APs)** are large institutions, typically broker-dealers, that have signed agreements with an ETF's distributor. Only APs can create or redeem ETF shares directly with the fund, in large blocks called creation units (often 25,000 to 100,000 shares). They exchange baskets of underlying securities (or cash) for ETF shares, which keeps the ETF's market price close to its net asset value (NAV).\n\n**Market makers** provide continuous two-sided quotes on the exchange, earning the bid-ask spread and giving investors immediate liquidity. They don't need an AP agreement to make markets, though many market makers are also APs. Those that are use creation and redemption to offset inventory and hedge risk.\n\n**Key difference:** APs have a direct primary-market relationship with the fund, while market makers operate in the secondary market. Most ETF trades happen between investors and market makers on exchange, and APs arbitrage any gap between ETF price and NAV, which keeps the ETF trading near fair value.",
+  "void": false,
+  "words_before": 158,
+  "words_after_shorten": 146,
+  "words_final": 146,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-lqj2yky5",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "How do APs and market makers differ in ETF trading?\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-15-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-x0d8h3p5",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Authorized Participants (APs)** are large institutions, typically broker-dealers, that have signed agreements with an ETF's distributor. Only APs can create or redeem ETF shares directly with the fund, in large blocks called creation units (often 25,000 to 100,000 shares). They exchange baskets of underlying securities (or cash) for ETF shares, which keeps the ETF's market price close to its net asset value (NAV).\n\n**Market makers** provide continuous two-sided quotes on the exchange, earning the bid-ask spread and giving investors immediate liquidity. They don't need an AP agreement to make markets, though many market makers are also APs. Those that are use creation and redemption to offset inventory and hedge risk.\n\n**Key difference:** APs have a direct primary-market relationship with the fund, while market makers operate in the secondary market. Most ETF trades happen between investors and market makers on exchange, and APs arbitrage any gap between ETF price and NAV, which keeps the ETF trading near fair value."
+      ],
+      "stdout": "haiku-QL-15-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

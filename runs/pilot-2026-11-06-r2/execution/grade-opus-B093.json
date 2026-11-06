@@ -1,0 +1,5 @@
+{
+  "grade": "partial",
+  "rationale": "The answer gets the central mechanism right. It says OTC swaps and forwards are bilateral contracts that an AP generally cannot take over, so the fund deals in cash and enters or exits the exposure itself. It also contrasts this with equities and bonds, which can move in kind. The hedged 'generally', limited to OTC contracts, avoids claiming that all derivatives are untransferable. However, the second key point is only partly covered. The answer notes that cash creations shift trading costs and market impact onto the fund. It never states that cash redemptions can make the fund realize gains; this is only implied by saying in-kind dealing avoids them. It also omits that the size and tax result depend on the strategy and transaction. The limits section is useful but cut off mid-sentence ('Some derivative exposure can'). It frames the issue as practicability rather than preference and adds other operational reasons for cash use.",
+  "blind_id": "B093"
+}

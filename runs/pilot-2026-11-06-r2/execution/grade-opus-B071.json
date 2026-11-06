@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer gives the correct central conclusion: historical volume alone is not enough. It says exchange volume reflects only secondary-market trading in existing shares, and that APs can create or redeem shares in blocks against a basket or cash, which matches the first key point. It ties the arbitrage's effectiveness to underlying-market liquidity. It lists the indicators in the second key point: quoted and effective spreads, displayed depth, underlying basket liquidity, creation/redemption activity, and market maker and AP participation. It also adds reasonable extras such as premium/discount to NAV, closing auction volume and stress behavior. It does not promise execution capacity, and saying volume 'can understate' liquidity is suitably hedged. Minor issues: the 25,000\u2013100,000 creation unit size is a generalization, since some units are smaller. The response is cut off in its final bullet. Neither is a material error or omission of the requested facts.",
+  "blind_id": "B071"
+}

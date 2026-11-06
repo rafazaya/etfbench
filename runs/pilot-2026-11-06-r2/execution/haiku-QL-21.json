@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-21",
+  "tier": "A",
+  "answer": "**Shortfall when assets are small:** The sponsor (adviser) bears it. Under a unitary fee, the sponsor receives a fixed percentage of fund assets and pays operating expenses from it. As assets shrink, fee income falls but expense obligations don't, so the sponsor's margin absorbs the gap. Shareholders keep the fixed expense ratio, though they still bear trading costs and excluded expenses.\n\n**If the sponsor fails to pay:** The fund remains liable. Service providers (custodians, auditors, transfer agents, administrators) contract with the trust and can look to fund assets. Those amounts reduce NAV, so shareholders bear them and can then pursue the sponsor under the agreement. The board would typically act to protect the fund by replacing the sponsor, terminating the arrangement, or liquidating.\n\nThis reflects general structure through my knowledge cutoff. Expense caps, reimbursement, and waiver terms vary by fund, so verify them against the prospectus and sponsor agreement.",
+  "original_answer": "**Shortfall when assets are small:** The sponsor (adviser) bears it. Under a unitary fee, the sponsor receives a fixed percentage of fund assets and pays the fund's operating expenses from that fee. When assets shrink, the fee income falls, but the expense obligations don't, so the sponsor's margin absorbs the gap. Shareholders keep the fixed expense ratio, though they still bear the fund's own trading costs and any excluded expenses.\n\n**If the sponsor fails to pay:** The fund remains liable. Service providers such as custodians, auditors, transfer agents, and administrators contract with the trust, so they can look to fund assets. Those amounts reduce NAV and are borne by shareholders, who can then pursue the sponsor under the agreement. The trust's board would typically act to protect the fund, which may include replacing the sponsor, terminating the arrangement, or liquidating.\n\nThis reflects general structure as I understand it through my knowledge cutoff. Specific contract terms, such as expense caps, reimbursement mechanics, and waiver provisions, vary by fund and should be checked against the prospectus and the sponsor agreement.",
+  "void": false,
+  "words_before": 178,
+  "words_after_shorten": 149,
+  "words_final": 149,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-0ohgjkw4",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, in the US series-trust unitary-fee contractual-partner model where the brand sponsor assumes expenses, who bears the economic shortfall when assets are too small, and who still owes expenses to the fund if the sponsor fails to pay?\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-21-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-1pukwvn8",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Shortfall when assets are small:** The sponsor (adviser) bears it. Under a unitary fee, the sponsor receives a fixed percentage of fund assets and pays the fund's operating expenses from that fee. When assets shrink, the fee income falls, but the expense obligations don't, so the sponsor's margin absorbs the gap. Shareholders keep the fixed expense ratio, though they still bear the fund's own trading costs and any excluded expenses.\n\n**If the sponsor fails to pay:** The fund remains liable. Service providers such as custodians, auditors, transfer agents, and administrators contract with the trust, so they can look to fund assets. Those amounts reduce NAV and are borne by shareholders, who can then pursue the sponsor under the agreement. The trust's board would typically act to protect the fund, which may include replacing the sponsor, terminating the arrangement, or liquidating.\n\nThis reflects general structure as I understand it through my knowledge cutoff. Specific contract terms, such as expense caps, reimbursement mechanics, and waiver provisions, vary by fund and should be checked against the prospectus and the sponsor agreement."
+      ],
+      "stdout": "haiku-QL-21-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

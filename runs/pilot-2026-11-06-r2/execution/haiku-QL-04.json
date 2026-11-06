@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-04",
+  "tier": "C",
+  "answer": "An ETF's expense ratio isn't billed directly to investors. The fund accrues it daily as a percentage of net assets and deducts it before calculating net asset value (NAV). Investors pay indirectly, since share prices and returns are slightly lower than the underlying index or portfolio would produce.\n\nThe fund pays accrued amounts to the adviser and service providers, typically monthly or quarterly. The ratio covers the management fee plus operating costs such as administration, custody, transfer agency, audit, and legal. Advisers sometimes waive or reimburse part of expenses, which lowers the effective ratio.\n\nInvestors receive no separate fee statement. The cost appears in the fund's prospectus, annual report, and reported performance, which is shown net of fees. Brokerage commissions, if any, are charged separately by the broker and are not part of the expense ratio.",
+  "original_answer": "An ETF's expense ratio is not billed to investors. The fund accrues it **daily** as a percentage of its net assets, and the fee is deducted from the fund's assets before the net asset value (NAV) is calculated. Investors pay indirectly: their share price and returns are slightly lower than the underlying index or portfolio would produce.\n\nThe fund pays the accrued amounts to the adviser and service providers, typically monthly or quarterly. The expense ratio covers the management fee plus other operating costs such as administration, custody, transfer agency, audit, and legal. Advisers sometimes waive or reimburse part of the expenses, which lowers the effective ratio.\n\nInvestors don't receive a separate fee statement. The cost appears in the fund's annual report and prospectus, and in its reported performance, which is shown net of fees. Brokerage commissions, if any, are charged separately by the broker and are not part of the expense ratio.",
+  "void": false,
+  "words_before": 153,
+  "words_after_shorten": 136,
+  "words_final": 136,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-th0koixm",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "How is an ETF expense ratio collected from investors?\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-04-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-9hpysuz0",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\nAn ETF's expense ratio is not billed to investors. The fund accrues it **daily** as a percentage of its net assets, and the fee is deducted from the fund's assets before the net asset value (NAV) is calculated. Investors pay indirectly: their share price and returns are slightly lower than the underlying index or portfolio would produce.\n\nThe fund pays the accrued amounts to the adviser and service providers, typically monthly or quarterly. The expense ratio covers the management fee plus other operating costs such as administration, custody, transfer agency, audit, and legal. Advisers sometimes waive or reimburse part of the expenses, which lowers the effective ratio.\n\nInvestors don't receive a separate fee statement. The cost appears in the fund's annual report and prospectus, and in its reported performance, which is shown net of fees. Brokerage commissions, if any, are charged separately by the broker and are not part of the expense ratio."
+      ],
+      "stdout": "haiku-QL-04-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

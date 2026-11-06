@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-12",
+  "tier": "C",
+  "answer": "**Are APs paid by the sponsor?** Generally, no. Authorized participants (APs) are usually broker-dealers or market makers who profit from arbitrage between the ETF and its underlying basket, along with trading spreads and commissions. Creation and redemption fees are charged to APs and go to the fund to cover transaction costs, not to the AP. Some sponsors pay for liquidity through incentive or liquidity-provider programs, but that is a separate arrangement, not payment for creating and redeeming. **Must APs keep creating and redeeming?** No. Creation and redemption are voluntary. APs sign participant agreements with the fund's distributor, which don't require ongoing activity. Market makers also have no general regulatory duty to quote or arbitrage. However, a fund needs at least some active APs to keep its price close to NAV. If APs stop, the ETF can trade at persistent premiums or discounts, and the sponsor may need to add APs,",
+  "original_answer": "**Are APs paid by the sponsor?** Generally, no. APs are usually broker-dealers or market makers who earn money from arbitrage between the ETF and its underlying basket, plus trading spreads and commissions. Creation and redemption fees are charged to the APs and go to the fund to cover transaction costs, not to the AP. Some sponsors do pay for liquidity through incentive or liquidity-provider programs, but that is a separate arrangement, not payment for creating and redeeming.\n\n**Must APs keep creating and redeeming?** No. Creation and redemption are voluntary. APs sign participant agreements with the fund's distributor, and those agreements don't require ongoing activity. Market makers also have no general regulatory duty to quote or arbitrage. However, a fund needs at least some active APs to keep its price close to NAV. If APs stop, the ETF can trade at persistent premiums or discounts, and the sponsor may have to add APs, change the structure, or in extreme cases liquidate the fund.",
+  "void": false,
+  "words_before": 162,
+  "words_after_shorten": 160,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-vskgi9ah",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Are APs paid by the ETF sponsor, and must they keep creating and redeeming?\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-12-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-cccm5log",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Are APs paid by the sponsor?** Generally, no. APs are usually broker-dealers or market makers who earn money from arbitrage between the ETF and its underlying basket, plus trading spreads and commissions. Creation and redemption fees are charged to the APs and go to the fund to cover transaction costs, not to the AP. Some sponsors do pay for liquidity through incentive or liquidity-provider programs, but that is a separate arrangement, not payment for creating and redeeming.\n\n**Must APs keep creating and redeeming?** No. Creation and redemption are voluntary. APs sign participant agreements with the fund's distributor, and those agreements don't require ongoing activity. Market makers also have no general regulatory duty to quote or arbitrage. However, a fund needs at least some active APs to keep its price close to NAV. If APs stop, the ETF can trade at persistent premiums or discounts, and the sponsor may have to add APs, change the structure, or in extreme cases liquidate the fund."
+      ],
+      "stdout": "haiku-QL-12-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-11",
+  "tier": "A",
+  "answer": "I can't see the bank's reviewed US agreement forms; nothing was attached, and I haven't checked the working directory. The second half of your question needs those documents. What follows is general industry context, not a reading of the forms. Verify it against the rule text and current SEC staff guidance.\n\n**Rule 6c-11:** Sets conditions for index-based and transparent-portfolio ETFs to operate without individual exemptive orders, including custom-basket policies and daily portfolio disclosure. It doesn't prescribe a specific authorized participant (AP) agreement form or detail permitted AP counterparties; confirm this in the rule text.\n\n**Clearing/settlement:** In-kind creations and redemptions generally run through NSCC/DTC. APs are typically registered broker-dealers and DTC participants, and fund shares must be DTC-eligible.\n\n**Distinguishing parties:** The rule's counterparties are APs, broker-dealers acting under fund arrangements. The bank's forms may add parties (transfer agent, custodian, distributor) and contractual requirements beyond the rule.",
+  "original_answer": "I can't see the bank's reviewed US agreement forms. Nothing was attached and I haven't checked the working directory, so the second half of your question needs those documents. Below is general industry context, not a reading of the forms, and it should be checked against the rule text and current SEC staff guidance.\n\n**Rule 6c-11 (ETF rule):** The rule sets conditions for index-based and transparent-portfolio ETFs to operate without individual exemptive orders, including custom-basket policies and daily portfolio disclosure. As I recall, it does not prescribe a specific AP agreement form or list permitted AP counterparties in detail. Those points should be confirmed against the rule text.\n\n**Practical clearing/settlement eligibility:** In-kind creations and redemptions generally run through NSCC/DTC. APs are typically registered broker-dealers and CNS/DTC participants, and fund shares must be DTC-eligible.\n\n**Distinguishing the two:** The rule's permitted counterparties are APs, meaning broker-dealers acting under the fund's arrangements. The bank's agreement forms may add parties such as the transfer agent, custodian, or the fund's distributor, and may impose contractual requirements beyond the rule.",
+  "void": false,
+  "words_before": 174,
+  "words_after_shorten": 145,
+  "words_final": 145,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-f1i1hhhf",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for a US Rule 6c-11 ETF, what clearing/settlement eligibility and written agreement does an AP need? Distinguish the rule's permitted counterparties from the parties in the bank's reviewed US agreement forms.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-11-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-_u0r56_6",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\nI can't see the bank's reviewed US agreement forms. Nothing was attached and I haven't checked the working directory, so the second half of your question needs those documents. Below is general industry context, not a reading of the forms, and it should be checked against the rule text and current SEC staff guidance.\n\n**Rule 6c-11 (ETF rule):** The rule sets conditions for index-based and transparent-portfolio ETFs to operate without individual exemptive orders, including custom-basket policies and daily portfolio disclosure. As I recall, it does not prescribe a specific AP agreement form or list permitted AP counterparties in detail. Those points should be confirmed against the rule text.\n\n**Practical clearing/settlement eligibility:** In-kind creations and redemptions generally run through NSCC/DTC. APs are typically registered broker-dealers and CNS/DTC participants, and fund shares must be DTC-eligible.\n\n**Distinguishing the two:** The rule's permitted counterparties are APs, meaning broker-dealers acting under the fund's arrangements. The bank's agreement forms may add parties such as the transfer agent, custodian, or the fund's distributor, and may impose contractual requirements beyond the rule."
+      ],
+      "stdout": "haiku-QL-11-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

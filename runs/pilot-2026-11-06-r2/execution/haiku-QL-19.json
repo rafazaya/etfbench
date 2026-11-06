@@ -1,0 +1,41 @@
+{
+  "model": "haiku",
+  "id": "QL-19",
+  "tier": "B",
+  "answer": "**Core governance:** Board of trustees (majority independent, Section 15(c) advisory review), chief compliance officer (Rule 38a-1), valuation designee (Rule 2a-5), and Rule 6c-11 compliance.\n\n**Service providers (often bundled):** Investment adviser (may be affiliated), administrator and fund accounting, transfer agent, custodian, distributor, legal counsel, auditor, and pricing vendors. One provider can often cover several of these. The adviser may also house the CCO and valuation designee.\n\n**Market infrastructure:** Authorized participants, liquidity providers/market makers, exchange listing, DTC/NSCC clearing, and creation/redemption processing.\n\n**Strategy-specific only:**\n- Index provider and licensing (index-tracking funds)\n- Securities lending agent (if lending)\n- Liquidity risk program under Rule 22e-4 (if applicable)\n- Derivatives risk program under Rule 18f-4, ISDA agreements, and FCM (if using derivatives or futures)\n- Sub-adviser (multi-manager structures)\n- Offshore subsidiary (commodity or tax structures)",
+  "original_answer": "**Core governance:** Board of trustees (majority independent, Section 15(c) advisory review), chief compliance officer (Rule 38a-1), valuation designee (Rule 2a-5), and Rule 6c-11 compliance.\n\n**Service providers (often bundled):** Investment adviser (may be affiliated), administrator and fund accounting, transfer agent, custodian, distributor, legal counsel, auditor, and pricing vendors. One provider can often cover several of these. The adviser may also house the CCO and valuation designee.\n\n**Market infrastructure:** Authorized participants, liquidity providers/market makers, exchange listing, DTC/NSCC clearing, and creation/redemption processing.\n\n**Strategy-specific only:**\n- Index provider and licensing (index-tracking funds)\n- Securities lending agent (if lending)\n- Liquidity risk program under Rule 22e-4 (if applicable)\n- Derivatives risk program under Rule 18f-4, ISDA agreements, and FCM (if using derivatives or futures)\n- Sub-adviser (multi-manager structures)\n- Offshore subsidiary (commodity or tax structures)",
+  "void": false,
+  "words_before": 130,
+  "words_after_shorten": null,
+  "words_final": 130,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-1lnehzb_",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a US '40 Act ETF launch, list the core governance, service-provider and market-infrastructure arrangements. Distinguish roles that may be bundled and index/lending arrangements needed only for the relevant strategy or program; do not imply every role needs a separately hired firm.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-19-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": []
+}

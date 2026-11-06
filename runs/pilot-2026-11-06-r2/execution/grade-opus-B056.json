@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer says ordinary retail investors generally cannot redeem individual ETF shares directly with the fund, and that only Authorized Participants transact directly, in Creation Unit blocks (in kind or cash). This matches key point 1. It gives the usual alternative: selling shares on an exchange through a broker, a secondary-market transaction (key point 2). It also correctly notes that market price can differ from NAV and that AP arbitrage tends to keep them close. The answer does not bring in the excluded reorganization or liquidation scenarios. No material errors or omissions.",
+  "blind_id": "B056"
+}

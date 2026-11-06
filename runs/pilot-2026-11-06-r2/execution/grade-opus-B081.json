@@ -1,0 +1,5 @@
+{
+  "grade": "correct",
+  "rationale": "The answer covers the central mechanism without a material error. It says the expense ratio is not billed separately, that the fund pays operating expenses from its assets, and that these costs gradually reduce NAV and returns. This matches the first key point. The $20-per-year example, described as 'reflected over time' rather than charged as one transaction, conveys that the annual rate is spread out and not deducted all at once. That approximates the second key point, though the answer does not explicitly say 'daily accrual.' It does not mention the prospectus fee table, and it does not distinguish daily NAV accrual from the contractual date service providers are actually paid. These are omissions of detail, not errors, and nothing in the answer conflates accrual with payment timing. The separate note on commissions, spreads and taxes is accurate.",
+  "blind_id": "B081"
+}

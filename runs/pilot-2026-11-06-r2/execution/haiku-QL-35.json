@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "QL-35",
+  "tier": "C",
+  "answer": "**Mixed umbrella:** The ETF label attaches to individual sub-funds, not the umbrella ICAV or plc. Each sub-fund has its own LEI and prospectus description. Only exchange-traded sub-funds described as ETFs should carry the label. Others in the same umbrella are not ETFs, despite sharing the wrapper.\n\n**Sub-fund versus listed class:** A sub-fund is identified by its own LEI and name. Each share class has its own ISIN. Exchange listings add tickers (for example, Euronext or LSE lines) that identify a specific listed class, currency, or venue.\n\n**Listed and unlisted classes:** The ETF identifier applies to the listed class, not the whole sub-fund. Unlisted classes keep their own ISINs, are not exchange-traded, and should not be labelled ETFs.\n\n**Caveat:** \"UCITS ETF\" is a market term, not a separate UCITS legal category. Verify any label against the Central Bank of Ireland register and each fund's prospectus and KIID before relying on it.",
+  "original_answer": "**Mixed umbrella:** The ETF label does not attach to the umbrella ICAV or plc. Each sub-fund is a separate investment fund with its own LEI and prospectus description. Only sub-funds that are exchange-traded and described as ETFs should carry the label. Other sub-funds in the same umbrella are not ETFs, even though they share the legal wrapper.\n\n**Sub-fund versus listed class:** The sub-fund is identified by its own LEI and name. Each share class has its own ISIN. Exchange listings add tickers (for example, a Euronext or LSE line) that identify a specific listed class in a specific currency or venue.\n\n**Sub-fund with listed and unlisted classes:** The ETF identifier applies to the listed class, not to the whole sub-fund. Unlisted classes in the same sub-fund keep their own ISINs and are not exchange-traded. They should not be labelled ETFs.\n\n**Caveat:** \"UCITS ETF\" is a market term, not a separate UCITS legal category. Check the Central Bank of Ireland register and each fund's prospectus and KIID before relying on any label.",
+  "void": false,
+  "words_before": 171,
+  "words_after_shorten": 150,
+  "words_final": 150,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-tnsl6cza",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, under Irish UCITS rules, where is the UCITS ETF identifier used for a mixed umbrella and for a sub-fund with listed and unlisted classes? Explain sub-fund versus listed-class identification and avoid labelling non-ETF siblings as ETFs.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-QL-35-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-b2r6cra3",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Mixed umbrella:** The ETF label does not attach to the umbrella ICAV or plc. Each sub-fund is a separate investment fund with its own LEI and prospectus description. Only sub-funds that are exchange-traded and described as ETFs should carry the label. Other sub-funds in the same umbrella are not ETFs, even though they share the legal wrapper.\n\n**Sub-fund versus listed class:** The sub-fund is identified by its own LEI and name. Each share class has its own ISIN. Exchange listings add tickers (for example, a Euronext or LSE line) that identify a specific listed class in a specific currency or venue.\n\n**Sub-fund with listed and unlisted classes:** The ETF identifier applies to the listed class, not to the whole sub-fund. Unlisted classes in the same sub-fund keep their own ISINs and are not exchange-traded. They should not be labelled ETFs.\n\n**Caveat:** \"UCITS ETF\" is a market term, not a separate UCITS legal category. Check the Central Bank of Ireland register and each fund's prospectus and KIID before relying on any label."
+      ],
+      "stdout": "haiku-QL-35-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}
