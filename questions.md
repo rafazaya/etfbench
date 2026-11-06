@@ -7,7 +7,11 @@
 - ETFs for which asset class most often use negotiated baskets
 - How do clients at Fidelity trade ETFs
 
+### Question-led candidates (2026-11-05)
 
+- Is an ETF's exchange trading volume enough to judge its liquidity? [QL-07; investor; external source: [Reddit r/ETFs](https://www.reddit.com/r/ETFs/comments/1nfwwcq); [Reddit r/ETFs](https://www.reddit.com/r/ETFs/comments/1lz51sa)]
+- What keeps an ETF's market price close to its underlying asset value? [QL-08; investor; external source: [ICI ETF Basics and Structure FAQ](https://www.ici.org/faqs/faqs_etfs); [Money Stack Exchange, Understanding how an ETF works](https://money.stackexchange.com/questions/126592/understanding-how-an-etf-works)]
+- How do APs and market makers differ in ETF trading? [QL-15; practitioner; external source: [Reddit r/FinancialCareers, trading/mechanics learning request](https://www.reddit.com/r/FinancialCareers/comments/1ts5tf5/best_sources_for_digging_into_etf_tradingmechanics/); [ICI ETF Basics and Structure FAQ](https://www.ici.org/faqs/faqs_etfs)]
 
 ## Issuers
 
@@ -20,6 +24,17 @@ In five words or less, what types of strategies do WisdomTree ETFs invest in.
 
 ### smaller issuers
 
+### Question-led candidates (2026-11-05)
+
+- What happens to an ETF's assets if its sponsor goes bankrupt? [QL-01; investor; external source: [Reddit r/investing (2022)](https://www.reddit.com/r/investing/comments/unaxbs); [Reddit r/ETFs (2022)](https://www.reddit.com/r/ETFs/comments/sl7b4a)]
+- Does an investor lose the investment when an ETF closes? [QL-02; investor; external source: [Reddit r/investing (2024)](https://www.reddit.com/r/investing/comments/1cvdb4o); [Reddit r/ETFs (2025)](https://www.reddit.com/r/ETFs/comments/1j38h00)]
+- How can an investor assess whether a small or new ETF is likely to close? [QL-03; investor; external source: [Reddit r/ETFs (2025)](https://www.reddit.com/r/ETFs/comments/1j38h00); [ACA Foreside launch guide (2023)](https://www.acaglobal.com/industry-insights/primer-launching-etf-under-turn-key-structure/)]
+- How is an ETF expense ratio collected from investors? [QL-04; investor; external source: [Reddit r/Bogleheads](https://www.reddit.com/r/Bogleheads/comments/1hqr245); [Reddit r/investing](https://www.reddit.com/r/investing/comments/1aurc31)]
+- Should a new sponsor build its own ETF trust or use a white-label platform? [QL-16; practitioner; external source: [ACA Foreside launch guide (2023)](https://www.acaglobal.com/industry-insights/primer-launching-etf-under-turn-key-structure/); [ETF.com interview with ETF Managers Group](https://www.etf.com/sections/news/how-white-label-etf-provider-works)]
+- How much does it cost to launch and operate an ETF? [QL-17; practitioner; external source: [ETF.com interview with ETF Managers Group](https://www.etf.com/sections/news/how-white-label-etf-provider-works); [ACA Foreside launch guide (2023)](https://www.acaglobal.com/industry-insights/primer-launching-etf-under-turn-key-structure/)]
+- How long does an ETF launch take? [QL-18; practitioner; external source: [ACA Foreside launch guide (2023)](https://www.acaglobal.com/industry-insights/primer-launching-etf-under-turn-key-structure/); [ETF.com interview with ETF Managers Group](https://www.etf.com/sections/news/how-white-label-etf-provider-works)]
+- Which service providers and infrastructure does an ETF launch require? [QL-19; practitioner; external source: [ACA Foreside launch guide (2023)](https://www.acaglobal.com/industry-insights/primer-launching-etf-under-turn-key-structure/); [ETF.com interview with ETF Managers Group](https://www.etf.com/sections/news/how-white-label-etf-provider-works)]
+- How do a white-label provider and the sponsor split management-fee revenue and operating costs? [QL-20; practitioner; external source: [ETF.com interview with ETF Managers Group](https://www.etf.com/sections/news/how-white-label-etf-provider-works)]
 
 ## Distribution
 
@@ -38,9 +53,21 @@ In five words or less, what types of strategies do WisdomTree ETFs invest in.
 - What would constitute a non-standard order that would require approval
 - Who are typically the parties involved in an AP agreement
 
+### Question-led candidates (2026-11-05)
+
+- How do creations and redemptions change the number of ETF shares outstanding? [QL-09; investor; external source: [Money Stack Exchange, Understanding how an ETF works](https://money.stackexchange.com/questions/126592/understanding-how-an-etf-works); [ICI ETF Basics and Structure FAQ](https://www.ici.org/faqs/faqs_etfs)]
+- Can an ordinary retail investor redeem ETF shares directly with the fund? [QL-10; investor; external source: [ICI ETF Basics and Structure FAQ](https://www.ici.org/faqs/faqs_etfs); [Money Stack Exchange, Understanding how an ETF works](https://money.stackexchange.com/questions/126592/understanding-how-an-etf-works)]
+- Who can be an authorized participant, and what agreement is needed? [QL-11; practitioner; external source: [ICI ETF Basics and Structure FAQ](https://www.ici.org/faqs/faqs_etfs)]
+- Are APs paid by the ETF sponsor, and must they keep creating and redeeming? [QL-12; practitioner; external source: [ICI ETF Basics and Structure FAQ](https://www.ici.org/faqs/faqs_etfs)]
+- Why might a creation or redemption use cash instead of securities? [QL-13; practitioner; external source: [IDC Board Oversight of ETFs, Potential Areas of Inquiry (2012)](https://www.idc.org/idc/issues/types/etf/publications/ci.idc_12_etfs); [ICI ETF Basics and Structure FAQ](https://www.ici.org/faqs/faqs_etfs)]
+- Where can an investor obtain an ETF's daily basket or portfolio composition file? [QL-14; investor; external source: [Reddit r/fidelityinvestments](https://www.reddit.com/r/fidelityinvestments/comments/tajjmz)]
 
 ## Contrast with Mutual Funds
 
+### Question-led candidates (2026-11-05)
+
+- Why can an ETF be more tax efficient than a mutual fund holding the same stocks? [QL-05; investor; external source: [Bogleheads forum](https://www.bogleheads.org/forum/viewtopic.php?t=322565); [Bogleheads forum](https://www.bogleheads.org/forum/viewtopic.php?p=612979)]
+- Can a mutual fund benefit from the tax efficiency of its ETF share class? [QL-06; investor; external source: [Bogleheads forum](https://www.bogleheads.org/forum/viewtopic.php?t=322565); [Bogleheads forum](https://www.bogleheads.org/forum/viewtopic.php?p=612979)]
 
 ## Regulatory Requirements
 
