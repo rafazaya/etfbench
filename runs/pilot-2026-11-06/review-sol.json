@@ -1,0 +1,1387 @@
+{
+  "reviewer": "Sol",
+  "reviewed_on": "2026-11-06",
+  "status": "Independent provisional pair review; not a golden release or authorization for model execution",
+  "references_sha256": "02d119b1fc9aebd23ecd1c3a09c550beff09bb8b77f90e88f98fbae6ce673e7f",
+  "independence": "Did not build the set, read review-opus.json or communicate with the Opus reviewer.",
+  "method": "Read all 44 pairs and pilot README; compared cited local notes, including inbox drafts and approved/vouched distinctions. Primary-source spot checks are recorded per pair. Accept means suitable for this provisional scope, not Rafa editorial approval, universal completeness or exhaustive legal currency certification.",
+  "summary": {
+    "counts": {
+      "accept": 32,
+      "fix": 12,
+      "exclude": 0
+    },
+    "most_important_problems": [
+      "QL-13 converts practical transfer constraints into a blanket derivative prohibition; narrow it conditionally and flag the material scope change.",
+      "QL-39 lacks an adverse ETF-to-mutual-fund example; shared tax benefits alone do not answer cross-subsidization in both directions.",
+      "QL-28 needs precise expedited-review timing; QL-34 needs omitted conditional disclosure details.",
+      "QL-32 must align fee discussion with its precise variability definition; QL-40 must actually explain possible fractional-share cash-out.",
+      "Several references need clearer grading criteria: AP clearing eligibility, launch compliance, custom-basket definition, disclosure details, spread causality and fixed/variable fee coverage."
+    ],
+    "readme_decisions": {
+      "QL-17_and_QL-18": {
+        "ruling": "accept as disclosed replacement tasks",
+        "reason": "QL-17 tests cost structure/break-even rather than a price quote; QL-18 tests a filing clock rather than commercial launch duration. Preserve original wording and explicit material-narrowing disclosure; do not count these as coverage of the original price/duration questions. Rafa must decide whether the replacement coverage is wanted."
+      },
+      "QL-26": {
+        "ruling": "accept source supplement",
+        "reason": "The bank-linked rule directly supports AP-agreement retention. Keep the explicit provenance and Tier B; editorial integration into the bank remains separate from this review."
+      },
+      "creation_fee_Tier_C": {
+        "ruling": "retain in provisional Tier C with exact reference fixes; no exclusion required",
+        "reason": "Corgi primary filing supports the correction and recipient distinction. The contradictory bank passage must still be resolved and approved by Rafa before golden release; reviewer agreement does not silently amend the bank."
+      }
+    },
+    "needs_rafa_judgment": [
+      "Confirm the narrowed launch-budget and filing-clock tasks fit intended coverage.",
+      "Approve the fee-conflict resolution while preserving the vouched custom-redemption waiver observation; confirm payer/economic burden for any additional practice-specific claim.",
+      "Review the derivative-transfer generalization in Market Mechanics; the proposed conditional answer avoids treating unverified industry universality as fact.",
+      "Decide whether suggested board/sponsor checklists are sufficiently useful and demanding; several questions supply much of their own answer and should not require one exact checklist or ordering."
+    ],
+    "knowledge_processed": [
+      "All 44 provisional question/reference pairs and README decisions.",
+      "ETF Participants; Market Mechanics; Tax Efficiency; Structure and Regulation; Share Class Structure; Share Class Board Considerations; ETF inbox question drafts and fee conflict.",
+      "Primary-source checks: SEC ETF rule, exemptive procedure, filing-effectiveness rule, AP contracts, Corgi fee terms, share-class application, SEC investor bulletins, Irish 2026 regulations/2025 Q&A, IDC and CME materials."
+    ],
+    "limits": [
+      "No model answers or scores were produced. No vault notes or reference pairs were changed.",
+      "Not every embedded external citation was freshly fetched. Local evidence was checked for every pair; recorded primary checks address the highest-risk assertions.",
+      "No complete census of 2026 exemptive orders or contracts is claimed. Rule-specific answers deliberately avoid unsupported universal timelines, prices, fee rates and thresholds."
+    ],
+    "worth_knowing": [
+      "A sourced or practitioner-vouched claim still needs editorial approval before it can support a golden.",
+      "A narrower question can be accurate and gradeable while no longer measuring the original coverage.",
+      "Cross-subsidization concerns who bears a cost; a shared tax benefit is a different effect."
+    ]
+  },
+  "pairs": [
+    {
+      "id": "QL-01",
+      "tier": "C",
+      "verdict": "accept",
+      "question_review": "Faithful, explicit ordinary US fund/adviser separation assumption; gradeable.",
+      "reference_review": "Custody presentation supports separation. Insolvency inference and ETN exclusion are appropriately qualified; no promised successor or liquidation result.",
+      "issues": [],
+      "fixes": [],
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/rr-commpublic/ici_meeting_20110104.pdf",
+          "section": "Protecting Fund Assets — Custody; PDF p.19, not the page=1 anchor",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-02",
+      "tier": "C",
+      "verdict": "accept",
+      "question_review": "Faithful liquidation framing; gradeable without a fictional timetable.",
+      "reference_review": "SEC liquidation bulletin supports proceeds, pre-delisting sale and variable amount/timing. Tax treatment is qualified by account type and illustrative filing; do not require a specific closing-cost allocation.",
+      "issues": [],
+      "fixes": [],
+      "evidence": []
+    },
+    {
+      "id": "QL-03",
+      "tier": "A",
+      "verdict": "accept",
+      "question_review": "Gradeable sponsor-economics/seed subset, expressly scoped in the question.",
+      "reference_review": "Approved Sponsor section supports the indicators. This is a diligence checklist, not a validated closure prediction; other useful indicators should not be marked wrong.",
+      "issues": [],
+      "fixes": [],
+      "evidence": []
+    },
+    {
+      "id": "QL-04",
+      "tier": "C",
+      "verdict": "accept",
+      "question_review": "Unchanged and gradeable.",
+      "reference_review": "Daily expense accrual reduces fund assets/NAV; the annual percentage is not a daily percentage. Accrual versus actual provider payment is correctly distinguished.",
+      "issues": [],
+      "fixes": [],
+      "evidence": []
+    },
+    {
+      "id": "QL-05",
+      "tier": "B",
+      "verdict": "accept",
+      "question_review": "Faithful with appropriate US taxable/in-kind assumptions.",
+      "reference_review": "Bank supports nonrecognition and removal of embedded gains, not a step-up of retained lots or investor exemption. Ordinary redemptions are not a blanket endorsement of structured tax-avoidance plans.",
+      "issues": [],
+      "fixes": [],
+      "evidence": []
+    },
+    {
+      "id": "QL-06",
+      "tier": "B",
+      "verdict": "accept",
+      "question_review": "Faithful; existing permission is an explicit assumption.",
+      "reference_review": "Shared-portfolio benefit and cash-flow limitations match the Share Class Structure note. B is appropriate without separate approval evidence.",
+      "issues": [],
+      "fixes": [],
+      "evidence": []
+    },
+    {
+      "id": "QL-07",
+      "tier": "C",
+      "verdict": "accept",
+      "question_review": "Faithful and gradeable; no capacity guarantee.",
+      "reference_review": "Mechanism and proposed observable indicators are supported. Treat indicator list as nonexclusive and activity data as availability-dependent.",
+      "issues": [],
+      "fixes": [],
+      "evidence": []
+    },
+    {
+      "id": "QL-08",
+      "tier": "B",
+      "verdict": "accept",
+      "question_review": "Unchanged conceptual question is gradeable.",
+      "reference_review": "Creation/redemption arbitrage is the right mechanism; no exact NAV parity is promised. Intraday fair value may differ from a stale published NAV.",
+      "issues": [],
+      "fixes": [],
+      "evidence": []
+    },
+    {
+      "id": "QL-09",
+      "tier": "B",
+      "verdict": "accept",
+      "question_review": "Unchanged and unambiguous.",
+      "reference_review": "Issuance/cancellation versus transfer of existing shares is correct and sufficient.",
+      "issues": [],
+      "fixes": [],
+      "evidence": []
+    },
+    {
+      "id": "QL-10",
+      "tier": "B",
+      "verdict": "accept",
+      "question_review": "Faithful US ordinary-dealing scope; exceptions are expressly excluded.",
+      "reference_review": "Correct ordinary retail/AP distinction. An investor brokerage sale is not a fund redemption.",
+      "issues": [],
+      "fixes": [],
+      "evidence": []
+    },
+    {
+      "id": "QL-11",
+      "tier": "A",
+      "verdict": "fix",
+      "question_review": "Faithful and gradeable.",
+      "reference_review": "Contract examples are correctly scoped, but the reference should state the rule-level clearing-agency eligibility separately.",
+      "issues": [
+        "Rule-level AP eligibility is only implicit in the clearing examples."
+      ],
+      "fixes": [
+        {
+          "operation": "prepend_key_point",
+          "text": "Under Rule 6c-11 an AP is a member or participant of an SEC-registered clearing agency with a written agreement allowing creation-unit purchase/redemption orders."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cmegroup.com/trading/equity-index/exchange-for-physical-efp-transactions.html",
+          "section": "EFP transactions; technical counterexample to a blanket transfer claim, not proof every ETF can use this route",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1793497/000121390026090839/ea0291255-s1_vstrust.htm",
+          "section": "Creation arrangements permit futures transfers; S-1 commodity-pool example, not 40 Act authority",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.0-5",
+          "section": "(a)-(f); checked displayed text, updated through October 30, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/732905/000119312525228681/d79289d40appa.htm",
+          "section": "VI.b policy concerns; IV(b)-(c) monitoring and reports. Replacement examples are conceptual applications, not assertions about a particular fund.",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/mutual-fund-conversion-exchange-traded-fund",
+          "section": "Fractional shares; What do I need to do?",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2078265/000182912625010217/corgietftrusti_n-1aa.htm",
+          "section": "Creation Transaction Fees; Redemption Transaction Fees; fixed/variable purposes and recipients",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/guidance/42nd-edition-ucits-qa.pdf",
+          "section": "1012",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-(supervision-and-enforcement)-act-2013-(section-48(1))-(undertakings-for-collective-investment-in-transferable-securities)-regul.pdf",
+          "section": "88(3)-(4)",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-12",
+      "tier": "C",
+      "verdict": "accept",
+      "question_review": "Unchanged question is gradeable.",
+      "reference_review": "IDC September 2025 primer supports no compensation for the AP role and no ongoing creation/redemption obligation. Preserve distinction from separate market-making services.",
+      "issues": [],
+      "fixes": [],
+      "evidence": [
+        {
+          "url": "https://www.idc.org/system/files/2025-09/25-idc-etf-primer.pdf",
+          "section": "The Role of Authorized Participants, printed p.4; other dated sections are not adopted as current",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-13",
+      "tier": "B",
+      "verdict": "fix",
+      "question_review": "Material narrowing to derivatives is visible but not expressly called material in the pair; the answer also overstates impossibility.",
+      "reference_review": "Bank repeats a categorical assertion; that does not establish a universal technical or legal prohibition.",
+      "issues": [
+        "The original covers cash dealing generally; derivative-only scope is a material narrowing.",
+        "Cannot transfer derivatives and must use cash are categorical claims unsupported by the cited bank alone. Futures-related transfers exist; not every such example is a US 40 Act ETF."
+      ],
+      "fixes": [
+        {
+          "operation": "replace_sharpened_question",
+          "text": "For a US ETF using derivative positions that cannot practicably be transferred to or from an AP under its dealing arrangements, why might creations/redemptions use cash or a cash component? Contrast with transferable securities and state the limits of this explanation."
+        },
+        {
+          "operation": "replace_change_note",
+          "text": "Material narrowing: answers derivative-transfer constraints, not all reasons an ETF may use cash baskets."
+        },
+        {
+          "operation": "replace_all_key_points",
+          "text": [
+            "In-kind dealing requires positions transferable under the relevant legal, clearing and fund arrangements. Where positions cannot be transferred, cash lets the fund establish or unwind the exposure itself.",
+            "Cash dealing can create fund trading costs and realized gains, reducing the practical benefits of in-kind redemptions. The magnitude and tax result depend on the strategy and transaction.",
+            "Do not assert that all futures or OTC derivatives are legally or technically impossible to transfer. This is a conditional explanation, not a blanket asset-class prohibition."
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cmegroup.com/trading/equity-index/exchange-for-physical-efp-transactions.html",
+          "section": "EFP transactions; technical counterexample to a blanket transfer claim, not proof every ETF can use this route",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1793497/000121390026090839/ea0291255-s1_vstrust.htm",
+          "section": "Creation arrangements permit futures transfers; S-1 commodity-pool example, not 40 Act authority",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.0-5",
+          "section": "(a)-(f); checked displayed text, updated through October 30, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/732905/000119312525228681/d79289d40appa.htm",
+          "section": "VI.b policy concerns; IV(b)-(c) monitoring and reports. Replacement examples are conceptual applications, not assertions about a particular fund.",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/mutual-fund-conversion-exchange-traded-fund",
+          "section": "Fractional shares; What do I need to do?",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2078265/000182912625010217/corgietftrusti_n-1aa.htm",
+          "section": "Creation Transaction Fees; Redemption Transaction Fees; fixed/variable purposes and recipients",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/guidance/42nd-edition-ucits-qa.pdf",
+          "section": "1012",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-(supervision-and-enforcement)-act-2013-(section-48(1))-(undertakings-for-collective-investment-in-transferable-securities)-regul.pdf",
+          "section": "88(3)-(4)",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-14",
+      "tier": "C",
+      "verdict": "accept",
+      "question_review": "Disclosed retail-access scope is useful and gradeable.",
+      "reference_review": "Correct distinction between public portfolio holdings and actual transaction baskets; sponsor/broker inquiry is labelled practical advice, not a guaranteed entitlement.",
+      "issues": [],
+      "fixes": [],
+      "evidence": []
+    },
+    {
+      "id": "QL-15",
+      "tier": "B",
+      "verdict": "accept",
+      "question_review": "Unchanged and gradeable.",
+      "reference_review": "Primary-market AP and secondary-market market-maker functions are correctly distinguished; overlapping firms do not collapse the roles.",
+      "issues": [],
+      "fixes": [],
+      "evidence": []
+    },
+    {
+      "id": "QL-16",
+      "tier": "A",
+      "verdict": "accept",
+      "question_review": "Faithful conditional comparison, not a universal recommendation.",
+      "reference_review": "Platform fixed-cost sharing and governance-control trade-off follow the approved trust/Sponsor sections. A model may reasonably discuss other business constraints.",
+      "issues": [],
+      "fixes": [],
+      "evidence": []
+    },
+    {
+      "id": "QL-17",
+      "tier": "C",
+      "verdict": "accept",
+      "question_review": "Accept as an explicitly disclosed replacement task; it does not answer the original dollar-cost question.",
+      "reference_review": "Seed versus expenditure, contractual allocation and positive-margin break-even model are appropriately qualified. Analytical categories are not current vendor quotes.",
+      "issues": [],
+      "fixes": [],
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2051630/000093041325001085/filename1.htm",
+          "section": "Responses 11-12, contractual cost allocation example",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-18",
+      "tier": "C",
+      "verdict": "accept",
+      "question_review": "Accept the disclosed filing-clock replacement; it is not a commercial launch-duration estimate.",
+      "reference_review": "Rule 485 supports 75 days for a new series versus 60 for other covered amendments, subject to alternatives/SEC action. Initial registration and end-to-end readiness are correctly separated.",
+      "issues": [],
+      "fixes": [],
+      "evidence": [
+        {
+          "url": "https://www.law.cornell.edu/cfr/text/17/230.485",
+          "section": "(a)(1)-(3)",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-19",
+      "tier": "B",
+      "verdict": "fix",
+      "question_review": "Faithful and gradeable checklist.",
+      "reference_review": "Core roles are sensible but compliance infrastructure/CCO is an important omission for a purported launch checklist.",
+      "issues": [
+        "Launch checklist omits CCO/compliance infrastructure."
+      ],
+      "fixes": [
+        {
+          "operation": "append_key_point",
+          "text": "Include the fund compliance program and chief compliance officer under Rule 38a-1, with required board oversight/approval; these can be shared platform arrangements."
+        },
+        {
+          "operation": "add_local_citation",
+          "text": "ETF Participants.md — The trust (umbrella vehicle), Regulation, compliance program/CCO."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cmegroup.com/trading/equity-index/exchange-for-physical-efp-transactions.html",
+          "section": "EFP transactions; technical counterexample to a blanket transfer claim, not proof every ETF can use this route",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1793497/000121390026090839/ea0291255-s1_vstrust.htm",
+          "section": "Creation arrangements permit futures transfers; S-1 commodity-pool example, not 40 Act authority",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.0-5",
+          "section": "(a)-(f); checked displayed text, updated through October 30, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/732905/000119312525228681/d79289d40appa.htm",
+          "section": "VI.b policy concerns; IV(b)-(c) monitoring and reports. Replacement examples are conceptual applications, not assertions about a particular fund.",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/mutual-fund-conversion-exchange-traded-fund",
+          "section": "Fractional shares; What do I need to do?",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2078265/000182912625010217/corgietftrusti_n-1aa.htm",
+          "section": "Creation Transaction Fees; Redemption Transaction Fees; fixed/variable purposes and recipients",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/guidance/42nd-edition-ucits-qa.pdf",
+          "section": "1012",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-(supervision-and-enforcement)-act-2013-(section-48(1))-(undertakings-for-collective-investment-in-transferable-securities)-regul.pdf",
+          "section": "88(3)-(4)",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-20",
+      "tier": "A",
+      "verdict": "accept",
+      "question_review": "Narrow contractual-partner model is explicitly assumed; gradeable.",
+      "reference_review": "Revenue remainder, assumed expenses and continuing adviser obligation match the cited model. No standard percentage is invented.",
+      "issues": [],
+      "fixes": [],
+      "evidence": []
+    },
+    {
+      "id": "QL-21",
+      "tier": "A",
+      "verdict": "accept",
+      "question_review": "Faithful with expressly specified contractual model.",
+      "reference_review": "Correct separation of partner economic loss from adviser obligation to the fund; no automatic shareholder obligation.",
+      "issues": [],
+      "fixes": [],
+      "evidence": []
+    },
+    {
+      "id": "QL-22",
+      "tier": "C",
+      "verdict": "accept",
+      "question_review": "Faithful operational-versus-sales distinction; gradeable.",
+      "reference_review": "A named principal underwriter does not establish sales coverage. Separate arrangements are a labelled practical inference, not a claim every sponsor must employ sales staff.",
+      "issues": [],
+      "fixes": [],
+      "evidence": []
+    },
+    {
+      "id": "QL-23",
+      "tier": "A",
+      "verdict": "accept",
+      "question_review": "Faithful and gradeable with as-of date.",
+      "reference_review": "Bank correctly distinguishes open-end funds, UITs, nontransparent/share-class/master-feeder structures, and post-18f-4 leveraged/inverse eligibility. The older SEC small-entity guide still lists leveraged/inverse ETFs as excluded and must not override the amended rule.",
+      "issues": [],
+      "fixes": [],
+      "evidence": [
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-24",
+      "tier": "C",
+      "verdict": "accept",
+      "question_review": "Faithful operational-relief scope; gradeable.",
+      "reference_review": "Four relief categories are correct. Foreign-delivery extension and affiliation limitations are present, although not every statutory subsection is recited.",
+      "issues": [],
+      "fixes": [],
+      "evidence": [
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-25",
+      "tier": "C",
+      "verdict": "fix",
+      "question_review": "Gradeable, but asks for more timing/history detail than the compressed key points supply.",
+      "reference_review": "Core disclosures are correct; table content and spread calculation should be explicit enough to judge precise answers.",
+      "issues": [
+        "Historical table and spread methodology are too compressed for the question."
+      ],
+      "fixes": [
+        {
+          "operation": "append_key_point",
+          "text": "The table counts days at premiums/discounts. The median spread uses NBBO observations at 10-second intervals during trading days in the last 30 calendar days, normalizes by midpoint and is expressed as a percentage rounded to a hundredth. Maintain the sustained-deviation statement and causal discussion on the website for a year."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cmegroup.com/trading/equity-index/exchange-for-physical-efp-transactions.html",
+          "section": "EFP transactions; technical counterexample to a blanket transfer claim, not proof every ETF can use this route",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1793497/000121390026090839/ea0291255-s1_vstrust.htm",
+          "section": "Creation arrangements permit futures transfers; S-1 commodity-pool example, not 40 Act authority",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.0-5",
+          "section": "(a)-(f); checked displayed text, updated through October 30, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/732905/000119312525228681/d79289d40appa.htm",
+          "section": "VI.b policy concerns; IV(b)-(c) monitoring and reports. Replacement examples are conceptual applications, not assertions about a particular fund.",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/mutual-fund-conversion-exchange-traded-fund",
+          "section": "Fractional shares; What do I need to do?",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2078265/000182912625010217/corgietftrusti_n-1aa.htm",
+          "section": "Creation Transaction Fees; Redemption Transaction Fees; fixed/variable purposes and recipients",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/guidance/42nd-edition-ucits-qa.pdf",
+          "section": "1012",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-(supervision-and-enforcement)-act-2013-(section-48(1))-(undertakings-for-collective-investment-in-transferable-securities)-regul.pdf",
+          "section": "88(3)-(4)",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-26",
+      "tier": "B",
+      "verdict": "accept",
+      "question_review": "Faithful and gradeable.",
+      "reference_review": "Accept disclosed supplementation: subsection (d)(1) expressly covers AP agreements, alongside basket records in (d)(2); retention/accessibility period is correctly stated.",
+      "issues": [],
+      "fixes": [],
+      "evidence": [
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-27",
+      "tier": "B",
+      "verdict": "fix",
+      "question_review": "Gradeable; newly asks for a custom-basket/non-standard-order distinction.",
+      "reference_review": "Policies and review roles are correct, but neither defines the technical custom-basket category needed for that distinction.",
+      "issues": [
+        "Missing technical definition makes the extra distinction underdetermined."
+      ],
+      "fixes": [
+        {
+          "operation": "replace_key_point",
+          "index": 3,
+          "text": "A custom basket is non-representative of holdings or a representative basket differing from the initial basket used that business day. This classification differs from contractual non-standard-order approval."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cmegroup.com/trading/equity-index/exchange-for-physical-efp-transactions.html",
+          "section": "EFP transactions; technical counterexample to a blanket transfer claim, not proof every ETF can use this route",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1793497/000121390026090839/ea0291255-s1_vstrust.htm",
+          "section": "Creation arrangements permit futures transfers; S-1 commodity-pool example, not 40 Act authority",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.0-5",
+          "section": "(a)-(f); checked displayed text, updated through October 30, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/732905/000119312525228681/d79289d40appa.htm",
+          "section": "VI.b policy concerns; IV(b)-(c) monitoring and reports. Replacement examples are conceptual applications, not assertions about a particular fund.",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/mutual-fund-conversion-exchange-traded-fund",
+          "section": "Fractional shares; What do I need to do?",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2078265/000182912625010217/corgietftrusti_n-1aa.htm",
+          "section": "Creation Transaction Fees; Redemption Transaction Fees; fixed/variable purposes and recipients",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/guidance/42nd-edition-ucits-qa.pdf",
+          "section": "1012",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-(supervision-and-enforcement)-act-2013-(section-48(1))-(undertakings-for-collective-investment-in-transferable-securities)-regul.pdf",
+          "section": "88(3)-(4)",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-28",
+      "tier": "C",
+      "verdict": "fix",
+      "question_review": "Faithful procedural scope, avoiding unsupported total turnaround.",
+      "reference_review": "Eligibility and notice/order distinction are right, but the clock summary omits restart lags, closure pauses and request formalities.",
+      "issues": [
+        "Clock description omits important tolling/restart mechanics and expedited-request formalities."
+      ],
+      "fixes": [
+        {
+          "operation": "replace_key_point",
+          "index": 0,
+          "text": "File the factual/legal application; notice provides the hearing-request period, after which an order ordinarily issues unless a hearing is ordered. Expedited eligibility requires two substantially identical applications granted within three years before initial filing: same relief and conditions, only immaterial factual differences. Request expedited review prominently, supply comparison markups and a signed explanatory certification. Within 45 running days SEC issues notice or an ineligibility/additional-time response, not necessarily a final order. Modification requests pause the clock until day 14 after a compliant response amendment; unsolicited amendments until day 30 afterward. Irregular SEC office closures also pause it. A missing response amendment after 30 days causes deemed withdrawal."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cmegroup.com/trading/equity-index/exchange-for-physical-efp-transactions.html",
+          "section": "EFP transactions; technical counterexample to a blanket transfer claim, not proof every ETF can use this route",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1793497/000121390026090839/ea0291255-s1_vstrust.htm",
+          "section": "Creation arrangements permit futures transfers; S-1 commodity-pool example, not 40 Act authority",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.0-5",
+          "section": "(a)-(f); checked displayed text, updated through October 30, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/732905/000119312525228681/d79289d40appa.htm",
+          "section": "VI.b policy concerns; IV(b)-(c) monitoring and reports. Replacement examples are conceptual applications, not assertions about a particular fund.",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/mutual-fund-conversion-exchange-traded-fund",
+          "section": "Fractional shares; What do I need to do?",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2078265/000182912625010217/corgietftrusti_n-1aa.htm",
+          "section": "Creation Transaction Fees; Redemption Transaction Fees; fixed/variable purposes and recipients",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/guidance/42nd-edition-ucits-qa.pdf",
+          "section": "1012",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-(supervision-and-enforcement)-act-2013-(section-48(1))-(undertakings-for-collective-investment-in-transferable-securities)-regul.pdf",
+          "section": "88(3)-(4)",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-29",
+      "tier": "C",
+      "verdict": "accept",
+      "question_review": "Faithful suggested board inquiry; no asserted mandatory selection approval.",
+      "reference_review": "IDC supports LMM selection/expertise/capital questions. Approved seed qualification avoids treating market-maker inventory as permanent investor capital.",
+      "issues": [],
+      "fixes": [],
+      "evidence": []
+    },
+    {
+      "id": "QL-30",
+      "tier": "C",
+      "verdict": "accept",
+      "question_review": "Faithful and gradeable.",
+      "reference_review": "IDC supports contract and affiliated-information diligence. Contingency planning is labelled inference, not a guaranteed index-substitution right.",
+      "issues": [],
+      "fixes": [],
+      "evidence": []
+    },
+    {
+      "id": "QL-31",
+      "tier": "C",
+      "verdict": "accept",
+      "question_review": "Gradeable diagnosis, although question itself supplies many expected checks.",
+      "reference_review": "IDC/SEC-based monitoring and frictions are reasonable; label the sequence as synthesis. Do not require a unique causal diagnosis or universal intervention threshold.",
+      "issues": [],
+      "fixes": [],
+      "evidence": []
+    },
+    {
+      "id": "QL-32",
+      "tier": "C",
+      "verdict": "fix",
+      "question_review": "Faithful operational question with a useful explicit metric definition.",
+      "reference_review": "Once tracking error means variability, a constant fee drag is not by itself an explanation for elevated error; the answer should distinguish mean drag from variable deviations.",
+      "issues": [
+        "Reference lists fees without relating them to the precise variability definition in the question."
+      ],
+      "fixes": [
+        {
+          "operation": "append_key_point",
+          "text": "With tracking error defined here as the standard deviation of daily active returns, a constant daily fee subtraction shifts the mean but does not itself increase that standard deviation. Variable expenses, exposures, cash, trading or pricing effects can increase variability. Reconcile fee drag primarily as tracking difference; distinguish that analytical point from the older sources broader use of tracking error."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cmegroup.com/trading/equity-index/exchange-for-physical-efp-transactions.html",
+          "section": "EFP transactions; technical counterexample to a blanket transfer claim, not proof every ETF can use this route",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1793497/000121390026090839/ea0291255-s1_vstrust.htm",
+          "section": "Creation arrangements permit futures transfers; S-1 commodity-pool example, not 40 Act authority",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.0-5",
+          "section": "(a)-(f); checked displayed text, updated through October 30, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/732905/000119312525228681/d79289d40appa.htm",
+          "section": "VI.b policy concerns; IV(b)-(c) monitoring and reports. Replacement examples are conceptual applications, not assertions about a particular fund.",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/mutual-fund-conversion-exchange-traded-fund",
+          "section": "Fractional shares; What do I need to do?",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2078265/000182912625010217/corgietftrusti_n-1aa.htm",
+          "section": "Creation Transaction Fees; Redemption Transaction Fees; fixed/variable purposes and recipients",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/guidance/42nd-edition-ucits-qa.pdf",
+          "section": "1012",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-(supervision-and-enforcement)-act-2013-(section-48(1))-(undertakings-for-collective-investment-in-transferable-securities)-regul.pdf",
+          "section": "88(3)-(4)",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-33",
+      "tier": "C",
+      "verdict": "accept",
+      "question_review": "Faithful, gradeable risk/control question with explicit regime separation.",
+      "reference_review": "Distinct default, collateral shortfall and cash-reinvestment risks are correctly stated; collateral does not eliminate losses. Fund-specific US example must stay separate from UCITS rules.",
+      "issues": [],
+      "fixes": [],
+      "evidence": [
+        {
+          "url": "https://www.esma.europa.eu/sites/default/files/library/2015/11/esma-2014-0011-01-00_en_0.pdf",
+          "section": "Recall and collateral requirements, paragraphs 30 and 43-47",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-34",
+      "tier": "C",
+      "verdict": "fix",
+      "question_review": "Faithful and gradeable conditional Irish-transparency question.",
+      "reference_review": "Periodic route is substantially right, but reference omits daily-route prospectus detail and conditional iNAV calculation/frequency disclosure.",
+      "issues": [
+        "Daily-disclosure route and conditional iNAV disclosure are incomplete."
+      ],
+      "fixes": [
+        {
+          "operation": "append_key_point",
+          "text": "Holdings disclosure identifies positions and quantities. Under the daily route, the prospectus states the information supplied. If iNAV is calculated, the prospectus explains its calculation and frequency. Both routes retain the transparency-policy disclosures; periodic disclosure is conditional on daily arbitrage information and documented procedures."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cmegroup.com/trading/equity-index/exchange-for-physical-efp-transactions.html",
+          "section": "EFP transactions; technical counterexample to a blanket transfer claim, not proof every ETF can use this route",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1793497/000121390026090839/ea0291255-s1_vstrust.htm",
+          "section": "Creation arrangements permit futures transfers; S-1 commodity-pool example, not 40 Act authority",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.0-5",
+          "section": "(a)-(f); checked displayed text, updated through October 30, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/732905/000119312525228681/d79289d40appa.htm",
+          "section": "VI.b policy concerns; IV(b)-(c) monitoring and reports. Replacement examples are conceptual applications, not assertions about a particular fund.",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/mutual-fund-conversion-exchange-traded-fund",
+          "section": "Fractional shares; What do I need to do?",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2078265/000182912625010217/corgietftrusti_n-1aa.htm",
+          "section": "Creation Transaction Fees; Redemption Transaction Fees; fixed/variable purposes and recipients",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/guidance/42nd-edition-ucits-qa.pdf",
+          "section": "1012",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-(supervision-and-enforcement)-act-2013-(section-48(1))-(undertakings-for-collective-investment-in-transferable-securities)-regul.pdf",
+          "section": "88(3)-(4)",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-35",
+      "tier": "C",
+      "verdict": "accept",
+      "question_review": "Faithful mixed-umbrella/mixed-class scope.",
+      "reference_review": "2026 Regulation 88 and Q&A 1016/1088 support scoped identifier use. No claim that class-level permission first arose in 2026.",
+      "issues": [],
+      "fixes": [],
+      "evidence": [
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/guidance/42nd-edition-ucits-qa.pdf",
+          "section": "1016 and 1088",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-(supervision-and-enforcement)-act-2013-(section-48(1))-(undertakings-for-collective-investment-in-transferable-securities)-regul.pdf",
+          "section": "88(1)-(2)",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-36",
+      "tier": "B",
+      "verdict": "accept",
+      "question_review": "Faithful exceptional direct-redemption scope.",
+      "reference_review": "Regulation 90 confirms significant deviation, market notification, disclosed process/costs and nonexcessive charges; not a routine retail right.",
+      "issues": [],
+      "fixes": [],
+      "evidence": [
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-(supervision-and-enforcement)-act-2013-(section-48(1))-(undertakings-for-collective-investment-in-transferable-securities)-regul.pdf",
+          "section": "90",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-37",
+      "tier": "C",
+      "verdict": "accept",
+      "question_review": "Faithful Irish comparison question, gradeable.",
+      "reference_review": "Q&A 1088 supports the listed comparison categories and risk disclosure. Do not transplant US exemptive conditions.",
+      "issues": [],
+      "fixes": [],
+      "evidence": [
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/guidance/42nd-edition-ucits-qa.pdf",
+          "section": "1088",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-38",
+      "tier": "C",
+      "verdict": "accept",
+      "question_review": "Faithful and gradeable; historical versus current rules expressly separated.",
+      "reference_review": "2026 Regulation 26(2) directly permits the specified cut-off differences. It does not permit arbitrary dealing-frequency changes or all hedging arrangements.",
+      "issues": [],
+      "fixes": [],
+      "evidence": [
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/guidance/42nd-edition-ucits-qa.pdf",
+          "section": "1030 (historical)",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-(supervision-and-enforcement)-act-2013-(section-48(1))-(undertakings-for-collective-investment-in-transferable-securities)-regul.pdf",
+          "section": "26(2)",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-39",
+      "tier": "B",
+      "verdict": "fix",
+      "question_review": "Faithful, but explicit request for both directions is not fulfilled by a negative mutual-fund example plus a beneficial ETF example.",
+      "reference_review": "Monitoring categories and order-specific caveat are sound. Add an actual ETF-caused shared-cost example; benefits are not themselves cross-subsidization costs.",
+      "issues": [
+        "No adverse ETF-to-mutual-fund example despite asking for both directions.",
+        "In-kind tax benefits should not be labelled a negative cross-subsidy."
+      ],
+      "fixes": [
+        {
+          "operation": "replace_key_point",
+          "index": 1,
+          "text": "Mutual fund cash outflows can cause shared sales, gains and cash drag borne partly by ETF holders. Conversely, ETF cash flows or in-kind basket positions requiring subsequent portfolio adjustment can create shared trading costs/tax consequences borne partly by mutual fund holders. Assess actual costs net of transaction charges. In-kind removal of embedded gains is a potential shared benefit, not itself a harmful subsidy."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cmegroup.com/trading/equity-index/exchange-for-physical-efp-transactions.html",
+          "section": "EFP transactions; technical counterexample to a blanket transfer claim, not proof every ETF can use this route",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1793497/000121390026090839/ea0291255-s1_vstrust.htm",
+          "section": "Creation arrangements permit futures transfers; S-1 commodity-pool example, not 40 Act authority",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.0-5",
+          "section": "(a)-(f); checked displayed text, updated through October 30, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/732905/000119312525228681/d79289d40appa.htm",
+          "section": "VI.b policy concerns; IV(b)-(c) monitoring and reports. Replacement examples are conceptual applications, not assertions about a particular fund.",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/mutual-fund-conversion-exchange-traded-fund",
+          "section": "Fractional shares; What do I need to do?",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2078265/000182912625010217/corgietftrusti_n-1aa.htm",
+          "section": "Creation Transaction Fees; Redemption Transaction Fees; fixed/variable purposes and recipients",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/guidance/42nd-edition-ucits-qa.pdf",
+          "section": "1012",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-(supervision-and-enforcement)-act-2013-(section-48(1))-(undertakings-for-collective-investment-in-transferable-securities)-regul.pdf",
+          "section": "88(3)-(4)",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "QL-40",
+      "tier": "C",
+      "verdict": "fix",
+      "question_review": "Faithful conversion/account question; fractional treatment is explicitly requested.",
+      "reference_review": "Transfer/access points are correct but merely telling readers to check fractional-share treatment omits the outcome described by the SEC bulletin.",
+      "issues": [
+        "No actual fractional-share outcome despite explicit question requirement."
+      ],
+      "fixes": [
+        {
+          "operation": "append_key_point",
+          "text": "Fractional mutual fund shares may be redeemed for cash before conversion because the ETF typically does not issue fractional shares. This can be taxable in a taxable account; consult the specific conversion notice."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cmegroup.com/trading/equity-index/exchange-for-physical-efp-transactions.html",
+          "section": "EFP transactions; technical counterexample to a blanket transfer claim, not proof every ETF can use this route",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1793497/000121390026090839/ea0291255-s1_vstrust.htm",
+          "section": "Creation arrangements permit futures transfers; S-1 commodity-pool example, not 40 Act authority",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.0-5",
+          "section": "(a)-(f); checked displayed text, updated through October 30, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/732905/000119312525228681/d79289d40appa.htm",
+          "section": "VI.b policy concerns; IV(b)-(c) monitoring and reports. Replacement examples are conceptual applications, not assertions about a particular fund.",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/mutual-fund-conversion-exchange-traded-fund",
+          "section": "Fractional shares; What do I need to do?",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2078265/000182912625010217/corgietftrusti_n-1aa.htm",
+          "section": "Creation Transaction Fees; Redemption Transaction Fees; fixed/variable purposes and recipients",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/guidance/42nd-edition-ucits-qa.pdf",
+          "section": "1012",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-(supervision-and-enforcement)-act-2013-(section-48(1))-(undertakings-for-collective-investment-in-transferable-securities)-regul.pdf",
+          "section": "88(3)-(4)",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+      "tier": "C",
+      "verdict": "fix",
+      "question_review": "Faithful disclosed qualitative spread-driver scope.",
+      "reference_review": "Reference describes where evidence lives rather than explaining how costs affect quotes; make the expected causal answer explicit.",
+      "issues": [
+        "Key points are source descriptions rather than a sufficiently direct grading answer."
+      ],
+      "fixes": [
+        {
+          "operation": "replace_all_key_points",
+          "text": [
+            "Less liquid underlying assets and more costly hedging or creation/redemption raise market makers costs of supplying liquidity and can widen quoted spreads, other things equal. More liquid, easier-to-hedge exposures can support tighter quotes.",
+            "Creation/redemption provides a way to adjust inventory beyond trades in existing ETF shares, so historical share volume alone is incomplete. Assess executable spread/depth and the underlying market, with no universal ranking or promised capacity.",
+            "This is qualitative economic reasoning from the cited bank/draft; it does not establish numerical sensitivities."
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cmegroup.com/trading/equity-index/exchange-for-physical-efp-transactions.html",
+          "section": "EFP transactions; technical counterexample to a blanket transfer claim, not proof every ETF can use this route",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1793497/000121390026090839/ea0291255-s1_vstrust.htm",
+          "section": "Creation arrangements permit futures transfers; S-1 commodity-pool example, not 40 Act authority",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.0-5",
+          "section": "(a)-(f); checked displayed text, updated through October 30, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/732905/000119312525228681/d79289d40appa.htm",
+          "section": "VI.b policy concerns; IV(b)-(c) monitoring and reports. Replacement examples are conceptual applications, not assertions about a particular fund.",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/mutual-fund-conversion-exchange-traded-fund",
+          "section": "Fractional shares; What do I need to do?",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2078265/000182912625010217/corgietftrusti_n-1aa.htm",
+          "section": "Creation Transaction Fees; Redemption Transaction Fees; fixed/variable purposes and recipients",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/guidance/42nd-edition-ucits-qa.pdf",
+          "section": "1012",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-(supervision-and-enforcement)-act-2013-(section-48(1))-(undertakings-for-collective-investment-in-transferable-securities)-regul.pdf",
+          "section": "88(3)-(4)",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+      "tier": "A",
+      "verdict": "accept",
+      "question_review": "Accept disclosed narrowing from normal market practice to reviewed contractual examples.",
+      "reference_review": "115% and 105% of missing securities, not full basket, are supported by Thornburg and DoubleLine forms. Sample evidence does not establish a market-frequency estimate.",
+      "issues": [],
+      "fixes": [],
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2038383/000199937124015918/ex99-h2.htm",
+          "section": "Additional Cash Deposit, 115% marked-to-market missing securities",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1886172/000119312522046700/d100216dex99h3.htm",
+          "section": "Attachment B, 105% and continuing shortfall liability",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "creation_redemption_004_what_costs_do_the_creation_fee_cover",
+      "tier": "C",
+      "verdict": "fix",
+      "question_review": "Faithful disclosed expansion to fixed/variable fees and payer/recipient.",
+      "reference_review": "Direction and recipient distinctions are supported, but fixed-versus-variable purpose should be explicit; editorial instruction about preserving evidence is not itself a model-answer point.",
+      "issues": [
+        "Fixed-versus-variable cost coverage should be explicit.",
+        "Editorial instruction about preserving vouched evidence is not an answer criterion."
+      ],
+      "fixes": [
+        {
+          "operation": "replace_all_key_points",
+          "text": [
+            "Fixed creation/redemption charges cover processing, transfer and related operational costs. Variable charges can offset portfolio trading, brokerage, taxes and market-impact costs, particularly for cash, partial-cash or non-standard orders, protecting remaining shareholders.",
+            "The AP bears the charge unless waived or paid by another party. In the cited Corgi SAI, fixed charges go to the custodian or another service provider and variable charges to the fund; recipient and waiver terms are fund-specific.",
+            "These fund transaction charges are not AP compensation. Rafa vouches that sponsors often waive custom-redemption charges; preserve that observation separately from any assertion that every waiver has the same payer or accounting treatment."
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cmegroup.com/trading/equity-index/exchange-for-physical-efp-transactions.html",
+          "section": "EFP transactions; technical counterexample to a blanket transfer claim, not proof every ETF can use this route",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1793497/000121390026090839/ea0291255-s1_vstrust.htm",
+          "section": "Creation arrangements permit futures transfers; S-1 commodity-pool example, not 40 Act authority",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.0-5",
+          "section": "(a)-(f); checked displayed text, updated through October 30, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/732905/000119312525228681/d79289d40appa.htm",
+          "section": "VI.b policy concerns; IV(b)-(c) monitoring and reports. Replacement examples are conceptual applications, not assertions about a particular fund.",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/mutual-fund-conversion-exchange-traded-fund",
+          "section": "Fractional shares; What do I need to do?",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2078265/000182912625010217/corgietftrusti_n-1aa.htm",
+          "section": "Creation Transaction Fees; Redemption Transaction Fees; fixed/variable purposes and recipients",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-270/section-270.6c-11",
+          "section": "Relevant definition / (b), (c), (d); displayed text updated through November 4, 2026",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/guidance/42nd-edition-ucits-qa.pdf",
+          "section": "1012",
+          "checked_on": "2026-11-06"
+        },
+        {
+          "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-(supervision-and-enforcement)-act-2013-(section-48(1))-(undertakings-for-collective-investment-in-transferable-securities)-regul.pdf",
+          "section": "88(3)-(4)",
+          "checked_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "creation_redemption_006_who_are_typically_the_parties_involved_i",
+      "tier": "A",
+      "verdict": "accept",
+      "question_review": "Accept disclosed reviewed-form scope and Irish contrast.",
+      "reference_review": "Rule permits ETF or service-provider counterparty; named US signature patterns and ICAV description are correctly scoped to the bank rather than universal US contract law.",
+      "issues": [],
+      "fixes": [],
+      "evidence": []
+    }
+  ],
+  "validation": {
+    "json_parse": "passed",
+    "pair_count": 44,
+    "unique_ids_and_order_match_references": true,
+    "every_pair_has_question_and_reference_assessment": true,
+    "every_fix_has_issues_and_exact_edit_operations": true,
+    "references_unchanged_from_HEAD": true,
+    "commit_scope": "review-sol.json only"
+  }
+}
