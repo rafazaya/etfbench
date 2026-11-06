@@ -7,6 +7,16 @@ ETFBench: AI benchmark for ETF industry knowledge using DeepEval.
 - **Implementation plan**: [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md)
 - **Framework research**: [ai/early-research.md](ai/early-research.md)
 
+## Knowledge Bank and Golden Releases
+
+Rafa's [2026-11-05 decisions](ai/knowledge-bank-decisions.md) govern data sources
+and goldens. The private ETF knowledge bank is the editorial authority; each
+private benchmark release uses a small, reviewed, versioned claim snapshot.
+Goldens reference stable claim IDs and cannot ship with blank answers or
+unresolved evidence. Track `sourced`/`vouched` separately from review status.
+External questions drive coverage and growth of the bank. The proposed
+two-golden pilot is deferred; do not fill answers as part of recording decisions.
+
 ## Philosophy: Keep It Simple
 
 This project follows a philosophy of simply defining a testing infrastructure to test complex business logic and processes from the financial services arena. Before adding anything, ask:
@@ -65,14 +75,14 @@ data/goldens/     # Test case JSON files
 
 ETFBench evaluates LLMs on ETF (Exchange-Traded Fund) knowledge:
 
-- **Document sources**: US (SEC EDGAR, Rule 6c-11), EU (UCITS, Central Bank of Ireland, CSSF), industry associations
+- **Editorial authority and evidence**: the ETF knowledge bank; reviewed sourced or vouched claims, with US '40 Act or UCITS regime recorded (see the decisions above)
 - **Key metric**: AnswerCorrectness (factual correctness of ETF expert knowledge)
 
 ### Citation Philosophy
 
 Citations are for **benchmark transparency**, not model output scoring:
 
-1. **Synthetic goldens include citations** - Each Q&A pair tracks its source document
+1. **Goldens reference reviewed claims** - Each Q&A pair references stable claim IDs in a versioned release snapshot with evidence and attribution
 2. **Evaluation reports cite evidence** - Correct/incorrect verdicts reference the source
 3. **Models don't need to cite** - We evaluate answer correctness, not citation behavior
 
@@ -82,5 +92,6 @@ Citations are for **benchmark transparency**, not model output scoring:
 |------|----------|
 | What to build | IMPLEMENTATION_PLAN.md |
 | Why DeepEval | ai/early-research.md |
+| Knowledge bank and release policy | ai/knowledge-bank-decisions.md |
 | Curated questions | questions.md |
 | Test cases | data/goldens/*.json |

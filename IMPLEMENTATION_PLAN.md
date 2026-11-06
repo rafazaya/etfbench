@@ -8,7 +8,12 @@ Benchmark for evaluating AI models on ETF industry knowledge using DeepEval.
 
 ## Current Status
 
-**Last updated**: 2026-02-08
+**Data-source and golden plan updated**: 2026-11-05
+
+**Decisions**: [Knowledge bank and release policy](ai/knowledge-bank-decisions.md).
+The phase progress below is the historical 2026-02-08 planning baseline, not a
+current implementation audit. The subsequent read-only study found 12 goldens
+with blank answers and sources; none is release-ready.
 
 **Phase**: Planning complete, ready to begin Phase 1 implementation
 
@@ -34,7 +39,9 @@ Key decisions already made:
 - Single metric: AnswerCorrectness (not citation/regulatory metrics)
 - Difficulty: integer 0-9, calibrated by actual model performance
 - Config-driven benchmark runs (YAML files specify models + questions)
-- Start small: ~50 synthetic + 12 curated questions initially
+- Start small; release only answered goldens backed by reviewed, versioned claims
+- Knowledge bank is editorial authority; external questions drive coverage
+- Follow ai/knowledge-bank-decisions.md (2026-11-05); the pilot is deferred
 - Global scope: US + EU regulatory sources
 
 Please confirm you've read the plan and let's begin Phase 1 implementation.
@@ -47,8 +54,7 @@ Please confirm you've read the plan and let's begin Phase 1 implementation.
 ```
 etfbench/
 ├── data/
-│   ├── documents/
-│   │   └── raw/                    # Source files (regulatory, educational, etc.)
+│   ├── claims/                     # Planned versioned release claim snapshots
 │   └── goldens/                    # Test cases by category (JSON)
 ├── src/etfbench/
 │   ├── metrics/                    # AnswerCorrectness metric
@@ -121,58 +127,50 @@ class ETFGolden(BaseModel):
 
 ---
 
-### Phase 4: Knowledge Base for Question Generation
+### Phase 4: Knowledge Bank and Release Claims
 
-Curate industry knowledge sources that inform expert-level question creation.
-
-**Goal**: Build a document repository that supports synthetic question generation and validates that questions reflect real industry expertise. NOT building a RAG system for querying LLMs about filings.
-
-**Source Categories**:
-
-| Source Type | Examples | Region |
-|-------------|----------|--------|
-| **Regulatory - US** | SEC Rule 6c-11, no-action letters, exemptive orders | US |
-| **Regulatory - EU** | UCITS directives, Central Bank of Ireland filings, CSSF (Luxembourg) | EU |
-| **Industry Associations** | ICI research, ETFGI, European ETF associations | Global |
-| **Trade Publications** | ETF.com, ETFStream, IndexUniverse | US/EU |
-| **Issuer Educational** | BlackRock/Vanguard/State Street/Amundi ETF education | Global |
-| **Academic** | Papers on ETF mechanics, market microstructure | Global |
-| **Reference Filings** | N-1A, N-CEN (US), KIID/KID (EU) - for context, not LLM querying | US/EU |
+Implement [Rafa's 2026-11-05 decisions](ai/knowledge-bank-decisions.md):
+the private knowledge bank owns editorial approval; ETFBench holds a small,
+reviewed, versioned claim snapshot for each private benchmark release.
 
 **Tasks**:
-- [ ] Document collector(s) for priority sources
-- [ ] Simple storage (raw files + metadata index)
-- [ ] Source catalog tracking what we have
+- [ ] Gather coverage candidates from external sources, including common questions in forums and other public venues; do not limit questions to existing bank content
+- [ ] Research gaps and write and approve knowledge in the bank before deriving goldens
+- [ ] Define and export a small versioned release claim set with stable IDs, section, facet, regime (US '40 Act or UCITS), evidence, source URLs where applicable, review date, and content hash of the exact text
+- [ ] Track source type (`sourced` or practitioner experience explicitly cited as `vouched`) separately from review status; admit only reviewed claims
+- [ ] Preserve each release's exact claim text and hash, and use changes in the vault to flag dependent goldens for review
 
-**What we're NOT building** (yet):
-- Vector database / embeddings
-- RAG retrieval system
-- Knowledge graph
-
-**Deliverable**: Organized document repository with metadata, ready for synthetic generation
+**Deliverable**: A reviewed, versioned claim set with provenance and a way to
+identify goldens affected by subsequent edits in the bank.
 
 ---
 
-### Phase 5: Synthetic Data Generation
+### Phase 5: Golden Generation and Release Review
 
-Generate Q&A from collected documents using DeepEval Synthesizer.
-
-**Philosophy**: Start small, validate process, iterate over months. Initial goal is a working benchmark with enough questions to evaluate a few models, not comprehensive coverage.
+Derive goldens from reviewed release claims after external coverage needs have
+been researched and approved in the knowledge bank. Synthetic variants using
+DeepEval Synthesizer may extend this process.
 
 **Tasks**:
-- [ ] Configure ETF-specific evolution mix
-- [ ] Create `scripts/generate_synthetic.py`
-- [ ] Generate initial batch (~50 questions)
-- [ ] Manual review of each question (process will evolve as database grows)
+- [ ] Extend the Phase 3 golden schema and loader contract to reference stable claim IDs in a specific release snapshot
+- [ ] Define release checks that exclude blank answers, unresolved evidence, and claims that have not been reviewed
+- [ ] Treat the existing 12 goldens with blank answers and sources as candidates until they meet those checks
+- [ ] Define manual review of each question, answer, regime, and supporting claims before release
+- [ ] If pursuing the suggested two-golden pilot later, use the AP-agreement parties question and the creation-fee costs question; first resolve the conflict between Market Mechanics and the unreviewed AP section for the latter
+- [ ] After validating the process, configure ETF-specific synthetic variants and create `scripts/generate_synthetic.py` using reviewed release claims
 
 **Evolution examples**:
 - Same concept across asset classes (US equity ETF vs fixed income with derivatives)
 - Reasoning variants ("Why does X happen?")
 - Comparative variants ("How does X differ from Y?")
 
-**Initial target**: ~50 synthetic questions + 12 curated = ~62 total
+**Release target**: Start small and expand after review; the earlier count of
+~50 synthetic plus all 12 curated questions is not a release requirement.
+The two-golden pilot is suggested future work, not authorized by the current
+documentation task. Do not fill benchmark answers yet.
 
-**Deliverable**: Small, high-quality synthetic dataset ready for initial model evaluation
+**Deliverable**: A small dataset of answered, reviewed goldens referencing a
+versioned claim set, ready for model evaluation.
 
 ---
 
@@ -295,7 +293,7 @@ jobs:
 
 ## Question Categories
 
-Initial targets (will grow over time):
+Coverage planning counts only, not release eligibility or quotas (will grow over time):
 
 | Category | Curated | Initial Synthetic |
 |----------|---------|-------------------|
@@ -344,8 +342,8 @@ dev = ["pytest-cov", "ruff", "mypy"]
 | 1 Foundation | None |
 | 2 Metrics | 1 |
 | 3 Dataset | 1 |
-| 4 Documents | 1 |
-| 5 Synthetic | 3, 4 |
+| 4 Release claims | 1 |
+| 5 Reviewed goldens | 3, 4 |
 | 6 Runner | 2, 3 |
 | 7 CI/CD | 2-6 |
 
