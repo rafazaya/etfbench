@@ -1,5 +1,7 @@
 # Provisional four-model pilot results
 
+Follow-up, 2026-11-07: [agreed-answer audit](agreed-answer-audit.md). The report and scores below remain the original run record; the audit flags corrections separately.
+
 Same 44 questions and frozen calibrated rubric. Rafa’s 2026-11-06 decisions applied; **not goldens**. Haiku/Luna reuse calibration answers and grades; Sol/Opus are new answer samples. Credit is correct/partial/wrong = 1/0.5/0.
 
 | Model | Resolved credit (95% bootstrap interval) | Correct / partial / wrong | S alone | O alone |

@@ -1,0 +1,80 @@
+{
+  "audited_on": "2026-11-07",
+  "reviewer": "Implementation sub-agent, editorial reference audit; not an independent blinded grader",
+  "scope": "All normalized unanimous grades, including wrong/partial and side claims; no fresh model calls",
+  "input_sha256": {
+    "blind-bundle.json": "5baabd1ff009eda6a50896f03659733e002cc2f906bd2620ab0ec1dc20a7641a",
+    "blind-key.json": "aed8056a921ed7655084acc579803e152263c4af863f36ecd382deab175d3493",
+    "grades-s.json": "bd1a164e33af3faee237e9add2c7fda5f14792727fe33400c8c4f429020fa4c5",
+    "grades-o.json": "7ede53cde9aaed88f3569497d9b5f71658343ae7ce4492d300fb2d7b2bf62e44",
+    "grades-l.json": "62e78f6140ac20242e51dacbc4a2fbf0568bc088da3103cc839572b42bc65a8a",
+    "references-reviewed.json": "4adf559382a99ae4f04924556339f66c612ab1285186f0f03d86e9fa9b4363dd",
+    "source-excerpts.json": "692cf107e33044ab0761c6891a1ad8443225435b3bc58d3e087d5a75ce2791de"
+  },
+  "agreed_answer_ids": [
+    "HOX001",
+    "HOX003",
+    "HOX007",
+    "HOX009",
+    "HOX010",
+    "HOX014",
+    "HOX015",
+    "HOX017",
+    "HOX021",
+    "HOX022",
+    "HOX023",
+    "HOX024",
+    "HOX026",
+    "HOX027",
+    "HOX029",
+    "HOX032",
+    "HOX033",
+    "HOX034",
+    "HOX035",
+    "HOX036",
+    "HOX039",
+    "HOX041",
+    "HOX042",
+    "HOX043",
+    "HOX044",
+    "HOX047",
+    "HOX049",
+    "HOX050",
+    "HOX051",
+    "HOX053",
+    "HOX054",
+    "HOX055",
+    "HOX056",
+    "HOX058",
+    "HOX059",
+    "HOX061",
+    "HOX062",
+    "HOX063",
+    "HOX064",
+    "HOX068",
+    "HOX069",
+    "HOX070",
+    "HOX071",
+    "HOX072"
+  ],
+  "findings": [
+    {
+      "blind_id": "HOX050",
+      "question_id": "HO-13",
+      "result": "retain partial; side-claim correction",
+      "reason": "Invokes Rule 15a-5 as an available route. Frozen Adviser and sub-adviser evidence explicitly says that proposal was withdrawn in 2009. Core board/oversight coverage still clears half; missing aggregate-fee approval and this local falsehood prevent correct."
+    },
+    {
+      "blind_id": "HOX024",
+      "question_id": "HO-15",
+      "result": "retain partial",
+      "reason": "Explicit 2% attribution conflicts with Rafa’s 3% estimate. Optional exact recall means silence is fine, not that a stated wrong number is true. Existing partial cap is appropriate; preserve practitioner uncertainty."
+    },
+    {
+      "blind_id": "HOX039",
+      "question_id": "HO-15",
+      "result": "retain partial",
+      "reason": "Same incorrect 2% practitioner attribution and insufficient uncertainty; the fund-specific versus universal ceiling distinction supplies substantive coverage. No upgrade under the new vouched policy."
+    }
+  ]
+}

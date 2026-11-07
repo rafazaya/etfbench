@@ -1,6 +1,6 @@
 # ETFBench and the ETF knowledge bank
 
-Rafa's decisions, 2026-11-05. These govern data sources and golden generation
+Rafa's decisions, 2026-11-05, updated 2026-11-07. These govern data sources and golden generation
 in [implementation phases 4–5](../IMPLEMENTATION_PLAN.md#phase-4-knowledge-bank-and-release-claims).
 They supersede the earlier plan to generate goldens directly from a collected
 document repository and count all curated questions toward the initial release.
@@ -12,11 +12,19 @@ approved in the private Obsidian vault at
 `/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/`; its hub is
 `/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF.md`.
 
-ETFBench is private, so verified knowledge may be included freely. Public
-examples may be selected later if needed; preparing a public subset is not a
-prerequisite for private releases. Refer to the vault by path only in these
-docs. Do not copy vault content as part of this documentation task. The small,
-reviewed claim snapshots described below are future release work.
+ETFBench measures how well agents replicate Rafa's professional ETF knowledge.
+Public sources help build the test suite; they are not its sole authority.
+The benchmark is private and is not a public claim that its answers are fully
+correct.
+
+On 2026-11-07 Rafa decided: “include normally” — his vouched practitioner facts
+are first-class golden evidence alongside publicly verified facts. Cite them
+explicitly as Rafa's vouched knowledge, preserving scope, date and uncertainty.
+They require neither public corroboration nor a separate benchmark track.
+Review and question/answer approval still apply to both source types.
+
+Refer to the vault by path in general documentation. Release snapshots freeze
+only the selected evidence; they do not export the whole bank.
 
 ## Versioned claims and golden eligibility
 
@@ -58,15 +66,26 @@ The bank must not be the only source of questions. Synthetic variants may
 expand coverage, but must use reviewed release claims and pass the same answer
 and evidence requirements as curated questions.
 
-## Suggested pilot for later
+## First promotion queue (2026-11-07)
 
-A suggested first step is a two-golden pilot:
+The held-out run's verdict replaces the deferred two-golden pilot: prepare a
+small manually reviewed batch, audit agreed grades as well as disagreements,
+and obtain Rafa's approval of each question/answer pair before promotion.
+Tier A describes approved or vouched source provenance, not pair approval.
+The creation-fee conflict remains unresolved and is excluded from batch 01.
 
-1. Who are the parties to an AP agreement?
-2. What costs does the creation fee cover?
+`runs/promotion-batch-01/queue.json` freezes candidate claims and their exact
+supporting evidence. IDs are editorial identifiers, independent of content
+hashes; keep an ID for the same claim across versions. Content SHA-256 covers
+exact UTF-8 claim text; evidence SHA-256 covers the evidence object as canonical
+JSON (sorted keys, compact separators, Unicode preserved). Evidence includes
+exact excerpts, attribution and source locators; public demand links are not
+silently treated as proof. The snapshot version pins the complete release.
 
-Before the second golden can be included, resolve the bank's conflicting
-reasons for the creation fee in Market Mechanics and the unreviewed AP section,
-then review the resulting claims. This records the conflict without choosing
-an answer. The pilot is a suggestion, not work authorized by this documentation
-task; do not generate either answer yet.
+`etfbench.knowledge.promotion` validates the queue and builds a release in memory
+only after claims are reviewed, evidence is resolved and pairs are approved
+by Rafa with a date. No command writes goldens automatically. Save an approved
+release as a new snapshot, never overwrite an old release. `affected_goldens`
+compares claim content and evidence hashes against a later snapshot and flags
+changed or missing dependencies. Existing blank-answer legacy files remain
+candidates; the permissive legacy loader is not a release eligibility check.

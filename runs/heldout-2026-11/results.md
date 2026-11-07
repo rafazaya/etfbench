@@ -1,5 +1,7 @@
 # Provisional held-out validation
 
+Follow-up, 2026-11-07: [agreed-answer audit](agreed-answer-audit.md). The report and scores below remain the original run record; the audit flags corrections separately.
+
 18 unseen questions, four models, 72 accepted answers. Rafa’s November 6 decisions applied. **Not goldens. No golden files changed.** Credit: correct/partial/wrong = 1/0.5/0. All three defaults accepted; exact numbers optional for HO-15/16/18. HO-16 rank order is practitioner-confirmed Tier A, confined to the dated assignment universe; counts and historical Q3 ranking remain unconfirmed.
 
 ## Rubric check

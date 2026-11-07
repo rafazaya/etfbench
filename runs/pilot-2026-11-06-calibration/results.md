@@ -1,5 +1,7 @@
 # Provisional rubric-calibration results
 
+Follow-up, 2026-11-07: [agreed-answer audit](agreed-answer-audit.md). The report and scores below remain the original run record; the audit flags corrections separately.
+
 **Rafa decisions pending; not goldens.** All 44 questions and 88 existing capped round 2 final answers; no answer models rerun.
 
 110/118 original key points (**93.2%**) are required under the recommended defaults. S marked 113/118 required (95.8%); O marked 107/118 (90.7%). They agree on **112/118 markings (94.9%)**. These are bundled-point labels, not agreement on every subdetail: [32 grouped judgments remain for Rafa](for-rafa.md).

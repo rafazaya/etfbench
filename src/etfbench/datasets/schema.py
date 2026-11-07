@@ -14,6 +14,8 @@ class ETFGolden(BaseModel):
         category: Question category (capital_markets, regulatory, etc.).
         difficulty: Question difficulty (basic, intermediate, expert).
         source_documents: Document files containing the answer.
+        claim_ids: Stable editorial claim IDs supporting a reviewed golden.
+        claim_version: Immutable snapshot version containing those claims.
     """
 
     id: str
@@ -23,6 +25,9 @@ class ETFGolden(BaseModel):
     category: str
     difficulty: str = "intermediate"
     source_documents: list[str] = []
+
+    claim_ids: list[str] = []
+    claim_version: str | None = None
 
     def to_deepeval_test_case(self):
         """Convert to a DeepEval LLMTestCase.

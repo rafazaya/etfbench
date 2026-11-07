@@ -9,13 +9,17 @@ ETFBench: AI benchmark for ETF industry knowledge using DeepEval.
 
 ## Knowledge Bank and Golden Releases
 
-Rafa's [2026-11-05 decisions](ai/knowledge-bank-decisions.md) govern data sources
-and goldens. The private ETF knowledge bank is the editorial authority; each
-private benchmark release uses a small, reviewed, versioned claim snapshot.
-Goldens reference stable claim IDs and cannot ship with blank answers or
-unresolved evidence. Track `sourced`/`vouched` separately from review status.
-External questions drive coverage and growth of the bank. The proposed
-two-golden pilot is deferred; do not fill answers as part of recording decisions.
+Rafa's [knowledge-bank decisions](ai/knowledge-bank-decisions.md), updated
+2026-11-07, govern goldens. ETFBench measures how well agents replicate Rafa's
+professional ETF knowledge. This private benchmark is not a public claim of
+full correctness. Rafa's explicitly cited `vouched` practitioner facts are
+first-class evidence alongside publicly verified `sourced` facts, with no
+public-corroboration requirement or separate track. Source type remains
+separate from review status. Goldens require reviewed, versioned claims with
+stable IDs, resolved evidence and Rafa's question/answer approval.
+External questions drive coverage. The small promotion queue replaces the
+old deferred pilot; see `runs/promotion-batch-01/for-rafa.md`. Do not promote
+candidates or run `scripts/convert_questions.py` without authorization.
 
 ## Philosophy: Keep It Simple
 

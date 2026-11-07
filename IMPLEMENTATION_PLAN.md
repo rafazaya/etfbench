@@ -8,7 +8,7 @@ Benchmark for evaluating AI models on ETF industry knowledge using DeepEval.
 
 ## Current Status
 
-**Data-source and golden plan updated**: 2026-11-05
+**Data-source and golden plan updated**: 2026-11-07
 
 **Decisions**: [Knowledge bank and release policy](ai/knowledge-bank-decisions.md).
 The phase progress below is the historical 2026-02-08 planning baseline, not a
@@ -41,7 +41,7 @@ Key decisions already made:
 - Config-driven benchmark runs (YAML files specify models + questions)
 - Start small; release only answered goldens backed by reviewed, versioned claims
 - Knowledge bank is editorial authority; external questions drive coverage
-- Follow ai/knowledge-bank-decisions.md (2026-11-05); the pilot is deferred
+- Follow ai/knowledge-bank-decisions.md (updated 2026-11-07); batch 01 awaits Rafa pair approval
 - Global scope: US + EU regulatory sources
 
 Please confirm you've read the plan and let's begin Phase 1 implementation.
@@ -152,11 +152,12 @@ been researched and approved in the knowledge bank. Synthetic variants using
 DeepEval Synthesizer may extend this process.
 
 **Tasks**:
-- [ ] Extend the Phase 3 golden schema and loader contract to reference stable claim IDs in a specific release snapshot
-- [ ] Define release checks that exclude blank answers, unresolved evidence, and claims that have not been reviewed
+- [x] Add claim IDs and snapshot version to golden schema; promotion queue validates references (2026-11-07)
+- [x] Gate in-memory releases on answered pairs, resolved evidence, reviewed claims and Rafa pair approval (2026-11-07)
 - [ ] Treat the existing 12 goldens with blank answers and sources as candidates until they meet those checks
 - [ ] Define manual review of each question, answer, regime, and supporting claims before release
-- [ ] If pursuing the suggested two-golden pilot later, use the AP-agreement parties question and the creation-fee costs question; first resolve the conflict between Market Mechanics and the unreviewed AP section for the latter
+- [x] Prepare 10 Tier A pairs in `runs/promotion-batch-01/`; agreed-answer audit recorded in held-out, calibration and strong run folders (2026-11-07)
+- [ ] Obtain Rafa pair approval and save a reviewed release; creation-fee conflict excluded from batch 01
 - [ ] After validating the process, configure ETF-specific synthetic variants and create `scripts/generate_synthetic.py` using reviewed release claims
 
 **Evolution examples**:
@@ -166,8 +167,8 @@ DeepEval Synthesizer may extend this process.
 
 **Release target**: Start small and expand after review; the earlier count of
 ~50 synthetic plus all 12 curated questions is not a release requirement.
-The two-golden pilot is suggested future work, not authorized by the current
-documentation task. Do not fill benchmark answers yet.
+The small manually reviewed queue supersedes the two-golden pilot. Batch 01
+contains proposed answers outside `data/goldens/`; promotion awaits Rafa approval.
 
 **Deliverable**: A small dataset of answered, reviewed goldens referencing a
 versioned claim set, ready for model evaluation.
