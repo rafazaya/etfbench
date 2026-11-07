@@ -1,0 +1,24 @@
+{
+  "blind_id": "C037",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that the fund pays the unitary fee to the adviser, which keeps the management-fee revenue. It also says the sponsor's separate contract pays specified ordinary operating expenses 'for the fee remainder'. Together these cover the adviser receiving the fee and the sponsor taking the residual for assuming expenses."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Explicitly says the sponsor's assumption 'does not eliminate the adviser's continuing obligation to the fund'. It adds that the adviser must cover any costs the sponsor fails to pay. Listing exclusions is optional."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Says the sponsor's economics are the fee remainder, allocated 'under their contract'. Also states 'There is no standard percentage split\u2014terms vary by fund and agreement.' The role contrast is optional."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are covered: the adviser receives the fee and the sponsor takes the remainder for assuming expenses; the adviser stays obligated to the fund; and the split is contractual with no universal percentage. The answer does not say the sponsor contract releases the adviser, and it does not claim a guaranteed split owed by the fund. No material local falsehood was found."
+}

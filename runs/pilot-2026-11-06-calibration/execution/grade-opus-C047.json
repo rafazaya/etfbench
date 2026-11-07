@@ -1,0 +1,24 @@
+{
+  "blind_id": "C047",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The break-even item compares fee revenue with operating, legal, licensing and other costs, and says low-fee or costly strategies 'may need more scale.' That implies costs that do not shrink with size. However, it never explicitly says a small fund loses money because of fixed costs, nor that small or young funds face heightened closure exposure."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Ability is covered by 'Who covers shortfalls' (waivers, caps, subsidy end dates, 'the sponsor's capacity to absorb losses') and by sponsor financial resources. Willingness is covered by stated scale thresholds and the sponsor's closure history. The closing line 'These are warning signs, not a closure forecast' supplies the no-certainty element."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "The seed item contrasts temporary seed with seed 'likely to persist' and notes that 'Temporary seed can exaggerate demand,' which implies withdrawal risk. It does not identify market-maker seed as redeemable inventory or contrast it with investor seed. It also omits that subsidized seed investors can leave. Board powers are optional."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Required coverage is 2.0 of 3, which is at least half, and core facts are supplied. There is no central error: the answer never says small size guarantees closure or that seed is permanent. It cannot be graded correct because points 1 and 3 are only partly covered: the fixed-cost loss mechanism is implied rather than stated, and the market-maker versus investor seed distinction is missing."
+}

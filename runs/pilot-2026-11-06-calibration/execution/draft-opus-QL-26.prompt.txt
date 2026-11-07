@@ -1,0 +1,10 @@
+Independently calibrate this provisional question rubric. You have not seen the other draft.
+For EVERY numbered original key point mark required (expert answer incomplete without its minimum)
+or optional (nice-to-have). Bundled points: specify minimum content and explicitly optional subdetails.
+Define explicit central false statements that force wrong rather than partial. Omission is not falsehood.
+Define scoring for correct/partial/wrong; consider half-credit for partial coverage of a bundled point.
+Use round2 disagreements as editorial evidence, not ground truth. No external research.
+Return ONLY JSON {"id":..., "points":[{"point":1,"mark":"required|optional","minimum":"..."}],
+"central_errors":["..."],"scoring_rule":{"correct":"...","partial":"...","wrong":"..."}}.
+
+{"id": "QL-26", "question": "As of 2026-11-06, what AP-agreement and exchanged-basket records must a US ETF preserve under Rule 6c-11(d), and for how long must they be retained and readily accessible?", "key_points": ["Retain records of each exchanged basket: holdings identifiers/descriptions, quantities and weights, custom-basket designation and compliance statement where applicable, cash balancing amount and transacting AP identity.", "These basket records must be retained for at least five years, the first two readily accessible.", "All written AP agreements or copies must also be retained for at least five years, the first two easily accessible."], "grader_notes": ["Opus: Accept the supplement. Recommend adding the AP-agreement retention line to Market Mechanics, 'Basket controls and publication', so that a future release does not depend on a reviewer-side completion.", "Accepted source supplement: Rule 6c-11(d)(1) supplies AP-agreement retention omitted in bank prose; add to the bank before a golden release."], "round2_disagreement_evidence": []}

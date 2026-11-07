@@ -1,0 +1,34 @@
+{
+  "id": "QL-06",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "States yes, with conditions. The ETF and mutual fund classes share one pooled portfolio. ETF-class in-kind redemptions deliver appreciated or low-basis securities out of that portfolio without the fund recognizing gain (citing \u00a7852(b)(6) is optional). Because gains are realized and distributed at the portfolio level, this can reduce capital gains distributions to mutual fund class shareholders as well as ETF-class shareholders. Optional subdetails: the statute citation, lot-selection mechanics, and how distributions are allocated across classes (a simplified 'pro rata' description is acceptable)."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Gives at least one mechanism limit: cash-based sales still realize gains, including sales forced by mutual fund class cash redemptions or rebalancing, so in-kind gain removal does not shelter all fund-level gains. Optional subdetails, not required unless the answer asserts the contrary: (a) securities left in the fund keep their original basis, so embedded gains are removed rather than eliminated by a basis step-up; (b) mutual fund class cash flows can impose realized gains and transaction costs on ETF-class holders, not just reduce the mutual fund class's own benefit."
+    },
+    {
+      "point": 3,
+      "mark": "required",
+      "minimum": "States that the cross-class benefit is conditional and not guaranteed. It must tie the benefit to at least one practical factor, such as the volume and frequency of in-kind ETF redemptions, which lots are delivered, the fund's strategy or turnover, the size of mutual fund cash flows, or practical in-kind capacity. Optional subdetails: that the answer applies only to funds with share-class relief and not to every fund; that fund-level nonrecognition does not exempt redeeming investors or APs from their own gains; and an explicit mention of 'strategy' or 'capacity' when volume or lot dependence is already stated."
+    }
+  ],
+  "central_errors": [
+    "Answers that ETF-class in-kind redemptions cannot benefit mutual fund class shareholders, or that any benefit is confined to the ETF class or to separate per-class portfolios.",
+    "States that the fund recognizes gain on in-kind redemptions to ETF APs, so there is no fund-level tax benefit.",
+    "States that the securities remaining in the fund receive a stepped-up basis, or that in-kind redemptions reset or eliminate the embedded gains of the remaining portfolio.",
+    "States that fund-level nonrecognition exempts redeeming shareholders or authorized participants from tax on their own gains.",
+    "States that the benefit is guaranteed, or that it eliminates capital gains distributions for the mutual fund class regardless of cash flows or cash sales.",
+    "States that cash sales or mutual fund cash redemptions do not realize gains or do not affect the shared portfolio's distributions.",
+    "States that every mutual fund or RIC can obtain this benefit, or already has ETF share-class relief, without exemptive relief."
+  ],
+  "scoring_rule": {
+    "correct": "Full credit (1.0). Meets the minimum for point 1 and the minimums for both points 2 and 3, and contains no central error. Omitting optional subdetails such as basis step-up, the reverse ETF-holder cost, or AP and investor taxation does not reduce the grade unless the answer asserts the contrary.",
+    "partial": "Half credit (0.5). Point 1 is met and there is no central error, but the answer misses the minimum for point 2 or point 3 (or both), or states the limits so vaguely that neither the cash-sale limitation nor the conditional nature of the benefit is identifiable. Imprecise but not false framing, such as a 'pro rata by NAV' simplification or a tangential Rule 18f-3 discussion, does not by itself lower a grade below correct.",
+    "wrong": "No credit (0). The answer contains any central error, or fails the point 1 minimum, for example by not explaining the shared-portfolio, in-kind low-basis removal mechanism, or by not concluding that the mutual fund class can benefit."
+  }
+}

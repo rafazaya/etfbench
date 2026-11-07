@@ -1,0 +1,10 @@
+Independently calibrate this provisional question rubric. You have not seen the other draft.
+For EVERY numbered original key point mark required (expert answer incomplete without its minimum)
+or optional (nice-to-have). Bundled points: specify minimum content and explicitly optional subdetails.
+Define explicit central false statements that force wrong rather than partial. Omission is not falsehood.
+Define scoring for correct/partial/wrong; consider half-credit for partial coverage of a bundled point.
+Use round2 disagreements as editorial evidence, not ground truth. No external research.
+Return ONLY JSON {"id":..., "points":[{"point":1,"mark":"required|optional","minimum":"..."}],
+"central_errors":["..."],"scoring_rule":{"correct":"...","partial":"...","wrong":"..."}}.
+
+{"id": "QL-14", "question": "As of 2026-11-06, for a retail investor without NSCC participant access researching a US Rule 6c-11 ETF, where should the investor start for daily holdings and how might they request the actual PCF? Distinguish holdings from transaction baskets; do not assume any named fund offers a free public PCF.", "key_points": ["The fund website's daily portfolio download is the public starting point, but holdings are not necessarily the creation/redemption basket. Rule 6c-11 requires public holdings disclosure, not publication of every transaction basket. [Rule 6c-11(c)(1)\u2013(3)](https://www.law.cornell.edu/cfr/text/17/270.6c-11).", "NSCC distributes the PCF through its participant workflow. An investor needing that exact file should ask the sponsor's capital-markets team or broker about access; a public downloadable PCF is not assured. [DTCC ETF timeline](https://dtcclearning.com/products-and-services/equities-clearing/etf-processing/etf-timeline.html)."], "grader_notes": ["**Confidence: high** for the distinction and NSCC route; **medium** for the suggested contact route (practical recommendation). No universal free retail PCF portal verified."], "round2_disagreement_evidence": []}

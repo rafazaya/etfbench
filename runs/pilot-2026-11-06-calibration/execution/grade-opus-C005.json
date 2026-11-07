@@ -1,0 +1,19 @@
+{
+  "blind_id": "C005",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States 'No' and explains that exchange volume reflects only secondary-market trades. It describes APs creating and redeeming shares in large blocks against the underlying basket or cash, so capacity extends beyond historic volume."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Lists quoted/effective spreads and NBBO depth, underlying basket liquidity (constituent spreads, volume, depth), and intermediary activity (creation/redemption activity, number and quality of market makers and APs)."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. There is no central error: the answer neither treats volume as a hard cap nor promises unlimited execution, and it ties arbitrage effectiveness to underlying liquidity. Ancillary claims such as the typical creation-unit size and closing auction volume are reasonable, not material falsehoods. The answer ends mid-sentence, but that is not a false claim."
+}

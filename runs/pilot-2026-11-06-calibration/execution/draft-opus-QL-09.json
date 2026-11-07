@@ -1,0 +1,31 @@
+{
+  "id": "QL-09",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "States that a creation increases shares outstanding because the fund issues new ETF shares to an authorized participant (AP). Wording such as 'issues', 'creates', or 'new shares' satisfies the issuance mechanism. Optional subdetails: the AP delivers a basket of securities or cash in exchange; the issuance happens in creation-unit blocks; the AP is typically motivated by arbitrage when the ETF trades at a premium."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "States that a redemption decreases shares outstanding because ETF shares are returned to the fund and cancelled, retired, or destroyed. Optional subdetails: the AP is the party redeeming; the AP receives a basket of securities or cash in return; redemptions happen in creation-unit blocks; redemptions are typically arbitrage-driven when the ETF trades at a discount."
+    },
+    {
+      "point": 3,
+      "mark": "optional",
+      "minimum": "Notes that ordinary buying and selling on an exchange only transfers existing shares between investors and does not by itself change shares outstanding. Only the primary market (creations and redemptions) changes the count."
+    }
+  ],
+  "central_errors": [
+    "Stating that creations decrease shares outstanding, or that redemptions increase them (reversed direction).",
+    "Stating that creations or redemptions leave shares outstanding unchanged, or that the ETF has a fixed share count like a closed-end fund.",
+    "Stating that secondary-market trades by investors directly create or destroy ETF shares, or that buying on an exchange issues new shares.",
+    "Stating that redeemed shares are resold or re-traded on the exchange rather than being removed from shares outstanding, presented as the mechanism by which redemption works."
+  ],
+  "scoring_rule": {
+    "correct": "Both required points 1 and 2 are present at their minimum, with the correct direction and the issuance or cancellation mechanism, and the answer contains no central error. Point 3 is not needed for full credit.",
+    "partial": "Half credit. Use this when exactly one of points 1 and 2 meets its minimum, or when both directions (creation increases, redemption decreases) are stated correctly but without any issuance or cancellation mechanism. The answer must also contain no central error. Omissions alone, including leaving out the AP, the basket, or point 3, never make an answer wrong.",
+    "wrong": "Zero credit. Use this when the answer contains any central error, or when it meets neither point 1 nor point 2, for example by giving the wrong direction or not addressing the change in shares outstanding at all."
+  }
+}

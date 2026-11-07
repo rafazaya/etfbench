@@ -1,0 +1,550 @@
+[
+  {
+    "path": "runs/pilot-2026-11-06/references-reviewed.json",
+    "sha256": "3448c392bdb9211bf88ed2e467f153fba8e3b3f79cd66928de4b4f8663605767"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/results.md",
+    "sha256": "c9486c159e875ab0fcc269e5698e0cdff7b7adc22bc2f6c854a279e35a644cf3"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/disagreements.md",
+    "sha256": "ddcdd30c50b77da06285d796791178bb807ba8d95535f6706c64e57d0ebcefb5"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/grades-s.json",
+    "sha256": "7031580709eead34f84869cb4c99fb5a8fea847f80c27e0237bc9347701dc3bd"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/resolutions.json",
+    "sha256": "04ac97796e5dd326f2052f0b36fd7d7257a136a805b9755d60805eb3a9228ac8"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/blind-bundle.json",
+    "sha256": "9116234842e6ea53a8b15f5d906320c3712d46ad525e4e84f10013ee30b9ae77"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/blind-key.json",
+    "sha256": "7832d7bb37ad3ea592348f2940303a3e61d5ec7af34c7bf65300f751b4d429b4"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B001.json",
+    "sha256": "760fa089d2940175a99c284d1a9123fee0698fbeadb6cef2a7869fe1883b276d"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B002.json",
+    "sha256": "016ea4feb42f723a6a6e2a0b662c497c25d96996c92e7cb6abe0ada32a2fa5d1"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B003.json",
+    "sha256": "78da9f47c363ed0975e03e4f646a7a4321baf824a98414e0e0c194aa11ea8a34"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B004.json",
+    "sha256": "4df0fbaeba9c4b0edbcc2f2d31f11107ba1a35dcdc418026db2ddb705abf6a0e"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B005.json",
+    "sha256": "d85d23a0b7b882cf2e80995cef1c349b9f79462ef24996a0db2bc52ab7b2423c"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B006.json",
+    "sha256": "0ec11b8a424e8aa15bd9219734e6ef24fad8846f07099fb005393f0057891994"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B007.json",
+    "sha256": "ba78290dedbc7fae73e69692067ff751e640b21665f58c402b0771d9bce5f4f6"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B008.json",
+    "sha256": "1e0ca9ec558b743c70488e0b570ae91eb4fbe070315459e3db2447e4f071b7a1"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B009.json",
+    "sha256": "696ed4759f6c0d9dc7a57b757e697b71c750010cedb0dd1bcd1639a7ff7576fa"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B010.json",
+    "sha256": "3bedc5862de34b6510e4dda6880c8cc31e634a12f6803df0feec64eca4976a84"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B011.json",
+    "sha256": "15a4d1cf252597f39b8542bd4accf3fd7eb45af6f972a379cc3c7d7802498494"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B012.json",
+    "sha256": "cc27ba6cadaa138e0de62595476992a64e22a0836d29947715cc647e7adeb303"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B013.json",
+    "sha256": "7a5a02389bed7acbc0f13cd631dc4bf6710d0bbce9e2d3ed89c08b6ea934513f"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B014.json",
+    "sha256": "9c9896f037c88d18c610cba739aaf92de2307ef2a947c424176c7030b3c51107"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B015.json",
+    "sha256": "1fbc00c68f62676271c6c68c9bec66d79b8f93fa7bf5500723fc7101f7c91fa8"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B016.json",
+    "sha256": "64851bd88c4b42225a9ec111feb1bc07c2ee4c83dfbf45dd217dbe79f9b3a972"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B017.json",
+    "sha256": "fab6dc9d2962b1611562829177811d0efe233d625f75ed725a3ecc17c661ca8d"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B018.json",
+    "sha256": "4f33f23d0ecd6ebaf460b97704138662ead4151bd897b12eb041ab56c9c773f9"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B019.json",
+    "sha256": "3b72aaf3a7eb0f89eac5e4c6f6a3590cf1df8c395ceffbe90d0648c01dc5da27"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B020.json",
+    "sha256": "f0731b9db1261c2b5ce376fa00ecfadc88cb9ca1f6892a46cf83f3be0ad8d1a1"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B021.json",
+    "sha256": "417bf1cc950a21c414f18f5d2203ef2441698b6f008cac1dc43f66e98dc12d64"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B022.json",
+    "sha256": "d035899b2fe847a9a4b7bc8cba644d5a2fc22692936e50412287dc9306514d21"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B023.json",
+    "sha256": "3256c324c74b078cd6efe0c4c6086511a11ebf1e82eb076a277d04f47332ba7e"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B024.json",
+    "sha256": "01b389f676bd3798fae62a2a3fd6d65e85af8d197efb2a04884eaa8f660583bd"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B025.json",
+    "sha256": "ef40b6df726037c7b3802e739917a62c0cf992a72c5cdca9711b2dfba8c85da9"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B026.json",
+    "sha256": "dccc272d74c642ac8ab9e6ba5e7479b53aac0b571ddab57b71fef77c7cb329f8"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B027.json",
+    "sha256": "47e18caea7547b7ec1261b28a745c7b9343bc773a0459bc662d27ade276282ba"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B028.json",
+    "sha256": "b6d79680a23038f276694d6753a4d1f119f8393d0570da127e852be982e59a64"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B029.json",
+    "sha256": "613011d8fa890d608b971c65759fa14d1921128506093d7f812d17d83aef35f6"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B030.json",
+    "sha256": "ce43d02d61f43fca0ac14ea96f704429cfc746ad0b946ef7b5908d70294812e9"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B031.json",
+    "sha256": "11cacd34b96afba0572e2c1e88c9930ff1c18a736ece2fac841884c432d30918"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B032.json",
+    "sha256": "7457f8a41dd51b1c9ab077f1fed859606ea012b86c388d5b9cda8484cee798a4"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B033.json",
+    "sha256": "b9b4b5fad59606217a9d8af11e2d8c09f593f7aaf31417724f367f3ac5a8f411"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B034.json",
+    "sha256": "5fad1920f1912ac67bba4f0ddd65a501d6a7b023c4ca143d792f529d5608f5e0"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B035.json",
+    "sha256": "1fcd8fe05e4540219b4ef64f0645ae5e713a2588fb8cc78b4ed50ccafd9fe590"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B036.json",
+    "sha256": "5a73a9c824bdf91b2f1a357036e044abbedaa8677720665a0e9e2934c3d78250"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B037.json",
+    "sha256": "be0805d62c3dd2e0a27e779c75db59930acd11845db010be948cb38dd5b9ed82"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B038.json",
+    "sha256": "9f4fd4c86c32ab888f3ee04257f4c4f961e7aeeec181a354eac0f66466b50dd4"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B039.json",
+    "sha256": "66944ae03197818515abf47cb17f9d1bfa2cbffd0f15c657a84f74e3bcc8b95b"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B040.json",
+    "sha256": "fdf28f4a8528ed160d90df1d38dc25c657bcfaba88dde6db0be875cf9ae523c3"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B041.json",
+    "sha256": "4c39d43d2fbe16b6e797f6ef1907a6d7b22c19952f00cb99444cfce5daa50f8d"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B042.json",
+    "sha256": "d59284b336687b90733eaae4fa0de0f75404ba1b3f4aed313d522b761ac64045"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B043.json",
+    "sha256": "84cb9b762e48c9995b5301d0b476985626c7f75bf3156dfaba898d37d2ea6da3"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B044.json",
+    "sha256": "70d7785733459df9d5e079eeac6f9a2f063e8e4d842ff9b9bb28f0639271b0d2"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B045.json",
+    "sha256": "a839a843caa9230f856ce4149de64be7e073aeb95017b67093152b5fa039cd93"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B046.json",
+    "sha256": "fe9f2b042cefd7ab172ac5a2c2675fd39875e7c7b9cc5e9614e086e9772fb73c"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B047.json",
+    "sha256": "aafe6c8ec7279d3f515fb4e5fb8c7d48b51c1ed91761a0320c2d082ee546d7d6"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B048.json",
+    "sha256": "3f673d7e6fa661d7d46f9ddc21369dfa2c9cfe15c25d54c303782944f7b21556"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B049.json",
+    "sha256": "2ccb3619ec606e231452e00deb018d1370673fba201f2f4e1851da3142b6552b"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B050.json",
+    "sha256": "72151ec20154d14133364334f377f7b3df004586fe327d6ecd913a0d50ab9f2a"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B051.json",
+    "sha256": "22637427eb48ce51be38cb324b55c26aeb46ebdd5ffad1c6ef43ae88d53f7d7d"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B052.json",
+    "sha256": "8e1893d1498e22a47d0052740c6db61f44c27ff5c318805cbc52c19c5decc8db"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B053.json",
+    "sha256": "80199e7dc0f3c2a34fa059ae9340dac21bd990d559732faa2a437606ab23c862"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B054.json",
+    "sha256": "92e62cec7319b6d541bb53f204ef67551af71e19887d5fdccef1f23ad025895e"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B055.json",
+    "sha256": "9805a26ebce240fb26bc04e1bc654af237e0d323da9793cb98e300b90816d4ef"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B056.json",
+    "sha256": "1b3b3a927ac1e397ed9c0ccae02115104d071796c3418308c7d29d9435cb5ccb"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B057.json",
+    "sha256": "fca30fa2b09456206d615ddd4a7f7f38bf326bb4fa0f81498176e79de33cf5e7"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B058.json",
+    "sha256": "3369fc8fcefd76afecd2df4bf6e39bb816ba8933c3740efb3e9abeb0f30640e1"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B059.json",
+    "sha256": "81f39e9c3fb33be9fe833017e725ada96c1ff980e9dfc526736106e429e0f30c"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B060.json",
+    "sha256": "fcd4cd61aaf0c8e71c58d176bea079026079a0e16eac44b88abe771b61eac3cb"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B061.json",
+    "sha256": "7735908e72c1e6ce14b8f42a18b02efd37eb013ee2b69c77eb6b99248d87bb3d"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B062.json",
+    "sha256": "2605381ac3b2aa32281eb0a0f0b63036ae0fb38a36c71eb5abb8eab829ea8806"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B063.json",
+    "sha256": "204b07a6da1d2f74515a38d5ebb71469a8dce2eb8ee2750f888998c2f201d7a8"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B064.json",
+    "sha256": "c980de3f2593b1e42c3eec37bab13724b3d3422dc7e646e7d308f93d7db5f429"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B065.json",
+    "sha256": "5be756cd6bbadad067f4c6d96c5a7798dd800066800b69c7d2748733ac83fb7f"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B066.json",
+    "sha256": "e3e027b90622980cd6006bbf5d12ceab54d863cdbef12aca2739eee61937f2d1"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B067.json",
+    "sha256": "1f3329f31efeedc2a142312bc66c25c94d69092dab27fb8990de644754e3fd12"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B068.json",
+    "sha256": "797251a84ed275568886da3c3dd2f9fd7157b20e2d4705aedd737eaece1dc8e8"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B069.json",
+    "sha256": "9167fecf8b724369d457655f097321fbb81ca01559ac4de0f249f050aca2c96f"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B070.json",
+    "sha256": "a422c90d819a5477264bc39418e2042f3be35aae989a64e676486fd68b4ff220"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B071.json",
+    "sha256": "d72ef8d0b7679d3b6fc1422556b6ee0f1aec1614722b796e91b78e23223087c9"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B072.json",
+    "sha256": "8e91c230a4a4c5bb48a8761aa9e9e4bc068b943a67d932a7e3eeffe6ef74731c"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B073.json",
+    "sha256": "53c8267ebc14fe3f199af846bd2c4d782d20653a4621d4d2924b49c86e7370ba"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B074.json",
+    "sha256": "577459a17eea8bf79ad1f48e902064ee136353abedfc41132ce46481d5f1a222"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B075.json",
+    "sha256": "a453abd1c897fb999149e9e9e061ae8f0e2d36ff18020c285dd477ea56091501"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B076.json",
+    "sha256": "27a503aec55ceba2ce86d357cae4268f324701f7e85a49c6a588331caab64109"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B077.json",
+    "sha256": "7e5f335ae28c2bfac5942a969ce57cc38ecf9ae4bb142fdd69b9430db7c161e6"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B078.json",
+    "sha256": "f9cc8e1a1fc715c5b24e76478d8c775d4c3879b1a17753fdf9cad95ec4ee21f9"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B079.json",
+    "sha256": "f2b3020bc62111c7e7b3e62fd91797138f5836ff69a914a52d3ccf0c73738051"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B080.json",
+    "sha256": "608a6236fa1dd85363d9452d9832b5a2d7db66bbb0b91f2d4d72056fc69bd36d"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B081.json",
+    "sha256": "e094432dee1d1d1e630cebc01a84d518cf564ff2f89c9f1f0cc009d01b6f5c16"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B082.json",
+    "sha256": "e6e2b1b7eabd2ac6f098d69034a80ad8bc84b8414448658097d78f81033053cf"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B083.json",
+    "sha256": "ae2547859f7a4e38bfedf995f22daf4cf74e3be4534e189b003eae0415884353"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B084.json",
+    "sha256": "44e2dfc582c9770540f986261f666e9d06ce42e02a24bfe94ca49a3de80e356c"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B085.json",
+    "sha256": "5c84bf43467537b7371cb4a675aca0fe268a6998bd8ec726ec48ab3f325bccd6"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B086.json",
+    "sha256": "d6ca8efa5ebfe0a7ca5b9f5bc93a348f113175b92dab491d67e169010e36de01"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B087.json",
+    "sha256": "eb0267b0488d6b21b04cbb5153fde4ef25b6d055597315bab862f39e5fa8760a"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B088.json",
+    "sha256": "ffc0ba16cdd69145ba26404dd2bbecc9fe79ee2ba08937f52d2eadeacbf0c834"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B089.json",
+    "sha256": "e7014b8eb75b0d2d163b184d7aec7fe1fb954824655cb9b25cec76f178461954"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B090.json",
+    "sha256": "840a556ccbb390f55513bbd1e8141dfd5aa729a2072c870d6e34e082b7ef5e8b"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B091.json",
+    "sha256": "31696158c0f30307ba23dadafc24a4be6e87e41cf24dbda89845a0fdbbda3f30"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B092.json",
+    "sha256": "b7d7d5382b551aac0b3f9efd83ce29cfbaa4b48c36895a2c6a46932a3b4ca6bc"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B093.json",
+    "sha256": "16d9fe558a9b28e84230cc40149314cdec5e7809f4cc5572941cf9f194f130b0"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B094.json",
+    "sha256": "dac0a52e67703bd11bcd1bd1aec5c2895b34da0ad55d9e42dbb6d4127ec88ad7"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B095.json",
+    "sha256": "1bbd95352f11e92690a46a9bd64e35ec064484724718eee43d37ac9023d652bf"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B096.json",
+    "sha256": "977b2174f05af2f792f8d873e853e837fe1332604f8911d8ea5827d956a53edb"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B097.json",
+    "sha256": "db59f51e8b56ec2259437407ad36a592e32e70c6f72c44dda3ea9142982635d5"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B098.json",
+    "sha256": "b49213ab8595279326c777e7c7d8c661b27fda75d8cbaa5b120141106b8aeb00"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B099.json",
+    "sha256": "9db0d92be2062a9e2a49349a1dfa961908029329e3a6da33730ecc5aed0ca472"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B100.json",
+    "sha256": "95ee72e3c1f30cf0bb711441f1b77a5cd6a9f8f2ae0e50e8842639cde14e52d8"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B101.json",
+    "sha256": "0f94e21a85971540b84fcc6cd405149a1db8c3bceb7ce22c955edbb11ade34a6"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B102.json",
+    "sha256": "296ccac7312d107a93ca53e841d550146957eaa8b1ac6dfbf7e1659738df108d"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B103.json",
+    "sha256": "925a3035b8340cfba89ff3603909a3333c748bc720223eafb53c229dffbd1385"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B104.json",
+    "sha256": "fa56f3779fe4b953ec825e8696cc625fe0a2899ff7528cf6968429fed75153f8"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B105.json",
+    "sha256": "4d2173c307763870151c5249fbda40469acab6bff3450b8e7fe8f8a50f37405c"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B106.json",
+    "sha256": "c7d19e430e203b20cfca45430b446f752e0f0bae791116b08759e40d86444ee7"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B107.json",
+    "sha256": "4fea743b872e09e6fd9254794cfe3ddaa00725e4ea6d140428a6e4c229760751"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B108.json",
+    "sha256": "939ad2a67d04116ad9e0d8eeb30bd3baaacb9ace5c106ca59fc28745528502b0"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B109.json",
+    "sha256": "645344f03f9a18d2cb5b403a7cce3972ad9c3bec49850e4a871d367c382caab5"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B110.json",
+    "sha256": "5819aa88d9a304f180481b51167aef68fee1e35aa070fe9ae68d7f9d26f244d1"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B111.json",
+    "sha256": "9cff973b395605dded4d6e0fd8361c92eec46c8a0799d11802eb28e498ccf040"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B112.json",
+    "sha256": "96e034ffc6515367cbce2897300889811d45f87526583c449157d641737122f1"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B113.json",
+    "sha256": "06ba8fe08afb5e6ab8edefd6521468da324d9cc56b1ef5a3c78aea36a7ecd44e"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B114.json",
+    "sha256": "31e74e0568165093af6691b997fa1514822a77b183bc4ebdaaf7065f3370a8d1"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B115.json",
+    "sha256": "82c3e0e32d53841cf8d3fcac4852b0c294a0e0daa8e1bdaae1bc30ff7dd314d2"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B116.json",
+    "sha256": "e2622a002a368268da1f99623df22061e7b321be4028ab3b0ef0b403653fdf4f"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B117.json",
+    "sha256": "9425379b85b5c471e49d723d047e458f2073c99ca58feeb2ac2ca3861fc26289"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B118.json",
+    "sha256": "983492f6016bdee75f8369afcac1679d124a3a75e92bd134874fd3133568df8b"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B119.json",
+    "sha256": "c8c3379b8fe6bdbd08dc54818d77c20a81d5a0f034295c08212e63024eeef9df"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B120.json",
+    "sha256": "3cfc0171b93cb704bc63b68a4bdbbe189bf206abad74526dd424cc6a46fd4ac9"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B121.json",
+    "sha256": "43ead295d3e7dd62e3c9758e28cbc91bf82ffd37858b9400a5853472ebb8b349"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B122.json",
+    "sha256": "47bbbbe30c73376a45204bbf7fc18f063ee97a8d3eb8cd61f05703b955d3733a"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B123.json",
+    "sha256": "c1b709096b71fc49750b3219fd9c605701e80ef3ac502fe6f2083c9a0f70d258"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B124.json",
+    "sha256": "4d6ab67b39bc89b4c505cc00dd53c227df3ced654bdd3faa9a5df4248c20f8cf"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B125.json",
+    "sha256": "eb201f33afc9ddb3086e0d46bc13472ebbf3d0e63570065874be2e784d5dca49"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B126.json",
+    "sha256": "e429ad0f381096a6deb650c55020aad759b5c6324c95d588b1927fb552a8c3de"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B127.json",
+    "sha256": "85920b4aa7b11bc61cfb6fea43dc280e0b13830a314ca4dfb0c89b6438ee9255"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B128.json",
+    "sha256": "b9abcb710702f287122fbe2e1f7e198bca596089d9b381b9a44c3d30d51b3d93"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B129.json",
+    "sha256": "0cf2e590d86a401302caab9c4451e48c31836383846edbbad7cf4cd05c90eae8"
+  },
+  {
+    "path": "runs/pilot-2026-11-06-r2/execution/grade-opus-B130.json",
+    "sha256": "930a12e5e3840c7159bdf49f02c820a8f13e400c0c9bf9f8f2f1060f1312f387"
+  }
+]

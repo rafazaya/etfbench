@@ -1,0 +1,19 @@
+{
+  "blind_id": "C007",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that the fund is a separate legal entity that owns its assets and that sponsor creditors normally have no claim. Also says shares are interests in the fund, not claims on the sponsor, and that sponsor insolvency does not cancel them."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says an independent custodian holds the assets under 1940 Act custody rules. Names board responses such as replacement, reorganization or liquidation. Frames separation as 'the structural default, not a guarantee' and says outcomes depend on the facts, so no recovery is promised."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are covered and the answer states no central error. Its caveats about commingling or fraud, affiliated cash sweeps or securities lending, contract terminations and license issues are plausible and not false. The truncated ending ('This is general information, not') is a formatting gap, not a falsehood. It omits that liquidation pays shareholders their share of net assets, but this does not lower the grade because the minimum is met through custody, wind-down and the no-guarantee framing."
+}

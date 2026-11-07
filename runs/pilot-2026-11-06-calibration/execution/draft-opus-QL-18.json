@@ -1,0 +1,33 @@
+{
+  "id": "QL-18",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "States that adding a new series to an existing trust by a Rule 485(a) post-effective amendment normally becomes automatically effective 75 days after filing. States that this is a filing-effectiveness clock, not a promised launch date. Optional subdetails: other material 485(a) amendments normally use 60 days; the registrant may designate a later effective date; the SEC may accelerate effectiveness; a citation to Rule 485(a)(1)\u2013(3)."
+    },
+    {
+      "point": 2,
+      "mark": "optional",
+      "minimum": "Cites a filed example, such as Simplify's January 30, 2024 485APOS cover, that elects the 75-day route and states that shares cannot be sold before effectiveness. The general principle that shares cannot be sold before effectiveness is acceptable without naming the example."
+    },
+    {
+      "point": 3,
+      "mark": "required",
+      "minimum": "Explains why 75 days is not an end-to-end launch guarantee. Names at least one source of extra time outside the filing clock: preparatory work, exchange or listing and operational readiness, or separate exemptive relief where needed. Must also distinguish a new trust: it does not use the Rule 485(a) post-effective-amendment route, and the 75-day clock is not the rule for its initial registration. Optional subdetail: a designated later effective date for a new-series amendment may be at most 95 days after filing. A specific commercial launch-time estimate is not required and should not be presented as verified."
+    }
+  ],
+  "central_errors": [
+    "States that the normal automatic-effectiveness period for adding a new series by 485(a) amendment is 60 days, or another figure other than 75 days.",
+    "Presents 75 days, or any filing period, as a guaranteed or binding end-to-end launch or trading deadline.",
+    "States that shares may be offered or sold before the amendment becomes effective.",
+    "Applies the Rule 485(a) 75-day post-effective-amendment clock to a new trust's initial registration statement, or says the two follow the same process.",
+    "States that a new series can be added effective immediately on filing under Rule 485(b) as the normal route.",
+    "Presents an unverified universal commercial launch timeline as an established rule."
+  ],
+  "scoring_rule": {
+    "correct": "Meets the minimum for both required points (1 and 3), including the 75-day figure, the filing-clock-not-launch-guarantee distinction, at least one extra time factor, and the new-trust distinction. Contains no central error. Optional points are not needed for full credit.",
+    "partial": "Gives the correct 75-day period with no central error, but only partly covers point 3: for example, it gives the non-guarantee caveat or extra time factors but omits the new-trust distinction, or the reverse. Award half credit for each required point covered only in part. Omissions alone never make an answer wrong.",
+    "wrong": "Contains any central error, or fails to identify 75 days as the normal period for a new-series 485(a) amendment, whether by giving no period or a wrong one."
+  }
+}

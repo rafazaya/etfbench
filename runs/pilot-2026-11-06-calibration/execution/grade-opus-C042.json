@@ -1,0 +1,24 @@
+{
+  "blind_id": "C042",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the 75-day period under Rule 485(a)(2) for a new series, notes acceleration and other provisions, says the clock is not an end-to-end launch guarantee, and treats initial trust registration as a different regime rather than applying the 75-day clock to it."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "Optional point. The answer does not say shares cannot be sold before effectiveness and gives no filed example. This omission does not reduce the grade."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Says the clock covers registration-statement effectiveness, not completion of launch work, and lists exchange listing, seed capital, operational readiness and required regulatory steps. The optional 95-day designated-date limit is omitted, which does not reduce the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\"generally becomes effective no earlier than 60 days after its initial filing under Investment Company Act \u00a7 8(a), absent acceleration\" \u2014 This is a material misstatement. Investment Company Act \u00a7 8(a) governs notification of registration (Form N-8A), which is effective on receipt and has no 60-day clock. Securities Act \u00a7 8(a) gives a 20-day default for a registration statement, which is commonly extended by a delaying amendment until the SEC declares it effective. The answer gives the wrong period and the wrong statutory source for the initial-registration distinction the question asks for. It is not the listed central error, because it does not apply the 75-day Rule 485 clock to the new trust.",
+  "grade": "partial",
+  "rationale": "Both required points are fully covered and there is no central error. The answer does not apply the 75-day clock to initial trust registration and does not call it a launch guarantee. However, its account of the requested initial-registration distinction gives a false 60-day period and attributes it to Investment Company Act \u00a7 8(a). Under the scoring rule, a material local falsehood caps the grade at partial."
+}

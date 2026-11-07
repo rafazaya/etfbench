@@ -1,0 +1,27 @@
+{
+  "id": "QL-07",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "Answers 'no' (or equivalent: volume alone is insufficient) AND explains why via the primary-market mechanism: exchange volume reflects secondary trading in existing shares, while authorized participants can create new ETF shares (or redeem shares) in exchange for a basket of underlying securities/cash, so historical share volume does not by itself measure capacity to absorb a new order. Optional subdetails: in-kind vs cash baskets, creation unit sizes, arbitrage keeping price near NAV/iNAV, citation to ICI."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Names additional observable indicators beyond share volume, including at minimum: (a) quoted bid-ask spreads and/or displayed depth/order book size, and (b) liquidity of the underlying holdings/market, with some link that underlying liquidity affects ETF spreads/trading costs. Full credit also expects mention of AP/market-maker/intermediary activity (e.g., number of active APs or market makers). Optional subdetails: premium/discount to NAV, iNAV tracking, spread behavior over time or in stress, underlying volume/ADV, trading-hours mismatch for foreign underlyings, IDC monitoring citation, consulting a capital-markets desk. Must not promise or guarantee execution capacity; framing should acknowledge these are indicators, not guarantees."
+    }
+  ],
+  "central_errors": [
+    "States that historical exchange share volume alone is sufficient to assess ETF liquidity for a new order, or that ETF liquidity is limited to/equal to its average daily share volume.",
+    "Claims ETF share supply is fixed (like a closed-end fund) or denies that APs can create/redeem shares.",
+    "Misdescribes creation/redemption so that retail/ordinary investors directly create or redeem with the fund, or that creation/redemption occurs via exchange trading rather than with the issuer against a basket.",
+    "Asserts underlying-market liquidity is irrelevant to ETF trading costs/spreads.",
+    "Guarantees or promises that any order size can be executed at or near NAV / without market impact (i.e., promises execution capacity)."
+  ],
+  "scoring_rule": {
+    "correct": "Both required points met at their minimum, including mention of AP/market-maker activity in point 2, with no central error. Optional subdetails not needed.",
+    "partial": "No central error, but at least one required minimum is incomplete: e.g., correct 'no' with mechanism but indicators limited to one category; or indicators listed without explaining creation/redemption; or point 2 lacks AP/market-maker activity (half credit for that point). Score as roughly 0.5 per required point, with half credit for a point partially covered; total between the extremes is partial.",
+    "wrong": "Commits any central error, or fails to answer that volume alone is insufficient and covers neither required point substantively."
+  }
+}

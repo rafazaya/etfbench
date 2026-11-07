@@ -1,0 +1,29 @@
+{
+  "blind_id": "C048",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that cross-subsidization runs both ways, with ETF activity imposing shared-portfolio costs on mutual fund holders and mutual fund flows imposing costs on ETF holders."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Names mechanisms only generically ('ETF trading or basket activity', 'mutual-fund subscriptions/redemptions \u2026 may impose costs'). It does not describe forced sales, gain realization or cash drag borne by ETF holders, nor in-kind baskets needing later portfolio adjustment. It does label them as conceptual examples."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Separates the order-specific framework and denies a universal numeric cutoff. It omits board-approved thresholds, methods and periods for transaction costs, cash levels and capital-gains distributions, and describes the framework as evaluating an individual order's costs."
+    },
+    {
+      "point": 4,
+      "credit": 0,
+      "reason": "Never says a threshold breach prompts notice and assessment rather than automatic illegality or closure. 'They do not establish that every order is problematic' does not cover this."
+    }
+  ],
+  "central_error": null,
+  "local_error": "'A representative order-specific framework evaluates an individual order's expected costs and effects across classes and the portfolio, considering relevant circumstances and allocation'. This misdescribes the exemptive order framework, which uses board-set thresholds, methods and periods for monitoring categories, as a per-trade order evaluation. It is a material ancillary inaccuracy, which caps the grade at partial.",
+  "grade": "partial",
+  "rationale": "No central error. Required coverage sums to 2 of 4, which meets the half threshold, and core facts are supplied (both directions; the transaction-cost, cash and gains categories; no universal thresholds). However, the mechanisms are vague, board thresholds, methods and periods are missing, breach handling is absent, and the framework is mischaracterized as evaluating individual orders."
+}

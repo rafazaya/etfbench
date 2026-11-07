@@ -1,0 +1,1164 @@
+[
+  {
+    "id": "QL-01",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Asset separation prevents automatic creditor access/share wipeout"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Custody and orderly replacement or wind-down; no promised recovery"
+      }
+    ],
+    "central_errors": [
+      "Sponsor creditors automatically own portfolio or shares wiped out solely by adviser failure"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-02",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Proportionate remaining proceeds, timing/value may differ, sale before end"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Net proceeds after liabilities and possible taxable gain/loss; no exact basis formula needed"
+      }
+    ],
+    "central_errors": [
+      "Liquidation inherently loses entire holding or guarantees fixed proceeds/date"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-03",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Fixed-cost small-fund losses"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Sponsor capacity/willingness to subsidize, no certainty"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "Temporary versus investor seed and withdrawal risk; board powers optional"
+      }
+    ],
+    "central_errors": [
+      "Small size guarantees closure or seed guarantees permanent assets"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-04",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Indirect fund expense reflected in NAV, annual rate"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Daily accrual, not full annual rate daily"
+      },
+      {
+        "point": 3,
+        "mark": "optional",
+        "minimum": "Supporting detail only"
+      }
+    ],
+    "central_errors": [
+      "Expense ratio separately billed or full annual percentage deducted daily"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-05",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "In-kind transfer avoids fund-level sale gain"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Low-basis lots removed, fewer future distributions"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "No absolute tax exemption or no-gains promise; investor sale still taxable"
+      }
+    ],
+    "central_errors": [
+      "ETF or investor universally tax exempt; in-kind redemption necessarily recognizes fund sale gains"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-06",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Shared portfolio benefits both classes"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Embedded gains removed without remaining-asset basis step-up; cash gains remain"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "Conditional benefit, investor/AP tax caveat optional"
+      }
+    ],
+    "central_errors": [
+      "Classes hold separate portfolios so cannot share benefit, or remaining securities gain a basis step-up"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-07",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Secondary volume alone insufficient because creations/redemptions"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Spreads/depth, underlying liquidity and intermediary activity"
+      }
+    ],
+    "central_errors": [
+      "Historical exchange volume is a hard liquidity cap or unlimited execution guaranteed"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-08",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Creation/redemption basket exchange"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Premium/discount arbitrage links price and value"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "No guaranteed equality"
+      }
+    ],
+    "central_errors": [
+      "No creation/redemption arbitrage, or guaranteed price/NAV equality"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-09",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Creation increases shares"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Redemption reduces shares"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "Secondary trades do not change shares"
+      }
+    ],
+    "central_errors": [
+      "Reverses creation/redemption share-count effects or says secondary trades issue shares"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-10",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "AP creation units versus retail exchange trades"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Retail sale not fund redemption"
+      }
+    ],
+    "central_errors": [
+      "Ordinary retail investor can redeem individual shares directly with US ETF"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-11",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Clearing agency member/participant and written agreement with ETF/service provider"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Reviewed AP/distributor, TA acceptance, trust beneficiary"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "NSCC/DTC routes; not necessarily market maker"
+      }
+    ],
+    "central_errors": [
+      "No clearing membership/written agreement needed, or reviewed US trust is main signatory rather than beneficiary"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-12",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "No automatic AP payment or ongoing dealing duty"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Transaction fee is AP cost, not compensation; waiver/subsidy possible"
+      },
+      {
+        "point": 3,
+        "mark": "optional",
+        "minimum": "Supporting detail only"
+      }
+    ],
+    "central_errors": [
+      "AP status mandates continuous dealing or automatic fund retainer"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-13",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Nontransferable positions require fund to trade using cash"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Trading costs/gains can reduce in-kind benefits, conditional not universal"
+      }
+    ],
+    "central_errors": [
+      "All derivatives necessarily transferable in kind, or cash dealing always preserves in-kind tax benefit"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-14",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Website daily holdings not necessarily baskets"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "NSCC participant workflow; ask sponsor/broker, no free public PCF promise"
+      }
+    ],
+    "central_errors": [
+      "Holdings necessarily equal transaction basket or NSCC file universally freely public"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-15",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "AP primary versus MM secondary role"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "MM uses AP, same firm may have both roles"
+      },
+      {
+        "point": 3,
+        "mark": "optional",
+        "minimum": "Supporting detail only"
+      }
+    ],
+    "central_errors": [
+      "AP and market maker necessarily identical roles"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-16",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Shared board/officers/providers reduce fixed costs"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Loss of sponsor control; board replacement and role taxonomy optional"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "Conditional single-fund fit, not universal recommendation"
+      }
+    ],
+    "central_errors": [
+      "Series trust assures sponsor control or universally optimal for every sponsor"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-17",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Seed assets not expenditure; legal minimum not commercial launch budget"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Costs allocated by contract, no universal payer"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "One-time and recurring categories; fixed costs divided by positive retained net margin"
+      }
+    ],
+    "central_errors": [
+      "Seed is a consumed operating bill, or positive retained margin alone guarantees overall profit"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-18",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "75-day new-series amendment, not initial trust automatic clock or end-to-end guarantee"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "No sales before effectiveness; specific filed example optional"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "Operational readiness adds time; 95-day designated limit optional"
+      }
+    ],
+    "central_errors": [
+      "75-day automatic Rule 485 clock applies to initial trust registration, or guarantees end-to-end launch"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-19",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Core board, adviser, distributor, custodian, admin/accounting, TA, audit"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "AP, seed, listing/MM, settlement/PCF"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "Counsel/pricing, index/lending conditional"
+      },
+      {
+        "point": 4,
+        "mark": "required",
+        "minimum": "Roles can be bundled"
+      },
+      {
+        "point": 5,
+        "mark": "required",
+        "minimum": "Compliance program/CCO and board oversight"
+      }
+    ],
+    "central_errors": [
+      "No governance/custody/compliance needed, or each role legally must be separately hired"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-20",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Adviser receives fee, sponsor takes residual for assuming expenses"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Adviser remains obligated to fund; exclusions optional examples"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "Sponsor residual economics, no universal split; role contrast optional"
+      }
+    ],
+    "central_errors": [
+      "Sponsor contract releases adviser from fund obligation, or fund universally owes sponsor a guaranteed split"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-21",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Sponsor bears contracted economic shortfall"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Adviser backstops fund expenses on sponsor default"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "Fixed costs and contractual allocation, no shareholder reimbursement duty"
+      }
+    ],
+    "central_errors": [
+      "Sponsor default releases adviser so fund/shareholders must cover promised ordinary expenses"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-22",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Distributor appointment does not assure assets"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Separate sales/marketing/intermediary arrangements"
+      }
+    ],
+    "central_errors": [
+      "Principal underwriter appointment guarantees sales force/asset gathering"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-23",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Registered open-end, not UIT"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Leveraged/inverse eligible subject to 18f-4"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "Nontransparent, master-feeder, share class need separate relief; disclosure condition"
+      }
+    ],
+    "central_errors": [
+      "Leveraged/inverse categorically excluded, UIT covered, or nontransparent/share-class reliance needs no separate relief"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-24",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "All four relief categories: redeemability, market-price trading, limited specified affiliate basket exchanges, foreign delivery up to 15 days as soon practicable"
+      }
+    ],
+    "central_errors": [
+      "Unlimited affiliate relief or foreign delivery beyond 15 days by this relief"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-25",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Prior-close holdings before trading; prior-day NAV/price/premium; history; median spread; >2% for >7 days explanation retained year"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Days-count table and NBBO median spread method, no exact rounding needed"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "Prior year and completed quarters or shorter life, free public site"
+      }
+    ],
+    "central_errors": [
+      "Public holdings optional or no mandatory website disclosure"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-26",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Basket composition/quantities/weights, custom status/compliance, balancing cash, AP identity"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Five years, first two accessible"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "AP agreements same five/two retention"
+      }
+    ],
+    "central_errors": [
+      "No records required or knowingly reverses five-year/two-year rule"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-27",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Written construction/acceptance policies"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Custom parameters/best interests and departure process"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "Reviewer roles and compliance records"
+      },
+      {
+        "point": 4,
+        "mark": "required",
+        "minimum": "Nonrepresentative OR different later representative basket; not nonstandard order"
+      }
+    ],
+    "central_errors": [
+      "Custom basket only means nonstandard contract order or representative later basket can never be custom"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-28",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Application, notice/hearing, order; two substantially identical grants in prior three years; request/markups/certification; 45 days to notice or response, pauses not universal approval deadline"
+      }
+    ],
+    "central_errors": [
+      "45 days guarantees final relief or expedited eligibility needs no precedent"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-29",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Exchange/LMM rationale, expertise, capital/seed inquiry"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Temporary MM seed versus stickier not permanent investor seed"
+      }
+    ],
+    "central_errors": [
+      "MM seed guaranteed permanent or diligence legally requires fixed capital amount"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-30",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Licence economics/duration/termination, naming, affiliated info controls"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Contract-dependent renewal/substitution contingency"
+      }
+    ],
+    "central_errors": [
+      "Guaranteed substitution regardless of licence or universal notice period"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-31",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Investigate causes/options, peer spreads and AP/MM activity"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "NAV timing/market hours, underlying costs and creation impediments, no single presumed cause"
+      }
+    ],
+    "central_errors": [
+      "Persistent deviation alone proves failed arbitrage or guaranteed intervention trigger"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-32",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Sampling, rebalance, pricing, limits and variable costs"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Cash and dividend timing as possible causes"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "Constant daily fee shifts mean not variability; variable costs can affect error"
+      },
+      {
+        "point": 4,
+        "mark": "required",
+        "minimum": "Daily active-return variability versus cumulative gap, defined period/benchmark"
+      }
+    ],
+    "central_errors": [
+      "Tracking error equals cumulative return difference or constant fee necessarily increases active-return standard deviation"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-33",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Borrower failure, collateral shortfall, reinvestment loss and conditional US controls"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "UCITS recall, valuation/liquidity/credit/diversification/haircuts; no noncash reinvestment, restricted cash use"
+      }
+    ],
+    "central_errors": [
+      "Collateral eliminates all lending risk or UCITS noncash collateral freely reinvestable"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-34",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Transparency policy and information location in prospectus/KID/marketing"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Daily public nondiscriminatory OR conditional periodic with daily AP/MM info, procedures, quarter-end public within 30 business days"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "Position/quantity info, prospectus route and iNAV methodology when calculated"
+      }
+    ],
+    "central_errors": [
+      "All Irish ETFs must publish full daily public holdings, or periodic route needs no daily arbitrage info"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-35",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Identifier documents, ETF sub-fund in mixed umbrella, sub-fund OR listed-class identifier and clear classes"
+      },
+      {
+        "point": 2,
+        "mark": "optional",
+        "minimum": "Supporting detail only"
+      }
+    ],
+    "central_errors": [
+      "Identifier mandatory only at sub-fund level with no listed-class option, or non-ETF siblings must labelled ETF"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-36",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Ordinary secondary trading warning"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Significant NAV deviation permits direct exit"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "Market notification, disclosed process and non-excessive costs"
+      },
+      {
+        "point": 4,
+        "mark": "required",
+        "minimum": "Responsible-party determination, exceptional route"
+      }
+    ],
+    "central_errors": [
+      "No significant-NAV-deviation direct exit or unconditional retail direct redemption"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-37",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Listed/unlisted coexist; comparison of access/frequency, settlement, brokers, costs, minimums, rights, liquidity/prices"
+      }
+    ],
+    "central_errors": [
+      "Listed/unlisted classes cannot coexist or US conditions govern Irish rule"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-38",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Cash versus in-kind and class currency-hedged versus unhedged exceptions"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Express 2026 permissions rather than old waiver, no arbitrary frequency change"
+      }
+    ],
+    "central_errors": [
+      "2026 express cut-off exceptions still always need old waiver, or arbitrary dealing frequencies permitted"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-39",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Shared cost/cash/gain burden both directions"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Valid cash-flow/basket examples both directions, net charges; gain removal not harmful subsidy"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "Order-specific board thresholds/methods/periods for transaction costs, cash, gains, no universal numbers"
+      },
+      {
+        "point": 4,
+        "mark": "required",
+        "minimum": "Breach notice/assessment, not automatic illegality/closure"
+      }
+    ],
+    "central_errors": [
+      "Gain removal itself necessarily harmful subsidy or breach automatically requires closure"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "QL-40",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Broker account/transfer, notice/deadline eligibility, inability to trade until transferred"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Fraction cash-out may be taxable, notice-specific"
+      }
+    ],
+    "central_errors": [
+      "All investors automatically have trading access without account steps or fractional cash always tax-free"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Underlying liquidity and hedge/create costs affect spreads"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Spread pays MM costs; no numerical ranking needed"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "Primary market beyond historical volume, spread/depth relevant"
+      }
+    ],
+    "central_errors": [
+      "Exchange volume alone sets hard liquidity cap or no hedge/create cost effect"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "115% typical reviewed example, 105% in some forms, applied to undelivered value"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Agreement-specific not universal/whole basket; iShares exact attribution optional"
+      },
+      {
+        "point": 3,
+        "mark": "optional",
+        "minimum": "Supporting detail only"
+      }
+    ],
+    "central_errors": [
+      "Universal collateral rate or ceiling, or percentage applies to whole basket rather than undelivered securities"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "creation_redemption_004_what_costs_do_the_creation_fee_cover",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Fixed processing versus variable trading/tax/impact costs"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "AP bears fee unless waived/paid, provider versus fund recipients can differ"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "Not AP compensation; custom waiver frequency optional"
+      }
+    ],
+    "central_errors": [
+      "Fund transaction charge compensates AP"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  },
+  {
+    "id": "creation_redemption_006_who_are_typically_the_parties_involved_i",
+    "points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "ETF/service-provider permitted counterparties"
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "US AP/distributor, TA acceptance, trust beneficiary/specified signatures"
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "Irish ICAV direct AP agreement contrast"
+      }
+    ],
+    "central_errors": [
+      "Reviewed US trust normally principal AP counterparty instead of distributor/beneficiary distinction"
+    ],
+    "scoring_rule": {
+      "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+      "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+      "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+    }
+  }
+]

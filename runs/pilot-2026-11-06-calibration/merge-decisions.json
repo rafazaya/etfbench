@@ -1,0 +1,368 @@
+[
+  {
+    "issue": "R01",
+    "questions": [
+      "*"
+    ],
+    "key_point": "Partial-credit threshold",
+    "question": "For an otherwise sound but thin expert answer, how much is enough?",
+    "S": "half the equally weighted required points; 0/0.5/1 within bundles",
+    "O": "question-specific thresholds, often lower, sometimes mandatory core-point gates",
+    "recommended_default": "S: one reproducible half threshold"
+  },
+  {
+    "issue": "R02",
+    "questions": [
+      "QL-01"
+    ],
+    "key_point": "Custody detail",
+    "question": "Must the answer name qualified custody as well as separate fund ownership?",
+    "S": "required",
+    "O": "optional",
+    "recommended_default": "S: required"
+  },
+  {
+    "issue": "R03",
+    "questions": [
+      "QL-02"
+    ],
+    "key_point": "Tax basis and timing",
+    "question": "Must liquidation advice explain basis recovery and final-distribution loss timing?",
+    "S": "gain/loss and net proceeds suffice",
+    "O": "basis recovery/loss timing also needed",
+    "recommended_default": "S: simpler minimum"
+  },
+  {
+    "issue": "R04",
+    "questions": [
+      "QL-03",
+      "QL-29"
+    ],
+    "key_point": "Seed withdrawals",
+    "question": "Must an answer also mention subsidized investor exits?",
+    "S": "required",
+    "O": "optional for QL-03; required for QL-29",
+    "recommended_default": "S: required"
+  },
+  {
+    "issue": "R05",
+    "questions": [
+      "QL-06"
+    ],
+    "key_point": "Remaining basis",
+    "question": "Must the answer explicitly deny a basis step-up and mention reverse cash-flow costs?",
+    "S": "required",
+    "O": "optional unless contradicted",
+    "recommended_default": "O: optional subdetails"
+  },
+  {
+    "issue": "R06",
+    "questions": [
+      "QL-08",
+      "QL-09"
+    ],
+    "key_point": "Mechanism qualifications",
+    "question": "Must answers volunteer no guaranteed NAV equality (08) and unchanged shares on exchange trades (09)?",
+    "S": "required",
+    "O": "optional",
+    "recommended_default": "S: required"
+  },
+  {
+    "issue": "R07",
+    "questions": [
+      "QL-11"
+    ],
+    "key_point": "TA/form eligibility detail",
+    "question": "Must the US AP answer name TA acceptance and distinguish market-making eligibility?",
+    "S": "required in bundle",
+    "O": "optional subdetails",
+    "recommended_default": "S: required"
+  },
+  {
+    "issue": "R08",
+    "questions": [
+      "QL-12"
+    ],
+    "key_point": "Fee direction and waivers",
+    "question": "Must a broad AP pay/duty answer explain fund transaction charges and possible waivers?",
+    "S": "required",
+    "O": "optional",
+    "recommended_default": "O: optional"
+  },
+  {
+    "issue": "R09",
+    "questions": [
+      "QL-13"
+    ],
+    "key_point": "Cash tax consequences",
+    "question": "Must cash-dealing answers cover both possible trading costs and realized gains?",
+    "S": "both plus conditional outcome",
+    "O": "one consequence plus in-kind contrast suffices",
+    "recommended_default": "O: either consequence with contrast"
+  },
+  {
+    "issue": "R10",
+    "questions": [
+      "QL-15"
+    ],
+    "key_point": "Non-AP market makers",
+    "question": "Must inventory access through an AP be explicit?",
+    "S": "required minimum",
+    "O": "implicit inventory mechanism enough",
+    "recommended_default": "O: allow clear implication"
+  },
+  {
+    "issue": "R11",
+    "questions": [
+      "QL-16"
+    ],
+    "key_point": "Platform control",
+    "question": "Is a concrete board/provider control contrast needed beyond generic less control?",
+    "S": "control trade-off stated suffices",
+    "O": "host governance/provider control must be concrete",
+    "recommended_default": "O: concrete contrast"
+  },
+  {
+    "issue": "R12",
+    "questions": [
+      "QL-17"
+    ],
+    "key_point": "Cost payers",
+    "question": "Must budgeting answers allocate organization and excluded costs, beyond saying contracts govern?",
+    "S": "contractual allocation and categories suffice",
+    "O": "explicit payer assignments/exclusions needed",
+    "recommended_default": "O: identify payers; exclusion examples optional"
+  },
+  {
+    "issue": "R13",
+    "questions": [
+      "QL-18",
+      "QL-21"
+    ],
+    "key_point": "Supporting context",
+    "question": "Must answers add no sales before effectiveness (18), or fixed-cost/contract context after naming both obligors (21)?",
+    "S": "required",
+    "O": "optional",
+    "recommended_default": "O: optional"
+  },
+  {
+    "issue": "R14",
+    "questions": [
+      "QL-20"
+    ],
+    "key_point": "Fee split",
+    "question": "Must no universal split be explicit, or is not inventing one enough?",
+    "S": "residual economics and no universal split",
+    "O": "explicit contractual/nonstandard split required",
+    "recommended_default": "S: equivalent contractual description enough"
+  },
+  {
+    "issue": "R15",
+    "questions": [
+      "QL-23"
+    ],
+    "key_point": "Separate relief",
+    "question": "Must all three excluded structures be named?",
+    "S": "nontransparent, master-feeder and share classes",
+    "O": "nontransparent plus either other structure",
+    "recommended_default": "S: all three"
+  },
+  {
+    "issue": "R16",
+    "questions": [
+      "QL-25"
+    ],
+    "key_point": "Disclosure precision",
+    "question": "Must the answer give NBBO median-spread mechanics, table day counts and statement retention?",
+    "S": "required, exact rounding optional",
+    "O": "technical point optional; statement retention treated as enrichment",
+    "recommended_default": "S: required"
+  },
+  {
+    "issue": "R17",
+    "questions": [
+      "QL-27"
+    ],
+    "key_point": "Custom-basket error",
+    "question": "Does treating every non-pro-rata basket as custom invalidate an otherwise sound policy answer?",
+    "S": "localized error, caps at partial",
+    "O": "central error, wrong",
+    "recommended_default": "S: partial cap"
+  },
+  {
+    "issue": "R18",
+    "questions": [
+      "QL-30",
+      "QL-31"
+    ],
+    "key_point": "Diligence breadth",
+    "question": "Must index diligence name every contract category (30), and deviation inquiry cover every named dimension (31)?",
+    "S": "all listed core categories",
+    "O": "most terms (30); two of three inquiries/two frictions (31)",
+    "recommended_default": "S: listed minimum categories"
+  },
+  {
+    "issue": "R19",
+    "questions": [
+      "QL-32"
+    ],
+    "key_point": "Tracking-error precision",
+    "question": "Must answers state constant fees shift the mean, and name dividend timing and diversification limits?",
+    "S": "required in bundles",
+    "O": "variability framing suffices; dividend timing/limits optional",
+    "recommended_default": "O: equivalent variability framing"
+  },
+  {
+    "issue": "R20",
+    "questions": [
+      "QL-33"
+    ],
+    "key_point": "UCITS collateral",
+    "question": "Must all five collateral quality/control categories be named?",
+    "S": "all five",
+    "O": "three suffice",
+    "recommended_default": "S: all five"
+  },
+  {
+    "issue": "R21",
+    "questions": [
+      "QL-34",
+      "QL-35"
+    ],
+    "key_point": "Irish disclosure detail",
+    "question": "Must all document placements and procedural details be stated?",
+    "S": "listed documents/safeguards required",
+    "O": "prospectus plus fewer safeguards (34); shorter placement list (35)",
+    "recommended_default": "S: full minimum lists"
+  },
+  {
+    "issue": "R22",
+    "questions": [
+      "QL-36"
+    ],
+    "key_point": "Who decides",
+    "question": "Must the exceptional-exit answer say the responsible party determines significant variation?",
+    "S": "required",
+    "O": "optional",
+    "recommended_default": "O: optional subdetail"
+  },
+  {
+    "issue": "R23",
+    "questions": [
+      "QL-37"
+    ],
+    "key_point": "Class comparison",
+    "question": "Must every comparison category appear?",
+    "S": "all eight",
+    "O": "six including liquidity and price suffice",
+    "recommended_default": "S: all eight"
+  },
+  {
+    "issue": "R24",
+    "questions": [
+      "QL-38"
+    ],
+    "key_point": "Class hedge qualifier",
+    "question": "Must the answer itself adopt class-level currency hedging?",
+    "S": "context may supply qualifier",
+    "O": "explicit adoption required",
+    "recommended_default": "O: explicit adoption"
+  },
+  {
+    "issue": "R25",
+    "questions": [
+      "QL-39"
+    ],
+    "key_point": "Net costs",
+    "question": "Must cross-subsidy examples say costs are net of transaction charges?",
+    "S": "required",
+    "O": "optional",
+    "recommended_default": "O: optional subdetail"
+  },
+  {
+    "issue": "R26",
+    "questions": [
+      "creation_redemption_002_what_is_a_normal_amount_of_collateral_an"
+    ],
+    "key_point": "Collateral examples/severity",
+    "question": "Must 105% be recalled, and is \u201cup to 115%\u201d fatal?",
+    "S": "105% required; a ceiling is central error",
+    "O": "105% optional; ceiling wording localized/partial",
+    "recommended_default": "O: 105% optional; ceiling caps partial"
+  },
+  {
+    "issue": "R27",
+    "questions": [
+      "capital_markets_001_what_are_significant_drivers_of_the_etf"
+    ],
+    "key_point": "Current liquidity indicators",
+    "question": "Must the spread answer also mention executable spread/depth?",
+    "S": "required",
+    "O": "optional",
+    "recommended_default": "O: optional subdetail"
+  },
+  {
+    "issue": "R28",
+    "questions": [
+      "creation_redemption_006_who_are_typically_the_parties_involved_i"
+    ],
+    "key_point": "TA countersignature",
+    "question": "Must the US/Irish comparison name TA acceptance?",
+    "S": "required",
+    "O": "called optional but sole omission still partial",
+    "recommended_default": "S: required; resolve O wording ambiguity"
+  },
+  {
+    "issue": "R29",
+    "questions": [
+      "QL-19",
+      "QL-22",
+      "QL-25",
+      "QL-29",
+      "QL-30",
+      "QL-33",
+      "QL-35",
+      "QL-36",
+      "QL-39",
+      "creation_redemption_004_what_costs_do_the_creation_fee_cover"
+    ],
+    "key_point": "Ancillary false claims",
+    "question": "Should false ancillary rules automatically make an answer wrong (e.g. mandatory lending agent, new-in-2026 label permission, no exit notification, universal fee recipient)?",
+    "S": "partial cap unless the recorded central mechanism is reversed",
+    "O": "broader central-error lists make these wrong",
+    "recommended_default": "S: local-error cap; central mechanism reversals stay wrong"
+  },
+  {
+    "issue": "R30",
+    "questions": [
+      "QL-14"
+    ],
+    "key_point": "False public-PCF mandate",
+    "question": "Should a false claim that 6c-11 mandates public PCF posting force wrong?",
+    "S": "only universal free NSCC access/basket equality explicitly central",
+    "O": "public-PCF mandate also central",
+    "recommended_default": "S literal default: partial cap"
+  },
+  {
+    "issue": "R31",
+    "questions": [
+      "QL-28"
+    ],
+    "key_point": "Wrong expedited clock",
+    "question": "Is a false notice-start/final-action clock central even when approval is not guaranteed?",
+    "S": "central anchor says guaranteed final relief",
+    "O": "wrong starting point/end action themselves central",
+    "recommended_default": "S literal default: partial cap"
+  },
+  {
+    "issue": "R32",
+    "questions": [
+      "QL-35"
+    ],
+    "key_point": "Identifier central-anchor symmetry",
+    "question": "Should either false class-only OR false sub-fund-only restriction force wrong?",
+    "S": "only sub-fund-only prohibition of class option explicitly anchored",
+    "O": "both directions central",
+    "recommended_default": "S literal default: class-only error caps partial"
+  }
+]

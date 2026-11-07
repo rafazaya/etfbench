@@ -1,0 +1,29 @@
+{
+  "blind_id": "C004",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer explicitly covers both directions. In the MF-to-ETF direction, gains and impact costs are borne by ETF holders. In the ETF-to-MF direction, costs are pushed onto MF holders. Its monitoring categories span transaction costs, cash and gains."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "It gives a concrete mechanism for each direction. MF cash redemptions force portfolio sales that realize gains and impact costs borne by ETF holders. Cash-settled ETF creations/redemptions or ETF-driven trading push costs onto MF holders. It correctly treats in-kind removal of low-basis lots as a shared benefit, not a harm, and labels a separate illustrative example."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "It lists the transaction-cost, cash and gains categories and says 'Specific tolerances should come from board-approved policy, not universal standards,' so it invents no universal numbers. However, it does not tie board-approved thresholds, methods and periods to the order-specific framework. Its 'order-level framework' is instead an operational tagging and allocation procedure."
+    },
+    {
+      "point": 4,
+      "credit": 0,
+      "reason": "It does not say that a threshold breach prompts notice and assessment rather than automatic illegality or closure. This is an omission."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error: in-kind gain removal is correctly framed as a benefit, and the answer never says a breach requires closure. Required coverage totals 2.5 of 4, which meets the half threshold, and core facts are supplied. The grade is partial because the breach-consequence point is missing and the order-specific thresholds/methods/periods point is incomplete."
+}

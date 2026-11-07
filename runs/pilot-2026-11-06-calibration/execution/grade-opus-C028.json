@@ -1,0 +1,19 @@
+{
+  "blind_id": "C028",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Answer investigates causes before concluding failure, proposes corrective options (disclosures, better valuation/trading data, liquidity-provider outreach, operational changes), compares peers with similar holdings and trading hours and assesses spreads, and asks APs and market makers about quoting, inventory, hedging and creation/redemption activity, including declining or concentrated participation."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Answer covers NAV timing and stale NAV ('synchronized, executable portfolio-value estimate\u2014not stale NAV'), market hours ('time zones', 'holdings that stop trading before the ETF', 'different market closes'), underlying costs ('spreads, depth... tradability of underlying securities') and creation impediments ('creation/redemption costs, settlement constraints'). It examines several causes rather than presuming one."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer explicitly rejects a single numerical trigger ('Monitor in context rather than relying on a single numerical trigger') and does not claim that persistent deviation alone proves arbitrage failure. No material false statements were found."
+}

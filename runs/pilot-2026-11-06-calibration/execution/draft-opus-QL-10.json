@@ -1,0 +1,27 @@
+{
+  "id": "QL-10",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "States that, in ordinary dealing, an ordinary retail investor cannot redeem individual ETF shares directly with the fund (a clear 'no'), and that direct primary-market creation/redemption with the fund is done by authorized participants (APs) in creation units (large blocks), while retail investors buy and sell existing shares through brokers on an exchange or other secondary market. Minimum: (a) the answer is 'no' for retail redemption of individual shares; (b) direct fund redemption is limited to APs; (c) retail investors trade through a broker on an exchange or secondary market. Optional subdetails that are not required: the term 'creation unit' itself or typical unit sizes; in-kind versus cash baskets; AP agreements with the distributor; arbitrage keeping prices near NAV; Rule 6c-11; market makers; an investor who is or acts through an AP."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Explains the usual alternative: a retail investor exits by selling the shares through a broker in the secondary market at the market price, which can differ from NAV. This is a sale to another market participant, not a redemption by the fund. Optional: bid-ask spreads and commissions; premium or discount to NAV; that market makers or APs may later redeem creation units with the fund."
+    }
+  ],
+  "central_errors": [
+    "Asserts that an ordinary retail investor can, in ordinary dealing, redeem individual ETF shares directly with the fund (for example, at NAV like a mutual fund).",
+    "Characterizes a retail sale on an exchange or through a broker as a direct redemption with or by the fund.",
+    "States that ETFs, like mutual funds, must redeem any shareholder's individual shares at NAV on demand.",
+    "States that a retail investor has no way to exit or liquidate an ETF position outside the excluded reorganization, merger, conversion or liquidation events.",
+    "Relies on the excluded reorganization, merger, conversion or liquidation scenarios as the basis for answering 'yes' to direct retail redemption."
+  ],
+  "scoring_rule": {
+    "correct": "Both required points meet their minimums: a clear 'no' to direct retail redemption, direct redemption identified as limited to APs (creation units), and the alternative identified as selling through a broker on the secondary market. No central error is present. Optional details are not required, and minor imprecision in them (for example, unit sizes) does not reduce the grade.",
+    "partial": "No central error, but coverage is incomplete. Award half credit per bundled element: for example, a correct 'no' and a broker or exchange sale alternative with no mention of APs or creation units, or a description of APs and creation units without clearly stating the retail exit route. Hedged or ambiguous wording that never contradicts the correct position also counts as partial.",
+    "wrong": "Any central error is present, even if correct points also appear. Also wrong: no meaningful coverage of either required point, or an answer limited to the excluded corporate-action exceptions."
+  }
+}

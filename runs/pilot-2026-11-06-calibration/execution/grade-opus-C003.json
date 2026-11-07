@@ -1,0 +1,19 @@
+{
+  "blind_id": "C003",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Covers the core points: the fund 'sells its holdings... and distributes the remaining net assets,' and the investor gets a 'pro-rata share of final NAV per share.' It rejects total loss: 'Normally you receive cash, not a total loss.' It says 'you can usually sell on exchange at market price, which may differ from NAV' and 'Notice and payment schedules vary, so check the notice.'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says the fund 'pays expenses and liabilities' before distributing net assets. For taxable accounts, the distribution is 'generally treated as a sale,' with 'Gains or losses... measured against your cost basis.' It also notes separate capital gain distributions paid before liquidation."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer explicitly rejects automatic total loss and does not fix any proceeds amount or date. Its ancillary claims, such as 1099-B reporting and sale treatment, are consistent with general practice, so no material falsehood was found."
+}

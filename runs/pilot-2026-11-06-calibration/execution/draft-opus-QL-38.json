@@ -1,0 +1,28 @@
+{
+  "id": "QL-38",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "Must state both express Reg. 26(2) exceptions in the 2026 Regulations: (a) cash dealing and in-kind dealing may have different dealing cut-offs; (b) currency-hedged and unhedged share classes may have different cut-offs where the currency hedging is at class level. The class-level qualifier must appear in the answer itself, or be clearly adopted from the question by saying the exception applies to class-level hedged classes. Generic wording such as 'hedged vs unhedged classes' with no class-level limit anywhere is partial on this sub-element. Optional subdetails: the citation or page reference to S.I. 316 of 2026, and identifying the instrument as 'Regulations' rather than 'guidance'. Mislabelling the instrument as guidance is a minor inaccuracy, not an error. Half-credit: only one of (a) or (b) stated correctly, or both stated but the class-level hedging limit is missing."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Must distinguish the regimes. Under the older CBI Q&A 1030 approach, such cut-off differences required a reasoned waiver or application to the Central Bank. The 2026 Regulations now permit these two differences expressly, so no waiver application is needed for them. The answer must not carry the waiver requirement into the 2026 regime. Some limiting statement is also needed: the exceptions are confined to these cut-off differences and are not a general permission for class-level dealing variation. Optional subdetails: the explicit statement that dealing procedures and frequencies otherwise remain the same across classes; the date or edition of the Q&A (42nd edition, April 2025). Neutral framing does not convert to an error unless it is presented as a waiver or prior-approval condition. Examples of neutral framing: describing operational rationale, or noting that arrangements should be disclosed in fund documents. Half-credit: the Q&A 1030 waiver route is mentioned but not clearly contrasted with the express 2026 exceptions, or the contrast is present but there is no limiting statement at all."
+    }
+  ],
+  "central_errors": [
+    "Stating that the 2026 exceptions still require a reasoned waiver application, Central Bank approval, or case-by-case justification under Q&A 1030 (or any equivalent prior-approval step).",
+    "Stating that Q&A 1030's waiver route remains the operative or required mechanism for cash/in-kind or class-level hedged/unhedged cut-off differences as of 2026-11-06.",
+    "Stating that Reg. 26(2) permits different dealing frequencies, or different dealing procedures generally, between classes or between cash and in-kind dealing.",
+    "Stating that the hedged/unhedged exception extends to any hedged class, including portfolio-level or non-currency hedging, or that it is a general class-level cut-off exception.",
+    "Denying that either named exception exists, or stating that all classes and dealing methods must have identical cut-offs with no exception.",
+    "Reversing the chronology, for example claiming the 2026 rule introduced a waiver requirement that Q&A 1030 did not have."
+  ],
+  "scoring_rule": {
+    "correct": "Both required points are fully met: both exceptions are stated with the class-level currency-hedging qualifier, and the 2026 express exceptions are clearly contrasted with the Q&A 1030 waiver approach with some limiting statement. No central error. Omitting optional subdetails does not reduce the grade. This includes omitting 'procedures and frequencies otherwise remain the same', provided some limit on scope is stated. Neutral disclosure or operational framing that is not presented as a waiver condition does not reduce the grade.",
+    "partial": "No central error, but at least one required point earns only half-credit or is missing. Examples: only one exception identified; class-level qualifier absent with no other scope limit; the Q&A 1030 contrast is missing or muddled; no limiting statement at all. Score roughly by points: each required point = 1 (full) / 0.5 (half) / 0 (missing). A total of 1.0\u20131.5 is partial. A total of 2.0 is correct. A total of 0.5 or below with no central error is also partial (low), unless the answer is non-responsive.",
+    "wrong": "Any central error asserted as the answer's position, regardless of other correct content. Also wrong: the answer is non-responsive, or neither required point is addressed even at half-credit. Omission alone is never treated as falsehood."
+  }
+}

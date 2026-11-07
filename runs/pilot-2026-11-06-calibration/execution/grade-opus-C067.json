@@ -1,0 +1,24 @@
+{
+  "blind_id": "C067",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the platform host 'supplies the trust, board, administration, and compliance infrastructure' with 'Lower upfront cost', and contrasts this with the substantial fixed costs of an own trust. This covers shared board and providers reducing fixed costs."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Gives a concrete control trade-off: 'limited say over trustees and service providers, governance standards set by the host', versus own trust 'Full control over board, providers, and fee structure'. This makes clear the platform board belongs to the host, not the sponsor. The optional adviser-replacement and liquidation detail is omitted, which does not reduce credit."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Fit is conditional: own-trust costs are 'rarely justified for one small fund', and a practical test weighs AUM-based cost absorption against 'how much governance control your strategy actually needs', noting 'terms vary widely'. This is not a universal recommendation."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are fully covered. The answer explains cost-sharing through host-supplied infrastructure, states concretely that the host controls trustees and governance, and frames the choice as conditional on cost and control needs. There is no claim of sponsor control under the platform, no universal winner, and no material falsehood."
+}

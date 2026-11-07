@@ -1,0 +1,29 @@
+{
+  "blind_id": "C001",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Says Rule 6c-11 requires written basket policies and procedures covering basket construction and acceptance."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Mentions detailed custom-basket parameters and a process for revisions or deviations. It omits that the parameters must be in the best interests of the fund and its shareholders."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "States that the policies must specify the titles or roles of adviser employees who review each custom basket for compliance, and that review records must be kept."
+    },
+    {
+      "point": 4,
+      "credit": 1,
+      "reason": "Defines a custom basket to include a non-representative basket and a representative basket that differs from the initial basket used that business day. It also says a non-standard order is not a Rule 6c-11 category and does not by itself make a basket custom."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\"(2) a representative basket that is non-pro-rata or differs from that initial basket\". Under Rule 6c-11, a representative basket is custom only if it differs from the initial basket used that business day. Being non-pro-rata does not make it custom. This misstates the custom-basket definition, which is a material local falsehood that caps the grade at partial.",
+  "grade": "partial",
+  "rationale": "All four required points are substantively addressed, totalling 3.5 of 4. There is no central error: the answer does not limit custom baskets to non-standard orders and does not say a later differing representative basket can never be custom. However, it wrongly says a non-pro-rata representative basket is a custom basket, a material local falsehood. Under the scoring rule this caps the grade at partial."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "QL-01",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "States that the ETF's portfolio is owned by the fund (a legally separate entity), not by the adviser/sponsor, so the sponsor's creditors do not gain a claim on the portfolio merely because the sponsor becomes insolvent; and therefore sponsor insolvency does not by itself wipe out ETF shares. Both elements (no creditor claim on portfolio AND shares not wiped out by sponsor failure itself) are needed for full credit. Optional subdetail: citation to ICI custody materials or naming the fund as a separate registrant/trust."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Distinguishes asset separation from a guaranteed outcome: explains that the separation protects against sponsor creditors but does not guarantee value or continuity\u2014shareholders still bear investment/market loss, and the fund may be merged or liquidated (with shareholders receiving their pro rata share of net assets rather than nothing). Must convey at least (a) no guarantee against investment loss/disruption and (b) that the likely consequence is board action (new adviser, merger, or liquidation) with shareholders receiving net asset value in liquidation. Optional subdetails: \u00a717(f)/qualified custodian holding assets separately from the adviser's own assets; specific mention that the board may appoint a new adviser; operational frictions (trading halts, wider spreads, liquidation timing/costs); note that this analysis does not apply to ETNs or other non-'40 Act products; acknowledgment that board responses are case-specific."
+    }
+  ],
+  "central_errors": [
+    "Asserting that the sponsor's/adviser's creditors acquire or can reach the ETF's portfolio assets because of the sponsor's insolvency.",
+    "Asserting that sponsor insolvency by itself wipes out, voids, or renders worthless the ETF shares, or that shareholders necessarily receive nothing.",
+    "Asserting that ETF shareholders are unsecured creditors of the sponsor/adviser or that the fund's assets are part of the sponsor's bankruptcy estate.",
+    "Asserting that asset separation guarantees shareholders against any loss or guarantees full recovery/continuity in every insolvency scenario (contradicts the question's required distinction).",
+    "Treating an ordinary '40 Act ETF as equivalent to an ETN (i.e., an unsecured debt obligation of the issuer) for this question."
+  ],
+  "scoring_rule": {
+    "correct": "Both required points meet their minimums with no central error: clear answer that sponsor creditors do not get the portfolio and shares are not wiped out by sponsor failure itself, plus an explicit distinction that separation is not a guarantee (investment loss possible; board may replace adviser, merge, or liquidate, with liquidation paying pro rata net assets). Hedged language reflecting medium confidence on outcomes is acceptable and should not be penalized.",
+    "partial": "No central error, but one required point is missing or only partially met. Assign half-credit when point 1 is fully met but the guarantee distinction (point 2) is absent or covers only one of its two elements (e.g., mentions liquidation but not that losses are still possible, or vice versa); or when point 1 covers only one of its two elements (e.g., portfolio separation stated but no explicit conclusion on shares). Omission of optional subdetails (\u00a717(f), ETN caveat, operational frictions) does not reduce credit.",
+    "wrong": "Any central error stated as the answer's conclusion, or the answer fails to state the core conclusion of point 1 at all (e.g., only discusses general ETF mechanics or market risk without addressing creditor claims/share survival)."
+  }
+}

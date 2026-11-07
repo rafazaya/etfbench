@@ -1,0 +1,24 @@
+{
+  "blind_id": "C040",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "States that the transparency policy must be disclosed in the prospectus and on the website. It omits the KID/KIID and marketing materials, and does not say where portfolio or iNAV information can be found."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Covers daily public holdings and the conditional periodic route with daily AP/market-maker arbitrage information. It omits the nondiscriminatory basis, the specific procedures for impaired arbitrage and investor information requests, and public quarter-end holdings within 30 business days. 'Applicable regulatory conditions and procedures' is too generic to count."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "No mention of position and quantity content, the prospectus statement of the information supplied under the daily route, or iNAV calculation methodology and frequency."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "wrong",
+  "rationale": "There is no central error: the answer does not say all Irish ETFs must publish full daily holdings, and it expressly makes the periodic route conditional on daily arbitrage information. Calling daily disclosure 'the default' is a loose framing but not a material falsehood. Required coverage totals 1.0 of 3, which is below the half threshold of 1.5, so the scoring rule requires 'wrong' despite some substantive facts being correct."
+}

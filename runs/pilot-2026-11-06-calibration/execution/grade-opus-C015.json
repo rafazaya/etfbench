@@ -1,0 +1,24 @@
+{
+  "blind_id": "C015",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that fixed fees cover routine processing and administrative costs. States that variable fees cover estimated trading, market-impact and other costs, including cash substitutions, and that the charges protect existing shareholders from dilution. Taxes are not named, but trading and impact costs meet the minimum."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Says the AP 'typically pays the fund' and that fund fees go 'to the fund (or, under its arrangements, a service provider)'. It never says the charge may be waived or paid by another party. It also does not separate a provider recipient for fixed charges from the fund as recipient for variable charges, which makes the bundle incomplete."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Separates AP compensation for its own services, hedging and financing from fund charges ('That is not a fund charge') and says it goes to the AP. The custom-waiver frequency point is optional."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error: the answer says the AP pays the fund, not that the fund charge compensates the AP. Points 1 and 3 are fully covered. Point 2 lacks the waiver or third-party-payment condition and the fund-versus-provider recipient split, so not every required minimum is met. Coverage of 2.5 out of 3 meets the threshold for partial."
+}

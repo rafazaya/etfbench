@@ -1,0 +1,24 @@
+{
+  "blind_id": "C043",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States Rule 6c-11 is available to open-end management investment company ETFs and does not cover UIT ETFs."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says leveraged and inverse ETFs are eligible and that leveraged/inverse status alone does not require separate relief. Notes they must comply with Rule 18f-4 (derivatives risk program, VaR limits, reporting) unless the limited-user exception applies."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Covers non-transparent/semi-transparent ETFs and share-class ETFs needing separate exemptive relief, and names daily holdings disclosure as a condition. Omits master-feeder structures, so the bundle is incomplete."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error: leveraged/inverse ETFs are not excluded, UITs are not treated as covered, and nontransparent and share-class ETFs are correctly said to need separate relief. No material local falsehood was found. Points 1 and 2 are fully covered, but point 3 omits master-feeder structures. Total coverage is 2.5 of 3, which meets the partial threshold but not correct, since correct requires every required minimum."
+}

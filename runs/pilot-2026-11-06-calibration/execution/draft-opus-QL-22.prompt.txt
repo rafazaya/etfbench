@@ -1,0 +1,10 @@
+Independently calibrate this provisional question rubric. You have not seen the other draft.
+For EVERY numbered original key point mark required (expert answer incomplete without its minimum)
+or optional (nice-to-have). Bundled points: specify minimum content and explicitly optional subdetails.
+Define explicit central false statements that force wrong rather than partial. Omission is not falsehood.
+Define scoring for correct/partial/wrong; consider half-credit for partial coverage of a bundled point.
+Use round2 disagreements as editorial evidence, not ground truth. No external research.
+Return ONLY JSON {"id":..., "points":[{"point":1,"mark":"required|optional","minimum":"..."}],
+"central_errors":["..."],"scoring_rule":{"correct":"...","partial":"...","wrong":"..."}}.
+
+{"id": "QL-22", "question": "As of 2026-11-06, does appointment of a principal underwriter on a US ETF series-trust platform itself assure a sales force and asset gathering? Distinguish legal/operational distribution from separately contracted marketing and intermediary access; do not assume all platform packages are identical.", "key_points": ["A distributor appointment is not a promise to gather assets. In Simplify's filing, Foreside is principal underwriter/national distributor and receives its annual fee and expenses from the adviser's resources. [Simplify SAI, \u201cDistributor\u201d](https://www.sec.gov/Archives/edgar/data/1810747/000182912624000561/simplifyetf_485apos.htm).", "Salespeople, marketing and intermediary access require separate allocation; an ordinary series-trust servicing package does not assure asset gathering."], "grader_notes": ["**Proposed implication:** a platform sponsor should separately agree who supplies salespeople, marketing and intermediary access; a series-trust service package cannot be assumed to include them. **Confidence: high** for this contract example; **medium** for the practical implication. A claim that every sponsor must employ its own sales team is not supported."], "round2_disagreement_evidence": []}

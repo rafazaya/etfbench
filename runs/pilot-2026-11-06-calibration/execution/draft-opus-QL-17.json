@@ -1,0 +1,33 @@
+{
+  "id": "QL-17",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "State that seed capital is fund assets: it is contributed capital that stays invested, is exposed to market risk and may be redeemed. It is not an expense. Keep it separate from one-time launch spending and recurring operating spending, and do not treat the seed amount as a launch budget or a break-even asset level. OPTIONAL subdetails: (a) Investment Company Act \u00a714(a): an ordinary initial public offering requires $100,000 of net worth, subject to the Act's alternative provisions. (b) The point that this $100,000 figure is neither a launch bill nor a commercial break-even level. The \u00a714(a) figure is not independently required, per the round2 resolutions. If an answer cites it, it must be framed as a regulatory net-worth condition and not as a cost."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "State that payer allocation is set by contract (the advisory/unitary fee agreement and the platform/trust agreements). Under a unitary fee, the sponsor/adviser pays the covered fund operating expenses out of its fee. Contractually excluded items fall outside the sponsor's obligation: typically brokerage/transaction costs, taxes, interest, extraordinary/litigation expenses and, where applicable, 12b-1 fees. Investors separately bear spreads, trading costs and their own platform charges. The answer must also say who bears organization/launch costs, for example the sponsor, with or without recoupment, as the contract specifies. A generic 'per contract' with no payer assignment is partial. OPTIONAL subdetails: the Lazard filed-response example, in which the manager bears organization costs without recoupment and pays trustees directly under the unitary fee. This example is illustrative and not independently required."
+    },
+    {
+      "point": 3,
+      "mark": "required",
+      "minimum": "Bundled. Each part is worth half credit.\n\n(3a) Cost categories:\n- One-time: at least legal/formation/registration and filing work, plus setup or onboarding with the platform, listing, index and service providers.\n- Recurring: at least fund servicing (administration, custody, transfer agency and/or the platform fee), listing, index licensing, and sales/distribution or marketing. Audit, tax, compliance and trustee costs are acceptable additions.\n- Costs should be tied to who pays them.\n\n(3b) Break-even:\n- Separate annual fixed costs from asset-based variable costs.\n- Give break-even AUM \u2248 annual fixed costs \u00f7 (retained fee rate \u2212 variable cost rate). An equivalent verbal statement is acceptable.\n- State that a break-even level exists only when that per-dollar margin is positive.\n- A generic statement that fee revenue (rate \u00d7 assets) must exceed sponsor costs, or that 'positive margin requires revenue > costs', does NOT satisfy 3b. That earns at most half credit for point 3, provided 3a is met.\n\nOPTIONAL: worked symbolic example; mention of platform minimums or fee floors as fixed costs; the note that the model is simplified, which gives medium confidence."
+    }
+  ],
+  "central_errors": [
+    "Treating seed capital as an expense, a sunk launch cost or part of the launch budget, or equating the seed amount with break-even assets.",
+    "Presenting the \u00a714(a) $100,000 net-worth condition as the cost of launching an ETF, as a quoted launch bill, or as the commercial break-even asset level.",
+    "Asserting a specific current vendor quote, or a universal or standard dollar range for launch or annual costs, as fact. This includes promoting an older interview price as the market standard. A clearly hypothetical illustration labelled as such is not an error.",
+    "Stating that under a unitary fee the fund or its shareholders pay the covered operating expenses on top of the fee. Also an error: stating that the sponsor bears contractually excluded items such as brokerage, taxes and extraordinary expenses as a matter of course, or that allocation is fixed by law rather than by contract.",
+    "Giving a break-even formula that is materially wrong, for example fixed costs \u00d7 fee rate, or dividing by the gross fee while ignoring variable costs and presenting the result as exact.",
+    "Asserting that break-even exists or is reachable when the retained fee rate is less than or equal to the variable cost rate."
+  ],
+  "scoring_rule": {
+    "correct": "Points 1, 2 and 3 (both 3a and 3b) meet their minimums, and no central error is present. Optional items (\u00a714(a) $100,000, the Lazard example) are not needed for full credit. Minor imprecision does not preclude correct if it does not distort payer allocation, for example listing 'management fee' among recurring costs under a unitary fee. Note any such imprecision.",
+    "partial": "No central error, but at least one required minimum is unmet or only half met. Score each point at 1, point 3 at 0.5 per sub-part, and point 2 at 0.5 if allocation is called contractual without payer assignment. A total of 1.5\u20132.5 out of 3 is partial. The canonical case: seed is distinguished, allocation is covered and categories are listed, but break-even is the generic 'revenue must exceed costs' without fixed/variable separation and the positive-margin condition. That answer is partial (2.5/3), consistent with the round2 resolutions.",
+    "wrong": "Any central error is present. Separately, a total below 1.5/3 is wrong, for example when seed versus expenditure is not distinguished and break-even is absent, or when the answer does not address the requested cost/payer structure. Omission alone never triggers a central error. It lowers the score only through unmet minimums."
+  }
+}

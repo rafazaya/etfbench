@@ -1,0 +1,24 @@
+{
+  "blind_id": "C085",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that APs have a direct primary-market relationship with the fund, creating and redeeming in creation units, while market makers quote continuous two-sided prices in the secondary market."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "(a) Overlap: 'many are also APs', and the 'Key difference' section keeps the roles distinct. (b) Link: market makers 'use creations and redemptions to offset inventory and hedge risk'. Both elements are covered."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Optional point. The answer does not mention LMM designation, but it does say market makers 'don't need an AP agreement'. Omission does not reduce the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are fully covered. The answer never says AP and market maker are identical roles; it explicitly contrasts them. No material false statements were found: AP agreements with the distributor, creation unit sizes, and the arbitrage description are all accurate."
+}

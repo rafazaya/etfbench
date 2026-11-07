@@ -1,0 +1,24 @@
+{
+  "blind_id": "C024",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Covers prior-day holdings before market open, NAV, market price and premium/discount, history, median spread, and the >2% for >7 consecutive trading days explanation. It omits holding identifiers, quantities and weights. It also misstates retention: it says to keep the explanation posted until the deviation ends, but the rule requires keeping it for at least one year."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "Does not describe the history table as counting days at a premium or discount. Does not mention the NBBO-based method for calculating the median spread."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "States the history covers the most recently completed calendar year and the completed quarters since, and that the website is free and public. It omits the shorter-fund-life caveat, which is minor."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\"keep the explanation posted until it no longer exceeds 2%\" is false: Rule 6c-11(c)(2) requires the statement to stay on the website for at least one year after the deviation. This is a material local falsehood and caps the grade at partial.",
+  "grade": "partial",
+  "rationale": "Required coverage totals 1.5 of 3, exactly half, and several core facts are supplied. There is no central error: the answer affirms mandatory public holdings disclosure and correctly distinguishes holdings from baskets. The wrong retention period for the sustained-deviation explanation is a material local falsehood that caps the grade at partial, and point 2 is missing entirely."
+}

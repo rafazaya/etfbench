@@ -1,0 +1,24 @@
+{
+  "blind_id": "C044",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0,
+      "reason": "The answer does not state the Rule 6c-11(a)(1) definition. It never says an AP must be a member or participant of a registered clearing agency with a written agreement with the ETF or a service provider. It says APs are 'typically' broker-dealers and DTC participants, which is industry practice, not the rule's requirement. It also says the rule does not detail permitted AP counterparties."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "The answer says it cannot see the reviewed forms. It only speculates that they 'may add parties (transfer agent, custodian, distributor)'. It does not identify the distributor and AP as main counterparties, the transfer agent's countersignature or acceptance, or the trust as third-party beneficiary."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "The answer says creations and redemptions generally run through NSCC/DTC, which partly covers the routes. It does not tie NSCC netting membership or DTC participation to the forms. It does not say eligibility differs from being a market maker."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\"It doesn't prescribe a specific authorized participant (AP) agreement form or detail permitted AP counterparties.\" This is materially false: Rule 6c-11(a)(1) defines an AP by clearing-agency membership plus a written agreement. It is not an explicit statement that no clearing membership or written agreement is needed, so it is not treated as a central error.",
+  "grade": "wrong",
+  "rationale": "Required coverage totals 0.5 of 3, which is below the 1.5 threshold for partial. The answer omits the rule's AP definition and the reviewed-form party structure, gives only partial clearing-route context, and includes a material local falsehood about the rule's content."
+}

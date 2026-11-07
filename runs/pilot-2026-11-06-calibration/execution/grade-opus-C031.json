@@ -1,0 +1,19 @@
+{
+  "blind_id": "C031",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer covers each element of this point. It proposes corrective options 'chosen to fit the findings' and investigates causes. It compares against peer ETFs to see whether the pattern is fund-specific. It reviews AP and market-maker participation, including creation/redemption activity, the number of active APs and capacity constraints."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "The answer covers NAV timing and market hours ('contemporaneous NAV', fair-valuing, 'closed-market hours'). It covers underlying costs (liquidity, bid-ask spreads, halts, settlement). It covers creation impediments (basket composition, capacity/balance-sheet constraints). It avoids a single presumed cause by framing remedies as dependent on the findings."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer never claims that persistent deviation alone proves arbitrage failure, and it sets no mandatory numerical trigger. The phrase 'not stale or end-of-day figures' is slightly imprecise, because closing premiums are measured against end-of-day NAV. Its evident intent is contemporaneous measurement, so it is not a material falsehood."
+}

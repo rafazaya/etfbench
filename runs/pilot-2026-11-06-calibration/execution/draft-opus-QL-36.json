@@ -1,0 +1,37 @@
+{
+  "id": "QL-36",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "States the default rule: units bought on the secondary market generally cannot be sold or redeemed directly back to the UCITS ETF, and investors must normally deal through an intermediary or on exchange. Also states that the prospectus and marketing communications must carry a warning to this effect. Optional subdetails: the near-exact wording of the warning (e.g. that investors may pay more than current NAV when buying and receive less when selling); the citation to Reg 90(1) or S.I. 316/2026. Exact regulation numbering is not required."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Identifies the exceptional trigger: where the exchange value of the units varies significantly from NAV (e.g. market disruption or absence of market makers), secondary-market holders are permitted to sell or redeem directly with the fund. Optional subdetails: illustrative causes of the disruption; the citation to Reg 90(2)."
+    },
+    {
+      "point": 3,
+      "mark": "required",
+      "minimum": "Bundled point. Full credit requires both protections: (a) the regulated market or exchange must be notified when the direct-redemption route opens; and (b) the prospectus must disclose the process for direct redemption and its costs, which must not be excessive. Optional subdetails: the citations to Reg 90(3) and (4); that costs are typically linked to actual transaction or dealing costs; operational details such as identification or KYC steps. Covering only (a), or only (b), earns half credit for this point. Covering (b) with disclosure but without the 'not excessive' cost limit still counts as (b) for half credit, but cannot earn full credit."
+    },
+    {
+      "point": 4,
+      "mark": "required",
+      "minimum": "Explicitly distinguishes the direct-redemption route as an exceptional, condition-triggered route. It must be contrasted with ordinary secondary-market or exchange dealing, which runs through brokers at market prices, while primary creation and redemption is normally reserved to authorised participants. Optional subdetail: that the significant-variation determination rests with the fund or its responsible party (management company or board as applicable). Stating who decides is nice-to-have and not required for credit, provided the answer does not say that the investor unilaterally decides."
+    }
+  ],
+  "central_errors": [
+    "Claims secondary-market holders can routinely or always redeem directly with the fund at NAV under normal conditions, i.e. denies that direct redemption is an exception.",
+    "Claims secondary-market holders can never redeem directly with the fund under any circumstances, i.e. denies that the significant-NAV-variation exception exists.",
+    "Identifies the trigger as something materially different from a significant divergence between exchange value and NAV, e.g. any deviation at all, the investor's own election, or fund insolvency only.",
+    "Asserts that no notification to the regulated market is required, or that the fund may charge any cost it chooses, including excessive or punitive charges, for direct redemption.",
+    "Asserts that the individual investor unilaterally determines whether the significant-variation condition is met."
+  ],
+  "scoring_rule": {
+    "correct": "All four required points meet their minimums, with full credit on bundled point 3, and no central error is present. Missing citations or regulation numbers do not reduce the grade.",
+    "partial": "No central error is present, but at least one required minimum is missing or only half-met, while the answer still conveys the core structure: a general no-direct-redemption rule plus an exception when market price diverges significantly from NAV. Half credit applies within point 3 as specified. As guidance, an answer meeting points 1 and 2 but weak on 3 and/or 4 is partial. Omissions alone never make an answer wrong.",
+    "wrong": "Any central error is stated affirmatively, or the answer fails to convey both the general prohibition (point 1) and the NAV-divergence exception (point 2), e.g. it addresses only ordinary exchange dealing or only AP creation and redemption."
+  }
+}

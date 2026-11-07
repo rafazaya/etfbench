@@ -1,0 +1,32 @@
+{
+  "id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "States the directional link for BOTH supplied drivers: (a) less liquid / harder-to-trade underlying assets and (b) more costly or difficult hedging and/or creation/redemption raise market makers' cost or risk of supplying liquidity and therefore tend to widen quoted spreads (conversely, liquid, easily hedged exposures support tighter quotes). Hedging and creation/redemption costs may be discussed together or separately, but cost-of-hedging and cost-of-create/redeem must each be recognisably covered. Optional subdetails: 'other things equal' qualifier; examples (e.g., small-cap, high-yield, EM, foreign-close underlying); mention of underlying bid-ask, transaction taxes, custody/settlement frictions; additional drivers such as volatility, competition among market makers, or the underlying market being closed (not penalised, not required). Half credit if only one of the two driver groups (underlying liquidity vs. hedging/creation-redemption cost) is linked to wider spreads."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Explains the mechanism: the quoted spread is (at least in part) the market maker's compensation, and expected hedging, inventory/risk, and creation/redemption costs are passed through into, or recovered via, the bid and ask quotes. A mechanism-free assertion that costs 'affect spreads' without linking them to market-maker compensation or pricing is partial. Optional subdetails: adverse selection, inventory risk premium, capital/balance-sheet cost, competition compressing the margin."
+    },
+    {
+      "point": 3,
+      "mark": "required",
+      "minimum": "Explains that historical ETF exchange volume is incomplete because the creation/redemption mechanism lets authorised participants/market makers source or offload ETF exposure via the underlying basket, so liquidity can exceed observed secondary-market share volume (low-volume ETFs on liquid underlyings can still be quoted tightly/support large trades). Must refer to creation/redemption or the underlying market as the additional source of liquidity. Optional subdetails: executable quoted spread and order-book depth as better current indicators; volume is backward-looking and may not reflect current conditions; capacity is not guaranteed and depends on underlying market and AP/market-maker willingness; block/RFQ liquidity off-exchange. Half credit if the answer says volume is incomplete only for generic reasons (e.g., backward-looking, varies over time) without the creation/redemption or underlying-liquidity link."
+    }
+  ],
+  "central_errors": [
+    "Claims that less liquid underlying assets or costlier hedging/creation-redemption narrow or have no effect on quoted spreads (direction reversed).",
+    "Asserts that historical ETF exchange trading volume is the definitive or sufficient measure of an ETF's liquidity, or that a low-volume ETF must necessarily have a wide spread / be unable to absorb large trades.",
+    "States that ETF liquidity is fundamentally capped by its own secondary-market volume, denying that creation/redemption or the underlying market provides additional liquidity.",
+    "Claims market makers bear hedging/creation-redemption costs independently of quotes, i.e., that these costs do not feed into the spread (e.g., the fund or issuer absorbs them so spreads are unaffected).",
+    "Presents a universal ranking of drivers or fixed universal spread levels/numerical sensitivities as established fact, contrary to the prompt's explicit instruction (counts as central error only if asserted as a rule, not if offered as a hedged illustrative example)."
+  ],
+  "scoring_rule": {
+    "correct": "All three required points meet their minimum (full credit on each), and no central error is present. Additional sound drivers (volatility, competition, underlying market closed during trading hours) are acceptable and not penalised.",
+    "partial": "No central error, but at least one required point is missing or earns only half credit (e.g., only one driver group linked to wider spreads; costs said to affect spreads without the market-maker compensation mechanism; volume called incomplete for generic reasons without the creation/redemption or underlying-liquidity link). Score as fractional credit: each required point worth 1/3, half credit = 1/6; omissions are not treated as falsehoods.",
+    "wrong": "Any central error is asserted, OR the answer fails to substantively address both the spread drivers and the volume question (e.g., at most one of the three required points earns even half credit)."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "blind_id": "C057",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer correctly gives the 75-day Rule 485(a) period for a new series of an existing trust. It also says effectiveness 'only legally registers the series' and is not a launch guarantee. However, it wrongly says a new trust faces the same 75-day period, so it fails the 'not initial trust automatic clock' part."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "Optional point. The answer does not say shares cannot be sold before effectiveness and gives no filed example. Optional omissions do not affect the grade."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "The answer lists operational steps that add time beyond effectiveness: exchange listing approval, seed capital and AP agreements, service-provider setup, NSCC/DTC readiness, and resolving staff comments. The optional 95-day limit is not mentioned."
+    }
+  ],
+  "central_error": "Offending quote: 'A brand-new trust files Form N-1A under Section 8(a) and Rule 485(a) and typically also faces the 75-day period.' This matches the central error '75-day automatic Rule 485 clock applies to initial trust registration.'",
+  "local_error": null,
+  "grade": "wrong",
+  "rationale": "The answer handles the new-series 75-day period well and explains that effectiveness is not a launch guarantee. But it explicitly applies the Rule 485(a) 75-day period to a brand-new trust's initial registration. Initial registration is not a Rule 485 post-effective amendment. Under the scoring rule, any explicit central error requires a grade of wrong."
+}

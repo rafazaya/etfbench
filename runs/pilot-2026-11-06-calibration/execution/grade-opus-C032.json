@@ -1,0 +1,29 @@
+{
+  "blind_id": "C032",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "States that ordinary secondary-market holders generally cannot redeem directly with the fund and that only APs deal in the primary market. It does not mention the prescribed prospectus or marketing warning."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "Never mentions significant divergence between exchange value and NAV as the trigger for direct exit. Instead it cites termination, merger or suspension."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Covers disclosed dealing process and costs that must be disclosed and 'capped', which roughly matches non-excessive costs. It omits notification to the regulated market and only mentions CBI and unitholder notice of suspensions."
+    },
+    {
+      "point": 4,
+      "credit": 1,
+      "reason": "Explicitly contrasts the exceptional direct route with ordinary exchange dealing at market price with another investor. Notes that primary creation and redemption is reserved to APs. Does not say the investor decides unilaterally."
+    }
+  ],
+  "central_error": null,
+  "local_error": "'A direct route for non-AP holders exists only if the prospectus provides for it, typically around fund termination, a merger, or a dealing suspension' misstates the trigger and basis. The regulatory right arises on significant NAV deviation, not only where the prospectus provides for it. This is not an explicit denial of the NAV-deviation route, so it is treated as a material local falsehood.",
+  "grade": "partial",
+  "rationale": "Required coverage totals 2.0 out of 4, which meets the half threshold, and core facts are supplied. There is no explicit central error. However, the missing significant-NAV-deviation trigger, the missing regulated-market notification, and the misstated trigger conditions (a local falsehood capping at partial) prevent a correct grade."
+}

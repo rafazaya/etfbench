@@ -1,0 +1,24 @@
+{
+  "blind_id": "C066",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that APs exchange large blocks of ETF shares with the fund for the underlying securities, or the reverse. This covers the creation/redemption basket exchange."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Explains that at a premium APs create and sell shares, and at a discount they buy and redeem shares, and that 'Both actions push the price back toward NAV.' It also links market makers to APs."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Says the mechanism 'works best when underlying assets are liquid' and 'deviations can persist' for thinly traded assets. This conveys that price and NAV are not guaranteed to be equal."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are covered: basket exchange, premium/discount arbitrage and no guaranteed equality. The answer does not deny the arbitrage mechanism or claim price always equals NAV. Ancillary details (creation unit sizes, iNAV, holdings disclosure, market-maker role) are broadly accurate and not materially false."
+}

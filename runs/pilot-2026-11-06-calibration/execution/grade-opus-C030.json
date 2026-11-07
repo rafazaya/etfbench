@@ -1,0 +1,24 @@
+{
+  "blind_id": "C030",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States APs deliver a basket of securities or cash in exchange for a large block of new shares, which 'increases shares outstanding.'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States APs return shares, the fund 'cancels those shares, decreasing shares outstanding.'"
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "States 'Exchange trading alone doesn't change shares outstanding,' contrasting it with ordinary investors trading with one another."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are explicitly covered with accurate wording. Mentioning cash alongside in-kind baskets is accurate and not a falsehood. There is no reversal of share-count effects and no claim that secondary trades issue shares."
+}

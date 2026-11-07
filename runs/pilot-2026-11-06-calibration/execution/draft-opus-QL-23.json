@@ -1,0 +1,31 @@
+{
+  "id": "QL-23",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "States that Rule 6c-11 is available to ETFs organized as registered open-end management investment companies, subject to the rule's conditions, and that UIT ETFs are outside the rule and need separate or existing exemptive relief. Optional subdetails: a list of specific conditions beyond the holdings disclosure in point 3 (basket policies, website disclosures, recordkeeping); the 2019 adoption and the 2019/2020 effective and compliance dates; rescission of older ETF orders."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "States that leveraged and inverse ETFs may rely on Rule 6c-11 if they comply with the applicable Rule 18f-4 requirements, so they are not categorically excluded. The answer must link 6c-11 eligibility to 18f-4 compliance. Optional subdetails: the 2020 Rule 18f-4 adoption removed the original 6c-11 exclusion; specifics of 18f-4 (derivatives risk management program, VaR-based limits, limited-derivatives-user exception, leveraged/inverse fund provisions); 18f-4 applies to ETFs generally and not only to leveraged/inverse ETFs."
+    },
+    {
+      "point": 3,
+      "mark": "required",
+      "minimum": "Bundled point. Minimum for full credit: (a) nontransparent or semi-transparent active ETFs need separate exemptive orders because they do not meet the 6c-11 conditions, at minimum daily public portfolio holdings disclosure; and (b) at least one other structure that needs separate relief, either ETF share classes of multi-class funds or master-feeder ETFs. Covering only one of (a) or (b) earns half credit for this point. Optional subdetails: naming all three structures (nontransparent, master-feeder, share class); any specific recent share-class orders or grandfathering details; an explicit statement that ordinary 6c-11 reliance requires daily website holdings disclosure, beyond its use to explain the nontransparent exclusion."
+    }
+  ],
+  "central_errors": [
+    "States or implies that leveraged/inverse ETFs are categorically excluded from Rule 6c-11, or must continue to operate only under individual exemptive orders.",
+    "States that leveraged/inverse ETFs can rely on Rule 6c-11 without complying with Rule 18f-4, or that 18f-4 compliance is in addition to separate exemptive orders that are still required for leveraged/inverse status.",
+    "States that UIT ETFs can rely on Rule 6c-11.",
+    "States that nontransparent/semi-transparent active ETFs, ETF share classes, or master-feeder ETFs can rely on Rule 6c-11 alone without separate exemptive relief, or that 6c-11 reliance does not require daily portfolio holdings disclosure."
+  ],
+  "scoring_rule": {
+    "correct": "All three required points meet their minimums, with equivalent wording accepted, and no central error. Minor incidental inaccuracies outside the central errors may still be graded correct only if they do not affect any eligibility conclusion. An example is a wrong adoption or effective date, such as calling 6c-11 'effective 2024'; this should be noted as a deduction. Omitting optional subdetails, such as master-feeder when share classes are covered, does not reduce the grade below correct.",
+    "partial": "No central error, but at least one required point is missing or only half-met. Examples: point 3 covers only nontransparent ETFs or only share-class/master-feeder ETFs; or the leveraged/inverse point is vague, saying they 'may' be covered without linking eligibility to 18f-4. Score with each required point worth 1, half-met bundled point 3 worth 0.5. A total of 1.5 to 2.5 of 3 is partial; 1 or less with no central error is also partial at the low end, unless the answer fails to address the leveraged/inverse/18f-4 question at all, in which case it is wrong. Several incidental factual errors, such as a wrong effective date, may move an otherwise correct answer to partial.",
+    "wrong": "The answer makes any central error, especially reversing leveraged/inverse eligibility or the 18f-4 interaction, regardless of how many other structure classifications are correct. Omission alone is not a central error. An answer is also wrong if it does not address leveraged/inverse ETFs and the 18f-4 interaction at all, since the question explicitly asks for it."
+  }
+}

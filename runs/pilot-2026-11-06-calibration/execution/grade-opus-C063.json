@@ -1,0 +1,14 @@
+{
+  "blind_id": "C063",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer covers two of the four required categories. It gives limited affiliate relief for in-kind basket exchanges, though without the specified 5% voting-holding affiliation basis. It also gives delayed foreign delivery capped at 15 days and 'no longer than necessary,' which matches 'as soon as practicable.' It omits redeemable-security status and market-price secondary trading, replacing them with \u00a717(d)/17d-1 and \u00a724(d) relief."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\"Joint transactions: relief from \u00a717(d) and Rule 17d-1\" and \"Prospectus delivery: relief from \u00a724(d)\". Rule 6c-11(b) does not grant these exemptions. These are material false ancillary statements that misidentify two of the four relief categories, so the grade is capped at partial.",
+  "grade": "partial",
+  "rationale": "There is no central error. Affiliate relief is described as limited, not unlimited, and foreign delivery is capped at 15 days. The single required bundle earns 0.5 because two categories are correct and two are missing. This meets the partial threshold of at least half the required coverage with a core fact supplied. The incorrect \u00a717(d) and \u00a724(d) categories are a material local falsehood, which also caps the grade at partial."
+}

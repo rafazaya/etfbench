@@ -1,0 +1,44 @@
+{
+  "id": "QL-19",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "Names the core fund structure and governance plus core service providers. Required: the fund/trust (registered investment company), a board (trustees/directors; officers may be implied), the investment adviser, the distributor/principal underwriter, the custodian, fund administration/fund accounting, the transfer agent and the independent auditor/registered public accounting firm. Equivalent wording is acceptable, for example 'trustees' or 'fund accountant'. A trust is implied when a board of trustees is named. Optional: independent-director composition, sub-adviser, and naming officers separately. Missing one peripheral provider, such as the auditor, makes this point partial. Missing two or more providers, or missing both the board and the trust entirely, makes this point absent."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Covers the ETF-specific market infrastructure. Required: (a) authorized participant agreements and creation/redemption with APs; (b) seed capital or initial seeding/creation; (c) exchange listing; (d) market-making, lead market maker or liquidity provider arrangements; and (e) clearing/settlement (NSCC/DTC or equivalent) with the daily portfolio composition file/basket workflow. Basket or creation-unit processing counts as the PCF workflow. Seed capital and market-making are substantive, not incidental. Omitting either one makes this point at best partial. Omitting both, or omitting the AP arrangements, makes this point absent. Optional: listing-exchange rule detail, IOPV/iNAV dissemination, and the custom-basket policy."
+    },
+    {
+      "point": 3,
+      "mark": "required",
+      "minimum": "Required: (a) the index licence is needed only for an index-based strategy; and (b) securities lending, with a lending agent, is conditional on running a lending program and is not a universal prerequisite. Also expected: legal counsel (fund and/or independent-trustee counsel) and pricing/valuation support (a pricing vendor or valuation process). Treating the conditional items correctly is the core of this point. If the answer gets the conditionality right but omits counsel and/or pricing, award half credit on this point. Optional: the index calculation agent, the specific lending cash-collateral reinvestment vehicle, and naming the valuation designee under Rule 2a-5."
+    },
+    {
+      "point": 4,
+      "mark": "required",
+      "minimum": "Explicitly states that roles may be bundled or combined, for example at a service bank, a white-label/series-trust platform or an affiliate, under board oversight. It must also state or clearly convey that the list is a checklist of functions, not a requirement that each role be a separately hired firm. A general bundling statement satisfies this point. Optional: naming specific bundled combinations, such as custody plus administration plus transfer agency at one bank."
+    },
+    {
+      "point": 5,
+      "mark": "required",
+      "minimum": "Mentions the Rule 38a-1 compliance program and a chief compliance officer, with board approval or oversight (for example approval of policies/CCO, or annual review). Naming the CCO and compliance program without explicit board approval earns half credit on this point. Optional: stating that the CCO or program can be shared or outsourced on a platform. A general bundling statement covers this. Also optional: other required programs, such as the Rule 22e-4 liquidity program, Rule 2a-5 valuation, code of ethics and Rule 18f-4 derivatives."
+    }
+  ],
+  "central_errors": [
+    "States or clearly implies that every listed role must be a separately hired, unaffiliated firm, or that roles cannot be combined.",
+    "States that securities lending or a lending agent is a mandatory prerequisite for every ETF launch.",
+    "States that an index licence is required for every ETF, including actively managed ETFs.",
+    "States that a '40 Act ETF needs no board, no chief compliance officer or no Rule 38a-1 compliance program, or that those are optional.",
+    "States that ETFs do not need authorized participants, or that shares are created and redeemed directly with retail investors.",
+    "Describes the product as an unregistered, '33 Act-only commodity pool, or as a UIT-only structure, as the default '40 Act ETF framework, in a way that misframes the governance checklist.",
+    "States that the Rule 22e-4 liquidity risk management program applies only if strategy-specific or optional for ETFs. This is a localized error: it caps the grade at partial and does not force wrong unless the answer also makes other central errors."
+  ],
+  "scoring_rule": {
+    "correct": "All five points are fully met, or at most one point is at half credit for a minor sub-element (for example, counsel/pricing omitted in point 3, or board approval not explicit in point 5) with everything else complete. No central error is present. Seed capital and market-making must both be present for 'correct'. Minor imprecision, such as listing a valuation designee as core, is not penalized.",
+    "partial": "There is no forcing central error, and the answer covers the core governance/provider list and at least some ETF infrastructure, but it has substantive gaps. Examples: seed capital or market-making is missing; two or more points are at half credit; one required point is absent; or the answer contains the localized liquidity-program error. Score as half credit overall, or sum the per-point credits (full=1, half=0.5) and map 3.0\u20134.0 to partial.",
+    "wrong": "The answer contains any central error other than the localized liquidity-program error, or it covers fewer than three required points even at half credit (point total below 3.0 with major omissions, such as no ETF-specific infrastructure or no conditional treatment of index/lending). An answer that treats all roles as necessarily separate firms is wrong even if the list is otherwise complete."
+  }
+}

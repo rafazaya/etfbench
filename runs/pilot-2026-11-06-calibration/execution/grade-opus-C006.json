@@ -1,0 +1,19 @@
+{
+  "blind_id": "C006",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer covers all three required inquiry areas. Selection: how the exchange/LMM was chosen, alternatives considered and conflicts. Relevant-market expertise: asset-class track record, staffing and measurable results. Capital/seed: a dedicated section on seed support, payments and termination terms."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "It separates 'temporary market-maker inventory' (with an unwind plan and timing) from 'investor assets... expected to last'. Asking 'what drives their retention' implies investor assets are stickier but not permanent. It also asks whether the market maker will keep quoting after the seed is withdrawn."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are covered. The answer never claims MM seed is guaranteed or permanent, and never claims diligence legally requires a fixed capital amount. It frames the checklist as 'suggested lines of inquiry, not mandatory approval', which matches the grader notes. The truncated ending is only a stylistic flaw and adds no falsehood."
+}

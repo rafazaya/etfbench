@@ -1,0 +1,27 @@
+{
+  "id": "QL-14",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "Identifies the fund sponsor's website daily holdings/portfolio disclosure as the public starting point for daily holdings, AND explicitly distinguishes portfolio holdings from the creation/redemption (transaction) basket, i.e. the published holdings are not necessarily the basket used for creations/redemptions. Optional subdetails (not required for full credit): citing Rule 6c-11(c)(1)\u2013(3) by paragraph; noting the rule mandates public holdings disclosure but not publication of every transaction basket; mentioning custom baskets or that baskets may differ pro rata/non-pro rata; mentioning other website disclosures (NAV, premium/discount, spread)."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "States that the actual PCF is distributed via NSCC's participant workflow (not a general public channel) and gives a practical request route: contact the sponsor/issuer (e.g., capital-markets or ETF desk) and/or the investor's broker (or an authorized participant/NSCC participant intermediary) to ask about access; AND does not assume a free public downloadable PCF exists for any named fund (states or clearly implies public PCF availability is not assured). Optional subdetails: reference to DTCC ETF processing timeline; noting some sponsors may voluntarily publish basket/PCF-like files; noting access may carry licensing/fees or be denied; paid third-party data vendors as an alternative."
+    }
+  ],
+  "central_errors": [
+    "Asserts that a fund's published daily holdings are the same as, or are by definition, the creation/redemption basket/PCF.",
+    "Asserts that Rule 6c-11 requires ETFs to publicly publish the PCF or every creation/redemption basket.",
+    "Asserts or assumes that a specific named fund (or ETFs generally) offers a free public downloadable PCF, or that retail investors can download the PCF directly from NSCC/DTCC without participant access.",
+    "Directs the investor to an incorrect primary source for daily holdings in place of the fund website (e.g., claims daily holdings are only available via SEC Form N-PORT/N-CSR filings or only via NSCC), such that the starting-point guidance is wrong.",
+    "States the PCF is not distributed through NSCC / is unrelated to NSCC participant processing."
+  ],
+  "scoring_rule": {
+    "correct": "Both required points meet their minimums and no central error is present. Optional subdetails are not needed.",
+    "partial": "No central error, but one or both required points are incomplete. Score each required point as 1 (minimum fully met), 0.5 (partial: e.g., point 1 names the fund website but omits the holdings-vs-basket distinction, or makes the distinction without naming the website starting point; point 2 mentions NSCC distribution but gives no request route, or gives a sponsor/broker route without noting NSCC/limited public availability), or 0 (absent). Total 0.5\u20131.5 of 2 = partial. Omission alone is never treated as a falsehood.",
+    "wrong": "Any central error is present (regardless of other content), or total score is 0 of 2 (neither point addressed even partially)."
+  }
+}

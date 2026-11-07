@@ -1,0 +1,27 @@
+{
+  "id": "QL-31",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "Frames the board's role as inquiry and oversight, not a predetermined conclusion. The answer must include at least two of these three items: (a) the causes of the persistent premiums or discounts; (b) a comparison of spreads or deviations against peer ETFs with similar exposures; (c) whether authorized participants and market makers are active and willing to participate. It must also say the board should ask management for corrective options or a response plan. Optional subdetails: citing the IDC oversight paper; specific corrective options such as adding APs or market makers, changing creation basket composition or transaction fees, or improving disclosure; documenting the inquiry in board minutes; how often to monitor. Half-credit: covers only one of (a), (b), (c), or names the inquiries but gives no corrective-option element."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Names at least two benign structural explanations that can produce repeated deviations without proving arbitrage has failed. The pool is: (i) stale or non-contemporaneous NAV inputs or fair-valuation timing; (ii) differences in market hours or closing-time mismatch between the ETF and its underlying holdings; (iii) underlying trading costs, spreads or illiquidity in the holdings; (iv) creation/redemption impediments such as basket constraints, fees, cutoffs or settlement frictions. It must also say these factors can explain the deviations without establishing that arbitrage has failed. Optional subdetails: citing SEC Release 33-10695; noting that for a US equity ETF in normal markets the market-hours or stale-price explanation is weaker, so a persistent deviation deserves closer scrutiny of items (iii) and (iv) and of AP/market-maker participation; intraday versus closing price comparison; the effect of closing-auction mechanics. Half-credit: names only one friction, or lists frictions without connecting them to the point that a deviation is not proof of arbitrage failure."
+    }
+  ],
+  "central_errors": [
+    "States that persistent premiums or discounts by themselves establish that arbitrage has failed, or that the board must conclude arbitrage failure without investigating frictions, peers or AP/market-maker participation.",
+    "Asserts a single presumed cause as definitive (for example 'it is always stale NAV' or 'it is always AP withdrawal') and gives no investigative process.",
+    "Claims a mandatory numerical trigger or safe-harbor tolerance governs board action. For example, treating Rule 6c-11's 2% website disclosure threshold (premium/discount above 2% for more than seven consecutive trading days) as a tolerance band below which deviations are acceptable, or as a required board-meeting or remediation trigger.",
+    "Asserts that the board must halt creations/redemptions, delist, or liquidate the ETF as the required response to persistent deviations in normal markets.",
+    "Mischaracterizes the creation/redemption mechanism in a way that invalidates the analysis, such as stating that retail investors redeem directly with the fund or that the APs are obligated to arbitrage."
+  ],
+  "scoring_rule": {
+    "correct": "Both required points meet their minimums (each earns full credit) and no central error is present. Optional subdetails add no extra credit beyond correct, but they may break ties in comparative grading.",
+    "partial": "No central error, and the total is at least 0.5 and below 2.0, scoring each point as 1 (minimum met), 0.5 (half-credit condition met) or 0 (absent). For example, the answer covers board inquiries and corrective options but names only one benign friction, or explains the frictions but omits peer/AP participation inquiry. Omitting content is never treated as a falsehood.",
+    "wrong": "Any central error is asserted as fact and is not corrected within the answer, OR the total point credit is below 0.5 (the answer essentially fails to address both the investigative inquiries and the benign alternative explanations)."
+  }
+}

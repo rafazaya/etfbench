@@ -1,0 +1,25 @@
+{
+  "id": "QL-24",
+  "question_note": "Single bundled key point covering all four Rule 6c-11(b) relief categories. The question explicitly asks for the limits on two of them: affiliate transactions and delayed foreign-investment delivery.",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "Must identify all four categories of conditional relief under Rule 6c-11(b). Must also state the two limits the question asks about. (a) Redeemable-security treatment: ETF shares are treated as 'redeemable securities' even though they are redeemable only in creation units. (b) Market-price trading: ETF shares may be purchased and sold on the secondary market or exchange at market-determined prices rather than at NAV. This is relief from the forward-pricing and fixed-price-distribution requirements; naming Sections 22(d) or 22c-1 is not required. (c) Limited affiliated-transaction relief: in-kind basket deposits and redemptions may be made by persons who are affiliated with the ETF solely because of specified ownership. The required limit is that the relief covers only basket purchase and redemption transactions, and only where affiliation arises solely from specified holdings, such as holding 5% or more of the ETF's voting shares. It is not general affiliate relief. (d) Delayed foreign-investment delivery: where local-market holidays or extended delivery cycles affect foreign investments, the ETF may postpone delivery of redemption proceeds. The required limit is that delivery must occur as soon as practicable and no later than 15 days after tender. Optional subdetails: naming the exempted provisions (Section 2(a)(32), Section 22(d), Rule 22c-1, Sections 17(a)(1)-(2), Section 22(e)); noting that the affiliation categories also include more than 25% holdings or 5% holdings of an affiliated investment company; noting the relief is conditional on the ETF otherwise complying with Rule 6c-11 (for example, transparency and basket policies); and a citation to 17 CFR 270.6c-11(b). Mentioning the 25% affiliation category is accurate and must not be penalized as conflicting with the key point's '5%' phrasing."
+    }
+  ],
+  "central_errors": [
+    "Characterizes Rule 6c-11(b) as a general waiver or blanket exemption from the Investment Company Act, rather than conditional relief from specified provisions.",
+    "States or implies that the affiliate relief permits transactions with any affiliated person (for example, the adviser, its affiliates, or principal underwriters acting as principal), or covers transactions beyond in-kind basket purchases and redemptions.",
+    "States that the affiliate relief applies regardless of the basis of affiliation, omitting or contradicting the 'solely by reason of' specified-holdings limit, when the answer purports to describe that limit.",
+    "Gives a wrong maximum for the delayed-delivery period (for example, 7 days, 30 days, or no cap), or says delays are unlimited.",
+    "States that the delayed-delivery relief applies to any holding or any reason (for example, domestic securities or general liquidity stress), rather than to foreign investments affected by local holidays or delivery cycles.",
+    "States that ETF shares are not redeemable securities, or that secondary-market trades must occur at NAV.",
+    "Substitutes different relief categories (for example, exemptive relief for leveraged or inverse ETFs, or fund-of-funds relief under Rule 12d1-4) in place of the actual four categories."
+  ],
+  "scoring_rule": {
+    "correct": "All four relief categories are identified substantively; exact statutory citations are not required. Both requested limits are stated: affiliate relief is confined to basket transactions with persons affiliated solely through specified holdings, and foreign delivery may be delayed only as soon as practicable, up to 15 days. No central error.",
+    "partial": "No central error, but coverage is incomplete. Award half credit if three of the four categories are correct, or if all four are named but one of the two required limits is missing or vague (for example, 'some affiliates' without the solely-by-holdings restriction, or 'a delay is allowed' without the 15-day cap or the foreign holiday/delivery-cycle trigger). An answer with two categories correct and both limits correctly explained may also receive half credit at the grader's discretion.",
+    "wrong": "Any central error. Or only two or fewer categories identified without the corresponding limits. Or neither the affiliate limit nor the delivery limit is stated. Omission alone does not trigger 'wrong' unless coverage falls below the partial threshold."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "blind_id": "C017",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the ratio 'isn't billed directly to investors', is deducted 'before calculating net asset value (NAV)', and investors 'pay indirectly'. It cites the prospectus as the disclosure source. The annual nature is implicit in the term 'expense ratio' rather than stated outright."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Covers daily accrual: 'accrues it daily as a percentage of net assets'. It never says each daily accrual is only a fraction of the annual rate, so the 'not full annual rate daily' half of the minimum is incomplete."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error: the answer explicitly denies separate billing and never claims the full annual percentage is deducted each day. Point 1 is covered. Point 2 is only half covered because daily accrual is stated without saying that each day takes only a fraction of the annual rate. Required coverage is 1.5 of 2, which meets the partial threshold but not correct. The 'typically monthly or quarterly' payment timing is consistent with contractual payment and is not a falsehood."
+}

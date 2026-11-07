@@ -1,0 +1,10 @@
+Independently calibrate this provisional question rubric. You have not seen the other draft.
+For EVERY numbered original key point mark required (expert answer incomplete without its minimum)
+or optional (nice-to-have). Bundled points: specify minimum content and explicitly optional subdetails.
+Define explicit central false statements that force wrong rather than partial. Omission is not falsehood.
+Define scoring for correct/partial/wrong; consider half-credit for partial coverage of a bundled point.
+Use round2 disagreements as editorial evidence, not ground truth. No external research.
+Return ONLY JSON {"id":..., "points":[{"point":1,"mark":"required|optional","minimum":"..."}],
+"central_errors":["..."],"scoring_rule":{"correct":"...","partial":"...","wrong":"..."}}.
+
+{"id": "QL-36", "question": "As of 2026-11-06, under the Irish UCITS ETF framework, when can a secondary-market holder redeem directly with the fund, and what notification, process and cost protections apply? Distinguish this exceptional route from ordinary exchange dealing.", "key_points": ["Secondary-market units cannot usually be sold directly back to the fund; the prospectus and marketing must contain the prescribed warning under Irish 2026 CBI UCITS Regulations, Reg 90(1).", "Where exchange value varies significantly from NAV, secondary-market holders may sell directly back to the fund under Reg 90(2).", "The regulated market must be notified under Reg 90(3); the prospectus discloses the process and costs, which must not be excessive under Reg 90(4).", "The responsible party determines significant variation; this is an exception to ordinary exchange dealing."], "grader_notes": ["Opus primary-source supplement: S.I. 316/2026 Reg 90; retains Tier B. This updates the source without approving new bank prose. Exact regulation numbering is not required if the substantive answer is correct."], "round2_disagreement_evidence": []}

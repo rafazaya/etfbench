@@ -1,0 +1,14 @@
+{
+  "blind_id": "C029",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Covers the application, notice (Federal Register, hearing-request opportunity) and order stages. Describes the 45-day clock as a period for Commission action on the notice, not a guaranteed approval date, and says it can be extended. Missing: the precedent test of two substantially identical applications granted within the prior three years, the required prominent request, comparison markups and signed certification, the ineligibility/additional-time response alternative, and the specific pause rules (14 days after a compliant response amendment, 30 days after an unsolicited amendment, office closures, deemed withdrawal after 30 days)."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error. The answer says the 45-day clock is not a guaranteed approval date and links eligibility to relief already granted, so it does not claim that no precedent is needed. It never states the eligibility test or filing requirements precisely, and it gives only a vague account of the pauses. That is a substantive but incomplete bundle (0.5 of 1 required point), which meets the half-coverage threshold for partial. The truncated ending and optional extras do not affect the grade."
+}

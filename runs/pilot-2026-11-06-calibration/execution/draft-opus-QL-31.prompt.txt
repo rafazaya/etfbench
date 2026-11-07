@@ -1,0 +1,10 @@
+Independently calibrate this provisional question rubric. You have not seen the other draft.
+For EVERY numbered original key point mark required (expert answer incomplete without its minimum)
+or optional (nice-to-have). Bundled points: specify minimum content and explicitly optional subdetails.
+Define explicit central false statements that force wrong rather than partial. Omission is not falsehood.
+Define scoring for correct/partial/wrong; consider half-credit for partial coverage of a bundled point.
+Use round2 disagreements as editorial evidence, not ground truth. No external research.
+Return ONLY JSON {"id":..., "points":[{"point":1,"mark":"required|optional","minimum":"..."}],
+"central_errors":["..."],"scoring_rule":{"correct":"...","partial":"...","wrong":"..."}}.
+
+{"id": "QL-31", "question": "For a US equity ETF showing repeated closing premiums or discounts over several weeks in normal markets, what should its board investigate before concluding arbitrage has failed? Check contemporaneous valuation/market hours, peers, underlying trading frictions and AP/market-maker participation; propose inquiry and corrective options rather than a single presumed cause or mandatory numerical trigger.", "key_points": ["Relevant board inquiries include causes and corrective options for persistent deviations, spreads against peers and AP/market-maker participation. [IDC oversight paper, \u201cTrading of ETF Shares\u201d](https://www.idc.org/idc/issues/types/etf/publications/ci.idc_12_etfs).", "Stale NAV inputs, market-hour differences, underlying trading costs and creation/redemption impediments can explain deviations without establishing arbitrage failure. The SEC discusses these frictions in its adopting release. [Release 33-10695, sections I.B and II.C](https://www.sec.gov/files/rules/final/2019/33-10695.pdf)."], "grader_notes": ["**Confidence: high** for suggested monitoring; **medium** for the diagnostic sequence. The 2% website trigger (QL-25) is not a safe-harbor tolerance or a general board-meeting trigger."], "round2_disagreement_evidence": []}

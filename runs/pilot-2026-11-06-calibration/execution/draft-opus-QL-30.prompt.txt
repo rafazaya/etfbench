@@ -1,0 +1,10 @@
+Independently calibrate this provisional question rubric. You have not seen the other draft.
+For EVERY numbered original key point mark required (expert answer incomplete without its minimum)
+or optional (nice-to-have). Bundled points: specify minimum content and explicitly optional subdetails.
+Define explicit central false statements that force wrong rather than partial. Omission is not falsehood.
+Define scoring for correct/partial/wrong; consider half-credit for partial coverage of a bundled point.
+Use round2 disagreements as editorial evidence, not ground truth. No external research.
+Return ONLY JSON {"id":..., "points":[{"point":1,"mark":"required|optional","minimum":"..."}],
+"central_errors":["..."],"scoring_rule":{"correct":"...","partial":"...","wrong":"..."}}.
+
+{"id": "QL-30", "question": "For a US index ETF board reviewing an index licence and failed-renewal contingency, what contract terms, naming dependencies and affiliated-information issues should it examine? Treat the checklist as diligence, not a universal notice period or guaranteed substitution right.", "key_points": ["Relevant licence considerations include cost, exclusivity, duration, termination, expiry and failed renewal, dependence of the ETF name on the index name, and affiliated-provider information controls. [IDC oversight paper, \u201cIndex provider\u201d](https://www.idc.org/idc/issues/types/etf/publications/ci.idc_12_etfs).", "Planning renewal or index substitution before expiry is a possible control, subject to the actual licence."], "grader_notes": ["**Confidence: high** as suggested inquiry. **Proposed control (medium; inference):** plan renewal/substitution work before expiry. No universal notice period or right to substitute an index verified.", "Suggested inquiry and inferred renewal planning; no universal notice period or index-substitution right."], "round2_disagreement_evidence": []}

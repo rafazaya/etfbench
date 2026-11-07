@@ -1,0 +1,24 @@
+{
+  "blind_id": "C081",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "It correctly says a written agreement with the ETF is required, but omits service providers. It also wrongly makes clearing-agency membership optional by allowing a written agreement with a participant instead."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "It names the ETF/trust and the AP as the contracting parties. It does not mention the distributor as main counterparty, transfer agent countersignature, or the trust as third-party beneficiary."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "It does not mention the forms' NSCC netting membership or DTC participation requirements. It says the AP need not be a direct NSCC/DTC member and never addresses the market-maker distinction."
+    }
+  ],
+  "central_error": "\"Rule 6c-11 does **not** require an AP to be a clearing-agency member\" matches the central error 'No clearing membership ... needed'. Also, \"the named contracting parties are typically the ETF/trust and the AP\" matches 'reviewed US trust is main signatory rather than beneficiary'.",
+  "local_error": "\"or have a written agreement with such a participant that permits it to clear and settle ETF transactions\" is false: Rule 6c-11(a)(1) requires the AP itself to be a clearing agency member or participant.",
+  "grade": "wrong",
+  "rationale": "There are two explicit central errors: clearing membership is called unnecessary, and the trust is named as a main contracting party instead of a beneficiary. Required coverage is 0.5 of 3, which is below half."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "QL-20",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "Must convey both halves of the allocation: (a) the fund pays the unitary/advisory fee to the platform adviser, and (b) the brand sponsor, under a contract with the adviser, receives the fee remainder after the adviser's share and in exchange assumes the fund's ordinary operating expenses. The sponsor's receipt of the remainder must be stated or clearly implied, not just its expense burden. Saying the adviser 'retains' fee revenue is acceptable if it is immediately qualified by the remainder-for-expenses contract. Optional: label as contractual-partner/expense-partner model; mention of series-trust context."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Must state that the platform adviser remains obligated to the fund to bear the ordinary expenses covered by the unitary fee, even though the sponsor has assumed them by side contract. The sponsor arrangement does not release the adviser; if the sponsor fails to pay, the adviser remains responsible. Optional subdetail, not needed for credit: the unitary-fee obligation is subject to stated exclusions such as brokerage, taxes, interest, acquired-fund fees, and extraordinary or litigation expenses."
+    },
+    {
+      "point": 3,
+      "mark": "required",
+      "minimum": "Must state or clearly convey that there is no universal or standard percentage split, and must not invent one; any split is negotiated contractually. An answer that is merely silent on the split but invents none earns at most partial on this point. Optional subdetails: the sponsor earns through its contracted share and bears the residual economics, profiting or losing as actual expenses fall below or exceed the remainder; this model differs from appointing the sponsor directly as adviser or sub-adviser."
+    }
+  ],
+  "central_errors": [
+    "States or implies that the sponsor's assumption of expenses releases or replaces the platform adviser's obligation to the fund, so that the fund must look only to the sponsor.",
+    "Presents a specific percentage split (e.g., 50/50, or X bps to the adviser) as the standard or universal allocation.",
+    "Describes the model as the sponsor being appointed adviser or sub-adviser, or the fund paying the fee or expenses directly to the sponsor, as the defining mechanism of this arrangement.",
+    "States that the fund itself bears ordinary operating expenses outside the unitary fee as a general matter, contradicting the unitary-fee structure.",
+    "States that the adviser keeps the entire fee while the sponsor bears expenses with no remainder or compensation, i.e., affirmatively denying that the sponsor receives the fee remainder."
+  ],
+  "scoring_rule": {
+    "correct": "All three required minima are met and no central error is present. Wording may differ and order is irrelevant. Omission of optional subdetails (exclusions, residual-economics phrasing, contrast with direct sponsor appointment) does not reduce the grade.",
+    "partial": "No central error, and at least one required minimum (typically the continuing adviser obligation) is met, but another is missing or muddled. Examples: the sponsor's receipt of the fee remainder is never stated; the sponsor is described as covering only costs 'above the fee's coverage'; receipt and assumption of the remainder are confused; or the answer is silent on the absence of a standard split. Use half credit per bundled point that is partially covered. Unsupported but non-central embellishments, such as the adviser 'must keep the fund solvent', cap the grade at partial.",
+    "wrong": "Any central error is present, or both point 1 and point 2 minima are absent. Example: the answer neither identifies the adviser's continuing obligation nor gives the fee-remainder-for-expenses allocation."
+  }
+}

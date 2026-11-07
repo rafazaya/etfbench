@@ -1,0 +1,24 @@
+{
+  "blind_id": "C062",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "States that seed capital is a sponsor-owned investment, not an expense, and is distinct from expenditure. It never says that the legal minimum (the \u00a714(a) $100,000 net-worth condition) is not a commercial launch budget or break-even level."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Names payer assignments: one-time costs are 'sponsor-paid', recurring costs are 'Paid from the unitary fee, with the sponsor absorbing any excess', and overhead and distribution are 'typically sponsor-borne'. It never states that the contract (management or unitary-fee agreement) determines these allocations, so the required minimum is only partly met."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Lists one-time categories (legal and registration, index setup, listing and onboarding, systems, marketing, initial audit) and recurring categories (index licensing, administration, custody, TA, audit, legal, board, insurance, exchange and data). Gives break-even AUM as F / (f \u2212 v), tied to retained margin."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error: seed is explicitly not an operating bill, and the answer does not claim that a positive margin alone guarantees profit. Required coverage sums to 2 of 3, which meets the threshold, and core facts are supplied. The grade is partial because the answer omits the point that the legal minimum is not a commercial launch budget and does not frame payer allocation as contractually determined. The answer is also truncated at the end."
+}

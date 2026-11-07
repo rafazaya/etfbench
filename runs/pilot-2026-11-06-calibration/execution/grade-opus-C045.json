@@ -1,0 +1,19 @@
+{
+  "blind_id": "C045",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Covers pro-rata proceeds ('pro-rata share of the fund's net assets'). Says the amount may differ from the last price ('not automatically... the latest quoted share price'). Says timing varies ('timing varies; check the fund's liquidation notice'). Notes 'Trading may stop before the fund distributes cash' but never says the investor can normally sell before trading ends, so the bundle is incomplete."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States proceeds are 'after liabilities and liquidation costs'. Says that in a taxable account 'the cash distribution generally triggers a taxable gain or loss measured against your adjusted cost basis', and mentions possible pass-through of gains."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error. The answer explicitly says liquidation does not ordinarily mean forfeiting the whole holding, and it gives no fixed proceeds or date. Point 2 is fully covered. Point 1 lacks the minimum element that investors can normally sell before trading ends. Required coverage is 1.5 of 2, which meets the partial threshold but not correct."
+}

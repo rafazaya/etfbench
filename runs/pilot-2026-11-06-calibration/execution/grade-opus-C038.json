@@ -1,0 +1,19 @@
+{
+  "blind_id": "C038",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer names the fund website's daily holdings page as the starting point. It distinguishes portfolio holdings from the PCF creation/redemption basket ('A basket may differ from the fund's full holdings'). It also notes the rule does not require every ETF to publish its PCF freely."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "'Without NSCC access' implies the PCF is distributed through the NSCC participant channel. The answer tells the investor to ask the sponsor or its agents for the file. It makes no free public PCF promise: 'Access may be discretionary, delayed, or fee-based.' The NSCC distribution mechanism is implied rather than spelled out, and it names the transfer agent/distributor rather than the broker or capital-markets team, but the substance is present."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are covered. There is no central error: the answer explicitly says holdings may differ from baskets and does not claim a universally free public PCF. No material local falsehood was found. The pre-open daily holdings disclosure is accurate, and the sponsor/transfer agent/distributor contact route is a reasonable practical suggestion."
+}

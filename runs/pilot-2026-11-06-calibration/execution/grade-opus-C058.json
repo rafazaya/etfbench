@@ -1,0 +1,24 @@
+{
+  "blind_id": "C058",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer states that the sponsor bears the economic shortfall and is contractually responsible for the excess when the unitary fee doesn't cover costs."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "The answer never identifies the platform adviser as the party that still owes the fund its promised expenses if the sponsor defaults. It points instead to the fund's own obligations to service providers."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "This optional point is not addressed. The answer does not mention fixed costs making a small fund unprofitable or say there is no shareholder reimbursement duty, beyond a generic note that contracts govern."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\"If the fund is party to agreements with service providers, it may still owe them expenses if the sponsor fails to pay.\" In the specified model the adviser backstops the fund's promised expenses, so placing the residual obligation on the fund is misleading. It is hedged ('may') and never says the adviser is released, so it is not an explicit central error. It is still a material local misstatement.",
+  "grade": "partial",
+  "rationale": "Required coverage is 1 of 2, which meets the half threshold, and a core requested fact (the sponsor bears the shortfall) is supplied. There is no explicit central error because the answer does not state that sponsor default releases the adviser. However, it misallocates the backstop obligation to the fund and omits the adviser. That leaves point 2 uncovered and adds a local misstatement, so the grade is capped at partial."
+}

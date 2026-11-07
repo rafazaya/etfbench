@@ -1,0 +1,19 @@
+{
+  "blind_id": "C002",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer says direct holders 'may need to open or update an ETF-capable brokerage account' and make 'transfer or registration changes'. It tells readers to check notices for the effective date, deadlines and 'what happens if you do nothing'. It also notes that ETF shares trade through a brokerage and direct services may end, which conveys that the investor cannot trade without a brokerage or transfer step."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "The answer says fractional shares 'may be paid out in cash, sold, or treated another way' and should be verified in the fund's notice, which covers the cash-out and notice-specific elements. It does not mention possible taxability of the cash-out."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Point 1 is fully covered. Point 2 is incomplete because the answer omits the possible tax consequence of a fractional-share cash-out. The answer never claims automatic trading access or tax-free cash-outs, so there is no central error, and it correctly treats this as a whole-fund conversion rather than a new share class. Coverage is 1.5 of 2, which meets the partial threshold but not the full-coverage requirement for correct."
+}

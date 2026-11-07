@@ -1,0 +1,14 @@
+{
+  "blind_id": "C074",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer states that listed and unlisted classes of the same sub-fund can coexist. It covers dealing (cut-offs, on-exchange vs administrator), settlement, costs, minimums, rights, liquidity and price/NAV divergence. It does not explicitly cover broker use or dealing frequency. It also frames the list as what prospectuses 'typically' compare, not as what Q&A 1088 requires, and disclaims knowledge of the Q&A. This makes it a substantive but incomplete bundle."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error: the answer affirms coexistence and explicitly declines to apply US conditions. It covers most of the comparison items but omits broker use and dealing frequency, and it does not tie the items to the Q&A 1088 requirement. That earns 0.5 of 1 required point, which meets the half threshold with core facts supplied, so the grade is partial."
+}

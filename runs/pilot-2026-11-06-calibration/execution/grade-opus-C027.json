@@ -1,0 +1,24 @@
+{
+  "blind_id": "C027",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that reduced portfolio-level gains and distributions benefit 'all classes sharing that portfolio, including mutual-fund shareholders.'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Gives a mechanism limit: the benefit 'does not erase gains already realized... or eliminate taxes on sales within the portfolio,' so cash sales still realize gains. The minimum does not require naming mutual fund redemption-driven sales specifically."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Says the benefit is conditional: it is 'indirect,' 'depends on the fund actually making in-kind redemptions,' and does not 'guarantee lower distributions.' The investor/AP tax caveat is optional."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "The answer meets all three required minimums. It does not claim the classes hold separate portfolios or that remaining securities get a basis step-up. Its \u00a7852(b)(6) description and its share-class relief caveat are accurate. Omitting the optional subdetails (basis carryover, mutual fund cash flows imposing costs on ETF holders) does not lower the grade."
+}

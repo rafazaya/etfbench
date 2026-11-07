@@ -1,0 +1,1894 @@
+[
+  {
+    "blind_id": "C001",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Custom definition wrongly adds non-pro-rata trigger; best-interest protection missing."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Custom definition wrongly adds non-pro-rata trigger; best-interest protection missing."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "Custom definition wrongly adds non-pro-rata trigger; best-interest protection missing."
+      },
+      {
+        "point": 4,
+        "credit": 0.5,
+        "reason": "Custom definition wrongly adds non-pro-rata trigger; best-interest protection missing."
+      }
+    ],
+    "central_error": null,
+    "local_error": "representative basket that is non-pro-rata",
+    "grade": "partial",
+    "rationale": "Custom definition wrongly adds non-pro-rata trigger; best-interest protection missing."
+  },
+  {
+    "blind_id": "C002",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Transfer/notices and fraction cash present; explicit trading block and fraction tax absent."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Transfer/notices and fraction cash present; explicit trading block and fraction tax absent."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Transfer/notices and fraction cash present; explicit trading block and fraction tax absent."
+  },
+  {
+    "blind_id": "C003",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Pro rata net assets, sale alternative, variable timing and taxable gain/loss covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Pro rata net assets, sale alternative, variable timing and taxable gain/loss covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Pro rata net assets, sale alternative, variable timing and taxable gain/loss covered."
+  },
+  {
+    "blind_id": "C004",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Both cost directions and monitoring categories; board methods/periods thin, no breach notice/assessment."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Both cost directions and monitoring categories; board methods/periods thin, no breach notice/assessment."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Both cost directions and monitoring categories; board methods/periods thin, no breach notice/assessment."
+      },
+      {
+        "point": 4,
+        "credit": 0.0,
+        "reason": "Both cost directions and monitoring categories; board methods/periods thin, no breach notice/assessment."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Both cost directions and monitoring categories; board methods/periods thin, no breach notice/assessment."
+  },
+  {
+    "blind_id": "C005",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Primary-market capacity and spread/depth, underlying and intermediary indicators covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Primary-market capacity and spread/depth, underlying and intermediary indicators covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Primary-market capacity and spread/depth, underlying and intermediary indicators covered."
+  },
+  {
+    "blind_id": "C006",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Selection, expertise, commitments and temporary versus lasting but withdrawable seed covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Selection, expertise, commitments and temporary versus lasting but withdrawable seed covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Selection, expertise, commitments and temporary versus lasting but withdrawable seed covered."
+  },
+  {
+    "blind_id": "C007",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Separate ownership, custody, no automatic wipeout, board response and non-guarantee covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Separate ownership, custody, no automatic wipeout, board response and non-guarantee covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Separate ownership, custody, no automatic wipeout, board response and non-guarantee covered."
+  },
+  {
+    "blind_id": "C008",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.0,
+        "reason": "US signature contrast reverses reviewed forms."
+      },
+      {
+        "point": 2,
+        "credit": 0.0,
+        "reason": "US signature contrast reverses reviewed forms."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "US signature contrast reverses reviewed forms."
+      }
+    ],
+    "central_error": "US ETFs sign via a trust\u2019s trustees",
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "US signature contrast reverses reviewed forms."
+  },
+  {
+    "blind_id": "C009",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Adviser obligation right; sponsor residual revenue/economics muddled."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Adviser obligation right; sponsor residual revenue/economics muddled."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Adviser obligation right; sponsor residual revenue/economics muddled."
+      }
+    ],
+    "central_error": null,
+    "local_error": "Costs above its coverage are the sponsor's responsibility",
+    "grade": "partial",
+    "rationale": "Adviser obligation right; sponsor residual revenue/economics muddled."
+  },
+  {
+    "blind_id": "C010",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Three risks distinguished, but US collateral floor and UCITS noncash restriction/control list incomplete."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Three risks distinguished, but US collateral floor and UCITS noncash restriction/control list incomplete."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Three risks distinguished, but US collateral floor and UCITS noncash restriction/control list incomplete."
+  },
+  {
+    "blind_id": "C011",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Daily standard deviation versus cumulative gap; sampling, cash, rebalances and pricing variability covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Daily standard deviation versus cumulative gap; sampling, cash, rebalances and pricing variability covered."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "Daily standard deviation versus cumulative gap; sampling, cash, rebalances and pricing variability covered."
+      },
+      {
+        "point": 4,
+        "credit": 1.0,
+        "reason": "Daily standard deviation versus cumulative gap; sampling, cash, rebalances and pricing variability covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Daily standard deviation versus cumulative gap; sampling, cash, rebalances and pricing variability covered."
+  },
+  {
+    "blind_id": "C012",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Both exceptions and waiver contrast; no explicit adoption of class-level hedge qualifier."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Both exceptions and waiver contrast; no explicit adoption of class-level hedge qualifier."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Both exceptions and waiver contrast; no explicit adoption of class-level hedge qualifier."
+  },
+  {
+    "blind_id": "C013",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Asset separation and custody correct; replacement/wind-down outcome omitted."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Asset separation and custody correct; replacement/wind-down outcome omitted."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Asset separation and custody correct; replacement/wind-down outcome omitted."
+  },
+  {
+    "blind_id": "C014",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Fixed costs, waivers and seed inquiries; sponsor capacity and specific market-maker/investor seed mechanism incomplete."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Fixed costs, waivers and seed inquiries; sponsor capacity and specific market-maker/investor seed mechanism incomplete."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Fixed costs, waivers and seed inquiries; sponsor capacity and specific market-maker/investor seed mechanism incomplete."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Fixed costs, waivers and seed inquiries; sponsor capacity and specific market-maker/investor seed mechanism incomplete."
+  },
+  {
+    "blind_id": "C015",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Correct fee purposes and no AP compensation; fixed provider versus variable fund recipient not clear."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Correct fee purposes and no AP compensation; fixed provider versus variable fund recipient not clear."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "Correct fee purposes and no AP compensation; fixed provider versus variable fund recipient not clear."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Correct fee purposes and no AP compensation; fixed provider versus variable fund recipient not clear."
+  },
+  {
+    "blind_id": "C016",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Cost/control comparison conditional; no concrete host governance/provider control."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Cost/control comparison conditional; no concrete host governance/provider control."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "Cost/control comparison conditional; no concrete host governance/provider control."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Cost/control comparison conditional; no concrete host governance/provider control."
+  },
+  {
+    "blind_id": "C017",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Indirect fund expense, annual rate and daily accrual clearly stated."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Indirect fund expense, annual rate and daily accrual clearly stated."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Indirect fund expense, annual rate and daily accrual clearly stated."
+  },
+  {
+    "blind_id": "C018",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Recognizes both Irish routes; document placements, quarter-end deadline/procedures and iNAV details incomplete."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Recognizes both Irish routes; document placements, quarter-end deadline/procedures and iNAV details incomplete."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Recognizes both Irish routes; document placements, quarter-end deadline/procedures and iNAV details incomplete."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Recognizes both Irish routes; document placements, quarter-end deadline/procedures and iNAV details incomplete."
+  },
+  {
+    "blind_id": "C019",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Underwriter role distinguished from variable separately contracted marketing/access."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Underwriter role distinguished from variable separately contracted marketing/access."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Underwriter role distinguished from variable separately contracted marketing/access."
+  },
+  {
+    "blind_id": "C020",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Exceptional NAV-deviation exit correct; prescribed warning, market notification and nonexcessive costs incomplete."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Exceptional NAV-deviation exit correct; prescribed warning, market notification and nonexcessive costs incomplete."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Exceptional NAV-deviation exit correct; prescribed warning, market notification and nonexcessive costs incomplete."
+      },
+      {
+        "point": 4,
+        "credit": 1.0,
+        "reason": "Exceptional NAV-deviation exit correct; prescribed warning, market notification and nonexcessive costs incomplete."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Exceptional NAV-deviation exit correct; prescribed warning, market notification and nonexcessive costs incomplete."
+  },
+  {
+    "blind_id": "C021",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Seed and categories correct; explicit launch payer and positive retained-unit-margin formula missing."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Seed and categories correct; explicit launch payer and positive retained-unit-margin formula missing."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Seed and categories correct; explicit launch payer and positive retained-unit-margin formula missing."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Seed and categories correct; explicit launch payer and positive retained-unit-margin formula missing."
+  },
+  {
+    "blind_id": "C022",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Application stages useful, but 45-day clock reversed."
+      }
+    ],
+    "central_error": "45-day period runs from publication of the notice, not filing",
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Application stages useful, but 45-day clock reversed."
+  },
+  {
+    "blind_id": "C023",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Licence terms, naming, affiliated barriers and contract-dependent transition planning covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Licence terms, naming, affiliated barriers and contract-dependent transition planning covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Licence terms, naming, affiliated barriers and contract-dependent transition planning covered."
+  },
+  {
+    "blind_id": "C024",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "History/public site and main disclosures present; details and one-year statement retention wrong."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "History/public site and main disclosures present; details and one-year statement retention wrong."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "History/public site and main disclosures present; details and one-year statement retention wrong."
+      }
+    ],
+    "central_error": null,
+    "local_error": "keep the explanation posted until it no longer exceeds 2%",
+    "grade": "partial",
+    "rationale": "History/public site and main disclosures present; details and one-year statement retention wrong."
+  },
+  {
+    "blind_id": "C025",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "No assured asset gathering; separate marketing/access and variable packages covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "No assured asset gathering; separate marketing/access and variable packages covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "No assured asset gathering; separate marketing/access and variable packages covered."
+  },
+  {
+    "blind_id": "C026",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "In-kind low-basis nonrecognition and investor-tax/cash-sale limits covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "In-kind low-basis nonrecognition and investor-tax/cash-sale limits covered."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "In-kind low-basis nonrecognition and investor-tax/cash-sale limits covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "In-kind low-basis nonrecognition and investor-tax/cash-sale limits covered."
+  },
+  {
+    "blind_id": "C027",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Shared in-kind gain reduction, cash-sale limits and practical conditionality covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Shared in-kind gain reduction, cash-sale limits and practical conditionality covered."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "Shared in-kind gain reduction, cash-sale limits and practical conditionality covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Shared in-kind gain reduction, cash-sale limits and practical conditionality covered."
+  },
+  {
+    "blind_id": "C028",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Synchronized valuation, peers, underlying frictions, intermediaries and corrective options covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Synchronized valuation, peers, underlying frictions, intermediaries and corrective options covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Synchronized valuation, peers, underlying frictions, intermediaries and corrective options covered."
+  },
+  {
+    "blind_id": "C029",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Stages and pre-notice clock correct; two precedents/three years and formalities missing."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Stages and pre-notice clock correct; two precedents/three years and formalities missing."
+  },
+  {
+    "blind_id": "C030",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Creation issues, redemption cancels, exchange trading unchanged."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Creation issues, redemption cancels, exchange trading unchanged."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "Creation issues, redemption cancels, exchange trading unchanged."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Creation issues, redemption cancels, exchange trading unchanged."
+  },
+  {
+    "blind_id": "C031",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Valuation, peers, underlying frictions, AP participation and conditional correction covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Valuation, peers, underlying frictions, AP participation and conditional correction covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Valuation, peers, underlying frictions, AP participation and conditional correction covered."
+  },
+  {
+    "blind_id": "C032",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Replaces significant NAV deviation with different purported exit triggers."
+      },
+      {
+        "point": 2,
+        "credit": 0.0,
+        "reason": "Replaces significant NAV deviation with different purported exit triggers."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Replaces significant NAV deviation with different purported exit triggers."
+      },
+      {
+        "point": 4,
+        "credit": 1.0,
+        "reason": "Replaces significant NAV deviation with different purported exit triggers."
+      }
+    ],
+    "central_error": "direct route ... only if the prospectus provides ... typically ... termination ... suspension",
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Replaces significant NAV deviation with different purported exit triggers."
+  },
+  {
+    "blind_id": "C033",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Conditional transferability and fund cash implementation, in-kind contrast and fund-cost downside covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Conditional transferability and fund cash implementation, in-kind contrast and fund-cost downside covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Conditional transferability and fund cash implementation, in-kind contrast and fund-cost downside covered."
+  },
+  {
+    "blind_id": "C034",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Underlying/hedge/basket costs in quotes and primary market beyond exchange volume explained."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Underlying/hedge/basket costs in quotes and primary market beyond exchange volume explained."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "Underlying/hedge/basket costs in quotes and primary market beyond exchange volume explained."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Underlying/hedge/basket costs in quotes and primary market beyond exchange volume explained."
+  },
+  {
+    "blind_id": "C035",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Core services/bundling/compliance covered; seed/MM and counsel/pricing missing."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Core services/bundling/compliance covered; seed/MM and counsel/pricing missing."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Core services/bundling/compliance covered; seed/MM and counsel/pricing missing."
+      },
+      {
+        "point": 4,
+        "credit": 1.0,
+        "reason": "Core services/bundling/compliance covered; seed/MM and counsel/pricing missing."
+      },
+      {
+        "point": 5,
+        "credit": 1.0,
+        "reason": "Core services/bundling/compliance covered; seed/MM and counsel/pricing missing."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Core services/bundling/compliance covered; seed/MM and counsel/pricing missing."
+  },
+  {
+    "blind_id": "C036",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Reviewed rate and undelivered base/nonuniversality correct but false ceiling wording."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Reviewed rate and undelivered base/nonuniversality correct but false ceiling wording."
+      }
+    ],
+    "central_error": null,
+    "local_error": "up to 115%",
+    "grade": "partial",
+    "rationale": "Reviewed rate and undelivered base/nonuniversality correct but false ceiling wording."
+  },
+  {
+    "blind_id": "C037",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Fee/remainder expense exchange, negotiated split and adviser backstop explicit."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Fee/remainder expense exchange, negotiated split and adviser backstop explicit."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "Fee/remainder expense exchange, negotiated split and adviser backstop explicit."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Fee/remainder expense exchange, negotiated split and adviser backstop explicit."
+  },
+  {
+    "blind_id": "C038",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Website versus basket and contact route correct; actual NSCC distribution workflow not supplied."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Website versus basket and contact route correct; actual NSCC distribution workflow not supplied."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Website versus basket and contact route correct; actual NSCC distribution workflow not supplied."
+  },
+  {
+    "blind_id": "C039",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Relevant expertise/capital inquiries and source/durability distinction covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Relevant expertise/capital inquiries and source/durability distinction covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Relevant expertise/capital inquiries and source/durability distinction covered."
+  },
+  {
+    "blind_id": "C040",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Irish alternatives recognized; KID/marketing, quarter-end deadline and detailed procedures/iNAV omitted."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Irish alternatives recognized; KID/marketing, quarter-end deadline and detailed procedures/iNAV omitted."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Irish alternatives recognized; KID/marketing, quarter-end deadline and detailed procedures/iNAV omitted."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Irish alternatives recognized; KID/marketing, quarter-end deadline and detailed procedures/iNAV omitted."
+  },
+  {
+    "blind_id": "C041",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Creation/redemption capacity, spreads/depth/underlying and intermediary hedging covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Creation/redemption capacity, spreads/depth/underlying and intermediary hedging covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Creation/redemption capacity, spreads/depth/underlying and intermediary hedging covered."
+  },
+  {
+    "blind_id": "C042",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "75-day series clock and operational distinction right, initial-registration explanation erroneous."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "75-day series clock and operational distinction right, initial-registration explanation erroneous."
+      }
+    ],
+    "central_error": null,
+    "local_error": "new trust ... no earlier than 60 days ... under ... \u00a78(a)",
+    "grade": "partial",
+    "rationale": "75-day series clock and operational distinction right, initial-registration explanation erroneous."
+  },
+  {
+    "blind_id": "C043",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Open-end and leveraged/inverse eligibility right; master-feeder separate relief omitted."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Open-end and leveraged/inverse eligibility right; master-feeder separate relief omitted."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Open-end and leveraged/inverse eligibility right; master-feeder separate relief omitted."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Open-end and leveraged/inverse eligibility right; master-feeder separate relief omitted."
+  },
+  {
+    "blind_id": "C044",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.0,
+        "reason": "No actual statutory membership-plus-agreement definition or reviewed forms; generic DTC context insufficient."
+      },
+      {
+        "point": 2,
+        "credit": 0.0,
+        "reason": "No actual statutory membership-plus-agreement definition or reviewed forms; generic DTC context insufficient."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "No actual statutory membership-plus-agreement definition or reviewed forms; generic DTC context insufficient."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "No actual statutory membership-plus-agreement definition or reviewed forms; generic DTC context insufficient."
+  },
+  {
+    "blind_id": "C045",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Net remaining assets, timing/tax covered; explicit pre-end sale alternative omitted."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Net remaining assets, timing/tax covered; explicit pre-end sale alternative omitted."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Net remaining assets, timing/tax covered; explicit pre-end sale alternative omitted."
+  },
+  {
+    "blind_id": "C046",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Holding/basket distinction but contradicts rule on public PCF requirement."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Holding/basket distinction but contradicts rule on public PCF requirement."
+      }
+    ],
+    "central_error": "Requesting the PCF ... Rule 6c-11 generally requires daily public posting",
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Holding/basket distinction but contradicts rule on public PCF requirement."
+  },
+  {
+    "blind_id": "C047",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Fixed costs and sponsor support clear; generic seed durability lacks MM/investor mechanism."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Fixed costs and sponsor support clear; generic seed durability lacks MM/investor mechanism."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Fixed costs and sponsor support clear; generic seed durability lacks MM/investor mechanism."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Fixed costs and sponsor support clear; generic seed durability lacks MM/investor mechanism."
+  },
+  {
+    "blind_id": "C048",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Both cost directions/categories, no detailed board framework or breach notice/assessment."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Both cost directions/categories, no detailed board framework or breach notice/assessment."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Both cost directions/categories, no detailed board framework or breach notice/assessment."
+      },
+      {
+        "point": 4,
+        "credit": 0.0,
+        "reason": "Both cost directions/categories, no detailed board framework or breach notice/assessment."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Both cost directions/categories, no detailed board framework or breach notice/assessment."
+  },
+  {
+    "blind_id": "C049",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "General policies/controls useful; departure process, reviewer roles and precise two-prong definition incomplete."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "General policies/controls useful; departure process, reviewer roles and precise two-prong definition incomplete."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "General policies/controls useful; departure process, reviewer roles and precise two-prong definition incomplete."
+      },
+      {
+        "point": 4,
+        "credit": 0.5,
+        "reason": "General policies/controls useful; departure process, reviewer roles and precise two-prong definition incomplete."
+      }
+    ],
+    "central_error": null,
+    "local_error": "custom basket differs ... from ... standard ... basket",
+    "grade": "partial",
+    "rationale": "General policies/controls useful; departure process, reviewer roles and precise two-prong definition incomplete."
+  },
+  {
+    "blind_id": "C050",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "No AP-status retainer, voluntary activity, dealer/client earnings covered; fee details optional."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "No AP-status retainer, voluntary activity, dealer/client earnings covered; fee details optional."
+  },
+  {
+    "blind_id": "C051",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Shortfall economics right, requested platform-adviser backstop reversed."
+      },
+      {
+        "point": 2,
+        "credit": 0.0,
+        "reason": "Shortfall economics right, requested platform-adviser backstop reversed."
+      }
+    ],
+    "central_error": "The fund remains liable ... shareholders bear them",
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Shortfall economics right, requested platform-adviser backstop reversed."
+  },
+  {
+    "blind_id": "C052",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Pooled low-basis removal and cash-sale/flow and volume limits covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Pooled low-basis removal and cash-sale/flow and volume limits covered."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "Pooled low-basis removal and cash-sale/flow and volume limits covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Pooled low-basis removal and cash-sale/flow and volume limits covered."
+  },
+  {
+    "blind_id": "C053",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Daily active variability, aligned methods and portfolio/pricing/operating drivers covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Daily active variability, aligned methods and portfolio/pricing/operating drivers covered."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "Daily active variability, aligned methods and portfolio/pricing/operating drivers covered."
+      },
+      {
+        "point": 4,
+        "credit": 1.0,
+        "reason": "Daily active variability, aligned methods and portfolio/pricing/operating drivers covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Daily active variability, aligned methods and portfolio/pricing/operating drivers covered."
+  },
+  {
+    "blind_id": "C054",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Five/two and AP agreements covered; basket record fields only generic composition."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Five/two and AP agreements covered; basket record fields only generic composition."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "Five/two and AP agreements covered; basket record fields only generic composition."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Five/two and AP agreements covered; basket record fields only generic composition."
+  },
+  {
+    "blind_id": "C055",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.0,
+        "reason": "Cannot supply actual four categories or limits; generic different conditions less than half of bundle."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Cannot supply actual four categories or limits; generic different conditions less than half of bundle."
+  },
+  {
+    "blind_id": "C056",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.0,
+        "reason": "Expressly cannot confirm exceptions/older waiver; no required facts given. Abstention, not central falsehood."
+      },
+      {
+        "point": 2,
+        "credit": 0.0,
+        "reason": "Expressly cannot confirm exceptions/older waiver; no required facts given. Abstention, not central falsehood."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Expressly cannot confirm exceptions/older waiver; no required facts given. Abstention, not central falsehood."
+  },
+  {
+    "blind_id": "C057",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Series clock right but applies same 75-day Rule 485 route to initial trust."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "Series clock right but applies same 75-day Rule 485 route to initial trust."
+      }
+    ],
+    "central_error": "brand-new trust ... Rule 485(a) ... also ... 75-day",
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Series clock right but applies same 75-day Rule 485 route to initial trust."
+  },
+  {
+    "blind_id": "C058",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Sponsor shortfall right; substitutes fund liability/recourse for adviser backstop."
+      },
+      {
+        "point": 2,
+        "credit": 0.0,
+        "reason": "Sponsor shortfall right; substitutes fund liability/recourse for adviser backstop."
+      }
+    ],
+    "central_error": "fund ... still owe them expenses if the sponsor fails to pay",
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Sponsor shortfall right; substitutes fund liability/recourse for adviser backstop."
+  },
+  {
+    "blind_id": "C059",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Contract economics, naming dependencies, affiliated controls and conditional substitution diligence covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Contract economics, naming dependencies, affiliated controls and conditional substitution diligence covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Contract economics, naming dependencies, affiliated controls and conditional substitution diligence covered."
+  },
+  {
+    "blind_id": "C060",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Prohibits permissible sub-fund identifier option and substitutes LEI/ISIN."
+      }
+    ],
+    "central_error": "ETF identifier applies to the listed class, not the whole sub-fund",
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Prohibits permissible sub-fund identifier option and substitutes LEI/ISIN."
+  },
+  {
+    "blind_id": "C061",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Services and conditional arrangements covered; seed omitted, compliance program/board oversight incomplete."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Services and conditional arrangements covered; seed omitted, compliance program/board oversight incomplete."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "Services and conditional arrangements covered; seed omitted, compliance program/board oversight incomplete."
+      },
+      {
+        "point": 4,
+        "credit": 1.0,
+        "reason": "Services and conditional arrangements covered; seed omitted, compliance program/board oversight incomplete."
+      },
+      {
+        "point": 5,
+        "credit": 0.5,
+        "reason": "Services and conditional arrangements covered; seed omitted, compliance program/board oversight incomplete."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Services and conditional arrangements covered; seed omitted, compliance program/board oversight incomplete."
+  },
+  {
+    "blind_id": "C062",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Seed treated too categorically as sponsor-owned/recoverable; formula lacks positive unit-margin condition and conflates unit margin/profit."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Seed treated too categorically as sponsor-owned/recoverable; formula lacks positive unit-margin condition and conflates unit margin/profit."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Seed treated too categorically as sponsor-owned/recoverable; formula lacks positive unit-margin condition and conflates unit margin/profit."
+      }
+    ],
+    "central_error": null,
+    "local_error": "Retained margin is positive only above that level",
+    "grade": "partial",
+    "rationale": "Seed treated too categorically as sponsor-owned/recoverable; formula lacks positive unit-margin condition and conflates unit margin/profit."
+  },
+  {
+    "blind_id": "C063",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.0,
+        "reason": "Only foreign relief fully right; affiliate limit incomplete and two categories replaced by other statutes, below half bundle."
+      }
+    ],
+    "central_error": null,
+    "local_error": "Joint transactions ... Prospectus delivery ... four ... relief",
+    "grade": "wrong",
+    "rationale": "Only foreign relief fully right; affiliate limit incomplete and two categories replaced by other statutes, below half bundle."
+  },
+  {
+    "blind_id": "C064",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Indirect annual cost explained, daily cadence missing."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Indirect annual cost explained, daily cadence missing."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Indirect annual cost explained, daily cadence missing."
+  },
+  {
+    "blind_id": "C065",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "No ordinary retail direct redemption; AP units and broker sale alternative clear."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "No ordinary retail direct redemption; AP units and broker sale alternative clear."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "No ordinary retail direct redemption; AP units and broker sale alternative clear."
+  },
+  {
+    "blind_id": "C066",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Both arbitrage directions, basket exchange and non-guaranteed limits covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Both arbitrage directions, basket exchange and non-guaranteed limits covered."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "Both arbitrage directions, basket exchange and non-guaranteed limits covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both arbitrage directions, basket exchange and non-guaranteed limits covered."
+  },
+  {
+    "blind_id": "C067",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Shared infrastructure/costs and concrete host control, conditional one-fund judgment covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Shared infrastructure/costs and concrete host control, conditional one-fund judgment covered."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "Shared infrastructure/costs and concrete host control, conditional one-fund judgment covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Shared infrastructure/costs and concrete host control, conditional one-fund judgment covered."
+  },
+  {
+    "blind_id": "C068",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Class comparison broad, but broker use and dealing frequency not supplied as distinct comparison requirements."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Class comparison broad, but broker use and dealing frequency not supplied as distinct comparison requirements."
+  },
+  {
+    "blind_id": "C069",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Explicitly forbids sub-fund label option."
+      }
+    ],
+    "central_error": "Do not call the whole sub-fund an ETF if it also has non-ETF classes",
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Explicitly forbids sub-fund label option."
+  },
+  {
+    "blind_id": "C070",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Low-basis in-kind nonrecognition, cash-fund comparison, conditional benefit and investor tax covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Low-basis in-kind nonrecognition, cash-fund comparison, conditional benefit and investor tax covered."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "Low-basis in-kind nonrecognition, cash-fund comparison, conditional benefit and investor tax covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Low-basis in-kind nonrecognition, cash-fund comparison, conditional benefit and investor tax covered."
+  },
+  {
+    "blind_id": "C071",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Conditional transferability, fund cash trades, securities contrast and cost/tax limits covered."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Conditional transferability, fund cash trades, securities contrast and cost/tax limits covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Conditional transferability, fund cash trades, securities contrast and cost/tax limits covered."
+  },
+  {
+    "blind_id": "C072",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Leveraged/inverse exclusion is central reversal; open-end/other exclusions partly correct."
+      },
+      {
+        "point": 2,
+        "credit": 0.0,
+        "reason": "Leveraged/inverse exclusion is central reversal; open-end/other exclusions partly correct."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Leveraged/inverse exclusion is central reversal; open-end/other exclusions partly correct."
+      }
+    ],
+    "central_error": "Leveraged and inverse ETFs: excluded from the rule",
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Leveraged/inverse exclusion is central reversal; open-end/other exclusions partly correct."
+  },
+  {
+    "blind_id": "C073",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "MM cost mechanism and underlying/hedging/creation cost effects plus incomplete historical volume explained."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "MM cost mechanism and underlying/hedging/creation cost effects plus incomplete historical volume explained."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "MM cost mechanism and underlying/hedging/creation cost effects plus incomplete historical volume explained."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "MM cost mechanism and underlying/hedging/creation cost effects plus incomplete historical volume explained."
+  },
+  {
+    "blind_id": "C074",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Coexistence and most comparisons, but broker use/frequency not explicitly supplied."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Coexistence and most comparisons, but broker use/frequency not explicitly supplied."
+  },
+  {
+    "blind_id": "C075",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Risks distinguished; US collateral floor and UCITS noncash prohibition/restricted reinvestment incomplete."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Risks distinguished; US collateral floor and UCITS noncash prohibition/restricted reinvestment incomplete."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Risks distinguished; US collateral floor and UCITS noncash prohibition/restricted reinvestment incomplete."
+  },
+  {
+    "blind_id": "C076",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "AP units versus ordinary retail exchange sale correct."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "AP units versus ordinary retail exchange sale correct."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "AP units versus ordinary retail exchange sale correct."
+  },
+  {
+    "blind_id": "C077",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "No automatic AP payment or ongoing duty, earnings and fee-cost direction clear."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "No automatic AP payment or ongoing duty, earnings and fee-cost direction clear."
+  },
+  {
+    "blind_id": "C078",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Primary AP/secondary MM distinction and role overlap/inventory mechanism clear."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Primary AP/secondary MM distinction and role overlap/inventory mechanism clear."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Primary AP/secondary MM distinction and role overlap/inventory mechanism clear."
+  },
+  {
+    "blind_id": "C079",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Five/two and agreements given; custom designation/compliance missing in basket fields."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Five/two and agreements given; custom designation/compliance missing in basket fields."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "Five/two and agreements given; custom designation/compliance missing in basket fields."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Five/two and agreements given; custom designation/compliance missing in basket fields."
+  },
+  {
+    "blind_id": "C080",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.0,
+        "reason": "No reviewed 115% example, but undelivered-value base and nonuniversality right."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "No reviewed 115% example, but undelivered-value base and nonuniversality right."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "No reviewed 115% example, but undelivered-value base and nonuniversality right."
+  },
+  {
+    "blind_id": "C081",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.0,
+        "reason": "Denies membership requirement and misstates reviewed trust signature role."
+      },
+      {
+        "point": 2,
+        "credit": 0.0,
+        "reason": "Denies membership requirement and misstates reviewed trust signature role."
+      },
+      {
+        "point": 3,
+        "credit": 0.0,
+        "reason": "Denies membership requirement and misstates reviewed trust signature role."
+      }
+    ],
+    "central_error": "does not require an AP to be a clearing-agency member",
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Denies membership requirement and misstates reviewed trust signature role."
+  },
+  {
+    "blind_id": "C082",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.0,
+        "reason": "Misreads permitted parties and makes trust main signatory, Irish contrast incomplete."
+      },
+      {
+        "point": 2,
+        "credit": 0.0,
+        "reason": "Misreads permitted parties and makes trust main signatory, Irish contrast incomplete."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Misreads permitted parties and makes trust main signatory, Irish contrast incomplete."
+      }
+    ],
+    "central_error": "main signatories are generally the ETF trust ... and the AP",
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Misreads permitted parties and makes trust main signatory, Irish contrast incomplete."
+  },
+  {
+    "blind_id": "C083",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Creation/premium and redemption/discount arbitrage and constrained equality correctly explained."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Creation/premium and redemption/discount arbitrage and constrained equality correctly explained."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "Creation/premium and redemption/discount arbitrage and constrained equality correctly explained."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Creation/premium and redemption/discount arbitrage and constrained equality correctly explained."
+  },
+  {
+    "blind_id": "C084",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Fraction tax and notice treatment clear; explicit inaction trading block omitted."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Fraction tax and notice treatment clear; explicit inaction trading block omitted."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Fraction tax and notice treatment clear; explicit inaction trading block omitted."
+  },
+  {
+    "blind_id": "C085",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Primary/secondary roles, overlap and inventory use conveyed; LMM optional."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Primary/secondary roles, overlap and inventory use conveyed; LMM optional."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Primary/secondary roles, overlap and inventory use conveyed; LMM optional."
+  },
+  {
+    "blind_id": "C086",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Share counts and secondary trading distinction clear."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Share counts and secondary trading distinction clear."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "Share counts and secondary trading distinction clear."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Share counts and secondary trading distinction clear."
+  },
+  {
+    "blind_id": "C087",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "History/trigger broadly right; median spread period and public basket requirement wrong; retention absent."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "History/trigger broadly right; median spread period and public basket requirement wrong; retention absent."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "History/trigger broadly right; median spread period and public basket requirement wrong; retention absent."
+      }
+    ],
+    "central_error": null,
+    "local_error": "Post ... basket composition ... each business day; median ... same periods",
+    "grade": "partial",
+    "rationale": "History/trigger broadly right; median spread period and public basket requirement wrong; retention absent."
+  },
+  {
+    "blind_id": "C088",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Fixed/variable purposes and AP payer right; asserts fund receipt rather than clear provider/fund split."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Fixed/variable purposes and AP payer right; asserts fund receipt rather than clear provider/fund split."
+      },
+      {
+        "point": 3,
+        "credit": 1.0,
+        "reason": "Fixed/variable purposes and AP payer right; asserts fund receipt rather than clear provider/fund split."
+      }
+    ],
+    "central_error": null,
+    "local_error": "Transaction fees go to the fund ... Service providers are paid from fund expenses",
+    "grade": "partial",
+    "rationale": "Fixed/variable purposes and AP payer right; asserts fund receipt rather than clear provider/fund split."
+  }
+]

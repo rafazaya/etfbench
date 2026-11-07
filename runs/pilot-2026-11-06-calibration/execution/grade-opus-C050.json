@@ -1,0 +1,24 @@
+{
+  "blind_id": "C050",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States APs 'aren't paid a standing fee by the sponsor' and 'There's generally no obligation to keep creating or redeeming... they can stop participating.' Also notes APs earn through trading spreads or by charging clients."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Optional point. 'The fund may pass through transaction fees to cover costs' implies the fee is a cost, not AP compensation, but it does not mention sponsor waiver or subsidy."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Optional point. Waivers on custom redemptions are not mentioned."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "The only required point is fully covered: there is no automatic sponsor payment and no ongoing duty to create or redeem. No central error appears. The answer does not claim continuous dealing or a fund retainer. The ancillary statements about spreads, client charges, pass-through fees, and the effect on liquidity and NAV tracking are accurate. Optional omissions do not reduce the grade."
+}

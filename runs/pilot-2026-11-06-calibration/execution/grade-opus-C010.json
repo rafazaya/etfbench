@@ -1,0 +1,19 @@
+{
+  "blind_id": "C010",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer separately names three risks: borrowers failing to return securities, collateral falling below loan value, and reinvested cash losing value or becoming illiquid. It lists controls for each, such as over-collateralization, daily mark-to-market and investment limits. It presents the US material as general practice rather than the bank's document, so the controls are framed conditionally. It never claims collateral eliminates losses."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "The answer covers UCITS recall ability ('must be able to recall loaned securities at any [time]', truncated), liquidity, diversification, haircuts and restricted cash reinvestment. It omits credit quality and the ban on reinvesting noncash collateral. Daily valuation appears only in the generic section, not as a UCITS rule."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Required coverage is 1.5 of 2, which meets the partial threshold. There is no central error: the answer never says collateral removes lending risk or that UCITS noncash collateral can be freely reinvested. Point 2 is incomplete because it omits credit quality and the noncash reinvestment ban. The answer is also truncated, and its US section is generic rather than drawn from the iShares document."
+}

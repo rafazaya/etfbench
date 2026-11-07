@@ -1,0 +1,29 @@
+{
+  "blind_id": "C049",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the ETF needs written policies and procedures 'governing basket construction and acceptance.'"
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Covers detailed parameters and the fund/shareholders' best interests. It omits any process for revising or departing from the custom-basket policies."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Records are covered: 'documentation of each custom basket... adherence to the policies, retained.' Review roles stay generic ('Board... oversight,' 'compliance and portfolio-management responsibilities assigned'). It never says the policies must name the titles or roles of adviser employees who review each custom basket for compliance."
+    },
+    {
+      "point": 4,
+      "credit": 0.5,
+      "reason": "It separates a custom basket (composition differs from the standard basket) from a non-standard order (deviation in terms). But 'differs in composition from the fund's standard... basket' misses both prongs: a basket not representative of holdings, or a representative basket that differs from the first basket used that business day."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "No explicit central error: the answer does not say a custom basket is only a non-standard contract order, and does not say a later representative basket can never be custom. Required coverage is 2.5 of 4, which meets the half threshold with core facts supplied. Missing elements: the departure/revision process, the specific adviser reviewer titles, and the precise two-prong custom-basket definition. These gaps prevent a correct grade."
+}

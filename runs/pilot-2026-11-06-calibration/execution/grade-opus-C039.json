@@ -1,0 +1,19 @@
+{
+  "blind_id": "C039",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Covers all three inquiry areas. Selection: criteria for choosing the exchange and LMM, comparison of alternatives, and conflicts. Relevant-market expertise: LMM experience with similar strategies and underlying assets, hedging, spreads and AP coordination. Capital and seed support: what is committed, by whom, for how long and on what terms."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Explicitly distinguishes 'temporary LMM/affiliate market-making seed from durable investor assets.' It does not treat investor assets as permanent: it asks what evidence supports 'expected independent demand and asset retention after temporary support ends.' It also asks whether support is 'guaranteed or discretionary' and what happens if it is withdrawn."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are covered. The answer frames the checklist as 'Suggested diligence questions\u2014not a mandatory approval rule.' It never claims market-maker seed is guaranteed or permanent, and it never says a fixed capital amount is legally required. No material local falsehood was found."
+}

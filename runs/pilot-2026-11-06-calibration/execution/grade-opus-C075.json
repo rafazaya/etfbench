@@ -1,0 +1,19 @@
+{
+  "blind_id": "C075",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer separately covers three risks. Borrower failure: 'A borrower may fail to return securities.' Collateral shortfall: collateral 'may fall below the cost of replacing loaned securities.' Reinvestment loss: cash collateral investments 'may lose value or become illiquid.' It ties the US iShares example to required collateral and states 'recovery isn't guaranteed', so the controls are presented as conditional rather than absolute."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "UCITS recall is covered: funds 'must be able to recall securities or terminate lending at any time.' The answer also mentions valuation, haircut, diversification and custody, but cites only generic 'eligibility' without explicit liquidity or credit-quality criteria. It also omits that noncash collateral cannot be reinvested and that cash reinvestment is restricted. This is a substantive but incomplete bundle."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Point 1 is fully covered. Point 2 earns half credit because the noncash no-reinvestment rule, restricted cash use, and explicit liquidity and credit-quality criteria are missing. The answer never says collateral eliminates losses; it states the safeguards 'mitigate, but don't eliminate, risk.' It also makes no claim that noncash collateral can be reinvested, so there is no central error. Total coverage is 1.5 of 2, which meets the partial threshold but not correct."
+}

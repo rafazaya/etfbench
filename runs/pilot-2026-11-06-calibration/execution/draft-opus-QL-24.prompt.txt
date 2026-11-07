@@ -1,0 +1,10 @@
+Independently calibrate this provisional question rubric. You have not seen the other draft.
+For EVERY numbered original key point mark required (expert answer incomplete without its minimum)
+or optional (nice-to-have). Bundled points: specify minimum content and explicitly optional subdetails.
+Define explicit central false statements that force wrong rather than partial. Omission is not falsehood.
+Define scoring for correct/partial/wrong; consider half-credit for partial coverage of a bundled point.
+Use round2 disagreements as editorial evidence, not ground truth. No external research.
+Return ONLY JSON {"id":..., "points":[{"point":1,"mark":"required|optional","minimum":"..."}],
+"central_errors":["..."],"scoring_rule":{"correct":"...","partial":"...","wrong":"..."}}.
+
+{"id": "QL-24", "question": "As of 2026-11-06, what four categories of conditional operational relief does Rule 6c-11(b) provide for US ETFs? Explain the limits on affiliate transactions and delayed foreign-investment delivery.", "key_points": ["ETF shares count as redeemable securities despite creation-unit dealing; exchange trades can occur at market prices; basket exchanges get limited affiliated-transaction relief where affiliation arises solely from specified 5% voting holdings; foreign-market holidays/delivery cycles can permit delivery as soon as practicable, up to 15 days. [Rule 6c-11(b)](https://www.law.cornell.edu/cfr/text/17/270.6c-11)."], "grader_notes": ["**Confidence: high.** This is conditional relief from specified restrictions, not a waiver of the '40 Act or permission for all affiliate transactions."], "round2_disagreement_evidence": []}

@@ -1,0 +1,27 @@
+{
+  "id": "QL-22",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "States that appointing a principal underwriter/distributor does not by itself assure a sales force or asset gathering, and frames the appointment as legal/operational distribution (principal underwriter/distributor role for creation-unit and share distribution; not a promise or obligation to raise assets). Optional subdetails: naming the Simplify/Foreside example; noting that Foreside acts as principal underwriter/national distributor; noting the distributor's annual fee and expenses are paid from the adviser's resources; citing the SAI 'Distributor' section. The specific example is not required if the general distinction is stated correctly."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "States that salespeople/wholesaling, marketing, and intermediary/platform access (e.g., broker-dealer, RIA, and platform shelf relationships) are separate functions that must be separately allocated or contracted (by the sponsor, adviser, platform, or third parties), and that an ordinary series-trust servicing package cannot be assumed to provide asset gathering. Must reflect that platform packages differ (some may bundle marketing or distribution support, others do not), so packages must be checked case by case rather than assumed to be identical. Optional subdetails: a practical recommendation that sponsors confirm in writing who supplies these functions; examples of what such separate arrangements look like."
+    }
+  ],
+  "central_errors": [
+    "Asserts that appointing a principal underwriter/distributor on a series-trust platform itself assures or guarantees a sales force, marketing, or asset gathering.",
+    "Asserts that the principal underwriter/distributor is contractually obligated to raise assets or deliver AUM targets merely by virtue of the appointment.",
+    "Asserts that all series-trust platform packages are identical and uniformly include, or uniformly exclude, sales force, marketing, and intermediary access.",
+    "Asserts that every ETF sponsor must legally employ its own in-house sales team (unsupported by the evidence).",
+    "Misstates the Simplify example in a way that drives the conclusion, e.g., claiming that Foreside's appointment there includes a commitment to gather assets or that the distributor is paid from fund assets as a sales-force fee, and then uses that claim to conclude asset gathering is assured."
+  ],
+  "scoring_rule": {
+    "correct": "Both required points meet their minimums: a clear 'no' with the distinction between legal/operational distribution and separately contracted sales, marketing, and intermediary access, plus recognition that platform packages vary. No central error is present. Optional subdetails such as the Foreside/Simplify fee arrangement are not needed for full credit.",
+    "partial": "No central error is present, but coverage is incomplete. Award half credit per required point. For example: the answer correctly says the appointment does not assure asset gathering but does not identify sales, marketing, or intermediary access as separately allocated functions. Or it covers point 2 but omits the variability of platform packages, which counts as half of point 2. Or it gives the right conclusion with only a vague distinction. Omissions alone never make an answer wrong.",
+    "wrong": "Any central error is stated as a material claim, or the answer's bottom line is that the appointment does assure a sales force or asset gathering. A non-answer, or an answer that fails both required minimums, is also wrong."
+  }
+}

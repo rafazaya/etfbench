@@ -1,0 +1,19 @@
+{
+  "blind_id": "C056",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0,
+      "reason": "The answer does not state either express Reg. 26(2) exception. It says it 'can't confirm... any 2026 exceptions separating cash from in-kind dealing cut-offs.' It describes class-level hedging mechanics (attribution, the 95\u2013105% tolerance) but never says hedged and unhedged classes may have different cut-offs."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "The answer says it is 'unaware of a \"Q&A 1030\" waiver approach.' It gives no account of the old reasoned-waiver route, no contrast with the express 2026 exceptions and no limiting statement."
+    }
+  ],
+  "central_error": null,
+  "local_error": "'Dealing cut-offs are usually set in the prospectus and applied uniformly, not split by cash versus in-kind.' This is framed as general practice, not as a statement of law. It sits in tension with the express Reg. 26(2) permission for different cash and in-kind cut-offs. It is hedged ('usually'), so it does not amount to an explicit central error.",
+  "grade": "wrong",
+  "rationale": "Required coverage is 0 of 2, which is below half. The answer supplies none of the requested core facts. It declines to verify the provisions and gives only generic hedging background and a list of sources to check. No explicit central error is made, but the lack of coverage alone requires a grade of wrong."
+}

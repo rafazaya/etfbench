@@ -1,0 +1,28 @@
+{
+  "id": "QL-33",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "Must present this as the US ('40 Act) iShares example, not a UCITS rule, and must distinguish (a) borrower default/failure risk, i.e. delayed recovery of lent securities or collateral insufficient to cover replacement cost (collateral-shortfall), from (b) cash-collateral reinvestment risk, i.e. losses on the investment of cash collateral that arise independently of borrower default. Must state the control that collateral is maintained at least equal to the current market value of the securities lent, and must state that this control does not eliminate loss risk. Optional subdetails: the exact iShares SAI citation/page; mark-to-market or daily adjustment mechanics; indemnification by the lending agent (if mentioned, it should not be presented as a guarantee); specific collateral types or the percentage above 100%."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Must keep UCITS separate from the US example and state that (a) a UCITS must be able to recall lent securities or terminate the loan at any time, and (b) collateral standards cover daily valuation, high liquidity, high credit quality, diversification, and appropriate haircuts. At least three of the five collateral criteria are needed for full credit, and daily valuation plus haircuts are preferred. Must also state that non-cash collateral cannot be sold, reinvested, or pledged, and that cash collateral reinvestment is restricted (for example to deposits, high-quality government bonds, reverse repos, or short-term MMFs) and must be diversified. Optional subdetails: ESMA paragraph numbers; the exact list of eligible reinvestment assets; issuer-concentration limits such as 20%; stress testing and the haircut policy document."
+    }
+  ],
+  "central_errors": [
+    "States or implies that collateral, overcollateralization, daily mark-to-market, haircuts, or lending-agent indemnification eliminates or guarantees against securities-lending losses.",
+    "Conflates cash-collateral reinvestment risk with borrower default, for example by claiming reinvestment losses can only occur if the borrower defaults, or that reinvestment risk is covered by the borrower's collateral.",
+    "Presents the iShares US example terms as UCITS rules, or presents the UCITS/ESMA recall and collateral rules as governing the US iShares '40 Act funds.",
+    "States that UCITS may reinvest, sell, or pledge non-cash collateral, or that UCITS cash collateral may be reinvested without restriction or diversification.",
+    "States that UCITS loans need not be recallable, or that a UCITS may lock up lent securities for terms it cannot terminate.",
+    "States that US iShares collateral can be less than the market value of securities lent as a standard control."
+  ],
+  "scoring_rule": {
+    "correct": "Both required points meet their minimum content, with the three risks clearly distinguished, the US and UCITS regimes kept separate, and an explicit statement that controls do not remove loss risk. No central error is present.",
+    "partial": "No central error is present, but one or more required minimums are incompletely covered. A required point that meets about half of its minimum earns half credit for that point. Examples of half coverage: risks are distinguished but the 'at least equal to market value' control or the 'does not remove loss risk' caveat is missing; or UCITS recall plus collateral criteria are given but the non-cash/cash reinvestment rules are missing, or the reverse. A required point that is entirely absent counts as zero for that point. Overall partial applies when total credit is above 0 and below full.",
+    "wrong": "Any central error is present, regardless of other coverage. Wrong also applies if both required points are absent or substantively incorrect, for example a generic answer with no risk distinction and no regime separation. Omission alone does not make an answer wrong unless both required points are missing."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "blind_id": "C011",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Covers all three core causes. It names 'sampling or optimization versus full replication, and resulting active weights' and the 'timing of index reconstitutions, rebalances'. It also names pricing differences: 'fair-value adjustments and closing-price timing versus benchmark pricing; non-synchronous or stale prices'. It adds the optional constraint point: 'caps, and liquidity-constrained holdings'."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States 'cash drag and cash buffer levels' explicitly. It also covers the optional items: 'dividend accrual and withholding assumptions' and the timing of corporate actions."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Meets option (b) through unambiguous framing. It assigns 'persistent drag such as fees' to tracking difference, which is 'reported separately'. Its tracking-error causes are all variability sources: active weights, cash, trading slippage and commissions, flows, pricing and securities lending. It makes no claim that a constant fee raises the standard deviation."
+    },
+    {
+      "point": 4,
+      "credit": 1,
+      "reason": "Distinguishes tracking error as the 'annualized standard deviation of daily (fund return \u2212 benchmark return)' from tracking difference as the cumulative return gap. It addresses measurement alignment in substance: the 'agreed one-year window', 'over the same period', paired daily returns, pricing timing 'versus benchmark pricing', withholding assumptions and benchmark data errors. It never explicitly requires the total-return benchmark variant, which is a minor gap."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All four required minimums are met. There is no central error: tracking error is not equated with the cumulative difference, and constant fees are not said to raise dispersion. The shorthand 'daily returns \u00d7 \u221a252' and the FX item, which matters little for a US equity ETF, are imprecise but not material falsehoods."
+}

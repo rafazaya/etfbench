@@ -1,0 +1,33 @@
+{
+  "id": "QL-03",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "Explains that a new ETF has largely fixed operating costs, so at small AUM its fee revenue may not cover them even at a reasonable fee. Framing the issue as break-even AUM against fixed or operating costs satisfies this, and so does noting that low-fee strategies need more scale. Optional subdetails: an explicit statement that small and young funds are especially exposed to closure; itemized cost categories such as legal, index licensing, marketing and distribution."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Identifies the sponsor or adviser, as the entity paying costs or waiving fees, as the bearer of break-even shortfalls. Treats the sponsor's willingness and financial ability to keep absorbing losses as a key indicator, for example through fee waivers, expense caps or subsidy commitments. Also states or clearly implies that AUM or size alone does not determine closure with certainty. Optional subdetails: the duration of waivers or caps; the sponsor's overall fund-lineup economics; the sponsor's history of closing funds."
+    },
+    {
+      "point": 3,
+      "mark": "required",
+      "minimum": "Distinguishes seed by source and durability. It must convey that market-maker or liquidity-provider seed is temporary inventory that can be redeemed or withdrawn, and that investor seed is more lasting. Generic language like 'temporary or affiliated seed may overstate demand' does not meet this minimum on its own. Partial credit (half) is available if the answer covers seed durability or quality generically without the market-maker-versus-investor mechanism. Optional subdetails: subsidized or incentivized seed investors may leave when incentives end, which strengthens the answer but is not required if the market-maker distinction is present; the series-trust board can replace the adviser or liquidate the fund. Omitting the board alone does not downgrade the answer."
+    }
+  ],
+  "central_errors": [
+    "Predicts a guaranteed closure or survival outcome, or presents a definitive closure probability, as the answer rather than indicators.",
+    "States that AUM or size alone determines closure with certainty.",
+    "Claims that market-maker seed is permanent, locked-up, or equivalent to durable end-investor demand, or that it cannot be redeemed.",
+    "Claims that fixed costs are irrelevant, or that a small fund breaks even at any reasonable fee regardless of scale.",
+    "Asserts that the sponsor's ability or willingness to subsidize losses has no bearing on closure risk.",
+    "Asserts that a series-trust board cannot liquidate the fund or replace the adviser, if the answer addresses the board at all."
+  ],
+  "scoring_rule": {
+    "correct": "Meets the minimum for points 1, 2 and 3 and contains no central error. Point 1 may be satisfied by clear implication through break-even and fixed-cost framing. Missing optional subdetails, such as the board role, subsidy exits or an explicit small/young statement, does not reduce the grade.",
+    "partial": "Contains no central error and meets at least one required minimum, but one or more required points are missing or only half-covered. The typical case is: points 1 and 2 are met, but point 3 covers only generic seed durability or affiliation without the redeemable market-maker inventory versus investor seed distinction. Score each required point as 1 if met, 0.5 if half-covered and 0 if absent. A total from 1 to 2.5 out of 3 is partial.",
+    "wrong": "Contains any central error, or meets no required minimum (for example, it gives generic ETF risks with no sponsor-economics or seed analysis), or scores below 1 out of 3 under the point tally."
+  }
+}

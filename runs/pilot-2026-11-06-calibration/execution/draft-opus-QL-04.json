@@ -1,0 +1,32 @@
+{
+  "id": "QL-04",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "States that the expense ratio is paid out of fund assets, so investors bear it indirectly through reduced fund value and returns, and are not sent a separate bill and do not pay it as a direct charge. Optional subdetails: the prospectus fee table discloses the annual expense ratio; the expense ratio is expressed as an annual percentage of assets; illustrative dollar examples."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Must convey the collection cadence: expenses accrue incrementally, typically daily, as deductions reflected in NAV. In effect the daily accrual is about 1/365 (a pro-rata fraction) of the annual rate, so the full annual rate is not charged at once or each day. Explicitly saying 'daily' or 'each day' meets this minimum in full. Vague wording such as 'gradually', 'over time' or 'spread out' without any daily or periodic accrual mechanism tied to NAV earns at most half credit on this point. Optional subdetails: an ICI citation; the arithmetic of a pro-rata example."
+    },
+    {
+      "point": 3,
+      "mark": "optional",
+      "minimum": "Distinguishes NAV accrual timing from when the fund actually pays the adviser or other providers, which follows the contract and is often monthly or quarterly. Not needed for full credit. Bonus or tie-break value only."
+    }
+  ],
+  "central_errors": [
+    "Claims investors are billed separately or directly, or must pay the expense ratio out of pocket (for example from a brokerage cash balance or by selling shares) instead of it being deducted from fund assets.",
+    "Claims the full annual expense ratio is deducted each day, or that the annual expense is taken once a year as a single lump sum from the investor's holdings or NAV, presented as the collection mechanism.",
+    "Claims the expense ratio is collected as a trading commission, bid-ask spread, or a charge at purchase or sale, instead of as an ongoing fund-level deduction.",
+    "Claims the expense ratio does not affect NAV or returns.",
+    "Equates the provider payment date with the accrual mechanism in a way that contradicts the daily NAV accrual (for example, 'NAV only drops on the monthly date the adviser is paid')."
+  ],
+  "scoring_rule": {
+    "correct": "Points 1 and 2 both fully met (indirect deduction from fund assets reducing NAV and returns, and explicit daily or periodic accrual reflected in NAV rather than a lump-sum charge), with no central error. Point 3 and the fee-table citation are optional.",
+    "partial": "No central error, but at least one required point is only partly met. Typical cases: point 1 is met but point 2 is only implied by vague 'gradual' or 'over time' language (half credit on point 2), or point 2 is met but point 1 is incomplete. Score as the sum of point credits: each required point is worth 1, with 0.5 for half coverage. Any total below 2 counts as partial if at least 0.5 is earned.",
+    "wrong": "Any central error is stated as fact, or the answer fails to convey that the cost is deducted from fund assets indirectly (point 1 earns 0), or the answer does not address how the expense ratio is collected at all."
+  }
+}

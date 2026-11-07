@@ -1,0 +1,14 @@
+{
+  "blind_id": "C055",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Incomplete bundle. The answer touches three of the four categories only loosely. Market-price trading is implied via the 'resale-price provisions of Section 22(d)'. Foreign delivery is described as 'later settlement\u2026 with timing conditions', but the as-soon-as-practicable, up-to-15-days limit is omitted. Affiliate relief is mentioned but mischaracterized. Redeemability (shares treated as redeemable securities despite creation-unit dealing) is not stated. The answer also substitutes custom baskets as a category and expressly disclaims knowing the four categories."
+    }
+  ],
+  "central_error": null,
+  "local_error": "'Affiliate limits: restrictions on affiliated persons acting as authorized participants or otherwise influencing creation and redemption baskets.' This misstates the 6c-11(b) affiliate relief. That relief permits in-kind basket exchanges with persons affiliated solely through specified 5% voting holdings; it does not restrict affiliates from acting as APs. Listing 'custom baskets' as a relief category is also inaccurate, since that is a policies-and-procedures condition rather than a (b) relief category. These are material local inaccuracies, which cap the grade at partial.",
+  "grade": "partial",
+  "rationale": "There is no explicit central error: the answer neither claims unlimited affiliate relief nor allows foreign delivery beyond 15 days. Required coverage is 0.5 of 1, which meets the half threshold. Some requested core facts are supplied (market-price/22(d) relief and delayed foreign settlement). The answer omits redeemability and the 15-day limit and mischaracterizes the affiliate relief, so it is partial rather than correct."
+}

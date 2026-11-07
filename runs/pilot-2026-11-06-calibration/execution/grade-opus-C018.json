@@ -1,0 +1,24 @@
+{
+  "blind_id": "C018",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Says the prospectus and KID should describe the holdings-disclosure policy, including frequency, timing and recipients. It omits marketing materials and where portfolio/iNAV information can be found."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Gives both routes: daily full-portfolio publication, and less-frequent disclosure conditional on daily alternative information to APs/market makers so arbitrage works. It omits the nondiscriminatory basis, prospectus disclosure of the arbitrage information, procedures for impaired arbitrage and investor requests, and public quarter-end holdings within 30 business days."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "'Full portfolio' implies position-level holdings, and point 1's prospectus description of disclosure frequency and recipients loosely covers the prospectus route. iNAV is mentioned, but not the prospectus explanation of its calculation method and frequency."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "No central error: the answer does not say all Irish ETFs must publish full daily public holdings, and it says the periodic route needs daily AP/market-maker information. The phrase 'Standard UCITS ETFs publish their full portfolio daily, alongside an indicative NAV' is a hedged generalisation, not a material falsehood. Required coverage is 1.5 of 3, which meets the half threshold, and core facts are supplied. Missing specifics (nondiscriminatory access, procedures, the 30-business-day quarter-end rule and iNAV methodology) prevent a 'correct' grade."
+}

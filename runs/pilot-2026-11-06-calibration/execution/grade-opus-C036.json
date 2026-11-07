@@ -1,0 +1,24 @@
+{
+  "blind_id": "C036",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer says cash collateral may be required for undelivered securities and ties the 115% to the value of those securities. It frames 115% as a ceiling ('up to 115%'), which the rubric says mischaracterizes the reviewed text. The optional 105% detail is omitted."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "The answer says the percentage applies to the securities owed, not the order's total value or cash component. It also says '115% is not universal' and that requirements vary by agreement or fund."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "The optional AP shortfall liability is not mentioned. This does not reduce the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": "'cash collateral of up to 115% of the value of those undelivered securities': this presents 115% as a maximum or ceiling, which the rubric defines as a local error that caps the grade at partial.",
+  "grade": "partial",
+  "rationale": "There is no central error: the answer does not claim a universal rate, does not apply the rate to the whole basket, and does not deny the collateral requirement. Required coverage is 1.5 of 2, and core facts are supplied. However, the 'up to 115%' ceiling wording is a listed local error that caps the grade at partial."
+}

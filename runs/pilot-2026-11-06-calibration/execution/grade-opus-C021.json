@@ -1,0 +1,24 @@
+{
+  "blind_id": "C021",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Says seed capital is fund assets, not an expense, and that it stays exposed to market risk and may be redeemed. It never says the legal minimum (the $100,000 net-worth condition) is not a commercial launch budget or break-even level."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Names the sponsor as covering specified operating expenses under the unitary fee and gives exclusions, noting contracts define them. It does not name who pays organization/launch costs, saying only 'model payer' for each item."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Lists one-time and recurring categories well. Break-even is given as fee revenue (rate \u00d7 average net assets) covering sponsor-borne costs, without the fixed costs \u00f7 (retained fee rate \u2212 variable cost rate) form or the condition that the margin be positive."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "No central error: seed is correctly treated as assets, not consumed spending, and the answer does not claim a positive margin guarantees profit. Each required point is only partly met: the legal-minimum distinction is missing, the launch-cost payer is not named, and the break-even formula is simplified without fixed versus variable costs or the positive-margin condition. Coverage totals 1.5 of 3, which meets the half threshold, so the grade is partial."
+}

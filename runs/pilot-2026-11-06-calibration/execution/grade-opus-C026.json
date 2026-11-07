@@ -1,0 +1,24 @@
+{
+  "blind_id": "C026",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the fund 'can deliver low-basis securities in kind rather than selling them for cash' and that under IRC \u00a7852(b)(6) 'a RIC recognizes no gain on that in-kind distribution.'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says the fund 'can purge its most appreciated lots without realizing gains,' which reduces embedded gains, and contrasts this with mutual funds whose cash-redemption sales 'can generate capital gain distributions passed to all remaining shareholders.'"
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Says 'Your own sale of ETF shares is still taxable,' that the result is 'deferral, not permanent,' and that cash redemptions and rebalancing or index-change sales 'can still realize gains,' so distributions are not ruled out."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "The answer meets all three required minimums: fund-level nonrecognition on in-kind transfers, removal of low-basis lots reducing distributions versus cash-redeeming funds, and clear limits (no absolute exemption, investor sale taxable, deferral only, depends on in-kind transactions). It contains no central error and no material local falsehood."
+}

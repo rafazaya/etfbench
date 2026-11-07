@@ -1,0 +1,24 @@
+{
+  "blind_id": "C009",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer says 'The unitary fee accrues to the platform adviser as advisory compensation' and mentions 'the sponsor's assumption of the fee remainder.' However, it frames the sponsor as covering 'costs above its coverage' rather than receiving the fee remainder in exchange for assuming fund expenses. The adviser-receives-fee part is clear, but the sponsor-takes-residual-for-expenses exchange is muddled."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Explicit: 'The platform adviser remains primarily liable to the trust and fund... does not release the adviser from ensuring the fund's expenses are paid.' It also lists ordinary expense examples."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Nothing on the sponsor earning through its contracted share or bearing the residual economics, and no statement that there is no universal percentage split. Silence is omission, not error."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "No central error: the answer affirms the adviser is not released and asserts no guaranteed split. Required coverage is 0.5 + 1 + 0 = 1.5, which meets half of the 3 required points, and core facts are supplied. Point 3 is missing and point 1 is incomplete, so the grade is partial rather than correct."
+}

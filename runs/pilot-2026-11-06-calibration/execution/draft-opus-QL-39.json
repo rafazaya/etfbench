@@ -1,0 +1,38 @@
+{
+  "id": "QL-39",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "States that ETF and mutual fund classes share one portfolio, so one class's activity can impose costs on the other (at least two of: transaction/trading costs, cash drag, capital-gains distributions). Also states explicitly that cross-subsidization can run in both directions: ETF-to-mutual-fund and mutual-fund-to-ETF. A one-directional account is only partial."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Gives at least one concrete conceptual mechanism for each direction. (a) Mutual fund cash redemptions/flows force shared portfolio trading, gain realization and/or cash drag borne partly by ETF holders. (b) ETF activity burdens mutual fund holders: cash creations/redemptions, or in-kind baskets that need later portfolio adjustment, create shared trading costs or tax consequences. Optional subdetails: harm measured net of transaction fees/charges collected; in-kind removal of low-basis/embedded-gain lots is a potential shared tax benefit, not itself a harmful subsidy. These conceptual examples must be presented as illustrations, not as order terms. Credit is halved if only one direction's mechanism is given."
+    },
+    {
+      "point": 3,
+      "mark": "required",
+      "minimum": "Describes the representative order/application framework as monitoring three categories: transaction costs, cash levels/cash drag, and capital-gains distributions. The framework uses thresholds, methods and/or periods set or approved by the board (or fund-specific), not universal numerical limits. The answer must not state a fixed numeric threshold as generally applicable. Naming the three categories without the board-set/no-universal-threshold point is partial, and so is the reverse. Optional: whether it is the adviser or the board that sets the thresholds, reporting cadence, and the observation that individual orders/applications may differ."
+    },
+    {
+      "point": 4,
+      "mark": "required",
+      "minimum": "States that a threshold breach triggers notice/reporting to the board and assessment/possible remedial action. A breach is not automatically illegal and does not mandate closure or termination of the class structure. Optional: examples of remedial options."
+    }
+  ],
+  "central_errors": [
+    "Claims cross-subsidization runs in only one direction (e.g., only mutual fund holders harm ETF holders) or denies that it can run either way.",
+    "States or invents a universal/regulatory numerical threshold (e.g., a specific basis-point or percentage limit) as applying to all such funds or as required by SEC rule.",
+    "Claims a threshold breach automatically makes the arrangement illegal, automatically requires closing the share class or fund, or automatically terminates exemptive relief.",
+    "Characterizes in-kind removal of embedded gains as itself a harmful cross-subsidy to mutual fund holders.",
+    "Presents one specific application's/order's terms as universal law binding all multi-class ETF funds, or conflates conceptual examples with mandated order conditions.",
+    "Misidentifies the monitoring categories in substance (e.g., replaces them with tracking error or premium/discount as the core cross-subsidization metrics while omitting transaction costs, cash and capital gains)."
+  ],
+  "scoring_rule": {
+    "correct": "All four required points are met at their minimums, with conceptual examples kept separate from the representative order framework, and no central error. Minor imprecision or omitted optional subdetails are acceptable. Points carry equal weight (1 each). A score of at least 3.5/4 counts as correct.",
+    "partial": "No central error, but one or more required points are missing or only half-met. Half-credit (0.5) applies to a bundled point when only part of its minimum is present, e.g., one direction only in points 1/2, or categories without the board-set/no-universal-threshold caveat in point 3. A total of 1.5 to 3.0 is partial. Omission alone never makes an answer wrong.",
+    "wrong": "Any central error is asserted affirmatively (not merely omitted), or the total is below 1.5. This includes, for example, inventing universal numeric thresholds, treating a breach as automatic illegality or closure, or describing one-directional subsidization only as a definitional claim."
+  }
+}

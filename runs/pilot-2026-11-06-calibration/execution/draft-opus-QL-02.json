@@ -1,0 +1,28 @@
+{
+  "id": "QL-02",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "Must state that in a normal liquidation the fund's assets are sold/converted and the remaining net proceeds are paid to shareholders pro rata (in proportion to shares held), and that liquidation does not by itself mean the investor loses the whole investment. Must also note that the investor normally can sell shares on the exchange before trading stops. Must convey that the final amount (and/or the payment date) is not guaranteed to equal the last NAV or market price, e.g., because of liquidation costs, market movement or premium/discount. Optional subdetails: citing the SEC/Investor.gov bulletin; spelling out the specific mechanics of the delisting date versus the payment date; noting that a fund can lose value from market moves, as distinct from the closure itself. Half credit for this point if the answer gives pro-rata proceeds and 'not a total loss' but omits either the option to sell before trading ends or the point that the amount or timing can differ."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Must address taxable-account consequences: the liquidation (or a sale before it) is a taxable event in which the investor can realize a capital gain or a capital loss relative to cost basis, and the final payout may come with or be preceded by final income/capital-gain distributions. The general principle is that liquidating distributions first recover basis and any excess is capital gain, while a loss is generally recognized once the final distribution is received. Must also say, at least briefly, that timing and the deduction of costs, taxes, expenses and liabilities vary by fund and are set out in that fund's own notice or filing, rather than presenting one universal timetable. Optional subdetails: naming the One + One ETF supplement as an example; citing IRS Publication 550 by name; noting that tax-advantaged accounts (IRA/401k) generally are not taxed at the time of distribution; mentioning wash-sale or reinvestment considerations. Half credit if gain/loss realization is covered but basis recovery/loss timing and the possibility of final distributions are both absent, or if the tax treatment is right but the answer presents a fixed fund-specific schedule as universal."
+    }
+  ],
+  "central_errors": [
+    "Saying that ETF liquidation normally or automatically means investors lose their entire investment or receive nothing.",
+    "Saying investors are guaranteed to receive exactly the last NAV or last exchange price, with no deductions and no possible difference in amount.",
+    "Saying investors cannot sell their shares before the liquidation or delisting and must wait for the payout.",
+    "Saying the liquidation proceeds in a taxable account are entirely tax-free, or that the whole distribution is taxed as ordinary income, without regard to basis.",
+    "Saying that a liquidation cannot produce a capital loss, or that a loss is recognized before or regardless of the final distribution in a way that contradicts the basis-recovery principle.",
+    "Presenting one fund's liquidation timetable or cost allocation (for example, the One + One ETF schedule) as a fixed, universal rule for every '40 Act ETF liquidation."
+  ],
+  "scoring_rule": {
+    "correct": "Both required points meet their minimums in full (each scores 1.0) and none of the central errors are present. Omitting optional subdetails does not reduce the grade.",
+    "partial": "No central error is present, and the answer either meets one required point in full while partly meeting or missing the other, or partly meets (0.5) both required points. A combined score from 1.0 to 1.5 out of 2 counts as partial, as does a score of 0.5 when the content given is correct but thin. Leaving something out is treated as incomplete, not false.",
+    "wrong": "Any central error is present (it outweighs otherwise correct content), or both required points are essentially missing (combined score of 0), or the answer only says 'you get your money back' or 'you lose it' without describing pro-rata proceeds or the tax consequences."
+  }
+}

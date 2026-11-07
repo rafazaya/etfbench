@@ -1,0 +1,10 @@
+Independently calibrate this provisional question rubric. You have not seen the other draft.
+For EVERY numbered original key point mark required (expert answer incomplete without its minimum)
+or optional (nice-to-have). Bundled points: specify minimum content and explicitly optional subdetails.
+Define explicit central false statements that force wrong rather than partial. Omission is not falsehood.
+Define scoring for correct/partial/wrong; consider half-credit for partial coverage of a bundled point.
+Use round2 disagreements as editorial evidence, not ground truth. No external research.
+Return ONLY JSON {"id":..., "points":[{"point":1,"mark":"required|optional","minimum":"..."}],
+"central_errors":["..."],"scoring_rule":{"correct":"...","partial":"...","wrong":"..."}}.
+
+{"id": "QL-01", "question": "As of 2026-11-06, for an ordinary US '40 Act ETF whose fund and adviser/sponsor are separate entities, does sponsor insolvency itself give the sponsor's creditors the portfolio or wipe out the shares? Distinguish asset separation from a guaranteed outcome in every insolvency.", "key_points": ["The portfolio belongs to the fund, separately from its adviser; adviser creditors do not acquire a claim on that portfolio just because the adviser fails. Sponsor failure therefore does not by itself wipe out ETF shares. [ICI presentation to the Federal Reserve, \u201cProtecting Fund Assets \u2014 Custody\u201d](https://www.federalreserve.gov/newsevents/rr-commpublic/ici_meeting_20110104.pdf#page=1).", "Fund assets are held for the fund by a qualified custodian (\u00a717(f)), separately from the adviser's own assets; if the adviser/sponsor fails, the fund's board can appoint a new adviser, merge or liquidate the fund. In a liquidation, shareholders receive their share of net assets, not nothing."], "grader_notes": ["Asset separation is high confidence; the ordinary insolvency conclusion is medium confidence inference. No guarantee against investment loss; not applicable to ETNs. Board responses are case-specific, supported by Participants rather than the ICI custody source."], "round2_disagreement_evidence": []}

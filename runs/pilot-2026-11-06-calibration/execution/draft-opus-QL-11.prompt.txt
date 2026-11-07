@@ -1,0 +1,10 @@
+Independently calibrate this provisional question rubric. You have not seen the other draft.
+For EVERY numbered original key point mark required (expert answer incomplete without its minimum)
+or optional (nice-to-have). Bundled points: specify minimum content and explicitly optional subdetails.
+Define explicit central false statements that force wrong rather than partial. Omission is not falsehood.
+Define scoring for correct/partial/wrong; consider half-credit for partial coverage of a bundled point.
+Use round2 disagreements as editorial evidence, not ground truth. No external research.
+Return ONLY JSON {"id":..., "points":[{"point":1,"mark":"required|optional","minimum":"..."}],
+"central_errors":["..."],"scoring_rule":{"correct":"...","partial":"...","wrong":"..."}}.
+
+{"id": "QL-11", "question": "As of 2026-11-06, for a US Rule 6c-11 ETF, what clearing/settlement eligibility and written agreement does an AP need? Distinguish the rule's permitted counterparties from the parties in the bank's reviewed US agreement forms.", "key_points": ["Rule 6c-11(a)(1) defines an AP as a member or participant of an SEC-registered clearing agency that has a written agreement with the ETF or one of its service providers allowing it to place creation/redemption orders.", "In the reviewed US forms, the distributor and AP are main counterparties; the transfer agent countersigns, and the trust is a third-party beneficiary, sometimes signing for specified provisions.", "The reviewed forms require NSCC netting membership for the clearing process and/or DTC participation outside it. Eligibility is not synonymous with being a market maker."], "grader_notes": ["Accept equivalent factual wording; do not require citations or an exact checklist order. No new pair-level editorial approval or golden eligibility is conferred."], "round2_disagreement_evidence": []}

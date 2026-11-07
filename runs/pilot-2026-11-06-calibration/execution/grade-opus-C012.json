@@ -1,0 +1,19 @@
+{
+  "blind_id": "C012",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "States both exceptions: cash vs in-kind, and 'currency-hedged versus unhedged classes'. It never adds the class-level hedging qualifier and does not clearly adopt it from the question, so this sub-element is partial. Calling the instrument 'guidance' is a minor mislabel, not an error."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says Q&A 1030 treated differing cut-offs as needing a 'Central Bank waiver'. Contrasts this with 2026: 'The Q&A waiver route is not the basis for the specific exceptions expressly recognized in 2026'. Gives a limiting statement: 'nor should those exceptions be read as a general permission for any class-level cut-off variation.' The waiver is not carried into 2026, and the justification and disclosure wording is neutral framing."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Required coverage totals 1.5 of 2. Point 1 loses half credit because the hedged/unhedged exception is not limited to class-level currency hedging. Point 2 is fully covered, with a clear contrast between the regimes and a limiting statement. There is no central error and no material local falsehood, but not every required minimum is met, so the grade is partial."
+}

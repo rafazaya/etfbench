@@ -1,0 +1,19 @@
+{
+  "blind_id": "C064",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the expense ratio is not usually charged as a separate fee, is paid from fund assets, and reduces NAV and returns. Gives the annual rate example (0.20% \u2248 $20/year)."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Says costs reduce NAV 'gradually' and are 'reflected over time' rather than billed as a lump sum. This implies incremental accrual but never states daily accrual, so the minimum is only partly covered."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Point 1 is fully covered. Point 2 earns half credit because the answer describes gradual NAV reduction without specifying daily accrual. Required coverage is 1.5 of 2. The hedges 'isn't usually' and 'not typically billed' do not explicitly assert separate billing, so there is no central error. Point 3 is optional and its omission is not penalized. Because not every required minimum is fully covered, the grade is partial."
+}

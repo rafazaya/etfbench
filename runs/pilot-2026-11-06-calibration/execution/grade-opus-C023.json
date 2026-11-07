@@ -1,0 +1,19 @@
+{
+  "blind_id": "C023",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Covers licence economics ('fees'), duration ('term, renewal mechanics'), termination ('termination triggers, cure periods... post-termination obligations'), naming dependence on index-provider trademarks across name, ticker and materials, and affiliated-information controls ('confidentiality, information-barrier, conflict-management'). Exclusivity is not named, but the required minimum bundle is met."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Treats the failed-renewal contingency as contract-dependent: 'Check whether failed renewal permits temporary continued use, a transition window, or an orderly liquidation\u2014and whether those are express, conditional rights, not assumptions.' It also references transition planning and rebranding steps. Index substitution is not named explicitly, but the minimum reads 'renewal/substitution' and the renewal contingency is covered."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are covered. There is no central error: the answer expressly says 'do not assume a universal notice period' and frames continuation and transition rights as conditional on the licence. No material local falsehood was found."
+}

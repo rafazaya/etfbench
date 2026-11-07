@@ -1,0 +1,34 @@
+{
+  "blind_id": "C061",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Lists the board of trustees, investment adviser, distributor, custodian, administrator/fund accounting, transfer agent and auditor."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Covers APs, liquidity providers/market makers, exchange listing, DTC/NSCC clearing and creation/redemption processing, which roughly matches the PCF workflow. Seed capital is not mentioned."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Includes legal counsel and pricing vendors. Index provider/licensing is tied to index-tracking funds and the securities lending agent to 'if lending'."
+    },
+    {
+      "point": 4,
+      "credit": 1,
+      "reason": "Says service providers are 'often bundled' and that 'One provider can often cover several of these'. The adviser may house the CCO and valuation designee."
+    },
+    {
+      "point": 5,
+      "credit": 1,
+      "reason": "Names a chief compliance officer under Rule 38a-1 and a majority-independent board with Section 15(c) review, which covers the compliance program and board oversight."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Required coverage totals 4.5 of 5, with no central error. The answer explicitly rejects the idea that each role needs a separate firm. Listing the Rule 22e-4 liquidity program as strategy-specific is imprecise, since ETFs generally need one, but the 'if applicable' hedge keeps it short of a material falsehood. The only gap is seed capital, which leaves point 2 incomplete, so not every required minimum is covered and the grade cannot be correct."
+}

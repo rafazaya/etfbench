@@ -1,0 +1,136 @@
+{
+  "draft": "O split original transaction-fee point 3 into required fee direction plus optional waiver point 4; recombined into original point 3 without changing judgment. Raw retained.",
+  "grade": [
+    {
+      "blind_id": "C036",
+      "removed_optional_coverage": [
+        {
+          "point": 3,
+          "credit": 0,
+          "reason": "The optional AP shortfall liability is not mentioned. This does not reduce the grade."
+        }
+      ],
+      "grade_unchanged": true
+    },
+    {
+      "blind_id": "C042",
+      "removed_optional_coverage": [
+        {
+          "point": 2,
+          "credit": 0,
+          "reason": "Optional point. The answer does not say shares cannot be sold before effectiveness and gives no filed example. This omission does not reduce the grade."
+        }
+      ],
+      "grade_unchanged": true
+    },
+    {
+      "blind_id": "C050",
+      "removed_optional_coverage": [
+        {
+          "point": 2,
+          "credit": 0.5,
+          "reason": "Optional point. 'The fund may pass through transaction fees to cover costs' implies the fee is a cost, not AP compensation, but it does not mention sponsor waiver or subsidy."
+        },
+        {
+          "point": 3,
+          "credit": 0,
+          "reason": "Optional point. Waivers on custom redemptions are not mentioned."
+        }
+      ],
+      "grade_unchanged": true
+    },
+    {
+      "blind_id": "C051",
+      "removed_optional_coverage": [
+        {
+          "point": 3,
+          "credit": 0.5,
+          "reason": "Optional point. Implies fixed costs squeeze the sponsor's margin and notes shareholders keep the fixed expense ratio. It does not frame this as a contractual allocation, and its default answer conflicts with the point."
+        }
+      ],
+      "grade_unchanged": true
+    },
+    {
+      "blind_id": "C057",
+      "removed_optional_coverage": [
+        {
+          "point": 2,
+          "credit": 0,
+          "reason": "Optional point. The answer does not say shares cannot be sold before effectiveness and gives no filed example. Optional omissions do not affect the grade."
+        }
+      ],
+      "grade_unchanged": true
+    },
+    {
+      "blind_id": "C058",
+      "removed_optional_coverage": [
+        {
+          "point": 3,
+          "credit": 0,
+          "reason": "This optional point is not addressed. The answer does not mention fixed costs making a small fund unprofitable or say there is no shareholder reimbursement duty, beyond a generic note that contracts govern."
+        }
+      ],
+      "grade_unchanged": true
+    },
+    {
+      "blind_id": "C060",
+      "removed_optional_coverage": [
+        {
+          "point": 2,
+          "credit": 0,
+          "reason": "Optional supporting detail (class-level identification already allowed pre-2026) is not addressed. This does not affect the grade."
+        }
+      ],
+      "grade_unchanged": true
+    },
+    {
+      "blind_id": "C077",
+      "removed_optional_coverage": [
+        {
+          "point": 2,
+          "credit": 0.5,
+          "reason": "Optional point. The answer correctly says fees 'are charged to APs and go to the fund to cover transaction costs, not to the AP.' It does not mention sponsor waivers or subsidies. This omission does not reduce the grade."
+        },
+        {
+          "point": 3,
+          "credit": 0.5,
+          "reason": "Optional point. The answer gives supporting detail on liquidity-provider programs and premiums or discounts if APs stop. It does not mention the vouched point that sponsors waive fees on custom redemptions. This omission does not reduce the grade."
+        }
+      ],
+      "grade_unchanged": true
+    },
+    {
+      "blind_id": "C078",
+      "removed_optional_coverage": [
+        {
+          "point": 3,
+          "credit": 0,
+          "reason": "Optional point. LMM designation and quoting commitments are not mentioned. This omission does not reduce the grade."
+        }
+      ],
+      "grade_unchanged": true
+    },
+    {
+      "blind_id": "C080",
+      "removed_optional_coverage": [
+        {
+          "point": 3,
+          "credit": 0,
+          "reason": "It does not mention AP liability for a shortfall. This point is optional, so the omission does not reduce the grade."
+        }
+      ],
+      "grade_unchanged": true
+    },
+    {
+      "blind_id": "C085",
+      "removed_optional_coverage": [
+        {
+          "point": 3,
+          "credit": 0,
+          "reason": "Optional point. The answer does not mention LMM designation, but it does say market makers 'don't need an AP agreement'. Omission does not reduce the grade."
+        }
+      ],
+      "grade_unchanged": true
+    }
+  ]
+}

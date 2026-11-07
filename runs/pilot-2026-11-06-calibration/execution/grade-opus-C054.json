@@ -1,0 +1,24 @@
+{
+  "blind_id": "C054",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "States that each exchanged creation and redemption basket's composition and 'related transaction information' must be kept. It does not name quantities or weights, the custom-basket designation and compliance statement, the cash balancing amount, or the transacting AP's identity, so the bundle is substantive but incomplete."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "'Records must be kept for at least five years, with the first two years in an easily accessible place.' This applies to the basket records."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Requires 'copies of all agreements with APs'. The same five-year, first-two-years-accessible retention statement covers these records."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "No central error: the answer requires records and states the five-year/two-year rule correctly. Points 2 and 3 are fully covered. Point 1 omits several required minimum elements (quantities/weights, custom-basket status and compliance, balancing cash, AP identity), so not every required minimum is covered. Coverage is 2.5 of 3, which is at least half, and core facts are supplied, so the grade is partial."
+}

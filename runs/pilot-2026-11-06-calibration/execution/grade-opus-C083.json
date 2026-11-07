@@ -1,0 +1,24 @@
+{
+  "blind_id": "C083",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Covers both directions: APs 'buy the underlying securities, create new ETF shares' and 'buy ETF shares, redeem them for the underlying securities.'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Explains premium and discount arbitrage: selling created shares 'narrowing the premium' and redeeming shares 'narrowing the discount,' which pulls price toward NAV."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Says price stays 'near' NAV and that 'Prices can diverge more during volatility, when markets for underlying assets are closed, or when trading costs and redemption constraints make arbitrage harder.' This means equality is not guaranteed."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "The answer covers all three required minimums: basket creation and redemption, premium/discount arbitrage linking price to NAV, and no guaranteed equality. It has no central error and no material local falsehood. The market-maker detail is omitted, but it is not part of the required minimum."
+}

@@ -1,0 +1,24 @@
+{
+  "blind_id": "C072",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer says UIT-structured ETFs 'require orders,' which correctly places UITs outside the rule. It never states that Rule 6c-11 covers registered open-end ETFs."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "The answer says leveraged/inverse ETFs are 'excluded from the rule, so they continue under individual exemptive orders.' That is the opposite of the required minimum, which is that they may rely on 6c-11 subject to Rule 18f-4."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "The answer says non-transparent active ETFs and share-class ETFs require orders, and it notes that 6c-11 mandates daily holdings disclosure. It omits master-feeder structures, so the bundle is incomplete."
+    }
+  ],
+  "central_error": "\"Leveraged and inverse ETFs: excluded from the rule, so they continue under individual exemptive orders.\" This matches the central error 'Leveraged/inverse categorically excluded.' The closing line 'Leveraged/inverse funds must satisfy 18f-4 alongside their exemptive orders' repeats the same error.",
+  "local_error": "\"Rule 6c-11 (effective 2024)\" is a material ancillary falsehood. The rule was adopted in 2019 and became effective in December 2019, with compliance required in 2020.",
+  "grade": "wrong",
+  "rationale": "The answer explicitly states that leveraged/inverse ETFs are categorically excluded from Rule 6c-11 and need individual exemptive orders. This is a listed central error and forces a grade of wrong. Required coverage totals 1.0 of 3, which is also below half. The effective-date claim is a separate local falsehood."
+}

@@ -1,0 +1,10 @@
+Independently calibrate this provisional question rubric. You have not seen the other draft.
+For EVERY numbered original key point mark required (expert answer incomplete without its minimum)
+or optional (nice-to-have). Bundled points: specify minimum content and explicitly optional subdetails.
+Define explicit central false statements that force wrong rather than partial. Omission is not falsehood.
+Define scoring for correct/partial/wrong; consider half-credit for partial coverage of a bundled point.
+Use round2 disagreements as editorial evidence, not ground truth. No external research.
+Return ONLY JSON {"id":..., "points":[{"point":1,"mark":"required|optional","minimum":"..."}],
+"central_errors":["..."],"scoring_rule":{"correct":"...","partial":"...","wrong":"..."}}.
+
+{"id": "QL-29", "question": "For a US ETF board's diligence on a proposed exchange/LMM arrangement, what questions should it ask about selection, relevant-market expertise and capital or seed support? Distinguish temporary market-maker seed from lasting investor assets; treat the checklist as suggested inquiry rather than a mandatory approval rule.", "key_points": ["Relevant board inquiries cover the exchange/LMM selection rationale, relevant-market expertise and capital commitments, including seed capital. [IDC oversight paper, \u201cETF Contractual Relationships\u201d](https://www.idc.org/idc/issues/types/etf/publications/ci.idc_12_etfs).", "Temporary market-maker seed inventory differs from more lasting investor assets; neither is necessarily permanent, and subsidized investors can leave."], "grader_notes": ["**Confidence: high** as suggested board inquiry, not a prescribed approval checklist or a claim that every LMM provides seed capital.", "Suggested inquiries, not a mandatory checklist. LMM seed is not assured or permanent."], "round2_disagreement_evidence": []}

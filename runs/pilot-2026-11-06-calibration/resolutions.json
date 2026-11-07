@@ -1,0 +1,234 @@
+[
+  {
+    "blind_id": "C017",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Indirect fund expense, annual rate and daily accrual clearly stated."
+      },
+      {
+        "point": 2,
+        "credit": 1.0,
+        "reason": "Indirect fund expense, annual rate and daily accrual clearly stated."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Indirect fund expense, annual rate and daily accrual clearly stated.",
+    "chosen": "S",
+    "resolution": "Daily accrual conventionally conveys a fraction of annual expense ratio; no full-annual-rate-each-day claim. Equivalent wording allowed; silence is not a falsehood.",
+    "resolved_by": "S after both frozen grades; not independent adjudication"
+  },
+  {
+    "blind_id": "C022",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer correctly covers the application, notice/hearing-request and order stages, and says the order is what grants relief. It notes the need for relief 'substantially identical to relief previously granted' but omits the two-precedent, three-year requirement. The markups and signed certification are only loosely gestured at ('required structured format and representations'). It omits the pauses for modification requests, unsolicited amendments and office closures, and the deemed withdrawal. It also misdescribes the 45-day clock."
+      }
+    ],
+    "central_error": null,
+    "local_error": "'The 45-day period runs from publication of the notice, not filing, and is a target for SEC action (grant or denial)' is false. The clock runs from filing, and within 45 days the SEC issues the notice or an ineligibility/additional-time response, not a grant or denial. This is a material local falsehood. It is not a central error because the answer expressly says the period is 'not a guaranteed approval deadline' and does not claim no precedent is needed.",
+    "grade": "partial",
+    "rationale": "There is no central error: the answer denies that 45 days guarantees approval and ties eligibility to prior granted relief. The required bundle is only partly covered, earning 0.5 of 1, which meets the half-coverage threshold, and core stage facts are supplied. The misstatement of the 45-day clock's starting point and end result is a material local falsehood, which caps the grade at partial.",
+    "chosen": "O",
+    "resolution": "Literal merged anchor penalizes guaranteed final relief, while answer disclaims guaranteed approval. Its wrong notice-start/final-action clock remains a material local error under this narrow provisional anchor. O applies that literal default; broader central-clock wording needs Rafa decision.",
+    "resolved_by": "S after both frozen grades; not independent adjudication"
+  },
+  {
+    "blind_id": "C032",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Replaces significant NAV deviation with different purported exit triggers."
+      },
+      {
+        "point": 2,
+        "credit": 0.0,
+        "reason": "Replaces significant NAV deviation with different purported exit triggers."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Replaces significant NAV deviation with different purported exit triggers."
+      },
+      {
+        "point": 4,
+        "credit": 1.0,
+        "reason": "Replaces significant NAV deviation with different purported exit triggers."
+      }
+    ],
+    "central_error": "direct route ... only if the prospectus provides ... typically ... termination ... suspension",
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Replaces significant NAV deviation with different purported exit triggers.",
+    "chosen": "S",
+    "resolution": "Answer says route exists only if prospectus permits and substitutes termination/merger/suspension for regulatory significant-deviation right. The exclusive only formulation denies that right, matching no significant-deviation direct exit anchor.",
+    "resolved_by": "S after both frozen grades; not independent adjudication"
+  },
+  {
+    "blind_id": "C038",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer names the fund website's daily holdings page as the starting point. It distinguishes portfolio holdings from the PCF creation/redemption basket ('A basket may differ from the fund's full holdings'). It also notes the rule does not require every ETF to publish its PCF freely."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "'Without NSCC access' implies the PCF is distributed through the NSCC participant channel. The answer tells the investor to ask the sponsor or its agents for the file. It makes no free public PCF promise: 'Access may be discretionary, delayed, or fee-based.' The NSCC distribution mechanism is implied rather than spelled out, and it names the transfer agent/distributor rather than the broker or capital-markets team, but the substance is present."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are covered. There is no central error: the answer explicitly says holdings may differ from baskets and does not claim a universally free public PCF. No material local falsehood was found. The pre-open daily holdings disclosure is accurate, and the sponsor/transfer agent/distributor contact route is a reasonable practical suggestion.",
+    "chosen": "O",
+    "resolution": "Question supplies lack of NSCC access, answer adopts it and offers sponsor/agent request with discretionary access. Accept clear implication, without requiring repeated distribution-channel formula.",
+    "resolved_by": "S after both frozen grades; not independent adjudication"
+  },
+  {
+    "blind_id": "C040",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "States that the transparency policy must be disclosed in the prospectus and on the website. It omits the KID/KIID and marketing materials, and does not say where portfolio or iNAV information can be found."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Covers daily public holdings and the conditional periodic route with daily AP/market-maker arbitrage information. It omits the nondiscriminatory basis, the specific procedures for impaired arbitrage and investor information requests, and public quarter-end holdings within 30 business days. 'Applicable regulatory conditions and procedures' is too generic to count."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "No mention of position and quantity content, the prospectus statement of the information supplied under the daily route, or iNAV calculation methodology and frequency."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "There is no central error: the answer does not say all Irish ETFs must publish full daily holdings, and it expressly makes the periodic route conditional on daily arbitrage information. Calling daily disclosure 'the default' is a loose framing but not a material falsehood. Required coverage totals 1.0 of 3, which is below the half threshold of 1.5, so the scoring rule requires 'wrong' despite some substantive facts being correct.",
+    "chosen": "O",
+    "resolution": "Point 3 minimum contains position/quantity content and iNAV methodology when calculated. None supplied; no basis for S half point. Sum 1/3 is below half.",
+    "resolved_by": "S after both frozen grades; not independent adjudication"
+  },
+  {
+    "blind_id": "C046",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Points to the sponsor website 'Holdings' or 'Portfolio' page for daily holdings. Separately states the PCF basket 'can differ from holdings due to cash components, representative sampling, or substitutions.'"
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States the PCF is 'distributed mainly via NSCC to authorized participants.' Suggests contacting the sponsor, broker or a market-data provider, and says 'don't assume it's there,' so no free public PCF is promised."
+      }
+    ],
+    "central_error": null,
+    "local_error": "Quote: 'Check the sponsor's website first, since Rule 6c-11 generally requires daily public posting [of the PCF]'. Reason: Rule 6c-11(c) requires public disclosure of portfolio holdings, not publication of creation/redemption baskets or the PCF. This is a material false statement about what the rule requires. It is hedged ('don't assume it's there') and does not claim the NSCC file is universally and freely public, so it is not a central error, but it caps the grade at partial.",
+    "grade": "partial",
+    "rationale": "Both required minimums are fully covered (2/2), and the answer correctly distinguishes holdings from transaction baskets. However, it wrongly says Rule 6c-11 generally requires daily public posting of the PCF/basket. That is a material local falsehood, which caps the grade at partial under the scoring rule.",
+    "chosen": "O",
+    "resolution": "Merged S central anchor covers equal holdings/baskets or universally freely public NSCC file, not false assertion that Rule 6c-11 mandates website PCF. Answer denies universal availability, so cap partial as local error under literal anchor. Queue broader O anchor for Rafa.",
+    "resolved_by": "S after both frozen grades; not independent adjudication"
+  },
+  {
+    "blind_id": "C055",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.0,
+        "reason": "Cannot supply actual four categories or limits; generic different conditions less than half of bundle."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Cannot supply actual four categories or limits; generic different conditions less than half of bundle.",
+    "chosen": "S",
+    "resolution": "Loose mention of resale-price and foreign delay without actual pricing mechanism/cap, no redeemability and inaccurate affiliate category is less than half of required relief bundle. O half-credit relies on more generous inference.",
+    "resolved_by": "S after both frozen grades; not independent adjudication"
+  },
+  {
+    "blind_id": "C058",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1.0,
+        "reason": "Sponsor shortfall right; substitutes fund liability/recourse for adviser backstop."
+      },
+      {
+        "point": 2,
+        "credit": 0.0,
+        "reason": "Sponsor shortfall right; substitutes fund liability/recourse for adviser backstop."
+      }
+    ],
+    "central_error": "fund ... still owe them expenses if the sponsor fails to pay",
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Sponsor shortfall right; substitutes fund liability/recourse for adviser backstop.",
+    "chosen": "S",
+    "resolution": "Requested who still owes expenses to fund is answered with fund/provider liability rather than platform adviser; this is fund/shareholder substitute as central requested backstop, not mere omitted caveat.",
+    "resolved_by": "S after both frozen grades; not independent adjudication"
+  },
+  {
+    "blind_id": "C060",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer covers ETF identification at sub-fund level in a mixed umbrella and says non-ETF siblings and unlisted classes are not ETFs, so classes are clearly distinguished. It does not state that 'UCITS ETF' must appear in the name, constitution, prospectus, KID/KIID and marketing. It also presents listed-class identification as the only approach rather than giving the sub-fund-OR-listed-class option."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"The ETF identifier applies to the listed class, not the whole sub-fund.\" This categorically excludes identification at sub-fund level, which Reg. 88(2) and CBI Q&A permit as an alternative. It is not the listed central error, which concerns a sub-fund-only rule or labelling siblings as ETFs. It is still a material inaccuracy about the either/or option, and the answer is inconsistent with its own mixed-umbrella section. Calling 'UCITS ETF' merely a 'market term' also understates the mandatory Irish naming requirement.",
+    "grade": "partial",
+    "rationale": "No explicit central error: the answer does not restrict the identifier to sub-fund level only and does not label non-ETF siblings as ETFs. The single required point is only half covered: the identifier documents are missing and the sub-fund/listed-class alternative is stated as listed-class only. Coverage of 0.5 meets the half threshold, and the core facts on the mixed umbrella and class distinction are supplied. The local inaccuracy also caps the grade at partial.",
+    "chosen": "O",
+    "resolution": "Literal merged S anchor forbids sub-fund-only identification, not the opposite class-only assertion. Broader O anchor would catch both. Apply narrow chosen default, cap partial for material local falsehood; flag gap for Rafa.",
+    "resolved_by": "S after both frozen grades; not independent adjudication"
+  },
+  {
+    "blind_id": "C063",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.0,
+        "reason": "Only foreign relief fully right; affiliate limit incomplete and two categories replaced by other statutes, below half bundle."
+      }
+    ],
+    "central_error": null,
+    "local_error": "Joint transactions ... Prospectus delivery ... four ... relief",
+    "grade": "wrong",
+    "rationale": "Only foreign relief fully right; affiliate limit incomplete and two categories replaced by other statutes, below half bundle.",
+    "chosen": "S",
+    "resolution": "Foreign delay fully covered, affiliate relief only partial because solely specified-holdings basis omitted, two other categories false. One-and-a-half of four categories is below half; wrong by required coverage, not automatic central error.",
+    "resolved_by": "S after both frozen grades; not independent adjudication"
+  },
+  {
+    "blind_id": "C069",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Places the identifier in the listed ETF class name, marketing and disclosures, and warns against labelling non-ETF siblings or sub-funds as ETFs. It does not list the constitution, prospectus and KID/KIID as required documents. It does not clearly state that the ETF sub-fund in a mixed umbrella must be identified. It also omits, and in effect denies, the option to use the identifier at sub-fund level, offering class-level identification only."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"Do not call the whole sub-fund an ETF if it also has non-ETF classes\": this conflicts with Reg. 88(2) and CBI Q&A, which allow the identifier at sub-fund level or listed-class level for sub-funds with listed and unlisted classes, provided the classes are clearly distinguished. It is a material falsehood about the sub-fund-level option. It is not the listed central anchor, which concerns sub-fund-only identification or labelling non-ETF siblings as ETFs.",
+    "grade": "partial",
+    "rationale": "The answer gets the listed-class identification and the non-ETF sibling caution right, and it commits no listed central error. However, the document coverage is incomplete, mixed-umbrella sub-fund identification is not explicit, and it wrongly excludes sub-fund-level use of the identifier. Coverage of 0.5 out of 1 required point meets the partial threshold, and the material local falsehood caps the grade at partial in any case.",
+    "chosen": "O",
+    "resolution": "Same literal central-anchor asymmetry as C060: class-only prohibition is false but not the recorded sub-fund-only anchor. Partial coverage plus local-error cap under provisional default.",
+    "resolved_by": "S after both frozen grades; not independent adjudication"
+  }
+]

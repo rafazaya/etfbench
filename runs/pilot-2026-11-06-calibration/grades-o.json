@@ -1,0 +1,1894 @@
+[
+  {
+    "blind_id": "C001",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Says Rule 6c-11 requires written basket policies and procedures covering basket construction and acceptance."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Mentions detailed custom-basket parameters and a process for revisions or deviations. It omits that the parameters must be in the best interests of the fund and its shareholders."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "States that the policies must specify the titles or roles of adviser employees who review each custom basket for compliance, and that review records must be kept."
+      },
+      {
+        "point": 4,
+        "credit": 1,
+        "reason": "Defines a custom basket to include a non-representative basket and a representative basket that differs from the initial basket used that business day. It also says a non-standard order is not a Rule 6c-11 category and does not by itself make a basket custom."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"(2) a representative basket that is non-pro-rata or differs from that initial basket\". Under Rule 6c-11, a representative basket is custom only if it differs from the initial basket used that business day. Being non-pro-rata does not make it custom. This misstates the custom-basket definition, which is a material local falsehood that caps the grade at partial.",
+    "grade": "partial",
+    "rationale": "All four required points are substantively addressed, totalling 3.5 of 4. There is no central error: the answer does not limit custom baskets to non-standard orders and does not say a later differing representative basket can never be custom. However, it wrongly says a non-pro-rata representative basket is a custom basket, a material local falsehood. Under the scoring rule this caps the grade at partial."
+  },
+  {
+    "blind_id": "C002",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer says direct holders 'may need to open or update an ETF-capable brokerage account' and make 'transfer or registration changes'. It tells readers to check notices for the effective date, deadlines and 'what happens if you do nothing'. It also notes that ETF shares trade through a brokerage and direct services may end, which conveys that the investor cannot trade without a brokerage or transfer step."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "The answer says fractional shares 'may be paid out in cash, sold, or treated another way' and should be verified in the fund's notice, which covers the cash-out and notice-specific elements. It does not mention possible taxability of the cash-out."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Point 1 is fully covered. Point 2 is incomplete because the answer omits the possible tax consequence of a fractional-share cash-out. The answer never claims automatic trading access or tax-free cash-outs, so there is no central error, and it correctly treats this as a whole-fund conversion rather than a new share class. Coverage is 1.5 of 2, which meets the partial threshold but not the full-coverage requirement for correct."
+  },
+  {
+    "blind_id": "C003",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Covers the core points: the fund 'sells its holdings... and distributes the remaining net assets,' and the investor gets a 'pro-rata share of final NAV per share.' It rejects total loss: 'Normally you receive cash, not a total loss.' It says 'you can usually sell on exchange at market price, which may differ from NAV' and 'Notice and payment schedules vary, so check the notice.'"
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says the fund 'pays expenses and liabilities' before distributing net assets. For taxable accounts, the distribution is 'generally treated as a sale,' with 'Gains or losses... measured against your cost basis.' It also notes separate capital gain distributions paid before liquidation."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered. The answer explicitly rejects automatic total loss and does not fix any proceeds amount or date. Its ancillary claims, such as 1099-B reporting and sale treatment, are consistent with general practice, so no material falsehood was found."
+  },
+  {
+    "blind_id": "C004",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer explicitly covers both directions. In the MF-to-ETF direction, gains and impact costs are borne by ETF holders. In the ETF-to-MF direction, costs are pushed onto MF holders. Its monitoring categories span transaction costs, cash and gains."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "It gives a concrete mechanism for each direction. MF cash redemptions force portfolio sales that realize gains and impact costs borne by ETF holders. Cash-settled ETF creations/redemptions or ETF-driven trading push costs onto MF holders. It correctly treats in-kind removal of low-basis lots as a shared benefit, not a harm, and labels a separate illustrative example."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "It lists the transaction-cost, cash and gains categories and says 'Specific tolerances should come from board-approved policy, not universal standards,' so it invents no universal numbers. However, it does not tie board-approved thresholds, methods and periods to the order-specific framework. Its 'order-level framework' is instead an operational tagging and allocation procedure."
+      },
+      {
+        "point": 4,
+        "credit": 0,
+        "reason": "It does not say that a threshold breach prompts notice and assessment rather than automatic illegality or closure. This is an omission."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no central error: in-kind gain removal is correctly framed as a benefit, and the answer never says a breach requires closure. Required coverage totals 2.5 of 4, which meets the half threshold, and core facts are supplied. The grade is partial because the breach-consequence point is missing and the order-specific thresholds/methods/periods point is incomplete."
+  },
+  {
+    "blind_id": "C005",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States 'No' and explains that exchange volume reflects only secondary-market trades. It describes APs creating and redeeming shares in large blocks against the underlying basket or cash, so capacity extends beyond historic volume."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Lists quoted/effective spreads and NBBO depth, underlying basket liquidity (constituent spreads, volume, depth), and intermediary activity (creation/redemption activity, number and quality of market makers and APs)."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered. There is no central error: the answer neither treats volume as a hard cap nor promises unlimited execution, and it ties arbitrage effectiveness to underlying liquidity. Ancillary claims such as the typical creation-unit size and closing auction volume are reasonable, not material falsehoods. The answer ends mid-sentence, but that is not a false claim."
+  },
+  {
+    "blind_id": "C006",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer covers all three required inquiry areas. Selection: how the exchange/LMM was chosen, alternatives considered and conflicts. Relevant-market expertise: asset-class track record, staffing and measurable results. Capital/seed: a dedicated section on seed support, payments and termination terms."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "It separates 'temporary market-maker inventory' (with an unwind plan and timing) from 'investor assets... expected to last'. Asking 'what drives their retention' implies investor assets are stickier but not permanent. It also asks whether the market maker will keep quoting after the seed is withdrawn."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are covered. The answer never claims MM seed is guaranteed or permanent, and never claims diligence legally requires a fixed capital amount. It frames the checklist as 'suggested lines of inquiry, not mandatory approval', which matches the grader notes. The truncated ending is only a stylistic flaw and adds no falsehood."
+  },
+  {
+    "blind_id": "C007",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that the fund is a separate legal entity that owns its assets and that sponsor creditors normally have no claim. Also says shares are interests in the fund, not claims on the sponsor, and that sponsor insolvency does not cancel them."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says an independent custodian holds the assets under 1940 Act custody rules. Names board responses such as replacement, reorganization or liquidation. Frames separation as 'the structural default, not a guarantee' and says outcomes depend on the facts, so no recovery is promised."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are covered and the answer states no central error. Its caveats about commingling or fraud, affiliated cash sweeps or securities lending, contract terminations and license issues are plausible and not false. The truncated ending ('This is general information, not') is a formatting gap, not a falsehood. It omits that liquidation pays shareholders their share of net assets, but this does not lower the grade because the minimum is met through custody, wind-down and the no-guarantee framing."
+  },
+  {
+    "blind_id": "C008",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "Never says Rule 6c-11 permits the AP agreement to be with the ETF or a service provider. It says only that the rule 'doesn't prescribe AP signatories; fund contracts do.'"
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "Does not present the AP and distributor as main counterparties, transfer-agent acceptance/countersignature, or the trust as third-party beneficiary signing specified provisions. It instead names the fund/trust and AP as the parties, with the distributor only 'often' added."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "States that the ICAV, as a corporate body, signs AP agreements, which partly covers direct ICAV signature. It omits signing with each AP on behalf of sub-funds, and its contrast with the US rests on a wrong US pattern (trust signing via trustees)."
+      }
+    ],
+    "central_error": "'Typically the fund, acting through its trust, and the Authorized Participant are the parties, often with the distributor' and 'US ETFs sign via a trust's trustees' match the central error 'Reviewed US trust normally principal AP counterparty instead of distributor/beneficiary distinction'.",
+    "local_error": "'It doesn't prescribe AP signatories; fund contracts do.' This misdescribes Rule 6c-11, which addresses an agreement with the ETF or its service provider.",
+    "grade": "wrong",
+    "rationale": "The answer explicitly makes the US trust the principal AP counterparty, which is a listed central error and forces 'wrong'. Coverage is also below half (0.5 of 3): point 1 is missed, point 2 is missed or contradicted, and point 3 is only partly covered."
+  },
+  {
+    "blind_id": "C009",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer says 'The unitary fee accrues to the platform adviser as advisory compensation' and mentions 'the sponsor's assumption of the fee remainder.' However, it frames the sponsor as covering 'costs above its coverage' rather than receiving the fee remainder in exchange for assuming fund expenses. The adviser-receives-fee part is clear, but the sponsor-takes-residual-for-expenses exchange is muddled."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Explicit: 'The platform adviser remains primarily liable to the trust and fund... does not release the adviser from ensuring the fund's expenses are paid.' It also lists ordinary expense examples."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Nothing on the sponsor earning through its contracted share or bearing the residual economics, and no statement that there is no universal percentage split. Silence is omission, not error."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "No central error: the answer affirms the adviser is not released and asserts no guaranteed split. Required coverage is 0.5 + 1 + 0 = 1.5, which meets half of the 3 required points, and core facts are supplied. Point 3 is missing and point 1 is incomplete, so the grade is partial rather than correct."
+  },
+  {
+    "blind_id": "C010",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer separately names three risks: borrowers failing to return securities, collateral falling below loan value, and reinvested cash losing value or becoming illiquid. It lists controls for each, such as over-collateralization, daily mark-to-market and investment limits. It presents the US material as general practice rather than the bank's document, so the controls are framed conditionally. It never claims collateral eliminates losses."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "The answer covers UCITS recall ability ('must be able to recall loaned securities at any [time]', truncated), liquidity, diversification, haircuts and restricted cash reinvestment. It omits credit quality and the ban on reinvesting noncash collateral. Daily valuation appears only in the generic section, not as a UCITS rule."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Required coverage is 1.5 of 2, which meets the partial threshold. There is no central error: the answer never says collateral removes lending risk or that UCITS noncash collateral can be freely reinvested. Point 2 is incomplete because it omits credit quality and the noncash reinvestment ban. The answer is also truncated, and its US section is generic rather than drawn from the iShares document."
+  },
+  {
+    "blind_id": "C011",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Covers all three core causes. It names 'sampling or optimization versus full replication, and resulting active weights' and the 'timing of index reconstitutions, rebalances'. It also names pricing differences: 'fair-value adjustments and closing-price timing versus benchmark pricing; non-synchronous or stale prices'. It adds the optional constraint point: 'caps, and liquidity-constrained holdings'."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States 'cash drag and cash buffer levels' explicitly. It also covers the optional items: 'dividend accrual and withholding assumptions' and the timing of corporate actions."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Meets option (b) through unambiguous framing. It assigns 'persistent drag such as fees' to tracking difference, which is 'reported separately'. Its tracking-error causes are all variability sources: active weights, cash, trading slippage and commissions, flows, pricing and securities lending. It makes no claim that a constant fee raises the standard deviation."
+      },
+      {
+        "point": 4,
+        "credit": 1,
+        "reason": "Distinguishes tracking error as the 'annualized standard deviation of daily (fund return \u2212 benchmark return)' from tracking difference as the cumulative return gap. It addresses measurement alignment in substance: the 'agreed one-year window', 'over the same period', paired daily returns, pricing timing 'versus benchmark pricing', withholding assumptions and benchmark data errors. It never explicitly requires the total-return benchmark variant, which is a minor gap."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "All four required minimums are met. There is no central error: tracking error is not equated with the cumulative difference, and constant fees are not said to raise dispersion. The shorthand 'daily returns \u00d7 \u221a252' and the FX item, which matters little for a US equity ETF, are imprecise but not material falsehoods."
+  },
+  {
+    "blind_id": "C012",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "States both exceptions: cash vs in-kind, and 'currency-hedged versus unhedged classes'. It never adds the class-level hedging qualifier and does not clearly adopt it from the question, so this sub-element is partial. Calling the instrument 'guidance' is a minor mislabel, not an error."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says Q&A 1030 treated differing cut-offs as needing a 'Central Bank waiver'. Contrasts this with 2026: 'The Q&A waiver route is not the basis for the specific exceptions expressly recognized in 2026'. Gives a limiting statement: 'nor should those exceptions be read as a general permission for any class-level cut-off variation.' The waiver is not carried into 2026, and the justification and disclosure wording is neutral framing."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Required coverage totals 1.5 of 2. Point 1 loses half credit because the hedged/unhedged exception is not limited to class-level currency hedging. Point 2 is fully covered, with a clear contrast between the regimes and a limiting statement. There is no central error and no material local falsehood, but not every required minimum is met, so the grade is partial."
+  },
+  {
+    "blind_id": "C013",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer says the portfolio is held by the fund as a distinct legal entity, not owned by the adviser or sponsor. It concludes that sponsor insolvency alone 'ordinarily does not make the portfolio property of the sponsor's creditors or cancel shareholders' fund interests.'"
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Custody is covered: fund assets must be kept with a qualified custodian. The answer also says separation is 'not a guarantee against every bad outcome,' with possible losses or delays, so no recovery is promised. It never mentions orderly replacement or wind-down, such as the board appointing a new adviser, merging or liquidating the fund, or shareholders receiving net assets in a liquidation. The bundle is substantive but incomplete."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no central error: the answer explicitly denies that creditors take the portfolio or that shares are wiped out. It has no material local falsehood. Required coverage is 1.5 of 2, which meets the partial threshold but not the correct threshold, because it omits orderly replacement or wind-down."
+  },
+  {
+    "blind_id": "C014",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The 'Breakeven AUM' item compares fee revenue (AUM \u00d7 net expense ratio) with fixed costs such as audit, legal, fund accounting, index licensing, listing, compliance and board fees. This conveys that a small fund loses money when revenue falls below fixed costs."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "It covers how long the sponsor absorbs costs through waivers and caps, what happens when caps expire, and whether lineup economics let a weak fund drain sponsor resources. That addresses subsidy capacity. It does not explicitly address sponsor willingness or state that size alone does not determine closure with certainty."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "It distinguishes sponsor-funded from third-party seed and notes commitment duration, seed replacement by organic flows, and seed concentration. This touches withdrawal risk. It does not explain that market-maker seed is temporary inventory that can be redeemed, as opposed to more lasting investor seed, or that subsidized seed investors can leave."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no explicit claim that small size guarantees closure or that seed is permanent. Required coverage sums to 2 of 3, which meets the partial threshold but not full coverage. The main gaps are the market-maker versus investor seed distinction and the sponsor-willingness/no-certainty element. The truncated 'Closure triggers' section is an omission, not a falsehood."
+  },
+  {
+    "blind_id": "C015",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that fixed fees cover routine processing and administrative costs. States that variable fees cover estimated trading, market-impact and other costs, including cash substitutions, and that the charges protect existing shareholders from dilution. Taxes are not named, but trading and impact costs meet the minimum."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Says the AP 'typically pays the fund' and that fund fees go 'to the fund (or, under its arrangements, a service provider)'. It never says the charge may be waived or paid by another party. It also does not separate a provider recipient for fixed charges from the fund as recipient for variable charges, which makes the bundle incomplete."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Separates AP compensation for its own services, hedging and financing from fund charges ('That is not a fund charge') and says it goes to the AP. The custom-waiver frequency point is optional."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no central error: the answer says the AP pays the fund, not that the fund charge compensates the AP. Points 1 and 3 are fully covered. Point 2 lacks the waiver or third-party-payment condition and the fund-versus-provider recipient split, so not every required minimum is met. Coverage of 2.5 out of 3 meets the threshold for partial."
+  },
+  {
+    "blind_id": "C016",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Says a series trust 'can reduce startup burdens\u2014trust formation, board governance, compliance, and vendor coordination' and offers 'established servicing', and that for one fund 'those savings may outweigh platform and pass-through fees.' This is equivalent to shared board and providers reducing fixed costs."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Raises the control trade-off only generically: 'control over branding, policies, vendors, and timing' and 'standalone trust offers more direct control over governance.' It never says the platform's board or trustees belong to the host rather than the sponsor. It also omits that the board can replace the adviser or liquidate the fund. Under the rubric, generic control wording earns half credit."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Gives a conditional fit: platform savings 'may outweigh' fees for one conventional ETF on a limited budget. A standalone trust 'can suit a sponsor expecting scale, seeking independence, or needing unsupported features.' It does not recommend one answer for every sponsor."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Required coverage is 2.5 of 3, with no central error and no material falsehood. Point 2 lacks the concrete statement that the platform host's board, not the sponsor, controls governance and service providers. Because one required minimum is incomplete, the answer cannot be graded correct."
+  },
+  {
+    "blind_id": "C017",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States the ratio 'isn't billed directly to investors', is deducted 'before calculating net asset value (NAV)', and investors 'pay indirectly'. It cites the prospectus as the disclosure source. The annual nature is implicit in the term 'expense ratio' rather than stated outright."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Covers daily accrual: 'accrues it daily as a percentage of net assets'. It never says each daily accrual is only a fraction of the annual rate, so the 'not full annual rate daily' half of the minimum is incomplete."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no central error: the answer explicitly denies separate billing and never claims the full annual percentage is deducted each day. Point 1 is covered. Point 2 is only half covered because daily accrual is stated without saying that each day takes only a fraction of the annual rate. Required coverage is 1.5 of 2, which meets the partial threshold but not correct. The 'typically monthly or quarterly' payment timing is consistent with contractual payment and is not a falsehood."
+  },
+  {
+    "blind_id": "C018",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Says the prospectus and KID should describe the holdings-disclosure policy, including frequency, timing and recipients. It omits marketing materials and where portfolio/iNAV information can be found."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Gives both routes: daily full-portfolio publication, and less-frequent disclosure conditional on daily alternative information to APs/market makers so arbitrage works. It omits the nondiscriminatory basis, prospectus disclosure of the arbitrage information, procedures for impaired arbitrage and investor requests, and public quarter-end holdings within 30 business days."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "'Full portfolio' implies position-level holdings, and point 1's prospectus description of disclosure frequency and recipients loosely covers the prospectus route. iNAV is mentioned, but not the prospectus explanation of its calculation method and frequency."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "No central error: the answer does not say all Irish ETFs must publish full daily public holdings, and it says the periodic route needs daily AP/market-maker information. The phrase 'Standard UCITS ETFs publish their full portfolio daily, alongside an indicative NAV' is a hedged generalisation, not a material falsehood. Required coverage is 1.5 of 3, which meets the half threshold, and core facts are supplied. Missing specifics (nondiscriminatory access, procedures, the 30-business-day quarter-end rule and iNAV methodology) prevent a 'correct' grade."
+  },
+  {
+    "blind_id": "C019",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States naming a principal underwriter 'does not itself assure a dedicated sales force, marketing effort, or asset gathering' and notes best-efforts offering with no obligation to sell a specified amount."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States marketing support, wholesaling, and intermediary access 'may be separately contracted\u2014or included in a particular platform's package,' that scope varies, and advises checking who provides each under the specific agreements."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered. There is no central error, because the answer explicitly denies that the appointment guarantees sales or assets. It correctly avoids assuming all platform packages are identical. The specific Simplify/Foreside example is not cited, but that omission does not reduce the grade. No material false ancillary statements were found."
+  },
+  {
+    "blind_id": "C020",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer says investors 'normally' buy and sell on-exchange through a broker, which implies units are not usually sold back to the fund. It does not mention the prescribed warning that the prospectus and marketing must contain."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "It states a direct-to-fund exit applies 'only if the ETF's market price significantly deviates from its NAV.'"
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "It covers prospectus disclosure of the qualifying conditions, the request process and costs. It omits notification of the regulated market and does not say costs must not be excessive; it only says costs 'may apply'."
+      },
+      {
+        "point": 4,
+        "credit": 0.5,
+        "reason": "It calls the route 'an exceptional safeguard, not ordinary dealing' and contrasts it with broker-based exchange trading at market prices. It omits that primary creation and redemption is normally reserved to authorised participants, which is part of the required minimum. It does not say the investor decides unilaterally."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no central error: the answer correctly limits direct redemption to significant NAV deviation and rejects an automatic right. Required coverage totals 2.5 of 4, which meets the partial threshold. Correct is not available because the answer misses the prescribed warning, market notification, the non-excessive cost protection and the authorised-participant contrast."
+  },
+  {
+    "blind_id": "C021",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Says seed capital is fund assets, not an expense, and that it stays exposed to market risk and may be redeemed. It never says the legal minimum (the $100,000 net-worth condition) is not a commercial launch budget or break-even level."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Names the sponsor as covering specified operating expenses under the unitary fee and gives exclusions, noting contracts define them. It does not name who pays organization/launch costs, saying only 'model payer' for each item."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Lists one-time and recurring categories well. Break-even is given as fee revenue (rate \u00d7 average net assets) covering sponsor-borne costs, without the fixed costs \u00f7 (retained fee rate \u2212 variable cost rate) form or the condition that the margin be positive."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "No central error: seed is correctly treated as assets, not consumed spending, and the answer does not claim a positive margin guarantees profit. Each required point is only partly met: the legal-minimum distinction is missing, the launch-cost payer is not named, and the break-even formula is simplified without fixed versus variable costs or the positive-margin condition. Coverage totals 1.5 of 3, which meets the half threshold, so the grade is partial."
+  },
+  {
+    "blind_id": "C022",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer correctly covers the application, notice/hearing-request and order stages, and says the order is what grants relief. It notes the need for relief 'substantially identical to relief previously granted' but omits the two-precedent, three-year requirement. The markups and signed certification are only loosely gestured at ('required structured format and representations'). It omits the pauses for modification requests, unsolicited amendments and office closures, and the deemed withdrawal. It also misdescribes the 45-day clock."
+      }
+    ],
+    "central_error": null,
+    "local_error": "'The 45-day period runs from publication of the notice, not filing, and is a target for SEC action (grant or denial)' is false. The clock runs from filing, and within 45 days the SEC issues the notice or an ineligibility/additional-time response, not a grant or denial. This is a material local falsehood. It is not a central error because the answer expressly says the period is 'not a guaranteed approval deadline' and does not claim no precedent is needed.",
+    "grade": "partial",
+    "rationale": "There is no central error: the answer denies that 45 days guarantees approval and ties eligibility to prior granted relief. The required bundle is only partly covered, earning 0.5 of 1, which meets the half-coverage threshold, and core stage facts are supplied. The misstatement of the 45-day clock's starting point and end result is a material local falsehood, which caps the grade at partial."
+  },
+  {
+    "blind_id": "C023",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Covers licence economics ('fees'), duration ('term, renewal mechanics'), termination ('termination triggers, cure periods... post-termination obligations'), naming dependence on index-provider trademarks across name, ticker and materials, and affiliated-information controls ('confidentiality, information-barrier, conflict-management'). Exclusivity is not named, but the required minimum bundle is met."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Treats the failed-renewal contingency as contract-dependent: 'Check whether failed renewal permits temporary continued use, a transition window, or an orderly liquidation\u2014and whether those are express, conditional rights, not assumptions.' It also references transition planning and rebranding steps. Index substitution is not named explicitly, but the minimum reads 'renewal/substitution' and the renewal contingency is covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are covered. There is no central error: the answer expressly says 'do not assume a universal notice period' and frames continuation and transition rights as conditional on the licence. No material local falsehood was found."
+  },
+  {
+    "blind_id": "C024",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Covers prior-day holdings before market open, NAV, market price and premium/discount, history, median spread, and the >2% for >7 consecutive trading days explanation. It omits holding identifiers, quantities and weights. It also misstates retention: it says to keep the explanation posted until the deviation ends, but the rule requires keeping it for at least one year."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "Does not describe the history table as counting days at a premium or discount. Does not mention the NBBO-based method for calculating the median spread."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "States the history covers the most recently completed calendar year and the completed quarters since, and that the website is free and public. It omits the shorter-fund-life caveat, which is minor."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"keep the explanation posted until it no longer exceeds 2%\" is false: Rule 6c-11(c)(2) requires the statement to stay on the website for at least one year after the deviation. This is a material local falsehood and caps the grade at partial.",
+    "grade": "partial",
+    "rationale": "Required coverage totals 1.5 of 3, exactly half, and several core facts are supplied. There is no central error: the answer affirms mandatory public holdings disclosure and correctly distinguishes holdings from baskets. The wrong retention period for the sustained-deviation explanation is a material local falsehood that caps the grade at partial, and point 2 is missing entirely."
+  },
+  {
+    "blind_id": "C025",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Says appointing a principal underwriter 'does not guarantee sales or asset gathering' and that 'the underwriter alone does not determine distribution outcomes.'"
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Separates the legal/operational distributor role from 'separately contracted marketing' (sales force, wholesaling, advertising) and from intermediary access (wirehouse/RIA/model approvals), and notes that platform packages vary."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered. The answer explicitly rejects the central error. Its description of the distributor's operational role (creation/redemption order processing, AP coordination) is broadly consistent with ETF distributor arrangements, so it is not a material falsehood. It does not claim that every sponsor must employ its own sales team. Not citing the Simplify/Foreside example is an omission and does not reduce the grade."
+  },
+  {
+    "blind_id": "C026",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States the fund 'can deliver low-basis securities in kind rather than selling them for cash' and that under IRC \u00a7852(b)(6) 'a RIC recognizes no gain on that in-kind distribution.'"
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says the fund 'can purge its most appreciated lots without realizing gains,' which reduces embedded gains, and contrasts this with mutual funds whose cash-redemption sales 'can generate capital gain distributions passed to all remaining shareholders.'"
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Says 'Your own sale of ETF shares is still taxable,' that the result is 'deferral, not permanent,' and that cash redemptions and rebalancing or index-change sales 'can still realize gains,' so distributions are not ruled out."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "The answer meets all three required minimums: fund-level nonrecognition on in-kind transfers, removal of low-basis lots reducing distributions versus cash-redeeming funds, and clear limits (no absolute exemption, investor sale taxable, deferral only, depends on in-kind transactions). It contains no central error and no material local falsehood."
+  },
+  {
+    "blind_id": "C027",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that reduced portfolio-level gains and distributions benefit 'all classes sharing that portfolio, including mutual-fund shareholders.'"
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Gives a mechanism limit: the benefit 'does not erase gains already realized... or eliminate taxes on sales within the portfolio,' so cash sales still realize gains. The minimum does not require naming mutual fund redemption-driven sales specifically."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Says the benefit is conditional: it is 'indirect,' 'depends on the fund actually making in-kind redemptions,' and does not 'guarantee lower distributions.' The investor/AP tax caveat is optional."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "The answer meets all three required minimums. It does not claim the classes hold separate portfolios or that remaining securities get a basis step-up. Its \u00a7852(b)(6) description and its share-class relief caveat are accurate. Omitting the optional subdetails (basis carryover, mutual fund cash flows imposing costs on ETF holders) does not lower the grade."
+  },
+  {
+    "blind_id": "C028",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Answer investigates causes before concluding failure, proposes corrective options (disclosures, better valuation/trading data, liquidity-provider outreach, operational changes), compares peers with similar holdings and trading hours and assesses spreads, and asks APs and market makers about quoting, inventory, hedging and creation/redemption activity, including declining or concentrated participation."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Answer covers NAV timing and stale NAV ('synchronized, executable portfolio-value estimate\u2014not stale NAV'), market hours ('time zones', 'holdings that stop trading before the ETF', 'different market closes'), underlying costs ('spreads, depth... tradability of underlying securities') and creation impediments ('creation/redemption costs, settlement constraints'). It examines several causes rather than presuming one."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered. The answer explicitly rejects a single numerical trigger ('Monitor in context rather than relying on a single numerical trigger') and does not claim that persistent deviation alone proves arbitrage failure. No material false statements were found."
+  },
+  {
+    "blind_id": "C029",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Covers the application, notice (Federal Register, hearing-request opportunity) and order stages. Describes the 45-day clock as a period for Commission action on the notice, not a guaranteed approval date, and says it can be extended. Missing: the precedent test of two substantially identical applications granted within the prior three years, the required prominent request, comparison markups and signed certification, the ineligibility/additional-time response alternative, and the specific pause rules (14 days after a compliant response amendment, 30 days after an unsolicited amendment, office closures, deemed withdrawal after 30 days)."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no central error. The answer says the 45-day clock is not a guaranteed approval date and links eligibility to relief already granted, so it does not claim that no precedent is needed. It never states the eligibility test or filing requirements precisely, and it gives only a vague account of the pauses. That is a substantive but incomplete bundle (0.5 of 1 required point), which meets the half-coverage threshold for partial. The truncated ending and optional extras do not affect the grade."
+  },
+  {
+    "blind_id": "C030",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States APs deliver a basket of securities or cash in exchange for a large block of new shares, which 'increases shares outstanding.'"
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States APs return shares, the fund 'cancels those shares, decreasing shares outstanding.'"
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "States 'Exchange trading alone doesn't change shares outstanding,' contrasting it with ordinary investors trading with one another."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "All three required minimums are explicitly covered with accurate wording. Mentioning cash alongside in-kind baskets is accurate and not a falsehood. There is no reversal of share-count effects and no claim that secondary trades issue shares."
+  },
+  {
+    "blind_id": "C031",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer covers each element of this point. It proposes corrective options 'chosen to fit the findings' and investigates causes. It compares against peer ETFs to see whether the pattern is fund-specific. It reviews AP and market-maker participation, including creation/redemption activity, the number of active APs and capacity constraints."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "The answer covers NAV timing and market hours ('contemporaneous NAV', fair-valuing, 'closed-market hours'). It covers underlying costs (liquidity, bid-ask spreads, halts, settlement). It covers creation impediments (basket composition, capacity/balance-sheet constraints). It avoids a single presumed cause by framing remedies as dependent on the findings."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered. The answer never claims that persistent deviation alone proves arbitrage failure, and it sets no mandatory numerical trigger. The phrase 'not stale or end-of-day figures' is slightly imprecise, because closing premiums are measured against end-of-day NAV. Its evident intent is contemporaneous measurement, so it is not a material falsehood."
+  },
+  {
+    "blind_id": "C032",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "States that ordinary secondary-market holders generally cannot redeem directly with the fund and that only APs deal in the primary market. It does not mention the prescribed prospectus or marketing warning."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "Never mentions significant divergence between exchange value and NAV as the trigger for direct exit. Instead it cites termination, merger or suspension."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Covers disclosed dealing process and costs that must be disclosed and 'capped', which roughly matches non-excessive costs. It omits notification to the regulated market and only mentions CBI and unitholder notice of suspensions."
+      },
+      {
+        "point": 4,
+        "credit": 1,
+        "reason": "Explicitly contrasts the exceptional direct route with ordinary exchange dealing at market price with another investor. Notes that primary creation and redemption is reserved to APs. Does not say the investor decides unilaterally."
+      }
+    ],
+    "central_error": null,
+    "local_error": "'A direct route for non-AP holders exists only if the prospectus provides for it, typically around fund termination, a merger, or a dealing suspension' misstates the trigger and basis. The regulatory right arises on significant NAV deviation, not only where the prospectus provides for it. This is not an explicit denial of the NAV-deviation route, so it is treated as a material local falsehood.",
+    "grade": "partial",
+    "rationale": "Required coverage totals 2.0 out of 4, which meets the half threshold, and core facts are supplied. There is no explicit central error. However, the missing significant-NAV-deviation trigger, the missing regulated-market notification, and the misstated trigger conditions (a local falsehood capping at partial) prevent a correct grade."
+  },
+  {
+    "blind_id": "C033",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer says an AP 'generally cannot take these over, so the fund accepts cash on creation and pays cash on redemption, then enters or exits the derivative exposure itself.' This conveys that non-transferable positions require the fund to trade using cash. The wording is hedged and conditional, not a blanket prohibition."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "It states a fund-level consequence: 'Cash creations shift trading costs and market impact onto the fund.' It links this to lost in-kind benefits by contrast, since in-kind dealing 'shifts trading costs to the APs, keeps the portfolio intact, and generally avoids realizing gains inside the fund, supporting tax efficiency.' It also gives an optional nuance about transaction-fee offsets."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are covered. The answer explains that non-transferable derivative positions lead to cash dealing, with the fund establishing or unwinding the exposure itself. It names the fund-level trading-cost and market-impact consequence and contrasts it with in-kind tax and cost benefits. It does not claim that all derivatives are non-transferable or that cash dealing preserves in-kind tax benefits. The truncated final bullet is an omission, not a falsehood."
+  },
+  {
+    "blind_id": "C034",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that costly or illiquid holdings raise hedging costs and uncertainty, so market makers 'may quote wider'. It also says basket trading, financing, fees, operational constraints and inventory risk in creation/redemption 'can affect quotes'."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "'quoted spread reflects the cost and risk of providing immediacy': the spread compensates market-maker hedging, inventory and basket costs. It gives no numerical ranking or universal levels."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Says volume does not capture 'underlying liquidity, or dealers' ability to hedge and process baskets', which links to the underlying market and creation/redemption. Gives the example that a lightly traded ETF can have competitive quotes if its holdings and hedges are liquid. Also mentions current order-book depth (optional)."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "All three required minimums are covered. The answer ties spreads to underlying liquidity, hedging and creation/redemption costs, and treats the spread as compensation for supplying immediacy. It explains that volume is incomplete because liquidity also comes from the underlying basket and the hedging/basket process. It contains no central error, no material falsehood, and no ranking or universal spread levels."
+  },
+  {
+    "blind_id": "C035",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Covers the trust/board, the adviser/sponsor, distribution/underwriting, custodian, fund accountant/administrator, transfer agent and independent audit firm."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Covers AP creation/redemption processing, basket handling (roughly PCF), exchange listing and NSCC/DTC clearing/settlement. Omits seed capital and market-making arrangements."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Correctly treats index rights as needed for passive strategies and securities lending as optional. Omits counsel and pricing support."
+      },
+      {
+        "point": 4,
+        "credit": 1,
+        "reason": "States that some functions can be bundled with one provider or affiliated entities, and that the adviser may provide administration."
+      },
+      {
+        "point": 5,
+        "credit": 1,
+        "reason": "Covers the compliance program/CCO, written policies, and board oversight including independent trustees."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Required coverage totals 4/5, with no central error and no material falsehood. The answer falls short of correct because it omits seed capital, market-making arrangements, legal counsel and pricing support."
+  },
+  {
+    "blind_id": "C036",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer says cash collateral may be required for undelivered securities and ties the 115% to the value of those securities. It frames 115% as a ceiling ('up to 115%'), which the rubric says mischaracterizes the reviewed text. The optional 105% detail is omitted."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "The answer says the percentage applies to the securities owed, not the order's total value or cash component. It also says '115% is not universal' and that requirements vary by agreement or fund."
+      }
+    ],
+    "central_error": null,
+    "local_error": "'cash collateral of up to 115% of the value of those undelivered securities': this presents 115% as a maximum or ceiling, which the rubric defines as a local error that caps the grade at partial.",
+    "grade": "partial",
+    "rationale": "There is no central error: the answer does not claim a universal rate, does not apply the rate to the whole basket, and does not deny the collateral requirement. Required coverage is 1.5 of 2, and core facts are supplied. However, the 'up to 115%' ceiling wording is a listed local error that caps the grade at partial."
+  },
+  {
+    "blind_id": "C037",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that the fund pays the unitary fee to the adviser, which keeps the management-fee revenue. It also says the sponsor's separate contract pays specified ordinary operating expenses 'for the fee remainder'. Together these cover the adviser receiving the fee and the sponsor taking the residual for assuming expenses."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Explicitly says the sponsor's assumption 'does not eliminate the adviser's continuing obligation to the fund'. It adds that the adviser must cover any costs the sponsor fails to pay. Listing exclusions is optional."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Says the sponsor's economics are the fee remainder, allocated 'under their contract'. Also states 'There is no standard percentage split\u2014terms vary by fund and agreement.' The role contrast is optional."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "All three required minimums are covered: the adviser receives the fee and the sponsor takes the remainder for assuming expenses; the adviser stays obligated to the fund; and the split is contractual with no universal percentage. The answer does not say the sponsor contract releases the adviser, and it does not claim a guaranteed split owed by the fund. No material local falsehood was found."
+  },
+  {
+    "blind_id": "C038",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer names the fund website's daily holdings page as the starting point. It distinguishes portfolio holdings from the PCF creation/redemption basket ('A basket may differ from the fund's full holdings'). It also notes the rule does not require every ETF to publish its PCF freely."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "'Without NSCC access' implies the PCF is distributed through the NSCC participant channel. The answer tells the investor to ask the sponsor or its agents for the file. It makes no free public PCF promise: 'Access may be discretionary, delayed, or fee-based.' The NSCC distribution mechanism is implied rather than spelled out, and it names the transfer agent/distributor rather than the broker or capital-markets team, but the substance is present."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are covered. There is no central error: the answer explicitly says holdings may differ from baskets and does not claim a universally free public PCF. No material local falsehood was found. The pre-open daily holdings disclosure is accurate, and the sponsor/transfer agent/distributor contact route is a reasonable practical suggestion."
+  },
+  {
+    "blind_id": "C039",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Covers all three inquiry areas. Selection: criteria for choosing the exchange and LMM, comparison of alternatives, and conflicts. Relevant-market expertise: LMM experience with similar strategies and underlying assets, hedging, spreads and AP coordination. Capital and seed support: what is committed, by whom, for how long and on what terms."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Explicitly distinguishes 'temporary LMM/affiliate market-making seed from durable investor assets.' It does not treat investor assets as permanent: it asks what evidence supports 'expected independent demand and asset retention after temporary support ends.' It also asks whether support is 'guaranteed or discretionary' and what happens if it is withdrawn."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are covered. The answer frames the checklist as 'Suggested diligence questions\u2014not a mandatory approval rule.' It never claims market-maker seed is guaranteed or permanent, and it never says a fixed capital amount is legally required. No material local falsehood was found."
+  },
+  {
+    "blind_id": "C040",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "States that the transparency policy must be disclosed in the prospectus and on the website. It omits the KID/KIID and marketing materials, and does not say where portfolio or iNAV information can be found."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Covers daily public holdings and the conditional periodic route with daily AP/market-maker arbitrage information. It omits the nondiscriminatory basis, the specific procedures for impaired arbitrage and investor information requests, and public quarter-end holdings within 30 business days. 'Applicable regulatory conditions and procedures' is too generic to count."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "No mention of position and quantity content, the prospectus statement of the information supplied under the daily route, or iNAV calculation methodology and frequency."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "There is no central error: the answer does not say all Irish ETFs must publish full daily holdings, and it expressly makes the periodic route conditional on daily arbitrage information. Calling daily disclosure 'the default' is a loose framing but not a material falsehood. Required coverage totals 1.0 of 3, which is below the half threshold of 1.5, so the scoring rule requires 'wrong' despite some substantive facts being correct."
+  },
+  {
+    "blind_id": "C041",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer opens with 'No.' It says exchange volume 'is not a ceiling on what can trade' and explains that APs create shares by delivering a basket and redeem them for the basket. This ties primary-market capacity to why secondary volume alone is insufficient."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "It lists 'bid\u2013ask spread, quote depth and size', 'underlying-security liquidity and trading conditions' and 'market makers' ability to hedge'. It also cites 'creation/redemption basket details and recent flows', which reflect AP and market-maker activity. All three elements of the bundle are covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered. The answer explicitly rejects volume as a cap and says the indicators are 'not assurance of execution capacity', so it avoids both central-error forms. The other statements (premiums/discounts to NAV or iNAV, checking conditions at order time) are accurate, so there is no material local falsehood."
+  },
+  {
+    "blind_id": "C042",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States the 75-day period under Rule 485(a)(2) for a new series, notes acceleration and other provisions, says the clock is not an end-to-end launch guarantee, and treats initial trust registration as a different regime rather than applying the 75-day clock to it."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Says the clock covers registration-statement effectiveness, not completion of launch work, and lists exchange listing, seed capital, operational readiness and required regulatory steps. The optional 95-day designated-date limit is omitted, which does not reduce the grade."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"generally becomes effective no earlier than 60 days after its initial filing under Investment Company Act \u00a7 8(a), absent acceleration\" \u2014 This is a material misstatement. Investment Company Act \u00a7 8(a) governs notification of registration (Form N-8A), which is effective on receipt and has no 60-day clock. Securities Act \u00a7 8(a) gives a 20-day default for a registration statement, which is commonly extended by a delaying amendment until the SEC declares it effective. The answer gives the wrong period and the wrong statutory source for the initial-registration distinction the question asks for. It is not the listed central error, because it does not apply the 75-day Rule 485 clock to the new trust.",
+    "grade": "partial",
+    "rationale": "Both required points are fully covered and there is no central error. The answer does not apply the 75-day clock to initial trust registration and does not call it a launch guarantee. However, its account of the requested initial-registration distinction gives a false 60-day period and attributes it to Investment Company Act \u00a7 8(a). Under the scoring rule, a material local falsehood caps the grade at partial."
+  },
+  {
+    "blind_id": "C043",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States Rule 6c-11 is available to open-end management investment company ETFs and does not cover UIT ETFs."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says leveraged and inverse ETFs are eligible and that leveraged/inverse status alone does not require separate relief. Notes they must comply with Rule 18f-4 (derivatives risk program, VaR limits, reporting) unless the limited-user exception applies."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Covers non-transparent/semi-transparent ETFs and share-class ETFs needing separate exemptive relief, and names daily holdings disclosure as a condition. Omits master-feeder structures, so the bundle is incomplete."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no central error: leveraged/inverse ETFs are not excluded, UITs are not treated as covered, and nontransparent and share-class ETFs are correctly said to need separate relief. No material local falsehood was found. Points 1 and 2 are fully covered, but point 3 omits master-feeder structures. Total coverage is 2.5 of 3, which meets the partial threshold but not correct, since correct requires every required minimum."
+  },
+  {
+    "blind_id": "C044",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "The answer does not state the Rule 6c-11(a)(1) definition. It never says an AP must be a member or participant of a registered clearing agency with a written agreement with the ETF or a service provider. It says APs are 'typically' broker-dealers and DTC participants, which is industry practice, not the rule's requirement. It also says the rule does not detail permitted AP counterparties."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "The answer says it cannot see the reviewed forms. It only speculates that they 'may add parties (transfer agent, custodian, distributor)'. It does not identify the distributor and AP as main counterparties, the transfer agent's countersignature or acceptance, or the trust as third-party beneficiary."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "The answer says creations and redemptions generally run through NSCC/DTC, which partly covers the routes. It does not tie NSCC netting membership or DTC participation to the forms. It does not say eligibility differs from being a market maker."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"It doesn't prescribe a specific authorized participant (AP) agreement form or detail permitted AP counterparties.\" This is materially false: Rule 6c-11(a)(1) defines an AP by clearing-agency membership plus a written agreement. It is not an explicit statement that no clearing membership or written agreement is needed, so it is not treated as a central error.",
+    "grade": "wrong",
+    "rationale": "Required coverage totals 0.5 of 3, which is below the 1.5 threshold for partial. The answer omits the rule's AP definition and the reviewed-form party structure, gives only partial clearing-route context, and includes a material local falsehood about the rule's content."
+  },
+  {
+    "blind_id": "C045",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Covers pro-rata proceeds ('pro-rata share of the fund's net assets'). Says the amount may differ from the last price ('not automatically... the latest quoted share price'). Says timing varies ('timing varies; check the fund's liquidation notice'). Notes 'Trading may stop before the fund distributes cash' but never says the investor can normally sell before trading ends, so the bundle is incomplete."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States proceeds are 'after liabilities and liquidation costs'. Says that in a taxable account 'the cash distribution generally triggers a taxable gain or loss measured against your adjusted cost basis', and mentions possible pass-through of gains."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no central error. The answer explicitly says liquidation does not ordinarily mean forfeiting the whole holding, and it gives no fixed proceeds or date. Point 2 is fully covered. Point 1 lacks the minimum element that investors can normally sell before trading ends. Required coverage is 1.5 of 2, which meets the partial threshold but not correct."
+  },
+  {
+    "blind_id": "C046",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Points to the sponsor website 'Holdings' or 'Portfolio' page for daily holdings. Separately states the PCF basket 'can differ from holdings due to cash components, representative sampling, or substitutions.'"
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States the PCF is 'distributed mainly via NSCC to authorized participants.' Suggests contacting the sponsor, broker or a market-data provider, and says 'don't assume it's there,' so no free public PCF is promised."
+      }
+    ],
+    "central_error": null,
+    "local_error": "Quote: 'Check the sponsor's website first, since Rule 6c-11 generally requires daily public posting [of the PCF]'. Reason: Rule 6c-11(c) requires public disclosure of portfolio holdings, not publication of creation/redemption baskets or the PCF. This is a material false statement about what the rule requires. It is hedged ('don't assume it's there') and does not claim the NSCC file is universally and freely public, so it is not a central error, but it caps the grade at partial.",
+    "grade": "partial",
+    "rationale": "Both required minimums are fully covered (2/2), and the answer correctly distinguishes holdings from transaction baskets. However, it wrongly says Rule 6c-11 generally requires daily public posting of the PCF/basket. That is a material local falsehood, which caps the grade at partial under the scoring rule."
+  },
+  {
+    "blind_id": "C047",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The break-even item compares fee revenue with operating, legal, licensing and other costs, and says low-fee or costly strategies 'may need more scale.' That implies costs that do not shrink with size. However, it never explicitly says a small fund loses money because of fixed costs, nor that small or young funds face heightened closure exposure."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Ability is covered by 'Who covers shortfalls' (waivers, caps, subsidy end dates, 'the sponsor's capacity to absorb losses') and by sponsor financial resources. Willingness is covered by stated scale thresholds and the sponsor's closure history. The closing line 'These are warning signs, not a closure forecast' supplies the no-certainty element."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "The seed item contrasts temporary seed with seed 'likely to persist' and notes that 'Temporary seed can exaggerate demand,' which implies withdrawal risk. It does not identify market-maker seed as redeemable inventory or contrast it with investor seed. It also omits that subsidized seed investors can leave. Board powers are optional."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Required coverage is 2.0 of 3, which is at least half, and core facts are supplied. There is no central error: the answer never says small size guarantees closure or that seed is permanent. It cannot be graded correct because points 1 and 3 are only partly covered: the fixed-cost loss mechanism is implied rather than stated, and the market-maker versus investor seed distinction is missing."
+  },
+  {
+    "blind_id": "C048",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that cross-subsidization runs both ways, with ETF activity imposing shared-portfolio costs on mutual fund holders and mutual fund flows imposing costs on ETF holders."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Names mechanisms only generically ('ETF trading or basket activity', 'mutual-fund subscriptions/redemptions \u2026 may impose costs'). It does not describe forced sales, gain realization or cash drag borne by ETF holders, nor in-kind baskets needing later portfolio adjustment. It does label them as conceptual examples."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Separates the order-specific framework and denies a universal numeric cutoff. It omits board-approved thresholds, methods and periods for transaction costs, cash levels and capital-gains distributions, and describes the framework as evaluating an individual order's costs."
+      },
+      {
+        "point": 4,
+        "credit": 0,
+        "reason": "Never says a threshold breach prompts notice and assessment rather than automatic illegality or closure. 'They do not establish that every order is problematic' does not cover this."
+      }
+    ],
+    "central_error": null,
+    "local_error": "'A representative order-specific framework evaluates an individual order's expected costs and effects across classes and the portfolio, considering relevant circumstances and allocation'. This misdescribes the exemptive order framework, which uses board-set thresholds, methods and periods for monitoring categories, as a per-trade order evaluation. It is a material ancillary inaccuracy, which caps the grade at partial.",
+    "grade": "partial",
+    "rationale": "No central error. Required coverage sums to 2 of 4, which meets the half threshold, and core facts are supplied (both directions; the transaction-cost, cash and gains categories; no universal thresholds). However, the mechanisms are vague, board thresholds, methods and periods are missing, breach handling is absent, and the framework is mischaracterized as evaluating individual orders."
+  },
+  {
+    "blind_id": "C049",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States the ETF needs written policies and procedures 'governing basket construction and acceptance.'"
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Covers detailed parameters and the fund/shareholders' best interests. It omits any process for revising or departing from the custom-basket policies."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Records are covered: 'documentation of each custom basket... adherence to the policies, retained.' Review roles stay generic ('Board... oversight,' 'compliance and portfolio-management responsibilities assigned'). It never says the policies must name the titles or roles of adviser employees who review each custom basket for compliance."
+      },
+      {
+        "point": 4,
+        "credit": 0.5,
+        "reason": "It separates a custom basket (composition differs from the standard basket) from a non-standard order (deviation in terms). But 'differs in composition from the fund's standard... basket' misses both prongs: a basket not representative of holdings, or a representative basket that differs from the first basket used that business day."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "No explicit central error: the answer does not say a custom basket is only a non-standard contract order, and does not say a later representative basket can never be custom. Required coverage is 2.5 of 4, which meets the half threshold with core facts supplied. Missing elements: the departure/revision process, the specific adviser reviewer titles, and the precise two-prong custom-basket definition. These gaps prevent a correct grade."
+  },
+  {
+    "blind_id": "C050",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States APs 'aren't paid a standing fee by the sponsor' and 'There's generally no obligation to keep creating or redeeming... they can stop participating.' Also notes APs earn through trading spreads or by charging clients."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "The only required point is fully covered: there is no automatic sponsor payment and no ongoing duty to create or redeem. No central error appears. The answer does not claim continuous dealing or a fund retainer. The ancillary statements about spreads, client charges, pass-through fees, and the effect on liquidity and NAV tracking are accurate. Optional omissions do not reduce the grade."
+  },
+  {
+    "blind_id": "C051",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States the sponsor bears the shortfall: as assets shrink, fee income falls while expense obligations stay fixed, so 'the sponsor's margin absorbs the gap.'"
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "Never says the platform adviser still owes the fund's promised expenses on sponsor default. It puts the liability on the fund and its shareholders instead."
+      }
+    ],
+    "central_error": "Quote: 'The fund remains liable. Service providers ... can look to fund assets. Those amounts reduce NAV, so shareholders bear them.' This matches the central error 'Sponsor default releases adviser so fund/shareholders must cover promised ordinary expenses.'",
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Point 1 is fully covered. On sponsor default, however, the answer explicitly says the fund and its shareholders bear the promised ordinary expenses through NAV, with no adviser backstop. That is a listed central error, which forces a grade of wrong."
+  },
+  {
+    "blind_id": "C052",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States 'all classes share one portfolio, fewer realized gains mean smaller capital gains distributions, helping every class', so the shared portfolio benefits both classes."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Gives the required limit: 'Cash-based trading can still realize gains' and 'Mutual fund redemptions are typically cash, forcing sales that realize gains.' It does not claim a basis step-up, so optional subdetail (a) is not contradicted."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Makes the benefit conditional: 'The benefit depends on ETF-class redemption volume and which lots are delivered.' The investor/AP tax caveat is optional."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "All three required minimums are covered. It has no central error: it affirms a shared portfolio and says embedded gains 'leave the portfolio unrealized' with no step-up claim. The \u00a7852(b)(6) mechanism is accurate. Calling the benefit pro rata and noting Rule 18f-3 allocation are reasonable and not material falsehoods. Omitting the optional subdetails (basis of retained securities, MF flows imposing costs on ETF holders, investor/AP gains) does not reduce the grade."
+  },
+  {
+    "blind_id": "C053",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Names sampling/optimization choices, incomplete or delayed index rebalances, and stale or asynchronous prices and fair-value adjustments. Also notes constraints that leave the portfolio off-index."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Lists 'cash drag or flows', corporate actions, and delayed subscriptions/redemptions. It also calls for distributions to be treated consistently between fund and benchmark."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Lists fee accruals and other operational, trading, cash and pricing effects as drivers to investigate. It never claims a constant fee raises the standard deviation."
+      },
+      {
+        "point": 4,
+        "credit": 1,
+        "reason": "Says cumulative tracking difference 'measures total return shortfall or excess, not variability', separate from the daily active-return series. Requires same-date returns with consistent distribution, fee and benchmark conventions."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "All four required minimums are fully covered. There is no central error: tracking error is not equated with cumulative difference, and no constant-fee variance claim is made. No material local falsehood was found."
+  },
+  {
+    "blind_id": "C054",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "States that each exchanged creation and redemption basket's composition and 'related transaction information' must be kept. It does not name quantities or weights, the custom-basket designation and compliance statement, the cash balancing amount, or the transacting AP's identity, so the bundle is substantive but incomplete."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "'Records must be kept for at least five years, with the first two years in an easily accessible place.' This applies to the basket records."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Requires 'copies of all agreements with APs'. The same five-year, first-two-years-accessible retention statement covers these records."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "No central error: the answer requires records and states the five-year/two-year rule correctly. Points 2 and 3 are fully covered. Point 1 omits several required minimum elements (quantities/weights, custom-basket status and compliance, balancing cash, AP identity), so not every required minimum is covered. Coverage is 2.5 of 3, which is at least half, and core facts are supplied, so the grade is partial."
+  },
+  {
+    "blind_id": "C055",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Incomplete bundle. The answer touches three of the four categories only loosely. Market-price trading is implied via the 'resale-price provisions of Section 22(d)'. Foreign delivery is described as 'later settlement\u2026 with timing conditions', but the as-soon-as-practicable, up-to-15-days limit is omitted. Affiliate relief is mentioned but mischaracterized. Redeemability (shares treated as redeemable securities despite creation-unit dealing) is not stated. The answer also substitutes custom baskets as a category and expressly disclaims knowing the four categories."
+      }
+    ],
+    "central_error": null,
+    "local_error": "'Affiliate limits: restrictions on affiliated persons acting as authorized participants or otherwise influencing creation and redemption baskets.' This misstates the 6c-11(b) affiliate relief. That relief permits in-kind basket exchanges with persons affiliated solely through specified 5% voting holdings; it does not restrict affiliates from acting as APs. Listing 'custom baskets' as a relief category is also inaccurate, since that is a policies-and-procedures condition rather than a (b) relief category. These are material local inaccuracies, which cap the grade at partial.",
+    "grade": "partial",
+    "rationale": "There is no explicit central error: the answer neither claims unlimited affiliate relief nor allows foreign delivery beyond 15 days. Required coverage is 0.5 of 1, which meets the half threshold. Some requested core facts are supplied (market-price/22(d) relief and delayed foreign settlement). The answer omits redeemability and the 15-day limit and mischaracterizes the affiliate relief, so it is partial rather than correct."
+  },
+  {
+    "blind_id": "C056",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "The answer does not state either express Reg. 26(2) exception. It says it 'can't confirm... any 2026 exceptions separating cash from in-kind dealing cut-offs.' It describes class-level hedging mechanics (attribution, the 95\u2013105% tolerance) but never says hedged and unhedged classes may have different cut-offs."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "The answer says it is 'unaware of a \"Q&A 1030\" waiver approach.' It gives no account of the old reasoned-waiver route, no contrast with the express 2026 exceptions and no limiting statement."
+      }
+    ],
+    "central_error": null,
+    "local_error": "'Dealing cut-offs are usually set in the prospectus and applied uniformly, not split by cash versus in-kind.' This is framed as general practice, not as a statement of law. It sits in tension with the express Reg. 26(2) permission for different cash and in-kind cut-offs. It is hedged ('usually'), so it does not amount to an explicit central error.",
+    "grade": "wrong",
+    "rationale": "Required coverage is 0 of 2, which is below half. The answer supplies none of the requested core facts. It declines to verify the provisions and gives only generic hedging background and a list of sources to check. No explicit central error is made, but the lack of coverage alone requires a grade of wrong."
+  },
+  {
+    "blind_id": "C057",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer correctly gives the 75-day Rule 485(a) period for a new series of an existing trust. It also says effectiveness 'only legally registers the series' and is not a launch guarantee. However, it wrongly says a new trust faces the same 75-day period, so it fails the 'not initial trust automatic clock' part."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "The answer lists operational steps that add time beyond effectiveness: exchange listing approval, seed capital and AP agreements, service-provider setup, NSCC/DTC readiness, and resolving staff comments. The optional 95-day limit is not mentioned."
+      }
+    ],
+    "central_error": "Offending quote: 'A brand-new trust files Form N-1A under Section 8(a) and Rule 485(a) and typically also faces the 75-day period.' This matches the central error '75-day automatic Rule 485 clock applies to initial trust registration.'",
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "The answer handles the new-series 75-day period well and explains that effectiveness is not a launch guarantee. But it explicitly applies the Rule 485(a) 75-day period to a brand-new trust's initial registration. Initial registration is not a Rule 485 post-effective amendment. Under the scoring rule, any explicit central error requires a grade of wrong."
+  },
+  {
+    "blind_id": "C058",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer states that the sponsor bears the economic shortfall and is contractually responsible for the excess when the unitary fee doesn't cover costs."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "The answer never identifies the platform adviser as the party that still owes the fund its promised expenses if the sponsor defaults. It points instead to the fund's own obligations to service providers."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"If the fund is party to agreements with service providers, it may still owe them expenses if the sponsor fails to pay.\" In the specified model the adviser backstops the fund's promised expenses, so placing the residual obligation on the fund is misleading. It is hedged ('may') and never says the adviser is released, so it is not an explicit central error. It is still a material local misstatement.",
+    "grade": "partial",
+    "rationale": "Required coverage is 1 of 2, which meets the half threshold, and a core requested fact (the sponsor bears the shortfall) is supplied. There is no explicit central error because the answer does not state that sponsor default releases the adviser. However, it misallocates the backstop obligation to the fund and omits the adviser. That leaves point 2 uncovered and adds a local misstatement, so the grade is capped at partial."
+  },
+  {
+    "blind_id": "C059",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Covers economics (fee structure, minimums, step-ups), duration (term, renewal mechanics), termination (for cause and convenience, notice periods), and run-off. It covers naming dependence (fund name, ticker, prospectus tied to the index trademark). It covers affiliated-information controls (provider or calculation-agent affiliation, data-sharing and confidentiality, personnel overlap). Exclusivity is not named explicitly, but the rubric minimum is met."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Gives contingency diligence: identify and test substitute indices, review post-termination transition rights, assess prospectus and shareholder-approval implications, and set escalation triggers. It ties this to the contract, stating 'Substitution is not guaranteed; counsel should confirm the actual terms.'"
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered. The answer explicitly rejects guaranteed substitution and says notice periods must be confirmed rather than assumed, so there is no central error. No material local falsehood was found; the shareholder-approval reference is framed as an issue to assess, not a fixed rule."
+  },
+  {
+    "blind_id": "C060",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer covers ETF identification at sub-fund level in a mixed umbrella and says non-ETF siblings and unlisted classes are not ETFs, so classes are clearly distinguished. It does not state that 'UCITS ETF' must appear in the name, constitution, prospectus, KID/KIID and marketing. It also presents listed-class identification as the only approach rather than giving the sub-fund-OR-listed-class option."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"The ETF identifier applies to the listed class, not the whole sub-fund.\" This categorically excludes identification at sub-fund level, which Reg. 88(2) and CBI Q&A permit as an alternative. It is not the listed central error, which concerns a sub-fund-only rule or labelling siblings as ETFs. It is still a material inaccuracy about the either/or option, and the answer is inconsistent with its own mixed-umbrella section. Calling 'UCITS ETF' merely a 'market term' also understates the mandatory Irish naming requirement.",
+    "grade": "partial",
+    "rationale": "No explicit central error: the answer does not restrict the identifier to sub-fund level only and does not label non-ETF siblings as ETFs. The single required point is only half covered: the identifier documents are missing and the sub-fund/listed-class alternative is stated as listed-class only. Coverage of 0.5 meets the half threshold, and the core facts on the mixed umbrella and class distinction are supplied. The local inaccuracy also caps the grade at partial."
+  },
+  {
+    "blind_id": "C061",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Lists the board of trustees, investment adviser, distributor, custodian, administrator/fund accounting, transfer agent and auditor."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Covers APs, liquidity providers/market makers, exchange listing, DTC/NSCC clearing and creation/redemption processing, which roughly matches the PCF workflow. Seed capital is not mentioned."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Includes legal counsel and pricing vendors. Index provider/licensing is tied to index-tracking funds and the securities lending agent to 'if lending'."
+      },
+      {
+        "point": 4,
+        "credit": 1,
+        "reason": "Says service providers are 'often bundled' and that 'One provider can often cover several of these'. The adviser may house the CCO and valuation designee."
+      },
+      {
+        "point": 5,
+        "credit": 1,
+        "reason": "Names a chief compliance officer under Rule 38a-1 and a majority-independent board with Section 15(c) review, which covers the compliance program and board oversight."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Required coverage totals 4.5 of 5, with no central error. The answer explicitly rejects the idea that each role needs a separate firm. Listing the Rule 22e-4 liquidity program as strategy-specific is imprecise, since ETFs generally need one, but the 'if applicable' hedge keeps it short of a material falsehood. The only gap is seed capital, which leaves point 2 incomplete, so not every required minimum is covered and the grade cannot be correct."
+  },
+  {
+    "blind_id": "C062",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "States that seed capital is a sponsor-owned investment, not an expense, and is distinct from expenditure. It never says that the legal minimum (the \u00a714(a) $100,000 net-worth condition) is not a commercial launch budget or break-even level."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Names payer assignments: one-time costs are 'sponsor-paid', recurring costs are 'Paid from the unitary fee, with the sponsor absorbing any excess', and overhead and distribution are 'typically sponsor-borne'. It never states that the contract (management or unitary-fee agreement) determines these allocations, so the required minimum is only partly met."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Lists one-time categories (legal and registration, index setup, listing and onboarding, systems, marketing, initial audit) and recurring categories (index licensing, administration, custody, TA, audit, legal, board, insurance, exchange and data). Gives break-even AUM as F / (f \u2212 v), tied to retained margin."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no central error: seed is explicitly not an operating bill, and the answer does not claim that a positive margin alone guarantees profit. Required coverage sums to 2 of 3, which meets the threshold, and core facts are supplied. The grade is partial because the answer omits the point that the legal minimum is not a commercial launch budget and does not frame payer allocation as contractually determined. The answer is also truncated at the end."
+  },
+  {
+    "blind_id": "C063",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer covers two of the four required categories. It gives limited affiliate relief for in-kind basket exchanges, though without the specified 5% voting-holding affiliation basis. It also gives delayed foreign delivery capped at 15 days and 'no longer than necessary,' which matches 'as soon as practicable.' It omits redeemable-security status and market-price secondary trading, replacing them with \u00a717(d)/17d-1 and \u00a724(d) relief."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"Joint transactions: relief from \u00a717(d) and Rule 17d-1\" and \"Prospectus delivery: relief from \u00a724(d)\". Rule 6c-11(b) does not grant these exemptions. These are material false ancillary statements that misidentify two of the four relief categories, so the grade is capped at partial.",
+    "grade": "partial",
+    "rationale": "There is no central error. Affiliate relief is described as limited, not unlimited, and foreign delivery is capped at 15 days. The single required bundle earns 0.5 because two categories are correct and two are missing. This meets the partial threshold of at least half the required coverage with a core fact supplied. The incorrect \u00a717(d) and \u00a724(d) categories are a material local falsehood, which also caps the grade at partial."
+  },
+  {
+    "blind_id": "C064",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States the expense ratio is not usually charged as a separate fee, is paid from fund assets, and reduces NAV and returns. Gives the annual rate example (0.20% \u2248 $20/year)."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Says costs reduce NAV 'gradually' and are 'reflected over time' rather than billed as a lump sum. This implies incremental accrual but never states daily accrual, so the minimum is only partly covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Point 1 is fully covered. Point 2 earns half credit because the answer describes gradual NAV reduction without specifying daily accrual. Required coverage is 1.5 of 2. The hedges 'isn't usually' and 'not typically billed' do not explicitly assert separate billing, so there is no central error. Point 3 is optional and its omission is not penalized. Because not every required minimum is fully covered, the grade is partial."
+  },
+  {
+    "blind_id": "C065",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States only APs redeem directly with the fund in large Creation Unit blocks, and that retail investors sell ETF shares on an exchange through a broker."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says retail investors cannot present individual shares to the fund for redemption. It gives the alternative as an exchange sale through a broker at a market price that may differ from NAV, which is a secondary-market transaction and not a fund redemption."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are covered. The answer correctly denies direct retail redemption and contrasts AP creation-unit redemptions with retail exchange sales. Its added details are accurate: APs are typically broker-dealers, redemptions may be in kind or for cash, and arbitrage keeps market price near NAV. There is no central error and no material local falsehood."
+  },
+  {
+    "blind_id": "C066",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that APs exchange large blocks of ETF shares with the fund for the underlying securities, or the reverse. This covers the creation/redemption basket exchange."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Explains that at a premium APs create and sell shares, and at a discount they buy and redeem shares, and that 'Both actions push the price back toward NAV.' It also links market makers to APs."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Says the mechanism 'works best when underlying assets are liquid' and 'deviations can persist' for thinly traded assets. This conveys that price and NAV are not guaranteed to be equal."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "All three required minimums are covered: basket exchange, premium/discount arbitrage and no guaranteed equality. The answer does not deny the arbitrage mechanism or claim price always equals NAV. Ancillary details (creation unit sizes, iNAV, holdings disclosure, market-maker role) are broadly accurate and not materially false."
+  },
+  {
+    "blind_id": "C067",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States the platform host 'supplies the trust, board, administration, and compliance infrastructure' with 'Lower upfront cost', and contrasts this with the substantial fixed costs of an own trust. This covers shared board and providers reducing fixed costs."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Gives a concrete control trade-off: 'limited say over trustees and service providers, governance standards set by the host', versus own trust 'Full control over board, providers, and fee structure'. This makes clear the platform board belongs to the host, not the sponsor. The optional adviser-replacement and liquidation detail is omitted, which does not reduce credit."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Fit is conditional: own-trust costs are 'rarely justified for one small fund', and a practical test weighs AUM-based cost absorption against 'how much governance control your strategy actually needs', noting 'terms vary widely'. This is not a universal recommendation."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "All three required minimums are fully covered. The answer explains cost-sharing through host-supplied infrastructure, states concretely that the host controls trustees and governance, and frames the choice as conditional on cost and control needs. There is no claim of sponsor control under the platform, no universal winner, and no material falsehood."
+  },
+  {
+    "blind_id": "C068",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer says listed ETF and unlisted classes can coexist. It covers dealing access (on-exchange versus direct with the fund), settlement, costs, minimum investment/holding amounts, class rights, liquidity and price differences (market price versus NAV). It does not explicitly mention broker use or dealing frequency, both of which are in the required bundle."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "The answer gets the core point right that the classes may coexist, and it covers most of the comparison items. It also correctly says US share-class exemptive conditions do not apply. However, it omits broker use and dealing frequency, so the required bundle is incomplete and earns 0.5. There is no central error or material falsehood. Coverage of 0.5 meets the half-coverage threshold, so the grade is partial."
+  },
+  {
+    "blind_id": "C069",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Places the identifier in the listed ETF class name, marketing and disclosures, and warns against labelling non-ETF siblings or sub-funds as ETFs. It does not list the constitution, prospectus and KID/KIID as required documents. It does not clearly state that the ETF sub-fund in a mixed umbrella must be identified. It also omits, and in effect denies, the option to use the identifier at sub-fund level, offering class-level identification only."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"Do not call the whole sub-fund an ETF if it also has non-ETF classes\": this conflicts with Reg. 88(2) and CBI Q&A, which allow the identifier at sub-fund level or listed-class level for sub-funds with listed and unlisted classes, provided the classes are clearly distinguished. It is a material falsehood about the sub-fund-level option. It is not the listed central anchor, which concerns sub-fund-only identification or labelling non-ETF siblings as ETFs.",
+    "grade": "partial",
+    "rationale": "The answer gets the listed-class identification and the non-ETF sibling caution right, and it commits no listed central error. However, the document coverage is incomplete, mixed-umbrella sub-fund identification is not explicit, and it wrongly excludes sub-fund-level use of the identifier. Coverage of 0.5 out of 1 required point meets the partial threshold, and the material local falsehood caps the grade at partial in any case."
+  },
+  {
+    "blind_id": "C070",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that the ETF can deliver stocks to an authorized participant instead of selling them. It also says qualifying in-kind redemptions generally don't make the fund recognize gains on appreciated securities, matching 852(b)(6) nonrecognition."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says 'selecting low-basis lots can reduce embedded gains' and that this 'can defer or reduce fund-level realized gains.' It contrasts this with cash-dealing mutual funds that 'more often' sell holdings and distribute the gains."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Says the benefit 'doesn't guarantee zero capital-gain distributions.' It notes tax still applies to dividends, portfolio sales and investor sales of ETF shares, and that benefits depend on flows, turnover and in-kind capacity."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "All three required minimums are covered with accurate wording. The answer does not claim any universal tax exemption and does not say in-kind redemptions necessarily recognize gains. The remark that mutual funds may avoid sales via 'offsetting losses' is slightly loose, since losses offset gains rather than avoid sales, but it is not a material falsehood."
+  },
+  {
+    "blind_id": "C071",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that when an AP cannot practicably transfer derivatives, the fund may accept cash or a mixed basket and 'can then enter, close, or adjust those positions itself'."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States that cash transactions 'impose trading costs, market impact, and tax effects on the fund and its shareholders'. It also says in-kind delivery helps 'avoid trading costs and potential tax consequences', which by contrast conveys the loss of in-kind benefits."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are covered. The answer frames the explanation as conditional ('derivatives may sometimes be transferable'; 'not a rule that all derivatives require cash'), so it avoids the central error and states the limits as asked. It contains no material falsehood."
+  },
+  {
+    "blind_id": "C072",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer says UIT-structured ETFs 'require orders,' which correctly places UITs outside the rule. It never states that Rule 6c-11 covers registered open-end ETFs."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "The answer says leveraged/inverse ETFs are 'excluded from the rule, so they continue under individual exemptive orders.' That is the opposite of the required minimum, which is that they may rely on 6c-11 subject to Rule 18f-4."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "The answer says non-transparent active ETFs and share-class ETFs require orders, and it notes that 6c-11 mandates daily holdings disclosure. It omits master-feeder structures, so the bundle is incomplete."
+      }
+    ],
+    "central_error": "\"Leveraged and inverse ETFs: excluded from the rule, so they continue under individual exemptive orders.\" This matches the central error 'Leveraged/inverse categorically excluded.' The closing line 'Leveraged/inverse funds must satisfy 18f-4 alongside their exemptive orders' repeats the same error.",
+    "local_error": "\"Rule 6c-11 (effective 2024)\" is a material ancillary falsehood. The rule was adopted in 2019 and became effective in December 2019, with compliance required in 2020.",
+    "grade": "wrong",
+    "rationale": "The answer explicitly states that leveraged/inverse ETFs are categorically excluded from Rule 6c-11 and need individual exemptive orders. This is a listed central error and forces a grade of wrong. Required coverage totals 1.0 of 3, which is also below half. The effective-date claim is a separate local falsehood."
+  },
+  {
+    "blind_id": "C073",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that wide, illiquid, or off-hours underlying baskets raise hedging risk and widen quotes. Also says creation/redemption fees, taxes and basket sourcing costs widen the arbitrage band and thus the quote."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says the quoted spread 'reflects the market maker's cost to hedge and make a two-sided market'. Lists hedge execution, inventory risk and creation/redemption costs feeding into the quote, with no numerical ranking or universal levels."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Says historical volume measures only secondary-market trading and 'says little about creation/redemption capacity, underlying depth'. Concludes liquidity is 'better judged by underlying conditions and creation/redemption capacity than by trading activity alone', which explicitly names creation/redemption and the underlying market as the additional liquidity source."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "All three required minimums are covered. There is no ranking, no universal spread level, no claim that volume caps liquidity, and no denial of hedge or creation costs. Ancillary claims (proxy hedging with futures, fragmentation across listings, volume inflated by a few participants) are plausible, not material falsehoods."
+  },
+  {
+    "blind_id": "C074",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer states that listed and unlisted classes of the same sub-fund can coexist. It covers dealing (cut-offs, on-exchange vs administrator), settlement, costs, minimums, rights, liquidity and price/NAV divergence. It does not explicitly cover broker use or dealing frequency. It also frames the list as what prospectuses 'typically' compare, not as what Q&A 1088 requires, and disclaims knowledge of the Q&A. This makes it a substantive but incomplete bundle."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no central error: the answer affirms coexistence and explicitly declines to apply US conditions. It covers most of the comparison items but omits broker use and dealing frequency, and it does not tie the items to the Q&A 1088 requirement. That earns 0.5 of 1 required point, which meets the half threshold with core facts supplied, so the grade is partial."
+  },
+  {
+    "blind_id": "C075",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer separately covers three risks. Borrower failure: 'A borrower may fail to return securities.' Collateral shortfall: collateral 'may fall below the cost of replacing loaned securities.' Reinvestment loss: cash collateral investments 'may lose value or become illiquid.' It ties the US iShares example to required collateral and states 'recovery isn't guaranteed', so the controls are presented as conditional rather than absolute."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "UCITS recall is covered: funds 'must be able to recall securities or terminate lending at any time.' The answer also mentions valuation, haircut, diversification and custody, but cites only generic 'eligibility' without explicit liquidity or credit-quality criteria. It also omits that noncash collateral cannot be reinvested and that cash reinvestment is restricted. This is a substantive but incomplete bundle."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Point 1 is fully covered. Point 2 earns half credit because the noncash no-reinvestment rule, restricted cash use, and explicit liquidity and credit-quality criteria are missing. The answer never says collateral eliminates losses; it states the safeguards 'mitigate, but don't eliminate, risk.' It also makes no claim that noncash collateral can be reinvested, so there is no central error. Total coverage is 1.5 of 2, which meets the partial threshold but not correct."
+  },
+  {
+    "blind_id": "C076",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer says creation and redemption happen only in creation units through Authorized Participants. It also says retail investors sell on the exchange through a broker."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "The answer opens with 'No' to direct redemption. It describes the alternative as an exchange sale to another investor or market maker at the market price, which is a secondary-market trade rather than a fund redemption."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered and no central error is present. Two ancillary claims are imprecise but not material falsehoods. First, the 25,000\u2013100,000 creation-unit range is hedged with 'commonly'. Second, market makers are loosely said to create or redeem units, though only APs transact directly with the fund."
+  },
+  {
+    "blind_id": "C077",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer covers both parts of the minimum. On payment it says APs are 'Generally, no' paid by the sponsor and instead profit from arbitrage, spreads and commissions. On duty it says 'Creation and redemption are voluntary' and that participant agreements 'don't require ongoing activity.'"
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "The single required point is fully covered: there is no automatic sponsor payment and no ongoing duty to create or redeem. The answer contains no central error; it explicitly denies both mandated dealing and an automatic retainer. It correctly describes the transaction fee as a cost charged to the AP that goes to the fund, and it separates sponsor liquidity programs from AP compensation. The phrase 'no general regulatory duty to quote' is imprecise because exchange-registered market makers can have quoting obligations, but it is hedged by 'general' and is ancillary, so it is not treated as a material falsehood. The truncated ending and the optional omissions do not reduce the grade."
+  },
+  {
+    "blind_id": "C078",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States APs create/redeem directly with the fund in the primary market, and market makers quote bids/offers and provide liquidity in the secondary market."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "(a) Says the roles are distinct and 'One firm can perform both.' (b) Says a market maker 'can hedge or arbitrage a price mismatch\u2014and may use an AP's creation/redemption process.' This also covers the optional detail about non-AP access via an AP."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required points are fully covered. The answer does not say the AP and market maker roles are necessarily identical; it says market makers 'may be APs, but need not be.' No material false statements were found."
+  },
+  {
+    "blind_id": "C079",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Covers holding identifiers and descriptions, quantities, weights, cash balancing amounts and the transacting AP. It omits the custom-basket designation and compliance statement, which the rubric minimum requires."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States that basket records are kept for at least five years, with the first two years readily accessible."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "States that written AP agreements are retained for at least five years, with the first two years readily accessible. This meets the five/two minimum."
+      }
+    ],
+    "central_error": null,
+    "local_error": "'for at least five years after its termination': the supplied evidence states five years without an after-termination trigger. This is an unsupported addition that lengthens retention rather than reversing the five/two rule, so it is treated as non-material.",
+    "grade": "partial",
+    "rationale": "There is no central error, and the answer states the five/two retention rule correctly for both record types. However, the basket-record bundle omits custom-basket status and the compliance statement, so point 1 receives only half credit. Total coverage is 2.5 of 3. Because not every required minimum is fully covered, the grade is partial rather than correct."
+  },
+  {
+    "blind_id": "C080",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer says cash collateral may be required for undelivered securities and bases it on their market value. However, it gives 'around 102% to 105%' as the typical rate. It omits the reviewed typical example of 115%, and 105% is only the alternative used in some forms."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "It says the percentage applies to the 'market value of the undelivered securities' rather than the whole basket. It also says the rate 'varies by agreement... so it is not a universal rate.'"
+      }
+    ],
+    "central_error": null,
+    "local_error": "'often around 102% to 105%': this presents a typical range that leaves out the reviewed typical figure of 115%. It is a materially incomplete and somewhat misleading characterization of the reviewed text, but it does not trigger a listed central error.",
+    "grade": "partial",
+    "rationale": "There is no central error. The answer does not claim a universal rate, it correctly applies the percentage to undelivered securities, and it affirms the collateral requirement. Point 2 is fully covered, but point 1 is incomplete because the answer lacks the 115% typical example. Required coverage is 1.5 of 2, which meets the threshold for partial but not for correct."
+  },
+  {
+    "blind_id": "C081",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "It correctly says a written agreement with the ETF is required, but omits service providers. It also wrongly makes clearing-agency membership optional by allowing a written agreement with a participant instead."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "It names the ETF/trust and the AP as the contracting parties. It does not mention the distributor as main counterparty, transfer agent countersignature, or the trust as third-party beneficiary."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "It does not mention the forms' NSCC netting membership or DTC participation requirements. It says the AP need not be a direct NSCC/DTC member and never addresses the market-maker distinction."
+      }
+    ],
+    "central_error": "\"Rule 6c-11 does **not** require an AP to be a clearing-agency member\" matches the central error 'No clearing membership ... needed'. Also, \"the named contracting parties are typically the ETF/trust and the AP\" matches 'reviewed US trust is main signatory rather than beneficiary'.",
+    "local_error": "\"or have a written agreement with such a participant that permits it to clear and settle ETF transactions\" is false: Rule 6c-11(a)(1) requires the AP itself to be a clearing agency member or participant.",
+    "grade": "wrong",
+    "rationale": "There are two explicit central errors: clearing membership is called unnecessary, and the trust is named as a main contracting party instead of a beneficiary. Required coverage is 0.5 of 3, which is below half."
+  },
+  {
+    "blind_id": "C082",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "The answer treats 'permitted parties' as AP affiliates or designees. It never says Rule 6c-11 lets the agreement be with the ETF or a service provider."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "The distributor is mentioned only alongside the trust and adviser as main signatories. The answer omits transfer agent acceptance or countersignature and the trust's third-party-beneficiary status or limited signing of specified provisions."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "It says the ICAV (or its management company) and the AP contract, which roughly matches a direct ICAV\u2013AP agreement. The management-company hedge blurs this, and it omits 'on behalf of sub-funds' and the contrast with the US signature pattern."
+      }
+    ],
+    "central_error": "\"The main signatories are generally the ETF trust, its adviser or distributor, and the AP.\" This matches the anchor 'Reviewed US trust normally principal AP counterparty instead of distributor/beneficiary distinction', because it presents the trust as a main signatory rather than a third-party beneficiary.",
+    "local_error": "\"'Permitted parties' in reviewed U.S. AP forms are typically additional entities allowed to act for an AP (such as affiliates or designees)\". This misstates the rule-level point: Rule 6c-11 permits the agreement to be with the ETF or a service provider, not with AP designees.",
+    "grade": "wrong",
+    "rationale": "The answer explicitly names the trust as a main signatory, which matches the listed central error and forces a grade of wrong. Coverage is also below half: 0.5 of 3 points."
+  },
+  {
+    "blind_id": "C083",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Covers both directions: APs 'buy the underlying securities, create new ETF shares' and 'buy ETF shares, redeem them for the underlying securities.'"
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Explains premium and discount arbitrage: selling created shares 'narrowing the premium' and redeeming shares 'narrowing the discount,' which pulls price toward NAV."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Says price stays 'near' NAV and that 'Prices can diverge more during volatility, when markets for underlying assets are closed, or when trading costs and redemption constraints make arbitrage harder.' This means equality is not guaranteed."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "The answer covers all three required minimums: basket creation and redemption, premium/discount arbitrage linking price to NAV, and no guaranteed equality. It has no central error and no material local falsehood. The market-maker detail is omitted, but it is not part of the required minimum."
+  },
+  {
+    "blind_id": "C084",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer covers the account and transfer steps: direct-held accounts may 'require a move to a brokerage', so 'start an ACATS or in-kind transfer early'. It also tells the investor to verify notices, cutoffs and where shares will sit. It does not say that an investor who fails to transfer may be unable to trade the converted ETF shares until a transfer is arranged. The statement that you will trade 'through a brokerage' only implies this."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "The answer says fractions 'are typically cashed out, which can be taxable' and tells the investor to 'Confirm the treatment', so it is notice-specific."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no central error. The answer does not claim automatic trading access for all investors, and it does not say fractional cash-outs are always tax-free. Point 2 is fully covered. Point 1 lacks the explicit consequence that the holding cannot be traded until it is transferred. Required coverage is 1.5 out of 2, which meets the partial threshold but not correct. The answer avoids a fixed timetable and does not confuse the conversion with adding an ETF share class."
+  },
+  {
+    "blind_id": "C085",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that APs have a direct primary-market relationship with the fund, creating and redeeming in creation units, while market makers quote continuous two-sided prices in the secondary market."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "(a) Overlap: 'many are also APs', and the 'Key difference' section keeps the roles distinct. (b) Link: market makers 'use creations and redemptions to offset inventory and hedge risk'. Both elements are covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required points are fully covered. The answer never says AP and market maker are identical roles; it explicitly contrasts them. No material false statements were found: AP agreements with the distributor, creation unit sizes, and the arbitrage description are all accurate."
+  },
+  {
+    "blind_id": "C086",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that the AP delivers the basket and receives newly issued creation units, and that 'Shares outstanding increase'."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States that the AP returns creation units, the fund cancels those shares, and 'shares outstanding decrease'."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "States that 'Ordinary secondary-market trading leaves shares outstanding unchanged, because ownership simply transfers between investors.'"
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "All three required minimums are fully covered with accurate mechanics. There is no central error. The ancillary claims are accurate or within normal variation and are not material falsehoods. These include the creation unit size range, NAV-based pricing with possible fees, AP-only primary-market activity, and the arbitrage explanation."
+  },
+  {
+    "blind_id": "C087",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Covers prior-close holdings posted before trading opens, daily NAV, closing price and premium/discount, history, a median spread and the >2% for >7 consecutive trading days statement. It omits that the statement must stay on the website for at least one year. It also misstates the spread period as 'the same periods' rather than the last 30 calendar days."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "'Frequency distribution of premiums and discounts' roughly matches the days-count table. There is no NBBO-based median spread method (10-second intervals, midpoint normalization)."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "States 'most recent calendar year and each quarter since' and a 'free, public website'. It omits the shorter-fund-life alternative and does not specify completed quarters."
+      }
+    ],
+    "central_error": null,
+    "local_error": "'Post the creation and redemption basket composition each business day before trading opens' and 'Add median bid-ask spread for the same periods'. Rule 6c-11 requires basket policies and procedures, not public daily website posting of baskets. The median spread covers the most recent 30 calendar days, not the calendar-year and quarterly history periods. These are material ancillary misstatements and cap the grade at partial.",
+    "grade": "partial",
+    "rationale": "No central error: the answer treats public website holdings disclosure as mandatory. Required coverage totals 1.5 of 3, which meets the half threshold, and core facts are supplied. Two material local falsehoods (mandated basket posting and the wrong spread period) cap the grade at partial. Omissions include the one-year retention, the NBBO methodology and the shorter-life history."
+  },
+  {
+    "blind_id": "C088",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer splits the fees as required. It says the fixed fee covers standardized processing such as transfer agent and custody settlement. It says the variable fee covers commissions, taxes, spreads and market impact of trading basket securities to avoid diluting remaining shareholders."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "The answer says the AP pays both fees, which is the core of the point. It does not say the fee may be waived or paid by another party. It does not say recipients can differ between service provider and fund. Instead it says all transaction fees go to the fund."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "The answer states that fund charges and AP compensation are distinct. It calls the transaction fee cost recovery owed to the fund and describes AP compensation (arbitrage profit, dealer fees) as the AP's own economics. Waiver frequency is optional."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"Transaction fees go to the fund to offset its costs... Service providers are paid from fund expenses, though fees may be routed through them operationally.\" This presents the fund as the universal recipient. That contradicts the supplied evidence that fixed charges can go directly to the custodian or another service provider. It is a material ancillary falsehood about recipients, which caps the grade at partial.",
+    "grade": "partial",
+    "rationale": "There is no central error, because the answer never says the fund's charge compensates the AP. Required coverage is 2.5 of 3. However, the claim that all transaction fees go to the fund, with providers paid from fund expenses, misstates the recipient structure. It also omits the waiver and third-party payment caveat. The material local falsehood caps the grade at partial."
+  }
+]

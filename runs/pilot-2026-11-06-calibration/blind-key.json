@@ -1,0 +1,442 @@
+{
+  "C001": {
+    "model": "luna",
+    "id": "QL-27",
+    "version": "final"
+  },
+  "C002": {
+    "model": "luna",
+    "id": "QL-40",
+    "version": "final"
+  },
+  "C003": {
+    "model": "haiku",
+    "id": "QL-02",
+    "version": "final"
+  },
+  "C004": {
+    "model": "haiku",
+    "id": "QL-39",
+    "version": "final"
+  },
+  "C005": {
+    "model": "haiku",
+    "id": "QL-07",
+    "version": "final"
+  },
+  "C006": {
+    "model": "haiku",
+    "id": "QL-29",
+    "version": "final"
+  },
+  "C007": {
+    "model": "haiku",
+    "id": "QL-01",
+    "version": "final"
+  },
+  "C008": {
+    "model": "haiku",
+    "id": "creation_redemption_006_who_are_typically_the_parties_involved_i",
+    "version": "final"
+  },
+  "C009": {
+    "model": "haiku",
+    "id": "QL-20",
+    "version": "final"
+  },
+  "C010": {
+    "model": "haiku",
+    "id": "QL-33",
+    "version": "final"
+  },
+  "C011": {
+    "model": "haiku",
+    "id": "QL-32",
+    "version": "final"
+  },
+  "C012": {
+    "model": "luna",
+    "id": "QL-38",
+    "version": "final"
+  },
+  "C013": {
+    "model": "luna",
+    "id": "QL-01",
+    "version": "final"
+  },
+  "C014": {
+    "model": "haiku",
+    "id": "QL-03",
+    "version": "final"
+  },
+  "C015": {
+    "model": "luna",
+    "id": "creation_redemption_004_what_costs_do_the_creation_fee_cover",
+    "version": "final"
+  },
+  "C016": {
+    "model": "luna",
+    "id": "QL-16",
+    "version": "final"
+  },
+  "C017": {
+    "model": "haiku",
+    "id": "QL-04",
+    "version": "final"
+  },
+  "C018": {
+    "model": "haiku",
+    "id": "QL-34",
+    "version": "final"
+  },
+  "C019": {
+    "model": "luna",
+    "id": "QL-22",
+    "version": "final"
+  },
+  "C020": {
+    "model": "luna",
+    "id": "QL-36",
+    "version": "final"
+  },
+  "C021": {
+    "model": "luna",
+    "id": "QL-17",
+    "version": "final"
+  },
+  "C022": {
+    "model": "luna",
+    "id": "QL-28",
+    "version": "final"
+  },
+  "C023": {
+    "model": "luna",
+    "id": "QL-30",
+    "version": "final"
+  },
+  "C024": {
+    "model": "luna",
+    "id": "QL-25",
+    "version": "final"
+  },
+  "C025": {
+    "model": "haiku",
+    "id": "QL-22",
+    "version": "final"
+  },
+  "C026": {
+    "model": "haiku",
+    "id": "QL-05",
+    "version": "final"
+  },
+  "C027": {
+    "model": "luna",
+    "id": "QL-06",
+    "version": "final"
+  },
+  "C028": {
+    "model": "luna",
+    "id": "QL-31",
+    "version": "final"
+  },
+  "C029": {
+    "model": "haiku",
+    "id": "QL-28",
+    "version": "final"
+  },
+  "C030": {
+    "model": "luna",
+    "id": "QL-09",
+    "version": "final"
+  },
+  "C031": {
+    "model": "haiku",
+    "id": "QL-31",
+    "version": "final"
+  },
+  "C032": {
+    "model": "haiku",
+    "id": "QL-36",
+    "version": "final"
+  },
+  "C033": {
+    "model": "haiku",
+    "id": "QL-13",
+    "version": "final"
+  },
+  "C034": {
+    "model": "luna",
+    "id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+    "version": "final"
+  },
+  "C035": {
+    "model": "luna",
+    "id": "QL-19",
+    "version": "final"
+  },
+  "C036": {
+    "model": "luna",
+    "id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+    "version": "final"
+  },
+  "C037": {
+    "model": "luna",
+    "id": "QL-20",
+    "version": "final"
+  },
+  "C038": {
+    "model": "luna",
+    "id": "QL-14",
+    "version": "final"
+  },
+  "C039": {
+    "model": "luna",
+    "id": "QL-29",
+    "version": "final"
+  },
+  "C040": {
+    "model": "luna",
+    "id": "QL-34",
+    "version": "final"
+  },
+  "C041": {
+    "model": "luna",
+    "id": "QL-07",
+    "version": "final"
+  },
+  "C042": {
+    "model": "luna",
+    "id": "QL-18",
+    "version": "final"
+  },
+  "C043": {
+    "model": "luna",
+    "id": "QL-23",
+    "version": "final"
+  },
+  "C044": {
+    "model": "haiku",
+    "id": "QL-11",
+    "version": "final"
+  },
+  "C045": {
+    "model": "luna",
+    "id": "QL-02",
+    "version": "final"
+  },
+  "C046": {
+    "model": "haiku",
+    "id": "QL-14",
+    "version": "final"
+  },
+  "C047": {
+    "model": "luna",
+    "id": "QL-03",
+    "version": "final"
+  },
+  "C048": {
+    "model": "luna",
+    "id": "QL-39",
+    "version": "final"
+  },
+  "C049": {
+    "model": "haiku",
+    "id": "QL-27",
+    "version": "final"
+  },
+  "C050": {
+    "model": "luna",
+    "id": "QL-12",
+    "version": "final"
+  },
+  "C051": {
+    "model": "haiku",
+    "id": "QL-21",
+    "version": "final"
+  },
+  "C052": {
+    "model": "haiku",
+    "id": "QL-06",
+    "version": "final"
+  },
+  "C053": {
+    "model": "luna",
+    "id": "QL-32",
+    "version": "final"
+  },
+  "C054": {
+    "model": "haiku",
+    "id": "QL-26",
+    "version": "final"
+  },
+  "C055": {
+    "model": "haiku",
+    "id": "QL-24",
+    "version": "final"
+  },
+  "C056": {
+    "model": "haiku",
+    "id": "QL-38",
+    "version": "final"
+  },
+  "C057": {
+    "model": "haiku",
+    "id": "QL-18",
+    "version": "final"
+  },
+  "C058": {
+    "model": "luna",
+    "id": "QL-21",
+    "version": "final"
+  },
+  "C059": {
+    "model": "haiku",
+    "id": "QL-30",
+    "version": "final"
+  },
+  "C060": {
+    "model": "haiku",
+    "id": "QL-35",
+    "version": "final"
+  },
+  "C061": {
+    "model": "haiku",
+    "id": "QL-19",
+    "version": "final"
+  },
+  "C062": {
+    "model": "haiku",
+    "id": "QL-17",
+    "version": "final"
+  },
+  "C063": {
+    "model": "luna",
+    "id": "QL-24",
+    "version": "final"
+  },
+  "C064": {
+    "model": "luna",
+    "id": "QL-04",
+    "version": "final"
+  },
+  "C065": {
+    "model": "luna",
+    "id": "QL-10",
+    "version": "final"
+  },
+  "C066": {
+    "model": "haiku",
+    "id": "QL-08",
+    "version": "final"
+  },
+  "C067": {
+    "model": "haiku",
+    "id": "QL-16",
+    "version": "final"
+  },
+  "C068": {
+    "model": "luna",
+    "id": "QL-37",
+    "version": "final"
+  },
+  "C069": {
+    "model": "luna",
+    "id": "QL-35",
+    "version": "final"
+  },
+  "C070": {
+    "model": "luna",
+    "id": "QL-05",
+    "version": "final"
+  },
+  "C071": {
+    "model": "luna",
+    "id": "QL-13",
+    "version": "final"
+  },
+  "C072": {
+    "model": "haiku",
+    "id": "QL-23",
+    "version": "final"
+  },
+  "C073": {
+    "model": "haiku",
+    "id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+    "version": "final"
+  },
+  "C074": {
+    "model": "haiku",
+    "id": "QL-37",
+    "version": "final"
+  },
+  "C075": {
+    "model": "luna",
+    "id": "QL-33",
+    "version": "final"
+  },
+  "C076": {
+    "model": "haiku",
+    "id": "QL-10",
+    "version": "final"
+  },
+  "C077": {
+    "model": "haiku",
+    "id": "QL-12",
+    "version": "final"
+  },
+  "C078": {
+    "model": "luna",
+    "id": "QL-15",
+    "version": "final"
+  },
+  "C079": {
+    "model": "luna",
+    "id": "QL-26",
+    "version": "final"
+  },
+  "C080": {
+    "model": "haiku",
+    "id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+    "version": "final"
+  },
+  "C081": {
+    "model": "luna",
+    "id": "QL-11",
+    "version": "final"
+  },
+  "C082": {
+    "model": "luna",
+    "id": "creation_redemption_006_who_are_typically_the_parties_involved_i",
+    "version": "final"
+  },
+  "C083": {
+    "model": "luna",
+    "id": "QL-08",
+    "version": "final"
+  },
+  "C084": {
+    "model": "haiku",
+    "id": "QL-40",
+    "version": "final"
+  },
+  "C085": {
+    "model": "haiku",
+    "id": "QL-15",
+    "version": "final"
+  },
+  "C086": {
+    "model": "haiku",
+    "id": "QL-09",
+    "version": "final"
+  },
+  "C087": {
+    "model": "haiku",
+    "id": "QL-25",
+    "version": "final"
+  },
+  "C088": {
+    "model": "haiku",
+    "id": "creation_redemption_004_what_costs_do_the_creation_fee_cover",
+    "version": "final"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "blind_id": "C035",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Covers the trust/board, the adviser/sponsor, distribution/underwriting, custodian, fund accountant/administrator, transfer agent and independent audit firm."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Covers AP creation/redemption processing, basket handling (roughly PCF), exchange listing and NSCC/DTC clearing/settlement. Omits seed capital and market-making arrangements."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Correctly treats index rights as needed for passive strategies and securities lending as optional. Omits counsel and pricing support."
+    },
+    {
+      "point": 4,
+      "credit": 1,
+      "reason": "States that some functions can be bundled with one provider or affiliated entities, and that the adviser may provide administration."
+    },
+    {
+      "point": 5,
+      "credit": 1,
+      "reason": "Covers the compliance program/CCO, written policies, and board oversight including independent trustees."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Required coverage totals 4/5, with no central error and no material falsehood. The answer falls short of correct because it omits seed capital, market-making arrangements, legal counsel and pricing support."
+}

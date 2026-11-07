@@ -1,0 +1,27 @@
+{
+  "id": "QL-40",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "Must convey, conditionally (may/might, not a universal mandate), that a direct-at-fund holder may need to open a brokerage account able to hold ETF shares (or confirm an existing one) and arrange a transfer of the holding before conversion, because the direct fund account may not be able to hold ETF shares. Must defer deadlines, account eligibility, and procedures to the fund's own conversion notices/communications instead of stating a universal timetable. Must address the consequence of inaction for trading access: if the investor does nothing, they may be unable to trade, or have only limited ability to trade, the converted ETF shares until a transfer is arranged. An explicit statement is needed. Saying only that ETF shares trade through a brokerage or that direct services may end is not enough on its own. Optional subdetails: the exact fate of untransferred shares (for example, held by a transfer agent or in a book-entry account), possible later liquidation or other fund-specific handling, citing the SEC/Investor.gov bulletin, and distinguishing whole-fund conversion from adding an ETF share class. The question asks for that distinction, but it can be met implicitly by not conflating the two. Half credit: transfer/brokerage and notice-deference are present, but the explicit inaction trading-access consequence is missing."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Must state that fractional mutual fund shares may be redeemed or paid out in cash in connection with the conversion, because ETFs typically do not issue fractional shares. Must also flag that this cash payment may be a taxable event in a taxable account. Must indicate the specific conversion notice controls the actual treatment. Optional: the exact timing of the cash-out (before or at conversion), cost-basis details, the point that tax-advantaged accounts generally do not trigger current tax, and noting that some brokers support fractional ETF positions separately from the fund's issuance. Half credit: fractional cash-out or alternative handling is described per fund terms, but the potential tax consequence is missing, or the tax point is given without explaining that ETFs typically do not issue fractional shares."
+    }
+  ],
+  "central_errors": [
+    "States or implies the whole-fund conversion is the same as, or merely adds, an ETF share class alongside an unchanged mutual fund, so that the investor can simply keep holding mutual fund shares with no account change.",
+    "Asserts a specific universal or fund-specific deadline or timetable (for example, 'you must transfer by X date' or 'all conversions take 60 days') as fact applicable to all conversions, instead of deferring to the fund's notices.",
+    "Claims converted ETF shares can be bought and sold directly with the fund at NAV like mutual fund shares, or that a direct fund account will always be able to trade the ETF without a brokerage.",
+    "States that ETFs will issue or carry over fractional shares as a rule, or that the fractional cash-out is never taxable, or always tax-free, in a taxable account.",
+    "States the investor must sell or redeem their entire holding before conversion, or that the conversion itself necessarily requires the investor to liquidate."
+  ],
+  "scoring_rule": {
+    "correct": "Both required points meet their full minimums, with no central error. Optional subdetails are not needed.",
+    "partial": "No central error, and at least one required point earns at least half credit, but not both points at full credit. Example: the answer covers the transfer/brokerage steps and notice deference and mentions fractional cash handling, but omits the explicit inaction trading block and/or the potential tax on the fractional cash-out. This matches the round-2 resolution (grader S, partial). An answer earning only half credit on both points is partial.",
+    "wrong": "Any central error appears, or neither required point reaches half credit, for example an answer giving no brokerage/transfer guidance and no fractional-share treatment."
+  }
+}

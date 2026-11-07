@@ -1,0 +1,14 @@
+{
+  "blind_id": "C069",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Places the identifier in the listed ETF class name, marketing and disclosures, and warns against labelling non-ETF siblings or sub-funds as ETFs. It does not list the constitution, prospectus and KID/KIID as required documents. It does not clearly state that the ETF sub-fund in a mixed umbrella must be identified. It also omits, and in effect denies, the option to use the identifier at sub-fund level, offering class-level identification only."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\"Do not call the whole sub-fund an ETF if it also has non-ETF classes\": this conflicts with Reg. 88(2) and CBI Q&A, which allow the identifier at sub-fund level or listed-class level for sub-funds with listed and unlisted classes, provided the classes are clearly distinguished. It is a material falsehood about the sub-fund-level option. It is not the listed central anchor, which concerns sub-fund-only identification or labelling non-ETF siblings as ETFs.",
+  "grade": "partial",
+  "rationale": "The answer gets the listed-class identification and the non-ETF sibling caution right, and it commits no listed central error. However, the document coverage is incomplete, mixed-umbrella sub-fund identification is not explicit, and it wrongly excludes sub-fund-level use of the identifier. Coverage of 0.5 out of 1 required point meets the partial threshold, and the material local falsehood caps the grade at partial in any case."
+}

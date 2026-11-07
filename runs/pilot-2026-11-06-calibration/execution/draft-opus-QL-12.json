@@ -1,0 +1,31 @@
+{
+  "id": "QL-12",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "Must state both central facts: (a) AP status carries no obligation to keep creating or redeeming (activity is voluntary/discretionary), and (b) AP status by itself does not entitle the AP to a standing payment, retainer, or fee from the ETF or sponsor. Must also indicate, at least briefly, how APs actually earn (e.g., dealer APs via trading/arbitrage/spreads, agency APs by charging clients for processing). Optional subdetails: explicit dealer vs agency AP labels; IDC primer citation; noting secondary-market trading continues without AP activity."
+    },
+    {
+      "point": 2,
+      "mark": "optional",
+      "minimum": "If addressed, should characterise the fund's creation/redemption transaction fee as a cost charged to the AP (to offset fund transaction costs), not AP compensation, and may note that sponsors/advisers can waive or pay it, which subsidises the AP's cost rather than paying for AP status. Vague 'pass-through fees to cover costs' wording that does not reverse the payment direction is acceptable. Optional subdetails: payer/accounting treatment of waivers."
+    },
+    {
+      "point": 3,
+      "mark": "optional",
+      "minimum": "If included, note that sponsors often waive creation/redemption fees on custom redemptions (practitioner-vouched observation). Do not require that every waiver be described as a sponsor cash payment; payer and accounting treatment depend on the arrangement."
+    }
+  ],
+  "central_errors": [
+    "Claims APs receive a standing fee, retainer, or payment from the ETF/sponsor merely for holding AP status.",
+    "Claims APs are legally or contractually obligated to keep creating or redeeming continuously, or must create/redeem on demand to maintain the ETF's price.",
+    "Describes the fund's creation/redemption transaction fee as compensation paid to the AP (reversing the fee direction).",
+    "Treats a separate market-maker/LMM quoting contract or exchange incentive as AP-status compensation from the sponsor, presented as the answer to whether APs are paid for being APs."
+  ],
+  "scoring_rule": {
+    "correct": "Both required elements of point 1 are present (no standing payment for AP status; no ongoing duty to create/redeem) with at least a brief account of how APs earn, and no central error. Omission of optional points 2 and 3 does not reduce the grade.",
+    "partial": "No central error, but point 1 is incomplete: only one of the two central facts (payment or obligation) is clearly stated, or both are stated but with no indication of how APs actually earn, or with hedging/ambiguity that leaves the answer to one sub-question unclear. Treat as half credit.",
+    "wrong": "Contains any listed central error, or fails to answer both sub-questions (neither the payment nor the obligation fact is correctly stated)."
+  }
+}

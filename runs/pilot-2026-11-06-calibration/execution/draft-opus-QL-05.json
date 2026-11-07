@@ -1,0 +1,32 @@
+{
+  "id": "QL-05",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "States that in an in-kind redemption the ETF delivers appreciated securities (to an authorized participant/redeeming holder) rather than selling them for cash, and that this transfer does not trigger fund-level gain recognition under RIC rules (IRC 852(b)(6) or equivalent description of nonrecognition on qualifying redemption distributions). Citation of 852(b)(6) is optional; the nonrecognition mechanism must be stated. Optional subdetails: 'shareholder-demanded' qualifier, contrast with IRC 311(b) general rule, creation/redemption via APs."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Explains that the fund can choose to deliver its lowest-basis (most appreciated) lots, purging embedded gains so that fewer gains remain to be realized and distributed later; and contrasts that a cash-dealing mutual fund meeting redemptions more often must sell securities, realizing gains that are distributed to all remaining shareholders. Half-credit if only one of (lot-selection/embedded-gain reduction) or (mutual fund forced-sale contrast) is present. Optional subdetails: tax-lot accounting specifics, effect of index rebalancing or turnover, distribution requirement for RICs."
+    },
+    {
+      "point": 3,
+      "mark": "required",
+      "minimum": "States at least two limits, including that ETFs are not guaranteed to have zero capital gain distributions (and/or that the benefit is not an ETF-only legal exemption\u2014any RIC, including mutual funds, can redeem in kind), and that investors still owe tax on gains when they sell their ETF shares (benefit is deferral at fund level, not elimination for the investor). Half-credit if only one limit is stated. Optional subdetails: dependence on availability of in-kind deliverable assets and AP transaction structure (cash creations/redemptions, certain markets or instruments), dividends/income still taxable, portfolio changes forcing sales, gains from cash-redeemed or custom baskets, inapplicability to tax-advantaged accounts."
+    }
+  ],
+  "central_errors": [
+    "Claims ETFs are legally exempt from capital gains taxation or that a special ETF-only provision exempts them (as opposed to RIC in-kind redemption nonrecognition available to any RIC).",
+    "Claims ETFs never/cannot distribute capital gains, or that the benefit is guaranteed.",
+    "Claims the investor owes no tax (or permanently avoids capital gains tax) when selling ETF shares, i.e., presents the benefit as elimination rather than fund-level deferral.",
+    "Claims the in-kind redemption itself is a taxable sale that the fund recognizes, or attributes the advantage primarily to a mechanism other than in-kind transfers (e.g., solely lower expense ratios or exchange trading between investors) while denying the in-kind role.",
+    "Claims mutual funds are legally prohibited from redeeming in kind."
+  ],
+  "scoring_rule": {
+    "correct": "All three required points met at their minimums (full credit for each) with no central error. Citations and ordering not required; equivalent factual wording accepted.",
+    "partial": "No central error, and at least the in-kind nonrecognition mechanism (point 1) or the low-basis purge/contrast (point 2) is substantially present, but one or more required points is missing or only half-met (e.g., only one limit stated, or no mutual-fund contrast). Score proportionally: each point worth 1, half-met points 0.5; total 1.5\u20132.5 of 3 is partial.",
+    "wrong": "Any central error is asserted, or the answer fails to identify the in-kind redemption mechanism at all (total below 1.5 of 3 with neither point 1 nor point 2 substantively present)."
+  }
+}

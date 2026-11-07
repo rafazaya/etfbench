@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "tests": 5,
+  "ruff": "passed",
+  "ty": "passed",
+  "input_source_hashes": "passed",
+  "frozen_draft_rubric_s_grades_hashes": "passed",
+  "opus_calls": {
+    "draft": 44,
+    "grade": 88,
+    "model": "claude-opus-5-5",
+    "tools_disabled": true,
+    "strict_empty_mcp": true,
+    "session_persistence": false
+  },
+  "normalization_preserved_all_opus_labels": true,
+  "rafa_grouped_items": 32,
+  "simplify": "Reviewed all three new Python files; reused existing round2 agreement/bootstrap helpers, replaced local read lambda with direct function, no larger simplifications needed. Validation passed after edits.",
+  "limitations": [
+    "Prior round2 exposure limits Sol blinding",
+    "In-sample calibration, not held-out validation",
+    "S adjudication, not independent third grader",
+    "All scores conditional on provisional defaults; three literal-anchor gaps retained and flagged"
+  ]
+}

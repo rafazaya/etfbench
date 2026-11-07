@@ -1,0 +1,24 @@
+{
+  "blind_id": "C051",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the sponsor bears the shortfall: as assets shrink, fee income falls while expense obligations stay fixed, so 'the sponsor's margin absorbs the gap.'"
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "Never says the platform adviser still owes the fund's promised expenses on sponsor default. It puts the liability on the fund and its shareholders instead."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Optional point. Implies fixed costs squeeze the sponsor's margin and notes shareholders keep the fixed expense ratio. It does not frame this as a contractual allocation, and its default answer conflicts with the point."
+    }
+  ],
+  "central_error": "Quote: 'The fund remains liable. Service providers ... can look to fund assets. Those amounts reduce NAV, so shareholders bear them.' This matches the central error 'Sponsor default releases adviser so fund/shareholders must cover promised ordinary expenses.'",
+  "local_error": null,
+  "grade": "wrong",
+  "rationale": "Point 1 is fully covered. On sponsor default, however, the answer explicitly says the fund and its shareholders bear the promised ordinary expenses through NAV, with no adviser backstop. That is a listed central error, which forces a grade of wrong."
+}

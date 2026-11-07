@@ -1,0 +1,24 @@
+{
+  "blind_id": "C079",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Covers holding identifiers and descriptions, quantities, weights, cash balancing amounts and the transacting AP. It omits the custom-basket designation and compliance statement, which the rubric minimum requires."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that basket records are kept for at least five years, with the first two years readily accessible."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "States that written AP agreements are retained for at least five years, with the first two years readily accessible. This meets the five/two minimum."
+    }
+  ],
+  "central_error": null,
+  "local_error": "'for at least five years after its termination': the supplied evidence states five years without an after-termination trigger. This is an unsupported addition that lengthens retention rather than reversing the five/two rule, so it is treated as non-material.",
+  "grade": "partial",
+  "rationale": "There is no central error, and the answer states the five/two retention rule correctly for both record types. However, the basket-record bundle omits custom-basket status and the compliance statement, so point 1 receives only half credit. Total coverage is 2.5 of 3. Because not every required minimum is fully covered, the grade is partial rather than correct."
+}

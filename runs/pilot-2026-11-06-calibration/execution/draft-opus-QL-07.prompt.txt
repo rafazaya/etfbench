@@ -1,0 +1,10 @@
+Independently calibrate this provisional question rubric. You have not seen the other draft.
+For EVERY numbered original key point mark required (expert answer incomplete without its minimum)
+or optional (nice-to-have). Bundled points: specify minimum content and explicitly optional subdetails.
+Define explicit central false statements that force wrong rather than partial. Omission is not falsehood.
+Define scoring for correct/partial/wrong; consider half-credit for partial coverage of a bundled point.
+Use round2 disagreements as editorial evidence, not ground truth. No external research.
+Return ONLY JSON {"id":..., "points":[{"point":1,"mark":"required|optional","minimum":"..."}],
+"central_errors":["..."],"scoring_rule":{"correct":"...","partial":"...","wrong":"..."}}.
+
+{"id": "QL-07", "question": "For a US ETF, is historical exchange share volume alone enough to assess liquidity for a new order? Explain the creation/redemption mechanism and which additional observable liquidity indicators to examine; do not promise execution capacity.", "key_points": ["Exchange volume measures trading in existing shares. APs can create additional shares or redeem them against a basket, so historic share volume alone does not measure the capacity to meet a new order. [ICI ETF basics, creation/redemption and arbitrage](https://www.ici.org/faqs/faqs_etfs).", "Assess quoted spreads and depth, underlying-market liquidity and AP/market-maker activity as well as share volume. Underlying liquidity affects spreads; IDC suggests monitoring spreads, volume and intermediary activity. [IDC oversight paper, ETF design and trading](https://www.idc.org/idc/issues/types/etf/publications/ci.idc_12_etfs)."], "grader_notes": ["**Confidence: high** for the mechanism; **medium** for this practical assessment, a synthesis rather than a guaranteed execution-capacity measure."], "round2_disagreement_evidence": []}

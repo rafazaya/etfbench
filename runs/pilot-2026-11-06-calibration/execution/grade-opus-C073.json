@@ -1,0 +1,24 @@
+{
+  "blind_id": "C073",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that wide, illiquid, or off-hours underlying baskets raise hedging risk and widen quotes. Also says creation/redemption fees, taxes and basket sourcing costs widen the arbitrage band and thus the quote."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says the quoted spread 'reflects the market maker's cost to hedge and make a two-sided market'. Lists hedge execution, inventory risk and creation/redemption costs feeding into the quote, with no numerical ranking or universal levels."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Says historical volume measures only secondary-market trading and 'says little about creation/redemption capacity, underlying depth'. Concludes liquidity is 'better judged by underlying conditions and creation/redemption capacity than by trading activity alone', which explicitly names creation/redemption and the underlying market as the additional liquidity source."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are covered. There is no ranking, no universal spread level, no claim that volume caps liquidity, and no denial of hedge or creation costs. Ancillary claims (proxy hedging with futures, fragmentation across listings, volume inflated by a few participants) are plausible, not material falsehoods."
+}

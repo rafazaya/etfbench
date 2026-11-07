@@ -1,0 +1,27 @@
+{
+  "id": "QL-35",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "Must state all three core elements: (a) Irish UCITS ETFs must carry the 'UCITS ETF' identifier in regulated documentation, naming at least the fund name plus the prospectus/KID (or KIID) or an equivalent clear statement that the identifier is mandatory across name and offering/marketing documents; (b) in a mixed umbrella, the identifier attaches to the ETF sub-fund(s), not to the umbrella as a whole or to non-ETF sibling sub-funds; (c) for a sub-fund with listed and unlisted classes, the identifier may be used either at sub-fund level or at listed-class level, with listed (ETF) and unlisted classes clearly distinguished. Explicitly optional subdetails: the complete list of placements (constitution, marketing communications), citation to Reg. 88(1)-(2) of the 2026 regulations or CBI Q&A 1016/1088. Half-credit guidance: award half credit for point 1 if (a) and (b) are correct but (c) only mentions one level without excluding the other, or if (c) is correct but the document-placement requirement (a) is missing."
+    },
+    {
+      "point": 2,
+      "mark": "optional",
+      "minimum": "Notes that class-level identification was already permitted under the pre-2026 CBI Q&A and was not first introduced by the 2026 regulations. Omission is not penalised; affirmatively stating the class-level option is new in 2026 is an error (see central_errors), not merely an omission."
+    }
+  ],
+  "central_errors": [
+    "Stating that for a sub-fund with listed and unlisted classes the 'UCITS ETF' identifier must apply only to the listed class and may not be used at sub-fund level (i.e., removing the sub-fund-level option), or conversely that it must apply only at sub-fund level and class-level use is prohibited.",
+    "Stating that 'UCITS ETF' is merely a market term or not a required/regulated identifier, or that Irish rules impose no naming/documentation requirement for it.",
+    "Substituting security identifiers (LEI, ISIN, ticker) for the 'UCITS ETF' name identifier as the answer to where the identifier is used.",
+    "Stating that the whole mixed umbrella, or non-ETF sibling sub-funds, or unlisted classes are ETFs or should carry the 'UCITS ETF' identifier.",
+    "Stating that class-level identification was first introduced or newly permitted by the 2026 regulations."
+  ],
+  "scoring_rule": {
+    "correct": "All required elements (a), (b) and (c) of point 1 are present and accurate, the sub-fund-or-listed-class choice is presented as a permission with classes clearly distinguished, non-ETF siblings/unlisted classes are not labelled ETFs, and no central error appears. Point 2 is not needed for full credit.",
+    "partial": "No central error, but point 1 is incompletely covered: e.g., the document-placement requirement is missing or vague, or only one permitted identification level is described without denying the other, or class distinction is not mentioned. Treat as half credit when roughly half of the point 1 minimum is met. Correct handling of non-ETF siblings alone, without the core identifier mechanism, does not exceed partial.",
+    "wrong": "Any central error appears, even if other content is accurate (a correct non-ETF sibling warning cannot rescue a mandatory class-only rule, a 'market term only' claim, or LEI/ISIN substitution); or the answer fails to address the identifier mechanism for both the mixed umbrella and the listed/unlisted class scenario."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "blind_id": "C070",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that the ETF can deliver stocks to an authorized participant instead of selling them. It also says qualifying in-kind redemptions generally don't make the fund recognize gains on appreciated securities, matching 852(b)(6) nonrecognition."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says 'selecting low-basis lots can reduce embedded gains' and that this 'can defer or reduce fund-level realized gains.' It contrasts this with cash-dealing mutual funds that 'more often' sell holdings and distribute the gains."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Says the benefit 'doesn't guarantee zero capital-gain distributions.' It notes tax still applies to dividends, portfolio sales and investor sales of ETF shares, and that benefits depend on flows, turnover and in-kind capacity."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are covered with accurate wording. The answer does not claim any universal tax exemption and does not say in-kind redemptions necessarily recognize gains. The remark that mutual funds may avoid sales via 'offsetting losses' is slightly loose, since losses offset gains rather than avoid sales, but it is not a material falsehood."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "QL-15",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "Must state both sides of the core distinction. (a) APs deal directly with the ETF or its issuer in the primary market, creating and redeeming shares, typically in creation units. (b) Market makers quote bids and offers, or two-sided prices, and provide liquidity in secondary or exchange trading. Equivalent wording is acceptable, such as 'APs interact with the fund to change share supply; market makers trade shares with investors on the exchange.' Optional subdetails: creation-unit size, in-kind baskets, and the arbitrage link to NAV or price alignment."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Must convey both elements below. (a) Overlap: one firm can act as both AP and market maker, but the roles remain distinct functions. (b) Link: market makers can use the creation/redemption process to offset or manage inventory, hedge, or arbitrage. Implicit wording is acceptable, such as 'hedge or arbitrage a mismatch via creation/redemption.' Optional subdetail: stating explicitly that non-AP market makers access creation/redemption through an AP. Omitting that subdetail is not penalized. An answer that implies only AP-affiliated market makers can use creation/redemption loses no credit unless it affirmatively states that non-AP market makers cannot obtain creations or redemptions. Covering only one of (a) or (b) earns half credit for this point."
+    },
+    {
+      "point": 3,
+      "mark": "optional",
+      "minimum": "Nice-to-have, not required for a broad comparison question. Credit if the answer mentions either of the following: (a) a lead or designated market maker (LMM) assigned to a particular ETF with quoting commitments such as spread or size obligations; or (b) market makers need not be APs or hold an AP agreement. Omitting the LMM concept is not a substantive gap and must not reduce the score."
+    }
+  ],
+  "central_errors": [
+    "Reverses the roles, for example stating that market makers create or redeem directly with the fund in the primary market and APs provide exchange quotes, or that APs are the primary source of continuous secondary-market quotes.",
+    "States that market makers who are not APs can create or redeem directly with the fund without an AP.",
+    "States that all market makers must be APs, or that APs and market makers are always the same firm or the same role with no distinction.",
+    "States that ordinary investors buy or redeem ETF shares directly with the fund at NAV through market makers, conflating secondary trading with primary-market creation/redemption.",
+    "States that every market maker in an ETF is designated by or contractually obligated to the issuer to quote, conflating general market makers with an LMM. This counts only if affirmatively asserted as a general rule."
+  ],
+  "scoring_rule": {
+    "correct": "Point 1 is fully met and point 2's minimum (both overlap/distinctness and the creation/redemption inventory or hedging link) is met, with no central error. Point 3 is not needed for full credit, and omitting the LMM concept is not a deduction. Minor imprecision in optional subdetails does not reduce the score.",
+    "partial": "Point 1 is met but point 2 is only half covered (only overlap or only the inventory link), or point 2 is entirely missing. Also partial: both required points are present but contain a non-central inaccuracy or a materially vague role description, with no central error. Point 2 counts as half credit when only one of its two elements is present.",
+    "wrong": "Point 1's core primary-versus-secondary distinction is missing or garbled, or the answer affirmatively asserts any listed central error, regardless of other correct content. Omissions alone, including a missing LMM concept, never make an answer wrong."
+  }
+}

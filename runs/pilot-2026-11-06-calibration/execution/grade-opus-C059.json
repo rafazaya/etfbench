@@ -1,0 +1,19 @@
+{
+  "blind_id": "C059",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Covers economics (fee structure, minimums, step-ups), duration (term, renewal mechanics), termination (for cause and convenience, notice periods), and run-off. It covers naming dependence (fund name, ticker, prospectus tied to the index trademark). It covers affiliated-information controls (provider or calculation-agent affiliation, data-sharing and confidentiality, personnel overlap). Exclusivity is not named explicitly, but the rubric minimum is met."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Gives contingency diligence: identify and test substitute indices, review post-termination transition rights, assess prospectus and shareholder-approval implications, and set escalation triggers. It ties this to the contract, stating 'Substitution is not guaranteed; counsel should confirm the actual terms.'"
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer explicitly rejects guaranteed substitution and says notice periods must be confirmed rather than assumed, so there is no central error. No material local falsehood was found; the shareholder-approval reference is framed as an issue to assess, not a fixed rule."
+}

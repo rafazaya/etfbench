@@ -1,0 +1,22 @@
+{
+  "id": "QL-37",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "Must state that listed ETF and unlisted share classes may coexist in the same Irish UCITS (yes, permitted), AND that the prospectus must include a comparison (e.g. table) of the classes covering at least most of: (a) dealing access/frequency (exchange/secondary market vs direct with the fund), (b) settlement, (c) use of brokers/intermediaries, (d) costs/fees, (e) minimum subscription/holding amounts, (f) shareholder rights; PLUS addressing (g) liquidity of the unlisted class and (h) differences in prices between classes (e.g. exchange trading price vs NAV-based dealing price). Full credit: coexistence + at least 6 of the 8 items including both liquidity (g) and price differences (h), or a clearly equivalent formulation. Half credit: coexistence stated + 3\u20135 items, or all items listed without clearly affirming coexistence. Optional subdetails: citation to CBI Q&A 1088 / 42nd edition UCITS Q&A pp. 6\u20137; use of the word 'table'; explanatory examples of each difference (e.g. intraday vs daily dealing, T+2 vs fund settlement cycle, broker commissions/spreads); noting that naming/identification of classes is dealt with elsewhere; noting Irish framework is distinct from US Rule 6c-11/exemptive relief."
+    }
+  ],
+  "central_errors": [
+    "Stating that listed ETF and unlisted classes cannot coexist in the same Irish UCITS fund/sub-fund, or that the CBI prohibits or generally disallows such mixed structures.",
+    "Stating that coexistence is permitted only subject to US SEC share-class exemptive relief or Rule 6c-11 conditions, or applying US exemptive conditions as the governing test (contrary to the question's explicit instruction).",
+    "Stating that no prospectus comparison/disclosure of class differences is required under Q&A 1088.",
+    "Asserting that listed and unlisted classes must have identical dealing, settlement, costs, minimums, rights or prices, so that no differences need be disclosed.",
+    "Attributing the requirement to a different, non-Irish regulator or framework as the operative authority (e.g. SEC or ESMA rule rather than CBI Q&A 1088) in a way that changes the substantive answer."
+  ],
+  "scoring_rule": {
+    "correct": "Point 1 fully met: affirms coexistence and lists the comparison elements per the full-credit threshold (\u22656 of 8 including liquidity and price differences), with no central error. Score 1.0.",
+    "partial": "No central error, but point 1 only half met (coexistence + 3\u20135 elements, or elements listed without affirming coexistence, or liquidity/price differences both omitted despite other items present). Score 0.5. Fewer than 3 elements with coexistence affirmed may receive 0.25 at grader discretion; omissions alone never make an answer wrong.",
+    "wrong": "Any central error stated, or the answer neither affirms coexistence nor identifies at least 3 required comparison elements. Score 0."
+  }
+}

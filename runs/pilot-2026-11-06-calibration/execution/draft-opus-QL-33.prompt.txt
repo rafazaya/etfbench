@@ -1,0 +1,10 @@
+Independently calibrate this provisional question rubric. You have not seen the other draft.
+For EVERY numbered original key point mark required (expert answer incomplete without its minimum)
+or optional (nice-to-have). Bundled points: specify minimum content and explicitly optional subdetails.
+Define explicit central false statements that force wrong rather than partial. Omission is not falsehood.
+Define scoring for correct/partial/wrong; consider half-credit for partial coverage of a bundled point.
+Use round2 disagreements as editorial evidence, not ground truth. No external research.
+Return ONLY JSON {"id":..., "points":[{"point":1,"mark":"required|optional","minimum":"..."}],
+"central_errors":["..."],"scoring_rule":{"correct":"...","partial":"...","wrong":"..."}}.
+
+{"id": "QL-33", "question": "For ETF securities lending, distinguish borrower/default, collateral-shortfall and cash-reinvestment risks and controls. Separate the bank's US iShares example from UCITS recall/collateral rules; do not promise collateral eliminates losses.", "key_points": ["US ('40 Act), iShares example: borrower failure can delay recovery or leave collateral short of replacement cost; investing cash collateral can itself lose money. Collateral is maintained at least equal to the current market value of securities lent; these controls do not remove loss risk. [iShares SAI, \u201cSecurities Lending,\u201d pp. 16\u201317 of PDF](https://www.ishares.com/us/literature/sai/sai-ishares-us-etf-10-31.pdf#page=17).", "UCITS must maintain the ability to recall loans; collateral needs daily valuation, liquidity, credit quality, diversification and appropriate haircuts. Noncash collateral cannot be reinvested; cash reinvestment is restricted and must be diversified. [ESMA guidelines, paragraphs 30 and 43\u201347](https://www.esma.europa.eu/sites/default/files/library/2015/11/esma-2014-0011-01-00_en_0.pdf)."], "grader_notes": ["**Confidence: high.** US example terms are not UCITS rules; collateral-reinvestment loss is distinct from borrower default."], "round2_disagreement_evidence": []}

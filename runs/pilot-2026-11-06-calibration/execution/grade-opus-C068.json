@@ -1,0 +1,14 @@
+{
+  "blind_id": "C068",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer says listed ETF and unlisted classes can coexist. It covers dealing access (on-exchange versus direct with the fund), settlement, costs, minimum investment/holding amounts, class rights, liquidity and price differences (market price versus NAV). It does not explicitly mention broker use or dealing frequency, both of which are in the required bundle."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "The answer gets the core point right that the classes may coexist, and it covers most of the comparison items. It also correctly says US share-class exemptive conditions do not apply. However, it omits broker use and dealing frequency, so the required bundle is incomplete and earns 0.5. There is no central error or material falsehood. Coverage of 0.5 meets the half-coverage threshold, so the grade is partial."
+}

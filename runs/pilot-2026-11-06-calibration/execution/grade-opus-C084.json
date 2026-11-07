@@ -1,0 +1,19 @@
+{
+  "blind_id": "C084",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer covers the account and transfer steps: direct-held accounts may 'require a move to a brokerage', so 'start an ACATS or in-kind transfer early'. It also tells the investor to verify notices, cutoffs and where shares will sit. It does not say that an investor who fails to transfer may be unable to trade the converted ETF shares until a transfer is arranged. The statement that you will trade 'through a brokerage' only implies this."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "The answer says fractions 'are typically cashed out, which can be taxable' and tells the investor to 'Confirm the treatment', so it is notice-specific."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error. The answer does not claim automatic trading access for all investors, and it does not say fractional cash-outs are always tax-free. Point 2 is fully covered. Point 1 lacks the explicit consequence that the holding cannot be traded until it is transferred. Required coverage is 1.5 out of 2, which meets the partial threshold but not correct. The answer avoids a fixed timetable and does not confuse the conversion with adding an ETF share class."
+}

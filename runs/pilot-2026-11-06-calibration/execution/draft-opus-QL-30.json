@@ -1,0 +1,27 @@
+{
+  "id": "QL-30",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "Must identify licence contract terms covering at least most of: cost/fees, exclusivity, duration/term, and termination/expiry including the failed-renewal scenario; AND must flag the naming dependency (ETF name tied to or using the index/provider name, so loss of licence may force a name change); AND must flag affiliated-index-provider information issues (controls/firewalls over non-public index information, e.g., rebalancing or methodology changes, when the provider is affiliated with the adviser). Full credit requires all three categories (contract terms, naming, affiliated information). Optional subdetails: exhaustive listing of every term (e.g., each of cost and exclusivity individually), specific firewall mechanics, references to the IDC paper, description of disclosure/prospectus updates or index methodology review beyond these items."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Must state that planning for renewal or for index substitution in advance of expiry is a prudent/possible contingency control, and that its availability and timing depend on the actual licence terms (not a universal right or fixed notice period). Optional subdetails: specific planning steps (identifying alternate indexes, shareholder/board approval considerations, communication plans, transition cost analysis)."
+    }
+  ],
+  "central_errors": [
+    "Asserting there is a universal or regulatorily mandated notice period for index licence termination or non-renewal (e.g., a fixed number of days required for all ETFs).",
+    "Asserting the ETF or board has a guaranteed or automatic right to substitute a different index upon licence failure regardless of the licence terms.",
+    "Asserting that the ETF name has no dependence on the licence or can always continue to use the index/provider name after the licence lapses.",
+    "Asserting that affiliated index providers raise no information-control concerns, or that sharing non-public index information with the affiliated adviser/portfolio management is unproblematic.",
+    "Presenting the checklist as a mandatory, exhaustive legal requirement rather than as diligence/suggested inquiry, in a way that materially mischaracterizes the board's obligations."
+  ],
+  "scoring_rule": {
+    "correct": "Point 1 covers all three categories (licence contract terms including termination/expiry/failed renewal with most of cost, exclusivity, duration; naming dependency; affiliated-provider information controls) AND point 2 states pre-expiry renewal/substitution planning as a control conditioned on actual licence terms; no central error present.",
+    "partial": "No central error, but coverage is incomplete: e.g., point 1 misses one of the three categories or lists only a minority of contract terms, or point 2 is missing or omits the 'subject to the actual licence' qualification. Half-credit guidance: each required point weighted roughly equally; a bundled point 1 covering two of three categories earns about half of that point's weight; point 2 without the licence-dependence caveat earns about half of its weight. Overall answer is partial if total falls between roughly 25% and less than 100% of required content.",
+    "wrong": "Any central error is asserted as fact (e.g., universal notice period, guaranteed substitution right, no naming dependency, affiliated information sharing unproblematic), OR the answer omits essentially all required content (fewer than roughly 25%, e.g., discusses only generic ETF oversight without licence terms, naming, or affiliated-information issues)."
+  }
+}

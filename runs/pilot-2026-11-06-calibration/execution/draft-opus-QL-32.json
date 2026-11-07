@@ -1,0 +1,36 @@
+{
+  "id": "QL-32",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "Identify the core causes of return divergence across the portfolio and pricing dimensions. The minimum is (a) sampling or optimization, meaning the fund does not hold every index constituent at index weights; (b) index rebalances or reconstitutions, including timing or execution mismatches; and (c) pricing differences between the fund NAV and the index, such as stale or asynchronous prices, fair valuation, or differing price sources. Equivalent wording is acceptable. Diversification or regulatory concentration limits are optional. Credit them if the answer describes constraints that force off-index weights. Variable or non-constant expenses are also optional here, because they are scored under point 3."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Identify cash holdings or cash drag as a source of divergence. This includes uninvested cash from flows, dividends awaiting reinvestment, and cash buffers. Naming dividend-accrual or distribution timing explicitly is optional. Credit it if the answer refers to consistent or mismatched treatment of dividends, distributions, or corporate actions between the fund and the benchmark."
+    },
+    {
+      "point": 3,
+      "mark": "required",
+      "minimum": "Make one of the following clear, either explicitly or through unambiguous framing. (a) A constant fee drag lowers the mean active return but does not by itself raise the standard deviation of daily active returns. (b) The investigation centres on sources of variability, such as variable expenses or fee accruals, exposure differences, cash, trading, or pricing, rather than on a steady fee drag. Full credit does not require restating the mean-versus-dispersion formula. An answer that lists fee accruals or variable or operational expense effects as variability drivers, and makes no contrary claim, meets this minimum. An explicit mean-shift statement is optional."
+    },
+    {
+      "point": 4,
+      "mark": "required",
+      "minimum": "Distinguish tracking difference, the cumulative or period return gap, from tracking error, the variability or dispersion of daily active returns. The answer must also show that comparison requires consistent measurement: the same benchmark (the correct total-return variant), aligned dates or periods, and a consistent method. This can be shown by calling for same-date returns and consistent fee, distribution, and benchmark conventions. Explicitly saying that the benchmark, period, and method must be agreed up front is optional, provided measurement alignment is addressed in substance."
+    }
+  ],
+  "central_errors": [
+    "States or clearly implies that a constant daily expense-ratio deduction by itself increases tracking error, as defined here as the standard deviation of daily active returns, or treats the fee level as the primary explanation for excess tracking error.",
+    "Conflates tracking error with tracking difference, for example by defining tracking error as the cumulative or average return gap, or by diagnosing an excess using the cumulative gap in place of variability.",
+    "Asserts a single cause, or a specific numerical expected range, as the definitive explanation or threshold, contrary to the question's premise.",
+    "Claims that full physical replication eliminates tracking error, or that pricing and timing differences cannot affect daily active-return variability."
+  ],
+  "scoring_rule": {
+    "correct": "All four required points meet their minimums with no central error. Optional sub-details are not needed. Reasonable equivalents are accepted, for example 'constraints leaving the portfolio off-index' for diversification limits, or 'distribution and corporate-action treatment' for dividend-accrual timing.",
+    "partial": "No central error, and either one required point is missing or below its minimum, or two required points are each only half-covered. Half-credit on a bundled point applies in two cases: point 1 names only one or two of sampling, rebalances, and pricing; or point 4 distinguishes TD from TE but ignores measurement alignment entirely. Gaps beyond this threshold also count as partial, unless the answer omits the TD/TE distinction and most causes, in which case it is wrong.",
+    "wrong": "Any central error is present, or two or more required points are wholly absent, or the answer fails to address the investigation of causes at all."
+  }
+}

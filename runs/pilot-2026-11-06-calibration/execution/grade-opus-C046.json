@@ -1,0 +1,19 @@
+{
+  "blind_id": "C046",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Points to the sponsor website 'Holdings' or 'Portfolio' page for daily holdings. Separately states the PCF basket 'can differ from holdings due to cash components, representative sampling, or substitutions.'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States the PCF is 'distributed mainly via NSCC to authorized participants.' Suggests contacting the sponsor, broker or a market-data provider, and says 'don't assume it's there,' so no free public PCF is promised."
+    }
+  ],
+  "central_error": null,
+  "local_error": "Quote: 'Check the sponsor's website first, since Rule 6c-11 generally requires daily public posting [of the PCF]'. Reason: Rule 6c-11(c) requires public disclosure of portfolio holdings, not publication of creation/redemption baskets or the PCF. This is a material false statement about what the rule requires. It is hedged ('don't assume it's there') and does not claim the NSCC file is universally and freely public, so it is not a central error, but it caps the grade at partial.",
+  "grade": "partial",
+  "rationale": "Both required minimums are fully covered (2/2), and the answer correctly distinguishes holdings from transaction baskets. However, it wrongly says Rule 6c-11 generally requires daily public posting of the PCF/basket. That is a material local falsehood, which caps the grade at partial under the scoring rule."
+}

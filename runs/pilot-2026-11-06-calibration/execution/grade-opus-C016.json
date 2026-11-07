@@ -1,0 +1,24 @@
+{
+  "blind_id": "C016",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Says a series trust 'can reduce startup burdens\u2014trust formation, board governance, compliance, and vendor coordination' and offers 'established servicing', and that for one fund 'those savings may outweigh platform and pass-through fees.' This is equivalent to shared board and providers reducing fixed costs."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Raises the control trade-off only generically: 'control over branding, policies, vendors, and timing' and 'standalone trust offers more direct control over governance.' It never says the platform's board or trustees belong to the host rather than the sponsor. It also omits that the board can replace the adviser or liquidate the fund. Under the rubric, generic control wording earns half credit."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Gives a conditional fit: platform savings 'may outweigh' fees for one conventional ETF on a limited budget. A standalone trust 'can suit a sponsor expecting scale, seeking independence, or needing unsupported features.' It does not recommend one answer for every sponsor."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Required coverage is 2.5 of 3, with no central error and no material falsehood. Point 2 lacks the concrete statement that the platform host's board, not the sponsor, controls governance and service providers. Because one required minimum is incomplete, the answer cannot be graded correct."
+}

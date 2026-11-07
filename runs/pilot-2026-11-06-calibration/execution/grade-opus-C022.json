@@ -1,0 +1,14 @@
+{
+  "blind_id": "C022",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer correctly covers the application, notice/hearing-request and order stages, and says the order is what grants relief. It notes the need for relief 'substantially identical to relief previously granted' but omits the two-precedent, three-year requirement. The markups and signed certification are only loosely gestured at ('required structured format and representations'). It omits the pauses for modification requests, unsolicited amendments and office closures, and the deemed withdrawal. It also misdescribes the 45-day clock."
+    }
+  ],
+  "central_error": null,
+  "local_error": "'The 45-day period runs from publication of the notice, not filing, and is a target for SEC action (grant or denial)' is false. The clock runs from filing, and within 45 days the SEC issues the notice or an ineligibility/additional-time response, not a grant or denial. This is a material local falsehood. It is not a central error because the answer expressly says the period is 'not a guaranteed approval deadline' and does not claim no precedent is needed.",
+  "grade": "partial",
+  "rationale": "There is no central error: the answer denies that 45 days guarantees approval and ties eligibility to prior granted relief. The required bundle is only partly covered, earning 0.5 of 1, which meets the half-coverage threshold, and core stage facts are supplied. The misstatement of the 45-day clock's starting point and end result is a material local falsehood, which caps the grade at partial."
+}

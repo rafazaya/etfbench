@@ -1,0 +1,29 @@
+{
+  "blind_id": "C020",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer says investors 'normally' buy and sell on-exchange through a broker, which implies units are not usually sold back to the fund. It does not mention the prescribed warning that the prospectus and marketing must contain."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "It states a direct-to-fund exit applies 'only if the ETF's market price significantly deviates from its NAV.'"
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "It covers prospectus disclosure of the qualifying conditions, the request process and costs. It omits notification of the regulated market and does not say costs must not be excessive; it only says costs 'may apply'."
+    },
+    {
+      "point": 4,
+      "credit": 0.5,
+      "reason": "It calls the route 'an exceptional safeguard, not ordinary dealing' and contrasts it with broker-based exchange trading at market prices. It omits that primary creation and redemption is normally reserved to authorised participants, which is part of the required minimum. It does not say the investor decides unilaterally."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error: the answer correctly limits direct redemption to significant NAV deviation and rejects an automatic right. Required coverage totals 2.5 of 4, which meets the partial threshold. Correct is not available because the answer misses the prescribed warning, market notification, the non-excessive cost protection and the authorised-participant contrast."
+}

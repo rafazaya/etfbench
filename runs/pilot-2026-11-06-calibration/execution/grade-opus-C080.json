@@ -1,0 +1,24 @@
+{
+  "blind_id": "C080",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer says cash collateral may be required for undelivered securities and bases it on their market value. However, it gives 'around 102% to 105%' as the typical rate. It omits the reviewed typical example of 115%, and 105% is only the alternative used in some forms."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "It says the percentage applies to the 'market value of the undelivered securities' rather than the whole basket. It also says the rate 'varies by agreement... so it is not a universal rate.'"
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "It does not mention AP liability for a shortfall. This point is optional, so the omission does not reduce the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": "'often around 102% to 105%': this presents a typical range that leaves out the reviewed typical figure of 115%. It is a materially incomplete and somewhat misleading characterization of the reviewed text, but it does not trigger a listed central error.",
+  "grade": "partial",
+  "rationale": "There is no central error. The answer does not claim a universal rate, it correctly applies the percentage to undelivered securities, and it affirms the collateral requirement. Point 2 is fully covered, but point 1 is incomplete because the answer lacks the 115% typical example. Required coverage is 1.5 of 2, which meets the threshold for partial but not for correct."
+}

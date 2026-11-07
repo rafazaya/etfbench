@@ -1,0 +1,24 @@
+{
+  "blind_id": "C077",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer covers both parts of the minimum. On payment it says APs are 'Generally, no' paid by the sponsor and instead profit from arbitrage, spreads and commissions. On duty it says 'Creation and redemption are voluntary' and that participant agreements 'don't require ongoing activity.'"
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Optional point. The answer correctly says fees 'are charged to APs and go to the fund to cover transaction costs, not to the AP.' It does not mention sponsor waivers or subsidies. This omission does not reduce the grade."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Optional point. The answer gives supporting detail on liquidity-provider programs and premiums or discounts if APs stop. It does not mention the vouched point that sponsors waive fees on custom redemptions. This omission does not reduce the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "The single required point is fully covered: there is no automatic sponsor payment and no ongoing duty to create or redeem. The answer contains no central error; it explicitly denies both mandated dealing and an automatic retainer. It correctly describes the transaction fee as a cost charged to the AP that goes to the fund, and it separates sponsor liquidity programs from AP compensation. The phrase 'no general regulatory duty to quote' is imprecise because exchange-registered market makers can have quoting obligations, but it is hedged by 'general' and is ancillary, so it is not treated as a material falsehood. The truncated ending and the optional omissions do not reduce the grade."
+}

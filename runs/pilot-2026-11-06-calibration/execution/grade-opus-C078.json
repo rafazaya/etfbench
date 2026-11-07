@@ -1,0 +1,24 @@
+{
+  "blind_id": "C078",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States APs create/redeem directly with the fund in the primary market, and market makers quote bids/offers and provide liquidity in the secondary market."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "(a) Says the roles are distinct and 'One firm can perform both.' (b) Says a market maker 'can hedge or arbitrage a price mismatch\u2014and may use an AP's creation/redemption process.' This also covers the optional detail about non-AP access via an AP."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Optional point. LMM designation and quoting commitments are not mentioned. This omission does not reduce the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are fully covered. The answer does not say the AP and market maker roles are necessarily identical; it says market makers 'may be APs, but need not be.' No material false statements were found."
+}

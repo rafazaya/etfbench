@@ -1,0 +1,26 @@
+{
+  "id": "QL-29",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "Frames board diligence on the exchange/LMM arrangement as inquiry into all three areas: (a) why this exchange and LMM were selected (selection rationale/process), (b) the LMM's expertise or experience in the relevant market or asset class underlying the ETF, and (c) capital commitments, explicitly including whether and how seed capital is provided. All three elements (selection, relevant-market expertise, capital/seed) must appear at least in substance. Optional subdetails: specific sample questions (e.g., spread/quoting obligations, exchange incentive or subsidy programs, conflicts or affiliations, alternatives considered, monitoring/termination terms), citation to the IDC 'ETF Contractual Relationships' paper, discussion of fee/incentive economics."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Distinguishes temporary market-maker seed (inventory/liquidity provision that the LMM may hedge, sell down, or redeem) from more lasting end-investor assets, AND conveys that neither is guaranteed permanent: seed can be withdrawn and even investors attracted by incentives/subsidies can leave. Optional subdetails: implications for fund viability/closure risk, asset-size reporting, or how the board should weigh seed-inflated AUM."
+    }
+  ],
+  "central_errors": [
+    "States or implies the listed inquiries are a mandatory/prescribed regulatory approval checklist or that boards must approve the LMM arrangement under a specific rule requirement, rather than suggested inquiry.",
+    "Treats LMM/market-maker seed capital as permanent, assured, or equivalent to durable investor assets (e.g., counting seed as stable shareholder demand).",
+    "Asserts that every LMM arrangement necessarily includes or requires seed capital provided by the LMM.",
+    "Claims investor assets attracted via subsidies/incentives are locked in or permanent."
+  ],
+  "scoring_rule": {
+    "correct": "Both required points met at their minimum, with no central error. Optional subdetails are not needed for full credit.",
+    "partial": "No central error, but coverage incomplete: e.g., point 1 covers only one or two of the three areas (selection, expertise, capital/seed) \u2014 half credit for that point \u2014 or point 2 draws the seed-vs-investor distinction without noting non-permanence of either (half credit), or one required point is omitted entirely while the other is fully met. Vague or hedged framing without explicit false claims stays partial, not wrong.",
+    "wrong": "Commits any central error as a substantive claim (not merely omission), or omits/fails both required points (e.g., generic ETF governance discussion with no selection/expertise/capital inquiry and no seed-vs-investor distinction)."
+  }
+}

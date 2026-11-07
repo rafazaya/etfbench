@@ -1,0 +1,19 @@
+{
+  "blind_id": "C065",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States only APs redeem directly with the fund in large Creation Unit blocks, and that retail investors sell ETF shares on an exchange through a broker."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says retail investors cannot present individual shares to the fund for redemption. It gives the alternative as an exchange sale through a broker at a market price that may differ from NAV, which is a secondary-market transaction and not a fund redemption."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are covered. The answer correctly denies direct retail redemption and contrasts AP creation-unit redemptions with retail exchange sales. Its added details are accurate: APs are typically broker-dealers, redemptions may be in kind or for cash, and arbitrage keeps market price near NAV. There is no central error and no material local falsehood."
+}

@@ -1,0 +1,19 @@
+{
+  "blind_id": "C013",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer says the portfolio is held by the fund as a distinct legal entity, not owned by the adviser or sponsor. It concludes that sponsor insolvency alone 'ordinarily does not make the portfolio property of the sponsor's creditors or cancel shareholders' fund interests.'"
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Custody is covered: fund assets must be kept with a qualified custodian. The answer also says separation is 'not a guarantee against every bad outcome,' with possible losses or delays, so no recovery is promised. It never mentions orderly replacement or wind-down, such as the board appointing a new adviser, merging or liquidating the fund, or shareholders receiving net assets in a liquidation. The bundle is substantive but incomplete."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error: the answer explicitly denies that creditors take the portfolio or that shares are wiped out. It has no material local falsehood. Required coverage is 1.5 of 2, which meets the partial threshold but not the correct threshold, because it omits orderly replacement or wind-down."
+}

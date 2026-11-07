@@ -1,0 +1,19 @@
+{
+  "blind_id": "C033",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer says an AP 'generally cannot take these over, so the fund accepts cash on creation and pays cash on redemption, then enters or exits the derivative exposure itself.' This conveys that non-transferable positions require the fund to trade using cash. The wording is hedged and conditional, not a blanket prohibition."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "It states a fund-level consequence: 'Cash creations shift trading costs and market impact onto the fund.' It links this to lost in-kind benefits by contrast, since in-kind dealing 'shifts trading costs to the APs, keeps the portfolio intact, and generally avoids realizing gains inside the fund, supporting tax efficiency.' It also gives an optional nuance about transaction-fee offsets."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are covered. The answer explains that non-transferable derivative positions lead to cash dealing, with the fund establishing or unwinding the exposure itself. It names the fund-level trading-cost and market-impact consequence and contrasts it with in-kind tax and cost benefits. It does not claim that all derivatives are non-transferable or that cash dealing preserves in-kind tax benefits. The truncated final bullet is an omission, not a falsehood."
+}

@@ -1,0 +1,796 @@
+[
+  {
+    "blind_id": "C001",
+    "question_id": "QL-27",
+    "pending_issues": [
+      "R01",
+      "R17"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C002",
+    "question_id": "QL-40",
+    "pending_issues": [
+      "R01"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C003",
+    "question_id": "QL-02",
+    "pending_issues": [
+      "R01",
+      "R03"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C004",
+    "question_id": "QL-39",
+    "pending_issues": [
+      "R01",
+      "R25",
+      "R29"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C005",
+    "question_id": "QL-07",
+    "pending_issues": [
+      "R01"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C006",
+    "question_id": "QL-29",
+    "pending_issues": [
+      "R01",
+      "R04",
+      "R29"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C007",
+    "question_id": "QL-01",
+    "pending_issues": [
+      "R01",
+      "R02"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C008",
+    "question_id": "creation_redemption_006_who_are_typically_the_parties_involved_i",
+    "pending_issues": [
+      "R01",
+      "R28"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C009",
+    "question_id": "QL-20",
+    "pending_issues": [
+      "R01",
+      "R14"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C010",
+    "question_id": "QL-33",
+    "pending_issues": [
+      "R01",
+      "R20",
+      "R29"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C011",
+    "question_id": "QL-32",
+    "pending_issues": [
+      "R01",
+      "R19"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C012",
+    "question_id": "QL-38",
+    "pending_issues": [
+      "R01",
+      "R24"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C013",
+    "question_id": "QL-01",
+    "pending_issues": [
+      "R01",
+      "R02"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C014",
+    "question_id": "QL-03",
+    "pending_issues": [
+      "R01",
+      "R04"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C015",
+    "question_id": "creation_redemption_004_what_costs_do_the_creation_fee_cover",
+    "pending_issues": [
+      "R01",
+      "R29"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C016",
+    "question_id": "QL-16",
+    "pending_issues": [
+      "R01",
+      "R11"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C017",
+    "question_id": "QL-04",
+    "pending_issues": [
+      "R01"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C018",
+    "question_id": "QL-34",
+    "pending_issues": [
+      "R01",
+      "R21"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C019",
+    "question_id": "QL-22",
+    "pending_issues": [
+      "R01",
+      "R29"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C020",
+    "question_id": "QL-36",
+    "pending_issues": [
+      "R01",
+      "R22",
+      "R29"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C021",
+    "question_id": "QL-17",
+    "pending_issues": [
+      "R01",
+      "R12"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C022",
+    "question_id": "QL-28",
+    "pending_issues": [
+      "R01",
+      "R31"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C023",
+    "question_id": "QL-30",
+    "pending_issues": [
+      "R01",
+      "R18",
+      "R29"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C024",
+    "question_id": "QL-25",
+    "pending_issues": [
+      "R01",
+      "R16",
+      "R29"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C025",
+    "question_id": "QL-22",
+    "pending_issues": [
+      "R01",
+      "R29"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C026",
+    "question_id": "QL-05",
+    "pending_issues": [
+      "R01"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C027",
+    "question_id": "QL-06",
+    "pending_issues": [
+      "R01",
+      "R05"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C028",
+    "question_id": "QL-31",
+    "pending_issues": [
+      "R01",
+      "R18"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C029",
+    "question_id": "QL-28",
+    "pending_issues": [
+      "R01",
+      "R31"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C030",
+    "question_id": "QL-09",
+    "pending_issues": [
+      "R01",
+      "R06"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C031",
+    "question_id": "QL-31",
+    "pending_issues": [
+      "R01",
+      "R18"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C032",
+    "question_id": "QL-36",
+    "pending_issues": [
+      "R01",
+      "R22",
+      "R29"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C033",
+    "question_id": "QL-13",
+    "pending_issues": [
+      "R01",
+      "R09"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C034",
+    "question_id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+    "pending_issues": [
+      "R01",
+      "R27"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C035",
+    "question_id": "QL-19",
+    "pending_issues": [
+      "R01",
+      "R29"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C036",
+    "question_id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+    "pending_issues": [
+      "R01",
+      "R26"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C037",
+    "question_id": "QL-20",
+    "pending_issues": [
+      "R01",
+      "R14"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C038",
+    "question_id": "QL-14",
+    "pending_issues": [
+      "R01",
+      "R30"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C039",
+    "question_id": "QL-29",
+    "pending_issues": [
+      "R01",
+      "R04",
+      "R29"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C040",
+    "question_id": "QL-34",
+    "pending_issues": [
+      "R01",
+      "R21"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C041",
+    "question_id": "QL-07",
+    "pending_issues": [
+      "R01"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C042",
+    "question_id": "QL-18",
+    "pending_issues": [
+      "R01",
+      "R13"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C043",
+    "question_id": "QL-23",
+    "pending_issues": [
+      "R01",
+      "R15"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C044",
+    "question_id": "QL-11",
+    "pending_issues": [
+      "R01",
+      "R07"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C045",
+    "question_id": "QL-02",
+    "pending_issues": [
+      "R01",
+      "R03"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C046",
+    "question_id": "QL-14",
+    "pending_issues": [
+      "R01",
+      "R30"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C047",
+    "question_id": "QL-03",
+    "pending_issues": [
+      "R01",
+      "R04"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C048",
+    "question_id": "QL-39",
+    "pending_issues": [
+      "R01",
+      "R25",
+      "R29"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C049",
+    "question_id": "QL-27",
+    "pending_issues": [
+      "R01",
+      "R17"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C050",
+    "question_id": "QL-12",
+    "pending_issues": [
+      "R01",
+      "R08"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C051",
+    "question_id": "QL-21",
+    "pending_issues": [
+      "R01",
+      "R13"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C052",
+    "question_id": "QL-06",
+    "pending_issues": [
+      "R01",
+      "R05"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C053",
+    "question_id": "QL-32",
+    "pending_issues": [
+      "R01",
+      "R19"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C054",
+    "question_id": "QL-26",
+    "pending_issues": [
+      "R01"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C055",
+    "question_id": "QL-24",
+    "pending_issues": [
+      "R01"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C056",
+    "question_id": "QL-38",
+    "pending_issues": [
+      "R01",
+      "R24"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C057",
+    "question_id": "QL-18",
+    "pending_issues": [
+      "R01",
+      "R13"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C058",
+    "question_id": "QL-21",
+    "pending_issues": [
+      "R01",
+      "R13"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C059",
+    "question_id": "QL-30",
+    "pending_issues": [
+      "R01",
+      "R18",
+      "R29"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C060",
+    "question_id": "QL-35",
+    "pending_issues": [
+      "R01",
+      "R21",
+      "R29",
+      "R32"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C061",
+    "question_id": "QL-19",
+    "pending_issues": [
+      "R01",
+      "R29"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C062",
+    "question_id": "QL-17",
+    "pending_issues": [
+      "R01",
+      "R12"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C063",
+    "question_id": "QL-24",
+    "pending_issues": [
+      "R01"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C064",
+    "question_id": "QL-04",
+    "pending_issues": [
+      "R01"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C065",
+    "question_id": "QL-10",
+    "pending_issues": [
+      "R01"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C066",
+    "question_id": "QL-08",
+    "pending_issues": [
+      "R01",
+      "R06"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C067",
+    "question_id": "QL-16",
+    "pending_issues": [
+      "R01",
+      "R11"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C068",
+    "question_id": "QL-37",
+    "pending_issues": [
+      "R01",
+      "R23"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C069",
+    "question_id": "QL-35",
+    "pending_issues": [
+      "R01",
+      "R21",
+      "R29",
+      "R32"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C070",
+    "question_id": "QL-05",
+    "pending_issues": [
+      "R01"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C071",
+    "question_id": "QL-13",
+    "pending_issues": [
+      "R01",
+      "R09"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C072",
+    "question_id": "QL-23",
+    "pending_issues": [
+      "R01",
+      "R15"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C073",
+    "question_id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+    "pending_issues": [
+      "R01",
+      "R27"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C074",
+    "question_id": "QL-37",
+    "pending_issues": [
+      "R01",
+      "R23"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C075",
+    "question_id": "QL-33",
+    "pending_issues": [
+      "R01",
+      "R20",
+      "R29"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C076",
+    "question_id": "QL-10",
+    "pending_issues": [
+      "R01"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C077",
+    "question_id": "QL-12",
+    "pending_issues": [
+      "R01",
+      "R08"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C078",
+    "question_id": "QL-15",
+    "pending_issues": [
+      "R01",
+      "R10"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C079",
+    "question_id": "QL-26",
+    "pending_issues": [
+      "R01"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C080",
+    "question_id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+    "pending_issues": [
+      "R01",
+      "R26"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C081",
+    "question_id": "QL-11",
+    "pending_issues": [
+      "R01",
+      "R07"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C082",
+    "question_id": "creation_redemption_006_who_are_typically_the_parties_involved_i",
+    "pending_issues": [
+      "R01",
+      "R28"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C083",
+    "question_id": "QL-08",
+    "pending_issues": [
+      "R01",
+      "R06"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C084",
+    "question_id": "QL-40",
+    "pending_issues": [
+      "R01"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C085",
+    "question_id": "QL-15",
+    "pending_issues": [
+      "R01",
+      "R10"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C086",
+    "question_id": "QL-09",
+    "pending_issues": [
+      "R01",
+      "R06"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C087",
+    "question_id": "QL-25",
+    "pending_issues": [
+      "R01",
+      "R16",
+      "R29"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  },
+  {
+    "blind_id": "C088",
+    "question_id": "creation_redemption_004_what_costs_do_the_creation_fee_cover",
+    "pending_issues": [
+      "R01",
+      "R29"
+    ],
+    "note": "Uses recommended defaults; R01 global threshold affects all answers, not necessarily their grade."
+  }
+]

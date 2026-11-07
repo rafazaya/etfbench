@@ -1,0 +1,19 @@
+{
+  "blind_id": "C041",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer opens with 'No.' It says exchange volume 'is not a ceiling on what can trade' and explains that APs create shares by delivering a basket and redeem them for the basket. This ties primary-market capacity to why secondary volume alone is insufficient."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "It lists 'bid\u2013ask spread, quote depth and size', 'underlying-security liquidity and trading conditions' and 'market makers' ability to hedge'. It also cites 'creation/redemption basket details and recent flows', which reflect AP and market-maker activity. All three elements of the bundle are covered."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer explicitly rejects volume as a cap and says the indicators are 'not assurance of execution capacity', so it avoids both central-error forms. The other statements (premiums/discounts to NAV or iNAV, checking conditions at order time) are accurate, so there is no material local falsehood."
+}

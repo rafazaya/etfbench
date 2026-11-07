@@ -1,0 +1,24 @@
+{
+  "blind_id": "C082",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0,
+      "reason": "The answer treats 'permitted parties' as AP affiliates or designees. It never says Rule 6c-11 lets the agreement be with the ETF or a service provider."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "The distributor is mentioned only alongside the trust and adviser as main signatories. The answer omits transfer agent acceptance or countersignature and the trust's third-party-beneficiary status or limited signing of specified provisions."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "It says the ICAV (or its management company) and the AP contract, which roughly matches a direct ICAV\u2013AP agreement. The management-company hedge blurs this, and it omits 'on behalf of sub-funds' and the contrast with the US signature pattern."
+    }
+  ],
+  "central_error": "\"The main signatories are generally the ETF trust, its adviser or distributor, and the AP.\" This matches the anchor 'Reviewed US trust normally principal AP counterparty instead of distributor/beneficiary distinction', because it presents the trust as a main signatory rather than a third-party beneficiary.",
+  "local_error": "\"'Permitted parties' in reviewed U.S. AP forms are typically additional entities allowed to act for an AP (such as affiliates or designees)\". This misstates the rule-level point: Rule 6c-11 permits the agreement to be with the ETF or a service provider, not with AP designees.",
+  "grade": "wrong",
+  "rationale": "The answer explicitly names the trust as a main signatory, which matches the listed central error and forces a grade of wrong. Coverage is also below half: 0.5 of 3 points."
+}

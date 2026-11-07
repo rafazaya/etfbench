@@ -1,0 +1,32 @@
+{
+  "id": "QL-08",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "States that authorized participants (or large institutional/designated dealers) can create new ETF shares by delivering a basket of underlying securities (or cash equivalent) to the issuer, and redeem ETF shares by returning them to the issuer in exchange for the basket. Both directions (creation and redemption) must be conveyed at least implicitly. Optional subdetails: in-kind vs. cash creations, creation-unit size, that only APs transact directly with the issuer."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "Explains the arbitrage link: when the ETF trades at a premium to NAV/underlying value, APs profit by creating shares and selling them (adding supply, pushing price down); when at a discount, APs buy ETF shares and redeem them (removing supply, pushing price up); this profit motive keeps price near NAV. A general statement that profitable arbitrage between price and NAV via creation/redemption pulls them together suffices if direction is not mis-stated. Optional subdetails: APs often act on behalf of or alongside market makers; market-maker quoting/liquidity provision; role of iNAV/IOPV; transaction costs and bid-ask spreads limiting arbitrage."
+    },
+    {
+      "point": 3,
+      "mark": "optional",
+      "minimum": "Notes that this is an incentive-driven economic mechanism rather than a guarantee: price can deviate from NAV (premiums/discounts), especially in stressed markets, illiquid or foreign/time-zone-mismatched underlying assets, or when arbitrage is costly or constrained. Optional but valued; absence does not reduce below correct if points 1-2 are full and no claim of guaranteed equality is made."
+    }
+  ],
+  "central_errors": [
+    "Claims the ETF issuer, an exchange, or a regulator directly sets, fixes, or guarantees the market price equal to NAV.",
+    "Claims market price always or necessarily equals NAV / that deviations cannot occur.",
+    "Reverses the arbitrage direction (e.g., says APs create shares when the ETF trades at a discount or redeem when at a premium) as the core explanation.",
+    "Attributes the price-NAV link primarily to something other than creation/redemption arbitrage (e.g., ordinary investor buying/selling alone, daily price resets at NAV like mutual funds, or the fund manager trading to support the price) with no mention of the creation/redemption mechanism.",
+    "States retail investors routinely create/redeem directly with the issuer as the mechanism, in place of APs/institutional participants."
+  ],
+  "scoring_rule": {
+    "correct": "Points 1 and 2 both met at their minimums, and no central error. Point 3 is not required, but if the answer addresses accuracy it must not assert guaranteed equality.",
+    "partial": "No central error, and either (a) point 2's arbitrage incentive is conveyed but the creation/redemption basket mechanics of point 1 are vague or only one direction is described, or (b) creation/redemption is described but the arbitrage/profit link to price convergence is missing or only implied. Half-credit for one required point met fully and the other only partially; an answer naming arbitrage by APs in general terms without basket exchange counts as partial.",
+    "wrong": "Any central error, or neither creation/redemption nor arbitrage by APs/market participants is identified as the mechanism."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "blind_id": "C060",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer covers ETF identification at sub-fund level in a mixed umbrella and says non-ETF siblings and unlisted classes are not ETFs, so classes are clearly distinguished. It does not state that 'UCITS ETF' must appear in the name, constitution, prospectus, KID/KIID and marketing. It also presents listed-class identification as the only approach rather than giving the sub-fund-OR-listed-class option."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "Optional supporting detail (class-level identification already allowed pre-2026) is not addressed. This does not affect the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\"The ETF identifier applies to the listed class, not the whole sub-fund.\" This categorically excludes identification at sub-fund level, which Reg. 88(2) and CBI Q&A permit as an alternative. It is not the listed central error, which concerns a sub-fund-only rule or labelling siblings as ETFs. It is still a material inaccuracy about the either/or option, and the answer is inconsistent with its own mixed-umbrella section. Calling 'UCITS ETF' merely a 'market term' also understates the mandatory Irish naming requirement.",
+  "grade": "partial",
+  "rationale": "No explicit central error: the answer does not restrict the identifier to sub-fund level only and does not label non-ETF siblings as ETFs. The single required point is only half covered: the identifier documents are missing and the sub-fund/listed-class alternative is stated as listed-class only. Coverage of 0.5 meets the half threshold, and the core facts on the mixed umbrella and class distinction are supplied. The local inaccuracy also caps the grade at partial."
+}

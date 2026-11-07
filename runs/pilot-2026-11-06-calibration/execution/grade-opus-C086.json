@@ -1,0 +1,24 @@
+{
+  "blind_id": "C086",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that the AP delivers the basket and receives newly issued creation units, and that 'Shares outstanding increase'."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that the AP returns creation units, the fund cancels those shares, and 'shares outstanding decrease'."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "States that 'Ordinary secondary-market trading leaves shares outstanding unchanged, because ownership simply transfers between investors.'"
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are fully covered with accurate mechanics. There is no central error. The ancillary claims are accurate or within normal variation and are not material falsehoods. These include the creation unit size range, NAV-based pricing with possible fees, AP-only primary-market activity, and the arbitrage explanation."
+}

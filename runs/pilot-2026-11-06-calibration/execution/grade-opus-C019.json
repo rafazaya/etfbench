@@ -1,0 +1,19 @@
+{
+  "blind_id": "C019",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States naming a principal underwriter 'does not itself assure a dedicated sales force, marketing effort, or asset gathering' and notes best-efforts offering with no obligation to sell a specified amount."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States marketing support, wholesaling, and intermediary access 'may be separately contracted\u2014or included in a particular platform's package,' that scope varies, and advises checking who provides each under the specific agreements."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. There is no central error, because the answer explicitly denies that the appointment guarantees sales or assets. It correctly avoids assuming all platform packages are identical. The specific Simplify/Foreside example is not cited, but that omission does not reduce the grade. No material false ancillary statements were found."
+}

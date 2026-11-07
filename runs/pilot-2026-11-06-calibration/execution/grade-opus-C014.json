@@ -1,0 +1,24 @@
+{
+  "blind_id": "C014",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The 'Breakeven AUM' item compares fee revenue (AUM \u00d7 net expense ratio) with fixed costs such as audit, legal, fund accounting, index licensing, listing, compliance and board fees. This conveys that a small fund loses money when revenue falls below fixed costs."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "It covers how long the sponsor absorbs costs through waivers and caps, what happens when caps expire, and whether lineup economics let a weak fund drain sponsor resources. That addresses subsidy capacity. It does not explicitly address sponsor willingness or state that size alone does not determine closure with certainty."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "It distinguishes sponsor-funded from third-party seed and notes commitment duration, seed replacement by organic flows, and seed concentration. This touches withdrawal risk. It does not explain that market-maker seed is temporary inventory that can be redeemed, as opposed to more lasting investor seed, or that subsidized seed investors can leave."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no explicit claim that small size guarantees closure or that seed is permanent. Required coverage sums to 2 of 3, which meets the partial threshold but not full coverage. The main gaps are the market-maker versus investor seed distinction and the sponsor-willingness/no-certainty element. The truncated 'Closure triggers' section is an omission, not a falsehood."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "QL-27",
+  "points": [
+    {
+      "point": 1,
+      "mark": "required",
+      "minimum": "States that the ETF must adopt and implement written policies and procedures governing the construction of baskets and the process used for accepting (acceptance of) baskets. Optional: the policies are the ETF's duty, though they may be prepared or run by the adviser; examples of operational detail."
+    },
+    {
+      "point": 2,
+      "mark": "required",
+      "minimum": "States that, for custom baskets, the policies must set out detailed parameters for constructing and accepting custom baskets that are in the best interests of the ETF and its shareholders (or that protect the fund/shareholders), and must include a process for any revisions to, or deviations from, those parameters. Saying only that policies 'set out revisions' instead of a process is a minor imprecision, not an error. Optional: examples of parameters, board oversight discussion."
+    },
+    {
+      "point": 3,
+      "mark": "required",
+      "minimum": "Bundled. Minimum (a): policies must specify the titles or roles of the adviser's employees who review each custom basket for compliance with the parameters. Minimum (b): the ETF must keep records of each basket exchanged with an authorized participant, including identification of the basket as a custom basket and a record that it complied with the custom-basket policies. Optional subdetails: names/quantities of basket holdings, cash balancing amounts, AP identity, date; retention of five years with the first two years in an easily accessible place. Attributing the record duty to the adviser rather than the ETF is a minor imprecision. Coverage of only (a) or only (b) earns half credit for this point."
+    },
+    {
+      "point": 4,
+      "mark": "required",
+      "minimum": "Bundled. Minimum (a): defines a custom basket as either (i) a basket composed of a non-representative selection of the ETF's portfolio holdings, or (ii) a representative basket that differs from the initial basket used in transactions with APs on the same business day. Minimum (b): distinguishes this from a 'non-standard order', which is a contractual/operational AP-agreement or transfer-agent label (or an order needing special approval), not a Rule 6c-11 category; whether an order is non-standard does not by itself determine custom-basket status, and vice versa. Optional: noting that permitted pro-rata deviations (e.g., rounding, untradeable positions, cash substitutions consistent with the rule's representative-basket allowances) can keep a basket representative. Coverage of only (a) or only (b) earns half credit."
+    }
+  ],
+  "central_errors": [
+    "Stating that Rule 6c-11 does not require written basket policies and procedures, or that custom baskets are prohibited/require exemptive relief rather than being permitted under policy-based conditions.",
+    "Misstating the custom-basket definition by making non-pro-rata composition, or any departure from exact pro rata holdings, an independent trigger for custom status (ignoring that permitted deviations can remain representative), or by merging the 'differs from the initial basket' prong into the non-representative prong so that the two-prong test is materially altered.",
+    "Equating a custom basket with a non-standard order, or stating that non-standard-order designation/approval under the AP agreement determines or satisfies custom-basket classification and compliance.",
+    "Stating that the required compliance reviewers are only the ETF board or an unnamed party, or that no identification of reviewer titles/roles is needed.",
+    "Stating that no records of custom-basket status or compliance are required."
+  ],
+  "scoring_rule": {
+    "correct": "All four required points satisfied at minimum (bundled points 3 and 4 fully covered, both sub-minimums), with no central error. Minor imprecisions (omitting 'best interests' phrasing, 'set out revisions' vs a process, attributing records to the adviser, redundant definition wording) do not prevent correct.",
+    "partial": "No central error and at least half of required credit earned (counting half credit for a bundled point with one sub-minimum met) but not all required minimums met; OR otherwise strong coverage of policies, roles and records but containing one localized central definitional error in point 4 (e.g., adding non-pro-rata as an independent trigger or muddling the prongs) while the non-standard-order distinction is otherwise sound.",
+    "wrong": "Less than half of required credit earned; OR a central error that goes beyond a localized definitional slip, such as equating custom baskets with non-standard orders, denying the written-policy requirement, or denying the reviewer-role or record requirements; OR multiple central errors."
+  }
+}
