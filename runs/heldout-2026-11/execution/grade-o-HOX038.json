@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX038",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0,
+      "reason": "The answer assigns all findings to the acquiring adviser, including undue influence, which the evidence assigns to the acquired adviser. It omits the acquiring adviser's evaluation of complexity and fee duplication. It mentions reporting to the board but not the next-regular-meeting timing. The required bundle is not substantively matched."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "It says a written fund of funds investment agreement is 'generally required,' which covers the agreement's existence. It omits termination on no more than 60 days' notice and the same-adviser exception."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\"It will not cause undue influence by the acquiring fund or its affiliates over the acquired fund's operations\" listed as an acquiring-adviser finding. The evidence says the acquired fund's adviser addresses undue influence, so this misattributes the finding.",
+  "grade": "wrong",
+  "rationale": "There is no central error: the answer affirms both an adviser assessment and an agreement. Required coverage totals 0.5 of 2, which is below half the required-point count, so the scoring rule mandates wrong. The misattribution of the undue-influence finding is also a material local falsehood."
+}

@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX046",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer says the board may designate the fund's investment adviser. However, it excludes only a sub-adviser 'primarily responsible for portfolio management', not every sub-adviser as the evidence requires. It also does not identify the principal adviser specifically."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "The answer gives the 'at least quarterly' reporting cadence. It omits that the reports must be in writing and that the designee assesses the valuation process each year."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "The answer says material matters are reported 'promptly'. It omits that the board sets the deadline and that the deadline is at most 5 business days."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\"provided it is not a sub-adviser primarily responsible for portfolio management of the fund (or another fund in the same group)\" - This narrows the exclusion to some sub-advisers, which implies other sub-advisers could qualify. The evidence says flatly that a sub-adviser can't be the valuation designee. It is not an explicit statement that a sub-adviser can be designee, so it is a material local inaccuracy rather than a central error.",
+  "grade": "partial",
+  "rationale": "There is no explicit central error, and the answer does affirm quarterly periodic reporting. Each required point is only substantively incomplete, giving 1.5 of 3, which meets the half threshold. Core requested facts are supplied: the adviser as designee, quarterly reporting and prompt reporting of material matters. The inaccurate sub-adviser qualifier caps the grade at partial in any case."
+}

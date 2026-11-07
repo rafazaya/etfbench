@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX021",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that a change in control generally causes an assignment and that the contract automatically terminates."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that the replacement contract needs approval by the board, including a majority of independent directors, and shareholders."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are fully covered, with no material falsehood."
+}

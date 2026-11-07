@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "HO-03",
+  "tier": "A",
+  "answer": "The US withholds **15%** on US dividends paid to an Irish UCITS ETF. That is the US\u2013Ireland treaty rate, versus the 30% statutory rate. The fund claims it by filing Form W-8BEN-E with the US payer or custodian. **Who bears it:** The tax is withheld before dividends reach the fund. It reduces distributions or accumulated NAV, so **investors bear it economically**. It shows up as a drag against a gross-dividend index (MSCI \"net\" indices assume 30%). Key points: - **No further Irish tax** applies at fund level, because Ireland uses a gross roll-up regime. Non-Irish-resident investors with proper declarations face no Irish withholding on distributions. - **Investors generally cannot reclaim or credit** the 15%, because it is levied on the fund. - This is \"level 1\" withholding. US-domiciled ETFs avoid it but face investor-level US withholding instead. - Synthetic (swap-based) UCITS ETFs may reduce the drag under Section 871(m) rules,",
+  "original_answer": "The US withholds **15%** on US dividends paid to the Irish UCITS ETF. That is the US\u2013Ireland treaty rate, down from the 30% statutory rate. The fund claims the rate by filing Form W-8BEN-E with the US payer or custodian.\n\n**Who bears it:** The tax is withheld at the fund level, before dividends reach the fund. It lowers distributions or the accumulated NAV, so **investors bear it economically**. It appears as a performance drag against a gross-dividend index (MSCI \"net\" indices assume a 30% rate).\n\nKey points:\n- **No further Irish tax** at fund level. Ireland's funds regime is gross roll-up, and non-Irish-resident investors with proper declarations face no Irish withholding on distributions.\n- **Investors generally cannot reclaim or credit** the 15%, because it is levied on the fund rather than on them.\n- This is the \"level 1\" withholding. US-domiciled ETFs avoid it but face the investor-level US withholding instead.\n- Synthetic (swap-based) UCITS ETFs may reduce this drag under Section 871(m) rules, subject to current regulatory status.",
+  "void": false,
+  "words_before": 169,
+  "words_after_shorten": 155,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-lt24cb13",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For an Irish UCITS ETF holding US stocks and meeting the US\u2013Ireland treaty limitation-on-benefits test, what withholding applies to US dividends, and who bears that tax?\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-HO-03-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-3cytlcdf",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\nThe US withholds **15%** on US dividends paid to the Irish UCITS ETF. That is the US\u2013Ireland treaty rate, down from the 30% statutory rate. The fund claims the rate by filing Form W-8BEN-E with the US payer or custodian.\n\n**Who bears it:** The tax is withheld at the fund level, before dividends reach the fund. It lowers distributions or the accumulated NAV, so **investors bear it economically**. It appears as a performance drag against a gross-dividend index (MSCI \"net\" indices assume a 30% rate).\n\nKey points:\n- **No further Irish tax** at fund level. Ireland's funds regime is gross roll-up, and non-Irish-resident investors with proper declarations face no Irish withholding on distributions.\n- **Investors generally cannot reclaim or credit** the 15%, because it is levied on the fund rather than on them.\n- This is the \"level 1\" withholding. US-domiciled ETFs avoid it but face the investor-level US withholding instead.\n- Synthetic (swap-based) UCITS ETFs may reduce this drag under Section 871(m) rules, subject to current regulatory status."
+      ],
+      "stdout": "opus-HO-03-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

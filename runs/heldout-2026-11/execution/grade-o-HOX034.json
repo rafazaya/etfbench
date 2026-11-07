@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX034",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer covers the acquiring adviser's evaluation of complexity and fee duplication and the acquired adviser's undue-influence finding, with each reporting to its board. It omits the required 'by the next regular meeting' timing, so the bundle is substantive but incomplete."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "The answer states that an investment agreement terminable on '\u226460 days' notice' is required when advisers differ, which captures the same-adviser exception."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error: the answer affirms both the adviser findings and the agreement. Required coverage is 1.5 of 2, which meets the half threshold, and core facts are supplied. Point 1 lacks the next-regular-meeting reporting deadline in its minimum, so not every required minimum is fully covered and the grade cannot be correct. Side claims outside the evidence (the secondary-market carve-out, the control-affiliate phrasing, related conditions) are not contradicted by the supplied evidence and are not treated as falsehoods."
+}

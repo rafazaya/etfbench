@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "HO-09",
+  "tier": "A",
+  "answer": "**Unitary fee waiver:** The adviser's all-in fee is the fund's only management charge, so a waiver lowers that headline rate. Recoupment is usually not a separate claim. Restoring the full rate is a repricing decision that requires prospectus disclosure and notice, not reimbursement. Where a contractual waiver includes recoupment, it is typically limited to a short look-back, often three years, and capped by the expense ratio in effect at both waiver and recovery. **Ordinary expense limitation:** The adviser caps total fund expenses and reimburses or waives amounts above the cap. Recoupment is an explicit, board-approved right to recover those amounts within a rolling window, typically three years. It is permitted only if the expense ratio stays at or below the lower of the cap at waiver and at recovery. Recoverable balances are disclosed in the prospectus and tracked in the financial statements. **Key difference:** Expense-limitation recoupment creates a discrete, capped",
+  "original_answer": "**Unitary fee waiver:** The adviser's all-in fee is the fund's only management charge, so a waiver simply lowers that headline rate. Recoupment is usually not a separate claim. Restoring the full rate is a repricing decision that requires prospectus disclosure and notice, not a reimbursement. Where a contractual waiver includes recoupment, it is typically limited to a short look-back, often three years, and capped by the expense ratio in effect at both waiver and recovery.\n\n**Ordinary expense limitation:** The adviser caps total fund expenses and reimburses or waives amounts above the cap. Recoupment is an explicit, board-approved right to recover those amounts within a rolling window, typically three years. It is permitted only if the fund's expense ratio stays at or below the lower of the cap at waiver and at recovery. Recoverable balances are disclosed in the prospectus and tracked in the financial statements.\n\n**Key difference:** Expense-limitation recoupment creates a discrete, capped receivable. Unitary waivers are rate-based, so any recovery is a pricing choice rather than a recoverable balance.",
+  "void": false,
+  "words_before": 170,
+  "words_after_shorten": 166,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-lhpjujpl",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Compare recoupment of a fee waiver in the bank's US ETF unitary-fee arrangement with reimbursement under an ordinary expense-limitation agreement.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-HO-09-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-o6v_199t",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Unitary fee waiver:** The adviser's all-in fee is the fund's only management charge, so a waiver simply lowers that headline rate. Recoupment is usually not a separate claim. Restoring the full rate is a repricing decision that requires prospectus disclosure and notice, not a reimbursement. Where a contractual waiver includes recoupment, it is typically limited to a short look-back, often three years, and capped by the expense ratio in effect at both waiver and recovery.\n\n**Ordinary expense limitation:** The adviser caps total fund expenses and reimburses or waives amounts above the cap. Recoupment is an explicit, board-approved right to recover those amounts within a rolling window, typically three years. It is permitted only if the fund's expense ratio stays at or below the lower of the cap at waiver and at recovery. Recoverable balances are disclosed in the prospectus and tracked in the financial statements.\n\n**Key difference:** Expense-limitation recoupment creates a discrete, capped receivable. Unitary waivers are rate-based, so any recovery is a pricing choice rather than a recoverable balance."
+      ],
+      "stdout": "haiku-HO-09-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

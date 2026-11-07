@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX041",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0,
+      "reason": "The answer says it cannot see or verify Rafa's estimate. It never describes the figure as a practitioner estimate of a typical maximum variable fee, and it gives no hedged figure attributed to Rafa."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "It disclaims any knowledge of Corgi ETF Trust I's filed terms. The generic remark that 'the exact cap varies by fund' is not tied to the Corgi SAI, so it does not present the SAI as a fund-specific example rather than a universal ceiling."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Optional point. It never states that the estimate and Corgi maximum are 3%; the generic '1% to 3%' range is not attributed to either source. Optional omissions do not affect the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "wrong",
+  "rationale": "There is no central error: the answer never presents 3% as a universal statutory ceiling. Its generic claim that SAIs 'frequently cap them at around 1% to 3%' is unsourced but not contradicted by the evidence, so it is not treated as a material falsehood. However, required coverage is 0 out of 2, below the half threshold, and the answer gives none of the requested facts about Rafa's estimate or the Corgi SAI. Under the scoring rule this is wrong."
+}

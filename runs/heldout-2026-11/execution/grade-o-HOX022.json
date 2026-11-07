@@ -1,0 +1,29 @@
+{
+  "blind_id": "HOX022",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0,
+      "reason": "The answer explicitly declines to name the leaders. It does not identify BlackRock/iShares, Vanguard or State Street/SPDR."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "It echoes the 'US Lipper ETF-for-sale universe' and the September 30, 2026 date, and hedges that this may be narrower than all US-listed ETFs. It never affirmatively states the measure: ETF assets by sponsor/promoter brand within that universe. It only restates the question's framing and says it would need the report to confirm the scope."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Optional point; omitted. It gives no Lipper denominator and no ICI comparison."
+    },
+    {
+      "point": 4,
+      "credit": 0,
+      "reason": "Optional point; omitted. It says nothing about Vanguard ETF share-class versus whole-portfolio assets."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "wrong",
+  "rationale": "There is no central error: the answer does not use sponsor-wide AUM or a global issuer ranking. Its speculative scope remark is hedged ('may'), so it is not treated as a material falsehood. Required coverage is 0 + 0.5 = 0.5, which is below half of the 2 required points. The answer also supplies no requested core fact, since it names no top three and makes no affirmative scope statement. Under the scoring rule this is wrong."
+}

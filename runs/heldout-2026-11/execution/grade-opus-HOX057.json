@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX057",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0,
+      "reason": "No verified ranking is given. The 'likely candidates (unverified)' list orders Virtu first, merges GTS/Susquehanna and adds Flow Traders, so it does not match Jane Street, Virtu, GTS, Susquehanna, Citadel."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "States the universe is only the three programs and that it counts ETPs by venue, not unique funds. It omits the NYSE October 5 sheet date and does not say Nasdaq and Cboe effective dates are unestablished; 'cite the file date' is only generic advice."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Mentions November 6 only as a snapshot it lacks. It does not identify November 6 as the retrieval date, and it does not say the historical September 30 or ETF-only rankings remain unresolved."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\"Before mid-2026, the firms with the most assignments were usually Virtu Americas, Jane Street, Citadel Securities, Flow Traders and GTS/Susquehanna\": the evidence does not support this claim. It includes Flow Traders, which is not in the snapshot's top five, and its order conflicts with the snapshot. It is hedged as unverified.",
+  "grade": "wrong",
+  "rationale": "There is no central error, because the answer does not present the snapshot as a September 30, ETF-only, AUM or market-share ranking. However, required coverage totals 0.5 of 3, which is below half, and the answer supplies no requested core fact (no ranking), so the scoring rule requires 'wrong'."
+}

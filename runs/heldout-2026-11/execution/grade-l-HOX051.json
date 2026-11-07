@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX051",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Covers pre-appointment checks, ongoing monitoring and challenge, and written mandate/reporting arrangements."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States the ManCo remains fully responsible and must not become a letter-box entity."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are covered; the optional designated-person detail is omitted, which does not reduce the grade."
+}

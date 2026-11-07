@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX058",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer states that the existing contract terminates automatically on 'assignment' under \u00a715(a)(4), and that 'assignment includes a change of control of the adviser' (\u00a72(a)(4))."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "The answer says a new contract needs board approval 'including a majority of independent directors (Section 15(c))' and shareholder approval by a 'majority of outstanding voting securities' (\u00a715(a))."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are fully covered and there is no central error. The ancillary claims are accurate: the 25% control presumption, the 67%/50% voting definition, the Rule 15a-4 interim contract (150 days, fee cap, escrow) and the 75% independence for 3 years under \u00a715(f). The \u00a715(f) 'unfair burden' sentence is cut off, which counts as omission rather than falsehood. Optional omissions do not reduce the grade."
+}

@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "HO-03",
+  "tier": "A",
+  "answer": "**Withholding rate:** Under Article 10 of the US\u2013Ireland treaty, US-source dividends paid to an Irish-resident fund that passes the limitation-on-benefits test face **15%** withholding, reduced from the statutory 30%. The 5% rate applies only to a company holding at least 10% of voting power, which an ETF almost never does.\n\n**Who bears it:** The fund is the legal recipient, and the withholding agent deducts the tax at source. Because the fund generally cannot reclaim it, shareholders bear the cost economically. It reduces dividends received, lowering NAV and adding to tracking difference against an index often quoted gross or with a different withholding assumption.\n\n**Practical points:**\n- The fund provides a W-8BEN-E to the US payer or custodian to certify treaty status.\n- Irish UCITS ETF investors do not face additional Irish tax on the fund's US dividend income.",
+  "original_answer": "**Withholding rate:** Under Article 10 of the US\u2013Ireland treaty, US-source dividends paid to an Irish-resident fund that passes the limitation-on-benefits test are subject to **15%** withholding. The 5% rate applies only to a company holding at least 10% of the voting power, which an ETF almost never does. The statutory US rate of 30% is reduced under the treaty.\n\n**Who bears it:** The fund is the legal recipient and the withholding agent deducts the tax at source. Because the fund generally cannot reclaim it, the cost is borne economically by the fund's shareholders. It reduces the dividends the fund receives, which lowers NAV and adds to tracking difference against an index that is often quoted gross or with a different withholding assumption.\n\n**Practical points:**\n- The fund provides a W-8BEN-E to the US payer or custodian to certify treaty status.\n- Irish UCITS ETF investors do not face additional Irish tax on the fund's US dividend income.",
+  "void": false,
+  "words_before": 157,
+  "words_after_shorten": 138,
+  "words_final": 138,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-g_40yq1z",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For an Irish UCITS ETF holding US stocks and meeting the US\u2013Ireland treaty limitation-on-benefits test, what withholding applies to US dividends, and who bears that tax?\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-HO-03-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-qrst51lc",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Withholding rate:** Under Article 10 of the US\u2013Ireland treaty, US-source dividends paid to an Irish-resident fund that passes the limitation-on-benefits test are subject to **15%** withholding. The 5% rate applies only to a company holding at least 10% of the voting power, which an ETF almost never does. The statutory US rate of 30% is reduced under the treaty.\n\n**Who bears it:** The fund is the legal recipient and the withholding agent deducts the tax at source. Because the fund generally cannot reclaim it, the cost is borne economically by the fund's shareholders. It reduces the dividends the fund receives, which lowers NAV and adds to tracking difference against an index that is often quoted gross or with a different withholding assumption.\n\n**Practical points:**\n- The fund provides a W-8BEN-E to the US payer or custodian to certify treaty status.\n- Irish UCITS ETF investors do not face additional Irish tax on the fund's US dividend income."
+      ],
+      "stdout": "haiku-HO-03-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

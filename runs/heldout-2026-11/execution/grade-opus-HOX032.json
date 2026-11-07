@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX032",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that portfolio trading costs 'affect NAV and returns.' It explains how each one works through transaction prices. Commissions are 'added to securities' purchase cost or deducted from sale proceeds,' spreads are 'embedded in execution prices' and 'lower NAV,' and market impact 'worsens execution and performance.'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that these costs are 'generally... excluded from the reported expense ratio' and are not 'classified as operating expenses.' It says market impact does not appear 'as a separate expense-ratio charge' and that 'the expense ratio is not an all-in cost measure.' Together these convey that the ratio measures operating expenses and that commissions, spreads and market impact fall outside it."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer correctly says trading costs reduce NAV and performance through execution prices rather than being accrued as an expense, and are not counted in the expense ratio. Its side claims are accurate: investor-level secondary-market costs do not affect NAV, and in-kind creation and redemption can reduce portfolio trading costs. There is no central error and no material falsehood."
+}

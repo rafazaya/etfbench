@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX005",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the costs 'reduce NAV'. Says commissions are capitalized into cost basis or deducted from sale proceeds, and that spreads and market impact are 'implicit in execution prices\u2026 and simply lower NAV'. This matches costs paid through transaction prices that reduce performance and NAV."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says the costs are 'excluded from the expense ratio' and that they 'appear as lower realized or unrealized gains, not fund expenses'. It also says 'these costs aren't in the fee table' and 'true cost exceeds the reported ratio'. Together these cover the expense ratio as an operating-expense measure that leaves out commissions, spreads and market impact."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer correctly says the costs reduce NAV through trade prices and are not accrued as an expense or counted in the expense ratio, so no central error applies. Some side claims go beyond the supplied evidence: the N-1A/SAI disclosure details and creation/redemption fees or cash-in-lieu charges. Neither is contradicted by the source, so neither counts as a material falsehood. 'In-kind creations/redemptions shift most rebalancing trading to authorized participants' is a slight paraphrase of the source's point that the fund mostly doesn't trade to meet flows. It is optional content and not materially false."
+}

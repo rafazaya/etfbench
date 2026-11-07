@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "HO-12",
+  "tier": "A",
+  "answer": "**Auditor selection:** Under Section 32(a) of the Investment Company Act of 1940, the trust's board selects the independent registered public accounting firm by a majority vote of trustees who are not \"interested persons,\" typically at an in-person meeting. The audit committee of independent trustees recommends the auditor, and the full board votes.\n\n**Shareholder ratification:** Section 32(a)(2) requires the selection to be submitted for shareholder ratification or rejection at the next annual meeting, if one is held. If the trust holds no annual meeting, because state law, its governing documents, or an applicable exemption doesn't require one, ratification may be omitted. The Statement of Additional Information and proxy materials disclose whether ratification is sought.\n\nConfirm the specifics against the trust's governing documents and current SEC rules, as I may not reflect the latest guidance.",
+  "original_answer": "**Auditor selection:** Under Section 32(a) of the Investment Company Act of 1940, the trust's board of trustees selects the independent registered public accounting firm. The selection must be approved by a majority of the trustees who are not \"interested persons.\" In practice, the audit committee, which is composed of independent trustees, recommends the auditor, and the full board votes on it, usually at an in-person meeting.\n\n**When shareholder ratification can be omitted:** Shareholder ratification is not a general statutory requirement for auditor selection. It is typically sought only at a shareholder meeting, such as an annual meeting. A multi-series trust can omit ratification when it is not holding an annual shareholder meeting, which generally occurs when state law and the trust's governing documents do not require one and the trust relies on the applicable exemptions from annual meeting requirements. The Statement of Additional Information and any proxy materials will disclose whether ratification is sought.\n\nConfirm the specifics against the trust's governing documents and current SEC rules, since I may not reflect the latest guidance.",
+  "void": false,
+  "words_before": 174,
+  "words_after_shorten": 133,
+  "words_final": 133,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-ub8pyea1",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a US multi-series ETF trust, who selects the independent auditor and when can shareholder ratification be omitted?\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-HO-12-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-__ryh725",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Auditor selection:** Under Section 32(a) of the Investment Company Act of 1940, the trust's board of trustees selects the independent registered public accounting firm. The selection must be approved by a majority of the trustees who are not \"interested persons.\" In practice, the audit committee, which is composed of independent trustees, recommends the auditor, and the full board votes on it, usually at an in-person meeting.\n\n**When shareholder ratification can be omitted:** Shareholder ratification is not a general statutory requirement for auditor selection. It is typically sought only at a shareholder meeting, such as an annual meeting. A multi-series trust can omit ratification when it is not holding an annual shareholder meeting, which generally occurs when state law and the trust's governing documents do not require one and the trust relies on the applicable exemptions from annual meeting requirements. The Statement of Additional Information and any proxy materials will disclose whether ratification is sought.\n\nConfirm the specifics against the trust's governing documents and current SEC rules, since I may not reflect the latest guidance."
+      ],
+      "stdout": "haiku-HO-12-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

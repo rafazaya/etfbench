@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX010",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer says selection requires 'approval by a majority of trustees who are not \"interested persons\"'. That is independent-trustee selection, not board-alone selection."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "The answer states that under Rule 32a-4, ratification can be omitted even when an annual meeting occurs, 'where the fund has an entirely independent audit committee.' The extra charter conditions are permitted and outside the minimum."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Optional point. The answer does not mention a trust-wide vote or different auditors per series. This does not reduce the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minima are fully covered: independent trustees select the auditor, and an all-independent audit committee permits omitting ratification under Rule 32a-4. The answer does not give auditor selection to the adviser and does not say ratification is always required. The side claims (no annual meeting needed, the audit committee typically recommends, a multi-series structure creates no exemption) are not material falsehoods. Omitting the optional point does not affect the grade."
+}

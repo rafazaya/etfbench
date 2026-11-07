@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "HO-04",
+  "tier": "B",
+  "answer": "**No.** An Irish ICAV (Irish Collective Asset-management Vehicle, under the ICAV Act 2015) is a single body corporate with its own legal personality. Its sub-funds are compartments of that entity, not separate legal persons, so they cannot sue, be sued, or contract in their own names. The ICAV acts on their behalf. **Segregated liability** is statutory rather than inherent. The Act provides that assets attributable to one sub-fund are not available to meet another's liabilities, so creditors generally have recourse only to that sub-fund's assets. Practice is to name the relevant sub-fund in contracts and keep separate books and records. **The limitation:** segregation depends on the ICAV statutory framework, so its protection is only as strong as a foreign court's willingness to recognise it, which is weaker than true separate personality. Cross-border counterparties and insolvency practitioners in some jurisdictions may test it. Investors and counterparties often mitigate this with contractual",
+  "original_answer": "**No.** An Irish ICAV (Irish Collective Asset-management Vehicle, under the ICAV Act 2015) is a single body corporate with its own legal personality. Its sub-funds are compartments of that entity, not separate legal persons. They cannot sue, be sued, or contract in their own names. The ICAV does so on their behalf.\n\n**Segregated liability** is therefore statutory rather than inherent. The Act provides that assets attributable to one sub-fund are not available to meet liabilities of another. Creditors of a sub-fund generally have recourse only to that sub-fund's assets. Practice is to name the relevant sub-fund in contracts and to keep separate books and records.\n\n**The limitation** is that segregation depends on the ICAV's statutory framework. Its protection is only as strong as a foreign court's willingness to recognise it, which is weaker than true separate personality. Cross-border counterparties and insolvency practitioners in some jurisdictions may test it. Investors and counterparties often mitigate this with contractual provisions and legal opinions.",
+  "void": false,
+  "words_before": 160,
+  "words_after_shorten": 154,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-78_phmwc",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Does an Irish ICAV sub-fund have separate legal personality, and how does that relate to segregated liability?\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-HO-04-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-58hm5lxk",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**No.** An Irish ICAV (Irish Collective Asset-management Vehicle, under the ICAV Act 2015) is a single body corporate with its own legal personality. Its sub-funds are compartments of that entity, not separate legal persons. They cannot sue, be sued, or contract in their own names. The ICAV does so on their behalf.\n\n**Segregated liability** is therefore statutory rather than inherent. The Act provides that assets attributable to one sub-fund are not available to meet liabilities of another. Creditors of a sub-fund generally have recourse only to that sub-fund's assets. Practice is to name the relevant sub-fund in contracts and to keep separate books and records.\n\n**The limitation** is that segregation depends on the ICAV's statutory framework. Its protection is only as strong as a foreign court's willingness to recognise it, which is weaker than true separate personality. Cross-border counterparties and insolvency practitioners in some jurisdictions may test it. Investors and counterparties often mitigate this with contractual provisions and legal opinions."
+      ],
+      "stdout": "haiku-HO-04-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

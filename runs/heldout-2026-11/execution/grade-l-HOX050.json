@@ -1,0 +1,29 @@
+{
+  "blind_id": "HOX050",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "States that replacement is permitted under an order with board approval, but omits initial shareholder approval of the structure and prospectus disclosure."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says the principal adviser oversees and remains fully responsible for sub-advisers."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Does not mention that an increase in the aggregate advisory fee rate still needs shareholder approval."
+    },
+    {
+      "point": 4,
+      "credit": 1,
+      "reason": "Says shareholders receive an information statement generally within 90 days."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\u201cor Rule 15a-5, where applicable\u201d \u2014 the supplied evidence says the proposed Rule 15a-5 was withdrawn in 2009, so this implies a rule-based route that the evidence does not support.",
+  "grade": "partial",
+  "rationale": "Covers board-approved replacement under an order and the adviser\u2019s continuing oversight and responsibility. It omits required initial approval and disclosure details and the fee-increase vote; the unsupported Rule 15a-5 claim is a material local error, capping the grade at partial."
+}

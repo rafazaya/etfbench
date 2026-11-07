@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX003",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the treaty rate is 15% on US-source dividends paid to the Irish UCITS ETF, provided it qualifies and meets limitation-on-benefits."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Says 'The ETF bears the withholding' and that investors bear only its economic effect through performance. It never says investors cannot reclaim the fund's tax, so half of the required bundle is missing."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Point 1 is fully covered and point 2 is half covered: the answer says the fund bears the cost but omits that investors cannot reclaim it. The answer does not apply a zero rate or call the tax investor-reclaimable, so there is no central error and no material falsehood. Required coverage is 1.5 of 2, which meets the partial threshold but not correct."
+}

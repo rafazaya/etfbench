@@ -1,0 +1,1430 @@
+[
+  {
+    "blind_id": "HOX001",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "Abstains; supplies no required ranking or limitations."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "Abstains; supplies no required ranking or limitations."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Abstains; supplies no required ranking or limitations."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Abstains; supplies no required ranking or limitations."
+  },
+  {
+    "blind_id": "HOX002",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Permanent waiver and three-year/lower-of-two caps are explicit; truncated ending does not remove minima."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Permanent waiver and three-year/lower-of-two caps are explicit; truncated ending does not remove minima."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Permanent waiver and three-year/lower-of-two caps are explicit; truncated ending does not remove minima."
+  },
+  {
+    "blind_id": "HOX003",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "15% and fund economic incidence; does not establish investors cannot reclaim."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "15% and fund economic incidence; does not establish investors cannot reclaim."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "15% and fund economic incidence; does not establish investors cannot reclaim."
+  },
+  {
+    "blind_id": "HOX004",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Conventions and policy governance clear; SEC recognition omitted, responsible-party reimbursement not explicit."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Conventions and policy governance clear; SEC recognition omitted, responsible-party reimbursement not explicit."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Conventions and policy governance clear; SEC recognition omitted, responsible-party reimbursement not explicit."
+  },
+  {
+    "blind_id": "HOX005",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Execution costs lower NAV outside expense ratio."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Execution costs lower NAV outside expense ratio."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Execution costs lower NAV outside expense ratio."
+  },
+  {
+    "blind_id": "HOX006",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Single ICAV entity acts for compartments with segregated recourse."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Single ICAV entity acts for compartments with segregated recourse."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Single ICAV entity acts for compartments with segregated recourse."
+  },
+  {
+    "blind_id": "HOX007",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Transaction prices reduce NAV; operating expense ratio excludes them."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Transaction prices reduce NAV; operating expense ratio excludes them."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Transaction prices reduce NAV; operating expense ratio excludes them."
+  },
+  {
+    "blind_id": "HOX008",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Income and CGT mechanisms covered; added timing/test detail requires checking."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Income and CGT mechanisms covered; added timing/test detail requires checking."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"over 60% ... throughout the period\": the qualifying investment test can trigger at any time, not only throughout.",
+    "grade": "partial",
+    "rationale": "Income and CGT mechanisms covered; added timing/test detail requires checking."
+  },
+  {
+    "blind_id": "HOX009",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Assignment termination and board/independent/shareholder approvals explicit."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Assignment termination and board/independent/shareholder approvals explicit."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Assignment termination and board/independent/shareholder approvals explicit."
+  },
+  {
+    "blind_id": "HOX010",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Independent board approval and all-independent audit committee Rule 32a-4 conditions explicit."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Independent board approval and all-independent audit committee Rule 32a-4 conditions explicit."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Independent board approval and all-independent audit committee Rule 32a-4 conditions explicit."
+  },
+  {
+    "blind_id": "HOX011",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "15% and fund economic incidence clear; no explicit investor inability to reclaim."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "15% and fund economic incidence clear; no explicit investor inability to reclaim."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "15% and fund economic incidence clear; no explicit investor inability to reclaim."
+  },
+  {
+    "blind_id": "HOX012",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "Ordinary agreement accurately described but does not state the described unitary waiver is permanently forgone."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Ordinary agreement accurately described but does not state the described unitary waiver is permanently forgone."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Ordinary agreement accurately described but does not state the described unitary waiver is permanently forgone."
+  },
+  {
+    "blind_id": "HOX013",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "Ordinary cap rule covered but asserts both arrangements recoverable."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Ordinary cap rule covered but asserts both arrangements recoverable."
+      }
+    ],
+    "central_error": "\"Both can let the adviser recover prior waivers\" reverses described nonrecoupable unitary waiver.",
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Ordinary cap rule covered but asserts both arrangements recoverable."
+  },
+  {
+    "blind_id": "HOX014",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "ICAV personality, litigation and segregated assets explicit."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "ICAV personality, litigation and segregated assets explicit."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "ICAV personality, litigation and segregated assets explicit."
+  },
+  {
+    "blind_id": "HOX015",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Board sets daily NAV; 4pm is NYSE-close convention."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Board sets daily NAV; 4pm is NYSE-close convention."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Board sets daily NAV; 4pm is NYSE-close convention."
+  },
+  {
+    "blind_id": "HOX016",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Board mentioned without independent selection requirement; Rule 32a-4 all-independent committee omitted."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "Board mentioned without independent selection requirement; Rule 32a-4 all-independent committee omitted."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"ratification is not required by federal securities law\" overstates conditional relief.",
+    "grade": "wrong",
+    "rationale": "Board mentioned without independent selection requirement; Rule 32a-4 all-independent committee omitted."
+  },
+  {
+    "blind_id": "HOX017",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Conventions and policies clear; SEC recognition and responsible-party fund reimbursement incomplete."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Conventions and policies clear; SEC recognition and responsible-party fund reimbursement incomplete."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Conventions and policies clear; SEC recognition and responsible-party fund reimbursement incomplete."
+  },
+  {
+    "blind_id": "HOX018",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Income and CGT correct; added tax-year rule false."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Income and CGT correct; added tax-year rule false."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"tax year in which the fund\u2019s reporting period ends\": ERI is generally deemed distributed six months after period end.",
+    "grade": "partial",
+    "rationale": "Income and CGT correct; added tax-year rule false."
+  },
+  {
+    "blind_id": "HOX019",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Accounts/AGM and check-the-box/per-se contrast supplied."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Accounts/AGM and check-the-box/per-se contrast supplied."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Accounts/AGM and check-the-box/per-se contrast supplied."
+  },
+  {
+    "blind_id": "HOX020",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Correct convention/policy correction framework; misses SEC recognition under 2a-5; historical assertions unestablished."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Correct convention/policy correction framework; misses SEC recognition under 2a-5; historical assertions unestablished."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Correct convention/policy correction framework; misses SEC recognition under 2a-5; historical assertions unestablished."
+  },
+  {
+    "blind_id": "HOX021",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Assignment termination, board including independent and shareholder approval."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Assignment termination, board including independent and shareholder approval."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Assignment termination, board including independent and shareholder approval."
+  },
+  {
+    "blind_id": "HOX022",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "Abstains; speculation about universe does not answer sponsor ranking or measurement scope."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "Abstains; speculation about universe does not answer sponsor ranking or measurement scope."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Abstains; speculation about universe does not answer sponsor ranking or measurement scope."
+  },
+  {
+    "blind_id": "HOX023",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Industry conventions and policy govern; SEC recognition and reimbursement/board-reporting bundle incomplete."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Industry conventions and policy govern; SEC recognition and reimbursement/board-reporting bundle incomplete."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Industry conventions and policy govern; SEC recognition and reimbursement/board-reporting bundle incomplete."
+  },
+  {
+    "blind_id": "HOX024",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Qualified estimate versus filed terms understood; does not identify Corgi example content."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Qualified estimate versus filed terms understood; does not identify Corgi example content."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"about 2%\" conflicts with vouched 3% estimate; numeric omission optional, false numeric addition remains a side error.",
+    "grade": "partial",
+    "rationale": "Qualified estimate versus filed terms understood; does not identify Corgi example content."
+  },
+  {
+    "blind_id": "HOX025",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Independent selection and Rule 32a-4 conditions covered."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Independent selection and Rule 32a-4 conditions covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"Exchange Act Rule 10A-3 ... also require\" an independent committee for exchange-listed open-end ETFs: registered open-end funds are exempt under 10A-3(c)(4).",
+    "grade": "partial",
+    "rationale": "Independent selection and Rule 32a-4 conditions covered."
+  },
+  {
+    "blind_id": "HOX026",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "ICAV personality and sub-fund litigation/ring-fencing explicit."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "ICAV personality and sub-fund litigation/ring-fencing explicit."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "ICAV personality and sub-fund litigation/ring-fencing explicit."
+  },
+  {
+    "blind_id": "HOX027",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Principal not sub-adviser; written quarterly and annual reports; five-business-day board deadline."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Principal not sub-adviser; written quarterly and annual reports; five-business-day board deadline."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Principal not sub-adviser; written quarterly and annual reports; five-business-day board deadline."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Principal not sub-adviser; written quarterly and annual reports; five-business-day board deadline."
+  },
+  {
+    "blind_id": "HOX028",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Tax contrast right but denies standalone ICAV subfund statements."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Tax contrast right but denies standalone ICAV subfund statements."
+      }
+    ],
+    "central_error": "\"Each sub-fund\u2019s financial statements sit within a single ICAV-level set\" reverses ICAV separate-account flexibility.",
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Tax contrast right but denies standalone ICAV subfund statements."
+  },
+  {
+    "blind_id": "HOX029",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Program retained and both relief categories; 15% limit omitted."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Program retained and both relief categories; 15% limit omitted."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Program retained and both relief categories; 15% limit omitted."
+  },
+  {
+    "blind_id": "HOX030",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Single entity acts for non-person subfunds; statutory segregated recourse."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Single entity acts for non-person subfunds; statutory segregated recourse."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Single entity acts for non-person subfunds; statutory segregated recourse."
+  },
+  {
+    "blind_id": "HOX031",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Board/oversight/fee vote clear; initial shareholder approval and prospectus treated as alternatives rather than both."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Board/oversight/fee vote clear; initial shareholder approval and prospectus treated as alternatives rather than both."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Board/oversight/fee vote clear; initial shareholder approval and prospectus treated as alternatives rather than both."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Board/oversight/fee vote clear; initial shareholder approval and prospectus treated as alternatives rather than both."
+  },
+  {
+    "blind_id": "HOX032",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Trading cost execution/NAV and operating expense ratio distinction."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Trading cost execution/NAV and operating expense ratio distinction."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Trading cost execution/NAV and operating expense ratio distinction."
+  },
+  {
+    "blind_id": "HOX033",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Says recoupment not a separate claim but conditional language does not establish permanent forgoing of described waiver."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says recoupment not a separate claim but conditional language does not establish permanent forgoing of described waiver."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Says recoupment not a separate claim but conditional language does not establish permanent forgoing of described waiver."
+  },
+  {
+    "blind_id": "HOX034",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Assessments and agreement/60-day exception supplied; next regular board meeting omitted."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Assessments and agreement/60-day exception supplied; next regular board meeting omitted."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Assessments and agreement/60-day exception supplied; next regular board meeting omitted."
+  },
+  {
+    "blind_id": "HOX035",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Board/order and oversight; initial approval/prospectus bundle incomplete; aggregate-fee shareholder gate omitted."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Board/order and oversight; initial approval/prospectus bundle incomplete; aggregate-fee shareholder gate omitted."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Board/order and oversight; initial approval/prospectus bundle incomplete; aggregate-fee shareholder gate omitted."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Board/order and oversight; initial approval/prospectus bundle incomplete; aggregate-fee shareholder gate omitted."
+  },
+  {
+    "blind_id": "HOX036",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "Admits no rank; universe and retrieval caution partial but October date/ETF-only/history unresolved requirements absent."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Admits no rank; universe and retrieval caution partial but October date/ETF-only/history unresolved requirements absent."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Admits no rank; universe and retrieval caution partial but October date/ETF-only/history unresolved requirements absent."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Admits no rank; universe and retrieval caution partial but October date/ETF-only/history unresolved requirements absent."
+  },
+  {
+    "blind_id": "HOX037",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Accounts/AGM comparison incomplete and no eligible/per-se tax distinction."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "Accounts/AGM comparison incomplete and no eligible/per-se tax distinction."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"must also prepare audited entity-level annual accounts\" denies ICAV ability to use separate-only subfund financial statements.",
+    "grade": "wrong",
+    "rationale": "Accounts/AGM comparison incomplete and no eligible/per-se tax distinction."
+  },
+  {
+    "blind_id": "HOX038",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "Does not supply acquiring fee/complexity and acquired undue-influence findings or next-meeting reporting; agreement terms omit 60-day exit/exception."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Does not supply acquiring fee/complexity and acquired undue-influence findings or next-meeting reporting; agreement terms omit 60-day exit/exception."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Does not supply acquiring fee/complexity and acquired undue-influence findings or next-meeting reporting; agreement terms omit 60-day exit/exception."
+  },
+  {
+    "blind_id": "HOX039",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Recognizes estimate and filed maximum distinction but omits uncertainty and actual Corgi example."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Recognizes estimate and filed maximum distinction but omits uncertainty and actual Corgi example."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"estimate ... 2%\" falsely recalls 3%; optional numeric omission would not penalize.",
+    "grade": "partial",
+    "rationale": "Recognizes estimate and filed maximum distinction but omits uncertainty and actual Corgi example."
+  },
+  {
+    "blind_id": "HOX040",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Taxable undistributed income and CGT explicit."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Taxable undistributed income and CGT explicit."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"reportable income you were taxed on is added to your base cost\" overstates adjustment: only undistributed excess income, not distributed income, increases basis.",
+    "grade": "partial",
+    "rationale": "Taxable undistributed income and CGT explicit."
+  },
+  {
+    "blind_id": "HOX041",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "No practitioner estimate or actual Corgi terms; generic filing variation is partial evidence only."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "No practitioner estimate or actual Corgi terms; generic filing variation is partial evidence only."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "No practitioner estimate or actual Corgi terms; generic filing variation is partial evidence only."
+  },
+  {
+    "blind_id": "HOX042",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Board sets at least daily NAV; 4pm customary not mandated."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Board sets at least daily NAV; 4pm customary not mandated."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Board sets at least daily NAV; 4pm customary not mandated."
+  },
+  {
+    "blind_id": "HOX043",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Board/order and responsibility; initial shareholder authorization incomplete; fee increase gate absent."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Board/order and responsibility; initial shareholder authorization incomplete; fee increase gate absent."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Board/order and responsibility; initial shareholder authorization incomplete; fee increase gate absent."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Board/order and responsibility; initial shareholder authorization incomplete; fee increase gate absent."
+  },
+  {
+    "blind_id": "HOX044",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Board/daily and NYSE-close convention supplied."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Board/daily and NYSE-close convention supplied."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Board/daily and NYSE-close convention supplied."
+  },
+  {
+    "blind_id": "HOX045",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Fund bears 15%, investor cannot reclaim."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Fund bears 15%, investor cannot reclaim."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"MSCI net indices assume 30%\" universal claim is false; net index withholding depends on index/tax assumptions.",
+    "grade": "partial",
+    "rationale": "Fund bears 15%, investor cannot reclaim."
+  },
+  {
+    "blind_id": "HOX046",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Quarterly but no written/annual assessment or five-day maximum; permits some subadvisers."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Quarterly but no written/annual assessment or five-day maximum; permits some subadvisers."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Quarterly but no written/annual assessment or five-day maximum; permits some subadvisers."
+      }
+    ],
+    "central_error": "\"provided it is not a sub-adviser primarily responsible\" wrongly permits non-primary subadvisers as designee; rule excludes subadvisers.",
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Quarterly but no written/annual assessment or five-day maximum; permits some subadvisers."
+  },
+  {
+    "blind_id": "HOX047",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "ERI taxable without cash; reporting-status disposal CGT with ERI basis adjustment."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "ERI taxable without cash; reporting-status disposal CGT with ERI basis adjustment."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "ERI taxable without cash; reporting-status disposal CGT with ERI basis adjustment."
+  },
+  {
+    "blind_id": "HOX048",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Both retained duties including15% and relief categories accurately identified despite hedging."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Both retained duties including15% and relief categories accurately identified despite hedging."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both retained duties including15% and relief categories accurately identified despite hedging."
+  },
+  {
+    "blind_id": "HOX049",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "No Rafa estimate or Corgi actual terms; generic distinction only."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "No Rafa estimate or Corgi actual terms; generic distinction only."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "No Rafa estimate or Corgi actual terms; generic distinction only."
+  },
+  {
+    "blind_id": "HOX050",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Board/order and retained oversight; initial authorization and aggregate-fee gate incomplete."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Board/order and retained oversight; initial authorization and aggregate-fee gate incomplete."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Board/order and retained oversight; initial authorization and aggregate-fee gate incomplete."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"or Rule 15a-5, where applicable\": proposed rule was withdrawn, not available relief.",
+    "grade": "partial",
+    "rationale": "Board/order and retained oversight; initial authorization and aggregate-fee gate incomplete."
+  },
+  {
+    "blind_id": "HOX051",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Due diligence/written arrangements, ongoing challenge and retained responsibility/substance."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Due diligence/written arrangements, ongoing challenge and retained responsibility/substance."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Due diligence/written arrangements, ongoing challenge and retained responsibility/substance."
+  },
+  {
+    "blind_id": "HOX052",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Written agreement, diligence/monitoring and retained substance/liability."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Written agreement, diligence/monitoring and retained substance/liability."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Written agreement, diligence/monitoring and retained substance/liability."
+  },
+  {
+    "blind_id": "HOX053",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Program/15% retained; classification/HLIM relief."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Program/15% retained; classification/HLIM relief."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Program/15% retained; classification/HLIM relief."
+  },
+  {
+    "blind_id": "HOX054",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "All required delegate oversight and responsibility minima explicit."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "All required delegate oversight and responsibility minima explicit."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "All required delegate oversight and responsibility minima explicit."
+  },
+  {
+    "blind_id": "HOX055",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Assignment termination and both approval bodies covered."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Assignment termination and both approval bodies covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Assignment termination and both approval bodies covered."
+  },
+  {
+    "blind_id": "HOX056",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "No rank or actual source limitations; requests data instead."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "No rank or actual source limitations; requests data instead."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "No rank or actual source limitations; requests data instead."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "No rank or actual source limitations; requests data instead."
+  },
+  {
+    "blind_id": "HOX057",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "Speculative alternatives not requested ranking; some universe qualification but no actual dates/history limitation."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Speculative alternatives not requested ranking; some universe qualification but no actual dates/history limitation."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Speculative alternatives not requested ranking; some universe qualification but no actual dates/history limitation."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Speculative alternatives not requested ranking; some universe qualification but no actual dates/history limitation."
+  },
+  {
+    "blind_id": "HOX058",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Termination and board/independent/shareholder approvals supplied."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Termination and board/independent/shareholder approvals supplied."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Termination and board/independent/shareholder approvals supplied."
+  },
+  {
+    "blind_id": "HOX059",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Names three brands but explicitly cannot order first two; partial brand asset-universe scope."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Names three brands but explicitly cannot order first two; partial brand asset-universe scope."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Names three brands but explicitly cannot order first two; partial brand asset-universe scope."
+  },
+  {
+    "blind_id": "HOX060",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "NAV impact and expense-ratio exclusion clear."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "NAV impact and expense-ratio exclusion clear."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"Commissions are often small because most brokers now charge none\" imports retail zero-commission convention into institutional portfolio trading.",
+    "grade": "partial",
+    "rationale": "NAV impact and expense-ratio exclusion clear."
+  },
+  {
+    "blind_id": "HOX061",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Not subadviser, quarterly written/annual assessment and five-business-day material reporting."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Not subadviser, quarterly written/annual assessment and five-business-day material reporting."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Not subadviser, quarterly written/annual assessment and five-business-day material reporting."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Not subadviser, quarterly written/annual assessment and five-business-day material reporting."
+  },
+  {
+    "blind_id": "HOX062",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Fee/complexity and overreach concepts present; exact findings/board timing and 60-day agreement missing."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Fee/complexity and overreach concepts present; exact findings/board timing and 60-day agreement missing."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Fee/complexity and overreach concepts present; exact findings/board timing and 60-day agreement missing."
+  },
+  {
+    "blind_id": "HOX063",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Both assessments, next board meeting, 60-day agreement and same-adviser exception explicit."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Both assessments, next board meeting, 60-day agreement and same-adviser exception explicit."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both assessments, next board meeting, 60-day agreement and same-adviser exception explicit."
+  },
+  {
+    "blind_id": "HOX064",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "All ICAV/plc account/AGM and US election distinctions."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "All ICAV/plc account/AGM and US election distinctions."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "All ICAV/plc account/AGM and US election distinctions."
+  },
+  {
+    "blind_id": "HOX065",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Preappointment agreement/diligence, ongoing monitoring/challenge, letterbox prohibition and liability retained despite truncated ending."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Preappointment agreement/diligence, ongoing monitoring/challenge, letterbox prohibition and liability retained despite truncated ending."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Preappointment agreement/diligence, ongoing monitoring/challenge, letterbox prohibition and liability retained despite truncated ending."
+  },
+  {
+    "blind_id": "HOX066",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Adviser identified but no exclusion of subadviser; quarterly written but no annual assessment; no five-day limit."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Adviser identified but no exclusion of subadviser; quarterly written but no annual assessment; no five-day limit."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Adviser identified but no exclusion of subadviser; quarterly written but no annual assessment; no five-day limit."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"or an officer or employee of the adviser\" is not a permitted valuation designee under Rule 2a-5.",
+    "grade": "wrong",
+    "rationale": "Adviser identified but no exclusion of subadviser; quarterly written but no annual assessment; no five-day limit."
+  },
+  {
+    "blind_id": "HOX067",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Correct ordered brands; scope only partial as confines universe to US-domiciled exchange-listed funds without verifying Lipper coverage."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Correct ordered brands; scope only partial as confines universe to US-domiciled exchange-listed funds without verifying Lipper coverage."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Correct ordered brands; scope only partial as confines universe to US-domiciled exchange-listed funds without verifying Lipper coverage."
+  },
+  {
+    "blind_id": "HOX068",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Independent selection correct; no all-independent audit committee Rule32a-4 route."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "Independent selection correct; no all-independent audit committee Rule32a-4 route."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Independent selection correct; no all-independent audit committee Rule32a-4 route."
+  },
+  {
+    "blind_id": "HOX069",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Correct brands but explicitly disclaims ordering; correct branded ETF-asset universe."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Correct brands but explicitly disclaims ordering; correct branded ETF-asset universe."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Correct brands but explicitly disclaims ordering; correct branded ETF-asset universe."
+  },
+  {
+    "blind_id": "HOX070",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "15%/program and classification/HLIM relief explicit."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "15%/program and classification/HLIM relief explicit."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "15%/program and classification/HLIM relief explicit."
+  },
+  {
+    "blind_id": "HOX071",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Board timing, daily NAV, 4pm close convention supplied."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Board timing, daily NAV, 4pm close convention supplied."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Board timing, daily NAV, 4pm close convention supplied."
+  },
+  {
+    "blind_id": "HOX072",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "15% and fund incidence plus investor inability to reclaim explicit."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "15% and fund incidence plus investor inability to reclaim explicit."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "15% and fund incidence plus investor inability to reclaim explicit."
+  }
+]

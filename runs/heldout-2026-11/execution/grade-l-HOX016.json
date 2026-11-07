@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX016",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Says the board selects the auditor but does not specify that the selecting trustees are independent."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Connects audit-committee appointment with omitting a vote, but does not state the required condition that the committee be all-independent."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "The answer gives the board-selection and audit-committee concepts, but omits the required independent-trustee and all-independent-committee qualifications. The optional point is omitted and does not reduce the grade."
+}

@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX048",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Explicitly says the liquidity risk-management program and 15% illiquid-investment limit continue."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Names relief from classification and the HLIM, but presents it only as possible rather than stating that qualifying ETFs receive it."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "The continuing requirements are correctly covered. The relief requirements are identified but hedged as possible, so the answer does not clearly state the requested scope."
+}

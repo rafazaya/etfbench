@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX017",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Calls the figures common fund thresholds and says they are not statutory limits, but omits the SEC's recognition of industry practice."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Says the fund's policies govern correction and material errors are reported to the board, but does not state that the responsible party reimburses the fund."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Notes that wording varies by fund and advises checking policy documents for the fund's procedures."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Both required points are substantively addressed but incomplete. The answer supplies the core distinction that the thresholds are not statutory and that fund policy governs, without all details in the required minima. Optional-point omissions do not reduce the grade."
+}

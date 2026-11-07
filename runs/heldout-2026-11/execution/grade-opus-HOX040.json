@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX040",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that undistributed reportable income is taxed as income even though no cash was received. It also says the reportable income figure covers distributions, so both undistributed excess and distributions are included."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that disposal gains are taxed as chargeable gains under Capital Gains Tax, not as income, which matches capital-gains treatment where reporting status is held throughout ownership."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Optional point, not addressed. Optional omissions do not reduce the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered and there is no central error: the answer does not defer income tax to sale and does not exclude undistributed excess. Side claims are consistent with or go beyond the supplied evidence without contradicting it. These include the base-cost adjustment, the six-month reporting window, capital-loss treatment, and savings versus dividend characterisation. None is a material falsehood."
+}

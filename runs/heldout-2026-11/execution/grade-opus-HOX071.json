@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX071",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Says 'The fund's board of directors (or trustees) sets the pricing time' and that NAV must be calculated 'at least once daily, Monday through Friday, with limited exceptions,' which matches 'at least once each business day.'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says 4 pm ET is 'a market convention, not a legal mandate' that 'aligns with the NYSE close.'"
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. There is no central error: the answer says the board, not the SEC or the exchange, sets the time, and it explicitly denies that 4 pm is legally mandated. The side claims on forward pricing, frequency exceptions, fair value and disclosure are consistent with the evidence or harmless. The final sentence is cut off, but that is an omission, not a falsehood."
+}

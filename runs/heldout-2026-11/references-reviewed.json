@@ -1,7 +1,7 @@
 {
   "status": "provisional held-out references; not goldens",
   "prepared_on": "2026-11-06",
-  "model_runs_authorized": false,
+  "model_runs_authorized": true,
   "tier_policy": "A: approved Participants units 1–9, approved AP/fee lines or task-authorized Rafa vouched facts. B: other bank text. C: sourced inbox candidates. Mixed answers take the least-approved required source.",
   "scoring_rule": {
     "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
@@ -837,12 +837,17 @@
         {
           "point": 1,
           "mark": "required",
-          "minimum": "Rafa's November 6 practitioner estimate is a typical maximum variable creation/redemption fee of 3%, expressed with uncertainty."
+          "minimum": "Rafa's November 6 figure is a practitioner estimate of a typical maximum variable creation/redemption fee, expressed with uncertainty; exact percentage recall is optional."
         },
         {
           "point": 2,
           "mark": "required",
-          "minimum": "Corgi ETF Trust I's SAI supplies a fund-specific example of variable transaction fees up to 3%."
+          "minimum": "Corgi ETF Trust I's SAI supplies a fund-specific example of filed variable transaction fee terms, rather than a universal legal ceiling; exact percentage recall is optional."
+        },
+        {
+          "point": 3,
+          "mark": "optional",
+          "minimum": "The estimate and cited Corgi maximum are 3%."
         }
       ],
       "central_errors": [
@@ -850,7 +855,7 @@
       ],
       "grader_notes": [
         "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
-        "Practitioner estimate is vouched in task context but bank retains “I believe”; preserve uncertainty. This is provisional and for Rafa confirmation."
+        "Practitioner estimate confirmed by Rafa on 2026-11-06; preserve uncertainty. Exact percentage is optional."
       ],
       "citations": [
         {
@@ -876,7 +881,7 @@
       "original_question": "Which five firms lead by US exchange LMM/DLP assignment counts in the inbox snapshot retrieved November 6, 2026, and what date/universe limitations govern that ranking?",
       "sharpened_question": "Which five firms have the most US exchange LMM/DLP assignments (NYSE Arca LMM, Nasdaq DLP, Cboe BZX LMM) in the dated snapshot retrieved November 6, 2026, and what date and universe limitations govern that ranking?",
       "change_note": "Externally motivated question scoped to the bank evidence; see demand_source.",
-      "tier": "C",
+      "tier": "A",
       "audience": "issuer/operator",
       "regime": "US",
       "answer_type": "fact",
@@ -943,6 +948,11 @@
         ],
         "decision": "distinct",
         "reason": "Ranking data was excluded from the 44; pilot LMM question is board selection diligence."
+      },
+      "practitioner_confirmation": {
+        "by": "Rafa",
+        "date": "2026-11-06",
+        "scope": "Jane Street, Virtu, GTS, Susquehanna, Citadel Securities rank order in the dated assignment universe, not exact counts or Q3 history"
       }
     },
     {
@@ -1080,6 +1090,7 @@
       }
     }
   ],
-  "review_status": "Two source reviews complete; merged with documented source adjudication. Three practitioner decisions provisional.",
-  "approved_for_execution": false
+  "review_status": "Two source reviews complete; Rafa accepted all three defaults and confirmed HO-16 rank order on 2026-11-06. Provisional validation, not golden approval.",
+  "approved_for_execution": true,
+  "authorization": "Rafa 2026-11-06: all defaults accepted; HO-16 order practitioner-confirmed; exact numbers optional for HO-15/16/18."
 }

@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX022",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0,
+      "reason": "Does not name or rank any sponsor brands."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "Does not state the measurement scope; it only says the scope may be narrower and requests confirmation."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "wrong",
+  "rationale": "Neither required point is covered, and the answer supplies no substantive requested fact. Its possible-scope caveat is not an explicit false claim."
+}

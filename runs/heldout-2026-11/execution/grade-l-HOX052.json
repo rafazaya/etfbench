@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX052",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Covers pre-appointment checks, ongoing monitoring, and a written agreement, but does not say the ManCo challenges delegate reports."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that delegation does not transfer responsibility and that the ManCo retains sufficient substance to oversee delegates."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Does not mention designated persons monitoring the six functions or escalating issues to the board; this point is optional."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "One required point is substantively incomplete because the answer omits challenging delegate reports. The other required point is covered; optional omission does not reduce the grade."
+}

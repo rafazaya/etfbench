@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX033",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer says unitary-waiver recoupment is 'usually not a separate claim' and that restoring the rate is 'a repricing decision\u2026 not reimbursement.' That leans toward forgone amounts. But it never says the waived amounts in this arrangement are permanently gone, and it allows that a contractual waiver may include recoupment. Coverage is substantive but incomplete."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States recoupment is allowed 'within a rolling window, typically three years' and 'only if the expense ratio stays at or below the lower of the cap at waiver and at recovery.' This fully matches the minimum."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error. The answer does not reverse the two treatments or grant unlimited recovery above the caps. The general remark that some unitary contracts may include recoupment is not a material falsehood, since contract terms control. Point 2 is fully covered. Point 1 is only partly covered because the answer never states that waived amounts in the described arrangement are permanently forgone. The answer is also truncated at the end. Required coverage is 1.5 of 2, which meets the partial threshold but not correct."
+}

@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX060",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that commissions, the bid-ask spread 'paid on each trade' and market impact ('price movement caused by the fund's own orders') reduce NAV, and that their effect shows in returns relative to the index. This covers trading costs being borne through the fund's trade prices and reducing performance and NAV. The phrase 'deducted from fund assets' is loose, but it does not explicitly call them an accrued expense."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that the expense ratio covers management fees, 12b-1 fees and other operating expenses, and that 'Brokerage commissions and other portfolio transaction costs are generally excluded.' Spreads and market impact fall within 'other portfolio transaction costs.'"
+    }
+  ],
+  "central_error": null,
+  "local_error": "'Commissions are often small because most brokers now charge none for ETF and stock trades.' Zero-commission pricing is a retail-broker practice. It does not apply to a fund's institutional portfolio trading, where the fund pays brokerage commissions, as the question presumes. This is a material false side claim about the fund's costs.",
+  "grade": "partial",
+  "rationale": "Both required points are fully covered: trading costs reduce NAV and performance through the fund's trades, and they are excluded from the expense ratio. There is no explicit central error, because 'deducted from fund assets' does not claim the costs are accrued as an expense or counted in the expense ratio. However, the claim that commissions are small because brokers charge none applies retail zero-commission trading to fund portfolio brokerage. That is a material local falsehood, which caps the grade at partial."
+}

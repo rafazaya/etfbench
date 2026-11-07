@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX027",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the board may designate the fund's 'primary investment adviser, but not a sub-adviser.' This matches the principal-adviser and no-sub-adviser minimum."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States 'Quarterly: written reports' and 'At least annually: a written assessment of the fair value process's adequacy and effectiveness.' This covers both written quarterly reporting and the yearly assessment."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "States material matters are reported 'within the board's set timeframe' and 'no later than five business days' after the designee becomes aware. This matches the minimum."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are fully covered. No central error appears: the answer explicitly excludes sub-advisers and describes periodic written reporting. The side claims are consistent with Rule 2a-5 and are not material falsehoods. These include board self-determination, trustee or depositor for funds without a board, use of sub-advisers and pricing services under the designee's oversight, report contents, and segregation of functions."
+}

@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX065",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer covers checks before appointment: 'assess the delegate's competence, resources, governance, systems, controls and conflicts'. It covers a written agreement with reporting, audit, instruction and termination rights. It covers ongoing monitoring afterwards: designated persons 'review performance, KPIs, risk and compliance reports, and escalate issues to the board', plus periodic board review. The source's word 'challenge' is not used, but reviewing reports and escalating issues substantively meets the oversight and challenge bundle."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States 'Delegation does not affect the ManCo's liability' and 'The ManCo must not become a \"letter-box entity\"' under the heading 'Substance', which covers retained responsibility and substance."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Optional. Mentions CP86 designated persons overseeing functions and escalating to the board, but says they oversee 'investment management and administration' rather than the six managerial functions. Not scored toward the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": "'The CBI must clear the investment manager in advance'. The evidence says the Central Bank's advance approval is needed 'unless it's an EU-regulated firm, which only notifies.' The answer presents advance clearance as universal, which contradicts the supplied evidence on a requested pre-appointment step. This is a material local falsehood, so the grade is capped at partial.",
+  "grade": "partial",
+  "rationale": "Both required points are fully covered: pre-appointment due diligence, a written agreement, and ongoing monitoring with escalation; and retained liability with the no-letter-box substance requirement. There is no central error, because the answer affirms liability is unaffected and rejects a letter-box entity. However, the unqualified claim that the CBI must clear every investment manager in advance contradicts the evidence's EU-regulated notification exception. Under the scoring rule, this material local falsehood caps the grade at partial."
+}

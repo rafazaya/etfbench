@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX059",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Correctly names iShares/BlackRock, Vanguard and SPDR/State Street, with SPDR third. However, it leaves the top two unordered ('Vanguard or iShares') and frames the result as a likely guess, so it does not commit to iShares first, Vanguard second."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States the measure as total net assets at the sponsor brand level within Lipper's US ETF-for-sale universe, tied to the September 2026 report. This matches the required scope, even though it is hedged as 'typically'."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error: it does not use sponsor-wide AUM and does not treat this as a global ranking. Point 2 is covered, but point 1 is only half covered because the top-two order is left open. Required coverage is 1.5 of 2, which is at least half, and core facts are supplied, so the grade is partial. The ETN-exclusion remark is unsupported by the evidence but not contradicted by it, so it is not treated as a material falsehood."
+}

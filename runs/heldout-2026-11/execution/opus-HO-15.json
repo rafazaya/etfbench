@@ -1,0 +1,41 @@
+{
+  "model": "opus",
+  "id": "HO-15",
+  "tier": "A",
+  "answer": "I can't find \"Rafa's practitioner estimate\" or the Corgi ETF Trust I SAI excerpt in this workspace or our conversation, so I can't confirm what either says.\n\n**General industry context:** For US '40 Act ETFs, SAIs commonly cap the variable creation/redemption charge, often combined with the fixed fee, at **up to 2%** of a creation unit's value. This follows long-standing SEC exemptive-relief practice. Some issuers disclose higher caps, such as 3%, for cash or custom baskets.\n\n**On the Corgi SAI:** In general, a practitioner \"typical maximum\" is only a heuristic. The binding figure is whatever each fund's SAI actually discloses. A specific fund can set a different cap or fee structure, and a cited SAI is usually there to show that.\n\nIf you share the estimate and the relevant SAI excerpt, I can confirm the exact figure and check how the fund's filed terms compare.",
+  "original_answer": "I can't find \"Rafa's practitioner estimate\" or the Corgi ETF Trust I SAI excerpt in this workspace or our conversation, so I can't confirm what either says.\n\n**General industry context:** For US '40 Act ETFs, SAIs commonly cap the variable creation/redemption charge, often combined with the fixed fee, at **up to 2%** of a creation unit's value. This follows long-standing SEC exemptive-relief practice. Some issuers disclose higher caps, such as 3%, for cash or custom baskets.\n\n**On the Corgi SAI:** In general, a practitioner \"typical maximum\" is only a heuristic. The binding figure is whatever each fund's SAI actually discloses. A specific fund can set a different cap or fee structure, and a cited SAI is usually there to show that.\n\nIf you share the estimate and the relevant SAI excerpt, I can confirm the exact figure and check how the fund's filed terms compare.",
+  "void": false,
+  "words_before": 145,
+  "words_after_shorten": null,
+  "words_final": 145,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-exy27lqw",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "In Rafa's US ('40 Act) ETF practitioner estimate, what is the typical maximum variable creation/redemption fee, and what does the cited Corgi ETF Trust I SAI show about how that figure relates to a specific fund's filed terms?\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-HO-15-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": []
+}

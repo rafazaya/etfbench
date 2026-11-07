@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX010",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that the independent trustees select the auditor."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that an all-independent audit committee can eliminate the need for shareholder ratification under Rule 32a-4."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are covered, with no central error or material falsehood. The optional trust-wide voting point is omitted, which does not reduce the grade."
+}

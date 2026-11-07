@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX034",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Covers both advisers\u2019 assessments and board reports, but omits the requirement to report by the next regular meeting."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that an investment agreement is required subject to an adviser-related exception and is terminable on no more than 60 days\u2019 notice."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "One required point is incomplete because it omits the reporting deadline; the other is covered. No explicit central error or material falsehood is established by the supplied evidence."
+}

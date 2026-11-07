@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "HO-02",
+  "tier": "A",
+  "answer": "**Who sets the time:** The fund's board of directors (or trustees) sets the pricing time, and the prospectus discloses it. Rule 22c-1 under the Investment Company Act of 1940 requires forward pricing: purchase and redemption orders receive the next NAV struck after the order is received. **Frequency:** Rule 22c-1 requires NAV to be calculated at least once daily, Monday through Friday, with limited exceptions, such as days when no portfolio securities changed value and no shares were tendered. **Status of 4 pm ET:** It's a market convention, not a legal mandate. It aligns with the NYSE close, when most U.S. equity prices are set for valuation. Boards may choose other times, for example for funds holding foreign securities, which are often valued using fair-value procedures. Any change must be disclosed, and the board must approve it. For ETFs, the exchange price trades intraday, but authorized participants create and redeem at",
+  "original_answer": "**Who sets the time:** The fund's board of directors (or trustees) sets the pricing time, and the prospectus discloses it. Rule 22c-1 under the Investment Company Act of 1940 requires forward pricing, meaning purchase and redemption orders receive the next NAV struck after the order is received.\n\n**Frequency:** Rule 22c-1 requires NAV to be calculated at least once daily, Monday through Friday. The rule has limited exceptions, such as days when no portfolio securities changed value and no shares were tendered.\n\n**Status of 4 pm ET:** It is a market convention, not a legal mandate. It aligns with the NYSE close, when most U.S. equity prices are set for valuation. Boards may choose other times, for example for funds holding foreign securities, which are often valued using fair-value procedures. Any change must be disclosed, and the board must approve it.\n\nFor ETFs, the exchange price trades intraday, but authorized participants create and redeem at NAV, so the pricing time still matters for arbitrage. This is general regulatory background, so check current SEC rules and staff guidance for specifics.",
+  "void": false,
+  "words_before": 178,
+  "words_after_shorten": 173,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-cqa0zrzu",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a US open-end ETF, who sets the NAV pricing time and how frequently must NAV be struck? Explain the status of the usual 4 pm ET time.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-HO-02-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-m_2gf4du",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Who sets the time:** The fund's board of directors (or trustees) sets the pricing time, and the prospectus discloses it. Rule 22c-1 under the Investment Company Act of 1940 requires forward pricing, meaning purchase and redemption orders receive the next NAV struck after the order is received.\n\n**Frequency:** Rule 22c-1 requires NAV to be calculated at least once daily, Monday through Friday. The rule has limited exceptions, such as days when no portfolio securities changed value and no shares were tendered.\n\n**Status of 4 pm ET:** It is a market convention, not a legal mandate. It aligns with the NYSE close, when most U.S. equity prices are set for valuation. Boards may choose other times, for example for funds holding foreign securities, which are often valued using fair-value procedures. Any change must be disclosed, and the board must approve it.\n\nFor ETFs, the exchange price trades intraday, but authorized participants create and redeem at NAV, so the pricing time still matters for arbitrage. This is general regulatory background, so check current SEC rules and staff guidance for specifics."
+      ],
+      "stdout": "haiku-HO-02-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

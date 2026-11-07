@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX047",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer says excess reportable income (ERI) is taxable even though no cash is received. This matches the evidence that undistributed excess income forms part of the investor's taxable reportable income. The question focuses on undistributed income, so not explicitly restating that cash distributions are also taxed is a harmless omission."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "The answer states that if reporting-fund status applied throughout ownership, disposal gains generally fall under Capital Gains Tax rather than being taxed as offshore income gains. The hedge 'generally' covers the exceptions."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Optional point. The answer implies it by contrasting the treatment with 'offshore income gains taxed as income' but never directly says non-reporting funds get that treatment. This omission cannot reduce the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are covered and there is no central error. The answer explicitly says undistributed ERI is taxable without cash being received, which is the opposite of both listed central errors. Its side claims go beyond the supplied evidence but nothing in the evidence contradicts them, so none counts as a material falsehood. These claims are: the six-month deemed receipt date, dividend versus interest treatment, and the increase to acquisition cost to avoid double taxation."
+}

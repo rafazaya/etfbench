@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX056",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0,
+      "reason": "The answer gives no ranking; it says 'any top-five list I gave would be a guess.' Jane Street, Virtu, GTS, Susquehanna and Citadel are never named."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "It raises universe scope only as a generic question ('ETFs only, or all listed equities and ETPs'). It does not say the universe is ETP assignments across the retrieved NYSE Arca LMM, Nasdaq DLP and Cboe BZX lists. It omits the NYSE October 5 sheet date and that Nasdaq and Cboe effective dates are unestablished."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "It mentions November 6, 2026 only to say it lacks that snapshot. It does not establish that date as the retrieval date or say that historical September 30 and ETF-only rankings remain unresolved."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "wrong",
+  "rationale": "The answer is a refusal with generic methodology advice. It contains no central error and no falsehood, but required coverage is 0 of 3 and it supplies no requested core fact. Under the scoring rule, that makes it wrong."
+}

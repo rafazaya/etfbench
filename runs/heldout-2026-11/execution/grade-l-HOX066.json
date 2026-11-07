@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX066",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Names the fund\u2019s investment adviser but does not specify principal adviser or exclude a sub-adviser."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "States written quarterly reporting but omits the annual valuation-process assessment."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Mentions prompt reporting of significant matters but omits the board-set deadline and five-business-day maximum."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "The answer supplies substantive information for all three points, but leaves each required detail incomplete. No explicit central error or material local falsehood is established by the supplied evidence."
+}

@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX044",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that the 'fund's board of directors sets the time(s) of day when NAV is computed' and that NAV 'must be computed at least once each business day.' This matches the source exactly."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Calls 4 pm ET 'industry convention, not a regulatory mandate' that 'matches the NYSE's regular-session close.' This matches the source's 'convention tied to the NYSE close, not a rule.'"
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. There is no central error: the answer says the board sets the time and denies that 4 pm is a rule. The side details are beyond the supplied evidence: the Rule 22c-1(b) exceptions, forward pricing, extended trading hours and the 2022 hard-close proposal not being adopted. None of these contradicts the evidence or is shown to be a material falsehood. The forward-pricing statement agrees with the source."
+}

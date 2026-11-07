@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX043",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Says the order permits replacement with board approval and mentions disclosure, but does not state that shareholders initially approve the structure."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States the principal adviser supervises and monitors sub-advisers and retains its fiduciary duties."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Does not mention shareholder approval for an increase in the aggregate advisory fee rate."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "The answer supplies the replacement process and the principal adviser\u2019s continuing responsibility, but omits the required aggregate-fee approval point. The stated replacement process is not a central error."
+}

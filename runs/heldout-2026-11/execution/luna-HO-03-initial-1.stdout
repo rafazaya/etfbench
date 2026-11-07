@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b3ef-5693-76c2-93cf-465f9d43b228"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The treaty rate is **15%** on US-source dividends paid to the Irish UCITS ETF, assuming it qualifies for treaty benefits and satisfies the limitation-on-benefits provisions. The **ETF bears the withholding**: it is deducted at source from the dividend by the US payer or custodian, reducing the fund’s net assets and returns. Investors generally do not separately pay this US withholding; they bear its economic effect through the ETF’s performance."}}
+{"type":"turn.completed","usage":{"input_tokens":8373,"cached_input_tokens":4864,"cache_write_input_tokens":0,"output_tokens":93,"reasoning_output_tokens":0}}

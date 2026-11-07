@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX051",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Covers due diligence before appointment and a written agreement defining the mandate and reporting. Afterwards it requires continuous monitoring, regular reports to be reviewed, and corrective action up to termination. This satisfies the check, monitor and challenge requirement under written arrangements."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States the ManCo 'remains fully responsible to the UCITS and its investors' notwithstanding delegation. It also says delegation 'cannot become letter-box management' and must not impair effective supervision, which covers retained substance for oversight."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Optional point. Designated persons, the six managerial functions and board escalation are not mentioned. This does not affect the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer correctly prohibits letter-box delegation and keeps the ManCo's responsibility, so there is no central error. The added detail on delegate qualifications, conflicts and proportionality is consistent with the evidence and is not a material falsehood. Omitting the optional point does not reduce the grade."
+}

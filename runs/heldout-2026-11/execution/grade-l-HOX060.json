@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX060",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Says commissions, spreads and market impact reduce NAV; also says transaction costs affect returns relative to the index."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says the expense ratio covers operating expenses and excludes portfolio transaction costs."
+    }
+  ],
+  "central_error": "\u201cCommissions, the bid-ask spread paid on each trade, and market impact ... are deducted from fund assets\u201d \u2014 the rule says portfolio trading costs are paid through transaction prices, not accrued against NAV as an expense.",
+  "local_error": "\u201cAuthorized participants usually absorb much of the trading cost through in-kind transfers and creation/redemption fees\u201d \u2014 the supplied evidence says in-kind exchanges mean the fund mostly does not trade to meet flows; it does not establish that APs absorb most trading costs.",
+  "grade": "wrong",
+  "rationale": "Both required points are covered, but the answer explicitly characterizes portfolio trading costs as deductions from fund assets, contrary to the rule that they are reflected through transaction prices rather than accrued as NAV expenses."
+}

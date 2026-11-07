@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX024",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Frames the figure as Rafa's practitioner estimate of a typical maximum variable creation/redemption fee, hedged ('My recollection is'), and says it is 'not the routine charge or a universal '40 Act ceiling'. Exact percentage recall is optional."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "States that a particular fund's filed terms, not an industry rule of thumb, determine its disclosed maximum. However, it declines to say what the Corgi SAI shows and does not identify it as a fund-specific filing example, so the bundle is substantive but incomplete."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Optional point. The answer gives about 2% and does not give the Corgi maximum; this omission does not reduce the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": "'Rafa's practitioner estimate is **about 2% of the creation/redemption value**' is false because the source records Rafa's estimate as 3%. A misstated figure is a material local falsehood, which caps the grade at partial, even though it is hedged and exact recall is optional.",
+  "grade": "partial",
+  "rationale": "There is no central error: the answer explicitly denies that the figure is a universal ceiling. Required coverage is 1.5 of 2, which is at least half, and a core fact (the nature of the estimate) is supplied. The wrong 2% figure is a material local falsehood, and point 2 is only partly covered, so the grade is partial."
+}

@@ -1,0 +1,29 @@
+{
+  "blind_id": "HOX050",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer says the order lets the fund hire or replace sub-advisers with board approval (including a majority of independent directors) under the order's conditions. It does not say that shareholders approve the structure first or that the prospectus discloses it."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "It states the principal adviser 'remains fully responsible' for selecting, monitoring and supervising sub-advisers, which matches continuing oversight and ultimate responsibility."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "It never says that an increase in the aggregate advisory fee rate still needs shareholder approval."
+    },
+    {
+      "point": 4,
+      "credit": 1,
+      "reason": "Optional point covered: 'Shareholders receive an information statement generally within 90 days after the new sub-adviser is engaged.'"
+    }
+  ],
+  "central_error": null,
+  "local_error": "'Under a manager-of-managers exemptive order (or Rule 15a-5, where applicable)': Rule 15a-5 was only proposed (2003) and was withdrawn in 2009, so it is never applicable. This wrongly suggests a general rule could replace a fund-specific order. It is a material side falsehood but not the central error, because the answer still requires relief and board approval.",
+  "grade": "partial",
+  "rationale": "Required coverage totals 1.5 of 3, which is exactly half. Point 1 is only partly covered, point 2 is fully covered and the fee-increase point is missing. There is no central error, since the answer conditions changes on an order and board approval. The citation of the withdrawn Rule 15a-5 as possibly applicable is a material local falsehood, which would cap the grade at partial anyway. The affiliated-sub-adviser conditions are outside scope and were not scored."
+}

@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX055",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that a change of control 'generally constitutes an \"assignment\"' and that the contract must 'provide for automatic termination upon assignment; it does not simply transfer to the new owner.' Both parts of the minimum are covered."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that a new contract needs 'Board approval, including approval by a majority of independent directors/trustees under Section 15(c)' and 'ETF shareholder approval' by a 1940 Act majority vote. This covers both the board/independent-trustee approval and the shareholder vote."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are fully covered and consistent with the source: \u00a72(a)(4) treats a change of control as an assignment, the contract ends automatically on assignment, and a new contract needs \u00a715(c) independent-trustee approval and \u00a715(a) shareholder approval. The answer never says the contract continues unchanged, so there is no central error. The ancillary Rule 15a-4 note (an interim contract for up to 150 days without prior shareholder approval, subject to conditions) is accurate and outside the required scope. The 'majority of outstanding voting securities' description is also accurate. No material local falsehood was found."
+}

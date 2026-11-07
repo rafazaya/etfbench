@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX072",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that qualifying Irish UCITS funds face 15% US withholding on dividends under the treaty."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says the tax is incurred at fund level and investors cannot personally reclaim it."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are covered, with no central error or material local falsehood."
+}

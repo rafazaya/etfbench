@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX018",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer says undistributed reportable income (ERI) 'is generally taxable as income ... even if not paid out.' That covers the undistributed-excess part. The question asks only about undistributed income, so not mentioning actual distributions is an omission, not an error."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "The answer says the disposal gain 'is generally within capital gains tax rules, not offshore-income-gain treatment, because the ETF had UK reporting-fund status throughout your ownership.' It is hedged with 'generally', which matches the 'subject to relevant exceptions' qualifier."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Optional point. 'Not offshore-income-gain treatment' implicitly contrasts with offshore income gains but does not say that non-reporting fund gains get that treatment. This omission does not affect the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are covered, and there is no central error: the answer says ERI is taxed as income even if not paid out, and does not defer it until sale or exclude it. The timing claim ('tax year in which the fund's reporting period ends') and the ERI acquisition-cost adjustment go beyond the supplied evidence. The evidence does not contradict them and both are hedged with 'generally', so they are not treated as material falsehoods. Under the frozen rule, the answer is correct."
+}

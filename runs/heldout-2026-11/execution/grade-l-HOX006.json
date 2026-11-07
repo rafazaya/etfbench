@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX006",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the ICAV has legal personality and its sub-funds are not separate legal persons."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Explains that the ICAV acts for sub-funds and liability is segregated, but does not explicitly state that the ICAV can sue or be sued for a particular sub-fund."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Point 1 is fully covered; point 2 is substantively but incompletely covered. The answer does not equate segregated liability with separate legal personality."
+}

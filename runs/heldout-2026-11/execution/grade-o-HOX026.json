@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX026",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that a sub-fund 'does not have separate legal personality. The ICAV itself is the legal person', and calls the umbrella ICAV 'one legal entity with legally ring-fenced pools', which presents sub-funds as components of the ICAV."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that the ICAV 'can sue and be sued in respect of a particular sub-fund' and that segregated liability is 'a separate statutory protection, not a consequence of separate incorporation', operating within one legal entity."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer explicitly denies that sub-funds are separate legal persons, so the central error is absent. Its side claims do not conflict with the supplied evidence: liabilities are met solely from that sub-fund's assets, and foreign-court recognition is a separate question. No material falsehood is present."
+}

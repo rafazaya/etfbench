@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX025",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer says the board selects the auditor 'by majority vote, including a majority of the independent trustees' under \u00a732(a). It also says an independent audit committee directly appoints the auditor. Selection is therefore tied to the independent trustees, not to the board alone, so the 0.5 cap does not apply."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "The answer gives a 'Rule 32a-4 exemption: Ratification is unnecessary if the fund has an audit committee of only independent trustees'. This matches the minimum."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "The answer does not say that a shareholder vote is trust-wide or that series may use different auditors. This point is optional, so the omission does not affect the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minima are covered: independent trustees select the auditor, and an all-independent audit committee permits omitting ratification under Rule 32a-4. The answer does not give selection to the adviser, and it does not say shareholders must always ratify. Its side claims, including the 'if such meeting is held' framing and the Rule 10A-3 audit committee point, are not contradicted by the evidence. The truncated final sentence is incomplete rather than false. Leaving out the optional point does not lower the grade."
+}

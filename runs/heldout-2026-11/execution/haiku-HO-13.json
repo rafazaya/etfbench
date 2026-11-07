@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "HO-13",
+  "tier": "A",
+  "answer": "**Replacing a sub-adviser without a shareholder vote** Under a manager-of-managers exemptive order (or Rule 15a-5, where applicable), a fund can hire or replace unaffiliated sub-advisers without a shareholder vote if: - **Board approval:** The board, including a majority of independent directors, approves the new sub-advisory agreement and finds it in the fund's best interests, as Section 15(c) requires. - **Shareholder notice:** Shareholders receive an information statement generally within 90 days after the new sub-adviser is engaged. - **Order conditions:** The fund follows the order's limits, such as caps on affiliated sub-advisers and restrictions on changes in control. **Principal adviser responsibilities** The principal adviser remains fully responsible for: - Selecting, evaluating, and recommending sub-advisers, with documented due diligence - Monitoring sub-adviser performance, risk, and compliance with fund policies - Allocating assets and supervising the overall portfolio - Providing accurate disclosure and reporting to the board - Meeting its fiduciary duty under",
+  "original_answer": "**Replacing a sub-adviser without a shareholder vote**\n\nUnder a manager-of-managers exemptive order (or Rule 15a-5, where applicable), the fund can hire or replace unaffiliated sub-advisers without a shareholder vote if:\n\n- **Board approval:** The board, including a majority of independent directors, approves the new sub-advisory agreement and finds it in the fund's best interests, as Section 15(c) requires.\n- **Shareholder notice:** Shareholders receive an information statement about the change, generally within 90 days after the new sub-adviser is engaged.\n- **Order conditions:** The fund follows the order's limits, such as caps on affiliated sub-advisers and restrictions on changes in control.\n\n**Principal adviser responsibilities**\n\nThe principal adviser remains fully responsible for:\n\n- Selecting, evaluating, and recommending sub-advisers, with documented due diligence\n- Monitoring sub-adviser performance, risk, and compliance with fund policies\n- Allocating assets and supervising the overall portfolio\n- Providing accurate disclosure and reporting to the board\n- Meeting its fiduciary duty under Section 36(b) and the Advisers Act",
+  "void": false,
+  "words_before": 159,
+  "words_after_shorten": 156,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-b44bca4f",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a US ETF with an approved manager-of-managers structure and applicable exemptive order, how can a sub-adviser be replaced without a fresh shareholder vote, and what responsibility remains with the principal adviser?\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-HO-13-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-uh55kpfe",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Replacing a sub-adviser without a shareholder vote**\n\nUnder a manager-of-managers exemptive order (or Rule 15a-5, where applicable), the fund can hire or replace unaffiliated sub-advisers without a shareholder vote if:\n\n- **Board approval:** The board, including a majority of independent directors, approves the new sub-advisory agreement and finds it in the fund's best interests, as Section 15(c) requires.\n- **Shareholder notice:** Shareholders receive an information statement about the change, generally within 90 days after the new sub-adviser is engaged.\n- **Order conditions:** The fund follows the order's limits, such as caps on affiliated sub-advisers and restrictions on changes in control.\n\n**Principal adviser responsibilities**\n\nThe principal adviser remains fully responsible for:\n\n- Selecting, evaluating, and recommending sub-advisers, with documented due diligence\n- Monitoring sub-adviser performance, risk, and compliance with fund policies\n- Allocating assets and supervising the overall portfolio\n- Providing accurate disclosure and reporting to the board\n- Meeting its fiduciary duty under Section 36(b) and the Advisers Act"
+      ],
+      "stdout": "haiku-HO-13-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b3f4-2fe9-7d32-9e58-8985d5accde4"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"blind_id\":\"HOX063\",\"coverage\":[{\"point\":1,\"credit\":1,\"reason\":\"Covers both advisers’ assessments and says each reports findings to its board by the next regularly scheduled meeting.\"},{\"point\":2,\"credit\":1,\"reason\":\"States the agreement is terminable on no more than 60 days’ notice and notes the same-adviser exception.\"}],\"central_error\":null,\"local_error\":null,\"grade\":\"correct\",\"rationale\":\"Both required points are covered, with no explicit central error or material falsehood.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":8489,"cached_input_tokens":4864,"cache_write_input_tokens":0,"output_tokens":225,"reasoning_output_tokens":107}}

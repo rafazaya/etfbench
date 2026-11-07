@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX025",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the board selects the auditor by majority vote, including a majority of the independent trustees."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that an all-independent audit committee qualifies for the Rule 32a-4 exemption from shareholder ratification."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minima are covered. The optional trust-wide voting point is omitted, which does not reduce the grade."
+}

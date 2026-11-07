@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b3f3-bb95-78e1-bf1e-4d87a2fa0ef1"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"blind_id\":\"HOX040\",\"coverage\":[{\"point\":1,\"credit\":1,\"reason\":\"Says income is taxed even when undistributed and that reportable income covers distributions.\"},{\"point\":2,\"credit\":1,\"reason\":\"Says disposal gains receive CGT treatment.\"},{\"point\":3,\"credit\":0,\"reason\":\"Does not address gains for non-reporting offshore funds.\"}],\"central_error\":null,\"local_error\":null,\"grade\":\"correct\",\"rationale\":\"Both required points are covered; the optional point is omitted, which does not reduce the grade.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":9543,"cached_input_tokens":7296,"cache_write_input_tokens":0,"output_tokens":299,"reasoning_output_tokens":174}}

@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX068",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer says the board selects the auditor 'by a majority vote of trustees who are not \"interested persons\"'. That is selection by the independent trustees under \u00a732(a), so the point is covered."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "The answer never says that an all-independent audit committee permits omitting ratification under Rule 32a-4. It ties omission only to there being no annual meeting."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Optional point not addressed: nothing on the trust-wide vote or on series using different auditors. This does not reduce the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Point 1 is fully covered by the independent-trustee majority vote, so required coverage is 1 of 2, which meets the half threshold. Point 2's Rule 32a-4 audit-committee basis for omitting ratification is missing. The no-annual-meeting route matches \u00a732(a)'s text and is not a falsehood. Nothing says shareholders must always ratify, and selection is not assigned to the adviser, so there is no central error."
+}

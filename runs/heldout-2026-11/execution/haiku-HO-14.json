@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "HO-14",
+  "tier": "B",
+  "answer": "**Adviser findings (Rule 12d1-4):** The acquiring fund's adviser must make and document written findings that:\n- The investment is in the best interests of the acquiring fund and its shareholders.\n- It will not cause undue influence by the acquiring fund or its affiliates over the acquired fund's operations.\n- It is consistent with the acquiring fund's investment objectives and policies.\n\nThe findings must be documented and reported to the acquiring fund's board, which oversees the adviser's process.\n\n**Fund of funds investment agreement:** Generally required in writing. It typically covers:\n- Acknowledgment of the rule's conditions and limits on control.\n- Voting and redemption arrangements.\n- Sales-load and fee terms.\n- Mechanisms for the acquired fund to reject or limit investments.\n\nConfirm the precise conditions, including board-approval and notice requirements, against current Rule 12d1-4 and SEC guidance before relying on this summary.",
+  "original_answer": "**Adviser findings (Rule 12d1-4):** The acquiring fund's adviser must make and document written findings that:\n- The investment is in the best interests of the acquiring fund and its shareholders.\n- The acquiring fund's investment will not cause undue influence by the acquiring fund or its affiliates over the acquired fund's operations.\n- The investment is consistent with the acquiring fund's investment objectives and policies.\n\nThe findings should be documented and reported to the acquiring fund's board, with the board's oversight of the adviser's process.\n\n**Fund of funds investment agreement:** The acquiring and acquired funds generally need a written fund of funds investment agreement. It typically addresses:\n- Acknowledgment of the rule's conditions and limits on control.\n- Voting and redemption arrangements.\n- Sales-load and fee-related terms.\n- Mechanisms for the acquired fund to reject or limit investments.\n\nBecause the precise conditions, including any board-approval and notice requirements, depend on the rule text and the specific structure, confirm them against the current Rule 12d1-4 and SEC guidance before relying on this summary.",
+  "void": false,
+  "words_before": 172,
+  "words_after_shorten": 142,
+  "words_final": 142,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-4909v7af",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For US management investment companies relying on Rule 12d1-4 beyond statutory fund-of-funds limits, what adviser findings and interfund agreement are normally required?\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-HO-14-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-bmepc_cc",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Adviser findings (Rule 12d1-4):** The acquiring fund's adviser must make and document written findings that:\n- The investment is in the best interests of the acquiring fund and its shareholders.\n- The acquiring fund's investment will not cause undue influence by the acquiring fund or its affiliates over the acquired fund's operations.\n- The investment is consistent with the acquiring fund's investment objectives and policies.\n\nThe findings should be documented and reported to the acquiring fund's board, with the board's oversight of the adviser's process.\n\n**Fund of funds investment agreement:** The acquiring and acquired funds generally need a written fund of funds investment agreement. It typically addresses:\n- Acknowledgment of the rule's conditions and limits on control.\n- Voting and redemption arrangements.\n- Sales-load and fee-related terms.\n- Mechanisms for the acquired fund to reject or limit investments.\n\nBecause the precise conditions, including any board-approval and notice requirements, depend on the rule text and the specific structure, confirm them against the current Rule 12d1-4 and SEC guidance before relying on this summary."
+      ],
+      "stdout": "haiku-HO-14-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "HO-12",
+  "tier": "A",
+  "answer": "**Who selects:** Under Section 32(a) of the Investment Company Act of 1940, the trust's board selects the independent public accountant by majority vote, including a majority of the independent trustees. The vote must occur within 30 days before or after the fiscal year begins, or before the annual shareholder meeting. For exchange-listed ETFs, Exchange Act Rule 10A-3 and listing standards also require an independent audit committee that directly appoints and oversees the auditor. **When ratification can be omitted:** 1. **No annual meeting.** Section 32(a) requires ratification only at the next annual meeting \"if such meeting is held.\" Most Delaware and Massachusetts trusts hold none, so the issue rarely arises. 2. **Rule 32a-4 exemption.** Ratification is unnecessary if the fund has: - an audit committee of only independent trustees, - a board-adopted committee charter, kept as a record, and - committee oversight of the auditor. The board and committee still select",
+  "original_answer": "**Who selects:** Under Section 32(a) of the Investment Company Act of 1940, the trust's board selects the independent public accountant. The vote requires a majority of the board, including a majority of the independent (non-\"interested\") trustees. It must occur within 30 days before or after the start of the fiscal year, or before the annual shareholder meeting. For exchange-listed ETFs, Exchange Act Rule 10A-3 and the listing standards also require an independent audit committee that directly appoints and oversees the auditor.\n\n**When ratification can be omitted:**\n1. **No annual meeting.** Section 32(a) requires ratification only at the next annual meeting \"if such meeting is held.\" Most Delaware and Massachusetts trusts don't hold annual meetings, so the issue rarely arises.\n2. **Rule 32a-4 exemption.** Ratification is not required if the fund has:\n   - an audit committee made up entirely of independent trustees,\n   - a board-adopted committee charter, and\n   - committee oversight of the auditor, with the charter kept as a record.\n\nSelection and termination still rest with the board and committee.",
+  "void": false,
+  "words_before": 170,
+  "words_after_shorten": 154,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-odpv4_5h",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a US multi-series ETF trust, who selects the independent auditor and when can shareholder ratification be omitted?\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-HO-12-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-ivsc6xew",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Who selects:** Under Section 32(a) of the Investment Company Act of 1940, the trust's board selects the independent public accountant. The vote requires a majority of the board, including a majority of the independent (non-\"interested\") trustees. It must occur within 30 days before or after the start of the fiscal year, or before the annual shareholder meeting. For exchange-listed ETFs, Exchange Act Rule 10A-3 and the listing standards also require an independent audit committee that directly appoints and oversees the auditor.\n\n**When ratification can be omitted:**\n1. **No annual meeting.** Section 32(a) requires ratification only at the next annual meeting \"if such meeting is held.\" Most Delaware and Massachusetts trusts don't hold annual meetings, so the issue rarely arises.\n2. **Rule 32a-4 exemption.** Ratification is not required if the fund has:\n   - an audit committee made up entirely of independent trustees,\n   - a board-adopted committee charter, and\n   - committee oversight of the auditor, with the charter kept as a record.\n\nSelection and termination still rest with the board and committee."
+      ],
+      "stdout": "opus-HO-12-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

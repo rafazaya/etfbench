@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b3ef-7745-75d2-add5-c4736cfa8ced"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Rafa’s practitioner estimate is that the typical maximum variable creation/redemption fee is **2%**. The Corgi ETF Trust I SAI illustrates that this is a ceiling, not necessarily the fee a fund actually charges: a fund’s filed terms may set a lower maximum (or otherwise specify its own fee schedule)."}}
+{"type":"turn.completed","usage":{"input_tokens":28089,"cached_input_tokens":21632,"cache_write_input_tokens":0,"output_tokens":156,"reasoning_output_tokens":30}}

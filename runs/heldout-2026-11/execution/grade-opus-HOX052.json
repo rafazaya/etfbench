@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX052",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer covers checks before appointment: competence, resources, authorisation and conflicts. It requires a written delegation agreement. It covers oversight after appointment through ongoing monitoring, review of performance and compliance, and the power to instruct or terminate. This substantively matches the check, monitor and challenge requirement under written arrangements."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "The answer states that delegation does not transfer accountability and that the ManCo remains fully responsible. It also says the ManCo must retain enough substance to oversee delegates and avoid letterbox arrangements."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "The answer does not mention designated persons, the six managerial functions or escalation to the board. This point is optional, so the omission does not reduce the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are fully covered. The answer explicitly rejects a transfer of responsibility and rejects letterbox arrangements, so there is no central error. Side claims such as prospectus disclosure and notifying the Central Bank are consistent with the evidence or plausible, and none is a material falsehood."
+}

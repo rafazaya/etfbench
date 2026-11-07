@@ -1,0 +1,39 @@
+{
+  "blind_id": "HOX057",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Names overlap with the required firms, but the order differs and Flow Traders is substituted for Susquehanna or GTS as a candidate."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Identifies the three programs and describes an ETP, venue-based scope, but omits the October 5 NYSE sheet date and the unestablished Nasdaq/Cboe effective dates."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Acknowledges being unable to verify the November 6 snapshot, but does not state the retrieval date or that September 30 and ETF-only rankings remain unresolved."
+    },
+    {
+      "point": 4,
+      "credit": 0,
+      "reason": "Optional counts are omitted."
+    },
+    {
+      "point": 5,
+      "credit": 0.5,
+      "reason": "Explains that counts are by venue rather than unique funds and excludes other venues, but omits unreconciled listing-transfer overlaps and the NYSE DMM caveat."
+    },
+    {
+      "point": 6,
+      "credit": 0,
+      "reason": "Optional AUM and market-share caveat is omitted."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Required-point coverage totals 1.5 of 3, meeting the partial threshold. The answer supplies some relevant names and scope limitations but does not establish the requested ranking or its date caveats."
+}

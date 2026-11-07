@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX013",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0,
+      "reason": "The answer never says the bank's unitary-fee waiver is permanently forgone. Instead it says recoupment is 'not automatic' and 'if permitted, it depends on the contract's terms,' which leaves recoupment open. The source says the waived amount 'is gone for good: it isn't recoupable.'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "It states recoupment 'within a stated period (often three years), only if recoupment stays within both the expense cap in effect when the waiver occurred and the cap in effect when repayment is made.' Staying within both caps means the lower cap controls."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\"Both can let the adviser recover prior waivers\" is a material local falsehood for the bank's described unitary-fee waiver, which the source says is not recoupable. The answer hedges rather than fully reversing the two arrangements, so it is not a central error, but it caps the grade at partial.",
+  "grade": "partial",
+  "rationale": "Required-point coverage is 1 of 2, which meets the half threshold, and a core fact (the ordinary expense-cap recoupment rule) is correctly given. There is no explicit central error: the answer does not reverse the treatments or allow recovery above the caps. However, point 1 is missed, and the claim that both arrangements permit recovery is materially false for the bank's arrangement. The grade is partial."
+}

@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX061",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the board may designate 'the fund's investment adviser\u2014not a sub-adviser' as valuation designee under Rule 2a-5. This matches the evidence that the principal adviser can be the designee and a sub-adviser can't."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States the designee gives 'At least quarterly, written reports' and 'At least annually, a written assessment' of the valuation process's adequacy and effectiveness."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "States prompt written notification of material matters 'within the board's prescribed period, no later than five business days after awareness.'"
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "The answer covers all three required minimums. It contains no central error: it explicitly excludes sub-advisers and affirms periodic written reporting. Its extra details on the content of the quarterly and annual reports, follow-up reporting, deficiencies and NAV errors are elaboration that the supplied evidence does not contradict, so they are not material falsehoods."
+}

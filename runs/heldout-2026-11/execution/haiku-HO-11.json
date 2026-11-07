@@ -1,0 +1,41 @@
+{
+  "model": "haiku",
+  "id": "HO-11",
+  "tier": "A",
+  "answer": "I can't verify the current text of any 2026 relief for qualifying in-kind ETFs, so please check the final SEC release and staff guidance before relying on this.\n\n**Likely continuing requirements:**\n- The core liquidity risk management program under Rule 22e-4(b)(1), including assessment of liquidity risk factors.\n- Board oversight and annual review.\n- The 15% limit on illiquid investments (22e-4(b)(1)(iv)).\n- Liquidity-related reporting, including Form N-PORT.\n\n**Possible relief:**\n- The requirement to classify each portfolio holding into one of the four liquidity buckets, and the related classification-review mechanics.\n- The Highly Liquid Investment Minimum (HLIM) under 22e-4(b)(1)(iii), on the rationale that in-kind redemptions shift liquidity management away from cash.\n\nConfirm the exact scope, conditions, and any sunset in the release before applying it to a specific fund.",
+  "original_answer": "I can't verify the current text of any 2026 relief for qualifying in-kind ETFs, so please check the final SEC release and staff guidance before relying on this.\n\n**Likely continuing requirements:**\n- The core liquidity risk management program under Rule 22e-4(b)(1), including assessment of liquidity risk factors.\n- Board oversight and annual review.\n- The 15% limit on illiquid investments (22e-4(b)(1)(iv)).\n- Liquidity-related reporting, including Form N-PORT.\n\n**Possible relief:**\n- The requirement to classify each portfolio holding into one of the four liquidity buckets, and the related classification-review mechanics.\n- The Highly Liquid Investment Minimum (HLIM) under 22e-4(b)(1)(iii), on the rationale that in-kind redemptions shift liquidity management away from cash.\n\nConfirm the exact scope, conditions, and any sunset in the release before applying it to a specific fund.",
+  "void": false,
+  "words_before": 128,
+  "words_after_shorten": null,
+  "words_final": 128,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-c7r92qby",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Which Rule 22e-4 liquidity requirements continue to apply to a qualifying US in-kind ETF, and which classification/minimum requirements receive relief?\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-HO-11-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": []
+}

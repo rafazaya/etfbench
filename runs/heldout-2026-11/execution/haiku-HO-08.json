@@ -1,0 +1,68 @@
+{
+  "model": "haiku",
+  "id": "HO-08",
+  "tier": "A",
+  "answer": "**Existing contract:** A change of control of the principal adviser is an \"assignment\" under Section 2(a)(4) of the Investment Company Act of 1940, and the existing advisory contract terminates automatically at closing (Section 15(a)(4)). **New contract approvals:** - **Board:** The board, including a majority of independent trustees voting in person at a meeting called for that purpose, must approve the new contract (Section 15(c)). - **Shareholders:** A majority of the fund's outstanding voting securities must approve it (Section 15(a)(2)). - **Interim contract:** Rule 15a-4 allows an interim contract for up to 150 days after termination, if the board approves it and the adviser's fees are held in escrow pending shareholder approval. - **Terms:** The contract must be in writing and terminable without penalty on 60 days' notice by the board or a majority of outstanding shares (Section 15(a)(3)). **Related consideration:** Section 15(f) provides a safe harbor for an adviser receiving",
+  "original_answer": "**Existing contract:** A change of control of the principal adviser is an \"assignment\" under Section 2(a)(4) of the Investment Company Act of 1940. Under Section 15(a)(4), the existing advisory contract terminates automatically at closing.\n\n**New contract approvals:**\n- **Board approval:** The board, including a majority of the independent trustees, must approve the new contract, with those trustees voting in person at a meeting called for that purpose (Section 15(c)).\n- **Shareholder approval:** A majority of the fund's outstanding voting securities must approve it (Section 15(a)(2)).\n- **Interim contract:** Rule 15a-4 permits an interim contract for up to 150 days after termination, if the board approves it and the adviser's fees are held in escrow pending shareholder approval.\n- **Contract terms:** The contract must be in writing and terminable without penalty on 60 days' notice by the board or a majority of outstanding shares (Section 15(a)(3)).\n\n**Related consideration:** Section 15(f) provides a safe harbor for an adviser receiving payments tied to a change of control. It requires that, for three years after closing, at least 75% of the board are not \"interested persons\" of the adviser and that no unfair burden is imposed on the fund.",
+  "void": false,
+  "words_before": 195,
+  "words_after_shorten": 185,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-jcjxj8to",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "If a transaction changes control of the principal adviser to a US ETF, what happens to its principal advisory contract, and what approvals does a new principal advisory contract need?\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-HO-08-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-cg0trpiz",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Existing contract:** A change of control of the principal adviser is an \"assignment\" under Section 2(a)(4) of the Investment Company Act of 1940. Under Section 15(a)(4), the existing advisory contract terminates automatically at closing.\n\n**New contract approvals:**\n- **Board approval:** The board, including a majority of the independent trustees, must approve the new contract, with those trustees voting in person at a meeting called for that purpose (Section 15(c)).\n- **Shareholder approval:** A majority of the fund's outstanding voting securities must approve it (Section 15(a)(2)).\n- **Interim contract:** Rule 15a-4 permits an interim contract for up to 150 days after termination, if the board approves it and the adviser's fees are held in escrow pending shareholder approval.\n- **Contract terms:** The contract must be in writing and terminable without penalty on 60 days' notice by the board or a majority of outstanding shares (Section 15(a)(3)).\n\n**Related consideration:** Section 15(f) provides a safe harbor for an adviser receiving payments tied to a change of control. It requires that, for three years after closing, at least 75% of the board are not \"interested persons\" of the adviser and that no unfair burden is imposed on the fund."
+      ],
+      "stdout": "haiku-HO-08-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX017",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer says the thresholds are 'materiality triggers set by fund boards, not statutory limits' and that 'many funds apply them'. That conveys common policy practice and that they are not a rule. It omits that the SEC recognized them as generally used in the industry when it adopted Rule 2a-5."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "The answer says correction is governed by 'board-approved valuation and pricing-error policies' and that the administrator 'reports to the board'. That covers policy governance and board reporting. It never states that the responsible party reimburses the fund; it mentions only possible shareholder compensation."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Optional point. 'Wording varies by fund' and 'Verify thresholds and procedures against the fund's policy documents' partly cover it. Shareholder de minimis amounts and boundary precision are not addressed."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error, because the answer explicitly denies the thresholds are statutory and ties them to fund policy. Required coverage is 1.0 of 2, which meets the half threshold, and core facts are supplied. Each required point is only half covered: the answer misses the SEC's recognition in the Rule 2a-5 adopting release and the rule that the responsible party reimburses the fund. Some side claims go beyond the evidence, such as the 'whichever is greater' application and that 'smaller errors are... not remediated'. They are hedged, so they are not treated as material falsehoods. Even so, the grade is partial because neither required point is fully covered."
+}

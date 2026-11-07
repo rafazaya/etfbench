@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX039",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer calls the figure Rafa's practitioner estimate of the typical maximum variable fee. It does not keep the source's uncertainty ('I believe'), and it gives 2% where the source says 3%."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "It says a fund's filed terms may specify its own fee schedule, which partly gets at fund-specific filed terms. But it says the Corgi SAI shows the estimate 'is a ceiling' with possibly lower fund maximums. That misreads the Corgi SAI, which is a filing example ('up to 3%') and not a universal cap. It also never says Corgi's own filed figure."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "This optional point is missed: the answer states 2%, not 3%. Optional omissions do not reduce the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": "Quote: 'the typical maximum variable creation/redemption fee is **2%**'. The source says 3%, and Corgi's SAI says 'up to 3%'. This is a material false factual claim. Also, 'The Corgi ETF Trust I SAI illustrates that this is a ceiling' misreads the Corgi filing, which the source calls 'a filing example, not a universal cap.'",
+  "grade": "partial",
+  "rationale": "There is no explicit central error: the answer never presents 3% as a universal statutory ceiling or says every ETF charges it. Required coverage is 1.0 out of 2, which meets the half threshold, and a core requested fact is attempted (a practitioner estimate of the typical maximum). The wrong 2% figure and the misreading of the Corgi SAI as showing a ceiling are material local falsehoods, so the grade is capped at partial."
+}

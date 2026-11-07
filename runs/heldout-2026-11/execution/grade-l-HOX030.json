@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX030",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that the ICAV is the single legal entity and its sub-funds are not separate legal persons."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Explains that liabilities are segregated between sub-funds and the ICAV acts for them, but does not explicitly state that the ICAV can sue or be sued for a particular sub-fund."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "The answer covers the legal-personality distinction and gives substantive information about segregated liability, but incompletely covers the ICAV\u2019s ability to sue or be sued for a particular sub-fund."
+}

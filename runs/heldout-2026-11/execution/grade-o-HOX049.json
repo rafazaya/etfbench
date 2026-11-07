@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX049",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0,
+      "reason": "The answer says it cannot find Rafa's estimate and does not identify the figure as Rafa's practitioner estimate of the typical maximum variable fee, with or without uncertainty. Its general 'up to 2%' industry context is not Rafa's estimate."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "It says in general that a practitioner 'typical maximum' is a heuristic and that each fund's SAI governs, and that 'a cited SAI is usually there to show that.' This captures the idea of fund-specific terms versus a universal figure. However, it disclaims any knowledge of the Corgi SAI, so it never actually states what that SAI shows."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Optional point. The answer does not state that the estimate and the Corgi maximum are both 3%; it mentions 3% only as a cap some issuers use."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\"SAIs commonly cap the variable creation/redemption charge, often combined with the fixed fee, at up to 2%\" presents 2% as the typical cap. This conflicts with the supplied practitioner estimate that the typical maximum variable fee is 3%. It is a questionable side claim, but it is not the central error, because it does not present 3% as a universal statutory ceiling.",
+  "grade": "wrong",
+  "rationale": "Required coverage totals 0.5 out of 2, which is below the half threshold of 1. The answer supplies no requested core fact about Rafa's estimate or the Corgi SAI and explicitly says it cannot find either. There is no central error, but insufficient coverage makes the grade wrong under the scoring rule."
+}

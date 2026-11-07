@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX029",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "States the ETF remains subject to the liquidity risk management program (policies, risk assessment, board oversight, recordkeeping). It never mentions the 15% illiquid-investment limit, so this bundle is incomplete."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Explicitly says the ETF need not classify each investment into the four liquidity categories, nor comply with the highly liquid investment minimum and its shortfall procedures."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Required coverage is 1.5 of 2, which is at least half, and core facts are supplied. There is no central error: the answer does not claim exemption from the liquidity program or the 15% limit. It describes relief as limited and says it is not a blanket exemption. Leaving out the 15% illiquid limit is an omission, not a falsehood, but it leaves Point 1 incomplete. That prevents a 'correct' grade."
+}

@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX061",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Identifies the fund\u2019s investment adviser as designee and explicitly excludes a sub-adviser."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that written reports are due at least quarterly and includes an annual written assessment."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "States that material matters must be reported within the board\u2019s prescribed period, no later than five business days."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All required points are covered, with no central error or material local falsehood."
+}

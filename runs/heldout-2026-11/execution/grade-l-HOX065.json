@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX065",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Covers pre-appointment checks, a written agreement, and ongoing monitoring, but does not say the ManCo must challenge delegate reports."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States delegation does not affect liability and says the ManCo must not become a letter-box entity."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Mentions designated persons overseeing investment management and administration and escalating issues, but not monitoring all six functions."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\u201cThe CBI must clear the investment manager in advance\u201d \u2014 the supplied evidence says an EU-regulated firm only notifies, so this overstates the approval requirement.",
+  "grade": "partial",
+  "rationale": "Both required points receive substantive coverage, but point 1 omits the duty to challenge delegate reports. The inaccurate blanket approval claim is a material local falsehood and caps the grade at partial."
+}

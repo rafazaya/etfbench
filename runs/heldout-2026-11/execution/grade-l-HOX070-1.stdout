@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b3f4-55fa-7f43-bb14-76efaab65187"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"blind_id\":\"HOX070\",\"coverage\":[{\"point\":1,\"credit\":1,\"reason\":\"States that the program and 15% illiquid-investment limit still apply.\"},{\"point\":2,\"credit\":1,\"reason\":\"States relief from four-bucket classification and the highly liquid investment minimum.\"}],\"central_error\":null,\"local_error\":null,\"grade\":\"correct\",\"rationale\":\"Covers both required points, with no explicit central error or material local falsehood.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":11273,"cached_input_tokens":7296,"cache_write_input_tokens":0,"output_tokens":226,"reasoning_output_tokens":121}}

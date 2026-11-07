@@ -1,0 +1,41 @@
+{
+  "model": "haiku",
+  "id": "HO-06",
+  "tier": "A",
+  "answer": "**Before appointment**, the ManCo must:\n- Assess the delegate's competence, capacity, resources, and financial soundness, and confirm it is authorised and supervised for the activity.\n- Identify and manage conflicts of interest.\n- Execute a written delegation agreement, and ensure the delegation is reflected in the prospectus and notified to the Central Bank of Ireland as required.\n\n**After appointment**, the ManCo must:\n- Monitor and review the delegate's performance and compliance on an ongoing basis.\n- Maintain risk management and reporting, and be able to give instructions or terminate the arrangement.\n- Retain enough substance in Ireland to oversee delegates effectively, avoiding \"letterbox\" arrangements.\n\n**Retained responsibility:** Delegation does not transfer accountability. The ManCo remains fully responsible to the fund, its unitholders, and the Central Bank for all delegated functions, as if it had performed them itself.",
+  "original_answer": "**Before appointment**, the ManCo must:\n- Assess the delegate's competence, capacity, resources, and financial soundness, and confirm it is authorised and supervised for the activity.\n- Identify and manage conflicts of interest.\n- Execute a written delegation agreement, and ensure the delegation is reflected in the prospectus and notified to the Central Bank of Ireland as required.\n\n**After appointment**, the ManCo must:\n- Monitor and review the delegate's performance and compliance on an ongoing basis.\n- Maintain risk management and reporting, and be able to give instructions or terminate the arrangement.\n- Retain enough substance in Ireland to oversee delegates effectively, avoiding \"letterbox\" arrangements.\n\n**Retained responsibility:** Delegation does not transfer accountability. The ManCo remains fully responsible to the fund, its unitholders, and the Central Bank for all delegated functions, as if it had performed them itself.",
+  "void": false,
+  "words_before": 136,
+  "words_after_shorten": null,
+  "words_final": 136,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-f1vi3g10",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "When an Irish UCITS ManCo delegates portfolio management and administration, what oversight must it exercise over its delegates, both before appointment and afterwards, and what responsibility does it retain?\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-HO-06-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": []
+}

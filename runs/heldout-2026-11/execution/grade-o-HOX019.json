@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX019",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that an ICAV umbrella may prepare separate financial statements per sub-fund and that its board may dispense with AGMs. Contrasts this with umbrella-level accounts and generally mandatory AGMs for the investment plc. Matches HO-05-Irish-ICAV and HO-05-Irish-investment-plc."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that an ICAV is not a per se corporation and can check-the-box to be a partnership. States that the investment plc is on the per se corporation list and cannot elect. Matches HO-05-bank Tax treatment and both vehicle excerpts."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered with the correct orientation, and neither central error (reversed eligibility) is present. Several side claims go beyond the supplied evidence: unanimous written consent to dispense with a plc AGM, shareholder or auditor rights to requisition an ICAV AGM, and the disregarded-entity option. None is contradicted by the sources, so they are unsupported extras rather than material falsehoods. The PFIC remark is supported by HO-05-bank, and 'most new Irish ETF umbrellas are ICAVs' is consistent with 'usually an Irish ICAV'."
+}

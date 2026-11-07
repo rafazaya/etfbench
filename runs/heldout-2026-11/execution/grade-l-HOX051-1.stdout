@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b3f3-f611-7631-9877-3f8213869776"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"blind_id\":\"HOX051\",\"coverage\":[{\"point\":1,\"credit\":1,\"reason\":\"Covers pre-appointment checks, ongoing monitoring and challenge, and written mandate/reporting arrangements.\"},{\"point\":2,\"credit\":1,\"reason\":\"States the ManCo remains fully responsible and must not become a letter-box entity.\"}],\"central_error\":null,\"local_error\":null,\"grade\":\"correct\",\"rationale\":\"Both required points are covered; the optional designated-person detail is omitted, which does not reduce the grade.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":11277,"cached_input_tokens":7296,"cache_write_input_tokens":0,"output_tokens":273,"reasoning_output_tokens":159}}

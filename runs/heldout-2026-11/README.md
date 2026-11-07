@@ -1,8 +1,8 @@
 # Held-out ETF reference preparation — November 2026
 
 18 new question/reference pairs, prepared November 6 under Rafa’s authorization.
-**Provisional, not goldens. No benchmark answers, grading run or model comparison.**
-The separate reference-review calls described below are the only ETF model calls.
+**Provisional, not goldens. Held-out validation authorized by Rafa on 2026-11-06.**
+Start with [results.md](results.md). The preparation history below predates the validation run.
 
 Use `references-reviewed.json`; `references-draft.json` preserves the original
 preparation. Every pair has required/optional minima, explicit central-error
@@ -12,9 +12,9 @@ answer models. Do not use the question converter or promote these to goldens.
 
 | Tier | Investor | Issuer/operator | Total |
 |---|---:|---:|---:|
-| A — approved/vouched | 4 | 8 | 12 |
+| A — approved/vouched | 4 | 9 | 13 |
 | B — other bank text | 1 | 3 | 4 |
-| C — sourced inbox candidate | 1 | 1 | 2 |
+| C — sourced inbox candidate | 1 | 0 | 1 |
 | Total | 6 | 12 | 18 |
 
 There are 13 US pairs and 5 UCITS/Irish or UK-investor-tax pairs; fact, mechanism
@@ -37,7 +37,7 @@ HO-16 (current LMM assignment snapshot), and HO-18 (US Q3 issuer assets).
 They use Rafa’s express exception for formerly dropped questions; public filing
 and ranking links are evidence leads rather than proof somebody independently
 asked those exact legacy questions. HO-16 does **not** claim an established Q3
-historical league. Both ranking candidates remain C and time-stamped.
+historical league. HO-16’s scoped rank order is now practitioner-confirmed Tier A; HO-18 remains Tier C. Counts and historical quarter-end claims were not vouched.
 
 `source-excerpts.json` freezes the relevant bank sections and hashes each exact
 excerpt. `input-manifest.json` hashes the source files and calibration inputs.
@@ -86,7 +86,7 @@ spawned subagents. No alternative answer-model run was requested or collected.
 
 `merge-decisions.json` records source-based adjudication for all 18. It preserves
 both review outcomes, accepts supported fixes, explains rejected changes and
-flags the three provisional practitioner decisions in `for-rafa.md`. In particular,
+flagged the three then-provisional practitioner decisions in `for-rafa.md`. In particular,
 HMRC’s linked source resolves the UK-tax objection; optional market-share math
 errors remain side errors rather than being promoted to central errors.
 All 18 are retained. Twelve pairs received reviewer-requested fixes; HO-12 also
@@ -106,3 +106,60 @@ and advisory notes, inbox rankings/candidates, and the pilot/calibration artifac
 
 - A question can be held out while sharing its evidence and background concepts with calibration questions.
 - Ranking date and measurement universe are part of the fact; a current assignment count cannot establish a historical ETF market-share league.
+
+## Validation run (authorized 2026-11-06)
+
+`for-rafa.md` records all accepted decisions. `references-reviewed.json` carries the
+HO-16 Tier A confirmation and makes HO-15 exact percentage optional. The original
+`references-draft.json`, preparation reviews, `input-manifest.json` and `validation.json`
+remain historical preparation records; `validation-manifest.json` freezes the actual
+validation inputs after these decisions. `references-validation-input.json` preserves
+the exact pre-grading reference bytes. After grading, stale execution-approval and
+confirmation-status metadata in `references-reviewed.json` was updated; the required
+minima and scoring rule were unchanged. Both versions are hashed. The source excerpts themselves are unchanged;
+their old pending-approval prose is superseded only in the explicitly confirmed scope.
+
+`run_pilot.py` adapts the strong collector, reusing the conservative round-1 JSONL
+auditor. `execution/setup.json` records the four actual CLI configurations. Answers
+receive only the question and identical 150-word instruction, never references or
+rubric. Every attempt uses DEVNULL stdin and an empty ephemeral cwd. Codex uses
+read-only/no-network sandbox, disabled web/MCP/hooks and ignored user config/rules;
+Claude uses no tools, strict empty MCP configuration, no settings sources or session
+persistence. Codex tools cannot be completely removed: every transcript is audited,
+tool-bearing attempts discarded, and one fresh memory retry permitted. All accepted
+answers are tool-free. The same one-shortening-then-150-whitespace-word truncation
+policy applies. No new network probe was run; these are the previously tested flags.
+Inherited global style instructions may still influence Codex outputs.
+
+`grade_calls.py` freezes 72 shuffled anonymous answers with seed 202611064. The key
+is separate. S (this Sol session) grades the anonymous bundle and freezes
+`grades-s.json` before reading O or L outputs. O uses fresh tool-disabled Opus CLI
+calls with the strong run’s grading system/instruction. L uses fresh GPT-6 Luna
+high-effort CLI calls with identical grading instructions and audited no-tool returns.
+Each grader sees the same rubric and frozen source excerpts. Including excerpts is
+an evidence improvement over the strong run’s reference/minima-only bundle and
+limits exact comparison of agreement rates. S saw pilot reports and collection
+metadata, not named answer content before grading; masking cannot remove style
+cues or inherited context. S’s self-authored rationales are in `s-records.json`.
+
+`grades-o-raw.json` and `grades-l-raw.json` retain exact parsed CLI returns;
+`normalization.json` logs removal of optional coverage and the single mechanical
+L threshold correction. Raw/normalized agreement both appear in `scores.json`.
+Grades and input hashes are frozen. `resolutions.json` and `disagreements.md` record
+all normalized three-grader disagreements, resolved by S against sources, including
+corrections of S errors. This is not an independent fourth adjudicator; agreed
+answers were not comprehensively audited. Source checking included a few live
+HMRC/statutory/CFR/MSCI checks linked in the disagreement log.
+
+Reproduce offline without installing packages:
+
+```sh
+python runs/heldout-2026-11/analyze.py
+python -m unittest discover -s runs/heldout-2026-11 -p test_heldout.py -v
+.venv/bin/ruff check runs/heldout-2026-11
+```
+
+Collection skips saved answers; grading skips saved per-answer returns. Neither is
+an offline validation command. Editorial S grades and resolutions are records;
+analysis reproduces statistics rather than pretending to regenerate those judgments.
+No application, earlier-run or golden files were changed; only this directory is committed.

@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX067",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Names iShares/BlackRock, Vanguard, and SPDR/State Street in the required order."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Mentions US ETF assets and Lipper\u2019s US ETF universe, but does not establish the September 30, 2026 measurement date or clearly state that assets are measured by sponsor/promoter brand."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "The answer supplies the required top-three ranking, but qualifies it as likely and does not fully specify the requested measurement scope. Optional details are not required."
+}

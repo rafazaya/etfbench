@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX069",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Names iShares (BlackRock), Vanguard and SPDR (State Street) and lists them in the correct order. However, it says 'I cannot verify their precise ordering', so it does not assert the required 'in that order' ranking."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States the measure as aggregate ETF assets in 'Lipper's U.S. ETF-for-sale universe, grouped by sponsor brand', tied to September 30, 2026. It also excludes total firm AUM, worldwide ETF businesses and flows."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Required coverage is 1.5 of 2. No central error: the answer explicitly rejects sponsor-wide AUM and a global ranking. There is no material falsehood, and the 'for sale in the U.S.' caveat is accurate. Optional points 3 and 4 are omitted, which does not affect the grade. The grade is partial rather than correct only because the answer disclaims the required ordering instead of stating it."
+}

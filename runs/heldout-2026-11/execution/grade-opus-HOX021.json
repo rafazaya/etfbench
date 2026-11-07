@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX021",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer says a change in control 'generally causes an assignment of its advisory contract, which automatically terminates the contract under the Investment Company Act.' This matches the source: \u00a72(a)(4) treats a change of control as an assignment, and \u00a715(a) requires the contract to end automatically on assignment."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "The answer says the replacement contract 'must be approved by the fund's board, including a majority of its independent directors, and by the ETF's shareholders.' This covers both the board approval with independent trustees (\u00a715(c)) and the shareholder vote (\u00a715(a))."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered, and there is no central error: the answer says the old contract terminates rather than continues. The ancillary claims are accurate and do not reduce the grade. These are the majority-of-outstanding-voting-securities standard, the board's evaluation duties and the narrow exception for transactions that do not change actual control or management (consistent with Rule 2a-6). The phrase that assignment depends on 'the contract's terms' is imprecise, since assignment and termination are statutory. It is hedged and not a material falsehood. Interim arrangements and \u00a715(f) details are optional, so omitting them does not count against the answer."
+}

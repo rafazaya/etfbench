@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX007",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that transaction costs 'reduce the fund's assets and therefore its NAV as trades are executed', that spreads and market impact are 'embedded in execution prices', and that they 'can affect performance and tracking difference'. This matches the evidence that the costs are paid through trade prices and reduce performance and NAV."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States the costs are 'not included in the ETF's reported expense ratio, which generally reflects operating expenses such as management, administration and custody fees'. This matches the evidence that the expense ratio covers expenses paid out of fund assets and excludes portfolio trading costs."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are fully covered. The answer does not count trading costs in the expense ratio, does not say they are accrued against NAV as an expense, and does not deny their effect on NAV. The side claims are accurate or unrefuted by the evidence: separate disclosure of transaction costs, and investors' own spread costs not entering NAV. Omitting the optional point on in-kind creation and redemption is not penalized."
+}

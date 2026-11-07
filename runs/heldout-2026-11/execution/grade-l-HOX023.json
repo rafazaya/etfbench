@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX023",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Identifies the thresholds as common industry conventions, not universal legal rules, but omits that the SEC described them as generally used when adopting Rule 2a-5."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Says the fund\u2019s own policies govern and calls for assessment and escalation, but does not state that the responsible party reimburses the fund or that material errors are reported to the board."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Both required points are substantively addressed but incomplete; no explicit falsehood or central error appears. The optional point is omitted, which does not reduce the grade."
+}

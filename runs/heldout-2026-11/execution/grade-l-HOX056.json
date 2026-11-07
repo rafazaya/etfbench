@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX056",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0,
+      "reason": "Provides no firm ranking."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Names the three exchange programs, but does not give the combined ETP-assignment universe or the NYSE sheet date and unestablished Nasdaq/Cboe effective dates."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Mentions the November 6, 2026 snapshot, but does not state that the historical September 30 and ETF-only rankings remain unresolved."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "wrong",
+  "rationale": "The answer avoids false claims but supplies none of the requested ranking and less than half of the required coverage. Omitted details are not treated as falsehoods."
+}

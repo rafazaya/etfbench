@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX018",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Says undistributed ERI is taxable as income even when not paid out."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says disposal generally follows capital-gains rules because reporting status applied throughout ownership."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are covered, with no explicit central error or material falsehood in the supplied evidence."
+}

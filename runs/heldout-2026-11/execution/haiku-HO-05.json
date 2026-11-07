@@ -1,0 +1,41 @@
+{
+  "model": "haiku",
+  "id": "HO-05",
+  "tier": "B",
+  "answer": "**Per-sub-fund accounts**\n- **ICAV:** Sub-funds have statutory segregated liability under the ICAV Act 2015. Each sub-fund's financial statements sit within a single ICAV-level set.\n- **Investment plc:** Sub-funds are segregated under the Companies Act 2014 and fund regulations, but accounts are usually presented at company level with sub-fund breakdowns.\n\n**AGMs**\n- **ICAV:** No annual general meeting is mandatory. Shareholders can dispense with one or pass resolutions in writing.\n- **Plc:** An AGM must be held annually, within six months of year-end, under the Companies Act 2014.\n\n**US tax classification**\n- **ICAV:** Not a per se corporation. It is an eligible entity that can elect its classification (for example, via Form 8832 check-the-box) or default to partnership or disregarded treatment.\n- **Plc:** Listed as a per se corporation under Treas. Reg. \u00a7301.7701-2(b)(8), so no election is available.\n\nConfirm specifics with fund counsel and tax advisers.",
+  "original_answer": "**Per-sub-fund accounts**\n- **ICAV:** Sub-funds have statutory segregated liability under the ICAV Act 2015. Each sub-fund's financial statements sit within a single ICAV-level set.\n- **Investment plc:** Sub-funds are segregated under the Companies Act 2014 and fund regulations, but accounts are usually presented at company level with sub-fund breakdowns.\n\n**AGMs**\n- **ICAV:** No annual general meeting is mandatory. Shareholders can dispense with one or pass resolutions in writing.\n- **Plc:** An AGM must be held annually, within six months of year-end, under the Companies Act 2014.\n\n**US tax classification**\n- **ICAV:** Not a per se corporation. It is an eligible entity that can elect its classification (for example, via Form 8832 check-the-box) or default to partnership or disregarded treatment.\n- **Plc:** Listed as a per se corporation under Treas. Reg. \u00a7301.7701-2(b)(8), so no election is available.\n\nConfirm specifics with fund counsel and tax advisers.",
+  "void": false,
+  "words_before": 144,
+  "words_after_shorten": null,
+  "words_final": 144,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-6f6pi3el",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Compare an Irish ICAV with an Irish investment plc for per-sub-fund accounts, annual general meetings and US tax-classification elections.\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-HO-05-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": []
+}

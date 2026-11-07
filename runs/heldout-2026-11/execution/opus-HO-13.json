@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "HO-13",
+  "tier": "A",
+  "answer": "**Replacing a sub-adviser without a shareholder vote**\n\nManager-of-managers exemptive relief (Section 15(a), Rule 18f-2, 1940 Act) requires:\n\n- **Board approval:** The board, including a majority of independent directors, approves the new sub-advisory agreement after a 15(c)-style review.\n- **Prior authorization:** Shareholders approved the structure, or the initial prospectus disclosed it before public sale.\n- **Information statement:** Sent to shareholders within about 90 days, often via notice of internet availability.\n- **Limits:** Affiliated sub-advisers usually need specific relief. Any increase in the adviser's fee still requires a shareholder vote.\n\n**What the principal adviser retains**\n\n- Overall management and fiduciary responsibility for the ETF\n- Selecting, monitoring, evaluating and recommending termination of sub-advisers\n- Compliance oversight, including Rule 38a-1 policies\n- Its own advisory agreement, which still requires shareholder approval\n\nConditions vary by order, so check the fund's specific relief.",
+  "original_answer": "**Replacing a sub-adviser without a shareholder vote**\n\nUnder SEC manager-of-managers exemptive relief from Section 15(a) and Rule 18f-2 of the 1940 Act:\n\n- **Board approval:** The board, including a majority of independent directors, approves the new sub-advisory agreement after a 15(c)-style review.\n- **Prior authorization:** Shareholders approved the structure beforehand, or the initial prospectus disclosed it before public sale.\n- **Information statement:** Shareholders receive one within about 90 days of the change, often through a notice of internet availability.\n- **Limits:** Affiliated sub-advisers usually need specific relief. Any increase in the adviser's fee still requires a shareholder vote.\n\n**What the principal adviser still owns**\n\n- Overall management and fiduciary responsibility for the ETF\n- Selecting, monitoring, evaluating and recommending termination of sub-advisers\n- Oversight of compliance, including Rule 38a-1 policies\n- Its own advisory agreement, which still requires shareholder approval\n\nExact conditions vary by order, so check the fund's specific relief.",
+  "void": false,
+  "words_before": 151,
+  "words_after_shorten": 138,
+  "words_final": 138,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-g8h06fc9",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a US ETF with an approved manager-of-managers structure and applicable exemptive order, how can a sub-adviser be replaced without a fresh shareholder vote, and what responsibility remains with the principal adviser?\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-HO-13-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-iufch_iu",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Replacing a sub-adviser without a shareholder vote**\n\nUnder SEC manager-of-managers exemptive relief from Section 15(a) and Rule 18f-2 of the 1940 Act:\n\n- **Board approval:** The board, including a majority of independent directors, approves the new sub-advisory agreement after a 15(c)-style review.\n- **Prior authorization:** Shareholders approved the structure beforehand, or the initial prospectus disclosed it before public sale.\n- **Information statement:** Shareholders receive one within about 90 days of the change, often through a notice of internet availability.\n- **Limits:** Affiliated sub-advisers usually need specific relief. Any increase in the adviser's fee still requires a shareholder vote.\n\n**What the principal adviser still owns**\n\n- Overall management and fiduciary responsibility for the ETF\n- Selecting, monitoring, evaluating and recommending termination of sub-advisers\n- Oversight of compliance, including Rule 38a-1 policies\n- Its own advisory agreement, which still requires shareholder approval\n\nExact conditions vary by order, so check the fund's specific relief."
+      ],
+      "stdout": "opus-HO-13-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

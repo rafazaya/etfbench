@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX023",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer calls the thresholds 'industry conventions, not universal legal safe harbors', which covers common practice and the fact that they are not a rule. It omits that the SEC recognized them as generally used when it adopted Rule 2a-5."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "The answer names 'the fund's board-approved valuation/error-correction policies' among several governing factors and says to 'escalate appropriately'. It does not say the fund's own policy governs remediation, that the responsible party reimburses the fund, or that material errors are reported to the board."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Optional. The answer does not say that precise boundaries or shareholder de minimis amounts vary by policy or that the policy text should be checked. This does not reduce the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error: the answer explicitly rejects treating the thresholds as universal legal safe harbors or as mechanically applied rules. The specific roles it gives each threshold, and its side remarks on ETF secondary-market trades, go beyond the evidence but are not contradicted by it, so they are not counted as falsehoods. Each required point gets 0.5 as a substantive but incomplete bundle, for a total of 1.0 out of 2. That meets the partial threshold but not the correct threshold."
+}

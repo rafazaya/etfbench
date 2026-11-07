@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX030",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that 'An Irish ICAV is a single legal entity; its sub-funds are not separate legal persons,' so legal personality rests with the ICAV and sub-funds sit within it."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Places statutory segregation of liability within the ICAV ('does not give each sub-fund separate legal personality. The ICAV remains the contracting party'). Says sub-funds 'cannot usually contract or sue in their own names. The ICAV acts for them,' which conveys that the ICAV sues or is sued for a particular sub-fund."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are covered. The answer explicitly denies that segregated liability creates separate legal personality, so there is no central error. Calling segregation 'often called protected cell' is loose terminology rather than a material falsehood. The hedges 'Generally' and 'usually' do not contradict the evidence."
+}

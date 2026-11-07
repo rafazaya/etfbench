@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX046",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Identifies the investment adviser as designee and excludes a sub-adviser."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "States at least quarterly reporting, but omits that it is in writing and that the designee assesses the valuation process annually."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Says material matters are reported promptly, but omits that the board sets the deadline, which can be no more than five business days."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "The answer covers the adviser designation and supplies incomplete reporting details. It does not state a central error; omitted reporting requirements are omissions, not falsehoods."
+}

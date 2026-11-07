@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX039",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Identifies the figure as a practitioner estimate of a typical maximum variable fee, but gives 2% rather than the supplied 3% and does not preserve uncertainty."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Recognizes the SAI as fund-specific terms, not a universal ceiling, but incorrectly says those terms may set a lower maximum; Corgi\u2019s filed maximum is 3%."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\u201ca fund\u2019s filed terms may set a lower maximum\u201d \u2014 this misstates the cited Corgi example: its SAI specifies \u201cup to 3%,\u201d not a lower maximum than the estimate.",
+  "grade": "partial",
+  "rationale": "Both required points are substantively addressed but each includes an error. The answer does not claim a universal statutory ceiling or that every ETF charges the fee, so there is no central error."
+}

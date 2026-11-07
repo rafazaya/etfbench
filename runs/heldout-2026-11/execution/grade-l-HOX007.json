@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX007",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that portfolio transaction costs reduce fund assets and NAV through trade execution prices, and affect performance."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Explains that the expense ratio reflects operating expenses and excludes portfolio commissions, spreads, and market impact."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Covers both required points without a material falsehood."
+}

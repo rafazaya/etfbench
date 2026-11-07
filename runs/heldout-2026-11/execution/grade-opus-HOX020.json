@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX020",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer says the thresholds are 'industry conventions, not SEC rules', which matches the core minimum: common industry practice that is not a rule. It omits the SEC's recognition of them in the Rule 2a-5 adopting release, but the grader notes make citations optional, and its own provenance claim (1990s staff positions, 1997 proposal) is unsupported by the evidence but not contradicted."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "It names the 'board-approved NAV error policy' as what governs correction. It covers reimbursement ('reimbursing the fund', the agreement sets 'who pays') and escalation to the CCO and board, which matches material errors going to the board."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Optional point. 'Each fund's written policy controls, and some are stricter or cumulative' partly covers policy-specific boundaries. It does not mention shareholder de minimis amounts or quoting the policy text when precision matters."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are covered: the thresholds are framed as industry convention rather than SEC rule, and correction is governed by the fund's own policy, with reimbursement and board escalation. The answer does not treat the thresholds as a mandated SEC rule. The 'both tests' and 1997-proposal claims are not established as false by the evidence, so no material falsehood is found. The truncated ending is omission, not error."
+}

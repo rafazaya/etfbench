@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX062",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Covers complexity and fees and discusses acquired-fund effects, but omits undue influence and reporting findings to each board by the next regular meeting."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "States that an investment agreement is generally required and notes an exception, but omits termination on no more than 60 days\u2019 notice."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\u201cAn agreement is not required in certain same-group arrangements\u201d \u2014 the supplied evidence specifies a same-adviser exception, not a same-group exception.",
+  "grade": "partial",
+  "rationale": "Both required points receive partial coverage; the answer omits required details and describes the agreement exception more broadly than the supplied evidence supports."
+}

@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX070",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer says the ETF 'remains subject to' a written liquidity-risk management program and 'the 15% of net assets limit on illiquid investments'."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "The answer lists relief from classifying investments into 'the rule's four liquidity buckets' and from establishing 'a highly liquid investment minimum'."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer explicitly keeps the program and the 15% limit, and the closing note says relief from classification is not relief from the 15% limit, so there is no central error. The extra details (board oversight, program administrator, recordkeeping, shortfall procedures, and the in-kind ETF definition) are consistent with the evidence and are not material falsehoods."
+}

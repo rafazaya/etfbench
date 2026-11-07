@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX037",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Says an ICAV may prepare sub-fund financial statements and can elect in its constitution to dispense with AGMs. Says a plc prepares company-level statutory accounts with sub-fund sections only, and is generally subject to company-law AGM requirements. The hedges ('where permitted', 'exceptions may apply') soften the contrast but the minimum is conveyed."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "Says only that 'Neither form automatically qualifies for US check-the-box treatment' and that classification 'depend[s] on entity eligibility'. It never says the ICAV can elect US partnership treatment. It never says the investment plc is a per-se corporation that cannot elect. The answer treats both vehicles the same, so the required contrast is missing."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Point 1 is covered and point 2 is not, giving 1 of 2 required coverage, which meets the half threshold. Core facts on accounts and AGMs are supplied. There is no explicit reversal of either vehicle's check-the-box eligibility, so no central error. The vague 'neither automatically qualifies' wording is non-committal rather than an affirmative falsehood, so it counts as omission. The ICAV entity-level accounts remark is not contradicted by the sources. Result: partial."
+}

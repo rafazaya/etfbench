@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX063",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer states that the acquiring adviser evaluates complexity and fee duplication. It states that the acquired adviser finds undue-influence concerns reasonably addressed. It also says each adviser reports to its fund's board by the next regularly scheduled meeting."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "The answer requires a written interfund agreement terminable on no more than 60 days' written notice. It notes the agreement is generally unnecessary when both funds share the same adviser, which matches the same-adviser exception."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer does not claim that no adviser assessment is required, and it does not universally dispense with the agreement. It expressly says the same-adviser exception does not eliminate the findings. The extra details on factors and fee information are not contradicted by the supplied evidence, so they are not treated as falsehoods."
+}

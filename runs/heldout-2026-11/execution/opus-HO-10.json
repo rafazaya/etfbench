@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "HO-10",
+  "tier": "A",
+  "answer": "**How to read the thresholds** - The **$0.01-per-share and 0.5%-of-NAV** tests are **industry conventions, not SEC rules**. They trace to 1990s SEC staff positions and a never-adopted 1997 proposal. - Many policies treat an error as material only if it meets **both** tests. Smaller errors are usually corrected going forward. Each fund's written policy controls, and some are stricter or cumulative. **What governs correction** - The **board-approved NAV error policy** under Rule 38a-1, plus Rule 2a-5 valuation oversight. - The **administration agreement**, which sets the standard of care, indemnification and who pays. - Prospectus disclosure and fiduciary and anti-fraud duties, with escalation to the CCO and board. **ETF-specific nuance** - Secondary-market investors trade at market prices, so harm falls mainly on **authorized participants' creations and redemptions** and the fund. The remedy is reprocessing AP transactions or reimbursing the fund. - Under Rule 6c-11, published NAV, premium/discount and holdings data should",
+  "original_answer": "**How to read the thresholds**\n\n- The **$0.01-per-share and 0.5%-of-NAV** tests are **industry conventions, not SEC rules**. They trace to 1990s SEC staff positions and a never-adopted 1997 proposal.\n- Many policies treat an error as material only when it meets **both** tests. Below that, it is usually just corrected going forward. Each fund's written policy controls, and some are stricter or cumulative.\n\n**What governs correction**\n\n- The **board-approved NAV error policy** under the fund's compliance program (Rule 38a-1), together with valuation oversight under Rule 2a-5.\n- The **administration agreement**, which sets standards of care, indemnification, and who pays.\n- Prospectus disclosure and fiduciary and anti-fraud obligations, with escalation to the CCO and board.\n\n**ETF-specific nuance**\n\n- Secondary-market investors trade at market prices, not NAV. Economic harm therefore falls mainly on **authorized participants' creations and redemptions** and on the fund itself.\n- Remediation means reprocessing AP transactions or reimbursing the fund.\n- Under Rule 6c-11, the administrator should also correct published NAV, premium/discount and holdings data.",
+  "void": false,
+  "words_before": 166,
+  "words_after_shorten": 153,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-fspy7_ww",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a US ETF administrator, how should the commonly used $0.01-per-share and 0.5%-of-NAV error thresholds be understood, and what governs correction?\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-HO-10-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-q5ct8qqi",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**How to read the thresholds**\n\n- The **$0.01-per-share and 0.5%-of-NAV** tests are **industry conventions, not SEC rules**. They trace to 1990s SEC staff positions and a never-adopted 1997 proposal.\n- Many policies treat an error as material only when it meets **both** tests. Below that, it is usually just corrected going forward. Each fund's written policy controls, and some are stricter or cumulative.\n\n**What governs correction**\n\n- The **board-approved NAV error policy** under the fund's compliance program (Rule 38a-1), together with valuation oversight under Rule 2a-5.\n- The **administration agreement**, which sets standards of care, indemnification, and who pays.\n- Prospectus disclosure and fiduciary and anti-fraud obligations, with escalation to the CCO and board.\n\n**ETF-specific nuance**\n\n- Secondary-market investors trade at market prices, not NAV. Economic harm therefore falls mainly on **authorized participants' creations and redemptions** and on the fund itself.\n- Remediation means reprocessing AP transactions or reimbursing the fund.\n- Under Rule 6c-11, the administrator should also correct published NAV, premium/discount and holdings data."
+      ],
+      "stdout": "opus-HO-10-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

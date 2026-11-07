@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX053",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer keeps the 'Written liquidity risk management program' and the '15% illiquid-investment limit' under 'Still required', which matches the source: 'still need a liquidity program and the 15% illiquid limit.'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Under 'Relief' it lists 'No four-bucket classification' and 'No highly liquid investment minimum (HLIM)', which matches the source's exemption from 'liquidity classification and highly-liquid minimum.'"
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are fully covered. The answer explicitly keeps the liquidity program and the 15% limit, so there is no claim of complete exemption. The extra details (Form N-RN breach reporting, board oversight, recordkeeping, removal of HLIM shortfall procedures, the de minimis cash definition) are not in the supplied evidence, but nothing in the evidence contradicts them. They are not treated as material falsehoods."
+}

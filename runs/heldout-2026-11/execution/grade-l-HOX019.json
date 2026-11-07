@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX019",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Correctly contrasts ICAV sub-fund accounts and AGM dispensation with the plc\u2019s umbrella accounts and AGM."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Correctly states that an ICAV can elect partnership treatment and an investment plc is per-se corporate for US tax."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\u201cThis is often done per sub-fund, avoiding PFIC treatment for US investors\u201d \u2014 overstates the investor tax outcome; an election does not automatically establish a particular investor\u2019s tax treatment.",
+  "grade": "partial",
+  "rationale": "Both required points are covered, but the overclaim about avoiding PFIC treatment is a material local falsehood and caps the grade at partial."
+}

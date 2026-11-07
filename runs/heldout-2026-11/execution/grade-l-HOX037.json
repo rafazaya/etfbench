@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX037",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Covers per-sub-fund ICAV accounts and AGM dispensation, and umbrella accounts and an AGM for the investment plc."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "Does not state that the ICAV can elect partnership treatment or that the investment plc is per-se corporate for US tax."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\u201cit must also prepare audited entity-level annual accounts\u201d \u2014 the supplied evidence says the ICAV can file accounts per sub-fund and has its own statute, with most company accounting rules not applying; it does not support this asserted requirement.",
+  "grade": "partial",
+  "rationale": "Point 1 is covered, but point 2 is omitted. The unsupported entity-level accounts claim is a material local error, capping the grade at partial."
+}

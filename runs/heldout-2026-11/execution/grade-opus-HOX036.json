@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX036",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0,
+      "reason": "The answer names no firms. It says it 'can't reliably name its five leaders', so the Jane Street, Virtu, GTS, Susquehanna, Citadel ranking is absent."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "It correctly limits the universe to 'NYSE Arca LMM, Nasdaq DLP, and Cboe BZX LMM assignments'. It omits the ETP framing, the NYSE October 5 sheet date, and the fact that Nasdaq and Cboe effective dates are unestablished; it only says underlying dates 'must accompany the ranking'."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "It states that 'November 6, 2026 is the retrieval date\u2014not necessarily the effective date'. It does not say that historical September 30 and ETF-only rankings remain unresolved."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "wrong",
+  "rationale": "There is no central error and no false claim, but required coverage sums to 1.0 of 3, below the 1.5 threshold. The core requested fact, the five-firm ranking, is missing, so no substantive requested fact is supplied. Under the scoring rule, either condition makes the grade wrong."
+}

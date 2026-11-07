@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX045",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States 'The US withholds **15%** on US dividends paid to an Irish UCITS ETF. That is the US\u2013Ireland treaty rate', matching the source."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says the tax is 'levied on the fund' and 'withheld before dividends reach the fund', reducing distributions or NAV. Also says 'Investors generally cannot reclaim or credit the 15%'. This covers both the fund bearing the cost and investors' inability to reclaim. Saying investors bear it 'economically' through NAV is consistent with the fund bearing it."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered: 15% treaty withholding, and a fund-level cost that investors cannot reclaim. There is no zero-rate claim and no claim that investors can reclaim directly. The side claims (MSCI net index assumption, gross roll-up, 871(m) and level-1 framing) are outside scope and not contradicted by the evidence. The answer is truncated at the end, but nothing false is asserted."
+}

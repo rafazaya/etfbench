@@ -1,0 +1,29 @@
+{
+  "blind_id": "HOX043",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer says the adviser may hire or replace a sub-adviser without a shareholder vote 'if the fund's exemptive order and governing documents permit it, and required board approval and conditions are met.' It also mentions prospectus disclosure. It never says shareholders first approve the manager-of-managers structure, so the bundle is incomplete."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States the principal adviser 'remains responsible for supervising and monitoring the sub-adviser' and that the arrangement 'does not delegate away the principal adviser's fiduciary duties,' which conveys ongoing oversight and ultimate responsibility."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Silent on whether an increase in the aggregate advisory fee rate still needs shareholder approval."
+    },
+    {
+      "point": 4,
+      "credit": 0,
+      "reason": "Optional point. The answer mentions disclosure of the change but not shareholder notice within 90 days. Omitting it does not reduce the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error: the answer ties sub-adviser changes to the exemptive order, its conditions and board approval, so it does not treat every fund as automatically entitled. Required coverage is 1.5 of 3, which meets the half threshold, and core facts are supplied. It cannot be correct because the shareholder vote on fee increases is missing and the initial shareholder approval of the structure is not stated. No material false side claims were found."
+}

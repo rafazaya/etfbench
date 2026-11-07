@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX049",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0,
+      "reason": "It gives a general 2% figure, not Rafa\u2019s uncertain practitioner estimate."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "It says SAI terms are fund-specific rather than universal, but does not identify Corgi\u2019s filed terms as the example."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\u201cSAIs commonly cap the variable creation/redemption charge, often combined with the fixed fee, at up to 2%\u201d \u2014 this conflicts with the supplied evidence that Rafa\u2019s estimate and Corgi\u2019s cited SAI maximum are 3%.",
+  "grade": "partial",
+  "rationale": "The answer partially conveys that filed terms are fund-specific, but misses the requested estimate and makes a materially inaccurate 2% claim. That local error caps the grade at partial."
+}

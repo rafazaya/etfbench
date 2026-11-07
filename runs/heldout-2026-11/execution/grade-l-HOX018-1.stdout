@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b3f3-40bc-7962-8886-09ff85f4e35d"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"blind_id\":\"HOX018\",\"coverage\":[{\"point\":1,\"credit\":1,\"reason\":\"Says undistributed ERI is taxable as income even when not paid out.\"},{\"point\":2,\"credit\":1,\"reason\":\"Says disposal generally follows capital-gains rules because reporting status applied throughout ownership.\"}],\"central_error\":null,\"local_error\":null,\"grade\":\"correct\",\"rationale\":\"Both required points are covered, with no explicit central error or material falsehood in the supplied evidence.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":9527,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":262,"reasoning_output_tokens":152}}

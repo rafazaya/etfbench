@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX066",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "States that the board may designate 'the fund's investment adviser', which covers the adviser. It never says a sub-adviser can't be the designee. Under the '40 Act both are 'investment advisers', so the exclusion isn't implied."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Covers the at-least-quarterly written assessments to the board. It omits the designee's annual assessment of the valuation process."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Says the designee must 'report promptly on significant valuation matters', which covers material-matter reporting. It omits the board-set deadline and the 5-business-day maximum."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error. The answer never says a sub-adviser can be the designee, and it affirms periodic written reporting. Coverage sums to 1.5 of 3 required points, which meets the half threshold, and core facts are supplied. The answer isn't correct because the sub-adviser exclusion, the annual assessment and the 5-business-day deadline are all missing. Some side claims fall outside the supplied evidence: 'officer or employee of the adviser' as designee and recordkeeping under Rule 31a-1. The evidence doesn't contradict them, so they aren't treated as material falsehoods."
+}

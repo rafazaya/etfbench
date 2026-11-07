@@ -1,0 +1,41 @@
+{
+  "model": "haiku",
+  "id": "HO-17",
+  "tier": "B",
+  "answer": "**Undistributed reportable income** is taxed as income in the year it is reported, even though no cash was received. The fund issues a annual reporting-fund report (within six months of its year-end), and you include that amount on your Self Assessment return. It is taxed at your income tax rates, typically as savings or dividend income depending on the fund's nature. Distributions are not taxed again; the reportable income figure already covers them.\n\n**Disposal gains** are taxed as chargeable gains under Capital Gains Tax, not income. To prevent double taxation, the reportable income you were taxed on is added to your base cost, which reduces the gain on sale. Gains are subject to the CGT annual exempt amount and the current CGT rates.\n\nNote that losses on a reporting fund are treated as capital losses, not income losses, so they can only offset capital gains.",
+  "original_answer": "**Undistributed reportable income** is taxed as income in the year it is reported, even though no cash was received. The fund issues a annual reporting-fund report (within six months of its year-end), and you include that amount on your Self Assessment return. It is taxed at your income tax rates, typically as savings or dividend income depending on the fund's nature. Distributions are not taxed again; the reportable income figure already covers them.\n\n**Disposal gains** are taxed as chargeable gains under Capital Gains Tax, not income. To prevent double taxation, the reportable income you were taxed on is added to your base cost, which reduces the gain on sale. Gains are subject to the CGT annual exempt amount and the current CGT rates.\n\nNote that losses on a reporting fund are treated as capital losses, not income losses, so they can only offset capital gains.",
+  "void": false,
+  "words_before": 145,
+  "words_after_shorten": null,
+  "words_final": 145,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-qan7_ezc",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a UK taxable individual holding an offshore ETF with UK reporting-fund status throughout ownership, how are undistributed reportable income and disposal gains treated?\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-HO-17-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": []
+}

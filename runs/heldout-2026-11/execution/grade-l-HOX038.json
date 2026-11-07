@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX038",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Mentions undue influence and acquiring-board oversight, but omits complexity and fee-duplication review and the acquired adviser's board reporting by the next regular meeting."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Says an agreement is generally required, but omits the 60-day termination limit and same-adviser exception."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\u201cThe acquiring fund's adviser\u201d must find that the investment \u201cwill not cause undue influence\u201d; the supplied evidence assigns addressing undue influence to the acquired fund's adviser.",
+  "grade": "partial",
+  "rationale": "Both required points are substantively incomplete, and the undue-influence claim misattributes the responsibility. The answer does not deny the required assessment or agreement, so there is no central error."
+}

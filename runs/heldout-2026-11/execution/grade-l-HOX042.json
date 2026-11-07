@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX042",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the board sets the NAV calculation time and NAV is computed at least once daily, Monday through Friday."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Describes 4 p.m. ET as the usual convention tied to the NYSE close, not a universally mandated SEC time."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are covered, with no central error or material local falsehood."
+}

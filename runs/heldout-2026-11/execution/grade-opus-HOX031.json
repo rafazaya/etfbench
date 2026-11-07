@@ -1,0 +1,29 @@
+{
+  "blind_id": "HOX031",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that the board, including a majority of independent directors, approves the new sub-advisory agreement under the exemptive relief. It also requires prior authorization by shareholder approval of the structure or initial prospectus disclosure. Presenting these as alternatives tracks typical order mechanics for new funds and still covers both elements."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says the adviser retains 'Overall management and fiduciary responsibility for the ETF' and 'Selecting, monitoring, evaluating and recommending termination of sub-advisers'."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "'Any increase in the adviser's fee still requires a shareholder vote' covers the aggregate advisory fee rate requirement in substance."
+    },
+    {
+      "point": 4,
+      "credit": 1,
+      "reason": "Optional point covered: 'Information statement: Sent to shareholders within about 90 days'."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are covered, and the optional notice point is also present. There is no central error: the answer conditions sub-adviser changes on exemptive relief and board approval, and says to check the fund's specific relief. The affiliated sub-adviser remark is outside scope and not a material falsehood."
+}

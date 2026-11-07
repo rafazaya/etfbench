@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX002",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States unitary-fee waivers are 'typically not recoupable... the waived amount is forgone' and that 'unitary waivers are a permanent fee cut.' This matches the minimum. The hedge 'typically' fits the grader note that contract terms control."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States recoupment is 'commonly allowed within 36 months of the waiver' and is 'limited to the lesser of the cap at the time of waiver and the current cap.' This covers both the three-year window and the rule that the lower cap controls."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are fully covered and the two arrangements are correctly distinguished, not reversed. No unlimited recovery above the caps is granted. The answer is cut off ('Expense-limitation') after both points were already stated, so that is omission, not falsehood. The claim that recoupment 'often requires board approval' is plausible and not contradicted by the source. Its list of unitary-fee exclusions is incomplete but presented as typical, so it is not a falsehood. Saying it doesn't know which bank is meant is a reasonable hedge, not an error."
+}

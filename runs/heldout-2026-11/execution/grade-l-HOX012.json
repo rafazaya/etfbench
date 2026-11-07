@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX012",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0,
+      "reason": "Says unitary-fee waivers may be recovered under express provisions, contrary to the supplied arrangement where waived amounts are permanently forgone."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States ordinary-cap recovery is commonly within three years and constrained by the lower of the original and current caps."
+    }
+  ],
+  "central_error": "\u201cPreviously waived advisory fees\u201d may be recovered under express provisions \u2014 reverses the described unitary-fee arrangement\u2019s treatment, which permanently forgoes waived amounts.",
+  "local_error": null,
+  "grade": "wrong",
+  "rationale": "The answer fully covers the ordinary expense-cap rule but explicitly gives the unitary-fee waiver a recoupment right that the supplied evidence says does not exist in this arrangement."
+}

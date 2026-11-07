@@ -1,0 +1,448 @@
+[
+  {
+    "grader": "o",
+    "blind_id": "HOX004",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Optional point. The answer notes that documented policies define 'scope, aggregation, materiality, and affected transactions,' but does not mention shareholder de minimis amounts or the need to quote the policy text for precision. This omission does not reduce the grade."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX008",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point. The answer does not mention offshore income gain treatment for non-reporting funds. Omitting it does not reduce the grade."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX010",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point. The answer does not mention a trust-wide vote or different auditors per series. This does not reduce the grade."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX016",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point, so it does not affect the grade. The answer does not mention that a vote is trust-wide or that series may use different auditors."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX017",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Optional point. 'Wording varies by fund' and 'Verify thresholds and procedures against the fund's policy documents' partly cover it. Shareholder de minimis amounts and boundary precision are not addressed."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX018",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Optional point. 'Not offshore-income-gain treatment' implicitly contrasts with offshore income gains but does not say that non-reporting fund gains get that treatment. This omission does not affect the grade."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX020",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Optional point. 'Each fund's written policy controls, and some are stricter or cumulative' partly covers policy-specific boundaries. It does not mention shareholder de minimis amounts or quoting the policy text when precision matters."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX022",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point; omitted. It gives no Lipper denominator and no ICI comparison."
+      },
+      {
+        "point": 4,
+        "credit": 0,
+        "reason": "Optional point; omitted. It says nothing about Vanguard ETF share-class versus whole-portfolio assets."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX023",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional. The answer does not say that precise boundaries or shareholder de minimis amounts vary by policy or that the policy text should be checked. This does not reduce the grade."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX024",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point. The answer gives about 2% and does not give the Corgi maximum; this omission does not reduce the grade."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX025",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "The answer does not say that a shareholder vote is trust-wide or that series may use different auditors. This point is optional, so the omission does not affect the grade."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX031",
+    "removed_optional": [
+      {
+        "point": 4,
+        "credit": 1,
+        "reason": "Optional point covered: 'Information statement: Sent to shareholders within about 90 days'."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX035",
+    "removed_optional": [
+      {
+        "point": 4,
+        "credit": 1,
+        "reason": "Optional point covered: 'prescribed shareholder disclosure, typically within 90 days.'"
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX039",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "This optional point is missed: the answer states 2%, not 3%. Optional omissions do not reduce the grade."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX040",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point, not addressed. Optional omissions do not reduce the grade."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX041",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point. It never states that the estimate and Corgi maximum are 3%; the generic '1% to 3%' range is not attributed to either source. Optional omissions do not affect the grade."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX043",
+    "removed_optional": [
+      {
+        "point": 4,
+        "credit": 0,
+        "reason": "Optional point. The answer mentions disclosure of the change but not shareholder notice within 90 days. Omitting it does not reduce the grade."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX047",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Optional point. The answer implies it by contrasting the treatment with 'offshore income gains taxed as income' but never directly says non-reporting funds get that treatment. This omission cannot reduce the grade."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX049",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point. The answer does not state that the estimate and the Corgi maximum are both 3%; it mentions 3% only as a cap some issuers use."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX050",
+    "removed_optional": [
+      {
+        "point": 4,
+        "credit": 1,
+        "reason": "Optional point covered: 'Shareholders receive an information statement generally within 90 days after the new sub-adviser is engaged.'"
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX051",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point. Designated persons, the six managerial functions and board escalation are not mentioned. This does not affect the grade."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX052",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "The answer does not mention designated persons, the six managerial functions or escalation to the board. This point is optional, so the omission does not reduce the grade."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX054",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Optional point. Designated persons monitor and 'escalate deficiencies to the board', but the answer does not name the six managerial functions. Under the scoring rule, optional omissions do not affect the grade."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX065",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Optional. Mentions CP86 designated persons overseeing functions and escalating to the board, but says they oversee 'investment management and administration' rather than the six managerial functions. Not scored toward the grade."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX067",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point; the Lipper USD16,296.6bn denominator and the ICI comparison are omitted. No penalty applies."
+      },
+      {
+        "point": 4,
+        "credit": 0,
+        "reason": "Optional point; the distinction between Vanguard's ETF share-class assets and its whole portfolio is omitted. No penalty applies."
+      }
+    ]
+  },
+  {
+    "grader": "o",
+    "blind_id": "HOX068",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point not addressed: nothing on the trust-wide vote or on series using different auditors. This does not reduce the grade."
+      }
+    ]
+  },
+  {
+    "grader": "l",
+    "blind_id": "HOX004",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Notes that documented policies define scope and materiality, but does not specifically mention shareholder de minimis amounts or checking the policy\u2019s precise boundaries."
+      }
+    ]
+  },
+  {
+    "grader": "l",
+    "blind_id": "HOX008",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Does not discuss gains for non-reporting funds."
+      }
+    ]
+  },
+  {
+    "grader": "l",
+    "blind_id": "HOX017",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Notes that wording varies by fund and advises checking policy documents for the fund's procedures."
+      }
+    ]
+  },
+  {
+    "grader": "l",
+    "blind_id": "HOX020",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Notes that policies can be stricter or cumulative, but does not explicitly advise checking the policy text when precision matters."
+      }
+    ]
+  },
+  {
+    "grader": "l",
+    "blind_id": "HOX031",
+    "removed_optional": [
+      {
+        "point": 4,
+        "credit": 1,
+        "reason": "States that shareholders receive notice within about 90 days."
+      }
+    ]
+  },
+  {
+    "grader": "l",
+    "blind_id": "HOX040",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Does not address gains for non-reporting offshore funds."
+      }
+    ]
+  },
+  {
+    "grader": "l",
+    "blind_id": "HOX050",
+    "removed_optional": [
+      {
+        "point": 4,
+        "credit": 1,
+        "reason": "Says shareholders receive an information statement generally within 90 days."
+      }
+    ]
+  },
+  {
+    "grader": "l",
+    "blind_id": "HOX052",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Does not mention designated persons monitoring the six functions or escalating issues to the board; this point is optional."
+      }
+    ]
+  },
+  {
+    "grader": "l",
+    "blind_id": "HOX054",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Mentions designated-person monitoring and escalation, but does not identify all six managerial functions."
+      }
+    ]
+  },
+  {
+    "grader": "l",
+    "blind_id": "HOX057",
+    "removed_optional": [
+      {
+        "point": 4,
+        "credit": 0,
+        "reason": "Optional counts are omitted."
+      },
+      {
+        "point": 5,
+        "credit": 0.5,
+        "reason": "Explains that counts are by venue rather than unique funds and excludes other venues, but omits unreconciled listing-transfer overlaps and the NYSE DMM caveat."
+      },
+      {
+        "point": 6,
+        "credit": 0,
+        "reason": "Optional AUM and market-share caveat is omitted."
+      }
+    ]
+  },
+  {
+    "grader": "l",
+    "blind_id": "HOX065",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Mentions designated persons overseeing investment management and administration and escalating issues, but not monitoring all six functions."
+      }
+    ]
+  },
+  {
+    "grader": "l",
+    "blind_id": "HOX068",
+    "removed_optional": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Does not state that a shareholder vote is trust-wide or that series may use different auditors."
+      }
+    ]
+  },
+  {
+    "grader": "l",
+    "blind_id": "HOX049",
+    "operation": "mechanical grade correction",
+    "before": "partial",
+    "after": "wrong",
+    "reason": "0.5/2 required coverage is below half. A local-error cap cannot raise insufficient coverage. Raw return retained."
+  }
+]

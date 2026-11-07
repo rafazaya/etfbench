@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX024",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Identifies an uncertain practitioner estimate of the typical maximum variable creation/redemption fee, though the stated percentage is wrong."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Recognizes that the Corgi SAI gives fund-specific filed terms, not a universal ceiling."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\u201cabout 2%\u201d \u2014 the supplied evidence says the estimate is 3%; this is a material numeric error.",
+  "grade": "partial",
+  "rationale": "Both required points are covered in scope, but the incorrect stated percentage is a material local falsehood and caps the grade at partial."
+}

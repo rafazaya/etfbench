@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX028",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Correctly says an ICAV can avoid an AGM, but claims sub-fund statements sit within a single ICAV-level set rather than saying it can produce accounts per sub-fund."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that an ICAV can elect its US tax classification and that an investment plc is per-se corporate and cannot elect."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\u201cEach sub-fund's financial statements sit within a single ICAV-level set.\u201d This conflicts with the supplied evidence that an ICAV can produce accounts per sub-fund.",
+  "grade": "partial",
+  "rationale": "The tax comparison is covered. The accounts claim is materially false, so point 1 receives partial credit for its AGM coverage and the overall grade is capped at partial."
+}

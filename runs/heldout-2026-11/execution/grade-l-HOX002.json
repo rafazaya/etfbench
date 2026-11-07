@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX002",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Says the waived amount is forgone and describes the waiver as a permanent fee cut."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Gives a 36-month recoupment period and says recovery is limited by the lower of the original and current caps."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\u201cunitary waivers are a permanent fee cut\u201d \u2014 stated categorically, this generalizes beyond the described arrangement; contract terms control.",
+  "grade": "partial",
+  "rationale": "Both required points are covered, but the categorical claim about all unitary waivers is an unsupported generalization and caps the grade at partial."
+}

@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX004",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the thresholds are 'industry conventions, not SEC safe harbors or universal legal limits' that are 'commonly used to flag pricing/NAV errors.' This covers the core minimum: common policy practice that is not an SEC rule. The answer does not cite the Rule 2a-5 adopting release's recognition of the thresholds, but citations are optional and the substance is conveyed."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Names the 'fund's board-approved NAV-error policy and procedures' as governing correction. It also covers 'reimbursement of the fund or affected investors,' says 'responsibility depends on the error's cause and contract' (the responsible party pays), and escalates material issues to the 'fund board/counsel.' Listing other governing sources alongside the policy does not contradict the evidence."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Optional point. The answer notes that documented policies define 'scope, aggregation, materiality, and affected transactions,' but does not mention shareholder de minimis amounts or the need to quote the policy text for precision. This omission does not reduce the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are fully covered. The answer explicitly rejects treating the thresholds as an SEC mandate, so the central error is absent. None of its side claims is a material falsehood against the evidence."
+}

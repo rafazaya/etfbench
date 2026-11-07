@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX032",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that commissions, spreads, and market impact affect portfolio execution, reducing NAV and performance."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says portfolio trading costs are excluded from the expense ratio, which covers operating expenses."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are covered accurately; no material falsehood is stated."
+}

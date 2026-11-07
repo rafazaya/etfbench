@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX048",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Lists the continuing liquidity risk management program under 22e-4(b)(1) and 'The 15% limit on illiquid investments'. Both elements of the minimum are present, though framed as 'Likely continuing requirements'."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Names relief from 'the requirement to classify each portfolio holding into one of the four liquidity buckets' and 'The Highly Liquid Investment Minimum (HLIM)'. Both elements are present, though framed as 'Possible relief'."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are identified correctly and match the source: in-kind ETFs keep the liquidity program and the 15% illiquid limit, and are exempt from classification and the HLIM. The answer hedges ('likely', 'possible', and an unverified '2026 relief' framing), but it makes no contrary claim and no central error, since it never asserts exemption from the program or the 15% limit. The extra continuing items (board oversight, N-PORT reporting) are not contradicted by the evidence. Hedging is treated as caution, not falsehood, so the scoring rule for 'correct' is met."
+}

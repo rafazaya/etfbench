@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX040",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Says income is taxed even when undistributed and that reportable income covers distributions."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says disposal gains receive CGT treatment."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Does not address gains for non-reporting offshore funds."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are covered; the optional point is omitted, which does not reduce the grade."
+}

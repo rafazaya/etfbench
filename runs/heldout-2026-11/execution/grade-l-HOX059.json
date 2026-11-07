@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX059",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Names all three brands, but presents the first two as interchangeable rather than giving the required order."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Mentions Lipper\u2019s US ETF-for-sale universe and sponsor-brand assets, but describes this as a typical scope and does not tie it to September 30, 2026."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Both required points receive partial coverage; the answer\u2019s uncertainty and omissions do not establish a falsehood or central error."
+}

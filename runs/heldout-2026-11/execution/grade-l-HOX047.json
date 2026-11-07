@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX047",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Explicitly says undistributed excess reportable income is taxable even when no cash is received."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Explicitly says disposal generally receives CGT treatment when reporting status applied throughout ownership."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are covered, with no central error or material falsehood established by the supplied evidence. The optional point is omitted and does not reduce the grade."
+}

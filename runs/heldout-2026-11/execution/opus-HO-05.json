@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "HO-05",
+  "tier": "B",
+  "answer": "**ICAV vs. Irish investment plc**\n\n| Feature | ICAV (ICAV Act 2015) | Investment plc (Companies Act 2014, Part 24) |\n|---|---|---|\n| **Sub-fund accounts** | An umbrella may prepare separate financial statements for each sub-fund. | Umbrella-level accounts only. Sub-fund figures are included, but standalone statements aren't permitted. |\n| **AGMs** | The board may dispense with AGMs by notice. Shareholders or the auditor can still require one. | Generally mandatory. Dispensing requires unanimous written shareholder consent, which is impractical for listed ETFs. |\n| **US tax** | Not a \"per se corporation,\" so it can check-the-box to be a partnership or disregarded entity. This is often done per sub-fund, avoiding PFIC treatment for US investors. | On the per se corporation list, so it is always a corporation and cannot elect. |\n\nThis flexibility is why most new Irish ETF umbrellas are ICAVs.",
+  "original_answer": "**ICAV vs. Irish investment plc**\n\n| Feature | ICAV (ICAV Act 2015) | Investment plc (Companies Act 2014, Part 24) |\n|---|---|---|\n| **Per-sub-fund accounts** | An umbrella ICAV may prepare separate financial statements for each sub-fund. | Accounts must be prepared for the umbrella company as a whole. Sub-fund figures appear within them, but standalone statements aren't permitted. |\n| **AGMs** | The board can dispense with AGMs by giving shareholders notice. Shareholders, or the auditor, can still require one. | AGMs are generally mandatory. Dispensing with one requires unanimous written shareholder consent, which is impractical for a listed ETF. |\n| **US tax classification** | Not a \"per se corporation\" under US Treasury regulations, so it can make a check-the-box election to be treated as a partnership or disregarded entity. In practice this is often done sub-fund by sub-fund, which avoids PFIC treatment for US investors. | An Irish plc is on the per se corporation list, so it is always treated as a corporation and cannot elect. |\n\nThis flexibility is why most new Irish ETF umbrellas use the ICAV form.",
+  "void": false,
+  "words_before": 184,
+  "words_after_shorten": 145,
+  "words_final": 145,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-yido3y44",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Compare an Irish ICAV with an Irish investment plc for per-sub-fund accounts, annual general meetings and US tax-classification elections.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-HO-05-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-x9zic5vu",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**ICAV vs. Irish investment plc**\n\n| Feature | ICAV (ICAV Act 2015) | Investment plc (Companies Act 2014, Part 24) |\n|---|---|---|\n| **Per-sub-fund accounts** | An umbrella ICAV may prepare separate financial statements for each sub-fund. | Accounts must be prepared for the umbrella company as a whole. Sub-fund figures appear within them, but standalone statements aren't permitted. |\n| **AGMs** | The board can dispense with AGMs by giving shareholders notice. Shareholders, or the auditor, can still require one. | AGMs are generally mandatory. Dispensing with one requires unanimous written shareholder consent, which is impractical for a listed ETF. |\n| **US tax classification** | Not a \"per se corporation\" under US Treasury regulations, so it can make a check-the-box election to be treated as a partnership or disregarded entity. In practice this is often done sub-fund by sub-fund, which avoids PFIC treatment for US investors. | An Irish plc is on the per se corporation list, so it is always treated as a corporation and cannot elect. |\n\nThis flexibility is why most new Irish ETF umbrellas use the ICAV form."
+      ],
+      "stdout": "opus-HO-05-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

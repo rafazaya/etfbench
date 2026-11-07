@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX028",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Correctly says the ICAV need not hold an AGM and the plc must hold one, and gives the plc company-level (umbrella) accounts. It does not say the ICAV can produce per-sub-fund accounts. Instead it says the ICAV's sub-fund statements 'sit within a single ICAV-level set', which blurs the accounts distinction. The bundle is substantive but incomplete."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says the ICAV is an eligible entity that can elect its US classification via check-the-box (Form 8832). It also says the plc is a per se corporation under Treas. Reg. \u00a7301.7701-2(b)(8) and cannot elect. This matches the minimum."
+    }
+  ],
+  "central_error": null,
+  "local_error": "'or default to partnership or disregarded treatment' is wrong. A foreign eligible entity whose members all have limited liability, as with an ICAV, defaults to association (corporate) treatment; partnership treatment needs an affirmative election. This is a material local falsehood about US classification, which caps the grade at partial.",
+  "grade": "partial",
+  "rationale": "Required coverage is 1.5 of 2, which is at least half. There is no central error: the answer does not reverse the vehicles on the election, AGMs or accounts. However, it fails to say the ICAV can file per-sub-fund accounts, and it contains a material local falsehood about the ICAV's default US classification. Under the scoring rule the grade is partial."
+}

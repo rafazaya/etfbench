@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX015",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States 'The fund's board ... establishes when NAV is calculated' and that the ETF 'must calculate NAV at least once daily, on each day the listing exchange is open', which matches the board setting the time and striking NAV at least once each business day."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States '4:00 p.m. ET is customary\u2014not a statutory or SEC-mandated universal pricing time' and that it 'generally aligns with the NYSE's regular-session close', which matches the convention tied to the NYSE close."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer says the board acts through the adviser and administrators under board-approved procedures, but it keeps the board as the party that sets the time, so it does not assign that role to another party. It explicitly denies an SEC or federal 4 pm mandate. Its side claims (more frequent calculation is permitted, a different time around early closes, and intraday market prices being distinct from NAV) are consistent with the evidence and are not material falsehoods."
+}

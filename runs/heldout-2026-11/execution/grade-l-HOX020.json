@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX020",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Identifies the thresholds as industry conventions, not SEC rules, but omits that the SEC recognized their common use when adopting Rule 2a-5."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Says the fund\u2019s policy governs and mentions reimbursement and board escalation, but does not clearly state that the responsible party reimburses the fund and material errors are reported to the board."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Notes that policies can be stricter or cumulative, but does not explicitly advise checking the policy text when precision matters."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Both required points receive substantive but incomplete coverage. The answer does not state that the thresholds are universally mandated SEC correction rules, so there is no central error."
+}

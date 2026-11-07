@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX054",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer covers due diligence before appointment, set out in 'clear written responsibilities' with audit and termination arrangements. It also covers oversight afterwards: designated persons 'scrutinise and challenge' delegate reporting, monitor performance and periodically refresh due diligence. This matches the source on checking delegates before and after appointment under a written agreement and challenging their reports."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "The answer states 'the board and ManCo remain responsible for the delegated functions' and 'delegation does not diminish the ManCo's liability'. It requires 'sufficient in-house expertise and resources to supervise effectively' and says the ManCo cannot become a 'letter-box' entity. This matches Art. 13 in the source."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Optional point. Designated persons monitor and 'escalate deficiencies to the board', but the answer does not name the six managerial functions. Under the scoring rule, optional omissions do not affect the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are fully covered. There is no central error: the answer says responsibility and liability stay with the ManCo and rejects the letter-box model. It makes no material false claims; the extra details (authorisation, sub-delegation controls, termination rights) are consistent with the evidence."
+}

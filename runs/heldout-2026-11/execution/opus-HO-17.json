@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "HO-17",
+  "tier": "B",
+  "answer": "**Undistributed (excess) reportable income**\n- Excess reportable income (reportable income minus actual distributions) is **deemed distributed** on the fund distribution date, six months after the reporting period ends. You're taxed in the **UK tax year containing that date**, despite receiving no cash.\n- It's generally taxed as a **dividend**, but as **interest (savings income)** if the fund holds over 60% interest-bearing assets throughout the period (qualifying investments test).\n- It's **added to your CGT base cost**, avoiding double taxation on disposal.\n\n**Disposal gains**\n- Gains face **capital gains tax**, not income tax, at the current 18% and 24% rates. The \u00a33,000 annual exempt amount and losses can offset gains.\n- Gain = proceeds minus cost, where cost includes reported excess income. This assumes reporting status throughout ownership.\n\nCheck each fund's annual report (fund website or HMRC's list) and report the figures on your Self Assessment return.",
+  "original_answer": "**Undistributed (excess) reportable income**\n- Excess reportable income is the fund's reportable income minus actual distributions. It is **deemed distributed** to you on the fund's \"fund distribution date,\" which is six months after the reporting period ends. You are taxed in the **UK tax year containing that date**, even though you received no cash.\n- It is generally taxed as a **dividend**. If the fund holds more than 60% interest-bearing assets throughout the period (the qualifying investments test), it is taxed as **interest (savings income)** instead.\n- The amount is **added to your CGT base cost**, so it is not taxed twice on disposal.\n\n**Disposal gains**\n- Gains are subject to **capital gains tax**, not income tax. The current rates are 18% and 24%, and the \u00a33,000 annual exempt amount and losses can offset gains.\n- Calculate the gain as proceeds minus cost, where cost includes the reported excess income. This assumes reporting status held throughout ownership.\n\nCheck each fund's annual report (on its website or HMRC's list) and report the figures on your Self Assessment return.",
+  "void": false,
+  "words_before": 177,
+  "words_after_shorten": 146,
+  "words_final": 146,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-n3apepfn",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a UK taxable individual holding an offshore ETF with UK reporting-fund status throughout ownership, how are undistributed reportable income and disposal gains treated?\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-HO-17-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-6ywuf1my",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Undistributed (excess) reportable income**\n- Excess reportable income is the fund's reportable income minus actual distributions. It is **deemed distributed** to you on the fund's \"fund distribution date,\" which is six months after the reporting period ends. You are taxed in the **UK tax year containing that date**, even though you received no cash.\n- It is generally taxed as a **dividend**. If the fund holds more than 60% interest-bearing assets throughout the period (the qualifying investments test), it is taxed as **interest (savings income)** instead.\n- The amount is **added to your CGT base cost**, so it is not taxed twice on disposal.\n\n**Disposal gains**\n- Gains are subject to **capital gains tax**, not income tax. The current rates are 18% and 24%, and the \u00a33,000 annual exempt amount and losses can offset gains.\n- Calculate the gain as proceeds minus cost, where cost includes the reported excess income. This assumes reporting status held throughout ownership.\n\nCheck each fund's annual report (on its website or HMRC's list) and report the figures on your Self Assessment return."
+      ],
+      "stdout": "opus-HO-17-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

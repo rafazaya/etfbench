@@ -1,0 +1,29 @@
+{
+  "blind_id": "HOX035",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Covered: the principal adviser recommends and the board, with a majority of independent trustees, approves a new sub-advisory agreement without another shareholder vote, within the order's conditions. Missing: that shareholders approve the manager-of-managers structure initially and that the prospectus discloses it."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States the principal adviser keeps responsibility for selecting, supervising, evaluating and replacing sub-advisers. Adds that it 'does not let the principal adviser delegate away its responsibility for overseeing the ETF's management.'"
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Does not say that an increase in the aggregate advisory fee rate still needs shareholder approval."
+    },
+    {
+      "point": 4,
+      "credit": 1,
+      "reason": "Optional point covered: 'prescribed shareholder disclosure, typically within 90 days.'"
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "No central error. The answer conditions the change on the exemptive order and board approval. Required coverage is 1.5 of 3, which meets the half threshold, and core facts are supplied. The affiliated sub-adviser remark is outside the question's scope and is not a material falsehood, since it is hedged as 'depending on the order.' The missing fee-increase point and the incomplete point 1 prevent a grade of correct."
+}

@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX053",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Explicitly says the liquidity program and 15% illiquid-investment limit still apply."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Explicitly says the fund is exempt from four-bucket classification and the highly liquid investment minimum."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Covers both required points, with no central error or material falsehood shown by the supplied evidence."
+}

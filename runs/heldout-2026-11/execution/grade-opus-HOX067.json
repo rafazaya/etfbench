@@ -1,0 +1,29 @@
+{
+  "blind_id": "HOX067",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer lists '1. iShares (BlackRock) 2. Vanguard 3. SPDR (State Street Global Advisors)', which is the correct order. It hedges this as 'likely' and based on the pattern through 2025, but it still states the required ranking, and the rubric does not penalise caveats."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "The answer frames the ranking 'by US ETF assets' in 'Lipper's US ETF universe', explains 'ETF-for-sale', refers to 'brand-level totals' and ties this to 'the September 30, 2026 period'. This covers asset measurement by sponsor brand in the Lipper US ETF-for-sale universe at that date. Its glosses ('US-domiciled, exchange-listed', 'available for purchase') are hedged and not contradicted by the source."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Optional point; the Lipper USD16,296.6bn denominator and the ICI comparison are omitted. No penalty applies."
+    },
+    {
+      "point": 4,
+      "credit": 0,
+      "reason": "Optional point; the distinction between Vanguard's ETF share-class assets and its whole portfolio is omitted. No penalty applies."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are covered: the correct top three in order, and a brand-level asset measure within Lipper's US ETF-for-sale universe at September 30, 2026. The answer makes no global-issuer or sponsor-wide-AUM claim, so there is no central error. The hedging and scope glosses are not material falsehoods. Optional omissions do not reduce the grade."
+}

@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "HO-14",
+  "tier": "B",
+  "answer": "**Rule 12d1-4 requirements beyond statutory limits (management investment companies)**\n\n**Acquiring fund's adviser** must:\n- Evaluate the structure's complexity and aggregate fees and expenses.\n- Find that the acquiring fund's fees don't duplicate the acquired fund's.\n- Report these to the acquiring fund's board.\n\n**Acquired fund's adviser** must:\n- Find that undue-influence concerns are reasonably addressed and report this to its board.\n- Generally not required for secondary-market purchases of listed shares.\n\n**Fund-of-funds investment agreement** (required when advisers differ or aren't control affiliates):\n- In effect at the time of investment.\n- Includes material terms needed for the advisers' findings.\n- Terminable on \u226460 days' notice.\n- Requires the acquired fund to provide fee and expense information.\n\n**Related conditions**\n- Control and voting limits, including pass-through or mirror voting above 25% (10% for closed-end funds).\n- Restrictions on three-tier structures.\n- Recordkeeping.",
+  "original_answer": "**Rule 12d1-4 requirements beyond statutory limits (management investment companies)**\n\n**Acquiring fund's adviser** must:\n- Evaluate the complexity of the fund-of-funds structure and its aggregate fees and expenses.\n- Find that the acquiring fund's fees and expenses do not duplicate those of the acquired fund.\n- Report these evaluations and findings to the acquiring fund's board.\n\n**Acquired fund's adviser** must:\n- Find that any undue-influence concerns from the investment are reasonably addressed.\n- Report this to the acquired fund's board.\n- Generally not required for secondary-market purchases of listed shares.\n\n**Fund-of-funds investment agreement**\n- Required when the funds have different advisers (or advisers that are not control affiliates).\n- Must be in effect at the time of investment.\n- Must include any material terms needed for the advisers' findings.\n- Must allow termination on no more than 60 days' notice.\n- Must require the acquired fund to provide fee and expense information.\n\n**Related conditions**\n- Control and voting limits, including pass-through or mirror voting above 25% (10% for closed-end funds).\n- Restrictions on three-tier structures.\n- Recordkeeping.",
+  "void": false,
+  "words_before": 176,
+  "words_after_shorten": 141,
+  "words_final": 141,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-arc8kfj5",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For US management investment companies relying on Rule 12d1-4 beyond statutory fund-of-funds limits, what adviser findings and interfund agreement are normally required?\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-HO-14-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-1jfdtmds",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Rule 12d1-4 requirements beyond statutory limits (management investment companies)**\n\n**Acquiring fund's adviser** must:\n- Evaluate the complexity of the fund-of-funds structure and its aggregate fees and expenses.\n- Find that the acquiring fund's fees and expenses do not duplicate those of the acquired fund.\n- Report these evaluations and findings to the acquiring fund's board.\n\n**Acquired fund's adviser** must:\n- Find that any undue-influence concerns from the investment are reasonably addressed.\n- Report this to the acquired fund's board.\n- Generally not required for secondary-market purchases of listed shares.\n\n**Fund-of-funds investment agreement**\n- Required when the funds have different advisers (or advisers that are not control affiliates).\n- Must be in effect at the time of investment.\n- Must include any material terms needed for the advisers' findings.\n- Must allow termination on no more than 60 days' notice.\n- Must require the acquired fund to provide fee and expense information.\n\n**Related conditions**\n- Control and voting limits, including pass-through or mirror voting above 25% (10% for closed-end funds).\n- Restrictions on three-tier structures.\n- Recordkeeping."
+      ],
+      "stdout": "opus-HO-14-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX009",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that a change of control is an assignment and the existing contract terminates automatically at closing."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that the new contract needs board approval, including independent trustees, and shareholder approval."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are covered, with no explicit central error or material local falsehood."
+}

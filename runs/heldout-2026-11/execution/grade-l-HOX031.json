@@ -1,0 +1,29 @@
+{
+  "blind_id": "HOX031",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Covers board approval and prior structure authorization/disclosure, but says shareholder approval or prospectus disclosure; the rubric requires both."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Explicitly says the principal adviser oversees sub-advisers and retains overall responsibility."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "States that an increase in the adviser's fee still requires a shareholder vote."
+    },
+    {
+      "point": 4,
+      "credit": 1,
+      "reason": "States that shareholders receive notice within about 90 days."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\u201cShareholders approved the structure, or the initial prospectus disclosed it before public sale.\u201d The rubric requires shareholder approval of the structure initially and prospectus disclosure, not either one alone.",
+  "grade": "partial",
+  "rationale": "The answer covers the board-approval mechanism, ongoing adviser responsibility, fee-vote condition, and optional notice. Its disjunctive statement of the initial authorization and disclosure conditions is a material local error, capping the grade at partial."
+}

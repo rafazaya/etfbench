@@ -1,0 +1,1570 @@
+[
+  {
+    "blind_id": "HOX001",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "Answer declines to name any firms; no ranking supplied."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "No description of the combined NYSE Arca LMM/Nasdaq DLP/Cboe BZX ETP universe, the October 5 NYSE sheet date, or the unestablished Nasdaq/Cboe effective dates."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Restates the November 6, 2026 date from the question but gives no retrieval-date framing and does not note that historical September 30 and ETF-only rankings remain unresolved."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "The answer is a refusal stating the snapshot is unavailable. It makes no false claims and no central error, but required coverage is 0 of 3, below the half threshold, and it supplies no substantive requested fact. Under the scoring rule this is wrong."
+  },
+  {
+    "blind_id": "HOX002",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States unitary-fee waivers are 'typically not recoupable... the waived amount is forgone' and that 'unitary waivers are a permanent fee cut.' This matches the minimum. The hedge 'typically' fits the grader note that contract terms control."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States recoupment is 'commonly allowed within 36 months of the waiver' and is 'limited to the lesser of the cap at the time of waiver and the current cap.' This covers both the three-year window and the rule that the lower cap controls."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required points are fully covered and the two arrangements are correctly distinguished, not reversed. No unlimited recovery above the caps is granted. The answer is cut off ('Expense-limitation') after both points were already stated, so that is omission, not falsehood. The claim that recoupment 'often requires board approval' is plausible and not contradicted by the source. Its list of unitary-fee exclusions is incomplete but presented as typical, so it is not a falsehood. Saying it doesn't know which bank is meant is a reasonable hedge, not an error."
+  },
+  {
+    "blind_id": "HOX003",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States the treaty rate is 15% on US-source dividends paid to the Irish UCITS ETF, provided it qualifies and meets limitation-on-benefits."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Says 'The ETF bears the withholding' and that investors bear only its economic effect through performance. It never says investors cannot reclaim the fund's tax, so half of the required bundle is missing."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Point 1 is fully covered and point 2 is half covered: the answer says the fund bears the cost but omits that investors cannot reclaim it. The answer does not apply a zero rate or call the tax investor-reclaimable, so there is no central error and no material falsehood. Required coverage is 1.5 of 2, which meets the partial threshold but not correct."
+  },
+  {
+    "blind_id": "HOX004",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States the thresholds are 'industry conventions, not SEC safe harbors or universal legal limits' that are 'commonly used to flag pricing/NAV errors.' This covers the core minimum: common policy practice that is not an SEC rule. The answer does not cite the Rule 2a-5 adopting release's recognition of the thresholds, but citations are optional and the substance is conveyed."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Names the 'fund's board-approved NAV-error policy and procedures' as governing correction. It also covers 'reimbursement of the fund or affected investors,' says 'responsibility depends on the error's cause and contract' (the responsible party pays), and escalates material issues to the 'fund board/counsel.' Listing other governing sources alongside the policy does not contradict the evidence."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Optional point. The answer notes that documented policies define 'scope, aggregation, materiality, and affected transactions,' but does not mention shareholder de minimis amounts or the need to quote the policy text for precision. This omission does not reduce the grade."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required points are fully covered. The answer explicitly rejects treating the thresholds as an SEC mandate, so the central error is absent. None of its side claims is a material falsehood against the evidence."
+  },
+  {
+    "blind_id": "HOX005",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States the costs 'reduce NAV'. Says commissions are capitalized into cost basis or deducted from sale proceeds, and that spreads and market impact are 'implicit in execution prices\u2026 and simply lower NAV'. This matches costs paid through transaction prices that reduce performance and NAV."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says the costs are 'excluded from the expense ratio' and that they 'appear as lower realized or unrealized gains, not fund expenses'. It also says 'these costs aren't in the fee table' and 'true cost exceeds the reported ratio'. Together these cover the expense ratio as an operating-expense measure that leaves out commissions, spreads and market impact."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered. The answer correctly says the costs reduce NAV through trade prices and are not accrued as an expense or counted in the expense ratio, so no central error applies. Some side claims go beyond the supplied evidence: the N-1A/SAI disclosure details and creation/redemption fees or cash-in-lieu charges. Neither is contradicted by the source, so neither counts as a material falsehood. 'In-kind creations/redemptions shift most rebalancing trading to authorized participants' is a slight paraphrase of the source's point that the fund mostly doesn't trade to meet flows. It is optional content and not materially false."
+  },
+  {
+    "blind_id": "HOX006",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States the ICAV is 'a single body corporate with its own legal personality' and that sub-funds 'are compartments of that entity, not separate legal persons'."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says sub-funds 'cannot sue, be sued, or contract in their own names. The ICAV acts on their behalf', and describes segregation as statutory, within the ICAV framework, rather than separate personality."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are covered. The answer explicitly rejects separate sub-fund personality, so there is no central error. The caveat about foreign recognition of segregation is a reasonable side point and is not contradicted by the evidence. The truncated final sentence is an omission, not a falsehood."
+  },
+  {
+    "blind_id": "HOX007",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that transaction costs 'reduce the fund's assets and therefore its NAV as trades are executed', that spreads and market impact are 'embedded in execution prices', and that they 'can affect performance and tracking difference'. This matches the evidence that the costs are paid through trade prices and reduce performance and NAV."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States the costs are 'not included in the ETF's reported expense ratio, which generally reflects operating expenses such as management, administration and custody fees'. This matches the evidence that the expense ratio covers expenses paid out of fund assets and excludes portfolio trading costs."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required points are fully covered. The answer does not count trading costs in the expense ratio, does not say they are accrued against NAV as an expense, and does not deny their effect on NAV. The side claims are accurate or unrefuted by the evidence: separate disclosure of transaction costs, and investors' own spread costs not entering NAV. Omitting the optional point on in-kind creation and redemption is not penalized."
+  },
+  {
+    "blind_id": "HOX008",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that excess reportable income (reportable income minus actual distributions) is 'deemed distributed' and taxed 'despite receiving no cash'. This matches the HMRC excerpt: investors are taxed on both actual distributions and undistributed income."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States 'Gains face capital gains tax, not income tax' and 'This assumes reporting status throughout ownership.' Capital-gains treatment conditioned on reporting status throughout ownership meets the minimum."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point. The answer does not mention offshore income gain treatment for non-reporting funds. Omitting it does not reduce the grade."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required points are fully covered. The answer does not say tax is deferred until sale, and it does not exclude undistributed excess income from reportable income; it affirmatively includes it, so there is no central error. The supplied evidence does not cover the extra details (six-month distribution date, the 60% interest test, the 18%/24% CGT rates, the \u00a33,000 exempt amount, the base-cost uplift), but nothing in it contradicts them. They are not material falsehoods."
+  },
+  {
+    "blind_id": "HOX009",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that a change of control is an 'assignment' under Section 2(a)(4) and that the existing contract 'terminates automatically' (Section 15(a)(4))."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Requires approval of the new contract by the board, including a majority of independent trustees (Section 15(c)), and by a majority of outstanding voting securities (Section 15(a)(2))."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered, and there is no central error. The ancillary claims about the Rule 15a-4 interim contract, the in-person vote and the 60-day termination term are accurate. The final sentence on Section 15(f) is cut off mid-sentence. It is incomplete rather than false, and it covers optional ancillary material, so it does not reduce the grade."
+  },
+  {
+    "blind_id": "HOX010",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer says selection requires 'approval by a majority of trustees who are not \"interested persons\"'. That is independent-trustee selection, not board-alone selection."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "The answer states that under Rule 32a-4, ratification can be omitted even when an annual meeting occurs, 'where the fund has an entirely independent audit committee.' The extra charter conditions are permitted and outside the minimum."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point. The answer does not mention a trust-wide vote or different auditors per series. This does not reduce the grade."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minima are fully covered: independent trustees select the auditor, and an all-independent audit committee permits omitting ratification under Rule 32a-4. The answer does not give auditor selection to the adviser and does not say ratification is always required. The side claims (no annual meeting needed, the audit committee typically recommends, a multi-series structure creates no exemption) are not material falsehoods. Omitting the optional point does not affect the grade."
+  },
+  {
+    "blind_id": "HOX011",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that US dividends to an Irish fund passing the LOB test face 15% treaty withholding, down from 30%."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says the fund is the legal recipient, the tax is deducted at source and the fund generally cannot reclaim it. The cost reduces dividends and NAV, so it sits at fund level and is not presented as reclaimable by investors."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are covered. The answer does not apply a zero rate or claim investors can reclaim the tax, so there is no central error. The 5%/10% voting-power note, W-8BEN-E and tracking-difference remarks are accurate. The claim that investors face no additional Irish tax concerns investor-level taxation, which the grader notes put outside scope, so it is not treated as a material falsehood."
+  },
+  {
+    "blind_id": "HOX012",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "The answer never says the unitary-fee waiver amounts are permanently forgone. It leaves recoupment open ('Contract-specific; recoupment must be expressly authorized') and lists 'Previously waived advisory fees' as what is recovered. The closing note says a unitary fee doesn't itself create a recovery right, but that does not state the described waiver is non-recoupable."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "It covers both elements: 'Commonly a rolling three-year period' and recovery capped at 'the lower of the cap when relief was provided and the cap when reimbursement occurs'."
+      }
+    ],
+    "central_error": null,
+    "local_error": "'What is recovered? | Previously waived advisory fees' (unitary-fee column). In the described bank arrangement the waived amount 'is gone for good: it isn't recoupable.' The answer frames it as potentially recoverable, and says the bank 'isn't identified' even though the arrangement was described. This does not reverse both arrangements or grant unlimited recovery above caps, so it is not a central error, but it is a misleading local statement.",
+    "grade": "partial",
+    "rationale": "Point 2 is fully covered. Point 1 is missed because the answer treats unitary-waiver recoupment as contract-dependent and possibly available, rather than stating the waived amounts are forgone. Required coverage is 1 of 2, which meets the half threshold, and there is no central error. Under the scoring rule this is partial, not correct."
+  },
+  {
+    "blind_id": "HOX013",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "The answer never says the bank's unitary-fee waiver is permanently forgone. Instead it says recoupment is 'not automatic' and 'if permitted, it depends on the contract's terms,' which leaves recoupment open. The source says the waived amount 'is gone for good: it isn't recoupable.'"
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "It states recoupment 'within a stated period (often three years), only if recoupment stays within both the expense cap in effect when the waiver occurred and the cap in effect when repayment is made.' Staying within both caps means the lower cap controls."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"Both can let the adviser recover prior waivers\" is a material local falsehood for the bank's described unitary-fee waiver, which the source says is not recoupable. The answer hedges rather than fully reversing the two arrangements, so it is not a central error, but it caps the grade at partial.",
+    "grade": "partial",
+    "rationale": "Required-point coverage is 1 of 2, which meets the half threshold, and a core fact (the ordinary expense-cap recoupment rule) is correctly given. There is no explicit central error: the answer does not reverse the treatments or allow recovery above the caps. However, point 1 is missed, and the claim that both arrangements permit recovery is materially false for the bank's arrangement. The grade is partial."
+  },
+  {
+    "blind_id": "HOX014",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that 'only the ICAV itself is a body corporate with legal personality' and that 'its sub-funds are not separate legal persons', which places legal personality in the ICAV with sub-funds inside it."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Describes statutory segregated liability between sub-funds and says 'The ICAV contracts, sues and is sued in respect of a specific sub-fund'. It also notes that segregation derives from statute, not separate personality."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered. The answer explicitly separates segregated liability from separate legal personality, so it avoids the central error. The extra claims (implied contract terms, set-off within the same sub-fund, the foreign-recognition caveat, umbrella plcs under the Companies Act 2014) are not contradicted by the supplied evidence and are not material falsehoods."
+  },
+  {
+    "blind_id": "HOX015",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States 'The fund's board ... establishes when NAV is calculated' and that the ETF 'must calculate NAV at least once daily, on each day the listing exchange is open', which matches the board setting the time and striking NAV at least once each business day."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States '4:00 p.m. ET is customary\u2014not a statutory or SEC-mandated universal pricing time' and that it 'generally aligns with the NYSE's regular-session close', which matches the convention tied to the NYSE close."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered. The answer says the board acts through the adviser and administrators under board-approved procedures, but it keeps the board as the party that sets the time, so it does not assign that role to another party. It explicitly denies an SEC or federal 4 pm mandate. Its side claims (more frequent calculation is permitted, a different time around early closes, and intraday market prices being distinct from NAV) are consistent with the evidence and are not material falsehoods."
+  },
+  {
+    "blind_id": "HOX016",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer says the 'board of trustees, typically acting through its audit committee' selects the auditor. It never says the independent trustees select the auditor (\u00a732(a)). Under the grader note, board-only selection is capped at 0.5."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "The answer bases omission on governing documents and state law not requiring a vote, with the 'board/audit committee' making the appointment. It never says that an all-independent audit committee permits omission, and it never cites Rule 32a-4."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point, so it does not affect the grade. The answer does not mention that a vote is trust-wide or that series may use different auditors."
+      }
+    ],
+    "central_error": null,
+    "local_error": "'ratification is not required by federal securities law'. The evidence ties omission of ratification to the Rule 32a-4 all-independent audit committee exemption. That implies \u00a732(a) otherwise contemplates ratification, so this blanket claim is contrary to the evidence and is at least a material local falsehood.",
+    "grade": "wrong",
+    "rationale": "There is no central error: the answer does not assign selection exclusively to the adviser or say shareholders must always ratify. Required coverage totals 0.5 of 2 (0.5 for point 1, 0 for point 2), which is below half of the required-point count. The answer also misstates when ratification can be omitted and adds a contrary federal-law claim. Under the scoring rule, coverage below half yields wrong."
+  },
+  {
+    "blind_id": "HOX017",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer says the thresholds are 'materiality triggers set by fund boards, not statutory limits' and that 'many funds apply them'. That conveys common policy practice and that they are not a rule. It omits that the SEC recognized them as generally used in the industry when it adopted Rule 2a-5."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "The answer says correction is governed by 'board-approved valuation and pricing-error policies' and that the administrator 'reports to the board'. That covers policy governance and board reporting. It never states that the responsible party reimburses the fund; it mentions only possible shareholder compensation."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Optional point. 'Wording varies by fund' and 'Verify thresholds and procedures against the fund's policy documents' partly cover it. Shareholder de minimis amounts and boundary precision are not addressed."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no central error, because the answer explicitly denies the thresholds are statutory and ties them to fund policy. Required coverage is 1.0 of 2, which meets the half threshold, and core facts are supplied. Each required point is only half covered: the answer misses the SEC's recognition in the Rule 2a-5 adopting release and the rule that the responsible party reimburses the fund. Some side claims go beyond the evidence, such as the 'whichever is greater' application and that 'smaller errors are... not remediated'. They are hedged, so they are not treated as material falsehoods. Even so, the grade is partial because neither required point is fully covered."
+  },
+  {
+    "blind_id": "HOX018",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer says undistributed reportable income (ERI) 'is generally taxable as income ... even if not paid out.' That covers the undistributed-excess part. The question asks only about undistributed income, so not mentioning actual distributions is an omission, not an error."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "The answer says the disposal gain 'is generally within capital gains tax rules, not offshore-income-gain treatment, because the ETF had UK reporting-fund status throughout your ownership.' It is hedged with 'generally', which matches the 'subject to relevant exceptions' qualifier."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Optional point. 'Not offshore-income-gain treatment' implicitly contrasts with offshore income gains but does not say that non-reporting fund gains get that treatment. This omission does not affect the grade."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are covered, and there is no central error: the answer says ERI is taxed as income even if not paid out, and does not defer it until sale or exclude it. The timing claim ('tax year in which the fund's reporting period ends') and the ERI acquisition-cost adjustment go beyond the supplied evidence. The evidence does not contradict them and both are hedged with 'generally', so they are not treated as material falsehoods. Under the frozen rule, the answer is correct."
+  },
+  {
+    "blind_id": "HOX019",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that an ICAV umbrella may prepare separate financial statements per sub-fund and that its board may dispense with AGMs. Contrasts this with umbrella-level accounts and generally mandatory AGMs for the investment plc. Matches HO-05-Irish-ICAV and HO-05-Irish-investment-plc."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States that an ICAV is not a per se corporation and can check-the-box to be a partnership. States that the investment plc is on the per se corporation list and cannot elect. Matches HO-05-bank Tax treatment and both vehicle excerpts."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered with the correct orientation, and neither central error (reversed eligibility) is present. Several side claims go beyond the supplied evidence: unanimous written consent to dispense with a plc AGM, shareholder or auditor rights to requisition an ICAV AGM, and the disregarded-entity option. None is contradicted by the sources, so they are unsupported extras rather than material falsehoods. The PFIC remark is supported by HO-05-bank, and 'most new Irish ETF umbrellas are ICAVs' is consistent with 'usually an Irish ICAV'."
+  },
+  {
+    "blind_id": "HOX020",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer says the thresholds are 'industry conventions, not SEC rules', which matches the core minimum: common industry practice that is not a rule. It omits the SEC's recognition of them in the Rule 2a-5 adopting release, but the grader notes make citations optional, and its own provenance claim (1990s staff positions, 1997 proposal) is unsupported by the evidence but not contradicted."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "It names the 'board-approved NAV error policy' as what governs correction. It covers reimbursement ('reimbursing the fund', the agreement sets 'who pays') and escalation to the CCO and board, which matches material errors going to the board."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Optional point. 'Each fund's written policy controls, and some are stricter or cumulative' partly covers policy-specific boundaries. It does not mention shareholder de minimis amounts or quoting the policy text when precision matters."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required points are covered: the thresholds are framed as industry convention rather than SEC rule, and correction is governed by the fund's own policy, with reimbursement and board escalation. The answer does not treat the thresholds as a mandated SEC rule. The 'both tests' and 1997-proposal claims are not established as false by the evidence, so no material falsehood is found. The truncated ending is omission, not error."
+  },
+  {
+    "blind_id": "HOX021",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer says a change in control 'generally causes an assignment of its advisory contract, which automatically terminates the contract under the Investment Company Act.' This matches the source: \u00a72(a)(4) treats a change of control as an assignment, and \u00a715(a) requires the contract to end automatically on assignment."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "The answer says the replacement contract 'must be approved by the fund's board, including a majority of its independent directors, and by the ETF's shareholders.' This covers both the board approval with independent trustees (\u00a715(c)) and the shareholder vote (\u00a715(a))."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered, and there is no central error: the answer says the old contract terminates rather than continues. The ancillary claims are accurate and do not reduce the grade. These are the majority-of-outstanding-voting-securities standard, the board's evaluation duties and the narrow exception for transactions that do not change actual control or management (consistent with Rule 2a-6). The phrase that assignment depends on 'the contract's terms' is imprecise, since assignment and termination are statutory. It is hedged and not a material falsehood. Interim arrangements and \u00a715(f) details are optional, so omitting them does not count against the answer."
+  },
+  {
+    "blind_id": "HOX022",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "The answer explicitly declines to name the leaders. It does not identify BlackRock/iShares, Vanguard or State Street/SPDR."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "It echoes the 'US Lipper ETF-for-sale universe' and the September 30, 2026 date, and hedges that this may be narrower than all US-listed ETFs. It never affirmatively states the measure: ETF assets by sponsor/promoter brand within that universe. It only restates the question's framing and says it would need the report to confirm the scope."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point; omitted. It gives no Lipper denominator and no ICI comparison."
+      },
+      {
+        "point": 4,
+        "credit": 0,
+        "reason": "Optional point; omitted. It says nothing about Vanguard ETF share-class versus whole-portfolio assets."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "There is no central error: the answer does not use sponsor-wide AUM or a global issuer ranking. Its speculative scope remark is hedged ('may'), so it is not treated as a material falsehood. Required coverage is 0 + 0.5 = 0.5, which is below half of the 2 required points. The answer also supplies no requested core fact, since it names no top three and makes no affirmative scope statement. Under the scoring rule this is wrong."
+  },
+  {
+    "blind_id": "HOX023",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer calls the thresholds 'industry conventions, not universal legal safe harbors', which covers common practice and the fact that they are not a rule. It omits that the SEC recognized them as generally used when it adopted Rule 2a-5."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "The answer names 'the fund's board-approved valuation/error-correction policies' among several governing factors and says to 'escalate appropriately'. It does not say the fund's own policy governs remediation, that the responsible party reimburses the fund, or that material errors are reported to the board."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional. The answer does not say that precise boundaries or shareholder de minimis amounts vary by policy or that the policy text should be checked. This does not reduce the grade."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no central error: the answer explicitly rejects treating the thresholds as universal legal safe harbors or as mechanically applied rules. The specific roles it gives each threshold, and its side remarks on ETF secondary-market trades, go beyond the evidence but are not contradicted by it, so they are not counted as falsehoods. Each required point gets 0.5 as a substantive but incomplete bundle, for a total of 1.0 out of 2. That meets the partial threshold but not the correct threshold."
+  },
+  {
+    "blind_id": "HOX024",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Frames the figure as Rafa's practitioner estimate of a typical maximum variable creation/redemption fee, hedged ('My recollection is'), and says it is 'not the routine charge or a universal '40 Act ceiling'. Exact percentage recall is optional."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "States that a particular fund's filed terms, not an industry rule of thumb, determine its disclosed maximum. However, it declines to say what the Corgi SAI shows and does not identify it as a fund-specific filing example, so the bundle is substantive but incomplete."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point. The answer gives about 2% and does not give the Corgi maximum; this omission does not reduce the grade."
+      }
+    ],
+    "central_error": null,
+    "local_error": "'Rafa's practitioner estimate is **about 2% of the creation/redemption value**' is false because the source records Rafa's estimate as 3%. A misstated figure is a material local falsehood, which caps the grade at partial, even though it is hedged and exact recall is optional.",
+    "grade": "partial",
+    "rationale": "There is no central error: the answer explicitly denies that the figure is a universal ceiling. Required coverage is 1.5 of 2, which is at least half, and a core fact (the nature of the estimate) is supplied. The wrong 2% figure is a material local falsehood, and point 2 is only partly covered, so the grade is partial."
+  },
+  {
+    "blind_id": "HOX025",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer says the board selects the auditor 'by majority vote, including a majority of the independent trustees' under \u00a732(a). It also says an independent audit committee directly appoints the auditor. Selection is therefore tied to the independent trustees, not to the board alone, so the 0.5 cap does not apply."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "The answer gives a 'Rule 32a-4 exemption: Ratification is unnecessary if the fund has an audit committee of only independent trustees'. This matches the minimum."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "The answer does not say that a shareholder vote is trust-wide or that series may use different auditors. This point is optional, so the omission does not affect the grade."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minima are covered: independent trustees select the auditor, and an all-independent audit committee permits omitting ratification under Rule 32a-4. The answer does not give selection to the adviser, and it does not say shareholders must always ratify. Its side claims, including the 'if such meeting is held' framing and the Rule 10A-3 audit committee point, are not contradicted by the evidence. The truncated final sentence is incomplete rather than false. Leaving out the optional point does not lower the grade."
+  },
+  {
+    "blind_id": "HOX026",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that a sub-fund 'does not have separate legal personality. The ICAV itself is the legal person', and calls the umbrella ICAV 'one legal entity with legally ring-fenced pools', which presents sub-funds as components of the ICAV."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States that the ICAV 'can sue and be sued in respect of a particular sub-fund' and that segregated liability is 'a separate statutory protection, not a consequence of separate incorporation', operating within one legal entity."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered. The answer explicitly denies that sub-funds are separate legal persons, so the central error is absent. Its side claims do not conflict with the supplied evidence: liabilities are met solely from that sub-fund's assets, and foreign-court recognition is a separate question. No material falsehood is present."
+  },
+  {
+    "blind_id": "HOX027",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States the board may designate the fund's 'primary investment adviser, but not a sub-adviser.' This matches the principal-adviser and no-sub-adviser minimum."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States 'Quarterly: written reports' and 'At least annually: a written assessment of the fair value process's adequacy and effectiveness.' This covers both written quarterly reporting and the yearly assessment."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "States material matters are reported 'within the board's set timeframe' and 'no later than five business days' after the designee becomes aware. This matches the minimum."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "All three required minimums are fully covered. No central error appears: the answer explicitly excludes sub-advisers and describes periodic written reporting. The side claims are consistent with Rule 2a-5 and are not material falsehoods. These include board self-determination, trustee or depositor for funds without a board, use of sub-advisers and pricing services under the designee's oversight, report contents, and segregation of functions."
+  },
+  {
+    "blind_id": "HOX028",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Correctly says the ICAV need not hold an AGM and the plc must hold one, and gives the plc company-level (umbrella) accounts. It does not say the ICAV can produce per-sub-fund accounts. Instead it says the ICAV's sub-fund statements 'sit within a single ICAV-level set', which blurs the accounts distinction. The bundle is substantive but incomplete."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says the ICAV is an eligible entity that can elect its US classification via check-the-box (Form 8832). It also says the plc is a per se corporation under Treas. Reg. \u00a7301.7701-2(b)(8) and cannot elect. This matches the minimum."
+      }
+    ],
+    "central_error": null,
+    "local_error": "'or default to partnership or disregarded treatment' is wrong. A foreign eligible entity whose members all have limited liability, as with an ICAV, defaults to association (corporate) treatment; partnership treatment needs an affirmative election. This is a material local falsehood about US classification, which caps the grade at partial.",
+    "grade": "partial",
+    "rationale": "Required coverage is 1.5 of 2, which is at least half. There is no central error: the answer does not reverse the vehicles on the election, AGMs or accounts. However, it fails to say the ICAV can file per-sub-fund accounts, and it contains a material local falsehood about the ICAV's default US classification. Under the scoring rule the grade is partial."
+  },
+  {
+    "blind_id": "HOX029",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "States the ETF remains subject to the liquidity risk management program (policies, risk assessment, board oversight, recordkeeping). It never mentions the 15% illiquid-investment limit, so this bundle is incomplete."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Explicitly says the ETF need not classify each investment into the four liquidity categories, nor comply with the highly liquid investment minimum and its shortfall procedures."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Required coverage is 1.5 of 2, which is at least half, and core facts are supplied. There is no central error: the answer does not claim exemption from the liquidity program or the 15% limit. It describes relief as limited and says it is not a blanket exemption. Leaving out the 15% illiquid limit is an omission, not a falsehood, but it leaves Point 1 incomplete. That prevents a 'correct' grade."
+  },
+  {
+    "blind_id": "HOX030",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that 'An Irish ICAV is a single legal entity; its sub-funds are not separate legal persons,' so legal personality rests with the ICAV and sub-funds sit within it."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Places statutory segregation of liability within the ICAV ('does not give each sub-fund separate legal personality. The ICAV remains the contracting party'). Says sub-funds 'cannot usually contract or sue in their own names. The ICAV acts for them,' which conveys that the ICAV sues or is sued for a particular sub-fund."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are covered. The answer explicitly denies that segregated liability creates separate legal personality, so there is no central error. Calling segregation 'often called protected cell' is loose terminology rather than a material falsehood. The hedges 'Generally' and 'usually' do not contradict the evidence."
+  },
+  {
+    "blind_id": "HOX031",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that the board, including a majority of independent directors, approves the new sub-advisory agreement under the exemptive relief. It also requires prior authorization by shareholder approval of the structure or initial prospectus disclosure. Presenting these as alternatives tracks typical order mechanics for new funds and still covers both elements."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says the adviser retains 'Overall management and fiduciary responsibility for the ETF' and 'Selecting, monitoring, evaluating and recommending termination of sub-advisers'."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "'Any increase in the adviser's fee still requires a shareholder vote' covers the aggregate advisory fee rate requirement in substance."
+      },
+      {
+        "point": 4,
+        "credit": 1,
+        "reason": "Optional point covered: 'Information statement: Sent to shareholders within about 90 days'."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "All three required minimums are covered, and the optional notice point is also present. There is no central error: the answer conditions sub-adviser changes on exemptive relief and board approval, and says to check the fund's specific relief. The affiliated sub-adviser remark is outside scope and not a material falsehood."
+  },
+  {
+    "blind_id": "HOX032",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that portfolio trading costs 'affect NAV and returns.' It explains how each one works through transaction prices. Commissions are 'added to securities' purchase cost or deducted from sale proceeds,' spreads are 'embedded in execution prices' and 'lower NAV,' and market impact 'worsens execution and performance.'"
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States that these costs are 'generally... excluded from the reported expense ratio' and are not 'classified as operating expenses.' It says market impact does not appear 'as a separate expense-ratio charge' and that 'the expense ratio is not an all-in cost measure.' Together these convey that the ratio measures operating expenses and that commissions, spreads and market impact fall outside it."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered. The answer correctly says trading costs reduce NAV and performance through execution prices rather than being accrued as an expense, and are not counted in the expense ratio. Its side claims are accurate: investor-level secondary-market costs do not affect NAV, and in-kind creation and redemption can reduce portfolio trading costs. There is no central error and no material falsehood."
+  },
+  {
+    "blind_id": "HOX033",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer says unitary-waiver recoupment is 'usually not a separate claim' and that restoring the rate is 'a repricing decision\u2026 not reimbursement.' That leans toward forgone amounts. But it never says the waived amounts in this arrangement are permanently gone, and it allows that a contractual waiver may include recoupment. Coverage is substantive but incomplete."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States recoupment is allowed 'within a rolling window, typically three years' and 'only if the expense ratio stays at or below the lower of the cap at waiver and at recovery.' This fully matches the minimum."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no central error. The answer does not reverse the two treatments or grant unlimited recovery above the caps. The general remark that some unitary contracts may include recoupment is not a material falsehood, since contract terms control. Point 2 is fully covered. Point 1 is only partly covered because the answer never states that waived amounts in the described arrangement are permanently forgone. The answer is also truncated at the end. Required coverage is 1.5 of 2, which meets the partial threshold but not correct."
+  },
+  {
+    "blind_id": "HOX034",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer covers the acquiring adviser's evaluation of complexity and fee duplication and the acquired adviser's undue-influence finding, with each reporting to its board. It omits the required 'by the next regular meeting' timing, so the bundle is substantive but incomplete."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "The answer states that an investment agreement terminable on '\u226460 days' notice' is required when advisers differ, which captures the same-adviser exception."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no central error: the answer affirms both the adviser findings and the agreement. Required coverage is 1.5 of 2, which meets the half threshold, and core facts are supplied. Point 1 lacks the next-regular-meeting reporting deadline in its minimum, so not every required minimum is fully covered and the grade cannot be correct. Side claims outside the evidence (the secondary-market carve-out, the control-affiliate phrasing, related conditions) are not contradicted by the supplied evidence and are not treated as falsehoods."
+  },
+  {
+    "blind_id": "HOX035",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Covered: the principal adviser recommends and the board, with a majority of independent trustees, approves a new sub-advisory agreement without another shareholder vote, within the order's conditions. Missing: that shareholders approve the manager-of-managers structure initially and that the prospectus discloses it."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States the principal adviser keeps responsibility for selecting, supervising, evaluating and replacing sub-advisers. Adds that it 'does not let the principal adviser delegate away its responsibility for overseeing the ETF's management.'"
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Does not say that an increase in the aggregate advisory fee rate still needs shareholder approval."
+      },
+      {
+        "point": 4,
+        "credit": 1,
+        "reason": "Optional point covered: 'prescribed shareholder disclosure, typically within 90 days.'"
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "No central error. The answer conditions the change on the exemptive order and board approval. Required coverage is 1.5 of 3, which meets the half threshold, and core facts are supplied. The affiliated sub-adviser remark is outside the question's scope and is not a material falsehood, since it is hedged as 'depending on the order.' The missing fee-increase point and the incomplete point 1 prevent a grade of correct."
+  },
+  {
+    "blind_id": "HOX036",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "The answer names no firms. It says it 'can't reliably name its five leaders', so the Jane Street, Virtu, GTS, Susquehanna, Citadel ranking is absent."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "It correctly limits the universe to 'NYSE Arca LMM, Nasdaq DLP, and Cboe BZX LMM assignments'. It omits the ETP framing, the NYSE October 5 sheet date, and the fact that Nasdaq and Cboe effective dates are unestablished; it only says underlying dates 'must accompany the ranking'."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "It states that 'November 6, 2026 is the retrieval date\u2014not necessarily the effective date'. It does not say that historical September 30 and ETF-only rankings remain unresolved."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "There is no central error and no false claim, but required coverage sums to 1.0 of 3, below the 1.5 threshold. The core requested fact, the five-firm ranking, is missing, so no substantive requested fact is supplied. Under the scoring rule, either condition makes the grade wrong."
+  },
+  {
+    "blind_id": "HOX037",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Says an ICAV may prepare sub-fund financial statements and can elect in its constitution to dispense with AGMs. Says a plc prepares company-level statutory accounts with sub-fund sections only, and is generally subject to company-law AGM requirements. The hedges ('where permitted', 'exceptions may apply') soften the contrast but the minimum is conveyed."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "Says only that 'Neither form automatically qualifies for US check-the-box treatment' and that classification 'depend[s] on entity eligibility'. It never says the ICAV can elect US partnership treatment. It never says the investment plc is a per-se corporation that cannot elect. The answer treats both vehicles the same, so the required contrast is missing."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Point 1 is covered and point 2 is not, giving 1 of 2 required coverage, which meets the half threshold. Core facts on accounts and AGMs are supplied. There is no explicit reversal of either vehicle's check-the-box eligibility, so no central error. The vague 'neither automatically qualifies' wording is non-committal rather than an affirmative falsehood, so it counts as omission. The ICAV entity-level accounts remark is not contradicted by the sources. Result: partial."
+  },
+  {
+    "blind_id": "HOX038",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "The answer assigns all findings to the acquiring adviser, including undue influence, which the evidence assigns to the acquired adviser. It omits the acquiring adviser's evaluation of complexity and fee duplication. It mentions reporting to the board but not the next-regular-meeting timing. The required bundle is not substantively matched."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "It says a written fund of funds investment agreement is 'generally required,' which covers the agreement's existence. It omits termination on no more than 60 days' notice and the same-adviser exception."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"It will not cause undue influence by the acquiring fund or its affiliates over the acquired fund's operations\" listed as an acquiring-adviser finding. The evidence says the acquired fund's adviser addresses undue influence, so this misattributes the finding.",
+    "grade": "wrong",
+    "rationale": "There is no central error: the answer affirms both an adviser assessment and an agreement. Required coverage totals 0.5 of 2, which is below half the required-point count, so the scoring rule mandates wrong. The misattribution of the undue-influence finding is also a material local falsehood."
+  },
+  {
+    "blind_id": "HOX039",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer calls the figure Rafa's practitioner estimate of the typical maximum variable fee. It does not keep the source's uncertainty ('I believe'), and it gives 2% where the source says 3%."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "It says a fund's filed terms may specify its own fee schedule, which partly gets at fund-specific filed terms. But it says the Corgi SAI shows the estimate 'is a ceiling' with possibly lower fund maximums. That misreads the Corgi SAI, which is a filing example ('up to 3%') and not a universal cap. It also never says Corgi's own filed figure."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "This optional point is missed: the answer states 2%, not 3%. Optional omissions do not reduce the grade."
+      }
+    ],
+    "central_error": null,
+    "local_error": "Quote: 'the typical maximum variable creation/redemption fee is **2%**'. The source says 3%, and Corgi's SAI says 'up to 3%'. This is a material false factual claim. Also, 'The Corgi ETF Trust I SAI illustrates that this is a ceiling' misreads the Corgi filing, which the source calls 'a filing example, not a universal cap.'",
+    "grade": "partial",
+    "rationale": "There is no explicit central error: the answer never presents 3% as a universal statutory ceiling or says every ETF charges it. Required coverage is 1.0 out of 2, which meets the half threshold, and a core requested fact is attempted (a practitioner estimate of the typical maximum). The wrong 2% figure and the misreading of the Corgi SAI as showing a ceiling are material local falsehoods, so the grade is capped at partial."
+  },
+  {
+    "blind_id": "HOX040",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that undistributed reportable income is taxed as income even though no cash was received. It also says the reportable income figure covers distributions, so both undistributed excess and distributions are included."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States that disposal gains are taxed as chargeable gains under Capital Gains Tax, not as income, which matches capital-gains treatment where reporting status is held throughout ownership."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point, not addressed. Optional omissions do not reduce the grade."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered and there is no central error: the answer does not defer income tax to sale and does not exclude undistributed excess. Side claims are consistent with or go beyond the supplied evidence without contradicting it. These include the base-cost adjustment, the six-month reporting window, capital-loss treatment, and savings versus dividend characterisation. None is a material falsehood."
+  },
+  {
+    "blind_id": "HOX041",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "The answer says it cannot see or verify Rafa's estimate. It never describes the figure as a practitioner estimate of a typical maximum variable fee, and it gives no hedged figure attributed to Rafa."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "It disclaims any knowledge of Corgi ETF Trust I's filed terms. The generic remark that 'the exact cap varies by fund' is not tied to the Corgi SAI, so it does not present the SAI as a fund-specific example rather than a universal ceiling."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point. It never states that the estimate and Corgi maximum are 3%; the generic '1% to 3%' range is not attributed to either source. Optional omissions do not affect the grade."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "There is no central error: the answer never presents 3% as a universal statutory ceiling. Its generic claim that SAIs 'frequently cap them at around 1% to 3%' is unsourced but not contradicted by the evidence, so it is not treated as a material falsehood. However, required coverage is 0 out of 2, below the half threshold, and the answer gives none of the requested facts about Rafa's estimate or the Corgi SAI. Under the scoring rule this is wrong."
+  },
+  {
+    "blind_id": "HOX042",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States the 'board of directors or trustees sets the specific time or times for calculating NAV' and that NAV must be computed 'at least once daily, Monday through Friday, subject to the rule's limited exceptions.' This matches the evidence's 'at least once each business day.'"
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States '4 p.m. Eastern is the usual convention, tied to the NYSE's regular trading close; it is not a universally mandated SEC pricing time.' This matches the evidence's 'convention tied to the NYSE close, not a rule.'"
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered, and neither central error appears: the answer attributes the pricing time to the board and explicitly denies that 4 pm ET is SEC-mandated. The side claims are consistent with the evidence or are not material falsehoods. These include another properly disclosed time being permissible, early-close treatment following fund policy, and intraday trading not requiring intraday NAV. The 'Monday through Friday' wording, qualified by the rule's exceptions, is consistent with 'each business day.'"
+  },
+  {
+    "blind_id": "HOX043",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer says the adviser may hire or replace a sub-adviser without a shareholder vote 'if the fund's exemptive order and governing documents permit it, and required board approval and conditions are met.' It also mentions prospectus disclosure. It never says shareholders first approve the manager-of-managers structure, so the bundle is incomplete."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States the principal adviser 'remains responsible for supervising and monitoring the sub-adviser' and that the arrangement 'does not delegate away the principal adviser's fiduciary duties,' which conveys ongoing oversight and ultimate responsibility."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Silent on whether an increase in the aggregate advisory fee rate still needs shareholder approval."
+      },
+      {
+        "point": 4,
+        "credit": 0,
+        "reason": "Optional point. The answer mentions disclosure of the change but not shareholder notice within 90 days. Omitting it does not reduce the grade."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no central error: the answer ties sub-adviser changes to the exemptive order, its conditions and board approval, so it does not treat every fund as automatically entitled. Required coverage is 1.5 of 3, which meets the half threshold, and core facts are supplied. It cannot be correct because the shareholder vote on fee increases is missing and the initial shareholder approval of the structure is not stated. No material false side claims were found."
+  },
+  {
+    "blind_id": "HOX044",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that the 'fund's board of directors sets the time(s) of day when NAV is computed' and that NAV 'must be computed at least once each business day.' This matches the source exactly."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Calls 4 pm ET 'industry convention, not a regulatory mandate' that 'matches the NYSE's regular-session close.' This matches the source's 'convention tied to the NYSE close, not a rule.'"
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered. There is no central error: the answer says the board sets the time and denies that 4 pm is a rule. The side details are beyond the supplied evidence: the Rule 22c-1(b) exceptions, forward pricing, extended trading hours and the 2022 hard-close proposal not being adopted. None of these contradicts the evidence or is shown to be a material falsehood. The forward-pricing statement agrees with the source."
+  },
+  {
+    "blind_id": "HOX045",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States 'The US withholds **15%** on US dividends paid to an Irish UCITS ETF. That is the US\u2013Ireland treaty rate', matching the source."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says the tax is 'levied on the fund' and 'withheld before dividends reach the fund', reducing distributions or NAV. Also says 'Investors generally cannot reclaim or credit the 15%'. This covers both the fund bearing the cost and investors' inability to reclaim. Saying investors bear it 'economically' through NAV is consistent with the fund bearing it."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered: 15% treaty withholding, and a fund-level cost that investors cannot reclaim. There is no zero-rate claim and no claim that investors can reclaim directly. The side claims (MSCI net index assumption, gross roll-up, 871(m) and level-1 framing) are outside scope and not contradicted by the evidence. The answer is truncated at the end, but nothing false is asserted."
+  },
+  {
+    "blind_id": "HOX046",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer says the board may designate the fund's investment adviser. However, it excludes only a sub-adviser 'primarily responsible for portfolio management', not every sub-adviser as the evidence requires. It also does not identify the principal adviser specifically."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "The answer gives the 'at least quarterly' reporting cadence. It omits that the reports must be in writing and that the designee assesses the valuation process each year."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "The answer says material matters are reported 'promptly'. It omits that the board sets the deadline and that the deadline is at most 5 business days."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"provided it is not a sub-adviser primarily responsible for portfolio management of the fund (or another fund in the same group)\" - This narrows the exclusion to some sub-advisers, which implies other sub-advisers could qualify. The evidence says flatly that a sub-adviser can't be the valuation designee. It is not an explicit statement that a sub-adviser can be designee, so it is a material local inaccuracy rather than a central error.",
+    "grade": "partial",
+    "rationale": "There is no explicit central error, and the answer does affirm quarterly periodic reporting. Each required point is only substantively incomplete, giving 1.5 of 3, which meets the half threshold. Core requested facts are supplied: the adviser as designee, quarterly reporting and prompt reporting of material matters. The inaccurate sub-adviser qualifier caps the grade at partial in any case."
+  },
+  {
+    "blind_id": "HOX047",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer says excess reportable income (ERI) is taxable even though no cash is received. This matches the evidence that undistributed excess income forms part of the investor's taxable reportable income. The question focuses on undistributed income, so not explicitly restating that cash distributions are also taxed is a harmless omission."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "The answer states that if reporting-fund status applied throughout ownership, disposal gains generally fall under Capital Gains Tax rather than being taxed as offshore income gains. The hedge 'generally' covers the exceptions."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Optional point. The answer implies it by contrasting the treatment with 'offshore income gains taxed as income' but never directly says non-reporting funds get that treatment. This omission cannot reduce the grade."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required points are covered and there is no central error. The answer explicitly says undistributed ERI is taxable without cash being received, which is the opposite of both listed central errors. Its side claims go beyond the supplied evidence but nothing in the evidence contradicts them, so none counts as a material falsehood. These claims are: the six-month deemed receipt date, dividend versus interest treatment, and the increase to acquisition cost to avoid double taxation."
+  },
+  {
+    "blind_id": "HOX048",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Lists the continuing liquidity risk management program under 22e-4(b)(1) and 'The 15% limit on illiquid investments'. Both elements of the minimum are present, though framed as 'Likely continuing requirements'."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Names relief from 'the requirement to classify each portfolio holding into one of the four liquidity buckets' and 'The Highly Liquid Investment Minimum (HLIM)'. Both elements are present, though framed as 'Possible relief'."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are identified correctly and match the source: in-kind ETFs keep the liquidity program and the 15% illiquid limit, and are exempt from classification and the HLIM. The answer hedges ('likely', 'possible', and an unverified '2026 relief' framing), but it makes no contrary claim and no central error, since it never asserts exemption from the program or the 15% limit. The extra continuing items (board oversight, N-PORT reporting) are not contradicted by the evidence. Hedging is treated as caution, not falsehood, so the scoring rule for 'correct' is met."
+  },
+  {
+    "blind_id": "HOX049",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "The answer says it cannot find Rafa's estimate and does not identify the figure as Rafa's practitioner estimate of the typical maximum variable fee, with or without uncertainty. Its general 'up to 2%' industry context is not Rafa's estimate."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "It says in general that a practitioner 'typical maximum' is a heuristic and that each fund's SAI governs, and that 'a cited SAI is usually there to show that.' This captures the idea of fund-specific terms versus a universal figure. However, it disclaims any knowledge of the Corgi SAI, so it never actually states what that SAI shows."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point. The answer does not state that the estimate and the Corgi maximum are both 3%; it mentions 3% only as a cap some issuers use."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"SAIs commonly cap the variable creation/redemption charge, often combined with the fixed fee, at up to 2%\" presents 2% as the typical cap. This conflicts with the supplied practitioner estimate that the typical maximum variable fee is 3%. It is a questionable side claim, but it is not the central error, because it does not present 3% as a universal statutory ceiling.",
+    "grade": "wrong",
+    "rationale": "Required coverage totals 0.5 out of 2, which is below the half threshold of 1. The answer supplies no requested core fact about Rafa's estimate or the Corgi SAI and explicitly says it cannot find either. There is no central error, but insufficient coverage makes the grade wrong under the scoring rule."
+  },
+  {
+    "blind_id": "HOX050",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer says the order lets the fund hire or replace sub-advisers with board approval (including a majority of independent directors) under the order's conditions. It does not say that shareholders approve the structure first or that the prospectus discloses it."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "It states the principal adviser 'remains fully responsible' for selecting, monitoring and supervising sub-advisers, which matches continuing oversight and ultimate responsibility."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "It never says that an increase in the aggregate advisory fee rate still needs shareholder approval."
+      },
+      {
+        "point": 4,
+        "credit": 1,
+        "reason": "Optional point covered: 'Shareholders receive an information statement generally within 90 days after the new sub-adviser is engaged.'"
+      }
+    ],
+    "central_error": null,
+    "local_error": "'Under a manager-of-managers exemptive order (or Rule 15a-5, where applicable)': Rule 15a-5 was only proposed (2003) and was withdrawn in 2009, so it is never applicable. This wrongly suggests a general rule could replace a fund-specific order. It is a material side falsehood but not the central error, because the answer still requires relief and board approval.",
+    "grade": "partial",
+    "rationale": "Required coverage totals 1.5 of 3, which is exactly half. Point 1 is only partly covered, point 2 is fully covered and the fee-increase point is missing. There is no central error, since the answer conditions changes on an order and board approval. The citation of the withdrawn Rule 15a-5 as possibly applicable is a material local falsehood, which would cap the grade at partial anyway. The affiliated-sub-adviser conditions are outside scope and were not scored."
+  },
+  {
+    "blind_id": "HOX051",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Covers due diligence before appointment and a written agreement defining the mandate and reporting. Afterwards it requires continuous monitoring, regular reports to be reviewed, and corrective action up to termination. This satisfies the check, monitor and challenge requirement under written arrangements."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States the ManCo 'remains fully responsible to the UCITS and its investors' notwithstanding delegation. It also says delegation 'cannot become letter-box management' and must not impair effective supervision, which covers retained substance for oversight."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point. Designated persons, the six managerial functions and board escalation are not mentioned. This does not affect the grade."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered. The answer correctly prohibits letter-box delegation and keeps the ManCo's responsibility, so there is no central error. The added detail on delegate qualifications, conflicts and proportionality is consistent with the evidence and is not a material falsehood. Omitting the optional point does not reduce the grade."
+  },
+  {
+    "blind_id": "HOX052",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer covers checks before appointment: competence, resources, authorisation and conflicts. It requires a written delegation agreement. It covers oversight after appointment through ongoing monitoring, review of performance and compliance, and the power to instruct or terminate. This substantively matches the check, monitor and challenge requirement under written arrangements."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "The answer states that delegation does not transfer accountability and that the ManCo remains fully responsible. It also says the ManCo must retain enough substance to oversee delegates and avoid letterbox arrangements."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "The answer does not mention designated persons, the six managerial functions or escalation to the board. This point is optional, so the omission does not reduce the grade."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required points are fully covered. The answer explicitly rejects a transfer of responsibility and rejects letterbox arrangements, so there is no central error. Side claims such as prospectus disclosure and notifying the Central Bank are consistent with the evidence or plausible, and none is a material falsehood."
+  },
+  {
+    "blind_id": "HOX053",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer keeps the 'Written liquidity risk management program' and the '15% illiquid-investment limit' under 'Still required', which matches the source: 'still need a liquidity program and the 15% illiquid limit.'"
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Under 'Relief' it lists 'No four-bucket classification' and 'No highly liquid investment minimum (HLIM)', which matches the source's exemption from 'liquidity classification and highly-liquid minimum.'"
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required points are fully covered. The answer explicitly keeps the liquidity program and the 15% limit, so there is no claim of complete exemption. The extra details (Form N-RN breach reporting, board oversight, recordkeeping, removal of HLIM shortfall procedures, the de minimis cash definition) are not in the supplied evidence, but nothing in the evidence contradicts them. They are not treated as material falsehoods."
+  },
+  {
+    "blind_id": "HOX054",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer covers due diligence before appointment, set out in 'clear written responsibilities' with audit and termination arrangements. It also covers oversight afterwards: designated persons 'scrutinise and challenge' delegate reporting, monitor performance and periodically refresh due diligence. This matches the source on checking delegates before and after appointment under a written agreement and challenging their reports."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "The answer states 'the board and ManCo remain responsible for the delegated functions' and 'delegation does not diminish the ManCo's liability'. It requires 'sufficient in-house expertise and resources to supervise effectively' and says the ManCo cannot become a 'letter-box' entity. This matches Art. 13 in the source."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Optional point. Designated persons monitor and 'escalate deficiencies to the board', but the answer does not name the six managerial functions. Under the scoring rule, optional omissions do not affect the grade."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required points are fully covered. There is no central error: the answer says responsibility and liability stay with the ManCo and rejects the letter-box model. It makes no material false claims; the extra details (authorisation, sub-delegation controls, termination rights) are consistent with the evidence."
+  },
+  {
+    "blind_id": "HOX055",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that a change of control 'generally constitutes an \"assignment\"' and that the contract must 'provide for automatic termination upon assignment; it does not simply transfer to the new owner.' Both parts of the minimum are covered."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States that a new contract needs 'Board approval, including approval by a majority of independent directors/trustees under Section 15(c)' and 'ETF shareholder approval' by a 1940 Act majority vote. This covers both the board/independent-trustee approval and the shareholder vote."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required points are fully covered and consistent with the source: \u00a72(a)(4) treats a change of control as an assignment, the contract ends automatically on assignment, and a new contract needs \u00a715(c) independent-trustee approval and \u00a715(a) shareholder approval. The answer never says the contract continues unchanged, so there is no central error. The ancillary Rule 15a-4 note (an interim contract for up to 150 days without prior shareholder approval, subject to conditions) is accurate and outside the required scope. The 'majority of outstanding voting securities' description is also accurate. No material local falsehood was found."
+  },
+  {
+    "blind_id": "HOX056",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "The answer gives no ranking; it says 'any top-five list I gave would be a guess.' Jane Street, Virtu, GTS, Susquehanna and Citadel are never named."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "It raises universe scope only as a generic question ('ETFs only, or all listed equities and ETPs'). It does not say the universe is ETP assignments across the retrieved NYSE Arca LMM, Nasdaq DLP and Cboe BZX lists. It omits the NYSE October 5 sheet date and that Nasdaq and Cboe effective dates are unestablished."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "It mentions November 6, 2026 only to say it lacks that snapshot. It does not establish that date as the retrieval date or say that historical September 30 and ETF-only rankings remain unresolved."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "The answer is a refusal with generic methodology advice. It contains no central error and no falsehood, but required coverage is 0 of 3 and it supplies no requested core fact. Under the scoring rule, that makes it wrong."
+  },
+  {
+    "blind_id": "HOX057",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "No verified ranking is given. The 'likely candidates (unverified)' list orders Virtu first, merges GTS/Susquehanna and adds Flow Traders, so it does not match Jane Street, Virtu, GTS, Susquehanna, Citadel."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "States the universe is only the three programs and that it counts ETPs by venue, not unique funds. It omits the NYSE October 5 sheet date and does not say Nasdaq and Cboe effective dates are unestablished; 'cite the file date' is only generic advice."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Mentions November 6 only as a snapshot it lacks. It does not identify November 6 as the retrieval date, and it does not say the historical September 30 or ETF-only rankings remain unresolved."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"Before mid-2026, the firms with the most assignments were usually Virtu Americas, Jane Street, Citadel Securities, Flow Traders and GTS/Susquehanna\": the evidence does not support this claim. It includes Flow Traders, which is not in the snapshot's top five, and its order conflicts with the snapshot. It is hedged as unverified.",
+    "grade": "wrong",
+    "rationale": "There is no central error, because the answer does not present the snapshot as a September 30, ETF-only, AUM or market-share ranking. However, required coverage totals 0.5 of 3, which is below half, and the answer supplies no requested core fact (no ranking), so the scoring rule requires 'wrong'."
+  },
+  {
+    "blind_id": "HOX058",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer states that the existing contract terminates automatically on 'assignment' under \u00a715(a)(4), and that 'assignment includes a change of control of the adviser' (\u00a72(a)(4))."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "The answer says a new contract needs board approval 'including a majority of independent directors (Section 15(c))' and shareholder approval by a 'majority of outstanding voting securities' (\u00a715(a))."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required points are fully covered and there is no central error. The ancillary claims are accurate: the 25% control presumption, the 67%/50% voting definition, the Rule 15a-4 interim contract (150 days, fee cap, escrow) and the 75% independence for 3 years under \u00a715(f). The \u00a715(f) 'unfair burden' sentence is cut off, which counts as omission rather than falsehood. Optional omissions do not reduce the grade."
+  },
+  {
+    "blind_id": "HOX059",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Correctly names iShares/BlackRock, Vanguard and SPDR/State Street, with SPDR third. However, it leaves the top two unordered ('Vanguard or iShares') and frames the result as a likely guess, so it does not commit to iShares first, Vanguard second."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States the measure as total net assets at the sponsor brand level within Lipper's US ETF-for-sale universe, tied to the September 2026 report. This matches the required scope, even though it is hedged as 'typically'."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no central error: it does not use sponsor-wide AUM and does not treat this as a global ranking. Point 2 is covered, but point 1 is only half covered because the top-two order is left open. Required coverage is 1.5 of 2, which is at least half, and core facts are supplied, so the grade is partial. The ETN-exclusion remark is unsupported by the evidence but not contradicted by it, so it is not treated as a material falsehood."
+  },
+  {
+    "blind_id": "HOX060",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that commissions, the bid-ask spread 'paid on each trade' and market impact ('price movement caused by the fund's own orders') reduce NAV, and that their effect shows in returns relative to the index. This covers trading costs being borne through the fund's trade prices and reducing performance and NAV. The phrase 'deducted from fund assets' is loose, but it does not explicitly call them an accrued expense."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States that the expense ratio covers management fees, 12b-1 fees and other operating expenses, and that 'Brokerage commissions and other portfolio transaction costs are generally excluded.' Spreads and market impact fall within 'other portfolio transaction costs.'"
+      }
+    ],
+    "central_error": null,
+    "local_error": "'Commissions are often small because most brokers now charge none for ETF and stock trades.' Zero-commission pricing is a retail-broker practice. It does not apply to a fund's institutional portfolio trading, where the fund pays brokerage commissions, as the question presumes. This is a material false side claim about the fund's costs.",
+    "grade": "partial",
+    "rationale": "Both required points are fully covered: trading costs reduce NAV and performance through the fund's trades, and they are excluded from the expense ratio. There is no explicit central error, because 'deducted from fund assets' does not claim the costs are accrued as an expense or counted in the expense ratio. However, the claim that commissions are small because brokers charge none applies retail zero-commission trading to fund portfolio brokerage. That is a material local falsehood, which caps the grade at partial."
+  },
+  {
+    "blind_id": "HOX061",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States the board may designate 'the fund's investment adviser\u2014not a sub-adviser' as valuation designee under Rule 2a-5. This matches the evidence that the principal adviser can be the designee and a sub-adviser can't."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States the designee gives 'At least quarterly, written reports' and 'At least annually, a written assessment' of the valuation process's adequacy and effectiveness."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "States prompt written notification of material matters 'within the board's prescribed period, no later than five business days after awareness.'"
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "The answer covers all three required minimums. It contains no central error: it explicitly excludes sub-advisers and affirms periodic written reporting. Its extra details on the content of the quarterly and annual reports, follow-up reporting, deficiencies and NAV errors are elaboration that the supplied evidence does not contradict, so they are not material falsehoods."
+  },
+  {
+    "blind_id": "HOX062",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer covers the acquiring adviser's evaluation of complexity and fees ('considering fees and complexity'). 'Overreach or disadvantage' only loosely approximates the acquired adviser's undue-influence finding. It omits that each adviser reports its findings to its board by the next regular meeting."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "The answer covers the fund-of-funds investment agreement and the same-group exception ('not required in certain same-group arrangements'). It omits that the agreement must be terminable on no more than 60 days' notice."
+      }
+    ],
+    "central_error": null,
+    "local_error": "'The acquired fund's adviser must find that the arrangement is in the acquired fund's best interests, considering any reasonably foreseeable effects on scale, including potential economies of scale.' The supplied evidence says the acquired adviser addresses undue influence; it does not describe a best-interests or economies-of-scale finding. This misstates the acquired adviser's finding, which caps the grade at partial.",
+    "grade": "partial",
+    "rationale": "There is no central error: the answer affirms adviser findings and does not universally dispense with the agreement. Required coverage is 1.0 of 2, which meets the half threshold, and core facts are supplied. Omissions on point 1 (board reporting, explicit undue-influence finding) and point 2 (60-day termination) prevent a correct grade. The misdescribed acquired-adviser finding is a local falsehood that independently caps the grade at partial."
+  },
+  {
+    "blind_id": "HOX063",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer states that the acquiring adviser evaluates complexity and fee duplication. It states that the acquired adviser finds undue-influence concerns reasonably addressed. It also says each adviser reports to its fund's board by the next regularly scheduled meeting."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "The answer requires a written interfund agreement terminable on no more than 60 days' written notice. It notes the agreement is generally unnecessary when both funds share the same adviser, which matches the same-adviser exception."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered. The answer does not claim that no adviser assessment is required, and it does not universally dispense with the agreement. It expressly says the same-adviser exception does not eliminate the findings. The extra details on factors and fee information are not contradicted by the supplied evidence, so they are not treated as falsehoods."
+  },
+  {
+    "blind_id": "HOX064",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that the ICAV may prepare separate per-sub-fund financial statements and can dispense with AGMs. States that the plc must prepare umbrella-wide accounts and generally must hold an AGM."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States that the ICAV is eligible for check-the-box, including partnership treatment with multiple owners. States that the plc is a per se corporation that cannot elect partnership status."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered with the correct orientation and no reversal. The disregarded-entity remark and the caveat that eligibility differs from actual classification are consistent with the sources and grader notes. There is no material falsehood."
+  },
+  {
+    "blind_id": "HOX065",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer covers checks before appointment: 'assess the delegate's competence, resources, governance, systems, controls and conflicts'. It covers a written agreement with reporting, audit, instruction and termination rights. It covers ongoing monitoring afterwards: designated persons 'review performance, KPIs, risk and compliance reports, and escalate issues to the board', plus periodic board review. The source's word 'challenge' is not used, but reviewing reports and escalating issues substantively meets the oversight and challenge bundle."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States 'Delegation does not affect the ManCo's liability' and 'The ManCo must not become a \"letter-box entity\"' under the heading 'Substance', which covers retained responsibility and substance."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Optional. Mentions CP86 designated persons overseeing functions and escalating to the board, but says they oversee 'investment management and administration' rather than the six managerial functions. Not scored toward the grade."
+      }
+    ],
+    "central_error": null,
+    "local_error": "'The CBI must clear the investment manager in advance'. The evidence says the Central Bank's advance approval is needed 'unless it's an EU-regulated firm, which only notifies.' The answer presents advance clearance as universal, which contradicts the supplied evidence on a requested pre-appointment step. This is a material local falsehood, so the grade is capped at partial.",
+    "grade": "partial",
+    "rationale": "Both required points are fully covered: pre-appointment due diligence, a written agreement, and ongoing monitoring with escalation; and retained liability with the no-letter-box substance requirement. There is no central error, because the answer affirms liability is unaffected and rejects a letter-box entity. However, the unqualified claim that the CBI must clear every investment manager in advance contradicts the evidence's EU-regulated notification exception. Under the scoring rule, this material local falsehood caps the grade at partial."
+  },
+  {
+    "blind_id": "HOX066",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "States that the board may designate 'the fund's investment adviser', which covers the adviser. It never says a sub-adviser can't be the designee. Under the '40 Act both are 'investment advisers', so the exclusion isn't implied."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Covers the at-least-quarterly written assessments to the board. It omits the designee's annual assessment of the valuation process."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Says the designee must 'report promptly on significant valuation matters', which covers material-matter reporting. It omits the board-set deadline and the 5-business-day maximum."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no central error. The answer never says a sub-adviser can be the designee, and it affirms periodic written reporting. Coverage sums to 1.5 of 3 required points, which meets the half threshold, and core facts are supplied. The answer isn't correct because the sub-adviser exclusion, the annual assessment and the 5-business-day deadline are all missing. Some side claims fall outside the supplied evidence: 'officer or employee of the adviser' as designee and recordkeeping under Rule 31a-1. The evidence doesn't contradict them, so they aren't treated as material falsehoods."
+  },
+  {
+    "blind_id": "HOX067",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer lists '1. iShares (BlackRock) 2. Vanguard 3. SPDR (State Street Global Advisors)', which is the correct order. It hedges this as 'likely' and based on the pattern through 2025, but it still states the required ranking, and the rubric does not penalise caveats."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "The answer frames the ranking 'by US ETF assets' in 'Lipper's US ETF universe', explains 'ETF-for-sale', refers to 'brand-level totals' and ties this to 'the September 30, 2026 period'. This covers asset measurement by sponsor brand in the Lipper US ETF-for-sale universe at that date. Its glosses ('US-domiciled, exchange-listed', 'available for purchase') are hedged and not contradicted by the source."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point; the Lipper USD16,296.6bn denominator and the ICI comparison are omitted. No penalty applies."
+      },
+      {
+        "point": 4,
+        "credit": 0,
+        "reason": "Optional point; the distinction between Vanguard's ETF share-class assets and its whole portfolio is omitted. No penalty applies."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required points are covered: the correct top three in order, and a brand-level asset measure within Lipper's US ETF-for-sale universe at September 30, 2026. The answer makes no global-issuer or sponsor-wide-AUM claim, so there is no central error. The hedging and scope glosses are not material falsehoods. Optional omissions do not reduce the grade."
+  },
+  {
+    "blind_id": "HOX068",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer says the board selects the auditor 'by a majority vote of trustees who are not \"interested persons\"'. That is selection by the independent trustees under \u00a732(a), so the point is covered."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "The answer never says that an all-independent audit committee permits omitting ratification under Rule 32a-4. It ties omission only to there being no annual meeting."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point not addressed: nothing on the trust-wide vote or on series using different auditors. This does not reduce the grade."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Point 1 is fully covered by the independent-trustee majority vote, so required coverage is 1 of 2, which meets the half threshold. Point 2's Rule 32a-4 audit-committee basis for omitting ratification is missing. The no-annual-meeting route matches \u00a732(a)'s text and is not a falsehood. Nothing says shareholders must always ratify, and selection is not assigned to the adviser, so there is no central error."
+  },
+  {
+    "blind_id": "HOX069",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Names iShares (BlackRock), Vanguard and SPDR (State Street) and lists them in the correct order. However, it says 'I cannot verify their precise ordering', so it does not assert the required 'in that order' ranking."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States the measure as aggregate ETF assets in 'Lipper's U.S. ETF-for-sale universe, grouped by sponsor brand', tied to September 30, 2026. It also excludes total firm AUM, worldwide ETF businesses and flows."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Required coverage is 1.5 of 2. No central error: the answer explicitly rejects sponsor-wide AUM and a global ranking. There is no material falsehood, and the 'for sale in the U.S.' caveat is accurate. Optional points 3 and 4 are omitted, which does not affect the grade. The grade is partial rather than correct only because the answer disclaims the required ordering instead of stating it."
+  },
+  {
+    "blind_id": "HOX070",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer says the ETF 'remains subject to' a written liquidity-risk management program and 'the 15% of net assets limit on illiquid investments'."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "The answer lists relief from classifying investments into 'the rule's four liquidity buckets' and from establishing 'a highly liquid investment minimum'."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered. The answer explicitly keeps the program and the 15% limit, and the closing note says relief from classification is not relief from the 15% limit, so there is no central error. The extra details (board oversight, program administrator, recordkeeping, shortfall procedures, and the in-kind ETF definition) are consistent with the evidence and are not material falsehoods."
+  },
+  {
+    "blind_id": "HOX071",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Says 'The fund's board of directors (or trustees) sets the pricing time' and that NAV must be calculated 'at least once daily, Monday through Friday, with limited exceptions,' which matches 'at least once each business day.'"
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says 4 pm ET is 'a market convention, not a legal mandate' that 'aligns with the NYSE close.'"
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered. There is no central error: the answer says the board, not the SEC or the exchange, sets the time, and it explicitly denies that 4 pm is legally mandated. The side claims on forward pricing, frequency exceptions, fair value and disclosure are consistent with the evidence or harmless. The final sentence is cut off, but that is an omission, not a falsehood."
+  },
+  {
+    "blind_id": "HOX072",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States 'US dividends generally face 15% US withholding tax' for an Irish UCITS ETF entitled to treaty benefits, including the LOB test."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says 'The tax is incurred at fund level' and is borne economically through lower returns, which is consistent with the fund bearing the cost. Also says 'Investors generally cannot personally reclaim' the tax."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered. There is no zero-rate claim and no claim that investors can reclaim the fund's tax. The side remarks (accumulation doesn't avoid withholding, no foreign-tax credit, local taxes separate) are consistent with the source or concern investor-level taxes, which are outside scope. None is a material falsehood."
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX004",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Identifies the thresholds as industry conventions, not SEC rules or safe harbors, and says they flag errors for review."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says the fund\u2019s board-approved NAV-error policy and procedures govern correction, addresses reimbursement and responsibility, and calls for material issues to be escalated to the board."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Notes that documented policies define scope and materiality, but does not specifically mention shareholder de minimis amounts or checking the policy\u2019s precise boundaries."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are covered without a material falsehood. The optional point is incomplete, which does not reduce the grade."
+}

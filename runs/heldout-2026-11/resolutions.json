@@ -1,0 +1,815 @@
+[
+  {
+    "blind_id": "HOX002",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Permanent waiver and three-year/lower-of-two caps are explicit; truncated ending does not remove minima."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Permanent waiver and three-year/lower-of-two caps are explicit; truncated ending does not remove minima."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Permanent waiver and three-year/lower-of-two caps are explicit; truncated ending does not remove minima.",
+    "resolution_reason": "Scoped question concerns this bank arrangement. Permanent unitary waiver matches HO-09-bank. Do not turn a scoped conclusion into an unrelated universal claim.",
+    "independent_grades": {
+      "s": "correct",
+      "o": "correct",
+      "l": "partial"
+    },
+    "evidence_ids": [
+      "HO-09-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX004",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Conventions and policy governance clear; SEC recognition omitted, responsible-party reimbursement not explicit."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Conventions and policy governance clear; SEC recognition omitted, responsible-party reimbursement not explicit."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Conventions and policy governance clear; SEC recognition omitted, responsible-party reimbursement not explicit.",
+    "resolution_reason": "HO-10-bank and frozen required minimum explicitly include SEC recognition in Rule 2a-5 adoption. Optional citations do not make the recognition fact optional. Policy/reimbursement credit may be implied, but first bundle remains incomplete.",
+    "independent_grades": {
+      "s": "partial",
+      "o": "correct",
+      "l": "correct"
+    },
+    "evidence_ids": [
+      "HO-10-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX005",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Execution costs lower NAV outside expense ratio."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Execution costs lower NAV outside expense ratio."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Execution costs lower NAV outside expense ratio.",
+    "resolution_reason": "Expense ratio explicitly contrasted with securities cost basis and not fund expenses. Equivalent wording sufficiently supplies operating-cost classification.",
+    "independent_grades": {
+      "s": "correct",
+      "o": "correct",
+      "l": "partial"
+    },
+    "evidence_ids": [
+      "HO-01-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX006",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Single ICAV entity acts for compartments with segregated recourse."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Single ICAV entity acts for compartments with segregated recourse."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Single ICAV entity acts for compartments with segregated recourse.",
+    "resolution_reason": "ICAV acts for subfunds and inability to sue in own name clearly imply ICAV litigation capacity. HO-04-bank; no demand for verbatim phrase.",
+    "independent_grades": {
+      "s": "correct",
+      "o": "correct",
+      "l": "partial"
+    },
+    "evidence_ids": [
+      "HO-04-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX008",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Income and CGT mechanisms covered; added timing/test detail requires checking."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Income and CGT mechanisms covered; added timing/test detail requires checking."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"over 60% ... throughout the period\": the qualifying investment test can trigger at any time, not only throughout.",
+    "grade": "partial",
+    "rationale": "Income and CGT mechanisms covered; added timing/test detail requires checking.",
+    "resolution_reason": "ITTOIA 2005 s378A(2)-(3) tests qualifying investments at any time in the relevant period, not throughout. Added tax test is a material local error; core income/CGT remains sound.",
+    "independent_grades": {
+      "s": "partial",
+      "o": "correct",
+      "l": "correct"
+    },
+    "evidence_ids": [
+      "HO-17-bank",
+      "HO-17-HMRC"
+    ]
+  },
+  {
+    "blind_id": "HOX011",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that US dividends to an Irish fund passing the LOB test face 15% treaty withholding, down from 30%."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says the fund is the legal recipient, the tax is deducted at source and the fund generally cannot reclaim it. The cost reduces dividends and NAV, so it sits at fund level and is not presented as reclaimable by investors."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are covered. The answer does not apply a zero rate or claim investors can reclaim the tax, so there is no central error. The 5%/10% voting-power note, W-8BEN-E and tracking-difference remarks are accurate. The claim that investors face no additional Irish tax concerns investor-level taxation, which the grader notes put outside scope, so it is not treated as a material falsehood.",
+    "resolution_reason": "Fund as legal recipient and inability to reclaim, with shareholders only economic incidence, convey no personal pass-through reclaim in context. HO-03-bank; allow clear implication.",
+    "independent_grades": {
+      "s": "partial",
+      "o": "correct",
+      "l": "correct"
+    },
+    "evidence_ids": [
+      "HO-03-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX012",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "Ordinary agreement accurately described but does not state the described unitary waiver is permanently forgone."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Ordinary agreement accurately described but does not state the described unitary waiver is permanently forgone."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Ordinary agreement accurately described but does not state the described unitary waiver is permanently forgone.",
+    "resolution_reason": "Conditional contract discussion fails permanent-waiver minimum, but does not explicitly reverse both arrangements; ordinary cap mechanism earns half coverage. HO-09-bank and literal central anchors.",
+    "independent_grades": {
+      "s": "partial",
+      "o": "partial",
+      "l": "wrong"
+    },
+    "evidence_ids": [
+      "HO-09-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX013",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "The answer never says the bank's unitary-fee waiver is permanently forgone. Instead it says recoupment is 'not automatic' and 'if permitted, it depends on the contract's terms,' which leaves recoupment open. The source says the waived amount 'is gone for good: it isn't recoupable.'"
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "It states recoupment 'within a stated period (often three years), only if recoupment stays within both the expense cap in effect when the waiver occurred and the cap in effect when repayment is made.' Staying within both caps means the lower cap controls."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"Both can let the adviser recover prior waivers\" is a material local falsehood for the bank's described unitary-fee waiver, which the source says is not recoupable. The answer hedges rather than fully reversing the two arrangements, so it is not a central error, but it caps the grade at partial.",
+    "grade": "partial",
+    "rationale": "Required-point coverage is 1 of 2, which meets the half threshold, and a core fact (the ordinary expense-cap recoupment rule) is correctly given. There is no explicit central error: the answer does not reverse the treatments or allow recovery above the caps. However, point 1 is missed, and the claim that both arrangements permit recovery is materially false for the bank's arrangement. The grade is partial.",
+    "resolution_reason": "Both can recoup is false for described arrangement, but literal anchor requires reversal of the two treatments, not merely incorrect unitary recoverability. Local cap and half coverage => partial; S central-error classification too broad.",
+    "independent_grades": {
+      "s": "wrong",
+      "o": "partial",
+      "l": "partial"
+    },
+    "evidence_ids": [
+      "HO-09-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX016",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Board mentioned without independent selection requirement; Rule 32a-4 all-independent committee omitted."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "Board mentioned without independent selection requirement; Rule 32a-4 all-independent committee omitted."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"ratification is not required by federal securities law\" overstates conditional relief.",
+    "grade": "wrong",
+    "rationale": "Board mentioned without independent selection requirement; Rule 32a-4 all-independent committee omitted.",
+    "resolution_reason": "Board/audit committee without independence only half of first bundle; second bundle has no Rule32a-4 independence route. 0.5/2 below half. HO-12-bank.",
+    "independent_grades": {
+      "s": "wrong",
+      "o": "wrong",
+      "l": "partial"
+    },
+    "evidence_ids": [
+      "HO-12-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX018",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Income and CGT correct; added tax-year rule false."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Income and CGT correct; added tax-year rule false."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"tax year in which the fund\u2019s reporting period ends\": ERI is generally deemed distributed six months after period end.",
+    "grade": "partial",
+    "rationale": "Income and CGT correct; added tax-year rule false.",
+    "resolution_reason": "HMRC HS265 fund distribution date is six months after period end, so tax year need not be period-end year. Wrong volunteered timing caps partial; core income/CGT coverage remains full.",
+    "independent_grades": {
+      "s": "partial",
+      "o": "correct",
+      "l": "correct"
+    },
+    "evidence_ids": [
+      "HO-17-bank",
+      "HO-17-HMRC"
+    ]
+  },
+  {
+    "blind_id": "HOX019",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Accounts/AGM and check-the-box/per-se contrast supplied."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Accounts/AGM and check-the-box/per-se contrast supplied."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Accounts/AGM and check-the-box/per-se contrast supplied.",
+    "resolution_reason": "Election can avoid corporate/PFIC treatment; answer does not guarantee every investor tax outcome. Source supports ICAV eligible/plc per-se contrast; do not infer a stronger falsehood.",
+    "independent_grades": {
+      "s": "correct",
+      "o": "correct",
+      "l": "partial"
+    },
+    "evidence_ids": [
+      "HO-05-bank",
+      "HO-05-Irish-ICAV",
+      "HO-05-Irish-investment-plc"
+    ]
+  },
+  {
+    "blind_id": "HOX020",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Correct convention/policy correction framework; misses SEC recognition under 2a-5; historical assertions unestablished."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Correct convention/policy correction framework; misses SEC recognition under 2a-5; historical assertions unestablished."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Correct convention/policy correction framework; misses SEC recognition under 2a-5; historical assertions unestablished.",
+    "resolution_reason": "Frozen minimum includes SEC recognition of policy convention, absent here. HO-10-bank. No unverified history claim upgraded into central error.",
+    "independent_grades": {
+      "s": "partial",
+      "o": "correct",
+      "l": "partial"
+    },
+    "evidence_ids": [
+      "HO-10-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX025",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer says the board selects the auditor 'by majority vote, including a majority of the independent trustees' under \u00a732(a). It also says an independent audit committee directly appoints the auditor. Selection is therefore tied to the independent trustees, not to the board alone, so the 0.5 cap does not apply."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "The answer gives a 'Rule 32a-4 exemption: Ratification is unnecessary if the fund has an audit committee of only independent trustees'. This matches the minimum."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minima are covered: independent trustees select the auditor, and an all-independent audit committee permits omitting ratification under Rule 32a-4. The answer does not give selection to the adviser, and it does not say shareholders must always ratify. Its side claims, including the 'if such meeting is held' framing and the Rule 10A-3 audit committee point, are not contradicted by the evidence. The truncated final sentence is incomplete rather than false. Leaving out the optional point does not lower the grade.",
+    "resolution_reason": "S invented an open-end exemption in Rule10A-3(c)(4), which actually concerns security futures. Remove that S local-error flag; the independent-selection and32a-4 minima are covered. Live CFR check retained.",
+    "independent_grades": {
+      "s": "partial",
+      "o": "correct",
+      "l": "correct"
+    },
+    "evidence_ids": [
+      "HO-12-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX028",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Correctly says the ICAV need not hold an AGM and the plc must hold one, and gives the plc company-level (umbrella) accounts. It does not say the ICAV can produce per-sub-fund accounts. Instead it says the ICAV's sub-fund statements 'sit within a single ICAV-level set', which blurs the accounts distinction. The bundle is substantive but incomplete."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says the ICAV is an eligible entity that can elect its US classification via check-the-box (Form 8832). It also says the plc is a per se corporation under Treas. Reg. \u00a7301.7701-2(b)(8) and cannot elect. This matches the minimum."
+      }
+    ],
+    "central_error": null,
+    "local_error": "'or default to partnership or disregarded treatment' is wrong. A foreign eligible entity whose members all have limited liability, as with an ICAV, defaults to association (corporate) treatment; partnership treatment needs an affirmative election. This is a material local falsehood about US classification, which caps the grade at partial.",
+    "grade": "partial",
+    "rationale": "Required coverage is 1.5 of 2, which is at least half. There is no central error: the answer does not reverse the vehicles on the election, AGMs or accounts. However, it fails to say the ICAV can file per-sub-fund accounts, and it contains a material local falsehood about the ICAV's default US classification. Under the scoring rule the grade is partial.",
+    "resolution_reason": "Accounts statement is inaccurate, but does not swap which vehicle has flexibility; literal reversal anchor not met. Local false US default-classification claim reinforces partial cap. Tax election contrast covered. HO-05 excerpts.",
+    "independent_grades": {
+      "s": "wrong",
+      "o": "partial",
+      "l": "partial"
+    },
+    "evidence_ids": [
+      "HO-05-bank",
+      "HO-05-Irish-ICAV",
+      "HO-05-Irish-investment-plc"
+    ]
+  },
+  {
+    "blind_id": "HOX030",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Single entity acts for non-person subfunds; statutory segregated recourse."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Single entity acts for non-person subfunds; statutory segregated recourse."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Single entity acts for non-person subfunds; statutory segregated recourse.",
+    "resolution_reason": "Cannot sue in own name and ICAV acts for them clearly implies ICAV sues for subfund. Full substantive coverage under HO-04-bank.",
+    "independent_grades": {
+      "s": "correct",
+      "o": "correct",
+      "l": "partial"
+    },
+    "evidence_ids": [
+      "HO-04-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX031",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Board/oversight/fee vote clear; initial shareholder approval and prospectus treated as alternatives rather than both."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Board/oversight/fee vote clear; initial shareholder approval and prospectus treated as alternatives rather than both."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Board/oversight/fee vote clear; initial shareholder approval and prospectus treated as alternatives rather than both."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Board/oversight/fee vote clear; initial shareholder approval and prospectus treated as alternatives rather than both.",
+    "resolution_reason": "Frozen minimum requires initial shareholder approval AND prospectus disclosure. Answer gives alternatives. Bank adviser excerpt requires both; no new fund exception substituted after grading.",
+    "independent_grades": {
+      "s": "partial",
+      "o": "correct",
+      "l": "partial"
+    },
+    "evidence_ids": [
+      "HO-13-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX037",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Says an ICAV may prepare sub-fund financial statements and can elect in its constitution to dispense with AGMs. Says a plc prepares company-level statutory accounts with sub-fund sections only, and is generally subject to company-law AGM requirements. The hedges ('where permitted', 'exceptions may apply') soften the contrast but the minimum is conveyed."
+      },
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "Says only that 'Neither form automatically qualifies for US check-the-box treatment' and that classification 'depend[s] on entity eligibility'. It never says the ICAV can elect US partnership treatment. It never says the investment plc is a per-se corporation that cannot elect. The answer treats both vehicles the same, so the required contrast is missing."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Point 1 is covered and point 2 is not, giving 1 of 2 required coverage, which meets the half threshold. Core facts on accounts and AGMs are supplied. There is no explicit reversal of either vehicle's check-the-box eligibility, so no central error. The vague 'neither automatically qualifies' wording is non-committal rather than an affirmative falsehood, so it counts as omission. The ICAV entity-level accounts remark is not contradicted by the sources. Result: partial.",
+    "resolution_reason": "ICAV separate statements and plc umbrella comparison are present. Mandatory additional entity-level accounts is a local error, rather than erasing the whole comparative bundle. Tax contrast missing; half coverage permits partial. HO-05 excerpts.",
+    "independent_grades": {
+      "s": "wrong",
+      "o": "partial",
+      "l": "partial"
+    },
+    "evidence_ids": [
+      "HO-05-bank",
+      "HO-05-Irish-ICAV",
+      "HO-05-Irish-investment-plc"
+    ]
+  },
+  {
+    "blind_id": "HOX038",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "Does not supply acquiring fee/complexity and acquired undue-influence findings or next-meeting reporting; agreement terms omit 60-day exit/exception."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Does not supply acquiring fee/complexity and acquired undue-influence findings or next-meeting reporting; agreement terms omit 60-day exit/exception."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Does not supply acquiring fee/complexity and acquired undue-influence findings or next-meeting reporting; agreement terms omit 60-day exit/exception.",
+    "resolution_reason": "No substantive correct complexity/duplicate-fee/acquired-adviser assessment bundle; assigning undue-influence finding to acquiring adviser is not coverage of correct responsibility. Generic agreement gets half, total below half. HO-14-bank.",
+    "independent_grades": {
+      "s": "wrong",
+      "o": "wrong",
+      "l": "partial"
+    },
+    "evidence_ids": [
+      "HO-14-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX040",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States that undistributed reportable income is taxed as income even though no cash was received. It also says the reportable income figure covers distributions, so both undistributed excess and distributions are included."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States that disposal gains are taxed as chargeable gains under Capital Gains Tax, not as income, which matches capital-gains treatment where reporting status is held throughout ownership."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered and there is no central error: the answer does not defer income tax to sale and does not exclude undistributed excess. Side claims are consistent with or go beyond the supplied evidence without contradicting it. These include the base-cost adjustment, the six-month reporting window, capital-loss treatment, and savings versus dividend characterisation. None is a material falsehood.",
+    "resolution_reason": "In context reportable income refers back to undistributed reportable income in first section. Accept ERI basis shorthand; do not infer an assertion to add cash distributions as well. HMRC HS265 confirms ERI basis adjustment.",
+    "independent_grades": {
+      "s": "partial",
+      "o": "correct",
+      "l": "correct"
+    },
+    "evidence_ids": [
+      "HO-17-bank",
+      "HO-17-HMRC"
+    ]
+  },
+  {
+    "blind_id": "HOX045",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "States 'The US withholds **15%** on US dividends paid to an Irish UCITS ETF. That is the US\u2013Ireland treaty rate', matching the source."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says the tax is 'levied on the fund' and 'withheld before dividends reach the fund', reducing distributions or NAV. Also says 'Investors generally cannot reclaim or credit the 15%'. This covers both the fund bearing the cost and investors' inability to reclaim. Saying investors bear it 'economically' through NAV is consistent with the fund bearing it."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered: 15% treaty withholding, and a fund-level cost that investors cannot reclaim. There is no zero-rate claim and no claim that investors can reclaim directly. The side claims (MSCI net index assumption, gross roll-up, 871(m) and level-1 framing) are outside scope and not contradicted by the evidence. The answer is truncated at the end, but nothing false is asserted.",
+    "resolution_reason": "Question concerns US stock dividends, where 30% statutory withholding in a standard non-treaty MSCI net index is plausible. S wrongly treated contextual remark as a universal all-country index rule. Core withholding/incidence complete.",
+    "independent_grades": {
+      "s": "partial",
+      "o": "correct",
+      "l": "correct"
+    },
+    "evidence_ids": [
+      "HO-03-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX046",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer says the board may designate the fund's investment adviser. However, it excludes only a sub-adviser 'primarily responsible for portfolio management', not every sub-adviser as the evidence requires. It also does not identify the principal adviser specifically."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "The answer gives the 'at least quarterly' reporting cadence. It omits that the reports must be in writing and that the designee assesses the valuation process each year."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "The answer says material matters are reported 'promptly'. It omits that the board sets the deadline and that the deadline is at most 5 business days."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"provided it is not a sub-adviser primarily responsible for portfolio management of the fund (or another fund in the same group)\" - This narrows the exclusion to some sub-advisers, which implies other sub-advisers could qualify. The evidence says flatly that a sub-adviser can't be the valuation designee. It is not an explicit statement that a sub-adviser can be designee, so it is a material local inaccuracy rather than a central error.",
+    "grade": "partial",
+    "rationale": "There is no explicit central error, and the answer does affirm quarterly periodic reporting. Each required point is only substantively incomplete, giving 1.5 of 3, which meets the half threshold. Core requested facts are supplied: the adviser as designee, quarterly reporting and prompt reporting of material matters. The inaccurate sub-adviser qualifier caps the grade at partial in any case.",
+    "resolution_reason": "Narrow subadviser exclusion implies but does not explicitly state eligibility; use literal central anchor and local cap. Prompt material reporting earns half third bundle even without five-day limit. 1.5/3 meets partial. HO-07-bank.",
+    "independent_grades": {
+      "s": "wrong",
+      "o": "partial",
+      "l": "partial"
+    },
+    "evidence_ids": [
+      "HO-07-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX048",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Both retained duties including15% and relief categories accurately identified despite hedging."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Both retained duties including15% and relief categories accurately identified despite hedging."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both retained duties including15% and relief categories accurately identified despite hedging.",
+    "resolution_reason": "Hedged but correctly supplies both retained requirements and both relief categories; uncertainty is not an error or omission.",
+    "independent_grades": {
+      "s": "correct",
+      "o": "correct",
+      "l": "partial"
+    },
+    "evidence_ids": [
+      "HO-11-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX052",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Written agreement, diligence/monitoring and retained substance/liability."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Written agreement, diligence/monitoring and retained substance/liability."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Written agreement, diligence/monitoring and retained substance/liability.",
+    "resolution_reason": "Monitoring/review, instructions and termination supply substantive challenge; exact word not required. HO-06-bank.",
+    "independent_grades": {
+      "s": "correct",
+      "o": "correct",
+      "l": "partial"
+    },
+    "evidence_ids": [
+      "HO-06-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX057",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0,
+        "reason": "Speculative alternatives not requested ranking; some universe qualification but no actual dates/history limitation."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Speculative alternatives not requested ranking; some universe qualification but no actual dates/history limitation."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Speculative alternatives not requested ranking; some universe qualification but no actual dates/history limitation."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "Speculative alternatives not requested ranking; some universe qualification but no actual dates/history limitation.",
+    "resolution_reason": "Unverified historical candidates do not supply dated ordered five; no October5 or effective-date uncertainty and no Sep30/ETF-only caveat. 0+.5+0 below half; no invented counts required. HO-16-bank plus Rafa confirmation.",
+    "independent_grades": {
+      "s": "wrong",
+      "o": "wrong",
+      "l": "partial"
+    },
+    "evidence_ids": [
+      "HO-16-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX060",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "NAV impact and expense-ratio exclusion clear."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "NAV impact and expense-ratio exclusion clear."
+      }
+    ],
+    "central_error": null,
+    "local_error": "\"Commissions are often small because most brokers now charge none\" imports retail zero-commission convention into institutional portfolio trading.",
+    "grade": "partial",
+    "rationale": "NAV impact and expense-ratio exclusion clear.",
+    "resolution_reason": "Reduce assets through trading execution is not an explicit claim of operating-expense accrual. Do not infer central error; retail zero commission extrapolation is a local side claim. HO-01-bank.",
+    "independent_grades": {
+      "s": "partial",
+      "o": "partial",
+      "l": "wrong"
+    },
+    "evidence_ids": [
+      "HO-01-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX065",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer covers checks before appointment: 'assess the delegate's competence, resources, governance, systems, controls and conflicts'. It covers a written agreement with reporting, audit, instruction and termination rights. It covers ongoing monitoring afterwards: designated persons 'review performance, KPIs, risk and compliance reports, and escalate issues to the board', plus periodic board review. The source's word 'challenge' is not used, but reviewing reports and escalating issues substantively meets the oversight and challenge bundle."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States 'Delegation does not affect the ManCo's liability' and 'The ManCo must not become a \"letter-box entity\"' under the heading 'Substance', which covers retained responsibility and substance."
+      }
+    ],
+    "central_error": null,
+    "local_error": "'The CBI must clear the investment manager in advance'. The evidence says the Central Bank's advance approval is needed 'unless it's an EU-regulated firm, which only notifies.' The answer presents advance clearance as universal, which contradicts the supplied evidence on a requested pre-appointment step. This is a material local falsehood, so the grade is capped at partial.",
+    "grade": "partial",
+    "rationale": "Both required points are fully covered: pre-appointment due diligence, a written agreement, and ongoing monitoring with escalation; and retained liability with the no-letter-box substance requirement. There is no central error, because the answer affirms liability is unaffected and rejects a letter-box entity. However, the unqualified claim that the CBI must clear every investment manager in advance contradicts the evidence's EU-regulated notification exception. Under the scoring rule, this material local falsehood caps the grade at partial.",
+    "resolution_reason": "HO-06-bank explicitly excepts EU-regulated firms from advance approval (notification instead). Universal CBI advance-clearance claim is local falsehood. Retained responsibility stays correct; cap partial.",
+    "independent_grades": {
+      "s": "correct",
+      "o": "partial",
+      "l": "partial"
+    },
+    "evidence_ids": [
+      "HO-06-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX066",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "States that the board may designate 'the fund's investment adviser', which covers the adviser. It never says a sub-adviser can't be the designee. Under the '40 Act both are 'investment advisers', so the exclusion isn't implied."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Covers the at-least-quarterly written assessments to the board. It omits the designee's annual assessment of the valuation process."
+      },
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Says the designee must 'report promptly on significant valuation matters', which covers material-matter reporting. It omits the board-set deadline and the 5-business-day maximum."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no central error. The answer never says a sub-adviser can be the designee, and it affirms periodic written reporting. Coverage sums to 1.5 of 3 required points, which meets the half threshold, and core facts are supplied. The answer isn't correct because the sub-adviser exclusion, the annual assessment and the 5-business-day deadline are all missing. Some side claims fall outside the supplied evidence: 'officer or employee of the adviser' as designee and recordkeeping under Rule 31a-1. The evidence doesn't contradict them, so they aren't treated as material falsehoods.",
+    "resolution_reason": "Prompt material reporting earns half point3. Officer/employee as designee is a local error under2a-5(e)(4), not recorded central anchor. 1.5/3 permits partial; S gave too little reporting credit.",
+    "independent_grades": {
+      "s": "wrong",
+      "o": "partial",
+      "l": "partial"
+    },
+    "evidence_ids": [
+      "HO-07-bank"
+    ]
+  },
+  {
+    "blind_id": "HOX067",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer lists '1. iShares (BlackRock) 2. Vanguard 3. SPDR (State Street Global Advisors)', which is the correct order. It hedges this as 'likely' and based on the pattern through 2025, but it still states the required ranking, and the rubric does not penalise caveats."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "The answer frames the ranking 'by US ETF assets' in 'Lipper's US ETF universe', explains 'ETF-for-sale', refers to 'brand-level totals' and ties this to 'the September 30, 2026 period'. This covers asset measurement by sponsor brand in the Lipper US ETF-for-sale universe at that date. Its glosses ('US-domiciled, exchange-listed', 'available for purchase') are hedged and not contradicted by the source."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required points are covered: the correct top three in order, and a brand-level asset measure within Lipper's US ETF-for-sale universe at September 30, 2026. The answer makes no global-issuer or sponsor-wide-AUM claim, so there is no central error. The hedging and scope glosses are not material falsehoods. Optional omissions do not reduce the grade.",
+    "resolution_reason": "Question fixes Lipper/date universe; answer references September2026 Lipper brand-level totals, US ETF assets, and correct order. Caveat about source verification is not omission. No supplied evidence establishes scope gloss as materially false.",
+    "independent_grades": {
+      "s": "partial",
+      "o": "correct",
+      "l": "partial"
+    },
+    "evidence_ids": [
+      "HO-18-bank"
+    ]
+  }
+]

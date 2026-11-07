@@ -1,0 +1,24 @@
+{
+  "blind_id": "HOX001",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0,
+      "reason": "Does not provide the ranking."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "Does not state the assignment universe or date limitations."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Does not state the retrieval date or unresolved historical and ETF-only rankings."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "wrong",
+  "rationale": "The answer makes no false claim, but supplies no substantive requested fact; omissions are not falsehoods."
+}

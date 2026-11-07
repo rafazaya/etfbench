@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b3f0-85af-7260-a5fb-bb8093a95409"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"My recollection is that Rafa’s practitioner estimate is **about 2% of the creation/redemption value** as a typical maximum variable fee—not the routine charge or a universal ’40 Act ceiling.\n\nI don’t reliably recall the cited **Corgi ETF Trust I SAI’s exact cap**, so I shouldn’t quote it from memory.\n\n**Worth knowing:** An industry rule of thumb is not a substitute for a particular fund’s filed terms; those determine its disclosed maximum and applicable conditions."}}
+{"type":"turn.completed","usage":{"input_tokens":8399,"cached_input_tokens":4864,"cache_write_input_tokens":0,"output_tokens":869,"reasoning_output_tokens":764}}

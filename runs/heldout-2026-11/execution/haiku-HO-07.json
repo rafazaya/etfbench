@@ -1,0 +1,41 @@
+{
+  "model": "haiku",
+  "id": "HO-07",
+  "tier": "A",
+  "answer": "**Who can be appointed:** Under Rule 2a-5, the board may designate the fund's investment adviser, or an officer or employee of the adviser, as valuation designee. Designation is subject to board oversight, and the board remains responsible for fair value determinations it doesn't delegate. Non-affiliated third parties generally can't be designated, though they may supply pricing services.\n\n**Required reporting to the board:**\n- The valuation designee must provide written assessments of the fund's valuation approaches and fair value determinations at least quarterly.\n- It must report promptly on significant valuation matters, such as material valuation issues or significant deficiencies or material weaknesses in the valuation process.\n- The board must review the designee's fair value determinations and assessments at least quarterly, and must oversee and evaluate the designee's processes.\n- The fund must keep records of these determinations and reports under Rule 31a-1.",
+  "original_answer": "**Who can be appointed:** Under Rule 2a-5, the board may designate the fund's investment adviser, or an officer or employee of the adviser, as valuation designee. Designation is subject to board oversight, and the board remains responsible for fair value determinations it doesn't delegate. Non-affiliated third parties generally can't be designated, though they may supply pricing services.\n\n**Required reporting to the board:**\n- The valuation designee must provide written assessments of the fund's valuation approaches and fair value determinations at least quarterly.\n- It must report promptly on significant valuation matters, such as material valuation issues or significant deficiencies or material weaknesses in the valuation process.\n- The board must review the designee's fair value determinations and assessments at least quarterly, and must oversee and evaluate the designee's processes.\n- The fund must keep records of these determinations and reports under Rule 31a-1.",
+  "void": false,
+  "words_before": 143,
+  "words_after_shorten": null,
+  "words_final": 143,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-h77u5fpf",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a US open-end ETF, which adviser can the board appoint as valuation designee under Rule 2a-5, and what reporting to the board follows?\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-HO-07-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": []
+}

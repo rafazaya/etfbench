@@ -1,0 +1,41 @@
+{
+  "model": "haiku",
+  "id": "HO-18",
+  "tier": "C",
+  "answer": "I can't verify Lipper's September 30, 2026 figures, and my knowledge cutoff is June 2026, so I can't confirm the exact ranking.\n\nBased on the pattern through 2025, the likely top three by US ETF assets are:\n\n1. **iShares** (BlackRock)\n2. **Vanguard**\n3. **SPDR** (State Street Global Advisors)\n\nFor the measurement scope, Lipper's US ETF universe generally covers US-domiciled, exchange-listed ETFs. \"ETF-for-sale\" typically means funds available for purchase by investors, which excludes certain closed or non-sale products. Confirm the exact scope and the brand-level totals in Refinitiv Lipper's own publications or data for the September 30, 2026 period, since definitions and ranking details can change.",
+  "original_answer": "I can't verify Lipper's September 30, 2026 figures, and my knowledge cutoff is June 2026, so I can't confirm the exact ranking.\n\nBased on the pattern through 2025, the likely top three by US ETF assets are:\n\n1. **iShares** (BlackRock)\n2. **Vanguard**\n3. **SPDR** (State Street Global Advisors)\n\nFor the measurement scope, Lipper's US ETF universe generally covers US-domiciled, exchange-listed ETFs. \"ETF-for-sale\" typically means funds available for purchase by investors, which excludes certain closed or non-sale products. Confirm the exact scope and the brand-level totals in Refinitiv Lipper's own publications or data for the September 30, 2026 period, since definitions and ranking details can change.",
+  "void": false,
+  "words_before": 105,
+  "words_after_shorten": null,
+  "words_final": 105,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-shjwqvk1",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-haiku-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "At September 30, 2026, which three ETF sponsor brands lead the US Lipper ETF-for-sale universe by assets, and what measurement scope applies?\n\nUse at most 150 words."
+      ],
+      "stdout": "haiku-HO-18-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": []
+}

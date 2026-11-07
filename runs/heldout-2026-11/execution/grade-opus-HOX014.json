@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX014",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that 'only the ICAV itself is a body corporate with legal personality' and that 'its sub-funds are not separate legal persons', which places legal personality in the ICAV with sub-funds inside it."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Describes statutory segregated liability between sub-funds and says 'The ICAV contracts, sues and is sued in respect of a specific sub-fund'. It also notes that segregation derives from statute, not separate personality."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer explicitly separates segregated liability from separate legal personality, so it avoids the central error. The extra claims (implied contract terms, set-off within the same sub-fund, the foreign-recognition caveat, umbrella plcs under the Companies Act 2014) are not contradicted by the supplied evidence and are not material falsehoods."
+}

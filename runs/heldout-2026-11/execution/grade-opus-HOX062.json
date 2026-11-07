@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX062",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer covers the acquiring adviser's evaluation of complexity and fees ('considering fees and complexity'). 'Overreach or disadvantage' only loosely approximates the acquired adviser's undue-influence finding. It omits that each adviser reports its findings to its board by the next regular meeting."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "The answer covers the fund-of-funds investment agreement and the same-group exception ('not required in certain same-group arrangements'). It omits that the agreement must be terminable on no more than 60 days' notice."
+    }
+  ],
+  "central_error": null,
+  "local_error": "'The acquired fund's adviser must find that the arrangement is in the acquired fund's best interests, considering any reasonably foreseeable effects on scale, including potential economies of scale.' The supplied evidence says the acquired adviser addresses undue influence; it does not describe a best-interests or economies-of-scale finding. This misstates the acquired adviser's finding, which caps the grade at partial.",
+  "grade": "partial",
+  "rationale": "There is no central error: the answer affirms adviser findings and does not universally dispense with the agreement. Required coverage is 1.0 of 2, which meets the half threshold, and core facts are supplied. Omissions on point 1 (board reporting, explicit undue-influence finding) and point 2 (60-day termination) prevent a correct grade. The misdescribed acquired-adviser finding is a local falsehood that independently caps the grade at partial."
+}

@@ -1,0 +1,362 @@
+{
+  "HOX001": {
+    "id": "HO-16",
+    "model": "luna",
+    "tier": "A"
+  },
+  "HOX002": {
+    "id": "HO-09",
+    "model": "opus",
+    "tier": "A"
+  },
+  "HOX003": {
+    "id": "HO-03",
+    "model": "luna",
+    "tier": "A"
+  },
+  "HOX004": {
+    "id": "HO-10",
+    "model": "luna",
+    "tier": "A"
+  },
+  "HOX005": {
+    "id": "HO-01",
+    "model": "opus",
+    "tier": "A"
+  },
+  "HOX006": {
+    "id": "HO-04",
+    "model": "haiku",
+    "tier": "B"
+  },
+  "HOX007": {
+    "id": "HO-01",
+    "model": "luna",
+    "tier": "A"
+  },
+  "HOX008": {
+    "id": "HO-17",
+    "model": "opus",
+    "tier": "B"
+  },
+  "HOX009": {
+    "id": "HO-08",
+    "model": "haiku",
+    "tier": "A"
+  },
+  "HOX010": {
+    "id": "HO-12",
+    "model": "sol",
+    "tier": "A"
+  },
+  "HOX011": {
+    "id": "HO-03",
+    "model": "haiku",
+    "tier": "A"
+  },
+  "HOX012": {
+    "id": "HO-09",
+    "model": "sol",
+    "tier": "A"
+  },
+  "HOX013": {
+    "id": "HO-09",
+    "model": "luna",
+    "tier": "A"
+  },
+  "HOX014": {
+    "id": "HO-04",
+    "model": "opus",
+    "tier": "B"
+  },
+  "HOX015": {
+    "id": "HO-02",
+    "model": "luna",
+    "tier": "A"
+  },
+  "HOX016": {
+    "id": "HO-12",
+    "model": "luna",
+    "tier": "A"
+  },
+  "HOX017": {
+    "id": "HO-10",
+    "model": "haiku",
+    "tier": "A"
+  },
+  "HOX018": {
+    "id": "HO-17",
+    "model": "luna",
+    "tier": "B"
+  },
+  "HOX019": {
+    "id": "HO-05",
+    "model": "opus",
+    "tier": "B"
+  },
+  "HOX020": {
+    "id": "HO-10",
+    "model": "opus",
+    "tier": "A"
+  },
+  "HOX021": {
+    "id": "HO-08",
+    "model": "luna",
+    "tier": "A"
+  },
+  "HOX022": {
+    "id": "HO-18",
+    "model": "luna",
+    "tier": "C"
+  },
+  "HOX023": {
+    "id": "HO-10",
+    "model": "sol",
+    "tier": "A"
+  },
+  "HOX024": {
+    "id": "HO-15",
+    "model": "sol",
+    "tier": "A"
+  },
+  "HOX025": {
+    "id": "HO-12",
+    "model": "opus",
+    "tier": "A"
+  },
+  "HOX026": {
+    "id": "HO-04",
+    "model": "sol",
+    "tier": "B"
+  },
+  "HOX027": {
+    "id": "HO-07",
+    "model": "opus",
+    "tier": "A"
+  },
+  "HOX028": {
+    "id": "HO-05",
+    "model": "haiku",
+    "tier": "B"
+  },
+  "HOX029": {
+    "id": "HO-11",
+    "model": "luna",
+    "tier": "A"
+  },
+  "HOX030": {
+    "id": "HO-04",
+    "model": "luna",
+    "tier": "B"
+  },
+  "HOX031": {
+    "id": "HO-13",
+    "model": "opus",
+    "tier": "A"
+  },
+  "HOX032": {
+    "id": "HO-01",
+    "model": "sol",
+    "tier": "A"
+  },
+  "HOX033": {
+    "id": "HO-09",
+    "model": "haiku",
+    "tier": "A"
+  },
+  "HOX034": {
+    "id": "HO-14",
+    "model": "opus",
+    "tier": "B"
+  },
+  "HOX035": {
+    "id": "HO-13",
+    "model": "sol",
+    "tier": "A"
+  },
+  "HOX036": {
+    "id": "HO-16",
+    "model": "sol",
+    "tier": "A"
+  },
+  "HOX037": {
+    "id": "HO-05",
+    "model": "luna",
+    "tier": "B"
+  },
+  "HOX038": {
+    "id": "HO-14",
+    "model": "haiku",
+    "tier": "B"
+  },
+  "HOX039": {
+    "id": "HO-15",
+    "model": "luna",
+    "tier": "A"
+  },
+  "HOX040": {
+    "id": "HO-17",
+    "model": "haiku",
+    "tier": "B"
+  },
+  "HOX041": {
+    "id": "HO-15",
+    "model": "haiku",
+    "tier": "A"
+  },
+  "HOX042": {
+    "id": "HO-02",
+    "model": "sol",
+    "tier": "A"
+  },
+  "HOX043": {
+    "id": "HO-13",
+    "model": "luna",
+    "tier": "A"
+  },
+  "HOX044": {
+    "id": "HO-02",
+    "model": "opus",
+    "tier": "A"
+  },
+  "HOX045": {
+    "id": "HO-03",
+    "model": "opus",
+    "tier": "A"
+  },
+  "HOX046": {
+    "id": "HO-07",
+    "model": "luna",
+    "tier": "A"
+  },
+  "HOX047": {
+    "id": "HO-17",
+    "model": "sol",
+    "tier": "B"
+  },
+  "HOX048": {
+    "id": "HO-11",
+    "model": "haiku",
+    "tier": "A"
+  },
+  "HOX049": {
+    "id": "HO-15",
+    "model": "opus",
+    "tier": "A"
+  },
+  "HOX050": {
+    "id": "HO-13",
+    "model": "haiku",
+    "tier": "A"
+  },
+  "HOX051": {
+    "id": "HO-06",
+    "model": "luna",
+    "tier": "A"
+  },
+  "HOX052": {
+    "id": "HO-06",
+    "model": "haiku",
+    "tier": "A"
+  },
+  "HOX053": {
+    "id": "HO-11",
+    "model": "opus",
+    "tier": "A"
+  },
+  "HOX054": {
+    "id": "HO-06",
+    "model": "sol",
+    "tier": "A"
+  },
+  "HOX055": {
+    "id": "HO-08",
+    "model": "sol",
+    "tier": "A"
+  },
+  "HOX056": {
+    "id": "HO-16",
+    "model": "haiku",
+    "tier": "A"
+  },
+  "HOX057": {
+    "id": "HO-16",
+    "model": "opus",
+    "tier": "A"
+  },
+  "HOX058": {
+    "id": "HO-08",
+    "model": "opus",
+    "tier": "A"
+  },
+  "HOX059": {
+    "id": "HO-18",
+    "model": "opus",
+    "tier": "C"
+  },
+  "HOX060": {
+    "id": "HO-01",
+    "model": "haiku",
+    "tier": "A"
+  },
+  "HOX061": {
+    "id": "HO-07",
+    "model": "sol",
+    "tier": "A"
+  },
+  "HOX062": {
+    "id": "HO-14",
+    "model": "luna",
+    "tier": "B"
+  },
+  "HOX063": {
+    "id": "HO-14",
+    "model": "sol",
+    "tier": "B"
+  },
+  "HOX064": {
+    "id": "HO-05",
+    "model": "sol",
+    "tier": "B"
+  },
+  "HOX065": {
+    "id": "HO-06",
+    "model": "opus",
+    "tier": "A"
+  },
+  "HOX066": {
+    "id": "HO-07",
+    "model": "haiku",
+    "tier": "A"
+  },
+  "HOX067": {
+    "id": "HO-18",
+    "model": "haiku",
+    "tier": "C"
+  },
+  "HOX068": {
+    "id": "HO-12",
+    "model": "haiku",
+    "tier": "A"
+  },
+  "HOX069": {
+    "id": "HO-18",
+    "model": "sol",
+    "tier": "C"
+  },
+  "HOX070": {
+    "id": "HO-11",
+    "model": "sol",
+    "tier": "A"
+  },
+  "HOX071": {
+    "id": "HO-02",
+    "model": "haiku",
+    "tier": "A"
+  },
+  "HOX072": {
+    "id": "HO-03",
+    "model": "sol",
+    "tier": "A"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX011",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that US dividends to an Irish fund passing the LOB test face 15% treaty withholding, down from 30%."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says the fund is the legal recipient, the tax is deducted at source and the fund generally cannot reclaim it. The cost reduces dividends and NAV, so it sits at fund level and is not presented as reclaimable by investors."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are covered. The answer does not apply a zero rate or claim investors can reclaim the tax, so there is no central error. The 5%/10% voting-power note, W-8BEN-E and tracking-difference remarks are accurate. The claim that investors face no additional Irish tax concerns investor-level taxation, which the grader notes put outside scope, so it is not treated as a material falsehood."
+}

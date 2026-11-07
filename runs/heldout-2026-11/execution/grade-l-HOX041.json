@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX041",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0,
+      "reason": "Does not give Rafa\u2019s practitioner estimate; the general 1%\u20133% range is not attributed to him."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "Does not identify Corgi\u2019s SAI or explain that its filed terms are a fund-specific example, not a universal ceiling."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "wrong",
+  "rationale": "The answer supplies no substantive requested fact. Its general discussion of fee ranges does not cover either required point; omission is not falsehood."
+}

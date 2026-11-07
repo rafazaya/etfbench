@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX012",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0,
+      "reason": "The answer never says the unitary-fee waiver amounts are permanently forgone. It leaves recoupment open ('Contract-specific; recoupment must be expressly authorized') and lists 'Previously waived advisory fees' as what is recovered. The closing note says a unitary fee doesn't itself create a recovery right, but that does not state the described waiver is non-recoupable."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "It covers both elements: 'Commonly a rolling three-year period' and recovery capped at 'the lower of the cap when relief was provided and the cap when reimbursement occurs'."
+    }
+  ],
+  "central_error": null,
+  "local_error": "'What is recovered? | Previously waived advisory fees' (unitary-fee column). In the described bank arrangement the waived amount 'is gone for good: it isn't recoupable.' The answer frames it as potentially recoverable, and says the bank 'isn't identified' even though the arrangement was described. This does not reverse both arrangements or grant unlimited recovery above caps, so it is not a central error, but it is a misleading local statement.",
+  "grade": "partial",
+  "rationale": "Point 2 is fully covered. Point 1 is missed because the answer treats unitary-waiver recoupment as contract-dependent and possibly available, rather than stating the waived amounts are forgone. Required coverage is 1 of 2, which meets the half threshold, and there is no central error. Under the scoring rule this is partial, not correct."
+}

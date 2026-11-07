@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b3f0-e69e-70d1-960d-7ba7a2242f62"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The three leading sponsor brands are **iShares (BlackRock), Vanguard, and SPDR (State Street)**. From memory, I cannot verify their precise ordering or asset totals at September 30, 2026.\n\n**Measurement scope:** aggregate ETF assets within **Lipper’s U.S. ETF-for-sale universe**, grouped by sponsor brand—not sponsors’ total firm AUM, their entire worldwide ETF businesses, or net inflows.\n\n**Worth knowing:** “For sale in the U.S.” describes the covered fund universe; it does not mean assets owned specifically by U.S. investors."}}
+{"type":"turn.completed","usage":{"input_tokens":8381,"cached_input_tokens":7296,"cache_write_input_tokens":0,"output_tokens":823,"reasoning_output_tokens":699}}

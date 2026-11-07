@@ -1,0 +1,19 @@
+{
+  "blind_id": "HOX029",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Retaining a liquidity risk-management program is explicit, but the 15% illiquid-investment limit is omitted."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Explicitly states relief from four-category liquidity classification and the highly liquid investment minimum."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "The answer covers the relief and the retained program, but omits the required 15% illiquid-investment limit. Omission is not falsehood."
+}
