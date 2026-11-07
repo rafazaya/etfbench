@@ -1,0 +1,22 @@
+{
+  "sol": {
+    "answers": 44,
+    "attempts": 64,
+    "tool_bearing_attempts": 17,
+    "initial_tool_rate": 0.38636363636363635,
+    "all_attempt_tool_rate": 0.265625,
+    "shortened": 3,
+    "truncated": 0,
+    "void": 0
+  },
+  "opus": {
+    "answers": 44,
+    "attempts": 84,
+    "tool_bearing_attempts": 0,
+    "initial_tool_rate": 0.0,
+    "all_attempt_tool_rate": 0.0,
+    "shortened": 40,
+    "truncated": 12,
+    "void": 0
+  }
+}

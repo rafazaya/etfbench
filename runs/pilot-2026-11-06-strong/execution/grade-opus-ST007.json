@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST007",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that derivatives tied to the fund's accounts, margin and ISDA/clearing arrangements 'usually can't be handed to an AP'. It adds that on creations the fund 'takes cash and opens or extends positions', and on redemptions it 'closes positions and pays cash'."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Conveys that cash dealing creates fund trading costs, which 'the cash component, or transaction fees, can shift' to the AP. It links this to the lost in-kind benefit by contrast: in-kind 'avoids fund-level trading and may let the fund deliver low-basis lots for tax efficiency under \u00a7852(b)(6)'. The trading-cost consequence plus the contrast-based link meets the minimum; gain realization is only implied."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are covered. The answer hedges appropriately ('many derivatives', 'usually can't') instead of claiming all derivatives are untransferable. It does not say cash dealing preserves in-kind tax benefits. It includes a limits section noting reliance on the prospectus, Rule 6c-11 policies and AP agreements. No material falsehoods were found."
+}

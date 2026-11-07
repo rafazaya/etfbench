@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+  "tier": "A",
+  "answer": "I can't see the bank's reviewed agreements, so this reflects standard US ETF Authorized Participant (AP) agreement and SAI practice. Verify the figures against your review.\n\n- **Collateral required:** An AP allowed to create before delivering all deposit securities must post cash collateral, typically **up to 115%** of the shortfall. Some sponsors specify a range (e.g., at least 105%, up to 115%); a few go higher, around 125%.\n- **What the percentage applies to:** The **market value of the undelivered deposit securities**, marked to market daily. If value rises, the AP posts more collateral. If the AP fails to deliver, the fund can use the cash to buy the securities, with the AP covering any shortfall and costs.\n- **Is it universal?** No. Rates vary by sponsor, fund and agreement. Each fund's AP agreement and SAI set the actual terms, which the issuer can usually adjust.",
+  "original_answer": "I can't see the bank's reviewed agreements, so I'm answering from standard US ETF Authorized Participant (AP) agreement and Statement of Additional Information (SAI) practice. Check the figures against your review.\n\n- **Collateral required:** When an AP is allowed to create before delivering all deposit securities, it must post cash collateral. This is typically **up to 115%** of the shortfall. Some sponsors specify a range, such as at least 105% and up to 115%. A few go higher, around 125%.\n- **What the percentage applies to:** The **market value of the undelivered (missing) deposit securities**, marked to market daily. If the value rises, the AP must post more collateral. If the AP fails to deliver, the fund can use the cash to buy the securities, and the AP pays any shortfall and costs.\n- **Is it universal?** No. The rate varies by sponsor, fund and agreement. Each fund's AP agreement and SAI set the actual terms, and the issuer can usually adjust them.",
+  "void": false,
+  "words_before": 163,
+  "words_after_shorten": 146,
+  "words_final": 146,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-p02mi_dy",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, in the bank's reviewed US ETF AP agreements, what cash collateral may be required for securities not yet delivered, what value is the percentage applied to, and is it a universal rate?\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-creation_redemption_002_what_is_a_normal_amount_of_collateral_an-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-g299qj75",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\nI can't see the bank's reviewed agreements, so I'm answering from standard US ETF Authorized Participant (AP) agreement and Statement of Additional Information (SAI) practice. Check the figures against your review.\n\n- **Collateral required:** When an AP is allowed to create before delivering all deposit securities, it must post cash collateral. This is typically **up to 115%** of the shortfall. Some sponsors specify a range, such as at least 105% and up to 115%. A few go higher, around 125%.\n- **What the percentage applies to:** The **market value of the undelivered (missing) deposit securities**, marked to market daily. If the value rises, the AP must post more collateral. If the AP fails to deliver, the fund can use the cash to buy the securities, and the AP pays any shortfall and costs.\n- **Is it universal?** No. The rate varies by sponsor, fund and agreement. Each fund's AP agreement and SAI set the actual terms, and the issuer can usually adjust them."
+      ],
+      "stdout": "opus-creation_redemption_002_what_is_a_normal_amount_of_collateral_an-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

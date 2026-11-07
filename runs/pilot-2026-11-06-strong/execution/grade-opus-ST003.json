@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST003",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer says fixed costs (admin, custody, index licensing, listing, audit) of roughly $250k\u2013$500k+ need about $25\u201350M AUM to cover, so a small fund runs at a loss."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "It notes that large or expiring fee waivers mean the sponsor is subsidizing the fund, flags sponsor health and lineup as factors, and closes with 'These are signals, not predictions of closure', so certainty is disclaimed."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "It covers withdrawal risk: seeders, often market makers, usually exit after 6\u201312 months, and holder concentration matters. It does not contrast temporary market-maker seed with more lasting investor seed, so the bundle is incomplete."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error, and the cost and timing estimates are plausible rather than materially false. Required coverage is 2.5 of 3 because the temporary-versus-investor seed distinction is missing. Since not every required minimum is fully covered, the grade is partial."
+}

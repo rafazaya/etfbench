@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST034",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Answer lists basket holdings' ticker/CUSIP/identifier, description, quantity, percentage weight, custom-basket statement plus a compliance record under 6c-11(c)(3), cash balancing amount, and AP identity."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that both categories must be kept 'for at least five years, with the first two years in an easily accessible place.'"
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Lists 'All written agreements\u2014or copies\u2014with authorized participants' and applies the same five-year/first-two-years-accessible retention to both categories."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Every required minimum is covered: the basket record contents, the five-year retention with the first two years easily accessible, and the AP agreements under the same retention. There is no central error, and no material local falsehood was found."
+}

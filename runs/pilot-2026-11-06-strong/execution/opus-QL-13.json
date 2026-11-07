@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-13",
+  "tier": "B",
+  "answer": "**Why cash:** In-kind baskets work only for deliverable assets. Many derivatives (swaps, futures, OTC options) are bilateral contracts or exchange positions tied to the fund's own accounts, margin, and ISDA/clearing arrangements, so they usually can't be handed to an AP. On creations, the fund takes cash and opens or extends positions with counterparties. On redemptions, it closes positions and pays cash. The cash component, or transaction fees, can shift those trading costs to the transacting AP.\n\n**Contrast:** Transferable securities, such as listed equities and many bonds, can move in-kind. This avoids fund-level trading and may let the fund deliver low-basis lots for tax efficiency under \u00a7852(b)(6).\n\n**Limits:** This is a general rationale, not any specific fund's practice. Actual baskets follow each fund's prospectus, Rule 6c-11 basket policies, and AP agreements. Custom or mixed baskets, operational factors, and tax or cost tradeoffs vary, so verify with fund documents.",
+  "original_answer": "**Why cash:** In-kind baskets work only for assets that can be delivered. Many derivatives (swaps, futures, OTC options) are bilateral contracts or exchange positions tied to the fund's own accounts, margin, and ISDA/clearing arrangements. They usually can't simply be handed to an AP. So the fund takes cash on creations and itself opens or extends positions with counterparties, and on redemptions it closes positions and pays cash. The cash component, or transaction fees, can shift those trading costs to the transacting AP.\n\n**Contrast:** Transferable securities, such as listed equities and many bonds, can move in-kind. That avoids fund-level trading and may let the fund deliver low-basis lots for tax efficiency under \u00a7852(b)(6).\n\n**Limits:** This is a general rationale, not any specific fund's practice. Actual baskets follow each fund's prospectus, its Rule 6c-11 basket policies, and its AP agreements. Custom or mixed baskets, operational factors, and tax or cost tradeoffs vary. Verify with fund documents.",
+  "void": false,
+  "words_before": 154,
+  "words_after_shorten": 147,
+  "words_final": 147,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-ndufv8oz",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a US ETF using derivative positions that cannot practicably be transferred to or from an AP under its dealing arrangements, why might creations/redemptions use cash or a cash component? Contrast with transferable securities and state the limits of this explanation.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-13-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-kyax8cap",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Why cash:** In-kind baskets work only for assets that can be delivered. Many derivatives (swaps, futures, OTC options) are bilateral contracts or exchange positions tied to the fund's own accounts, margin, and ISDA/clearing arrangements. They usually can't simply be handed to an AP. So the fund takes cash on creations and itself opens or extends positions with counterparties, and on redemptions it closes positions and pays cash. The cash component, or transaction fees, can shift those trading costs to the transacting AP.\n\n**Contrast:** Transferable securities, such as listed equities and many bonds, can move in-kind. That avoids fund-level trading and may let the fund deliver low-basis lots for tax efficiency under \u00a7852(b)(6).\n\n**Limits:** This is a general rationale, not any specific fund's practice. Actual baskets follow each fund's prospectus, its Rule 6c-11 basket policies, and its AP agreements. Custom or mixed baskets, operational factors, and tax or cost tradeoffs vary. Verify with fund documents."
+      ],
+      "stdout": "opus-QL-13-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

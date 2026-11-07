@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST029",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States plainly: 'appointing a principal underwriter does not, by itself, assure a sales force, investor demand, or asset gathering,' and adds that 'Distributor appointed' is not the same as 'distribution secured.'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says wholesaling, advisor outreach, marketing and sales support 'must be expressly included or separately contracted.' Treats intermediary selling agreements, platform admission and shelf access as distinct. Notes that platform packages differ."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer separates legal and operational distribution from commercial distribution and intermediary access. It does not assume all platform packages are identical. It makes no central error and no material local falsehood. It omits the Simplify/Foreside example from the key points, but that omission does not reduce the grade."
+}

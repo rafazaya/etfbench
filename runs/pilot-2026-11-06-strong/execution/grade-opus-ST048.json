@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST048",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer says APs 'operate in the primary market' and 'create or redeem ETF shares directly with the fund.' It says market makers 'operate in the secondary market,' posting 'bid and ask quotes, providing liquidity.'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "(a) Overlap: 'Many firms (e.g., Jane Street, Citadel Securities, Virtu) act as both,' while the answer keeps the two functions separate ('APs manage ETF supply; market makers manage tradability'). (b) Link: 'They profit from spreads and hedge their inventory' and 'Market makers that aren't APs route creation/redemption orders through an AP.' This conveys that market makers use creation/redemption to manage inventory and also covers the optional subdetail."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Optional supporting details are present: creation unit sizes, in-kind or cash baskets, NAV arbitrage, and Lead Market Makers with formal quoting obligations."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are fully covered. The answer does not say the AP and market-maker roles are necessarily identical; it explicitly treats them as distinct functions that some firms combine. The ancillary details (creation unit size range, LMM obligations, NAV arbitrage) are accurate enough and contain no material falsehood."
+}

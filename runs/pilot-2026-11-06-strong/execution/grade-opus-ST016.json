@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST016",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Says the prospectus and website must state what holdings are published, how often, with what lag and where. It does not mention KID/KIID or marketing disclosure, or where iNAV information is available."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Covers daily public holdings and a periodic route conditional on daily AP/market-maker arbitrage information plus prospectus disclosure. It omits the nondiscriminatory basis, procedures for impaired arbitrage and investor information requests, and public quarter-end holdings within 30 business days. It says only 'e.g., quarterly, with a lag'."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "No statement that holdings disclosure identifies positions and quantities. No statement of what the prospectus says under the daily route. No explanation of iNAV calculation methodology or frequency when iNAV is calculated."
+    }
+  ],
+  "central_error": null,
+  "local_error": "'keeps the secondary-market price close to iNAV/NAV' is presented as a condition of the periodic route. The supplied CBI conditions are procedures for impaired arbitrage, not a price-tracking requirement. This is an imprecise characterisation; it does not reverse a central mechanism.",
+  "grade": "wrong",
+  "rationale": "There is no central error: the answer does not say all Irish ETFs must publish daily holdings, and it makes the periodic route conditional on daily arbitrage information. However, required-point coverage totals 1.0 out of 3, which is below the half threshold of 1.5. Under the scoring rule, that makes the grade wrong."
+}

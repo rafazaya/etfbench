@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-04",
+  "tier": "C",
+  "answer": "An ETF's expense ratio is **never billed to you directly**. It is deducted from the fund's assets.\n\n**How it works:**\n- **Daily accrual:** A 0.10% annual ratio accrues about 0.10%/365 of fund assets each day.\n- **Paid from fund assets:** The fund pays its sponsor, custodian, administrator and other providers from its holdings, usually monthly, often covering this first from dividend income it receives.\n- **Reflected in NAV:** Accrued fees are a fund liability, slightly lowering NAV per share. Share prices and returns are therefore reported *net* of fees.\n\n**What this means for you:**\n- No line item appears on your brokerage statement.\n- The cost is a small, steady drag on performance relative to the underlying index.\n- You pay only for the days you hold shares.\n\nTrading costs such as commissions and bid-ask spreads are separate from the expense ratio.",
+  "original_answer": "An ETF's expense ratio is **never billed to you directly**. It is deducted from the fund's assets.\n\n**How it works:**\n- **Daily accrual:** The annual rate is divided across the year. A 0.10% ratio accrues about 0.10%/365 of fund assets each day.\n- **Paid from fund assets:** The fund pays the sponsor, custodian, administrator and other providers out of its holdings, usually monthly. Dividend income received by the fund often covers it first.\n- **Reflected in NAV:** Because the accrued fees are a liability on the fund's books, they slightly lower the net asset value per share. Your share price and returns are therefore reported *net* of fees.\n\n**What this means for you:**\n- No line item appears on your brokerage statement.\n- The cost shows up as a small, steady drag on performance relative to the underlying index.\n- You pay only for the days you hold the shares.\n\nTrading costs such as commissions and bid-ask spreads are separate and are not part of the expense ratio.",
+  "void": false,
+  "words_before": 168,
+  "words_after_shorten": 142,
+  "words_final": 142,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-ic89ntu2",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "How is an ETF expense ratio collected from investors?\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-04-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-n_3l03c5",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\nAn ETF's expense ratio is **never billed to you directly**. It is deducted from the fund's assets.\n\n**How it works:**\n- **Daily accrual:** The annual rate is divided across the year. A 0.10% ratio accrues about 0.10%/365 of fund assets each day.\n- **Paid from fund assets:** The fund pays the sponsor, custodian, administrator and other providers out of its holdings, usually monthly. Dividend income received by the fund often covers it first.\n- **Reflected in NAV:** Because the accrued fees are a liability on the fund's books, they slightly lower the net asset value per share. Your share price and returns are therefore reported *net* of fees.\n\n**What this means for you:**\n- No line item appears on your brokerage statement.\n- The cost shows up as a small, steady drag on performance relative to the underlying index.\n- You pay only for the days you hold the shares.\n\nTrading costs such as commissions and bid-ask spreads are separate and are not part of the expense ratio."
+      ],
+      "stdout": "opus-QL-04-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST026",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that a Rule 485(a)(2) amendment adding a series normally becomes effective 75 calendar days after filing, versus 60 days for other 485(a) amendments, and notes acceleration or a later date can change this. Calls it a 'registration-effectiveness timetable, not an end-to-end launch guarantee' and says the 75-day rule does not apply to a new trust's initial registration."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "Optional point. No filed example and no explicit statement that shares cannot be sold before effectiveness. This omission does not reduce the grade."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Lists SEC comments and revisions, exchange listing approval, operational readiness, seed capital and service-provider/AP arrangements as factors affecting launch timing. The optional 95-day designated-date limit is omitted, which does not reduce the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are fully covered. The answer does not apply the 75-day clock to initial trust registration or present it as a launch guarantee. The description of initial registration (SEC review, declaration of effectiveness, delaying amendments) is accurate. Only optional elements are missing."
+}

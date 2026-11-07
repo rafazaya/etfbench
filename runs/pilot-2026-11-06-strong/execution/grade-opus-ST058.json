@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST058",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States 'The brand sponsor bears the economic shortfall' and that the sponsor funds the gap when allocated revenue is insufficient under its expense-assumption agreement."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States the adviser named in the unitary-fee advisory agreement 'remains obligated to cover the promised fund expenses\u2014even if the sponsor fails to pay.'"
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Optional. Notes the actual contracts control, but does not mention fixed costs or the absence of a shareholder reimbursement duty. This does not affect the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are fully covered and there is no central error. The answer explicitly says sponsor default does not release the adviser. The statement that excluded expenses remain payable by the fund is accurate and is not a falsehood. The optional omission does not reduce the grade."
+}

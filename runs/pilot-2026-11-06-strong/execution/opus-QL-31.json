@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-31",
+  "tier": "C",
+  "answer": "**Before concluding arbitrage has failed, the board should first rule out measurement artifacts:** - **Timing:** Does the NAV strike match the official closing auction? Check for stale or fair-valued prices, late corporate actions, and accrual and cash treatment. - **Peers:** Do similar ETFs and index futures show the same pattern? If so, the cause is likely market-wide (sector stress, factor dislocation). - **Underlying frictions:** Examine illiquid, small-cap or hard-to-borrow constituents, wide spreads, short-sale constraints, and settlement or basket mismatches. - **AP and market-maker participation:** Review active AP count, creation/redemption volumes, fee or cutoff changes, balance-sheet constraints, and lead market maker quoting quality. **Inquiry:** Request the adviser's documented analysis of intraday iNAV versus price, basket data and AP interviews. **Corrective options:** Adjust custom baskets or cash-in-lieu rules, revise transaction fees, recruit more APs or market makers, refine fair-value procedures, or enhance disclosure. Under Rule 6c-11, a premium or discount above 2%",
+  "original_answer": "**Before concluding arbitrage has failed, the board should first test measurement artifacts:**\n\n- **Timing:** Does the NAV strike align with the official closing auction? Check for stale or fair-valued prices, late corporate actions, and the treatment of accruals and cash.\n- **Peers:** Do similar ETFs and index futures show the same pattern? If so, the cause is likely market-wide (sector stress, factor dislocation).\n- **Underlying frictions:** Look at illiquid, small-cap or hard-to-borrow constituents, wide spreads, short-sale constraints, and settlement or creation-basket mismatches.\n- **AP and market-maker participation:** Review how many APs are active, their creation/redemption volumes, any fee or cutoff changes, balance-sheet constraints, and lead market maker quoting quality.\n\n**Inquiry:** Ask the adviser for a documented analysis covering intraday iNAV versus price, basket data and AP interviews.\n\n**Corrective options:**\n- Adjust custom baskets or cash-in-lieu rules.\n- Revise transaction fees.\n- Recruit more APs or market makers.\n- Refine fair-value procedures.\n- Enhance disclosure. Under Rule 6c-11, a premium or discount above 2% for more than seven consecutive days requires a website explanation, not automatic remediation.",
+  "void": false,
+  "words_before": 176,
+  "words_after_shorten": 164,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-1w2d2x1k",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a US equity ETF showing repeated closing premiums or discounts over several weeks in normal markets, what should its board investigate before concluding arbitrage has failed? Check contemporaneous valuation/market hours, peers, underlying trading frictions and AP/market-maker participation; propose inquiry and corrective options rather than a single presumed cause or mandatory numerical trigger.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-31-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-90l15v8l",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Before concluding arbitrage has failed, the board should first test measurement artifacts:**\n\n- **Timing:** Does the NAV strike align with the official closing auction? Check for stale or fair-valued prices, late corporate actions, and the treatment of accruals and cash.\n- **Peers:** Do similar ETFs and index futures show the same pattern? If so, the cause is likely market-wide (sector stress, factor dislocation).\n- **Underlying frictions:** Look at illiquid, small-cap or hard-to-borrow constituents, wide spreads, short-sale constraints, and settlement or creation-basket mismatches.\n- **AP and market-maker participation:** Review how many APs are active, their creation/redemption volumes, any fee or cutoff changes, balance-sheet constraints, and lead market maker quoting quality.\n\n**Inquiry:** Ask the adviser for a documented analysis covering intraday iNAV versus price, basket data and AP interviews.\n\n**Corrective options:**\n- Adjust custom baskets or cash-in-lieu rules.\n- Revise transaction fees.\n- Recruit more APs or market makers.\n- Refine fair-value procedures.\n- Enhance disclosure. Under Rule 6c-11, a premium or discount above 2% for more than seven consecutive days requires a website explanation, not automatic remediation."
+      ],
+      "stdout": "opus-QL-31-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

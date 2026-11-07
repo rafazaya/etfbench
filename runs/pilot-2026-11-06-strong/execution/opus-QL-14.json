@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-14",
+  "tier": "C",
+  "answer": "**Start with the fund's website.** Rule 6c-11 requires ETFs to post full portfolio holdings each business day before market open. These are the holdings behind that day's NAV. The site must also show NAV, market price, premium/discount history, median bid-ask spread, and basket policies. The prospectus, SAI, and Form N-PORT filings on SEC EDGAR add periodic detail.\n\n**Holdings are not the transaction basket.** Holdings show what the fund owns. The PCF (portfolio composition file) lists the securities and cash authorized participants deliver or receive per creation or redemption unit. Distributed through NSCC, it may be a pro-rata slice or a custom basket. Rule 6c-11 does not require it to be public.\n\n**To request it,** contact the issuer's capital markets or investor relations desk and ask for the day's PCF or a sample. They may decline. Paid data vendors are an alternative, but verify what their files contain.",
+  "original_answer": "**Start with the fund's own website.** Rule 6c-11 requires the ETF to post its full portfolio holdings each business day before the market opens. These are the holdings behind that day's NAV. The same site must show NAV, market price, premium/discount history, the median bid-ask spread, and its basket policies. The prospectus, SAI, and Form N-PORT filings on SEC EDGAR add periodic detail.\n\n**Holdings are not the transaction basket.** Holdings show what the fund owns. The PCF (portfolio composition file) lists the securities and cash that authorized participants deliver or receive for each creation or redemption unit. It is distributed through NSCC and may be a pro-rata slice or a custom basket. Rule 6c-11 does not require the PCF to be public.\n\n**To request it,** contact the issuer's capital markets or investor relations desk and ask for the day's PCF or a sample. They may decline. Paid data vendors are another option, but check what their files actually contain.",
+  "void": false,
+  "words_before": 159,
+  "words_after_shorten": 147,
+  "words_final": 147,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-d1dgnlmh",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for a retail investor without NSCC participant access researching a US Rule 6c-11 ETF, where should the investor start for daily holdings and how might they request the actual PCF? Distinguish holdings from transaction baskets; do not assume any named fund offers a free public PCF.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-14-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-wxf674ga",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Start with the fund's own website.** Rule 6c-11 requires the ETF to post its full portfolio holdings each business day before the market opens. These are the holdings behind that day's NAV. The same site must show NAV, market price, premium/discount history, the median bid-ask spread, and its basket policies. The prospectus, SAI, and Form N-PORT filings on SEC EDGAR add periodic detail.\n\n**Holdings are not the transaction basket.** Holdings show what the fund owns. The PCF (portfolio composition file) lists the securities and cash that authorized participants deliver or receive for each creation or redemption unit. It is distributed through NSCC and may be a pro-rata slice or a custom basket. Rule 6c-11 does not require the PCF to be public.\n\n**To request it,** contact the issuer's capital markets or investor relations desk and ask for the day's PCF or a sample. They may decline. Paid data vendors are another option, but check what their files actually contain."
+      ],
+      "stdout": "opus-QL-14-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

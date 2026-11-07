@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-34",
+  "tier": "C",
+  "answer": "**Three layers (Irish UCITS ETF/ETF share class, as of 6 Nov 2026):**\n\n1. **Transparency-policy disclosure:** The prospectus and website must state what holdings are published, how often, with what lag, and where. This applies under either route.\n\n2. **Daily public holdings (default):** Full holdings are published daily on a freely accessible website. This was the historical CBI expectation, including for active ETFs.\n\n3. **Conditional periodic route (CBI Q&A 1012, April 2025):** Holdings may instead be published periodically (e.g., quarterly, with a lag), but only if the ETF:\n   - gives authorised participants and market makers daily portfolio information for effective arbitrage,\n   - keeps the secondary-market price close to iNAV/NAV, and\n   - discloses this arrangement and its risks in the prospectus.\n\n**Caveat:** I cannot verify the 2026 regulations cited in your bank draft. Check their provisions and numbering against the published Statutory Instrument and current CBI Q&A text.",
+  "original_answer": "**Three distinct layers (Irish UCITS ETF/ETF share class, as of 6 Nov 2026):**\n\n1. **Transparency-policy disclosure:** The prospectus and website must state the fund's portfolio-transparency policy: what is published, how often, with what lag, and where. This disclosure is required whichever route applies.\n\n2. **Daily public holdings (default):** Full portfolio holdings are published daily on a freely accessible website. This was the historical CBI expectation, including for active ETFs.\n\n3. **Conditional periodic route (CBI Q&A 1012, April 2025):** An ETF may instead publish holdings periodically, such as quarterly with a lag, rather than daily. This is permitted only if the ETF:\n   - provides daily portfolio information to authorised participants and market makers so they can arbitrage effectively,\n   - keeps the secondary-market price close to iNAV/NAV, and\n   - discloses this arrangement and its risks in the prospectus.\n\n**Caveat:** I cannot verify the specific 2026 regulations cited in your bank draft. Confirm their exact provisions and numbering against the published Statutory Instrument and current CBI Q&A text.",
+  "void": false,
+  "words_before": 165,
+  "words_after_shorten": 146,
+  "words_final": 146,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-efaeu_bl",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for an Irish UCITS ETF or ETF share class, distinguish transparency-policy disclosures, daily public holdings and the conditional periodic-holdings route with daily AP/market-maker arbitrage information. Use the 2026 regulations and CBI Q&A 1012 (April 2025) identified in the bank draft.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-34-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-uk_exrij",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Three distinct layers (Irish UCITS ETF/ETF share class, as of 6 Nov 2026):**\n\n1. **Transparency-policy disclosure:** The prospectus and website must state the fund's portfolio-transparency policy: what is published, how often, with what lag, and where. This disclosure is required whichever route applies.\n\n2. **Daily public holdings (default):** Full portfolio holdings are published daily on a freely accessible website. This was the historical CBI expectation, including for active ETFs.\n\n3. **Conditional periodic route (CBI Q&A 1012, April 2025):** An ETF may instead publish holdings periodically, such as quarterly with a lag, rather than daily. This is permitted only if the ETF:\n   - provides daily portfolio information to authorised participants and market makers so they can arbitrage effectively,\n   - keeps the secondary-market price close to iNAV/NAV, and\n   - discloses this arrangement and its risks in the prospectus.\n\n**Caveat:** I cannot verify the specific 2026 regulations cited in your bank draft. Confirm their exact provisions and numbering against the published Statutory Instrument and current CBI Q&A text."
+      ],
+      "stdout": "opus-QL-34-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

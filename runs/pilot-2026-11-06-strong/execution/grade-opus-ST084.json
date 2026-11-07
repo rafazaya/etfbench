@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST084",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States both express Reg. 26(2) exceptions: cash versus in-kind subscriptions and redemptions may have different cut-offs, and hedged versus unhedged classes may differ 'where the currency hedging operates at class level'. The class-level qualifier is present. The S.I. citation is an optional omission."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Contrasts the regimes clearly. The 2026 provisions are 'express regulatory exceptions, not permissions requiring an individual waiver', while Q&A 1030 'described a case-by-case waiver application'. It does not carry the waiver requirement into 2026. For the limiting statement, it frames the provisions as exceptions to a 'common-dealing-deadline requirement' and says the route was 'not a general exemption for arbitrary class-specific deadlines'. That sentence is attached to Q&A 1030, which makes the limit somewhat indirect, but it suffices. Optional details (same frequencies and procedures, 42nd edition date) are omitted."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are covered. The answer states both express 2026 exceptions with the class-level hedging qualifier. It distinguishes the old Q&A 1030 waiver route from the waiver-free 2026 exceptions. It confines the exceptions to the common-deadline framework. It does not say waivers are still required and does not permit arbitrary dealing frequencies, so there is no central error. No material local falsehood was found."
+}

@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST004",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer states that an AP must have a written agreement with 'the ETF or one of its service providers' and that the rule does not require the ETF itself to sign."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "It names the AP and distributor as principal signatories and says the trust may be a third-party beneficiary rather than a contracting signatory. It omits the transfer agent's acceptance or countersignature and the trust signing specified provisions. This is a substantive but incomplete bundle."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "It states that 'The ICAV itself typically contracts with the AP' and contrasts this direct contractual standing with US beneficiary status. This meets the minimum, though 'on behalf of sub-funds' is not mentioned."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error: the answer correctly treats the AP and distributor as main counterparties and the trust as a beneficiary, not the principal counterparty. Coverage is 2.5 of 3. Point 2 lacks the transfer agent acceptance and the trust's specified signatures, so not every required minimum is fully covered, which caps the grade at partial. Hedges such as 'I cannot confirm the particular reviewed forms' are caveats, not falsehoods."
+}

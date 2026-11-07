@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST033",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the 75-day Rule 485(a)(2) period for a new-series amendment and contrasts it with 60 days for other amendments. Notes SEC acceleration and registrant delay, says the clock is not a launch guarantee, and correctly separates new-trust registration (N-8A/N-1A under \u00a78(a), 20 days nominal, Rule 473 delaying amendment, 'no 485 timeline applies')."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "Optional point: does not explicitly say shares cannot be sold before effectiveness and gives no filed example. Optional omissions do not reduce the grade."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Says the filing clock is not an overall launch deadline and lists added steps: staff comments, 485(b) final filing and delays, board approvals, Form 8-A, exchange listing under generic standards or 19b-4, CUSIP, seed capital, APs, custody, index licensing and service contracts. The 95-day limit is optional and its omission is not penalized."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are fully covered. There is no central error: 75 days is tied only to the new-series amendment, is expressly not a launch guarantee, and is excluded from initial trust registration. Ancillary statements (60-day 485(a)(1), 485(b)(1)(iii) delay, 6c-11 generic listing, N-8A/\u00a78(a) 20 days with Rule 473) are accurate. Only the optional point is missed, which does not affect the grade."
+}

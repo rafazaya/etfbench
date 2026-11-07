@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST036",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States 'Creations increase ETF shares outstanding' and that the fund issues new shares to the AP in exchange for a basket."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States 'redemptions decrease them' and that returned shares 'are canceled, reducing shares outstanding.'"
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "States 'Ordinary exchange trading transfers existing shares between investors\u2014it does not itself change the number outstanding.'"
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are fully covered with accurate wording. The answer does not reverse the share-count effects and does not claim secondary trades issue shares. The ancillary details (creation units, in-kind or cash baskets, net change formula) are accurate, so there is no material local falsehood."
+}

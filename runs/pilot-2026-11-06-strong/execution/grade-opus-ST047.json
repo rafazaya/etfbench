@@ -1,0 +1,34 @@
+{
+  "blind_id": "ST047",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Lists the trust, board with independent members, officers, adviser and advisory agreement, principal underwriting/distribution, custody, administration, fund accounting/NAV, transfer agency and an independent registered public accounting firm."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Covers AP agreements, exchange listing, market-maker arrangements, DTC/NSCC creation-redemption processing and basket publication. Seed capital is not mentioned."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Counsel is listed. Index methodology and licensing are tied to index strategies, and lending to securities-lending programs, both as conditional. Pricing support appears only indirectly through 'fund accounting/NAV calculation', with no explicit pricing or valuation arrangement."
+    },
+    {
+      "point": 4,
+      "credit": 1,
+      "reason": "States 'These are functions, not separate-firm requirements. Providers commonly bundle services', notes that existing series trusts provide the framework, and says one firm may act as both AP and market maker."
+    },
+    {
+      "point": 5,
+      "credit": 1,
+      "reason": "Includes a chief compliance officer, compliance policies, a board with independent representation and approved advisory agreements, with bundling 'subject to independence, conflict and oversight requirements'. Rule 38a-1 is not named, but the substance is equivalent."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "No central error and no material falsehood. The answer explicitly says roles are functions rather than separately hired firms. Required coverage totals 4.0 of 5, which clears the half threshold. Seed capital is omitted and pricing support is only implicit, so not every required minimum is fully covered. That fails the bar for 'correct' and yields 'partial'."
+}

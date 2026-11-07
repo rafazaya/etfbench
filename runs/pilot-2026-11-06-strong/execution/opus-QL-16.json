@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-16",
+  "tier": "A",
+  "answer": "**Framework:** compare total cost, time to market and control against expected fund count and asset trajectory. **Series trust (white-label):** - Existing board, CCO, auditor, administrator, custodian and exemptive/Rule 6c-11 infrastructure enable faster, cheaper launches. - Costs are mostly per-fund or asset-based, often with minimums, and can become expensive at scale. - **Control trade-off:** the platform's board and adviser oversee you, can terminate or replace you, and shape providers, policies and timing. Your brand may share governance risk with unrelated funds. **Own trust:** - Full control over board composition, vendors and future lineup. - Requires substantial upfront legal, board and CCO costs, longer setup, and fixed costs a single fund must bear. **Deciding factors:** realistic AUM and break-even, plans for more funds, strategy complexity, distribution relationships and tolerance for oversight. For most single-fund, budget-limited sponsors, a series trust is a reasonable start. Negotiate exit and reorganization terms upfront, and get current",
+  "original_answer": "**Framework:** compare total cost, time to market and control across expected fund count and asset trajectory.\n\n**Series trust (white-label):**\n- Existing board, CCO, auditor, administrator, custodian and exemptive/Rule 6c-11 infrastructure make launch faster and cheaper.\n- Costs are mostly per-fund or asset-based, often with minimum fees. These can become expensive at scale.\n- **Control trade-off:** the platform's board and adviser usually oversee you. They can terminate or replace you, and they shape service providers, policies and timing. Your brand may also share governance risk with unrelated funds.\n\n**Own trust:**\n- Gives full control over board composition, vendors and future product lineup.\n- Requires substantial upfront legal costs, board and CCO costs, longer setup, and fixed costs that one fund must bear.\n\n**Deciding factors:** realistic AUM and break-even, any plans for more funds, the strategy's complexity, distribution relationships and tolerance for oversight.\n\nFor most single-fund, budget-limited sponsors, a series trust is a reasonable starting point. Negotiate exit and reorganization terms upfront. Get current fee quotes and legal advice.",
+  "void": false,
+  "words_before": 167,
+  "words_after_shorten": 155,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-ywoh151_",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a new US sponsor planning one ordinary ETF, with limited fixed-cost budget and no existing trust, board or servicing infrastructure, how should it compare a series-trust platform with building its own trust? Include the control trade-off and avoid assuming one answer suits every sponsor.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-16-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-x35xrkj9",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Framework:** compare total cost, time to market and control across expected fund count and asset trajectory.\n\n**Series trust (white-label):**\n- Existing board, CCO, auditor, administrator, custodian and exemptive/Rule 6c-11 infrastructure make launch faster and cheaper.\n- Costs are mostly per-fund or asset-based, often with minimum fees. These can become expensive at scale.\n- **Control trade-off:** the platform's board and adviser usually oversee you. They can terminate or replace you, and they shape service providers, policies and timing. Your brand may also share governance risk with unrelated funds.\n\n**Own trust:**\n- Gives full control over board composition, vendors and future product lineup.\n- Requires substantial upfront legal costs, board and CCO costs, longer setup, and fixed costs that one fund must bear.\n\n**Deciding factors:** realistic AUM and break-even, any plans for more funds, the strategy's complexity, distribution relationships and tolerance for oversight.\n\nFor most single-fund, budget-limited sponsors, a series trust is a reasonable starting point. Negotiate exit and reorganization terms upfront. Get current fee quotes and legal advice."
+      ],
+      "stdout": "opus-QL-16-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

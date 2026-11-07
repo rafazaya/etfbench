@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST037",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that an AP may be required to post additional cash collateral for undelivered creation-basket securities, 'sometimes 115% of their market value', with top-ups. It presents 115% as an example, not a ceiling ('up to'). The optional 105% detail is omitted, which does not reduce credit."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says the percentage applies to 'the value of the missing securities, not the entire creation unit's NAV'. Also says '115% is not a universal rate; the applicable agreement and fund terms control', which covers the agreement-specific point."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Optional point. The answer does not mention AP liability for shortfall if the fund buys the missing securities. Optional omissions do not affect the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are covered: cash collateral for undelivered securities at 115% of their value as an example, applied to the undelivered securities rather than the whole basket, and not a universal rate. The answer does not frame 115% as a ceiling and contains no central error. Its disclaimer about lacking memory of the bank's agreements is hedging, not a false statement."
+}

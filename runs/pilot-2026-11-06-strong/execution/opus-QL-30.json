@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-30",
+  "tier": "C",
+  "answer": "**Board diligence checklist: index licence and renewal contingency**\n\n**Contract terms**\n- Term, renewal, and termination triggers (change of control, breach, index discontinuation)\n- Notice periods and any wind-down/tail-licence period, which vary and aren't standard\n- Fee escalators, MFN, exclusivity, sublicensing, assignment\n- Methodology-change rights, consultation duties, liability caps, indemnities\n\n**Naming dependencies**\n- Trademarked index names in fund name, ticker, marketing\n- Names Rule (35d-1) implications of a rename or index switch\n- Prospectus, SAI, listing amendments; shareholder communications\n\n**Affiliated-information issues**\n- Whether the provider is affiliated (self-indexing)\n- Firewalls, information barriers, code of ethics, rebalance-information controls\n- Exemptive-relief and listing-rule conditions\n\n**Contingency**\n- Feasibility and cost of a substitute index (not guaranteed)\n- Tracking-error, tax, transaction impacts\n- Whether a shareholder vote is required\n- Fallbacks: liquidation, merger, or conversion to active\n\nHave counsel confirm all items against the actual documents.",
+  "original_answer": "**Board diligence checklist: index licence and renewal contingency**\n\n**Contract terms**\n- Term, renewal mechanics, and termination triggers, including change of control, breach, and index discontinuation\n- Notice periods and any wind-down or tail-licence period. These vary by contract and are not standard.\n- Fee escalators, MFN clauses, exclusivity, sublicensing, and assignment rights\n- Methodology-change rights, consultation obligations, and liability caps and indemnities\n\n**Naming dependencies**\n- Trademarked index names in the fund name, ticker, and marketing\n- Rule 35d-1 (Names Rule) policy implications of a rename or index switch\n- Prospectus, SAI, and exchange-listing amendments, plus shareholder communications\n\n**Affiliated-information issues**\n- Whether the index provider is affiliated (self-indexing)\n- Firewalls, information-barrier and code-of-ethics procedures, and rebalance-information controls\n- Exemptive-relief and listing-rule conditions\n\n**Contingency**\n- Feasibility and cost of a substitute index, which is not guaranteed\n- Tracking-error, tax, and transaction impacts\n- Whether a change needs a shareholder vote\n- Fallback options: liquidation, merger, or conversion to active management\n\nHave counsel confirm all of the above against the actual documents.",
+  "void": false,
+  "words_before": 169,
+  "words_after_shorten": 141,
+  "words_final": 141,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-a3f195so",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a US index ETF board reviewing an index licence and failed-renewal contingency, what contract terms, naming dependencies and affiliated-information issues should it examine? Treat the checklist as diligence, not a universal notice period or guaranteed substitution right.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-30-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-_hxzoymn",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Board diligence checklist: index licence and renewal contingency**\n\n**Contract terms**\n- Term, renewal mechanics, and termination triggers, including change of control, breach, and index discontinuation\n- Notice periods and any wind-down or tail-licence period. These vary by contract and are not standard.\n- Fee escalators, MFN clauses, exclusivity, sublicensing, and assignment rights\n- Methodology-change rights, consultation obligations, and liability caps and indemnities\n\n**Naming dependencies**\n- Trademarked index names in the fund name, ticker, and marketing\n- Rule 35d-1 (Names Rule) policy implications of a rename or index switch\n- Prospectus, SAI, and exchange-listing amendments, plus shareholder communications\n\n**Affiliated-information issues**\n- Whether the index provider is affiliated (self-indexing)\n- Firewalls, information-barrier and code-of-ethics procedures, and rebalance-information controls\n- Exemptive-relief and listing-rule conditions\n\n**Contingency**\n- Feasibility and cost of a substitute index, which is not guaranteed\n- Tracking-error, tax, and transaction impacts\n- Whether a change needs a shareholder vote\n- Fallback options: liquidation, merger, or conversion to active management\n\nHave counsel confirm all of the above against the actual documents."
+      ],
+      "stdout": "opus-QL-30-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

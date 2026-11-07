@@ -1,0 +1,41 @@
+{
+  "model": "opus",
+  "id": "QL-11",
+  "tier": "A",
+  "answer": "**Rule 6c-11 requirement (17 CFR 270.6c-11(a)(1)):** An \"authorized participant\" must:\n\n- **Clearing eligibility:** Be a member or participant of a clearing agency registered with the SEC under Exchange Act Section 17A. In practice this is NSCC (Continuous Net Settlement) and/or DTC.\n- **Written agreement:** Have a written agreement with the ETF **or one of its service providers** that lets it place creation and redemption orders for creation units.\n\nSo the rule's permitted counterparties are the ETF itself or any ETF service provider, such as the distributor, adviser, transfer agent or custodian.\n\n**Bank's reviewed forms:** I don't have those documents, so I can't say who the named parties are. Industry AP agreements commonly involve the trust/ETF, the distributor, the AP, and sometimes the transfer agent or custodian. Please share the forms to confirm.\n\nThis is general information, not legal advice.",
+  "original_answer": "**Rule 6c-11 requirement (17 CFR 270.6c-11(a)(1)):** An \"authorized participant\" must:\n\n- **Clearing eligibility:** Be a member or participant of a clearing agency registered with the SEC under Exchange Act Section 17A. In practice this is NSCC (Continuous Net Settlement) and/or DTC.\n- **Written agreement:** Have a written agreement with the ETF **or one of its service providers** that lets it place creation and redemption orders for creation units.\n\nSo the rule's permitted counterparties are the ETF itself or any ETF service provider, such as the distributor, adviser, transfer agent or custodian.\n\n**Bank's reviewed forms:** I don't have those documents, so I can't say who the named parties are. Industry AP agreements commonly involve the trust/ETF, the distributor, the AP, and sometimes the transfer agent or custodian. Please share the forms to confirm.\n\nThis is general information, not legal advice.",
+  "void": false,
+  "words_before": 139,
+  "words_after_shorten": null,
+  "words_final": 139,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-5dyx4qm2",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for a US Rule 6c-11 ETF, what clearing/settlement eligibility and written agreement does an AP need? Distinguish the rule's permitted counterparties from the parties in the bank's reviewed US agreement forms.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-11-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": []
+}

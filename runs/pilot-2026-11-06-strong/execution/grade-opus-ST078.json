@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST078",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Advises opening an ETF-capable brokerage account and transferring shares, with the fund's notices governing deadlines and procedures. Warns that shares left with the transfer agent may be untradeable until moved to a broker and that access shouldn't be assumed."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States fractions are commonly redeemed for cash, potentially taxable in taxable accounts, and frames treatment as depending on the fund's terms and notices."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. There is no central error: the answer explicitly says access is not automatic and that a fraction cash-out may be taxable. It correctly distinguishes a whole-fund conversion from adding an ETF share class and avoids a universal timetable. The mention of possible redemption on a missed deadline is hedged as dependent on fund terms, so it is not a material falsehood."
+}

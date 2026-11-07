@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-38",
+  "tier": "C",
+  "answer": "**Caveat:** I can't confirm the 2026 amendment text is final, and the regulation and Q&A numbering may be misremembered. Check the current consolidated Central Bank UCITS Regulations and Q&A before relying on this.\n\n**Express 2026 approach (Reg. 26(2), as amended):**\n- **Cash vs in-kind:** Cash dealing may have an earlier cut-off than in-kind, giving time to trade underlying securities.\n- **Hedged vs unhedged:** Currency-hedged classes may have an earlier cut-off than unhedged ones, allowing FX hedge execution.\n- **Conditions:** Cut-offs must be disclosed in the prospectus, objectively justified, and precede the valuation point. No forward-pricing breach or late trading.\n\n**Older Q&A 1030 approach:**\n- Equal treatment required one dealing deadline for all classes.\n- Different deadlines needed a case-by-case Central Bank derogation on operational grounds.\n- Permission came via prospectus review, not an express regulatory right.",
+  "original_answer": "**Caveat:** I can't confirm that the precise 2026 amendment text is final, and I may be misremembering the regulation and Q&A numbering. Check the current consolidated Central Bank UCITS Regulations and Q&A before relying on this.\n\n**Express 2026 approach (Reg. 26(2), as amended):**\n- **Cash vs in-kind dealing:** Cash subscriptions and redemptions may have an earlier cut-off than in-kind ones, so the fund has time to trade the underlying securities.\n- **Hedged vs unhedged classes:** Class-level currency-hedged classes may have an earlier cut-off than unhedged classes, so FX hedges can be executed.\n- **Conditions:** The cut-offs must be disclosed in the prospectus, be objectively justified, and stay before the valuation point. No forward-pricing breach or late trading is allowed.\n\n**Older Q&A 1030 approach:**\n- Equal treatment meant one dealing deadline for all classes.\n- Different deadlines needed a case-by-case derogation from the Central Bank, based on operational justification.\n- Permission came through prospectus review, not an express regulatory right.",
+  "void": false,
+  "words_before": 159,
+  "words_after_shorten": 136,
+  "words_final": 136,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-t3y1rf6n",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, under Irish UCITS Regulation 26(2), which different dealing cut-offs are permitted for cash versus in-kind dealing and class-level currency-hedged versus unhedged classes? Distinguish the express 2026 exceptions from the older Q&A 1030 waiver approach.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-38-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-mx_l5tr5",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Caveat:** I can't confirm that the precise 2026 amendment text is final, and I may be misremembering the regulation and Q&A numbering. Check the current consolidated Central Bank UCITS Regulations and Q&A before relying on this.\n\n**Express 2026 approach (Reg. 26(2), as amended):**\n- **Cash vs in-kind dealing:** Cash subscriptions and redemptions may have an earlier cut-off than in-kind ones, so the fund has time to trade the underlying securities.\n- **Hedged vs unhedged classes:** Class-level currency-hedged classes may have an earlier cut-off than unhedged classes, so FX hedges can be executed.\n- **Conditions:** The cut-offs must be disclosed in the prospectus, be objectively justified, and stay before the valuation point. No forward-pricing breach or late trading is allowed.\n\n**Older Q&A 1030 approach:**\n- Equal treatment meant one dealing deadline for all classes.\n- Different deadlines needed a case-by-case derogation from the Central Bank, based on operational justification.\n- Permission came through prospectus review, not an express regulatory right."
+      ],
+      "stdout": "opus-QL-38-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

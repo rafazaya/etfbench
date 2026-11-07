@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST077",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer says the fixed fee covers per-order processing, transfer-agent and custodian settlement and transfer costs. It says the variable fee covers brokerage, spreads, market impact and taxes, especially for cash, substitution or custom baskets. It also notes the fees protect existing shareholders from dilution."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "The answer says the AP pays the fees. It also says recipients may differ: the variable fee goes to the fund, while the fixed fee may go to the custodian, transfer agent or adviser. However, it never says the AP bears the fee only unless it is waived or paid by another party, so the required bundle is incomplete."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "The answer states 'AP compensation is separate': APs earn arbitrage profits and client commissions or markups, and 'These are not fund charges'. The custom-waiver frequency is optional, so omitting it costs nothing. The final sentence is cut off, but the separation is already clear."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error: the answer never claims the fund's transaction charge compensates or reimburses the AP, and it explicitly separates the two. Points 1 and 3 are fully covered. Point 2 gets half credit because the waiver and third-party-payment caveat in the required minimum is missing. Required coverage totals 2.5 of 3, which is above half, so the answer is partial rather than correct."
+}

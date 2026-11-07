@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST018",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that when derivative positions cannot practicably transfer, the AP delivers or receives cash, either for the whole basket or as a cash component. The fund then establishes, adjusts or unwinds exposure itself through counterparties or brokers."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Gives a fund-level consequence: cash dealing 'can introduce trading costs, spreads, market impact, and potential tax consequences.' It links this to lost in-kind benefits by contrast, saying in-kind delivery is 'potentially avoiding fund-level trading and improving tax efficiency.' It also notes that fees may pass some costs to APs."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are covered. The answer frames cash dealing as conditional and operational, and explicitly notes that some derivative positions can transfer. It does not claim that all derivatives are transferable or that cash dealing preserves the in-kind tax benefit. No material false statements were found."
+}

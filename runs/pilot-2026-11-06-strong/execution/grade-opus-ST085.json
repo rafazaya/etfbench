@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST085",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that in a creation the AP delivers a basket and 'The fund issues new shares', under the heading 'Creations (shares increase)'."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that in a redemption the AP returns a creation unit and the fund 'cancels those shares', under the heading 'Redemptions (shares decrease)'."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Explicitly states 'Secondary-market trading between investors doesn't change shares outstanding; only AP activity does.'"
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are covered with correct direction. There is no reversal of share-count effects and no claim that secondary trades issue shares. Ancillary statements are accurate or reasonable approximations: the creation-unit size range, the arbitrage pulling price toward NAV, and in-kind tax efficiency. None is a material falsehood."
+}

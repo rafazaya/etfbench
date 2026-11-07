@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST071",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that delivering low-basis securities 'removes embedded gains from the shared portfolio, potentially reducing future capital-gain distributions to **both** classes.'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says in-kind redemptions do not 'prevent gains from portfolio trading or cash redemptions.' This covers cash-based sales, including those forced by cash redemptions, still realizing gains. Optional subdetails are omitted but not contradicted."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Says benefits 'depend on available redemptions, permissible baskets, portfolio holdings, and operational constraints; they are not guaranteed.' Also includes the optional investor tax caveat."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are fully covered. The answer explains the shared-portfolio mechanism under \u00a7852(b)(6), the limit that cash-based sales still realize gains, and that the benefit is conditional. It does not claim separate portfolios or a basis step-up for retained securities. Its statement that SEC multiclass permission is separate from tax treatment is accurate, and no material local falsehood was found."
+}

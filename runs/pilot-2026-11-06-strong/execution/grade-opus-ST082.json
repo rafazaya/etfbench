@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST082",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer treats seed as 'invested capital receiving ETF shares, not launch expenditure' and tracks it separately. It does not say that the legal minimum (the \u00a714(a) $100,000 net-worth condition) is not a commercial launch budget or break-even level."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "It names who pays what. One-time costs are 'normally sponsor.' Recurring operating costs, including trustees, fall to the 'sponsor/adviser under the unitary arrangement.' The fund or shareholders pay the unitary fee plus prospectus-defined exclusions. It also says to 'Confirm actual exclusions and contractual responsibility.'"
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "It lists one-time costs (formation, counsel, filings, listing/setup) and recurring costs (platform, servicing, index, exchange, distribution). It states 'Break-even AUM equals annual fixed sponsor costs divided by a positive retained fee margin after variable/platform/advisory costs.'"
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Coverage totals 2.5 of 3 and there is no central error. Seed is explicitly not an expenditure. The answer also says launch-cost recovery needs additional cumulative profit, so it does not claim a positive margin guarantees profit. I found no material local falsehood. The grade is partial because point 1's minimum is incomplete: the legal minimum versus commercial launch budget distinction is missing."
+}

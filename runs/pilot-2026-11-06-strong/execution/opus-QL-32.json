@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-32",
+  "tier": "C",
+  "answer": "**Definition check first:** confirm tracking error is the annualized standard deviation of daily *NAV* total-return differences against the correct index variant (gross/net). Check that dates and holidays align and that market price wasn't used by mistake.\n\n**Portfolio causes**\n- Sampling/optimization versus full replication.\n- Cash drag from uninvested dividends or flows; futures/equitization basis.\n- Rebalance and index-change timing: early/late trades, missed adds/deletes.\n- Corporate actions: spin-offs, mergers, rights.\n- Securities-lending recalls.\n\n**Pricing causes**\n- Fund versus index pricing sources and close times.\n- Fair-value or stale-price adjustments.\n- Dividend ex-date accrual and reinvestment assumptions.\n- Halted or illiquid names.\n\n**Operating causes**\n- Trade, allocation or settlement errors.\n- Large creations/redemptions executed away from the close.\n- Fee/expense accrual misstatements.\n- Index-data or holdings-file errors.\n- Reconciliation breaks.\n\nSeparate recurring drivers from one-off outlier days, and attribute each via daily return decomposition.",
+  "original_answer": "**Definition check first:** confirm tracking error is the annualized standard deviation of daily *NAV* total-return differences against the correct index variant (gross/net). Confirm that dates and holidays align, and that market price was not used by mistake.\n\n**Portfolio causes**\n- Sampling or optimization mismatch versus full replication.\n- Cash drag from uninvested dividends or flows, or futures/equitization basis.\n- Rebalance and index-change timing: early or late trades, missed adds or deletes.\n- Corporate-action handling, such as spin-offs, mergers and rights.\n- Securities-lending recalls.\n\n**Pricing causes**\n- Fund versus index pricing sources and close times.\n- Fair-value or stale-price adjustments.\n- Dividend ex-date accrual and reinvestment assumptions.\n- Halted or illiquid names.\n\n**Operating causes**\n- Trade, allocation or settlement errors.\n- Large creation/redemption flows executed away from the close.\n- Fee or expense accrual misstatements.\n- Index-data or holdings-file errors.\n- Reconciliation breaks.\n\nSeparate recurring drivers from one-off outlier days. Attribute each by daily return decomposition.",
+  "void": false,
+  "words_before": 155,
+  "words_after_shorten": 141,
+  "words_final": 141,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-_lgzzh5p",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a US equity index ETF, define tracking error as variability of daily fund-minus-benchmark total returns over an agreed one-year period, separately from cumulative tracking difference. If error exceeds the mandate's expected range, what portfolio, pricing and operating causes should be investigated? No numerical expected range or single cause is assumed.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-32-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-8cth8yai",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Definition check first:** confirm tracking error is the annualized standard deviation of daily *NAV* total-return differences against the correct index variant (gross/net). Confirm that dates and holidays align, and that market price was not used by mistake.\n\n**Portfolio causes**\n- Sampling or optimization mismatch versus full replication.\n- Cash drag from uninvested dividends or flows, or futures/equitization basis.\n- Rebalance and index-change timing: early or late trades, missed adds or deletes.\n- Corporate-action handling, such as spin-offs, mergers and rights.\n- Securities-lending recalls.\n\n**Pricing causes**\n- Fund versus index pricing sources and close times.\n- Fair-value or stale-price adjustments.\n- Dividend ex-date accrual and reinvestment assumptions.\n- Halted or illiquid names.\n\n**Operating causes**\n- Trade, allocation or settlement errors.\n- Large creation/redemption flows executed away from the close.\n- Fee or expense accrual misstatements.\n- Index-data or holdings-file errors.\n- Reconciliation breaks.\n\nSeparate recurring drivers from one-off outlier days. Attribute each by daily return decomposition."
+      ],
+      "stdout": "opus-QL-32-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

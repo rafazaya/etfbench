@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST057",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer covers proportionate remaining net assets ('your proportionate share of remaining net assets... not automatically a total loss'). It also says amount and timing can differ ('may differ from the last trading price or published NAV'; 'no universal timetable'). It never says the investor can normally sell on the exchange before trading ends, so the bundle is incomplete."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "The answer covers net proceeds after costs ('less liabilities and liquidation expenses'). It also covers taxable-account treatment ('generally produces a capital gain or loss versus adjusted tax basis') and notes that separate distributions may be taxable."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error: the answer explicitly rejects automatic total loss and denies any guaranteed proceeds or fixed date. Required coverage is 1.5 of 2, which falls short of full coverage only because the option to sell before trading ends is missing. No material falsehood was found, so the grade is partial."
+}

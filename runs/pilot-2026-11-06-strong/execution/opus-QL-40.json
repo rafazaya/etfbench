@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-40",
+  "tier": "C",
+  "answer": "**Key steps for a directly held account in a whole-fund conversion:**\n\n- **Read every notice.** Prospectus supplements, information statements or proxies, and transfer-agent letters set *your fund's* dates and default treatment. In a full conversion the mutual fund ceases to exist, unlike adding an ETF share class, where it continues.\n- **Open a brokerage account.** ETF shares generally can't sit at the transfer agent. Open a brokerage account (or IRA there for retirement money) and transfer in kind before the deadline.\n- **Know the default.** Missing the deadline may mean shares are parked in a restricted account until moved, or liquidated, which could be taxable.\n- **Expect trading changes.** You'll trade on an exchange through your broker at market prices, with bid-ask spreads. Automatic investment plans, exchanges and checkwriting typically end.\n- **Fractional shares.** These are usually paid out in cash, potentially taxable. Keep your cost-basis records.",
+  "original_answer": "**Key steps for a directly held account in a whole-fund conversion:**\n\n- **Read every notice.** Expect a prospectus supplement, an information statement or proxy, and transfer-agent letters. These set *your fund's* dates and default treatment. In a full conversion, the mutual fund ceases to exist. That differs from adding an ETF share class, where the mutual fund continues.\n- **Open a brokerage account.** ETF shares generally can't sit at the transfer agent. Open a brokerage account, or an IRA there for retirement money, and transfer in kind before the stated deadline.\n- **Know the default.** If you miss the deadline, shares may be parked in a restricted account until you move them, or liquidated, which could be taxable.\n- **Expect trading changes.** After conversion you trade on an exchange through your broker at market prices, with bid-ask spreads. Automatic investment plans, exchanges and checkwriting typically end.\n- **Fractional shares.** These are usually paid out in cash, which is potentially taxable. Keep your cost-basis records.",
+  "void": false,
+  "words_before": 164,
+  "words_after_shorten": 147,
+  "words_final": 147,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-6luj2kro",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for a US mutual fund held directly with the fund that is converting the whole fund into an ETF, what account/transfer steps might an investor need to take? Address notices, deadlines, trading access and fractional shares without assuming a fund-specific timetable or confusing conversion with adding an ETF class.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-40-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-3qmgf4sk",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Key steps for a directly held account in a whole-fund conversion:**\n\n- **Read every notice.** Expect a prospectus supplement, an information statement or proxy, and transfer-agent letters. These set *your fund's* dates and default treatment. In a full conversion, the mutual fund ceases to exist. That differs from adding an ETF share class, where the mutual fund continues.\n- **Open a brokerage account.** ETF shares generally can't sit at the transfer agent. Open a brokerage account, or an IRA there for retirement money, and transfer in kind before the stated deadline.\n- **Know the default.** If you miss the deadline, shares may be parked in a restricted account until you move them, or liquidated, which could be taxable.\n- **Expect trading changes.** After conversion you trade on an exchange through your broker at market prices, with bid-ask spreads. Automatic investment plans, exchanges and checkwriting typically end.\n- **Fractional shares.** These are usually paid out in cash, which is potentially taxable. Keep your cost-basis records."
+      ],
+      "stdout": "opus-QL-40-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

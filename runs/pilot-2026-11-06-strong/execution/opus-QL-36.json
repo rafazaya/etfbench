@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-36",
+  "tier": "B",
+  "answer": "**Exceptional direct redemption (ESMA ETF Guidelines 2014/937, applied by the Central Bank of Ireland):**\n\n- **Trigger:** Exchange price deviates significantly from iNAV/NAV due to market disruption (e.g., no market makers). Ordinary deviations don't qualify.\n- **Notification:** The ETF announces the facility is open, usually via the exchange's regulatory news service. The prospectus must describe the procedure in advance.\n- **Process:** Holders redeem with the ETF/ManCo at NAV, typically in cash, via the administrator or transfer agent, subject to KYC/AML checks.\n- **Cost protection:** Charges must be reasonable, generally capped at actual costs or a disclosed ceiling, with no punitive fees.\n\n**Ordinary dealing:** Secondary holders trade through brokers on exchange at market prices, paying spreads and commissions. Only Authorised Participants create or redeem directly. The prospectus must warn that secondary-market units normally cannot be redeemed directly.",
+  "original_answer": "**Exceptional direct redemption (ESMA ETF Guidelines 2014/937, applied by the Central Bank of Ireland):**\n\n- **Trigger:** The exchange price varies significantly from iNAV/NAV, typically because of market disruption such as the absence of market makers. Ordinary price deviations do not qualify.\n- **Notification:** The ETF must announce that the direct-redemption facility is open, usually through the listing exchange's regulatory news service. The prospectus must describe the procedure in advance.\n- **Process:** Holders redeem with the ETF/ManCo at NAV, typically in cash. Settlement usually runs via the administrator or transfer agent, with KYC/AML checks.\n- **Cost protection:** Charges must be reasonable and not excessive. They are generally capped at actual costs or a disclosed ceiling, with no punitive fees.\n\n**Ordinary dealing:** Secondary holders buy and sell through brokers on exchange at market prices, paying spreads and commissions. Only Authorised Participants create or redeem directly with the fund. The prospectus must warn that secondary-market units normally cannot be redeemed directly.",
+  "void": false,
+  "words_before": 158,
+  "words_after_shorten": 135,
+  "words_final": 135,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-4vx0_o2q",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, under the Irish UCITS ETF framework, when can a secondary-market holder redeem directly with the fund, and what notification, process and cost protections apply? Distinguish this exceptional route from ordinary exchange dealing.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-36-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-l_xlg_di",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Exceptional direct redemption (ESMA ETF Guidelines 2014/937, applied by the Central Bank of Ireland):**\n\n- **Trigger:** The exchange price varies significantly from iNAV/NAV, typically because of market disruption such as the absence of market makers. Ordinary price deviations do not qualify.\n- **Notification:** The ETF must announce that the direct-redemption facility is open, usually through the listing exchange's regulatory news service. The prospectus must describe the procedure in advance.\n- **Process:** Holders redeem with the ETF/ManCo at NAV, typically in cash. Settlement usually runs via the administrator or transfer agent, with KYC/AML checks.\n- **Cost protection:** Charges must be reasonable and not excessive. They are generally capped at actual costs or a disclosed ceiling, with no punitive fees.\n\n**Ordinary dealing:** Secondary holders buy and sell through brokers on exchange at market prices, paying spreads and commissions. Only Authorised Participants create or redeem directly with the fund. The prospectus must warn that secondary-market units normally cannot be redeemed directly."
+      ],
+      "stdout": "opus-QL-36-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST053",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Both exceptions appear: 'Cash dealing may have an earlier cut-off than in-kind' and 'Currency-hedged classes may have an earlier cut-off than unhedged ones'. The hedged/unhedged exception has no class-level hedging qualifier anywhere, so this sub-element earns only half credit."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "The answer contrasts the regimes. Q&A 1030 'needed a case-by-case Central Bank derogation' and gave permission 'via prospectus review, not an express regulatory right', while the 2026 rule is labelled an express approach. No waiver is carried into 2026. However, there is no limiting statement that the exceptions cover only these cut-off differences and are not a general permission for dealing variation."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Required coverage is 1.0 out of 2, which is half. No central error appears: the answer does not require a waiver under 2026 and does not permit arbitrary dealing frequencies. Point 1 loses half credit because the class-level hedging limit is missing. Point 2 loses half credit because there is no limiting statement. The 'earlier cut-off' wording and the added conditions (disclosure, objective justification, preceding the valuation point) are narrower or unsupported framing, not explicit falsehoods or waiver conditions."
+}

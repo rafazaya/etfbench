@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST020",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer states that seed assets 'are invested capital, not expenses' and are recovered at market value on redemption, with only carrying costs budgeted. It never says that the statutory minimum (the $100,000 net-worth condition) is not a commercial launch budget or break-even level."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "It names specific payers: one-time costs go to the sponsor, recurring fixed and asset-based costs go to the sponsor 'from unitary fee', and listed exclusions go to shareholders 'per advisory agreement', which ties the allocation to the contract. The Lazard example is optional."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "It gives one-time, recurring-fixed and recurring-asset-based categories. It gives Required AUM = F \u00f7 (f(1\u2212m) \u2212 v), 'valid only if f(1\u2212m) > v', with F covering fixed plus amortized one-time costs. The definition of v is cut off, but the formula and the positive-margin condition are complete."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error: seed is treated as recoverable capital, and the answer does not claim that a positive margin guarantees profit. Points 2 and 3 are fully covered. Point 1 is missing the distinction between the legal minimum and a commercial budget, so it earns half credit. Required coverage totals 2.5 of 3, which is not every required minimum, so the grade is partial."
+}

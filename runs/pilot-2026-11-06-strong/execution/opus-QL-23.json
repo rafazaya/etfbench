@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-23",
+  "tier": "A",
+  "answer": "**Can rely on Rule 6c-11 (subject to conditions):** - Open-end index and fully transparent active ETFs, with daily holdings disclosure, written basket policies and website disclosures. - Leveraged/inverse ETFs. The 2020 Rule 18f-4 release removed their exclusion and rescinded their orders, so they must comply with 18f-4. That requires a derivatives risk management program and a relative VaR limit (200% of a reference portfolio), which effectively caps new funds near 2x. Pre-October 2020 funds above 2x were grandfathered. SEC staff letters in late 2025 reaffirmed the cap against 3x\u20135x filings. **Need separate exemptive relief:** - UIT ETFs. - Non-transparent or semi-transparent active ETFs, which need their own orders. - ETF share classes of multi-class funds. Dimensional's 2025 order was first, and others followed. **Outside the 1940 Act:** - Commodity and crypto trusts, registered under the '33 Act and listed under exchange rules, including the 2025 generic standards. My knowledge runs",
+  "original_answer": "**Can rely on Rule 6c-11 (subject to its conditions):**\n- Open-end ETFs, both index-based and fully transparent active. Conditions include daily portfolio holdings disclosure, written basket policies and website disclosures.\n- Leveraged/inverse ETFs. The 2020 Rule 18f-4 release removed their exclusion and rescinded their orders, so they must comply with 18f-4. That means a derivatives risk management program and the relative VaR limit (200% of a reference portfolio), which effectively caps new funds at about 2x. Pre-October 2020 funds above 2x were grandfathered. The SEC staff's late-2025 letters reaffirmed this cap against 3x\u20135x filings.\n\n**Need separate exemptive relief:**\n- UIT ETFs.\n- Non-transparent or semi-transparent active ETFs, which need their own orders.\n- ETF share classes of multi-class funds. Dimensional's 2025 order was the first, followed by others.\n\n**Outside the 1940 Act entirely:**\n- Commodity and crypto trusts are registered under the '33 Act and list under exchange rules, including the 2025 generic standards.\n\nMy knowledge runs to June 2026, so please verify any later changes.",
+  "void": false,
+  "words_before": 166,
+  "words_after_shorten": 158,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-jnk2yd5h",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, which US ETF structures can rely on Rule 6c-11 subject to its conditions, and which need separate relief? Include leveraged/inverse ETFs and the interaction with Rule 18f-4.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-23-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-lb2er2xr",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Can rely on Rule 6c-11 (subject to its conditions):**\n- Open-end ETFs, both index-based and fully transparent active. Conditions include daily portfolio holdings disclosure, written basket policies and website disclosures.\n- Leveraged/inverse ETFs. The 2020 Rule 18f-4 release removed their exclusion and rescinded their orders, so they must comply with 18f-4. That means a derivatives risk management program and the relative VaR limit (200% of a reference portfolio), which effectively caps new funds at about 2x. Pre-October 2020 funds above 2x were grandfathered. The SEC staff's late-2025 letters reaffirmed this cap against 3x\u20135x filings.\n\n**Need separate exemptive relief:**\n- UIT ETFs.\n- Non-transparent or semi-transparent active ETFs, which need their own orders.\n- ETF share classes of multi-class funds. Dimensional's 2025 order was the first, followed by others.\n\n**Outside the 1940 Act entirely:**\n- Commodity and crypto trusts are registered under the '33 Act and list under exchange rules, including the 2025 generic standards.\n\nMy knowledge runs to June 2026, so please verify any later changes."
+      ],
+      "stdout": "opus-QL-23-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

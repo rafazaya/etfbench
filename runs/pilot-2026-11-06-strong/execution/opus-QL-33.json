@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-33",
+  "tier": "C",
+  "answer": "**Note:** I can't see the bank's iShares example. The US points reflect typical practice, so check them against the fund's prospectus and SAI. **Risks and controls** - **Borrower default:** Securities aren't returned. Controls: counterparty credit limits, borrower diversification, agent indemnification where contracted. - **Collateral shortfall:** After a default, liquidated collateral may not cover repurchase cost (market gaps, wrong-way risk). Controls: over-collateralisation, daily mark-to-market, margin calls, haircuts, concentration limits. - **Cash reinvestment:** Reinvested cash can lose value or become illiquid, usually at the fund's expense. Controls: conservative money-market vehicles, maturity and credit limits. **US (1940 Act):** Collateral is typically \u2265102% (domestic) or 105% (international). Lending is capped at one-third of assets. **UCITS (ESMA/2014/937):** - Securities recallable at any time. - Collateral liquid, high-quality, diversified (~20% per issuer), valued daily and haircut. - No reuse of non-cash collateral. - Cash reinvested only in deposits, high-quality government bonds, reverse repos or short-term MMFs.",
+  "original_answer": "**Note:** I can't see the bank's iShares example, so the US points below describe typical practice and should be checked against that fund's prospectus and SAI.\n\n**Risks and controls**\n- **Borrower default:** The borrower fails to return securities. Controls include counterparty credit limits, diversifying borrowers, and agent indemnification where the contract provides it.\n- **Collateral shortfall:** After a default, liquidated collateral may not cover the cost of buying back the securities, due to market gaps or wrong-way risk. Controls include over-collateralisation, daily mark-to-market, margin calls, haircuts and concentration limits.\n- **Cash reinvestment:** Reinvested cash can lose value or become illiquid, and this loss is usually borne by the fund. Controls include conservative money-market vehicles and limits on maturity and credit.\n\n**US (1940 Act):** Collateral is typically at least 102% (domestic) or 105% (international), and lending is capped at one-third of assets.\n\n**UCITS (ESMA/2014/937):**\n- Securities must be recallable at any time.\n- Collateral must be liquid, high-quality, diversified (about 20% per issuer), valued daily and haircut.\n- Non-cash collateral cannot be reused.\n- Cash may be reinvested only in deposits, high-quality government bonds, reverse repos or short-term money-market funds.\n\nCollateral mitigates losses but does not eliminate them.",
+  "void": false,
+  "words_before": 197,
+  "words_after_shorten": 157,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-1_s09xh5",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For ETF securities lending, distinguish borrower/default, collateral-shortfall and cash-reinvestment risks and controls. Separate the bank's US iShares example from UCITS recall/collateral rules; do not promise collateral eliminates losses.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-33-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-ig_9gg1b",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Note:** I can't see the bank's iShares example, so the US points below describe typical practice and should be checked against that fund's prospectus and SAI.\n\n**Risks and controls**\n- **Borrower default:** The borrower fails to return securities. Controls include counterparty credit limits, diversifying borrowers, and agent indemnification where the contract provides it.\n- **Collateral shortfall:** After a default, liquidated collateral may not cover the cost of buying back the securities, due to market gaps or wrong-way risk. Controls include over-collateralisation, daily mark-to-market, margin calls, haircuts and concentration limits.\n- **Cash reinvestment:** Reinvested cash can lose value or become illiquid, and this loss is usually borne by the fund. Controls include conservative money-market vehicles and limits on maturity and credit.\n\n**US (1940 Act):** Collateral is typically at least 102% (domestic) or 105% (international), and lending is capped at one-third of assets.\n\n**UCITS (ESMA/2014/937):**\n- Securities must be recallable at any time.\n- Collateral must be liquid, high-quality, diversified (about 20% per issuer), valued daily and haircut.\n- Non-cash collateral cannot be reused.\n- Cash may be reinvested only in deposits, high-quality government bonds, reverse repos or short-term money-market funds.\n\nCollateral mitigates losses but does not eliminate them."
+      ],
+      "stdout": "opus-QL-33-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

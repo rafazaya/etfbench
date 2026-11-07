@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST043",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer covers three elements of the minimum. It applies the identifier to the ETF sub-fund(s) in a mixed umbrella. It permits identification at the listed ETF share-class level. It says documentation and marketing should clearly distinguish the classes. However, it never states that the identifier must appear in the name, constitution, prospectus, KID/KIID and marketing. Its mention of 'documentation and marketing' only concerns distinguishing classes, not where the identifier is used. It also does not explicitly present sub-fund-level identification as an alternative, though it does not deny it. The bundle is substantive but incomplete."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "This optional point is not addressed: the answer does not say class-level identification predated 2026. It also does not claim the permission was first introduced in 2026, so there is no falsehood. Optional omissions do not reduce the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error. The answer allows a listed-class option, does not make identification mandatory only at sub-fund level, and explicitly says other sub-funds do not become ETFs. It also correctly separates regulatory classification from naming. However, it omits the required list of documents that must carry the identifier, so required coverage is 0.5 of 1. That meets the half threshold and supplies core requested facts, so the grade is partial."
+}

@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST079",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Says cash collateral may be required when deposit securities are not yet delivered, cites 115% of the undelivered securities' market value, and mentions 105% in some forms. However, it frames 115% as a ceiling ('typically up to 115%'), which the rubric says caps this at partial."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Explicitly says the rate is not universal ('Rates vary by sponsor, fund and agreement'). It ties the percentage to the undelivered deposit securities, not the whole basket. iShares attribution is optional."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Optional point. Says the fund can use the cash to buy the securities, with the AP covering any shortfall and costs."
+    }
+  ],
+  "central_error": null,
+  "local_error": "'typically **up to 115%** of the shortfall' presents 115% as a maximum, which the rubric defines as a local error that caps the grade at partial. The unsupported 'a few go higher, around 125%' also contradicts the ceiling framing and is not in the evidence.",
+  "grade": "partial",
+  "rationale": "There is no central error: the answer does not claim a universal rate, does not apply the percentage to the entire basket, and does not deny the collateral requirement. Required coverage is 1.5 of 2, which meets the partial threshold. Calling 115% a ceiling is a rubric-specified local error that caps the grade at partial, so it cannot be graded correct."
+}

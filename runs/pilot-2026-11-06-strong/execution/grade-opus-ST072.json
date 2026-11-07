@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST072",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer says the ETF 'owns its portfolio. The adviser does not' and that 'the sponsor's creditors therefore cannot reach fund assets, and its bankruptcy alone does not cancel or impair shares.' This meets the asset-separation and no-automatic-wipeout minimum."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "It cites custodian holding under Section 17(f). It describes board replacement through interim contracts under Rule 15a-4, or liquidation at NAV. It also says 'Separation doesn't guarantee a smooth outcome' and lists market losses and other risks, so no recovery is promised."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered and there is no central error. The answer explicitly rejects creditor access and share wipeout. It clearly separates asset segregation from guaranteed outcomes by listing disruption, liquidation tax, trading friction, costs, other risks and market losses. One citation is imprecise: Rule 17f-2 covers fund self-custody rather than an 'independent custodian.' This is an ancillary slip in the legal reference, not a material falsehood. The Section 17(f) custody point stands, so the grade is not capped."
+}

@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST066",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer says to compare actual advisory revenue after waivers with operating, distribution and other costs. It also asks for break-even AUM and cash-burn runway. Together these convey that a small fund below break-even runs at a loss against largely fixed costs."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "It covers sponsor financial strength, platform subsidy and strategic importance justifying prolonged losses. It also states there is no universal closure-AUM threshold and that 'sponsor willingness and ability to fund losses matter alongside asset size', so it gives no certainty."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "It says to 'Distinguish committed investment capital from temporary launch capital or market-maker inventory'. It also covers seed compensation arrangements, redemption rights, lockups, exit incentives and the 'redemption cliff' risk. Board powers are optional."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are covered with equivalent wording. The answer does not claim that small size guarantees closure or that seed capital is permanent; it explicitly warns of seed redemption risk. No material local falsehood was found."
+}

@@ -1,0 +1,14 @@
+{
+  "blind_id": "ST065",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer says listed ETF and unlisted classes may coexist under Q&A 1088. It then gives a prospectus comparison of dealing (routes, primary vs secondary market, frequency), settlement, costs (including exchange brokerage, which implies broker use), minimums, shareholder rights, liquidity and price differences (NAV vs exchange price). That covers every element of the required bundle."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "The required point is fully covered. The answer correctly separates the Irish disclosure framework from US exemptive conditions, so there is no central error. The added illustrations (voting, distributions, premiums/discounts) are plausible examples, not material falsehoods."
+}

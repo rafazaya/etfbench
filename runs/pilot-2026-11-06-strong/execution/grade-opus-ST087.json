@@ -1,0 +1,29 @@
+{
+  "blind_id": "ST087",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States funds must adopt written policies and procedures on basket construction and acceptance (Rule 6c-11(c)(3))."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Requires detailed custom-basket construction and acceptance parameters in the best interests of the fund and shareholders, plus a process for revising or deviating from them."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Requires naming the titles or roles of staff who review each custom basket for compliance. Records must capture whether each basket is custom and include a statement of policy compliance."
+    },
+    {
+      "point": 4,
+      "credit": 1,
+      "reason": "Defines a custom basket by composition: not a pro-rata slice, or differing from other baskets that day. This is equivalent to differing from the initial basket that day. Also says a non-standard order is not a rule term but an operational variation, so the two are distinguished."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All four required minimums are covered with equivalent factual wording, and no central error appears. The answer is truncated at 'It is custom only if', but the distinction is already made and no false claim results. Silence is omission, not falsehood."
+}

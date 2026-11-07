@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-22",
+  "tier": "C",
+  "answer": "**No.** On a series-trust platform (e.g., the Foreside/ACA-affiliated distributor, Quasar, Northern Lights), the principal underwriter is mainly a **legal and operational role**. It is the FINRA-registered broker-dealer named in the trust's distribution agreement. It reviews marketing materials under FINRA Rule 2210, processes authorized-participant creation and redemption paperwork, and supports registration obligations. It does **not**, by itself, provide wholesalers, a sales force or asset inflows.\n\n**Asset gathering is usually contracted separately**, through:\n- the adviser's own sales team\n- third-party marketing or wholesaling firms\n- paid platform or \"shelf\" access and revenue-sharing with intermediaries (wirehouses, RIA custodians, model marketplaces)\n- capital-markets and lead-market-maker support\n\n**Packages differ.** Some white-label providers bundle distribution, marketing and capital-markets help, often for extra fees. Others are compliance-only. Sponsors should check contracts and fee schedules. Winning intermediary-platform approval and generating flows remain the adviser's job.",
+  "original_answer": "**No.** Appointing a principal underwriter on a series-trust platform (e.g., the distributor affiliated with Foreside/ACA, Quasar, Northern Lights) is mainly a **legal and operational role**. The underwriter is the FINRA-registered broker-dealer named under the trust's distribution agreement. It reviews marketing materials for compliance (FINRA Rule 2210), handles the paperwork for authorized-participant creation and redemption orders, and supports registration obligations. It does **not**, by itself, provide wholesalers, a sales force, or asset inflows.\n\n**Asset gathering is usually contracted separately.** It may come from:\n- the adviser's own sales team\n- third-party marketing or wholesaling firms\n- paid platform or \"shelf\" access agreements and revenue-sharing with intermediaries such as wirehouses, RIA custodians and model marketplaces\n- capital-markets and lead-market-maker support\n\n**Packages differ.** Some white-label providers bundle distribution, marketing and capital-markets help, often for extra fees. Others are compliance-only. Sponsors should check the contracts and fee schedules for what is actually provided. Approval on intermediary platforms and flows remain the adviser's job.",
+  "void": false,
+  "words_before": 159,
+  "words_after_shorten": 138,
+  "words_final": 138,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-5mynsqns",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, does appointment of a principal underwriter on a US ETF series-trust platform itself assure a sales force and asset gathering? Distinguish legal/operational distribution from separately contracted marketing and intermediary access; do not assume all platform packages are identical.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-22-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-zigcw4ul",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**No.** Appointing a principal underwriter on a series-trust platform (e.g., the distributor affiliated with Foreside/ACA, Quasar, Northern Lights) is mainly a **legal and operational role**. The underwriter is the FINRA-registered broker-dealer named under the trust's distribution agreement. It reviews marketing materials for compliance (FINRA Rule 2210), handles the paperwork for authorized-participant creation and redemption orders, and supports registration obligations. It does **not**, by itself, provide wholesalers, a sales force, or asset inflows.\n\n**Asset gathering is usually contracted separately.** It may come from:\n- the adviser's own sales team\n- third-party marketing or wholesaling firms\n- paid platform or \"shelf\" access agreements and revenue-sharing with intermediaries such as wirehouses, RIA custodians and model marketplaces\n- capital-markets and lead-market-maker support\n\n**Packages differ.** Some white-label providers bundle distribution, marketing and capital-markets help, often for extra fees. Others are compliance-only. Sponsors should check the contracts and fee schedules for what is actually provided. Approval on intermediary platforms and flows remain the adviser's job."
+      ],
+      "stdout": "opus-QL-22-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

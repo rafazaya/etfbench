@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-05",
+  "tier": "B",
+  "answer": "**Why:** Under IRC \u00a7852(b)(6), a RIC recognizes no gain when distributing appreciated securities to meet redemptions. Because ETF redemptions run through authorized participants, the fund can deliver its lowest-basis lots, often via \"heartbeat\" trades, purging embedded gains without realizing them. A cash-dealing mutual fund must sell stock to pay redeemers. RICs effectively must distribute those net gains to avoid fund-level and excise tax, so remaining holders owe tax on gains they didn't choose to realize.\n\n**Limits:**\n- Mostly deferral: you pay capital-gains tax when you sell.\n- Dividends stay taxable annually.\n- Gains can still arise from cash redemptions, cash mergers, forced rebalancing, or index changes.\n- No benefit in tax-deferred accounts.\n- Results depend on flows and turnover.\n- Legislative risk: Congress has floated repealing \u00a7852(b)(6) for ETFs.\n- Step-up at death can eliminate deferred gain, depending on the estate.",
+  "original_answer": "**Why:** Under IRC \u00a7852(b)(6), a RIC recognizes no gain when it distributes appreciated securities to meet redemptions. ETF redemptions run through authorized participants, so the fund can deliver its lowest-basis lots, often using \"heartbeat\" trades. This purges embedded gains without realizing them. A cash-dealing mutual fund must sell stock to pay redeeming holders. Those realized net gains must be distributed, as RICs effectively distribute nearly all income to avoid fund-level and excise tax. The remaining holders then owe tax on gains they did not choose to realize.\n\n**Limits:**\n- The benefit is mostly deferral. You pay capital-gains tax when you sell your ETF shares.\n- Dividends remain taxable each year.\n- Gains can still arise from cash redemptions, cash mergers, forced rebalancing, or index changes.\n- Tax-deferred accounts gain nothing from this.\n- Results depend on flows and turnover.\n- Legislative risk remains: Congress has floated repealing \u00a7852(b)(6) for ETFs.\n- Step-up at death can eliminate deferred gain, but that is estate-dependent.",
+  "void": false,
+  "words_before": 162,
+  "words_after_shorten": 141,
+  "words_final": 141,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-kw3c0xu5",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, why can an in-kind US equity ETF taxed as an IRS RIC distribute fewer capital gains than a standalone cash-dealing mutual fund holding the same stocks, for a US taxable investor? State the limits of the tax benefit.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-05-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-35mendhn",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Why:** Under IRC \u00a7852(b)(6), a RIC recognizes no gain when it distributes appreciated securities to meet redemptions. ETF redemptions run through authorized participants, so the fund can deliver its lowest-basis lots, often using \"heartbeat\" trades. This purges embedded gains without realizing them. A cash-dealing mutual fund must sell stock to pay redeeming holders. Those realized net gains must be distributed, as RICs effectively distribute nearly all income to avoid fund-level and excise tax. The remaining holders then owe tax on gains they did not choose to realize.\n\n**Limits:**\n- The benefit is mostly deferral. You pay capital-gains tax when you sell your ETF shares.\n- Dividends remain taxable each year.\n- Gains can still arise from cash redemptions, cash mergers, forced rebalancing, or index changes.\n- Tax-deferred accounts gain nothing from this.\n- Results depend on flows and turnover.\n- Legislative risk remains: Congress has floated repealing \u00a7852(b)(6) for ETFs.\n- Step-up at death can eliminate deferred gain, but that is estate-dependent."
+      ],
+      "stdout": "opus-QL-05-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-17",
+  "tier": "C",
+  "answer": "**Cost categories and payers** | Category | Examples | Payer | |---|---|---| | One-time | Platform onboarding, prospectus/485 filings, listing, ticker/CUSIP, index setup, launch marketing | Sponsor | | Recurring fixed | Platform/trust, admin, custody and TA minimums; audit/tax; board/CCO; annual listing; data; marketing | Sponsor, from unitary fee | | Recurring asset-based | Basis-point platform, servicing or index-license fees | Sponsor, from unitary fee | | Fund-borne exclusions | Brokerage, taxes, interest, acquired-fund fees, extraordinary/litigation costs | Shareholders, per advisory agreement | **Seed assets** are invested capital, not expenses. The sponsor recovers them at market value on redemption. Budget only carrying costs: market/hedging risk, financing or opportunity cost, and capital charges. **Break-even with retained margin** Required AUM = F \u00f7 (f(1\u2212m) \u2212 v), valid only if f(1\u2212m) > v. - F = annual fixed plus amortized one-time costs (USD) - f = unitary fee rate - v = variable",
+  "original_answer": "**Cost categories and who pays**\n\n| Category | Examples | Payer |\n|---|---|---|\n| **One-time** | Platform onboarding; prospectus and 485 filing work; exchange listing; ticker/CUSIP; index setup; launch marketing | Sponsor |\n| **Recurring fixed** | Platform/trust minimums; administration, custody and transfer-agent minimums; audit/tax; board/CCO allocation; annual listing; data; marketing | Sponsor, paid from the unitary fee |\n| **Recurring asset-based** | Platform, servicing or index-license fees charged in basis points | Sponsor, paid from the unitary fee |\n| **Fund-borne exclusions** | Brokerage, taxes, interest, acquired-fund fees, extraordinary or litigation costs | Shareholders, per the advisory agreement |\n\n**Seed assets** are invested capital, not expenditure. The sponsor recovers them at market value when redeemed. Budget only their carrying costs: market or hedging risk, financing or opportunity cost, and any capital charges.\n\n**Break-even at a positive retained margin**\n\n- F = annual fixed costs plus amortized one-time costs (USD)\n- f = unitary fee rate\n- v = variable cost rate\n- m = target retained margin as a share of revenue\n\nRequired AUM = F \u00f7 (f(1\u2212m) \u2212 v), valid only if f(1\u2212m) > v. Use actual contracted quotes for each input.",
+  "void": false,
+  "words_before": 194,
+  "words_after_shorten": 169,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-tfownnte",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for one ordinary US equity ETF on a third-party platform under a unitary fee, budgeted in USD, which one-time and recurring cost categories and payer allocations should the sponsor establish? Distinguish seed assets from expenditure and explain break-even at a positive retained margin; do not invent a current vendor quote or universal dollar range.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-17-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-kfwy05lx",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Cost categories and who pays**\n\n| Category | Examples | Payer |\n|---|---|---|\n| **One-time** | Platform onboarding; prospectus and 485 filing work; exchange listing; ticker/CUSIP; index setup; launch marketing | Sponsor |\n| **Recurring fixed** | Platform/trust minimums; administration, custody and transfer-agent minimums; audit/tax; board/CCO allocation; annual listing; data; marketing | Sponsor, paid from the unitary fee |\n| **Recurring asset-based** | Platform, servicing or index-license fees charged in basis points | Sponsor, paid from the unitary fee |\n| **Fund-borne exclusions** | Brokerage, taxes, interest, acquired-fund fees, extraordinary or litigation costs | Shareholders, per the advisory agreement |\n\n**Seed assets** are invested capital, not expenditure. The sponsor recovers them at market value when redeemed. Budget only their carrying costs: market or hedging risk, financing or opportunity cost, and any capital charges.\n\n**Break-even at a positive retained margin**\n\n- F = annual fixed costs plus amortized one-time costs (USD)\n- f = unitary fee rate\n- v = variable cost rate\n- m = target retained margin as a share of revenue\n\nRequired AUM = F \u00f7 (f(1\u2212m) \u2212 v), valid only if f(1\u2212m) > v. Use actual contracted quotes for each input."
+      ],
+      "stdout": "opus-QL-17-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

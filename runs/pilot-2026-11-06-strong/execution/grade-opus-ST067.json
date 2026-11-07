@@ -1,0 +1,29 @@
+{
+  "blind_id": "ST067",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States 'The prospectus must warn that secondary-market units normally cannot be redeemed directly.'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States the trigger is when the exchange price 'deviates significantly from iNAV/NAV', which permits direct redemption with the ETF/ManCo at NAV. Framing it as due to market disruption, with no market makers as an example, narrows it slightly but stays consistent with the significant-variation condition."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Covers notification via the exchange's regulatory news service, which is effectively notice to the regulated market. Says the prospectus must describe the procedure in advance and that charges must be 'reasonable' with 'no punitive fees', matching the non-excessive costs requirement."
+    },
+    {
+      "point": 4,
+      "credit": 1,
+      "reason": "Labels the route 'Exceptional' and makes it condition-triggered ('Ordinary deviations don't qualify'). Contrasts it with ordinary broker and exchange trading at market prices, paying spreads and commissions, where 'Only Authorised Participants create or redeem directly'. Does not say the investor decides unilaterally."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All four required minimums are covered substantively. The answer makes no unconditional retail direct-redemption claim and does not omit the significant-deviation trigger, so there is no central error. Citing the ESMA 2014/937 Guidelines as applied by the CBI rather than S.I. 316/2026 Reg 90 is acceptable because exact numbering is not required. Ancillary details such as the cost cap at actual costs or a disclosed ceiling and the KYC/AML checks are not material falsehoods."
+}

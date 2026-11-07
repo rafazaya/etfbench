@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST011",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Covers licence economics ('Fee escalators, MFN'), duration and termination ('Term, renewal, and termination triggers'), and exclusivity. It addresses naming dependence ('Trademarked index names in fund name, ticker, marketing') and affiliated-provider controls ('Whether the provider is affiliated (self-indexing)'; 'Firewalls, information barriers... rebalance-information controls')."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Gives a contract-dependent contingency: 'Feasibility and cost of a substitute index (not guaranteed)', notice and wind-down periods that 'vary and aren't standard', fallbacks of liquidation, merger or conversion to active, and 'Have counsel confirm all items against the actual documents.' It does not explicitly say to plan before expiry, but the contingency-planning substance is present."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are covered. The answer explicitly says substitution is not guaranteed and that notice periods are not standard, so neither central error appears. Its ancillary items, such as the Names Rule and the shareholder-vote inquiry, are framed as diligence questions and are not material falsehoods."
+}

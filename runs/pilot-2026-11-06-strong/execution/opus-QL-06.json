@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-06",
+  "tier": "B",
+  "answer": "**Yes. The benefit is real but indirect and bounded.**\n\n**Mechanism:** Under IRC \u00a7852(b)(6), a RIC recognizes no gain on in-kind distributions of appreciated securities to meet redemptions. The ETF class can deliver its lowest-basis lots to authorized participants, purging embedded gains from the **shared portfolio**. That reduces capital-gain distributions for **all** classes, including the mutual fund class.\n\n**Limits:**\n- It requires meaningful ETF-class flows. A small ETF class purges little.\n- Mutual fund redemptions are usually paid in cash. Resulting gains are distributed pro rata to every class, including ETF holders.\n- Basket selection is constrained by Rule 6c-11 custom-basket policies and the order's board-oversight and anti-cross-subsidization conditions.\n- It defers tax rather than eliminating it. Shareholders still owe tax when they sell.\n- Each fund needs its own SEC exemptive order. Funds without one cannot use the structure.",
+  "original_answer": "**Yes. The benefit is real but indirect and bounded.**\n\n**Mechanism:** Under IRC \u00a7852(b)(6), a RIC recognizes no gain when it distributes appreciated securities in kind to meet redemptions. The ETF class can deliver its lowest-basis lots to authorized participants, removing embedded gains from the **shared portfolio**. Fewer realized gains mean smaller capital-gain distributions for **all** classes, including the mutual fund class.\n\n**Limits:**\n- The benefit depends on meaningful ETF-class redemption or creation flows. A small ETF class purges little.\n- Mutual fund class redemptions are usually paid in cash. That can force sales whose gains are distributed pro rata to every class, including ETF holders.\n- Basket selection is constrained by Rule 6c-11 custom-basket policies and the order's board oversight and anti-cross-subsidization conditions.\n- It is deferral, not elimination. Shareholders still owe tax when they sell their own shares.\n- Relief is fund-specific, granted by individual SEC exemptive order. Funds without an order cannot use this structure.",
+  "void": false,
+  "words_before": 157,
+  "words_after_shorten": 139,
+  "words_final": 139,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-wt7z8zd4",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for a US IRS RIC already permitted to operate ETF and mutual fund classes sharing one portfolio, can ETF-class in-kind redemptions benefit mutual fund class shareholders? Explain the mechanism and limits, without assuming every fund has share-class relief.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-06-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-_p5qaax8",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Yes. The benefit is real but indirect and bounded.**\n\n**Mechanism:** Under IRC \u00a7852(b)(6), a RIC recognizes no gain when it distributes appreciated securities in kind to meet redemptions. The ETF class can deliver its lowest-basis lots to authorized participants, removing embedded gains from the **shared portfolio**. Fewer realized gains mean smaller capital-gain distributions for **all** classes, including the mutual fund class.\n\n**Limits:**\n- The benefit depends on meaningful ETF-class redemption or creation flows. A small ETF class purges little.\n- Mutual fund class redemptions are usually paid in cash. That can force sales whose gains are distributed pro rata to every class, including ETF holders.\n- Basket selection is constrained by Rule 6c-11 custom-basket policies and the order's board oversight and anti-cross-subsidization conditions.\n- It is deferral, not elimination. Shareholders still owe tax when they sell their own shares.\n- Relief is fund-specific, granted by individual SEC exemptive order. Funds without an order cannot use this structure."
+      ],
+      "stdout": "opus-QL-06-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

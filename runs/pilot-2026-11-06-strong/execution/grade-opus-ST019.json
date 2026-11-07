@@ -1,0 +1,14 @@
+{
+  "blind_id": "ST019",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer covers the three stages: an application filed under Rule 0-2 with comments and amendments, a notice with a hearing-request deadline, and an order granted absent a hearing. It covers the marked comparison and certification, and says the 45-day clock measures time to notice, can be tolled for amendments, and can lead to standard review. It gives no universal approval time. Gaps: the precedent look-back is given as two years instead of three, the prominent request is not mentioned, and the specific pause rules are missing (day 14 / day 30, office closures, deemed withdrawal after 30 days)."
+    }
+  ],
+  "central_error": null,
+  "local_error": "\"substantially identical to two precedent applications granted within the prior two years\": Rule 0-5(d) uses a three-year look-back measured from initial filing. This is a material false ancillary statement, but it does not deny that precedent is needed, so it caps the grade at partial rather than being a central error.",
+  "grade": "partial",
+  "rationale": "There is no central error. The answer ties the 45-day clock to notice rather than final relief, and it requires precedent for expedited review. The required bundle is substantively but incompletely covered (0.5 of 1, which meets the half threshold), and it supplies core requested facts. The wrong two-year look-back is a material local falsehood that caps the grade at partial."
+}

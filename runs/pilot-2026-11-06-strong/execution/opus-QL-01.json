@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-01",
+  "tier": "C",
+  "answer": "**No.** A standard '40 Act ETF is a separate legal entity, usually a series of a trust or corporation, and it owns its portfolio. The adviser does not. Assets sit with an independent custodian under Section 17(f) and Rule 17f-2. Shareholders own the fund, not claims on the sponsor. The sponsor's creditors therefore cannot reach fund assets, and its bankruptcy alone does not cancel or impair shares. **Separation doesn't guarantee a smooth outcome, though:** - **Disruption:** The board must find a new adviser (interim contracts under Rule 15a-4) or liquidate. Liquidation forces a taxable cash-out at NAV, possibly at a bad time. - **Trading friction:** Spreads may widen, premiums or discounts may appear, and APs may step back. - **Costs:** Fee waivers may end, and transition or legal costs may fall on the fund. - **Other risks:** Custodian failure, fraud, operational errors or a lapsed index license. - **Market losses**",
+  "original_answer": "**No.** In a standard '40 Act ETF, the fund is a separate legal entity, usually a series of a trust or corporation. It owns the portfolio, not the adviser. The assets sit with an independent custodian under Section 17(f) and Rule 17f-2. Shareholders own the fund, not claims on the sponsor. The sponsor's creditors therefore have no claim on fund assets, and the sponsor's bankruptcy does not by itself cancel or impair the shares.\n\n**Separation is not a guaranteed outcome, though.** In practice:\n\n- **Disruption:** The board must find a new adviser (interim contracts under Rule 15a-4) or liquidate the fund. Liquidation means a taxable cash-out at NAV, possibly at a bad time.\n- **Trading friction:** Spreads may widen, premiums or discounts may appear, and APs may step back.\n- **Costs:** Fee waivers may end, and transition or legal costs may fall on the fund.\n- **Other failures:** Custodian failure, fraud, operational errors or a lapsed index license are separate risks.\n- **Market losses:** Normal investment losses still apply.",
+  "void": false,
+  "words_before": 169,
+  "words_after_shorten": 152,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-2hayzvm4",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for an ordinary US '40 Act ETF whose fund and adviser/sponsor are separate entities, does sponsor insolvency itself give the sponsor's creditors the portfolio or wipe out the shares? Distinguish asset separation from a guaranteed outcome in every insolvency.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-01-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-h4vzzvlc",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**No.** In a standard '40 Act ETF, the fund is a separate legal entity, usually a series of a trust or corporation. It owns the portfolio, not the adviser. The assets sit with an independent custodian under Section 17(f) and Rule 17f-2. Shareholders own the fund, not claims on the sponsor. The sponsor's creditors therefore have no claim on fund assets, and the sponsor's bankruptcy does not by itself cancel or impair the shares.\n\n**Separation is not a guaranteed outcome, though.** In practice:\n\n- **Disruption:** The board must find a new adviser (interim contracts under Rule 15a-4) or liquidate the fund. Liquidation means a taxable cash-out at NAV, possibly at a bad time.\n- **Trading friction:** Spreads may widen, premiums or discounts may appear, and APs may step back.\n- **Costs:** Fee waivers may end, and transition or legal costs may fall on the fund.\n- **Other failures:** Custodian failure, fraud, operational errors or a lapsed index license are separate risks.\n- **Market losses:** Normal investment losses still apply."
+      ],
+      "stdout": "opus-QL-01-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

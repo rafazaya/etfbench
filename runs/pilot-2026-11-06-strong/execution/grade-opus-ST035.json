@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST035",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Directs the investor to start with the fund's website for daily full holdings. It states that holdings show what the fund owns, while the PCF lists the creation/redemption basket, which may be pro-rata or custom."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States the PCF is 'Distributed through NSCC' and that 'Rule 6c-11 does not require it to be public.' It advises contacting the issuer's capital markets or investor relations desk and warns 'They may decline,' so it promises no free public PCF."
+    }
+  ],
+  "central_error": null,
+  "local_error": "'The site must also show ... basket policies' overstates the rule. Rule 6c-11 requires funds to adopt basket policies but does not clearly require posting them on the website. This is a minor ancillary point that does not change the holdings/PCF distinction, so it is not treated as material.",
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer explicitly says holdings are not the transaction basket, names the NSCC distribution route, and suggests contacting the sponsor without assuming a free public PCF. It contains no central error. The basket-policies wording is a minor ancillary imprecision, not a material falsehood."
+}

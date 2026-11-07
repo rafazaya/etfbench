@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST055",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States 'APs operate in the primary market' creating/redeeming with the fund, and 'Market makers operate in the secondary market' quoting bids and asks to provide liquidity."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "(a) 'One firm can perform both roles, but being a market maker does not automatically make it an AP' shows overlap with distinct roles. (b) 'Market makers can work through APs when they need shares created or redeemed,' together with the mention of managing inventory, hedging and arbitrage, conveys the creation/redemption link."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Optional supporting detail (LMM designation) not mentioned; no penalty."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required points are fully covered. The answer says the roles can overlap in one firm but are not identical, so no central error. No material false statements were found. The optional omission does not reduce the grade."
+}

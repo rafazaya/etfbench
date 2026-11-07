@@ -1,0 +1,14 @@
+{
+  "blind_id": "ST061",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Covers all four categories. (1) Creation-unit dealing: shares may be redeemed only in creation units, which is substantively the redeemability relief. (2) Market-price secondary trading notwithstanding Section 22(d) and Rule 22c-1. (3) Section 17(a)(1)-(2) basket relief limited to persons affiliated solely through 5% voting ownership, including second-tier affiliates, and expressly 'not blanket relief'. (4) Section 22(e) relief for foreign holidays and delivery cycles, 'never beyond 15 days after tender'. The 'as soon as practicable' wording is not stated, but the 15-day cap and the qualifying conditions are."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "The required bundle is substantively covered. Affiliate relief is explicitly limited to specified 5% voting-holding affiliations, and foreign delivery is capped at 15 days, so neither central error applies. Describing redeemability as dealing only in creation units, rather than as 'deemed redeemable securities', is an imprecise framing but not a material falsehood. No material local falsehood was found."
+}

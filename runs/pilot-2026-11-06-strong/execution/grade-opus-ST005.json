@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST005",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the expense ratio is 'never billed to you directly' and is 'deducted from the fund's assets'. Says accrued fees 'slightly lower[] NAV per share' and returns are reported 'net of fees'. Refers to it as an 'annual ratio'. This covers indirect expense, NAV reflection and annual rate."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says 'A 0.10% annual ratio accrues about 0.10%/365 of fund assets each day', which is daily accrual of a fraction of the annual rate, not the full rate daily."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Optional supporting detail. Separates the actual payment to providers ('usually monthly') from daily accrual and notes that trading costs are separate."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. There is no separate-billing claim and no claim that the full annual rate is deducted daily, so no central error. The hedged statements on payment timing ('usually monthly') and income offset ('often covering this first from dividend income') are not explicit material falsehoods. The answer also keeps accrual distinct from the payment date, consistent with the key points."
+}

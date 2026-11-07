@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST008",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Says 'No' and explains that historical volume measures past secondary trading. It then describes APs creating and redeeming creation units against a basket, which links ETF liquidity to the holdings 'not just past ETF turnover.'"
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "The checklist covers current spreads and displayed depth and underlying-basket liquidity. It does not list AP or market-maker (intermediary) activity as an indicator to examine. Market makers appear only in the mechanism description, so this bundle item is missing."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Point 1 is fully covered. Point 2 is a substantive but incomplete bundle because intermediary activity is not among the indicators to examine. Required coverage is 1.5 of 2, which meets the partial threshold but not correct. There is no central error: the answer explicitly denies that high volume guarantees execution and does not treat volume as a cap. No material local falsehood was found."
+}

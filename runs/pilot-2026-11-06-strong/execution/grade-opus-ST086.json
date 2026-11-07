@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST086",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the fund sells holdings and distributes remaining net assets 'pro rata to shareholders, usually in cash.' Notes the last trading day comes before 'a later distribution date' and that 'Schedules vary.' Says the payment is NAV 'after costs' and that investors 'can also sell on-exchange before delisting.'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says the fund 'pays expenses' and investors receive NAV 'after costs.' For taxable accounts, says liquidation 'generally counts as a sale, realizing a short- or long-term capital gain or loss versus your cost basis,' with possible final capital gains or income distributions."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer explicitly rejects automatic total loss ('ETF liquidation \u2260 losing everything') and does not guarantee fixed proceeds or a fixed date. 'Your loss is limited to any NAV decline' slightly understates the effect of liquidation costs, but costs are acknowledged elsewhere, so it is not a material falsehood."
+}

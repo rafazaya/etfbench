@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-35",
+  "tier": "C",
+  "answer": "**Mixed umbrella (ETF and non-ETF sub-funds):** The umbrella name need not include \"UCITS ETF\". Each ETF sub-fund must carry the identifier in its name, prospectus/supplement, KID and marketing communications. Non-ETF sub-funds must not use it, and documents should clearly separate the two.\n\n**Sub-fund with listed and unlisted classes:** The Central Bank of Ireland permits ETF status at share-class level. The identifier then goes in the **names of the listed (ETF) classes**, not the sub-fund name, so unlisted classes aren't described as ETFs. The supplement should state which classes are ETF classes and explain dealing differences, such as primary-market access versus direct subscription and redemption.\n\n**Key point:** An all-ETF sub-fund is identified at sub-fund level. A mixed sub-fund is identified at class level. Non-ETF siblings, whether sub-funds or classes, are never labelled \"UCITS ETF\".\n\nCheck the latest CBI UCITS Q&A for current wording.",
+  "original_answer": "**Mixed umbrella (ETF and non-ETF sub-funds):** The umbrella's name does not need to include \"UCITS ETF\". Each ETF sub-fund must carry the identifier in its name and in its prospectus/supplement, KID and marketing communications. Non-ETF sub-funds must not use it, and documents should clearly separate the two.\n\n**Sub-fund with listed and unlisted classes:** The Central Bank of Ireland allows ETF status at share-class level. In that case, the identifier goes in the **name of the listed (ETF) classes**, not the sub-fund name, so unlisted classes are not described as ETFs. The supplement should make clear which classes are ETF classes and which are not, and explain any differences in dealing, such as primary-market access versus direct subscription and redemption.\n\n**Key point:** A whole-ETF sub-fund is identified at sub-fund level. A mixed sub-fund is identified at class level. Siblings that are not ETFs, whether sub-funds or classes, are never labelled \"UCITS ETF\".\n\nCheck the latest CBI UCITS Q&A for current wording.",
+  "void": false,
+  "words_before": 160,
+  "words_after_shorten": 142,
+  "words_final": 142,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-s579pkc_",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, under Irish UCITS rules, where is the UCITS ETF identifier used for a mixed umbrella and for a sub-fund with listed and unlisted classes? Explain sub-fund versus listed-class identification and avoid labelling non-ETF siblings as ETFs.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-35-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-3w16etlh",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Mixed umbrella (ETF and non-ETF sub-funds):** The umbrella's name does not need to include \"UCITS ETF\". Each ETF sub-fund must carry the identifier in its name and in its prospectus/supplement, KID and marketing communications. Non-ETF sub-funds must not use it, and documents should clearly separate the two.\n\n**Sub-fund with listed and unlisted classes:** The Central Bank of Ireland allows ETF status at share-class level. In that case, the identifier goes in the **name of the listed (ETF) classes**, not the sub-fund name, so unlisted classes are not described as ETFs. The supplement should make clear which classes are ETF classes and which are not, and explain any differences in dealing, such as primary-market access versus direct subscription and redemption.\n\n**Key point:** A whole-ETF sub-fund is identified at sub-fund level. A mixed sub-fund is identified at class level. Siblings that are not ETFs, whether sub-funds or classes, are never labelled \"UCITS ETF\".\n\nCheck the latest CBI UCITS Q&A for current wording."
+      ],
+      "stdout": "opus-QL-35-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

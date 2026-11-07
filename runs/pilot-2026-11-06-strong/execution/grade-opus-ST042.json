@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST042",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer separately covers borrower failure to return securities, collateral shortfall from market, FX, illiquidity or enforcement costs, and cash-reinvestment losses. It frames US controls conditionally: the indemnity applies only 'under its contractual terms' and 'does not generally insure cash-reinvestment losses.' It also lists mark-to-market and margin controls. It does not explicitly state the US 'at least equal to market value' collateral level, but the minimum bundle is substantively met."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "The UCITS section covers the ability to recall or terminate lending at any time. It names collateral standards on liquidity, valuation, credit quality and diversification, says noncash collateral cannot be reinvested, and says cash reinvestment is restricted. Haircuts are not repeated in the UCITS paragraph but appear in the general collateral controls (haircuts, daily marking-to-market), so the bundle is substantively covered."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are covered. The answer keeps the US iShares example separate from UCITS rules ('U.S. collateral practices are not UCITS rules'). It explicitly states that collateral reduces, not eliminates, losses, and correctly says UCITS noncash collateral cannot be reinvested, so neither central error applies. The indemnity statement is hedged and conditional and does not contradict the supplied evidence, so there is no material local falsehood."
+}

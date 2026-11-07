@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST021",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the AP must have a written agreement with 'the ETF or one of its service providers, such as the distributor or transfer agent.'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Names the distributor and AP as the main signatories. Notes the transfer agent signs as an acknowledging party. Says the trust is 'a named beneficiary or third party, not the contracting principal.' It omits the trust signing specified provisions, but the rubric minimum allows beneficiary or specified signatures."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "States the ICAV itself 'usually contracts directly with the AP for the sub-fund.' This contrasts with the US trust-as-beneficiary pattern."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are covered. The answer avoids the central error: it explicitly says the US trust is not the contracting principal. The hedged ancillary remarks (custodian acknowledgment, management company co-signing, ICSD settlement) do not contradict the supplied evidence and are not material falsehoods. The 'typical market practice' disclaimer is a caveat, not an error."
+}

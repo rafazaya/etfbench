@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST013",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer asks management to investigate causes and lists corrective options (valuation/data corrections, basket/fee/process changes, more APs or market makers, exchange discussions). It compares deviations against peers 'after accounting for benchmarks, spreads and valuation methods.' It also checks actual AP activity and market-maker quote quality and concentration."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "It covers syncing price/NAV timing, market hours and fair-value treatment. Underlying costs are covered by constituent liquidity, spreads, short availability and hedging costs. Creation impediments are covered by settlement constraints, creation/redemption fees and rejected orders. It says a gap 'neither proves arbitrage failure,' so it presumes no single cause."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer explicitly rejects both central-error formulations: it says a gap 'neither proves arbitrage failure nor constitutes an automatic numerical trigger.' No material local falsehood was found."
+}

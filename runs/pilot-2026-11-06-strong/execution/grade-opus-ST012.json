@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST012",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Covers licence economics ('fees'), duration ('term, automatic renewal, nonrenewal deadlines'), termination ('termination triggers, cure periods'), naming ('Map rights to the index name, provider name and trademarks across fund names'), and affiliated-information controls ('advance access to index changes', 'information barriers, trading controls'). Exclusivity is not named, but the required bundle is substantively met."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Gives a contract-dependent failed-renewal contingency: 'Verify whether replacement requires consent or a new licence', 'operational readiness', and 'Do not assume substitution is permitted'. It adds that notice periods and substitution rights 'depend on the actual contracts and fund documents.'"
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer explicitly disclaims any guaranteed substitution right or universal notice period, so no central error applies. It contains no material local falsehood."
+}

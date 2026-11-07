@@ -1,0 +1,442 @@
+{
+  "ST001": {
+    "id": "QL-22",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST002": {
+    "id": "QL-32",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST003": {
+    "id": "QL-03",
+    "model": "opus",
+    "tier": "A"
+  },
+  "ST004": {
+    "id": "creation_redemption_006_who_are_typically_the_parties_involved_i",
+    "model": "sol",
+    "tier": "A"
+  },
+  "ST005": {
+    "id": "QL-04",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST006": {
+    "id": "QL-07",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST007": {
+    "id": "QL-13",
+    "model": "opus",
+    "tier": "B"
+  },
+  "ST008": {
+    "id": "QL-07",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST009": {
+    "id": "QL-01",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST010": {
+    "id": "QL-06",
+    "model": "opus",
+    "tier": "B"
+  },
+  "ST011": {
+    "id": "QL-30",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST012": {
+    "id": "QL-30",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST013": {
+    "id": "QL-31",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST014": {
+    "id": "QL-11",
+    "model": "sol",
+    "tier": "A"
+  },
+  "ST015": {
+    "id": "QL-20",
+    "model": "opus",
+    "tier": "A"
+  },
+  "ST016": {
+    "id": "QL-34",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST017": {
+    "id": "QL-25",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST018": {
+    "id": "QL-13",
+    "model": "sol",
+    "tier": "B"
+  },
+  "ST019": {
+    "id": "QL-28",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST020": {
+    "id": "QL-17",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST021": {
+    "id": "creation_redemption_006_who_are_typically_the_parties_involved_i",
+    "model": "opus",
+    "tier": "A"
+  },
+  "ST022": {
+    "id": "QL-14",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST023": {
+    "id": "QL-24",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST024": {
+    "id": "QL-10",
+    "model": "sol",
+    "tier": "B"
+  },
+  "ST025": {
+    "id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST026": {
+    "id": "QL-18",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST027": {
+    "id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST028": {
+    "id": "QL-23",
+    "model": "sol",
+    "tier": "A"
+  },
+  "ST029": {
+    "id": "QL-22",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST030": {
+    "id": "QL-16",
+    "model": "sol",
+    "tier": "A"
+  },
+  "ST031": {
+    "id": "QL-04",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST032": {
+    "id": "QL-05",
+    "model": "sol",
+    "tier": "B"
+  },
+  "ST033": {
+    "id": "QL-18",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST034": {
+    "id": "QL-26",
+    "model": "sol",
+    "tier": "B"
+  },
+  "ST035": {
+    "id": "QL-14",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST036": {
+    "id": "QL-09",
+    "model": "sol",
+    "tier": "B"
+  },
+  "ST037": {
+    "id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+    "model": "sol",
+    "tier": "A"
+  },
+  "ST038": {
+    "id": "QL-28",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST039": {
+    "id": "QL-26",
+    "model": "opus",
+    "tier": "B"
+  },
+  "ST040": {
+    "id": "QL-29",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST041": {
+    "id": "QL-34",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST042": {
+    "id": "QL-33",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST043": {
+    "id": "QL-35",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST044": {
+    "id": "QL-39",
+    "model": "opus",
+    "tier": "B"
+  },
+  "ST045": {
+    "id": "QL-08",
+    "model": "sol",
+    "tier": "B"
+  },
+  "ST046": {
+    "id": "QL-27",
+    "model": "sol",
+    "tier": "B"
+  },
+  "ST047": {
+    "id": "QL-19",
+    "model": "sol",
+    "tier": "B"
+  },
+  "ST048": {
+    "id": "QL-15",
+    "model": "opus",
+    "tier": "B"
+  },
+  "ST049": {
+    "id": "QL-19",
+    "model": "opus",
+    "tier": "B"
+  },
+  "ST050": {
+    "id": "QL-08",
+    "model": "opus",
+    "tier": "B"
+  },
+  "ST051": {
+    "id": "QL-12",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST052": {
+    "id": "QL-21",
+    "model": "opus",
+    "tier": "A"
+  },
+  "ST053": {
+    "id": "QL-38",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST054": {
+    "id": "QL-40",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST055": {
+    "id": "QL-15",
+    "model": "sol",
+    "tier": "B"
+  },
+  "ST056": {
+    "id": "QL-29",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST057": {
+    "id": "QL-02",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST058": {
+    "id": "QL-21",
+    "model": "sol",
+    "tier": "A"
+  },
+  "ST059": {
+    "id": "QL-32",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST060": {
+    "id": "QL-35",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST061": {
+    "id": "QL-24",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST062": {
+    "id": "QL-16",
+    "model": "opus",
+    "tier": "A"
+  },
+  "ST063": {
+    "id": "creation_redemption_004_what_costs_do_the_creation_fee_cover",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST064": {
+    "id": "QL-11",
+    "model": "opus",
+    "tier": "A"
+  },
+  "ST065": {
+    "id": "QL-37",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST066": {
+    "id": "QL-03",
+    "model": "sol",
+    "tier": "A"
+  },
+  "ST067": {
+    "id": "QL-36",
+    "model": "opus",
+    "tier": "B"
+  },
+  "ST068": {
+    "id": "QL-23",
+    "model": "opus",
+    "tier": "A"
+  },
+  "ST069": {
+    "id": "QL-05",
+    "model": "opus",
+    "tier": "B"
+  },
+  "ST070": {
+    "id": "QL-20",
+    "model": "sol",
+    "tier": "A"
+  },
+  "ST071": {
+    "id": "QL-06",
+    "model": "sol",
+    "tier": "B"
+  },
+  "ST072": {
+    "id": "QL-01",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST073": {
+    "id": "QL-39",
+    "model": "sol",
+    "tier": "B"
+  },
+  "ST074": {
+    "id": "QL-10",
+    "model": "opus",
+    "tier": "B"
+  },
+  "ST075": {
+    "id": "QL-31",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST076": {
+    "id": "QL-36",
+    "model": "sol",
+    "tier": "B"
+  },
+  "ST077": {
+    "id": "creation_redemption_004_what_costs_do_the_creation_fee_cover",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST078": {
+    "id": "QL-40",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST079": {
+    "id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+    "model": "opus",
+    "tier": "A"
+  },
+  "ST080": {
+    "id": "QL-12",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST081": {
+    "id": "QL-25",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST082": {
+    "id": "QL-17",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST083": {
+    "id": "QL-37",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST084": {
+    "id": "QL-38",
+    "model": "sol",
+    "tier": "C"
+  },
+  "ST085": {
+    "id": "QL-09",
+    "model": "opus",
+    "tier": "B"
+  },
+  "ST086": {
+    "id": "QL-02",
+    "model": "opus",
+    "tier": "C"
+  },
+  "ST087": {
+    "id": "QL-27",
+    "model": "opus",
+    "tier": "B"
+  },
+  "ST088": {
+    "id": "QL-33",
+    "model": "opus",
+    "tier": "C"
+  }
+}

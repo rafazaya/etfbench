@@ -1,0 +1,29 @@
+{
+  "blind_id": "ST076",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "The answer conveys that secondary-market investors ordinarily trade on-exchange and lack an unconditional direct-redemption right. It omits the prescribed prospectus and marketing warning that units cannot usually be sold directly back to the fund."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that secondary-market investors must be allowed to redeem directly when the exchange price significantly diverges from NAV."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Covers notification of the regulated market, a prospectus explanation of the process, and costs that are disclosed and not excessive."
+    },
+    {
+      "point": 4,
+      "credit": 1,
+      "reason": "Frames the route as an exceptional safeguard triggered by divergence. It contrasts this with ordinary broker dealing at market prices and with primary creation and redemption by authorised participants. It does not say the investor decides."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error. Required coverage sums to 3.5 of 4. The ordinary secondary-trading warning requirement is only implied, not stated, so not every required minimum is fully covered."
+}

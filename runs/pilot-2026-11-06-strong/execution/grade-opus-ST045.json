@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST045",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that APs 'buy the underlying asset basket, exchange it for newly created ETF shares' and 'redeem them for the underlying assets', covering both creation and redemption basket exchanges."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Explains premium and discount arbitrage. Selling newly created shares at a premium puts downward pressure on price, and redeeming at a discount pushes price upward, which links price to underlying value."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Explicitly says 'This isn't a guarantee' and notes that premiums or discounts can persist because of costs, illiquidity, market stress or closed markets."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are fully covered. The answer correctly frames arbitrage as an economic mechanism and does not claim guaranteed equality. Its ancillary claims (market maker quotes, daily NAV versus intraday trading) are accurate, so there is no central error and no material local falsehood."
+}

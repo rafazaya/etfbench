@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-19",
+  "tier": "B",
+  "answer": "**Core governance**\n- Board of trustees (independent majority) approving the advisory contract under Section 15(c)\n- Registered adviser and any sub-adviser\n- CCO (Rule 38a-1)\n- Fund and independent-trustee counsel\n- Independent auditor\n- Valuation designee (Rule 2a-5) and liquidity program administrator (Rule 22e-4), usually the adviser\n\n**Service providers (often bundled)**\n- Custodian, administrator/accountant and transfer agent, often one bank\n- Distributor/principal underwriter (registered broker-dealer)\n- Series-trust/white-label platforms can package board, CCO, administration and distribution\n\n**Market infrastructure**\n- Exchange listing and lead market maker\n- CUSIP and DTC/NSCC eligibility\n- AP agreements and Rule 6c-11-compliant basket/creation-redemption process\n- Daily website disclosures\n\n**Strategy-specific**\n- Index license and calculation agent (index ETFs)\n- Securities-lending agent, often the custodian\n- Derivatives risk manager (Rule 18f-4) and ISDA/FCM counterparties\n- Exemptive relief for semi-transparent structures",
+  "original_answer": "**Core governance**\n- Board of trustees with an independent majority, which approves the advisory contract under Section 15(c)\n- Registered investment adviser, plus any sub-adviser\n- Chief Compliance Officer under Rule 38a-1\n- Fund counsel and independent-trustee counsel\n- Independent auditor\n- Valuation designee (Rule 2a-5) and liquidity program administrator (Rule 22e-4), usually the adviser\n\n**Service providers (often bundled)**\n- Custodian, fund administrator/accountant and transfer agent, frequently one bank\n- Distributor/principal underwriter, a registered broker-dealer\n- Series-trust or \"white-label\" platforms can supply the board, CCO, administration and distribution as a package\n\n**Market infrastructure**\n- Exchange listing and lead market maker\n- CUSIP and DTC/NSCC eligibility\n- Authorized participant agreements and a basket/creation-redemption process compliant with Rule 6c-11\n- Daily website disclosures\n\n**Strategy- or program-specific**\n- Index license and calculation agent, for index ETFs\n- Securities-lending agent, often the custodian\n- Derivatives risk manager (Rule 18f-4), plus ISDA/FCM counterparties\n- Exemptive relief for semi-transparent structures",
+  "void": false,
+  "words_before": 154,
+  "words_after_shorten": 131,
+  "words_final": 131,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-azinvjd5",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a US '40 Act ETF launch, list the core governance, service-provider and market-infrastructure arrangements. Distinguish roles that may be bundled and index/lending arrangements needed only for the relevant strategy or program; do not imply every role needs a separately hired firm.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-19-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-08ksisjs",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Core governance**\n- Board of trustees with an independent majority, which approves the advisory contract under Section 15(c)\n- Registered investment adviser, plus any sub-adviser\n- Chief Compliance Officer under Rule 38a-1\n- Fund counsel and independent-trustee counsel\n- Independent auditor\n- Valuation designee (Rule 2a-5) and liquidity program administrator (Rule 22e-4), usually the adviser\n\n**Service providers (often bundled)**\n- Custodian, fund administrator/accountant and transfer agent, frequently one bank\n- Distributor/principal underwriter, a registered broker-dealer\n- Series-trust or \"white-label\" platforms can supply the board, CCO, administration and distribution as a package\n\n**Market infrastructure**\n- Exchange listing and lead market maker\n- CUSIP and DTC/NSCC eligibility\n- Authorized participant agreements and a basket/creation-redemption process compliant with Rule 6c-11\n- Daily website disclosures\n\n**Strategy- or program-specific**\n- Index license and calculation agent, for index ETFs\n- Securities-lending agent, often the custodian\n- Derivatives risk manager (Rule 18f-4), plus ISDA/FCM counterparties\n- Exemptive relief for semi-transparent structures"
+      ],
+      "stdout": "opus-QL-19-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

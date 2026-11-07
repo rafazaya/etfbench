@@ -1,0 +1,14 @@
+{
+  "blind_id": "ST083",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Affirms that listed ETF and unlisted classes can coexist in one fund. It compares dealing access (APs and exchange vs. direct with the fund), dealing frequency (under liquidity), settlement, brokerage within costs, costs, minimums, rights, liquidity and price differences (premium or discount to NAV vs. dealing at NAV)."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Every element of the required bundle is covered. There is no central error: coexistence is affirmed, not denied, and no US exemptive conditions are applied. The hedge about Q&A numbering and the truncated ending are not falsehoods. The reference to ESMA 2014/937 is accurate."
+}

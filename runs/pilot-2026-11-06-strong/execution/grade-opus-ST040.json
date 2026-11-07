@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST040",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer covers the exchange/LMM selection rationale (alternatives, criteria, conflicts, obligations). It covers relevant-market expertise (hedging and pricing the underlying, stress performance, AP status). It covers capital and seed inquiry (amount, duration, redemption terms). It frames all of this as suggested inquiry, not a mandatory standard."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "The answer distinguishes temporary market-maker seed from 'lasting investor demand' and asks what assets remain after the seed leaves. It does not convey that investor assets are only stickier and not permanent. It omits that subsidized or investor assets can also leave, so the 'neither is necessarily permanent' bundle is incomplete."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Point 1 is fully covered. Point 2 is substantively addressed on the seed-versus-investor distinction but lacks the caveat that investor assets are not permanent, so it earns 0.5. Total coverage is 1.5 of 2, which meets the partial threshold. There is no explicit central error: the answer never says MM seed is permanent or that a fixed capital amount is legally required, and it labels the checklist as non-mandatory. There is no material local falsehood."
+}

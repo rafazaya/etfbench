@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST056",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer covers all three inquiry areas. Selection: 'Why this exchange and lead market maker (LMM)?', alternatives evaluated, criteria and conflicts. Relevant-market expertise: experience with comparable ETFs and their underlying markets. Capital/seed: 'Who supplies launch capital, how much, on what terms, and when may it exit?'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "It separates the two kinds of assets: 'Temporary market-maker seed facilitates launch and trading; it is not evidence of durable investor demand.' It does not treat investor assets as permanent. It says to assess their 'concentration and likely persistence.'"
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer frames the checklist as 'Suggested board inquiries\u2014not mandatory approval conditions.' It never says market-maker seed is guaranteed or permanent, and it never says a fixed capital amount is legally required. It also asks when launch capital may exit and what happens if support disappears. No central error and no material local falsehood."
+}

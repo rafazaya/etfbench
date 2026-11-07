@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST010",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that in-kind delivery of low-basis lots purges embedded gains from the 'shared portfolio', reducing capital-gain distributions for 'all' classes, including the mutual fund class."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Gives a mechanism limit: 'Mutual fund redemptions are usually paid in cash. Resulting gains are distributed pro rata to every class, including ETF holders.' This covers cash sales still realizing gains and optional subdetail (b), MF flows imposing gains on ETF holders. It asserts no basis step-up."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Frames the benefit as conditional: 'requires meaningful ETF-class flows', basket selection constrained by Rule 6c-11 policies and order conditions, and 'defers tax rather than eliminating it'. It also covers the optional investor tax caveat ('Shareholders still owe tax when they sell')."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are covered. The answer treats the portfolio as shared and never claims a basis step-up, so there is no central error. The statement that each fund needs SEC exemptive relief is a reasonable caveat responsive to the prompt, not a material falsehood. Hedged descriptors ('lowest-basis lots', anti-cross-subsidization conditions) do not reverse any listed mechanism."
+}

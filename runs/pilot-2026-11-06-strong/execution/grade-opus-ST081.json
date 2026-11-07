@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST081",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer covers all of point 1. It lists daily holdings before the open with identifiers, descriptions, quantities and weights. It also gives prior-day NAV, market price and premium/discount, the history table and graph, and the 30-day median spread. It states that a deviation above 2% for more than seven consecutive trading days requires a statement and discussion of factors, kept online for at least one year."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "The days-count table is covered ('a table counting premium and discount days'). The NBBO-based median spread method (10-second observations, normalized by the midpoint) is not described; the answer gives only 'median bid\u2013ask spread for the latest 30 calendar days.'"
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "The answer gives the history period as 'the most recently completed calendar year and completed calendar quarters since that year' and says the website is 'free, publicly accessible.' The shorter-fund-life alternative is not mentioned, but the core minimum is met."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "No central error: holdings disclosure is presented as mandatory and website-based. The statement that the rule does not require public website disclosure of baskets is not false. Required coverage is 2.5 of 3 because the NBBO spread methodology is missing, so not every required minimum is fully covered. This yields partial."
+}

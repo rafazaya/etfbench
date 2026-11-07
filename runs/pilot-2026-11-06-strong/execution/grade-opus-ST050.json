@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST050",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that APs create or redeem ETF shares with the issuer in creation units. In creations APs exchange the underlying securities for new shares, and in redemptions they return shares for the underlying basket."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Explains premium and discount arbitrage. At a premium, APs create shares and sell them, adding supply that pushes the price down. At a discount, APs buy and redeem shares, reducing supply so the price rises. This links price to NAV."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "The 'When it weakens' section says premiums and discounts can widen with illiquid holdings, during stress, or when underlying markets are closed. This acknowledges that equality is not guaranteed."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are covered. The answer presents arbitrage as the mechanism and explicitly notes that deviations can persist, so it does not claim guaranteed equality. The ancillary claims about transparency, iNAV, market makers and creation unit sizes are reasonable, with no material falsehood. Not mentioning that APs often act for market makers is an optional omission and does not lower the grade."
+}

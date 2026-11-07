@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST054",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Covers opening a brokerage account (or IRA) and transferring in kind before the deadline. Says notices set fund-specific dates and default treatment. Says that missing the deadline may leave shares 'parked in a restricted account until moved', which conveys the inability to trade until a transfer is arranged."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States fractional shares are 'usually paid out in cash, potentially taxable'. The hedged wording, plus the earlier statement that notices set 'your fund's' dates and default treatment, makes the outcome notice-specific."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are covered. The answer does not claim automatic trading access or tax-free fractional cash-outs. It correctly separates a whole-fund conversion from adding an ETF share class and avoids a fixed timetable. Liquidation is presented only as a possible default ('may'), so it is not a material falsehood."
+}

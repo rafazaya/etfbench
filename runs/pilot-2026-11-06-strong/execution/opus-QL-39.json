@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-39",
+  "tier": "B",
+  "answer": "**Conceptual examples (not regulatory text)**\n\n- **MF class burdening ETF class:** MF cash purchases and redemptions force portfolio trading; commissions, spreads and market impact fall on all holders, including ETF holders. Redemption-driven sales can realize gains distributed to both classes.\n- **ETF class burdening MF class:** Cash creations or custom baskets can shift trading costs or portfolio drift onto MF holders. Conversely, ETF in-kind redemptions shed low-basis lots, a tax benefit shared unevenly.\n\n**Monitoring categories**\n\n- **Transaction costs:** which class's flows cause trading, and whether fees offset them.\n- **Cash:** MF redemption buffers creating cash drag for ETF holders.\n- **Gains:** realizations and distributions attributable to each class.\n\n**Representative order-specific framework (as of 2026-11-06)**\n\nUnder share-class exemptive orders, the board approves policies addressing cross-subsidization and receives periodic adviser reporting. Metrics, frequency and escalation triggers are fund-specific; no universal thresholds apply.",
+  "original_answer": "**Conceptual examples (not regulatory text)**\n\n- **Mutual fund (MF) class burdening ETF class:** MF cash purchases and redemptions force portfolio trading. Commissions, spreads and market impact fall on the whole portfolio, including ETF holders. Redemption-driven sales can also realize gains distributed to both classes.\n- **ETF class burdening MF class:** Cash creations, or custom baskets, can push trading costs or portfolio drift onto MF holders. Conversely, ETF in-kind redemptions shed low-basis lots, a tax benefit shared unevenly.\n\n**Monitoring categories**\n\n- **Transaction costs:** which class's flows cause trading, and whether fees or charges offset them.\n- **Cash:** liquidity buffers held for MF redemptions, which create cash drag for ETF holders.\n- **Gains:** capital-gain realizations and distributions attributable to each class's activity.\n\n**Representative order-specific framework (as of 2026-11-06)**\n\nUnder the share-class exemptive orders, the board approves policies to identify and address cross-subsidization and receives periodic adviser reporting. Metrics, frequency and escalation triggers are fund-specific under each order and compliance program. No universal thresholds apply.",
+  "void": false,
+  "words_before": 162,
+  "words_after_shorten": 140,
+  "words_final": 140,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-coj2yruy",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for a US fund with ETF and mutual fund classes sharing a portfolio, explain cross-subsidization in both directions and the transaction-cost, cash and gains monitoring categories. Separate conceptual examples from the representative order-specific framework and do not invent universal thresholds.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-39-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-dq9haglg",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Conceptual examples (not regulatory text)**\n\n- **Mutual fund (MF) class burdening ETF class:** MF cash purchases and redemptions force portfolio trading. Commissions, spreads and market impact fall on the whole portfolio, including ETF holders. Redemption-driven sales can also realize gains distributed to both classes.\n- **ETF class burdening MF class:** Cash creations, or custom baskets, can push trading costs or portfolio drift onto MF holders. Conversely, ETF in-kind redemptions shed low-basis lots, a tax benefit shared unevenly.\n\n**Monitoring categories**\n\n- **Transaction costs:** which class's flows cause trading, and whether fees or charges offset them.\n- **Cash:** liquidity buffers held for MF redemptions, which create cash drag for ETF holders.\n- **Gains:** capital-gain realizations and distributions attributable to each class's activity.\n\n**Representative order-specific framework (as of 2026-11-06)**\n\nUnder the share-class exemptive orders, the board approves policies to identify and address cross-subsidization and receives periodic adviser reporting. Metrics, frequency and escalation triggers are fund-specific under each order and compliance program. No universal thresholds apply."
+      ],
+      "stdout": "opus-QL-39-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

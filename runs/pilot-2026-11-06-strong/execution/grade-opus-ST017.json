@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST017",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer covers all required elements. It requires pre-open daily holdings with identifiers, descriptions, quantities and weights, matching the NAV-basis holdings. It gives prior-business-day NAV, market price and premium/discount, plus premium/discount history and a 30-day median spread. It states the >2% for more than seven consecutive trading days statement with contributing factors, posted by the next trading day and kept at least one year."
+    },
+    {
+      "point": 2,
+      "credit": 0,
+      "reason": "The answer says only 'table or chart of daily premiums/discounts.' It does not mention a table counting days at premium or discount. It gives no spread method: no NBBO observations at 10-second intervals and no normalization by midpoint. 'Most recent 30 days' alone does not meet the minimum."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "The answer gives the most recent calendar year plus completed quarters since, with full life for younger funds. The header states the disclosures are public and free."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "No central error: the answer makes holdings disclosure mandatory and correctly says baskets need no daily website publication, only policies and records. 'Table or chart' slightly understates the rule, which requires both a table and a line graph, but this is an imprecision rather than a material falsehood. Coverage sums to 2 of 3, which is at least half, but point 2 is missing, so the grade is partial rather than correct."
+}

@@ -1,0 +1,326 @@
+[
+  {
+    "blind_id": "ST008",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Says 'No' and explains that historical volume measures past secondary trading. It then describes APs creating and redeeming creation units against a basket, which links ETF liquidity to the holdings 'not just past ETF turnover.'"
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "The checklist covers current spreads and displayed depth and underlying-basket liquidity. It does not list AP or market-maker (intermediary) activity as an indicator to examine. Market makers appear only in the mechanism description, so this bundle item is missing."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Point 1 is fully covered. Point 2 is a substantive but incomplete bundle because intermediary activity is not among the indicators to examine. Required coverage is 1.5 of 2, which meets the partial threshold but not correct. There is no central error: the answer explicitly denies that high volume guarantees execution and does not treat volume as a cap. No material local falsehood was found.",
+    "adjudication": "The reference explicitly requires intermediary activity among observable indicators. Describing market makers in the mechanism does not recommend inspecting their activity. Retain half for point 2.",
+    "source": "Reviewed QL-07 key point 2; IDC oversight paper"
+  },
+  {
+    "blind_id": "ST035",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "NSCC and sponsor request route correct; false side-point mandate caps partial."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "NSCC and sponsor request route correct; false side-point mandate caps partial."
+      }
+    ],
+    "central_error": null,
+    "local_error": "The site must also show ... basket policies is not a public-posting requirement.",
+    "grade": "partial",
+    "rationale": "NSCC and sponsor request route correct; false side-point mandate caps partial.",
+    "adjudication": "A confidently asserted requirement to publish basket policies is a false regulatory side claim. Rule (c)(1) lists disclosures; (c)(3) requires policies, not website posting. R29 caps partial even though the PCF mechanism is right.",
+    "source": "https://www.law.cornell.edu/cfr/text/17/270.6c-11"
+  },
+  {
+    "blind_id": "ST041",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Covers disclosure of the transparency policy, where portfolio information is available, and iNAV information. It does not say the disclosure goes in the prospectus, KID/KIID and marketing materials."
+      },
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Gives daily public holdings as one approach. Gives periodic disclosure as conditional on daily information to APs/market makers sufficient for arbitrage. Omits the nondiscriminatory basis, the procedures for impaired arbitrage and investor information requests, and public quarter-end holdings within 30 business days."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Does not say holdings disclosure identifies positions and quantities. Does not mention the prospectus statement of the information supplied, or the iNAV calculation methodology and frequency when iNAV is calculated."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "wrong",
+    "rationale": "There is no central error: the answer explicitly denies that daily public full holdings are unconditional and states that the periodic route requires daily arbitrage information. However, required coverage totals 1.0 of 3, which is below half the required-point count (1.5). Under the scoring rule, less than half required coverage is graded wrong.",
+    "adjudication": "The iNAV-information phrase earns point 1 context credit, not point 3 credit: no positions/quantities, prospectus information statement or methodology/frequency is supplied. Only 1/3 total; below half.",
+    "source": "Reviewed QL-34 key points; CBI Q&A 1012 and Regulation 88"
+  },
+  {
+    "blind_id": "ST042",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer separately covers borrower failure to return securities, collateral shortfall from market, FX, illiquidity or enforcement costs, and cash-reinvestment losses. It frames US controls conditionally: the indemnity applies only 'under its contractual terms' and 'does not generally insure cash-reinvestment losses.' It also lists mark-to-market and margin controls. It does not explicitly state the US 'at least equal to market value' collateral level, but the minimum bundle is substantively met."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "The UCITS section covers the ability to recall or terminate lending at any time. It names collateral standards on liquidity, valuation, credit quality and diversification, says noncash collateral cannot be reinvested, and says cash reinvestment is restricted. Haircuts are not repeated in the UCITS paragraph but appear in the general collateral controls (haircuts, daily marking-to-market), so the bundle is substantively covered."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are covered. The answer keeps the US iShares example separate from UCITS rules ('U.S. collateral practices are not UCITS rules'). It explicitly states that collateral reduces, not eliminates, losses, and correctly says UCITS noncash collateral cannot be reinvested, so neither central error applies. The indemnity statement is hedged and conditional and does not contradict the supplied evidence, so there is no material local falsehood.",
+    "adjudication": "Haircuts are explicitly provided as general collateral-shortfall controls. Requiring repetition in the UCITS paragraph adds a location constraint absent from the rubric; the UCITS quality list supplies the other categories.",
+    "source": "Reviewed QL-33 and ESMA paragraphs 30, 43\u201347"
+  },
+  {
+    "blind_id": "ST051",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer says APs 'aren't paid by the sponsor' and 'aren't obligated to create or redeem.' It adds that the AP agreement gives 'the right, not the duty' and that APs 'can step back at any time.' This covers both parts of the minimum: no automatic AP payment and no ongoing dealing duty."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "The single required point is fully covered. The answer correctly says AP status brings no sponsor payment and no duty to keep creating or redeeming. It does not say AP status mandates continuous dealing or carries an automatic fund retainer, so there is no central error. The remaining details are accurate or consistent with the rubric: compensation comes from arbitrage and dealing, the fee is paid by the AP, LMM incentives are kept separate from AP compensation, and some APs stepped back in March 2020. Leaving out the possibility of fee waivers is an omission, not a falsehood, and it concerns optional points only.",
+    "adjudication": "Read the answer in context of AP-status entitlement. It denies the default pay entitlement and dealing duty, distinguishes LMM incentives and dealer earnings, and does not explicitly deny separate contracts. Do not manufacture a false universal rule.",
+    "source": "Reviewed QL-12; IDC 2025 primer"
+  },
+  {
+    "blind_id": "ST061",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "Four categories and 15-day ceiling; as-soon-as-practicable condition missing."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "Four categories and 15-day ceiling; as-soon-as-practicable condition missing.",
+    "adjudication": "The frozen minimum expressly requires delivery as soon as practicable, not just by day 15. These are independent constraints; point 1 is an incomplete bundle.",
+    "source": "https://www.law.cornell.edu/cfr/text/17/270.6c-11#b"
+  },
+  {
+    "blind_id": "ST063",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Says fixed fees cover custody, transfer-agent, clearing/settlement and administrative processing costs. Says variable charges offset brokerage, spreads, market impact, taxes and FX, particularly for cash transactions or cash substitutions, protecting shareholders from dilution."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Says the AP is 'ordinarily responsible', which implies exceptions. Gives the example of the fixed fee going to the custodian and the variable charge to the fund. Says the prospectus and AP agreement govern, so terms are fund-specific. Waiver is not named explicitly, but the core minimum is met."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Says the fund-imposed charges are 'distinct from an AP's separately negotiated compensation, commissions or trading spread' and 'not automatically AP revenue'. Custom-redemption waiver frequency is optional."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "All three required minimums are covered. The answer never says the fund's charge reimburses or compensates the AP; it explicitly separates the charges from AP compensation. 'Not automatically' is a hedge, not an assertion of AP compensation. There are no material falsehoods, and the omitted waiver detail is optional or implied by 'ordinarily'.",
+    "adjudication": "Ordinarily responsible and contract-governed is equivalent qualified wording allowing exceptions; explicit waiver wording is not necessary. AP bears fees and recipients differ.",
+    "source": "Reviewed transaction-fee reference point 2; Corgi SAI"
+  },
+  {
+    "blind_id": "ST067",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Exceptional route and protections covered; extra unsupported cost cap localized."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Exceptional route and protections covered; extra unsupported cost cap localized."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Exceptional route and protections covered; extra unsupported cost cap localized."
+      },
+      {
+        "point": 4,
+        "credit": 1,
+        "reason": "Exceptional route and protections covered; extra unsupported cost cap localized."
+      }
+    ],
+    "central_error": null,
+    "local_error": "Generally capped at actual costs or a disclosed ceiling is not the stated non-excessive-cost rule.",
+    "grade": "partial",
+    "rationale": "Exceptional route and protections covered; extra unsupported cost cap localized.",
+    "adjudication": "Regulation 90(4) requires disclosed and non-excessive costs; it does not impose an actual-cost/disclosed-ceiling rule. The added regulatory constraint is a material local falsehood under R29.",
+    "source": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-(supervision-and-enforcement)-act-2013-(section-48(1))-(undertakings-for-collective-investment-in-transferable-securities)-regul.pdf#page=66"
+  },
+  {
+    "blind_id": "ST072",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Core separation/custody and replacement sound; ancillary legal/tax assertions cap partial."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Core separation/custody and replacement sound; ancillary legal/tax assertions cap partial."
+      }
+    ],
+    "central_error": null,
+    "local_error": "Rule 17f-2 concerns self-custody rather than independent-custodian custody; liquidation forces a taxable cash-out overgeneralizes.",
+    "grade": "partial",
+    "rationale": "Core separation/custody and replacement sound; ancillary legal/tax assertions cap partial.",
+    "adjudication": "Section 17(f) supplies the valid custody point, but citing the self-custody rule as an independent-custodian requirement is a false regulatory assertion, not an omission. R29 caps partial; no sponsor-separation core reversal. The tax blanket is an additional overstatement.",
+    "source": "https://www.law.cornell.edu/cfr/text/17/270.17f-2"
+  },
+  {
+    "blind_id": "ST075",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "The answer asks for the adviser's documented analysis of causes and lists corrective options: custom baskets, cash-in-lieu, fees, AP/MM recruitment, fair-value procedures and disclosure. It compares the pattern against similar ETFs and index futures. It also reviews AP count, creation/redemption volumes, balance-sheet constraints and lead market maker quoting quality."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "It covers NAV timing against the official closing auction, stale or fair-valued prices and late corporate actions. It names underlying trading frictions, including illiquid or hard-to-borrow constituents, wide spreads and short-sale constraints. It names creation impediments, including basket mismatches, fee or cutoff changes and AP constraints. It presents several candidate explanations rather than a single presumed cause."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are fully covered. The answer frames the review as ruling out measurement and friction explanations before concluding that arbitrage has failed, so it does not claim persistent deviation alone proves failure. The final fragment, 'Under Rule 6c-11, a premium or discount above 2%', is cut off and makes no explicit claim that 2% is a mandatory intervention trigger. Under the rubric, an incomplete statement is not treated as a falsehood, so no central or local error applies.",
+    "adjudication": "NAV strike versus closing auction, stale and fair-valued inputs addresses contemporaneous pricing in substance. Together with trading and basket impediments it meets the bundle; no need for exact market-hours phrase. The truncated 2% fragment makes no rule.",
+    "source": "Reviewed QL-31; SEC Release 33-10695"
+  },
+  {
+    "blind_id": "ST076",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 0.5,
+        "reason": "The answer conveys that secondary-market investors ordinarily trade on-exchange and lack an unconditional direct-redemption right. It omits the prescribed prospectus and marketing warning that units cannot usually be sold directly back to the fund."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "States that secondary-market investors must be allowed to redeem directly when the exchange price significantly diverges from NAV."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Covers notification of the regulated market, a prospectus explanation of the process, and costs that are disclosed and not excessive."
+      },
+      {
+        "point": 4,
+        "credit": 1,
+        "reason": "Frames the route as an exceptional safeguard triggered by divergence. It contrasts this with ordinary broker dealing at market prices and with primary creation and redemption by authorised participants. It does not say the investor decides."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "partial",
+    "rationale": "There is no central error. Required coverage sums to 3.5 of 4. The ordinary secondary-trading warning requirement is only implied, not stated, so not every required minimum is fully covered.",
+    "adjudication": "The answer conveys ordinary secondary trading but does not say the warning must be in prospectus/marketing. The source-backed required warning minimum earns half; exception/cost protections otherwise complete.",
+    "source": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-(supervision-and-enforcement)-act-2013-(section-48(1))-(undertakings-for-collective-investment-in-transferable-securities)-regul.pdf#page=65"
+  },
+  {
+    "blind_id": "ST086",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Pro-rata net proceeds, sale timing and taxes sound; absolute side assertion caps partial."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Pro-rata net proceeds, sale timing and taxes sound; absolute side assertion caps partial."
+      }
+    ],
+    "central_error": null,
+    "local_error": "Total loss would require underlying assets worthless excludes liabilities and costs exhausting remaining equity.",
+    "grade": "partial",
+    "rationale": "Pro-rata net proceeds, sale timing and taxes sound; absolute side assertion caps partial.",
+    "adjudication": "Net assets are after liabilities as well as costs. The claim that only worthless underlying assets can cause total loss is false when liabilities exhaust positive assets. Core net-proceeds mechanism survives; cap partial.",
+    "source": "Reviewed QL-02; filed One + One liquidation supplement and SEC liquidation bulletin"
+  },
+  {
+    "blind_id": "ST087",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Correct policies/roles and distinction from operational orders; localized definition error under R17."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Correct policies/roles and distinction from operational orders; localized definition error under R17."
+      },
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Correct policies/roles and distinction from operational orders; localized definition error under R17."
+      },
+      {
+        "point": 4,
+        "credit": 0.5,
+        "reason": "Correct policies/roles and distinction from operational orders; localized definition error under R17."
+      }
+    ],
+    "central_error": null,
+    "local_error": "Custom basket equated with non-pro-rata slice; not all non-pro-rata baskets are custom.",
+    "grade": "partial",
+    "rationale": "Correct policies/roles and distinction from operational orders; localized definition error under R17.",
+    "adjudication": "Non-pro-rata is not equivalent to non-representative. The first representative basket need not be pro-rata; rule definition distinguishes it from later differing representative baskets. R17 makes this local and partial, rather than wrong.",
+    "source": "https://www.law.cornell.edu/cfr/text/17/270.6c-11#a"
+  },
+  {
+    "blind_id": "ST088",
+    "coverage": [
+      {
+        "point": 1,
+        "credit": 1,
+        "reason": "Covers borrower default ('Securities aren't returned'), collateral shortfall ('liquidated collateral may not cover repurchase cost') and cash reinvestment loss ('Reinvested cash can lose value or become illiquid, usually at the fund's expense'). US controls are framed conditionally ('typical practice', check prospectus/SAI; 'typically \u2265102%'). The answer says it cannot see the bank's iShares example, but it still supplies the required risks and conditional US controls."
+      },
+      {
+        "point": 2,
+        "credit": 1,
+        "reason": "Covers recall ('recallable at any time'). Covers collateral that is 'liquid, high-quality, diversified (~20% per issuer), valued daily and haircut'. States 'No reuse of non-cash collateral'. Restricts cash to deposits, high-quality government bonds, reverse repos or short-term MMFs. Explicit cash-reinvestment diversification is not stated, but the core minimum is met."
+      }
+    ],
+    "central_error": null,
+    "local_error": null,
+    "grade": "correct",
+    "rationale": "Both required minimums are covered. The answer keeps the US typical-practice points separate from the UCITS ESMA rules. It never claims collateral eliminates losses; it explicitly says collateral may not cover replacement cost. It correctly bars reuse of non-cash collateral. The 102%/105% figures are hedged as typical practice, and the one-third cap matches the SEC staff position, so neither is a material falsehood.",
+    "adjudication": "The minimum requires three risks and conditional US controls, not an additional indemnity carve-out. Conditional indemnification plus US collateral levels cover point 1; adding an unlisted requirement would change the instrument.",
+    "source": "Reviewed QL-33 key point 1; iShares SAI"
+  }
+]

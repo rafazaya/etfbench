@@ -1,0 +1,137 @@
+[
+  {
+    "blind_id": "ST005",
+    "removed_optional_coverage": [
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Optional supporting detail. Separates the actual payment to providers ('usually monthly') from daily accrual and notes that trading costs are separate."
+      }
+    ]
+  },
+  {
+    "blind_id": "ST026",
+    "removed_optional_coverage": [
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "Optional point. No filed example and no explicit statement that shares cannot be sold before effectiveness. This omission does not reduce the grade."
+      }
+    ]
+  },
+  {
+    "blind_id": "ST033",
+    "removed_optional_coverage": [
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "Optional point: does not explicitly say shares cannot be sold before effectiveness and gives no filed example. Optional omissions do not reduce the grade."
+      }
+    ]
+  },
+  {
+    "blind_id": "ST035",
+    "nonmaterial_comment": "'The site must also show ... basket policies' overstates the rule. Rule 6c-11 requires funds to adopt basket policies but does not clearly require posting them on the website. This is a minor ancillary point that does not change the holdings/PCF distinction, so it is not treated as material.",
+    "reason": "O explicitly classifies this as nonmaterial. Clear material-error field without changing O label; adjudication separately rejects this severity."
+  },
+  {
+    "blind_id": "ST037",
+    "removed_optional_coverage": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point. The answer does not mention AP liability for shortfall if the fund buys the missing securities. Optional omissions do not affect the grade."
+      }
+    ]
+  },
+  {
+    "blind_id": "ST043",
+    "removed_optional_coverage": [
+      {
+        "point": 2,
+        "credit": 0,
+        "reason": "This optional point is not addressed: the answer does not say class-level identification predated 2026. It also does not claim the permission was first introduced in 2026, so there is no falsehood. Optional omissions do not reduce the grade."
+      }
+    ]
+  },
+  {
+    "blind_id": "ST048",
+    "removed_optional_coverage": [
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Optional supporting details are present: creation unit sizes, in-kind or cash baskets, NAV arbitrage, and Lead Market Makers with formal quoting obligations."
+      }
+    ]
+  },
+  {
+    "blind_id": "ST051",
+    "removed_optional_coverage": [
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Optional point. The answer says APs 'pay the fund a creation/redemption transaction fee,' so it treats the fee as an AP cost. It does not mention that sponsors may waive or subsidise the fee. This omission does not reduce the grade."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional point. The answer does not mention sponsor fee waivers on custom redemptions. This omission does not reduce the grade."
+      }
+    ]
+  },
+  {
+    "blind_id": "ST052",
+    "removed_optional_coverage": [
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Optional point. Mentions fixed costs exceeding fee revenue, frames the allocation as contractual, and says 'Shareholders are thus insulated.'"
+      }
+    ]
+  },
+  {
+    "blind_id": "ST055",
+    "removed_optional_coverage": [
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional supporting detail (LMM designation) not mentioned; no penalty."
+      }
+    ]
+  },
+  {
+    "blind_id": "ST058",
+    "removed_optional_coverage": [
+      {
+        "point": 3,
+        "credit": 0.5,
+        "reason": "Optional. Notes the actual contracts control, but does not mention fixed costs or the absence of a shareholder reimbursement duty. This does not affect the grade."
+      }
+    ]
+  },
+  {
+    "blind_id": "ST079",
+    "removed_optional_coverage": [
+      {
+        "point": 3,
+        "credit": 1,
+        "reason": "Optional point. Says the fund can use the cash to buy the securities, with the AP covering any shortfall and costs."
+      }
+    ]
+  },
+  {
+    "blind_id": "ST080",
+    "removed_optional_coverage": [
+      {
+        "point": 2,
+        "credit": 0.5,
+        "reason": "Optional point. The answer says APs 'often pay creation/redemption transaction fees', so it treats the fee as an AP cost. It does not mention waivers or subsidies. This does not affect the grade."
+      },
+      {
+        "point": 3,
+        "credit": 0,
+        "reason": "Optional supporting detail on sponsors waiving fees on custom redemptions is not mentioned. This does not affect the grade."
+      }
+    ]
+  }
+]

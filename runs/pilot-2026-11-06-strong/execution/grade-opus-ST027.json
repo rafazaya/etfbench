@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST027",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that wide or thin underlying markets and closed or stale markets widen quotes. Also links hedge availability, cost and basis risk, and AP fees, basket costs and settlement frictions, to spreads."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Opens by saying the quoted spread 'mainly reflects market makers' expected cost to hedge and, if needed, offload inventory'. This means the spread compensates MM costs. It gives no numerical levels and no ranking among drivers."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Says volume 'shows past secondary trading, not latent capacity'. It adds that 'a low-volume ETF with liquid holdings can quote tightly via primary-market arbitrage', which ties to creation/redemption and underlying liquidity. It also points to basket liquidity and displayed depth."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are fully covered. There is no explicit claim that volume caps liquidity and no denial that hedge or creation costs matter. The extra drivers (volatility, closed markets, borrow costs) are sound and allowed. No material falsehoods were found."
+}

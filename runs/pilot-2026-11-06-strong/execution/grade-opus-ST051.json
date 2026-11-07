@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST051",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer says APs 'aren't paid by the sponsor' and 'aren't obligated to create or redeem.' It adds that the AP agreement gives 'the right, not the duty' and that APs 'can step back at any time.' This covers both parts of the minimum: no automatic AP payment and no ongoing dealing duty."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Optional point. The answer says APs 'pay the fund a creation/redemption transaction fee,' so it treats the fee as an AP cost. It does not mention that sponsors may waive or subsidise the fee. This omission does not reduce the grade."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Optional point. The answer does not mention sponsor fee waivers on custom redemptions. This omission does not reduce the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "The single required point is fully covered. The answer correctly says AP status brings no sponsor payment and no duty to keep creating or redeeming. It does not say AP status mandates continuous dealing or carries an automatic fund retainer, so there is no central error. The remaining details are accurate or consistent with the rubric: compensation comes from arbitrage and dealing, the fee is paid by the AP, LMM incentives are kept separate from AP compensation, and some APs stepped back in March 2020. Leaving out the possibility of fee waivers is an omission, not a falsehood, and it concerns optional points only."
+}

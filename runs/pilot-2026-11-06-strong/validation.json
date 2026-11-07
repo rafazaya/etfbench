@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "tests": 6,
+  "ruff_check": "passed",
+  "ruff_format": "passed",
+  "diff_check": "passed",
+  "answer_count": 88,
+  "grader_calls": 88,
+  "independent_labels": 176,
+  "disagreements": 14,
+  "goldens_changed": false,
+  "packages_installed": false,
+  "simplify": "Reviewed all seven new Python files; reused existing audit/statistics/grade helpers, removed unused copied draft and grading branches and unused imports. No further simplifications proposed.",
+  "source_checks": [
+    {
+      "url": "https://www.law.cornell.edu/cfr/text/17/270.6c-11",
+      "sections": [
+        "a(1) custom baskets",
+        "b(4) foreign delivery",
+        "c(1) website disclosures",
+        "c(3) basket policies"
+      ]
+    },
+    {
+      "url": "https://www.law.cornell.edu/cfr/text/17/270.17f-2",
+      "sections": [
+        "a self-custody"
+      ]
+    },
+    {
+      "url": "https://www.centralbank.ie/docs/default-source/regulation/industry-market-sectors/funds/ucits/s-i-316-of-2026---central-bank-(supervision-and-enforcement)-act-2013-(section-48(1))-(undertakings-for-collective-investment-in-transferable-securities)-regul.pdf",
+      "sections": [
+        "Regulation 90(1)-(4), pp64-65 zero-indexed"
+      ]
+    }
+  ],
+  "knowledge_processed": "44 ETF reference records and calibrated minima, Rafa decisions, 88 fresh answers, 176 fresh independent grades, prior calibration grades, selected legal source checks"
+}

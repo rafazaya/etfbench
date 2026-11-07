@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST001",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Opens with 'No.' It says the principal underwriter is 'mainly a legal and operational role' and 'does not, by itself, provide wholesalers, a sales force or asset inflows.'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States 'Asset gathering is usually contracted separately.' It lists the adviser's sales team, third-party wholesalers, paid shelf access and revenue-sharing with intermediaries, and capital-markets support. It also notes that packages differ, with some bundled and some compliance-only."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered and there is no central error; the answer explicitly denies that appointment guarantees sales or assets. Ancillary statements are broadly accurate: FINRA Rule 2210 review, AP order processing and the named distributor examples. The line that intermediary approval and flows 'remain the adviser's job' does not claim every sponsor must employ its own sales team. It sits alongside third-party and bundled options, so it is not a material falsehood."
+}

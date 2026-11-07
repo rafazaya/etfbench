@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST024",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States fund-level redemptions occur in creation units through authorized participants, and retail investors instead sell through a broker on an exchange."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Explicitly says selling in the secondary market transfers ownership and does not redeem shares with the fund."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer correctly says No to direct retail redemption, so there is no central error. The ancillary claims about market price versus NAV, bid-ask spreads and brokerage charges are accurate, so there is no material local falsehood."
+}

@@ -1,0 +1,29 @@
+{
+  "blind_id": "ST059",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer names 'sampling/optimization deviations' and 'index-rebalance timing'. For pricing it gives 'mismatched valuation times, stale or fair-valued prices'. It also credits optional 'concentration constraints'."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "It lists 'cash balances', 'dividend-reinvestment timing', 'corporate actions', 'dividend adjustments' and 'dividend accruals' as causes."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "It states 'Stable expense drag primarily affects tracking difference; variable implementation effects drive tracking error.' It also lists 'fee accrual errors' as a variability driver and makes no contrary claim."
+    },
+    {
+      "point": 4,
+      "credit": 1,
+      "reason": "It defines tracking error as the standard deviation of daily fund-minus-benchmark returns and tracking difference as the gap between compounded period returns. On measurement alignment it covers 'mismatched valuation times', 'benchmark versions and total-return conventions', NAV versus market price, and annualizing only under the agreed convention."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All four required minimums are fully covered. The answer separates tracking error, as dispersion of daily active returns, from tracking difference, as the cumulative gap. It correctly attributes a stable fee drag to tracking difference rather than tracking error. No central or material local falsehood is present."
+}

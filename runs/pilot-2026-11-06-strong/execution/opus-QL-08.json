@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-08",
+  "tier": "B",
+  "answer": "**The creation/redemption arbitrage mechanism** keeps ETF prices aligned with NAV.\n\n**How it works:**\n- **Authorized Participants (APs)**, usually large broker-dealers, create or redeem ETF shares directly with the issuer in large blocks (\"creation units,\" often 10,000\u201350,000 shares).\n- **Premium (price > NAV):** APs buy the underlying securities, exchange them for new ETF shares, and sell those on the exchange. Added supply pushes the price down.\n- **Discount (price < NAV):** APs buy cheap ETF shares, redeem them for the underlying basket, and sell the basket. Reduced supply lifts the price.\n\n**Supporting factors:**\n- **Transparency:** Daily holdings disclosure and real-time iNAV help market makers price fair value.\n- **Competitive market makers** narrow spreads.\n- **Liquid underlying assets** make arbitrage cheap and fast.\n\n**When it weakens:** Premiums and discounts can widen with illiquid holdings (high-yield bonds, frontier markets), during market stress, or when underlying markets are closed.",
+  "original_answer": "**The creation/redemption arbitrage mechanism** keeps them aligned.\n\n**How it works:**\n- **Authorized Participants (APs)**, typically large broker-dealers, can create or redeem ETF shares directly with the issuer in large blocks (\"creation units,\" often 10,000\u201350,000 shares).\n- **Premium (price > NAV):** APs buy the underlying securities, deliver them to the issuer for new ETF shares, and sell those shares on the exchange. This adds supply and pushes the price down.\n- **Discount (price < NAV):** APs buy cheap ETF shares, redeem them for the underlying basket, and sell the basket. This reduces supply and lifts the price.\n\n**Supporting factors:**\n- **Intraday transparency.** Daily holdings disclosure and real-time iNAV estimates let market makers price fair value.\n- **Competitive market makers** narrow spreads.\n- **Liquid underlying assets** make arbitrage cheap and fast.\n\n**When it weakens:** For illiquid holdings (high-yield bonds, frontier markets), during market stress, or when underlying markets are closed, premiums and discounts can widen.",
+  "void": false,
+  "words_before": 153,
+  "words_after_shorten": 145,
+  "words_final": 145,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-t3p7mi56",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "What keeps an ETF's market price close to its underlying asset value?\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-08-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-ctpf87ao",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**The creation/redemption arbitrage mechanism** keeps them aligned.\n\n**How it works:**\n- **Authorized Participants (APs)**, typically large broker-dealers, can create or redeem ETF shares directly with the issuer in large blocks (\"creation units,\" often 10,000\u201350,000 shares).\n- **Premium (price > NAV):** APs buy the underlying securities, deliver them to the issuer for new ETF shares, and sell those shares on the exchange. This adds supply and pushes the price down.\n- **Discount (price < NAV):** APs buy cheap ETF shares, redeem them for the underlying basket, and sell the basket. This reduces supply and lifts the price.\n\n**Supporting factors:**\n- **Intraday transparency.** Daily holdings disclosure and real-time iNAV estimates let market makers price fair value.\n- **Competitive market makers** narrow spreads.\n- **Liquid underlying assets** make arbitrage cheap and fast.\n\n**When it weakens:** For illiquid holdings (high-yield bonds, frontier markets), during market stress, or when underlying markets are closed, premiums and discounts can widen."
+      ],
+      "stdout": "opus-QL-08-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

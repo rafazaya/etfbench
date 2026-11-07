@@ -1,0 +1,34 @@
+{
+  "blind_id": "ST049",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Lists the board of trustees, registered adviser, distributor/principal underwriter, custodian, administrator/accountant, transfer agent and independent auditor."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Covers AP agreements, exchange listing/lead market maker, DTC/NSCC eligibility and the basket/creation-redemption process (a PCF equivalent). Seed capital is not mentioned."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Includes fund and independent-trustee counsel and a Rule 2a-5 valuation designee (pricing/valuation support). Index licence and securities-lending agent appear under the 'Strategy-specific' heading, which marks them as conditional."
+    },
+    {
+      "point": 4,
+      "credit": 1,
+      "reason": "Says 'Service providers (often bundled)', 'often one bank', and that series-trust/white-label platforms can package the board, CCO, administration and distribution."
+    },
+    {
+      "point": 5,
+      "credit": 1,
+      "reason": "Names a CCO under Rule 38a-1 (the compliance program rule) and board approval of the advisory contract. Notes the CCO and board can be packaged by a platform."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error: the answer explicitly treats roles as bundleable, and it lists governance, custody and compliance. Four required points are fully covered. Point 2 is only half covered because seed capital is omitted, so not every required minimum is met. Coverage totals 4.5 of 5, which meets the partial threshold but not correct."
+}

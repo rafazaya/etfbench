@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST022",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer names the issuer website's daily holdings download as the starting point. It cites Rule 6c-11's requirement for daily holdings disclosure before trading opens. It states that holdings and transaction baskets 'can differ materially' and that the disclosure 'does not guarantee a free public PCF.'"
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "The answer says to contact the sponsor's capital-markets or creation/redemption desk, or a broker, AP or data vendor. It notes that 'retail access is not guaranteed,' so it makes no free public PCF promise. It never says that NSCC distributes the PCF through its participant workflow, which leaves this point incomplete."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Point 1 is fully covered. Point 2 gets half credit because the answer gives the sponsor/broker request route and avoids promising a free PCF, but omits the NSCC participant distribution mechanism. Total coverage is 1.5 of 2, which meets the half threshold. There is no central error and no material local falsehood. Because not every required minimum is fully covered, the grade is partial."
+}

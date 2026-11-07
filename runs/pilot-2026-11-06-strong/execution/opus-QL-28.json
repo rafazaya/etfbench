@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-28",
+  "tier": "C",
+  "answer": "**Stages (Section 6(c)/12(d)(1)/17(b) exemptive relief):** 1. **Application:** File on EDGAR under Rule 0-2, followed by staff comments and amendments. Standard review has no fixed deadline. Rule 0-5 sets a staff comment target, not a guarantee. 2. **Notice:** Once staff is satisfied, the SEC issues a notice (Federal Register/release) with a hearing-request deadline, typically about 25 days. 3. **Order:** If no hearing is requested, staff usually grants the order under delegated authority. If one is requested, the SEC may hold a hearing or decide the matter itself. **Rule 0-5(d) expedited review:** Available when the application is substantially identical to two precedent applications granted within the prior two years. It requires a marked comparison and a certification. Novel terms are ineligible. **The 45-day clock:** Notice is targeted within 45 days of filing. Staff can extend it, toll it for amendments, or move the application to standard review. It measures time to **notice**,",
+  "original_answer": "**Stages (Section 6(c)/12(d)(1)/17(b) exemptive relief):**\n\n1. **Application:** File on EDGAR under Rule 0-2. Staff comments, and amendments follow. Standard review has no fixed deadline; Rule 0-5 gives staff a target to comment, not a guarantee.\n2. **Notice:** Once staff is satisfied, the SEC issues a notice (Federal Register/release) with a hearing-request deadline, typically about 25 days.\n3. **Order:** If no hearing is requested, staff usually grants the order under delegated authority. If a hearing is requested, the SEC may hold one or decide the matter itself.\n\n**Rule 0-5(d) expedited review:** Available when the application is substantially identical to two precedent applications granted within the prior two years. The filing needs a marked comparison and a certification. Novel terms are ineligible.\n\n**The 45-day clock:** Notice is targeted within 45 days of filing. Staff can extend this, toll it for amendments, or move the application to standard review. It measures time to **notice**, not to the final order.",
+  "void": false,
+  "words_before": 156,
+  "words_after_shorten": 155,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-empv47w6",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, for a US ETF requesting relief not supplied by Rule 6c-11, describe application, notice and order stages. When is Rule 0-5 expedited review available, and what does its 45-day clock mean? Do not give a universal total approval time.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-28-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-nz69ag7k",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Stages (Section 6(c)/12(d)(1)/17(b) exemptive relief):**\n\n1. **Application:** File on EDGAR under Rule 0-2. Staff comments, and amendments follow. Standard review has no fixed deadline; Rule 0-5 gives staff a target to comment, not a guarantee.\n2. **Notice:** Once staff is satisfied, the SEC issues a notice (Federal Register/release) with a hearing-request deadline, typically about 25 days.\n3. **Order:** If no hearing is requested, staff usually grants the order under delegated authority. If a hearing is requested, the SEC may hold one or decide the matter itself.\n\n**Rule 0-5(d) expedited review:** Available when the application is substantially identical to two precedent applications granted within the prior two years. The filing needs a marked comparison and a certification. Novel terms are ineligible.\n\n**The 45-day clock:** Notice is targeted within 45 days of filing. Staff can extend this, toll it for amendments, or move the application to standard review. It measures time to **notice**, not to the final order."
+      ],
+      "stdout": "opus-QL-28-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

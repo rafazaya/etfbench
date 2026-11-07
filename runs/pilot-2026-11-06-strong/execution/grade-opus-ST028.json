@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST028",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that Rule 6c-11 covers ETFs organized as registered open-end management investment companies. It also lists unit-investment-trust ETFs as needing separate exemptive relief."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that leveraged and inverse ETFs 'can also rely on 6c-11; they are no longer categorically excluded' and 'must comply with applicable Rule 18f-4 requirements.'"
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Says nontransparent/semitransparent active ETFs and ETF share classes need separate exemptive relief. It also notes the daily portfolio transparency condition. Master-feeder structures are omitted, so the bundle is substantive but incomplete."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "No central error: the answer does not exclude leveraged/inverse ETFs, does not treat UITs as covered, and does not claim nontransparent ETFs or share classes avoid separate relief. The ancillary statements on 18f-4 grandfathering and commodity pools are not materially false. Coverage is 2.5 of 3 because master-feeder is missing from point 3, so not every required minimum is met. The grade is therefore partial."
+}

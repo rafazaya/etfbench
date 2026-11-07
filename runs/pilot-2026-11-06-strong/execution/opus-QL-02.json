@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-02",
+  "tier": "C",
+  "answer": "**ETF liquidation \u2260 losing everything.** When a US '40 Act ETF closes, the fund sells its holdings, pays expenses, and distributes remaining net assets pro rata to shareholders, usually in cash. Your loss is limited to any NAV decline. A total loss would require the underlying assets to become worthless, which is rare for diversified funds.\n\n**Amount:** You receive your share of NAV at liquidation, after costs, which may be above or below your purchase price.\n\n**Timing:** The sponsor announces a last trading day and a later distribution date. Schedules vary, so check the fund's notice or prospectus supplement. You can also sell on-exchange before delisting, possibly at wider spreads.\n\n**Taxes (taxable accounts):** Liquidation generally counts as a sale, realizing a short- or long-term capital gain or loss versus your cost basis. A final distribution may include separately taxed capital gains or income.",
+  "original_answer": "**ETF liquidation \u2260 losing everything.** When a US '40 Act ETF closes, the fund sells its holdings, pays expenses, and distributes the remaining net assets pro rata to shareholders, usually in cash. Your loss is limited to any decline in NAV. A total loss would require the underlying assets themselves to become worthless, which is rare for diversified funds.\n\n**Amount:** You receive your share of NAV at liquidation, after costs. That figure may be above or below your purchase price.\n\n**Timing:** The sponsor announces a last trading day and a later liquidation or distribution date. The schedule varies by fund, so check the fund's notice or prospectus supplement. You can also sell on-exchange before delisting, which may involve wider spreads.\n\n**Taxes (taxable accounts):** Liquidation generally counts as a sale. You realize a capital gain or loss versus your cost basis, short- or long-term depending on holding period. A final distribution may include separately taxed capital gains or income.",
+  "void": false,
+  "words_before": 158,
+  "words_after_shorten": 143,
+  "words_final": 143,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-vm4q62y2",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, what normally happens to a US '40 Act ETF investor's holding when the ETF liquidates? Distinguish receiving remaining proceeds from losing the whole investment, and address amount, timing and taxable-account consequences without assuming a fund-specific timetable.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-02-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-zuxvkl2s",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**ETF liquidation \u2260 losing everything.** When a US '40 Act ETF closes, the fund sells its holdings, pays expenses, and distributes the remaining net assets pro rata to shareholders, usually in cash. Your loss is limited to any decline in NAV. A total loss would require the underlying assets themselves to become worthless, which is rare for diversified funds.\n\n**Amount:** You receive your share of NAV at liquidation, after costs. That figure may be above or below your purchase price.\n\n**Timing:** The sponsor announces a last trading day and a later liquidation or distribution date. The schedule varies by fund, so check the fund's notice or prospectus supplement. You can also sell on-exchange before delisting, which may involve wider spreads.\n\n**Taxes (taxable accounts):** Liquidation generally counts as a sale. You realize a capital gain or loss versus your cost basis, short- or long-term depending on holding period. A final distribution may include separately taxed capital gains or income."
+      ],
+      "stdout": "opus-QL-02-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

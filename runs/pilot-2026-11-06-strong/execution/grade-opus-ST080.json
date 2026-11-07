@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST080",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States APs 'aren't paid by the ETF sponsor simply for being APs' and 'generally aren't required to keep creating or redeeming'; agreements authorize but do not impose a continuous obligation. Also notes dealer-style earnings (spreads, arbitrage) and agency-style client fees."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Optional point. The answer says APs 'often pay creation/redemption transaction fees', so it treats the fee as an AP cost. It does not mention waivers or subsidies. This does not affect the grade."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Optional supporting detail on sponsors waiving fees on custom redemptions is not mentioned. This does not affect the grade."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "The only required point is fully covered: there is no automatic payment for AP status and no ongoing dealing duty. The answer makes no central error. It does not claim continuous dealing is mandated or that APs receive a fund retainer. The caveats it adds are accurate: specific arrangements can differ, accepted orders carry settlement obligations, and AP and market-maker roles are separate, with quoting obligations attaching to market making. Omitting the optional points does not reduce the grade."
+}

@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST032",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that an in-kind ETF delivers securities to redeeming APs and that, under IRC \u00a7852(b)(6), the RIC generally recognizes no gain on that redemption distribution."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says delivering low-basis shares 'removes embedded gains without realizing them inside the fund'. Contrasts this with mutual funds selling appreciated stocks for cash redemptions, producing gains distributed to remaining holders, so fewer future distributions follow."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Says the benefit 'generally defers investor tax, rather than eliminating it'. Notes that selling ETF shares can trigger capital-gains tax, that ETFs can still distribute gains, and that the mechanism, not the ETF label, matters."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are fully covered with accurate mechanism and limits. There is no central error: the answer never claims universal exemption and never says in-kind redemptions necessarily recognize gains. Ancillary statements about dividends, loss offsets, mutual fund in-kind use and tax-deferred accounts are accurate."
+}

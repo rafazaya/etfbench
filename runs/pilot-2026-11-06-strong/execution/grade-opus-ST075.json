@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST075",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer asks for the adviser's documented analysis of causes and lists corrective options: custom baskets, cash-in-lieu, fees, AP/MM recruitment, fair-value procedures and disclosure. It compares the pattern against similar ETFs and index futures. It also reviews AP count, creation/redemption volumes, balance-sheet constraints and lead market maker quoting quality."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "It covers NAV timing against the official closing auction, stale or fair-valued prices and late corporate actions. It names underlying trading frictions, including illiquid or hard-to-borrow constituents, wide spreads and short-sale constraints. It names creation impediments, including basket mismatches, fee or cutoff changes and AP constraints. It presents several candidate explanations rather than a single presumed cause."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer frames the review as ruling out measurement and friction explanations before concluding that arbitrage has failed, so it does not claim persistent deviation alone proves failure. The final fragment, 'Under Rule 6c-11, a premium or discount above 2%', is cut off and makes no explicit claim that 2% is a mandatory intervention trigger. Under the rubric, an incomplete statement is not treated as a falsehood, so no central or local error applies."
+}

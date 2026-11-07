@@ -1,0 +1,29 @@
+{
+  "blind_id": "ST002",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Names sampling/optimization versus full replication, rebalance and index-change timing (early/late trades, missed adds/deletes), and pricing differences (pricing sources and close times, fair-value or stale-price adjustments)."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Names 'Cash drag from uninvested dividends or flows'. It also covers dividend ex-date accrual and reinvestment assumptions, and corporate actions."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Lists 'Fee/expense accrual misstatements' as a variability driver alongside cash, trading and pricing effects. It makes no claim that a constant fee raises the standard deviation, which meets minimum (b)."
+    },
+    {
+      "point": 4,
+      "credit": 0.5,
+      "reason": "Defines tracking error as the annualized standard deviation of daily NAV total-return differences. It addresses measurement alignment: correct gross/net index variant, aligned dates and holidays, and NAV rather than market price. It never mentions tracking difference or the cumulative period gap, so the required distinction is only implicit."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Points 1-3 are fully covered and point 4 is half covered because tracking difference is never contrasted with tracking error. Required coverage is 3.5 of 4. There is no central error and no material falsehood. Not every required minimum is fully met, so the grade is partial."
+}

@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-29",
+  "tier": "C",
+  "answer": "**Suggested board inquiries (not a mandatory approval standard):**\n\n**Selection**\n- Why this exchange and LMM? What alternatives were weighed, and on what criteria (spreads, quoting obligations, fees, incentives)?\n- Any conflicts, such as affiliations, revenue sharing or listing-related payments?\n- What exchange LMM obligations apply, and what are the performance metrics and exit or replacement terms?\n\n**Relevant-market expertise**\n- Can the LMM demonstrably hedge and price the underlying assets (e.g., foreign, fixed income, derivatives, illiquid holdings)?\n- How does it perform during stress, halts or closed underlying markets?\n- Is it an authorized participant, or does it rely on others for creations and redemptions?\n\n**Capital and seed**\n- How much LMM seed is planned, for how long, and on what redemption terms?\n- What asset level is expected after the seed leaves?\n- How will disclosures and viability assessments avoid treating temporary market-maker seed as lasting investor demand?",
+  "original_answer": "**Suggested board inquiries (not a mandatory approval standard):**\n\n**Selection**\n- Why this exchange and LMM? What alternatives were considered, and on what criteria (spreads, quoting obligations, fees, incentive programs)?\n- Are there conflicts, such as affiliations, revenue sharing or payments tied to the listing?\n- What exchange LMM obligations apply, and what are the performance metrics and exit or replacement terms?\n\n**Relevant-market expertise**\n- Does the LMM have demonstrated capacity to hedge and price the underlying assets (for example, foreign, fixed income, derivatives or illiquid holdings)?\n- How does it perform during stress, halts or closed underlying markets?\n- Is it an authorized participant, or does it rely on others to create and redeem?\n\n**Capital and seed**\n- How much LMM seed is planned, how long will it stay and under what redemption terms?\n- What is the expected asset level once the seed leaves?\n- How will disclosures and viability assessments avoid treating temporary market-maker seed as lasting investor demand?",
+  "void": false,
+  "words_before": 161,
+  "words_after_shorten": 148,
+  "words_final": 148,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-jabkhv0c",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a US ETF board's diligence on a proposed exchange/LMM arrangement, what questions should it ask about selection, relevant-market expertise and capital or seed support? Distinguish temporary market-maker seed from lasting investor assets; treat the checklist as suggested inquiry rather than a mandatory approval rule.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-29-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-a1fq2slo",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Suggested board inquiries (not a mandatory approval standard):**\n\n**Selection**\n- Why this exchange and LMM? What alternatives were considered, and on what criteria (spreads, quoting obligations, fees, incentive programs)?\n- Are there conflicts, such as affiliations, revenue sharing or payments tied to the listing?\n- What exchange LMM obligations apply, and what are the performance metrics and exit or replacement terms?\n\n**Relevant-market expertise**\n- Does the LMM have demonstrated capacity to hedge and price the underlying assets (for example, foreign, fixed income, derivatives or illiquid holdings)?\n- How does it perform during stress, halts or closed underlying markets?\n- Is it an authorized participant, or does it rely on others to create and redeem?\n\n**Capital and seed**\n- How much LMM seed is planned, how long will it stay and under what redemption terms?\n- What is the expected asset level once the seed leaves?\n- How will disclosures and viability assessments avoid treating temporary market-maker seed as lasting investor demand?"
+      ],
+      "stdout": "opus-QL-29-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

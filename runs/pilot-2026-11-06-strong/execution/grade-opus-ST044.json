@@ -1,0 +1,29 @@
+{
+  "blind_id": "ST044",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Covers shared burdens in both directions. MF-to-ETF burdens include commissions, spreads, market impact and gains distributed to both classes. ETF-to-MF burdens include trading costs and portfolio drift. Cash drag is listed under monitoring."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Gives a concrete mechanism for each direction, labeled 'Conceptual examples (not regulatory text)'. (a) MF cash purchases and redemptions force trading and realize gains distributed to both classes. (b) ETF cash creations or custom baskets shift trading costs or drift onto MF holders. It calls in-kind low-basis shedding 'a tax benefit shared unevenly', not a harmful subsidy."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Separately lists transaction-cost, cash and gains monitoring categories. It states the board approves policies, and that 'Metrics, frequency and escalation triggers are fund-specific; no universal thresholds apply.' This is equivalent to board-set methods, periods and thresholds with no universal numbers."
+    },
+    {
+      "point": 4,
+      "credit": 0.5,
+      "reason": "Mentions 'escalation triggers' and periodic adviser reporting, which implies notice and assessment. It never states that a breach prompts assessment rather than automatic illegality or closure."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Points 1-3 are fully covered with conceptual examples properly separated from the order framework, and no universal thresholds are invented. Point 4 is only implied through 'escalation triggers' and is not stated. There is no central error, since gain removal is not called harmful and closure is not claimed, and no material local falsehood. Coverage is 3.5/4, so not every required minimum is fully met, which gives partial."
+}

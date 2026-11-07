@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-21",
+  "tier": "A",
+  "answer": "**Economic shortfall:** The **brand sponsor** bears it. In the typical white-label series-trust structure (e.g., Tidal, ETF Series Solutions, Exchange Traded Concepts), the trust's adviser charges the fund a single unitary fee. A separate sponsorship or expense agreement has the brand sponsor (often also the sub-adviser) pay the fund's operating expenses and fee splits, keeping any residual. When assets are small and fee revenue doesn't cover fixed costs, the sponsor absorbs the loss.\n\n**If the sponsor fails to pay:** The **trust's investment adviser** remains liable. Having signed the advisory agreement with the fund, it is still contractually obligated to pay the fund's expenses under the unitary fee. Fund disclosures typically state this obligation holds regardless of the sponsor arrangement. Shareholders are thus insulated. The adviser carries the counterparty risk against the sponsor and may seek to liquidate or reorganize the fund.",
+  "original_answer": "**Economic shortfall:** The **brand sponsor** bears it. In the typical white-label series-trust structure (e.g., Tidal, ETF Series Solutions, Exchange Traded Concepts), the trust's adviser charges the fund a single unitary fee. A separate sponsorship or expense agreement then has the brand sponsor (often also the sub-adviser) pay the fund's operating expenses and its fee splits. In return, the sponsor keeps any residual. When assets are small, fee revenue may not cover the fixed costs, and the sponsor absorbs that loss.\n\n**If the sponsor fails to pay:** The **trust's investment adviser** is still liable. It signed the advisory agreement with the fund, so its contractual duty to pay the fund's expenses under the unitary fee continues. Fund disclosures typically state that the adviser remains obligated whatever happens under its arrangement with the sponsor. Shareholders are therefore insulated. The adviser carries counterparty risk against the sponsor and may seek to liquidate or reorganize the fund.",
+  "void": false,
+  "words_before": 153,
+  "words_after_shorten": 140,
+  "words_final": 140,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-owx83g10",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, in the US series-trust unitary-fee contractual-partner model where the brand sponsor assumes expenses, who bears the economic shortfall when assets are too small, and who still owes expenses to the fund if the sponsor fails to pay?\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-21-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-5tk6ez1e",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Economic shortfall:** The **brand sponsor** bears it. In the typical white-label series-trust structure (e.g., Tidal, ETF Series Solutions, Exchange Traded Concepts), the trust's adviser charges the fund a single unitary fee. A separate sponsorship or expense agreement then has the brand sponsor (often also the sub-adviser) pay the fund's operating expenses and its fee splits. In return, the sponsor keeps any residual. When assets are small, fee revenue may not cover the fixed costs, and the sponsor absorbs that loss.\n\n**If the sponsor fails to pay:** The **trust's investment adviser** is still liable. It signed the advisory agreement with the fund, so its contractual duty to pay the fund's expenses under the unitary fee continues. Fund disclosures typically state that the adviser remains obligated whatever happens under its arrangement with the sponsor. Shareholders are therefore insulated. The adviser carries counterparty risk against the sponsor and may seek to liquidate or reorganize the fund."
+      ],
+      "stdout": "opus-QL-21-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

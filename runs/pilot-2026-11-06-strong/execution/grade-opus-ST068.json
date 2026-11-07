@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST068",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that open-end index and fully transparent active ETFs can rely on the rule and lists UIT ETFs under 'Need separate exemptive relief'."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Lists leveraged/inverse ETFs under the rule, notes the 2020 release removed their exclusion and rescinded their orders, and says they must comply with Rule 18f-4."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Covers non-transparent/semi-transparent active ETFs and ETF share classes needing separate orders, and the daily holdings disclosure condition. It omits master-feeder structures, so the bundle is incomplete."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error. UITs are correctly placed outside the rule, leveraged/inverse ETFs are not categorically excluded, and non-transparent ETFs and share classes are correctly said to need separate relief. The ancillary 18f-4 details (VaR limit, grandfathering, late-2025 staff letters) cannot be refuted from the supplied evidence, so they are not treated as falsehoods. The required-point total is 2.5 of 3 because master-feeder is missing from point 3, so not every required minimum is fully covered. The truncated ending ('My knowledge runs') does not remove any substantive content."
+}

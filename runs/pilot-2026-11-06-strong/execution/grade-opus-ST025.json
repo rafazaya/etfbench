@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST025",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that constituent spreads, depth and market impact, hedge cost and basis risk, and AP basket-execution costs and fees affect the cost of supplying liquidity and so influence quotes."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Frames the quoted spread as reflecting 'the cost and risk of supplying liquidity', with hedging and creation/redemption costs feeding into quotes. It does not rank drivers or give numerical spread levels."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Says volume records only past secondary trading, not full capacity, and that 'a lightly traded ETF may access substantial liquidity through its underlying basket and creation/redemption mechanism'. It adds executable spread, depth and trade-size caveats."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are fully covered, with the required creation/redemption and underlying-market link for the volume point. There is no hard-cap claim and no denial of cost effects, and no material falsehood."
+}

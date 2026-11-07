@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-25",
+  "tier": "C",
+  "answer": "**Rule 6c-11 website disclosures (public, free, as of 2026-11-06)** **Portfolio holdings (daily):** Before the primary exchange opens each business day, post the full holdings used for that day's NAV, each with ticker, CUSIP or other identifier, description, quantity, and percentage weight. **Daily data (prior business day):** NAV, market price (closing price or NBBO midpoint), and premium/discount. **History:** A table or chart of daily premiums/discounts for the most recent calendar year plus completed quarters since. Younger funds show their full life. **Spread:** Median bid-ask spread over the most recent 30 days. **Sustained deviation:** If the premium/discount exceeds 2% for over seven consecutive trading days, post that fact and the factors believed to have materially contributed, by the next trading day, for at least one year. **Baskets:** No daily publication required. ETFs need basket policies and procedures and must keep AP basket records, including custom-basket documentation, for five years. Holdings and baskets",
+  "original_answer": "**Rule 6c-11 website disclosures (public, free, as of 2026-11-06)**\n\n**Portfolio holdings (daily):** Before the primary exchange opens each business day, post the full holdings used for that day's NAV. Each holding needs a ticker, CUSIP or other identifier, description, quantity, and percentage weight.\n\n**Daily data (prior business day):** NAV, market price (closing price or NBBO midpoint), and the premium/discount.\n\n**History:** A table or chart of daily premiums/discounts covering the most recent calendar year and the calendar quarters completed since then. Funds younger than that show their full life.\n\n**Spread:** The median bid-ask spread over the most recent 30 days.\n\n**Sustained deviation:** If the premium/discount exceeds 2% for more than seven consecutive trading days, post that fact and the factors believed to have materially contributed. This is due the next trading day and must stay posted at least one year.\n\n**Baskets:** Daily publication is not required. ETFs need basket policies and procedures and must keep records of AP baskets, including custom-basket documentation, for five years. Holdings and baskets can differ.",
+  "void": false,
+  "words_before": 169,
+  "words_after_shorten": 152,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-naht5902",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, what public, free website holdings, price/NAV, premium/discount and spread disclosures does a US Rule 6c-11 ETF need, including timing/history and the sustained-deviation explanation? Distinguish portfolio holdings from transaction baskets.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-25-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-_napwykv",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Rule 6c-11 website disclosures (public, free, as of 2026-11-06)**\n\n**Portfolio holdings (daily):** Before the primary exchange opens each business day, post the full holdings used for that day's NAV. Each holding needs a ticker, CUSIP or other identifier, description, quantity, and percentage weight.\n\n**Daily data (prior business day):** NAV, market price (closing price or NBBO midpoint), and the premium/discount.\n\n**History:** A table or chart of daily premiums/discounts covering the most recent calendar year and the calendar quarters completed since then. Funds younger than that show their full life.\n\n**Spread:** The median bid-ask spread over the most recent 30 days.\n\n**Sustained deviation:** If the premium/discount exceeds 2% for more than seven consecutive trading days, post that fact and the factors believed to have materially contributed. This is due the next trading day and must stay posted at least one year.\n\n**Baskets:** Daily publication is not required. ETFs need basket policies and procedures and must keep records of AP baskets, including custom-basket documentation, for five years. Holdings and baskets can differ."
+      ],
+      "stdout": "opus-QL-25-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

@@ -1,0 +1,838 @@
+{
+  "ST001": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "Separates legal distributor from separately contracted sales and access."
+  ],
+  "ST002": [
+    [
+      1,
+      1,
+      1,
+      0.5
+    ],
+    null,
+    null,
+    "Detailed variability causes and alignment; does not define cumulative tracking difference."
+  ],
+  "ST003": [
+    [
+      1,
+      0.5,
+      0.5
+    ],
+    null,
+    "Seeders usually exit after 6\u201312 months is an unsupported general timetable; dollar break-even ranges lack a retained-margin assumption.",
+    "Subsidy identified but capacity/willingness thin; temporary versus investor seed distinction incomplete."
+  ],
+  "ST004": [
+    [
+      1,
+      0.5,
+      1
+    ],
+    null,
+    null,
+    "US distributor and beneficiary right; transfer-agent acceptance missing."
+  ],
+  "ST005": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "Annual rate accrued daily within fund NAV."
+  ],
+  "ST006": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "Creation liquidity and spreads/depth, holdings and active intermediaries covered."
+  ],
+  "ST007": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "Cash funds derivative trading; contrasts costs and tax with in-kind."
+  ],
+  "ST008": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "Creation mechanics plus underlying markets, depth and market makers."
+  ],
+  "ST009": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "Separate fund custody, replacement and liquidation with no guarantee."
+  ],
+  "ST010": [
+    [
+      1,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Shared low-basis removal, cash-redemption gains and conditional flows."
+  ],
+  "ST011": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "Contract, naming, affiliated controls and contingent substitution covered."
+  ],
+  "ST012": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "All licence diligence categories and contingent renewal addressed."
+  ],
+  "ST013": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "Contemporaneous valuations, peers, frictions and actual arbitrage activity plus remedies."
+  ],
+  "ST014": [
+    [
+      1,
+      0.5,
+      0.5
+    ],
+    null,
+    null,
+    "Rule eligibility sound; reviewed beneficiary/TA distinction and non-MM qualification missing."
+  ],
+  "ST015": [
+    [
+      1,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Adviser fee and obligation; sponsor contracted residual and shortfall."
+  ],
+  "ST016": [
+    [
+      0.5,
+      0.5,
+      0
+    ],
+    null,
+    null,
+    "Omits KID/marketing, 30-business-day publication, position quantities and iNAV-method disclosures."
+  ],
+  "ST017": [
+    [
+      0.5,
+      0,
+      1
+    ],
+    null,
+    null,
+    "No days-count table or NBBO median method; holdings timing imprecise; history and free access covered."
+  ],
+  "ST018": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "Operational cash need and explicit fund cost/in-kind benefit contrast."
+  ],
+  "ST019": [
+    [
+      0.5
+    ],
+    null,
+    "Two years is incorrect: precedents must be within three years.",
+    "Stages and comparison/certification present; clock and eligibility details incomplete. No guaranteed final relief asserted."
+  ],
+  "ST020": [
+    [
+      0.5,
+      0.5,
+      1
+    ],
+    null,
+    null,
+    "Seed distinction and cost categories/formula; legal-minimum contrast absent, adviser obligation not allocated."
+  ],
+  "ST021": [
+    [
+      1,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Permitted rule parties, AP/distributor, TA acknowledgment, trust beneficiary and ICAV direct contract."
+  ],
+  "ST022": [
+    [
+      1,
+      0.5
+    ],
+    null,
+    null,
+    "Holdings distinct from baskets and request channels; NSCC participant workflow not explained."
+  ],
+  "ST023": [
+    [
+      1
+    ],
+    null,
+    null,
+    "All four categories, specified ownership affiliates and foreign 15-day cap."
+  ],
+  "ST024": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "AP creation units versus ordinary broker sale."
+  ],
+  "ST025": [
+    [
+      1,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Spread compensates underlying and hedge/create costs; underlying basket supplies latent liquidity."
+  ],
+  "ST026": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "75-day additional-series clock and operational/new-trust distinction."
+  ],
+  "ST027": [
+    [
+      1,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Underlying, hedge and primary arbitrage costs with volume caveat."
+  ],
+  "ST028": [
+    [
+      1,
+      1,
+      0.5
+    ],
+    null,
+    null,
+    "Master-feeder exclusion absent; leverage and other structure distinctions correct."
+  ],
+  "ST029": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "Legal and commercial distribution clearly separated."
+  ],
+  "ST030": [
+    [
+      1,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Shared-board oversight and platform constraints concretely distinguish control."
+  ],
+  "ST031": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "Annual ratio accrued daily in NAV, no direct bill."
+  ],
+  "ST032": [
+    [
+      1,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Low-basis gain removal, mutual-fund sales and investor tax limits."
+  ],
+  "ST033": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "75-day series amendment, separate initial trust and operational launch."
+  ],
+  "ST034": [
+    [
+      1,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Complete basket records and both five/two retention categories."
+  ],
+  "ST035": [
+    [
+      1,
+      1
+    ],
+    null,
+    "The site must also show ... basket policies is not a public-posting requirement.",
+    "NSCC and sponsor request route correct; false side-point mandate caps partial."
+  ],
+  "ST036": [
+    [
+      1,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Creation issues, redemption cancels, secondary transfers do not change count."
+  ],
+  "ST037": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "115% missing-securities cash collateral, agreement-specific; uncertainty does not negate facts."
+  ],
+  "ST038": [
+    [
+      0.5
+    ],
+    null,
+    "Clock pauses and resumes 14 days after a responsive amendment is not the rule; 14 days concerns applicant response.",
+    "Correct broad stages and two precedents/three years; certification/request incomplete. Literal anchor does not make wrong clock a central error."
+  ],
+  "ST039": [
+    [
+      0.5,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Basket percentage weights omitted; retention of baskets and AP agreements sound."
+  ],
+  "ST040": [
+    [
+      1,
+      0.5
+    ],
+    null,
+    null,
+    "Selection and capital diligence complete; temporary seed identified but stickier investor seed not explained."
+  ],
+  "ST041": [
+    [
+      0.5,
+      0.5,
+      0.5
+    ],
+    null,
+    null,
+    "Policy and arbitrage distinction correct but document placements, 30-business-day condition, quantities and methodology not supplied."
+  ],
+  "ST042": [
+    [
+      1,
+      0.5
+    ],
+    null,
+    null,
+    "Risks and indemnity sound; UCITS-specific haircut requirement omitted from otherwise detailed list."
+  ],
+  "ST043": [
+    [
+      0.5
+    ],
+    null,
+    null,
+    "Mixed umbrella/class mechanism sound; full prescribed identifier document placements omitted."
+  ],
+  "ST044": [
+    [
+      1,
+      1,
+      1,
+      0
+    ],
+    null,
+    null,
+    "Both directions and fund-specific monitoring; breach notification/assessment omitted."
+  ],
+  "ST045": [
+    [
+      1,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Full arbitrage directions with no equality guarantee."
+  ],
+  "ST046": [
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Policies, parameters, reviewer roles and correct custom/nonstandard distinction."
+  ],
+  "ST047": [
+    [
+      1,
+      0.5,
+      0.5,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Seed and explicit pricing arrangements omitted; otherwise detailed core roles."
+  ],
+  "ST048": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "Primary/secondary, overlap and non-AP access link covered."
+  ],
+  "ST049": [
+    [
+      1,
+      0.5,
+      0.5,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Seed and pricing source arrangements absent; roles and conditional program categories mostly covered."
+  ],
+  "ST050": [
+    [
+      1,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Arbitrage in both directions and widening qualifications establish no guaranteed equality."
+  ],
+  "ST051": [
+    [
+      1
+    ],
+    null,
+    "APs are not paid by the sponsor overstates no automatic payment; separate contractual arrangements are possible.",
+    "No dealing duty correct; categorical pay denial a side-point false rule under calibrated local-error policy."
+  ],
+  "ST052": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "Sponsor losses and continuing adviser obligation explicitly correct."
+  ],
+  "ST053": [
+    [
+      0.5,
+      0.5
+    ],
+    null,
+    null,
+    "Both cutoffs named but class-level qualifier absent; old/new distinction lacks clear confined-exception/no-waiver statement."
+  ],
+  "ST054": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "Notice-specific restricted account until transfer plus potentially taxable fractional cash."
+  ],
+  "ST055": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "Overlap and inventory/creation linkage clear."
+  ],
+  "ST056": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "Selection, underlying expertise, temporary seed and persistence of investor assets."
+  ],
+  "ST057": [
+    [
+      0.5,
+      1
+    ],
+    null,
+    null,
+    "Remaining net proceeds, timing and tax sound; option to sell before liquidation omitted."
+  ],
+  "ST058": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "Contracted sponsor economic gap and continuing adviser obligation."
+  ],
+  "ST059": [
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    null,
+    null,
+    "All portfolio/pricing/cash/variable-expense and measurement distinctions covered."
+  ],
+  "ST060": [
+    [
+      0.5
+    ],
+    null,
+    "Identifier then goes in class names not sub-fund name incorrectly forbids the sub-fund option.",
+    "Document placements and mixed umbrella sound; class-only prohibition local under R32."
+  ],
+  "ST061": [
+    [
+      0.5
+    ],
+    null,
+    null,
+    "Four categories and 15-day ceiling; as-soon-as-practicable condition missing."
+  ],
+  "ST062": [
+    [
+      1,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Shared cost infrastructure, host board/adviser oversight and conditional fit."
+  ],
+  "ST063": [
+    [
+      1,
+      0.5,
+      1
+    ],
+    null,
+    null,
+    "Correct cost categories and recipients; waiver/third-party payment caveat omitted."
+  ],
+  "ST064": [
+    [
+      1,
+      0.5,
+      0.5
+    ],
+    null,
+    null,
+    "Rule eligibility correct; reviewed trust beneficiary/TA acceptance not identified; not necessarily MM omitted."
+  ],
+  "ST065": [
+    [
+      1
+    ],
+    null,
+    null,
+    "All eight disclosure comparisons including brokerage costs/routes supplied."
+  ],
+  "ST066": [
+    [
+      1,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Actual economics, willingness/capacity and temporary versus investor capital covered."
+  ],
+  "ST067": [
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    null,
+    "Generally capped at actual costs or a disclosed ceiling is not the stated non-excessive-cost rule.",
+    "Exceptional route and protections covered; extra unsupported cost cap localized."
+  ],
+  "ST068": [
+    [
+      1,
+      1,
+      0.5
+    ],
+    null,
+    null,
+    "Master-feeder exclusion absent; leverage and other exclusions supplied."
+  ],
+  "ST069": [
+    [
+      1,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Low-basis in-kind transfer and tax limits fully covered."
+  ],
+  "ST070": [
+    [
+      1,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Fee residual, sponsor shortfall and adviser obligation correct."
+  ],
+  "ST071": [
+    [
+      1,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Shared gains removal, cash sale limits and conditional relief."
+  ],
+  "ST072": [
+    [
+      1,
+      1
+    ],
+    null,
+    "Rule 17f-2 concerns self-custody rather than independent-custodian custody; liquidation forces a taxable cash-out overgeneralizes.",
+    "Core separation/custody and replacement sound; ancillary legal/tax assertions cap partial."
+  ],
+  "ST073": [
+    [
+      1,
+      1,
+      0.5,
+      0
+    ],
+    null,
+    null,
+    "Both conceptual directions covered; framework lacks thresholds/methods/periods detail and breach notice/assessment."
+  ],
+  "ST074": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "Creation-unit/AP redemption distinct from retail sale at market."
+  ],
+  "ST075": [
+    [
+      1,
+      0.5
+    ],
+    null,
+    null,
+    "Broad inquiry and remedies; contemporaneous underlying market-hours mismatch not explicit."
+  ],
+  "ST076": [
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    null,
+    null,
+    "All exception, market notification, prospectus/cost and ordinary-AP contrasts."
+  ],
+  "ST077": [
+    [
+      1,
+      0.5,
+      1
+    ],
+    null,
+    null,
+    "Fixed/variable costs and recipient contrast; waiver or sponsor payment caveat absent."
+  ],
+  "ST078": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "Notice-dependent account transfer, trading restriction and taxable fractions."
+  ],
+  "ST079": [
+    [
+      0.5,
+      1
+    ],
+    null,
+    "Up to 115% misstates the reviewed collateral example as ceiling.",
+    "Missing-securities base and agreement variation correct; R26 expressly partial cap."
+  ],
+  "ST080": [
+    [
+      1
+    ],
+    null,
+    null,
+    "No automatic pay/dealing duty; commercial arrangements and accepted orders distinguished."
+  ],
+  "ST081": [
+    [
+      0.5,
+      0.5,
+      0.5
+    ],
+    null,
+    null,
+    "No explicit prior-close holdings, NBBO method or shorter-life history; major disclosure features covered."
+  ],
+  "ST082": [
+    [
+      0.5,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Seed capital separate and payer categories/break-even sound; legal minimum versus budget missing."
+  ],
+  "ST083": [
+    [
+      1
+    ],
+    null,
+    null,
+    "Coexistence plus all comparison categories; broker route clear from exchange/primary dealing and brokerage."
+  ],
+  "ST084": [
+    [
+      1,
+      1
+    ],
+    null,
+    null,
+    "Both express class-level/cash exceptions and older waiver distinction with narrow deadline scope."
+  ],
+  "ST085": [
+    [
+      1,
+      1,
+      1
+    ],
+    null,
+    null,
+    "Correct issuance/cancellation and secondary-market invariance."
+  ],
+  "ST086": [
+    [
+      1,
+      1
+    ],
+    null,
+    "Total loss would require underlying assets worthless excludes liabilities and costs exhausting remaining equity.",
+    "Pro-rata net proceeds, sale timing and taxes sound; absolute side assertion caps partial."
+  ],
+  "ST087": [
+    [
+      1,
+      1,
+      1,
+      0.5
+    ],
+    null,
+    "Custom basket equated with non-pro-rata slice; not all non-pro-rata baskets are custom.",
+    "Correct policies/roles and distinction from operational orders; localized definition error under R17."
+  ],
+  "ST088": [
+    [
+      0.5,
+      1
+    ],
+    null,
+    null,
+    "US example does not distinguish indemnity coverage from reinvestment exclusion; UCITS categories/recall/reinvestment covered."
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-26",
+  "tier": "B",
+  "answer": "Under **Rule 6c-11(d)**, an ETF must keep:\n\n**1. Authorized participant agreements**\n- All written agreements (or copies) between an AP and the ETF or its service providers allowing the AP to place creation or redemption orders.\n\n**2. Basket records, for each creation unit purchased or redeemed**\n- Names and quantities of basket positions exchanged.\n- Whether it was a **custom basket**, with a record that it complied with the ETF's custom-basket policies and procedures under Rule 6c-11(c)(3).\n- Any cash balancing amount.\n- The identity of the transacting AP.\n\n**Retention period**\n- At least **five years**, the **first two** in an **easily accessible place**.\n\nTo my knowledge, these requirements are unchanged since the rule's 2019 adoption. Check for recent SEC amendments before relying on this.",
+  "original_answer": "Under **Rule 6c-11(d)**, an ETF must keep the following records.\n\n**1. Authorized participant agreements**\n- All written agreements, or copies, between an AP and the ETF or one of its service providers that allow the AP to place creation or redemption orders.\n\n**2. Basket records, for each creation unit purchased or redeemed**\n- The names and quantities of the positions in the basket exchanged.\n- Whether the basket was a **custom basket**, and a record stating that it complied with the ETF's custom-basket policies and procedures under Rule 6c-11(c)(3).\n- Any cash balancing amount.\n- The identity of the AP transacting with the ETF.\n\n**Retention period**\n- The records must be kept for **at least five years**.\n- For the **first two years**, they must be in an **easily accessible place**.\n\nTo my knowledge, these requirements are unchanged since the rule was adopted in 2019. Check for any recent SEC amendments before relying on this.",
+  "void": false,
+  "words_before": 155,
+  "words_after_shorten": 125,
+  "words_final": 125,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-f4yprygo",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, what AP-agreement and exchanged-basket records must a US ETF preserve under Rule 6c-11(d), and for how long must they be retained and readily accessible?\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-26-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-mmcsqspm",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\nUnder **Rule 6c-11(d)**, an ETF must keep the following records.\n\n**1. Authorized participant agreements**\n- All written agreements, or copies, between an AP and the ETF or one of its service providers that allow the AP to place creation or redemption orders.\n\n**2. Basket records, for each creation unit purchased or redeemed**\n- The names and quantities of the positions in the basket exchanged.\n- Whether the basket was a **custom basket**, and a record stating that it complied with the ETF's custom-basket policies and procedures under Rule 6c-11(c)(3).\n- Any cash balancing amount.\n- The identity of the AP transacting with the ETF.\n\n**Retention period**\n- The records must be kept for **at least five years**.\n- For the **first two years**, they must be in an **easily accessible place**.\n\nTo my knowledge, these requirements are unchanged since the rule was adopted in 2019. Check for any recent SEC amendments before relying on this."
+      ],
+      "stdout": "opus-QL-26-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

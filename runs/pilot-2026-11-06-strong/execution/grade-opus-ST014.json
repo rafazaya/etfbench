@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST014",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that an AP must be a member or participant of an SEC-registered clearing agency and have a written agreement with the ETF or one of its service providers to place creation and redemption orders."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Names the AP and distributor as common counterparties. It omits the transfer agent's countersignature and the trust's status as third-party beneficiary, and says it cannot identify the reviewed forms' parties."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Says only that forms 'may impose more specific NSCC/DTC eligibility.' It does not describe NSCC netting membership for the clearing process versus DTC participation outside it, and does not say eligibility differs from market-maker status."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Required coverage is 2.0 of 3, which meets the half threshold. There is no central error: 'the trust/fund may also be a party' is a generic, hedged statement and does not claim the trust is the main signatory in the reviewed forms. Points 2 and 3 are substantively incomplete, so the grade is partial."
+}

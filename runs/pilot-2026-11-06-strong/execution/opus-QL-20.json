@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-20",
+  "tier": "A",
+  "answer": "**Allocation**\n\n- **Fund level:** The fund pays a single unitary management fee to the platform adviser under the advisory agreement. The adviser, in turn, pays ordinary operating expenses: custody, administration, transfer agency, fund accounting, legal, audit, index licensing, and trustee fees. Contractually excluded expenses remain fund costs. These typically include interest, taxes, brokerage commissions, acquired-fund fees, 12b-1 fees, and litigation or extraordinary expenses.\n\n- **Adviser and sponsor level:** Under a separate agreement, the brand sponsor assumes the fund's expenses. The adviser retains a negotiated portion of the fee, often with a minimum. The sponsor keeps the remainder after paying expenses and covers any shortfall. Splits vary by contract; there is no standard percentage.\n\n**Continuing obligation**\n\nThe adviser remains contractually liable to the fund for covered expenses. The sponsor's assumption is a private adviser\u2013sponsor arrangement. It neither releases the adviser nor shifts cost risk to shareholders.",
+  "original_answer": "**Allocation**\n\n- **Fund level:** The fund pays one unitary management fee to the platform adviser under the advisory agreement. In return, the adviser pays the fund's ordinary operating expenses, such as custody, administration, transfer agency, fund accounting, legal, audit, index licensing, and trustee fees. Expenses excluded by contract remain fund costs. These typically include interest, taxes, brokerage commissions, acquired-fund fees, 12b-1 fees, and litigation or extraordinary expenses.\n\n- **Adviser and sponsor level:** Under a separate agreement, the brand sponsor assumes the fund's expenses. The adviser keeps a negotiated portion of the fee, often subject to a minimum. The sponsor receives the remainder after paying expenses. If expenses exceed the remainder, the sponsor covers the shortfall. The split depends on each contract; there is no standard percentage.\n\n**Continuing obligation**\n\nThe adviser remains contractually liable to the fund for paying the covered expenses. The sponsor's assumption is a private arrangement between the adviser and the sponsor. It does not release the adviser or move any cost risk onto shareholders.",
+  "void": false,
+  "words_before": 167,
+  "words_after_shorten": 145,
+  "words_final": 145,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-5n7_oby1",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, in a US series-trust unitary-fee model where the platform adviser contracts with a brand sponsor to assume expenses for the fee remainder, how are management-fee revenue and ordinary operating costs allocated? Identify the continuing obligation to the fund; do not invent a standard percentage split.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-20-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-fwz0rvy0",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Allocation**\n\n- **Fund level:** The fund pays one unitary management fee to the platform adviser under the advisory agreement. In return, the adviser pays the fund's ordinary operating expenses, such as custody, administration, transfer agency, fund accounting, legal, audit, index licensing, and trustee fees. Expenses excluded by contract remain fund costs. These typically include interest, taxes, brokerage commissions, acquired-fund fees, 12b-1 fees, and litigation or extraordinary expenses.\n\n- **Adviser and sponsor level:** Under a separate agreement, the brand sponsor assumes the fund's expenses. The adviser keeps a negotiated portion of the fee, often subject to a minimum. The sponsor receives the remainder after paying expenses. If expenses exceed the remainder, the sponsor covers the shortfall. The split depends on each contract; there is no standard percentage.\n\n**Continuing obligation**\n\nThe adviser remains contractually liable to the fund for paying the covered expenses. The sponsor's assumption is a private arrangement between the adviser and the sponsor. It does not release the adviser or move any cost risk onto shareholders."
+      ],
+      "stdout": "opus-QL-20-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

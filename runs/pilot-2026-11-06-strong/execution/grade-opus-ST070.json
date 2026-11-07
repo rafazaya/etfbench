@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST070",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that the fund pays the unitary management fee to the platform adviser, that the sponsor receives the remaining economics, and that the sponsor contractually assumes covered expenses."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States that the platform adviser remains responsible to the fund for covered expenses and that the sponsor contract does not discharge this, even if the sponsor fails to pay. It also notes that excluded expenses remain payable by the fund."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Says the sponsor's profit is the residual after covered costs, with possible shortfall exposure, and that its share is 'not an industry-standard percentage.' The role contrast is optional."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are fully covered. There is no statement that the adviser is released from its fund obligation, and no claim of a guaranteed or universal split. No material local falsehood was found. The optional contrast with direct sponsor-as-adviser or sub-adviser models is omitted, which does not reduce the grade."
+}

@@ -1,0 +1,14 @@
+{
+  "blind_id": "ST038",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Covers most of the bundle. It describes the application with facts, legal basis and conditions. It describes the notice and hearing-request period and an order if no hearing is held. It states eligibility as substantially identical to two applications granted within the preceding three years. It says the 45-day clock targets notice, not approval, may end in an ineligibility or further-consideration determination, and pauses for staff comments until 14 days after a responsive amendment. It explicitly denies a guaranteed total approval period. For filing requirements it mentions only 'properly designated' and 'required comparison materials', which covers the request and markups. It omits the signed explanatory certification, so the request/markups/certification element is incomplete."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "There is no central error. The answer says expedited review requires two prior substantially identical grants and that the 45 days targets notice, not final relief. It contains no material local falsehood. It omits the signed certification, which is part of the required minimum, so the single required point gets 0.5. That meets the half-coverage threshold for partial but falls short of correct, which requires every required minimum."
+}

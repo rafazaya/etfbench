@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST062",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that the series trust's existing board, CCO, auditor, administrator, custodian and exemptive/Rule 6c-11 infrastructure enable faster, cheaper launches. It contrasts this with the upfront fixed costs a single fund must bear in its own trust, which conveys shared fixed costs."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Concretely says 'the platform's board and adviser oversee you, can terminate or replace you, and shape providers, policies and timing'. This shows the board belongs to the host, not the sponsor. It contrasts this with the own trust's 'full control over board composition, vendors and future lineup'."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Conditional, not universal: 'For most single-fund, budget-limited sponsors, a series trust is a reasonable start'. It ties this to AUM and break-even, plans for more funds, strategy complexity, distribution and tolerance for oversight."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are fully covered. The answer explains shared infrastructure lowering fixed costs, and it states concretely that the platform board, not the sponsor, controls governance and can replace the sponsor. Its recommendation is conditional rather than universal. It does not claim the platform assures sponsor control or suits every sponsor. The truncated ending ('get current') is an omission, not a falsehood."
+}

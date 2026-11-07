@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-03",
+  "tier": "A",
+  "answer": "**Key closure-risk indicators for a young '40 Act ETF:**\n\n**Seed capital**\n- **Seed vs. AUM:** If seed money is still most of AUM, the fund is fragile.\n- **Seed terms:** Seeders, often market makers, usually exit after 6\u201312 months. Watch for redemptions then.\n- **Concentration:** If a few holders own most shares, one exit can shrink the fund sharply.\n\n**Sponsor economics**\n- **Breakeven AUM:** Fixed costs (admin, custody, index licensing, listing, audit) often run $250k\u2013$500k+ yearly. Many funds need about $25\u201350M to cover them.\n- **Fee waivers/caps:** Large or expiring waivers mean the sponsor is subsidizing the fund.\n- **Sponsor health:** Lineup size, past closures, white-label trust use.\n- **Flows and liquidity:** Net creations, spreads, volume.\n- **Distribution:** Platform and model-portfolio placements.\n\nThese are signals, not predictions of closure.",
+  "original_answer": "**Key closure-risk indicators for a young '40 Act ETF:**\n\n**Seed capital**\n- **Seed size vs. AUM:** Is organic money above the seed? If seed is still most of AUM, the fund is fragile.\n- **Seed terms:** Seeders, often market makers, usually exit after 6\u201312 months. Watch for redemptions near that point.\n- **Concentration:** A few holders owning most shares means one exit can shrink the fund sharply.\n\n**Sponsor economics**\n- **Breakeven AUM:** Fixed costs (admin, custody, index licensing, listing, audit) are often $250k\u2013$500k+ a year. At the expense ratio, many funds need roughly $25\u201350M to cover them.\n- **Fee waivers and expense caps:** Large or expiring waivers show the sponsor is subsidizing the fund.\n- **Sponsor health:** Watch the size of the lineup, past closures, and use of a white-label trust.\n- **Flow trend and liquidity:** Look at net creations, spreads, and volume.\n- **Distribution:** Check platform and model-portfolio placements.\n\nThese are signals, not predictions of closure.",
+  "void": false,
+  "words_before": 157,
+  "words_after_shorten": 129,
+  "words_final": 129,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-5awih6b1",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "For a small, newly launched US '40 Act ETF over its next year, what sponsor-economics and seed-capital indicators would you assess for closure risk? Explain indicators rather than predict a guaranteed closure or survival probability.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-03-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-rzg9eg2d",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Key closure-risk indicators for a young '40 Act ETF:**\n\n**Seed capital**\n- **Seed size vs. AUM:** Is organic money above the seed? If seed is still most of AUM, the fund is fragile.\n- **Seed terms:** Seeders, often market makers, usually exit after 6\u201312 months. Watch for redemptions near that point.\n- **Concentration:** A few holders owning most shares means one exit can shrink the fund sharply.\n\n**Sponsor economics**\n- **Breakeven AUM:** Fixed costs (admin, custody, index licensing, listing, audit) are often $250k\u2013$500k+ a year. At the expense ratio, many funds need roughly $25\u201350M to cover them.\n- **Fee waivers and expense caps:** Large or expiring waivers show the sponsor is subsidizing the fund.\n- **Sponsor health:** Watch the size of the lineup, past closures, and use of a white-label trust.\n- **Flow trend and liquidity:** Look at net creations, spreads, and volume.\n- **Distribution:** Check platform and model-portfolio placements.\n\nThese are signals, not predictions of closure."
+      ],
+      "stdout": "opus-QL-03-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

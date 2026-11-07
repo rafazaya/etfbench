@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST088",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Covers borrower default ('Securities aren't returned'), collateral shortfall ('liquidated collateral may not cover repurchase cost') and cash reinvestment loss ('Reinvested cash can lose value or become illiquid, usually at the fund's expense'). US controls are framed conditionally ('typical practice', check prospectus/SAI; 'typically \u2265102%'). The answer says it cannot see the bank's iShares example, but it still supplies the required risks and conditional US controls."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Covers recall ('recallable at any time'). Covers collateral that is 'liquid, high-quality, diversified (~20% per issuer), valued daily and haircut'. States 'No reuse of non-cash collateral'. Restricts cash to deposits, high-quality government bonds, reverse repos or short-term MMFs. Explicit cash-reinvestment diversification is not stated, but the core minimum is met."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are covered. The answer keeps the US typical-practice points separate from the UCITS ESMA rules. It never claims collateral eliminates losses; it explicitly says collateral may not cover replacement cost. It correctly bars reuse of non-cash collateral. The 102%/105% figures are hedged as typical practice, and the one-third cap matches the SEC staff position, so neither is a material falsehood."
+}

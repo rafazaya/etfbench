@@ -1,0 +1,41 @@
+{
+  "model": "opus",
+  "id": "QL-12",
+  "tier": "C",
+  "answer": "**No, APs aren't paid by the sponsor, and no, they aren't obligated to create or redeem.**\n\n- **Compensation:** Authorized Participants (typically large broker-dealers) sign an AP Agreement with the fund's distributor. They **pay** the fund a creation/redemption transaction fee. They earn money through **arbitrage**, buying the cheaper of the ETF or its basket and selling the richer one, and from client facilitation and market-making spreads. Separately, some exchanges pay incentives to lead market makers, but that is not AP compensation from the sponsor.\n\n- **Obligation:** The agreement gives APs the **right**, not the duty, to transact in creation units. They can step back at any time, as some did briefly in stressed fixed-income markets in March 2020.\n\n- **Mitigant:** Most ETFs have several APs, and other APs or market makers can step in. This is why the number of active APs matters for an ETF's resilience.",
+  "original_answer": "**No, APs aren't paid by the sponsor, and no, they aren't obligated to create or redeem.**\n\n- **Compensation:** Authorized Participants (typically large broker-dealers) sign an AP Agreement with the fund's distributor. They **pay** the fund a creation/redemption transaction fee. They earn money through **arbitrage**, buying the cheaper of the ETF or its basket and selling the richer one, and from client facilitation and market-making spreads. Separately, some exchanges pay incentives to lead market makers, but that is not AP compensation from the sponsor.\n\n- **Obligation:** The agreement gives APs the **right**, not the duty, to transact in creation units. They can step back at any time, as some did briefly in stressed fixed-income markets in March 2020.\n\n- **Mitigant:** Most ETFs have several APs, and other APs or market makers can step in. This is why the number of active APs matters for an ETF's resilience.",
+  "void": false,
+  "words_before": 146,
+  "words_after_shorten": null,
+  "words_final": 146,
+  "truncated": false,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-9dg_mh8b",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Are APs paid by the ETF sponsor, and must they keep creating and redeeming?\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-12-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": []
+}

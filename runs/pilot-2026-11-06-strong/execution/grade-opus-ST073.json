@@ -1,0 +1,29 @@
+{
+  "blind_id": "ST073",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States that one class can bear costs attributable to another. It gives both directions: mutual fund redemptions burden ETF holders, and ETF creation/redemption costs burden mutual fund holders. It covers trading costs, cash drag and gains."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Gives a concrete mechanism for each direction. Mutual fund cash redemptions cause trading costs, taxable gains and cash drag borne partly by ETF holders. ETF creation/redemption costs not recovered through transaction fees burden mutual fund holders. It also covers the optional points on netting against fees and on in-kind low-basis removal as a benefit ('not automatically an improper subsidy'). All of this is labeled as conceptual examples."
+    },
+    {
+      "point": 3,
+      "credit": 0.5,
+      "reason": "Names the transaction-cost, cash and gains categories and says exemptive orders govern monitoring, with 'not universal numerical thresholds.' It does not state that the board approves thresholds, methods and periods; it mentions only 'board reporting.'"
+    },
+    {
+      "point": 4,
+      "credit": 0,
+      "reason": "Mentions only 'corrective procedures.' It does not say that a threshold breach prompts notice and assessment rather than automatic illegality or closure."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "partial",
+  "rationale": "Required coverage totals 2.5 of 4, which meets the at-least-half threshold. There is no central or material local error. Point 3 is incomplete because it omits board-approved thresholds, methods and periods. Point 4 is missing, so the answer cannot be graded correct."
+}

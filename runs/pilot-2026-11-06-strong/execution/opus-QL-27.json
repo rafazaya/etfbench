@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-27",
+  "tier": "B",
+  "answer": "**Written basket policies (Rule 6c-11(c)(3))** - Funds must adopt written policies and procedures on basket construction and acceptance. - Custom-basket policies must also: - set detailed construction and acceptance parameters in the best interests of the fund and shareholders; - include a process for revising or deviating from them; - name the titles or roles of staff reviewing each custom basket for compliance. **Records (Rule 6c-11(d))**, kept five years (first two easily accessible): - authorized participant (AP) agreements; - for each basket exchanged: each holding's name, quantity and identifier (ticker, CUSIP, etc.), any cash, whether custom, and a statement of policy compliance. **Custom basket vs. non-standard order** - A **custom basket** turns on composition: not a pro-rata portfolio slice (beyond permitted adjustments), or differing from other baskets that day. - A **non-standard order**, not a rule term, is an operational variation (size, cut-off, fees, settlement). It is custom only if",
+  "original_answer": "**Written basket policies (Rule 6c-11(c)(3))**\n- The fund must adopt written policies and procedures covering how baskets are built and how they are accepted.\n- If it uses custom baskets, the policies must also:\n  - set detailed parameters for building and accepting them that are in the best interests of the fund and its shareholders;\n  - include a process for revising or deviating from those parameters;\n  - name the titles or roles of the staff who must review each custom basket for compliance.\n\n**Records (Rule 6c-11(d))** must be kept for five years, the first two in an easily accessible place. They include:\n- authorized participant (AP) agreements;\n- for each basket exchanged: the name and quantity of each holding (with ticker, CUSIP or other identifier), any cash amount, whether it was custom, and a statement that it complied with the policies.\n\n**Custom basket versus non-standard order**\n- A **custom basket** depends on composition. It is either not a pro-rata slice of the portfolio, beyond the rule's permitted adjustments, or it differs from other baskets that day.\n- A **non-standard order** is not a term in the rule. It is an operational variation, such as size, cut-off, fees or settlement terms. It is custom only if the basket's composition changes.",
+  "void": false,
+  "words_before": 209,
+  "words_after_shorten": 152,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-n6ay30_n",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, what written basket policies, custom-basket parameters, review roles and compliance records does a US Rule 6c-11 ETF need? Distinguish a custom basket from a non-standard order.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-27-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-bov5q9_2",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Written basket policies (Rule 6c-11(c)(3))**\n- The fund must adopt written policies and procedures covering how baskets are built and how they are accepted.\n- If it uses custom baskets, the policies must also:\n  - set detailed parameters for building and accepting them that are in the best interests of the fund and its shareholders;\n  - include a process for revising or deviating from those parameters;\n  - name the titles or roles of the staff who must review each custom basket for compliance.\n\n**Records (Rule 6c-11(d))** must be kept for five years, the first two in an easily accessible place. They include:\n- authorized participant (AP) agreements;\n- for each basket exchanged: the name and quantity of each holding (with ticker, CUSIP or other identifier), any cash amount, whether it was custom, and a statement that it complied with the policies.\n\n**Custom basket versus non-standard order**\n- A **custom basket** depends on composition. It is either not a pro-rata slice of the portfolio, beyond the rule's permitted adjustments, or it differs from other baskets that day.\n- A **non-standard order** is not a term in the rule. It is an operational variation, such as size, cut-off, fees or settlement terms. It is custom only if the basket's composition changes."
+      ],
+      "stdout": "opus-QL-27-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

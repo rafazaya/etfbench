@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST063",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "Says fixed fees cover custody, transfer-agent, clearing/settlement and administrative processing costs. Says variable charges offset brokerage, spreads, market impact, taxes and FX, particularly for cash transactions or cash substitutions, protecting shareholders from dilution."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says the AP is 'ordinarily responsible', which implies exceptions. Gives the example of the fixed fee going to the custodian and the variable charge to the fund. Says the prospectus and AP agreement govern, so terms are fund-specific. Waiver is not named explicitly, but the core minimum is met."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Says the fund-imposed charges are 'distinct from an AP's separately negotiated compensation, commissions or trading spread' and 'not automatically AP revenue'. Custom-redemption waiver frequency is optional."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are covered. The answer never says the fund's charge reimburses or compensates the AP; it explicitly separates the charges from AP compensation. 'Not automatically' is a hedge, not an assertion of AP compensation. There are no material falsehoods, and the omitted waiver detail is optional or implied by 'ordinarily'."
+}

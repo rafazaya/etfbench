@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST009",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the portfolio belongs to the fund, that sponsor creditors 'generally cannot seize that portfolio merely because the sponsor becomes insolvent,' and that insolvency does not 'automatically cancel or render ETF shares worthless.'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Says the portfolio is 'held in custody for it.' Notes sponsor failure can 'necessitate a replacement adviser, or lead to fund liquidation,' with liquidation distributing remaining net assets. Says it 'does not guarantee recovery of the investment's original value.'"
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer explicitly separates asset separation from any guaranteed outcome and adds appropriate caveats about fraud, liens and investment loss. It does not state the central error. The ETN caveat and board-specific mechanics are optional omissions and do not reduce the grade."
+}

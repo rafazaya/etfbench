@@ -1,0 +1,917 @@
+{
+  "models": {
+    "haiku": {
+      "S": {
+        "score": 0.6022727272727273,
+        "interval95": [
+          0.48863636363636365,
+          0.7159090909090909
+        ],
+        "counts": {
+          "correct": 19,
+          "partial": 15,
+          "wrong": 10
+        },
+        "tiers": {
+          "A": {
+            "n": 8,
+            "score": 0.3125
+          },
+          "B": {
+            "n": 12,
+            "score": 0.75
+          },
+          "C": {
+            "n": 24,
+            "score": 0.625
+          }
+        }
+      },
+      "O": {
+        "score": 0.6363636363636364,
+        "interval95": [
+          0.5340909090909091,
+          0.7386363636363636
+        ],
+        "counts": {
+          "correct": 18,
+          "partial": 20,
+          "wrong": 6
+        },
+        "tiers": {
+          "A": {
+            "n": 8,
+            "score": 0.3125
+          },
+          "B": {
+            "n": 12,
+            "score": 0.7916666666666666
+          },
+          "C": {
+            "n": 24,
+            "score": 0.6666666666666666
+          }
+        }
+      },
+      "resolved": {
+        "score": 0.625,
+        "interval95": [
+          0.5113636363636364,
+          0.7272727272727273
+        ],
+        "counts": {
+          "correct": 19,
+          "partial": 17,
+          "wrong": 8
+        },
+        "tiers": {
+          "A": {
+            "n": 8,
+            "score": 0.3125
+          },
+          "B": {
+            "n": 12,
+            "score": 0.75
+          },
+          "C": {
+            "n": 24,
+            "score": 0.6666666666666666
+          }
+        }
+      }
+    },
+    "luna": {
+      "S": {
+        "score": 0.6136363636363636,
+        "interval95": [
+          0.5113636363636364,
+          0.7159090909090909
+        ],
+        "counts": {
+          "partial": 22,
+          "correct": 16,
+          "wrong": 6
+        },
+        "tiers": {
+          "A": {
+            "n": 8,
+            "score": 0.375
+          },
+          "B": {
+            "n": 12,
+            "score": 0.7916666666666666
+          },
+          "C": {
+            "n": 24,
+            "score": 0.6041666666666666
+          }
+        }
+      },
+      "O": {
+        "score": 0.6590909090909091,
+        "interval95": [
+          0.5681818181818182,
+          0.75
+        ],
+        "counts": {
+          "partial": 24,
+          "correct": 17,
+          "wrong": 3
+        },
+        "tiers": {
+          "A": {
+            "n": 8,
+            "score": 0.4375
+          },
+          "B": {
+            "n": 12,
+            "score": 0.7916666666666666
+          },
+          "C": {
+            "n": 24,
+            "score": 0.6666666666666666
+          }
+        }
+      },
+      "resolved": {
+        "score": 0.6363636363636364,
+        "interval95": [
+          0.5340909090909091,
+          0.7272727272727273
+        ],
+        "counts": {
+          "partial": 22,
+          "correct": 17,
+          "wrong": 5
+        },
+        "tiers": {
+          "A": {
+            "n": 8,
+            "score": 0.375
+          },
+          "B": {
+            "n": 12,
+            "score": 0.7916666666666666
+          },
+          "C": {
+            "n": 24,
+            "score": 0.6458333333333334
+          }
+        }
+      }
+    },
+    "sol": {
+      "S": {
+        "score": 0.8295454545454546,
+        "interval95": [
+          0.7613636363636364,
+          0.8977272727272727
+        ],
+        "counts": {
+          "correct": 29,
+          "partial": 15
+        },
+        "tiers": {
+          "A": {
+            "n": 8,
+            "score": 0.8125
+          },
+          "B": {
+            "n": 12,
+            "score": 0.9166666666666666
+          },
+          "C": {
+            "n": 24,
+            "score": 0.7916666666666666
+          }
+        }
+      },
+      "O": {
+        "score": 0.8295454545454546,
+        "interval95": [
+          0.75,
+          0.9090909090909091
+        ],
+        "counts": {
+          "correct": 30,
+          "partial": 13,
+          "wrong": 1
+        },
+        "tiers": {
+          "A": {
+            "n": 8,
+            "score": 0.8125
+          },
+          "B": {
+            "n": 12,
+            "score": 0.875
+          },
+          "C": {
+            "n": 24,
+            "score": 0.8125
+          }
+        }
+      },
+      "resolved": {
+        "score": 0.8181818181818182,
+        "interval95": [
+          0.7386363636363636,
+          0.8977272727272727
+        ],
+        "counts": {
+          "correct": 29,
+          "partial": 14,
+          "wrong": 1
+        },
+        "tiers": {
+          "A": {
+            "n": 8,
+            "score": 0.8125
+          },
+          "B": {
+            "n": 12,
+            "score": 0.875
+          },
+          "C": {
+            "n": 24,
+            "score": 0.7916666666666666
+          }
+        }
+      }
+    },
+    "opus": {
+      "S": {
+        "score": 0.7159090909090909,
+        "interval95": [
+          0.6363636363636364,
+          0.7954545454545454
+        ],
+        "counts": {
+          "partial": 23,
+          "correct": 20,
+          "wrong": 1
+        },
+        "tiers": {
+          "A": {
+            "n": 8,
+            "score": 0.75
+          },
+          "B": {
+            "n": 12,
+            "score": 0.7916666666666666
+          },
+          "C": {
+            "n": 24,
+            "score": 0.6666666666666666
+          }
+        }
+      },
+      "O": {
+        "score": 0.8068181818181818,
+        "interval95": [
+          0.7272727272727273,
+          0.8863636363636364
+        ],
+        "counts": {
+          "correct": 28,
+          "partial": 15,
+          "wrong": 1
+        },
+        "tiers": {
+          "A": {
+            "n": 8,
+            "score": 0.75
+          },
+          "B": {
+            "n": 12,
+            "score": 0.875
+          },
+          "C": {
+            "n": 24,
+            "score": 0.7916666666666666
+          }
+        }
+      },
+      "resolved": {
+        "score": 0.75,
+        "interval95": [
+          0.6704545454545454,
+          0.8295454545454546
+        ],
+        "counts": {
+          "partial": 20,
+          "correct": 23,
+          "wrong": 1
+        },
+        "tiers": {
+          "A": {
+            "n": 8,
+            "score": 0.75
+          },
+          "B": {
+            "n": 12,
+            "score": 0.7916666666666666
+          },
+          "C": {
+            "n": 24,
+            "score": 0.7291666666666666
+          }
+        }
+      }
+    }
+  },
+  "agreement": {
+    "pilot-2026-11-06-calibration": {
+      "n": 88,
+      "agree": 77,
+      "agreement": 0.875,
+      "kappa": 0.7960817358331578
+    },
+    "pilot-2026-11-06-strong": {
+      "n": 88,
+      "agree": 74,
+      "agreement": 0.8409090909090909,
+      "kappa": 0.6788321167883212
+    }
+  },
+  "combined_agreement": {
+    "n": 176,
+    "agree": 151,
+    "agreement": 0.8579545454545454,
+    "kappa": 0.7496728679524378
+  },
+  "paired_differences": {
+    "haiku_minus_luna": {
+      "score": -0.011363636363636364,
+      "interval95": [
+        -0.09090909090909091,
+        0.056818181818181816
+      ]
+    },
+    "haiku_minus_sol": {
+      "score": -0.19318181818181818,
+      "interval95": [
+        -0.29545454545454547,
+        -0.09090909090909091
+      ]
+    },
+    "haiku_minus_opus": {
+      "score": -0.125,
+      "interval95": [
+        -0.23863636363636365,
+        -0.011363636363636364
+      ]
+    },
+    "luna_minus_sol": {
+      "score": -0.18181818181818182,
+      "interval95": [
+        -0.2727272727272727,
+        -0.09090909090909091
+      ]
+    },
+    "luna_minus_opus": {
+      "score": -0.11363636363636363,
+      "interval95": [
+        -0.2159090909090909,
+        -0.022727272727272728
+      ]
+    },
+    "sol_minus_opus": {
+      "score": 0.06818181818181818,
+      "interval95": [
+        0.0,
+        0.14772727272727273
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "QL-21",
+      "question": "As of 2026-11-06, in the US series-trust unitary-fee contractual-partner model where the brand sponsor assumes expenses, who bears the economic shortfall when assets are too small, and who still owes expenses to the fund if the sponsor fails to pay?",
+      "scores": {
+        "haiku": 0,
+        "luna": 0,
+        "sol": 1,
+        "opus": 1
+      },
+      "range": 1,
+      "strong_minus_small": 1.0
+    },
+    {
+      "id": "QL-18",
+      "question": "As of 2026-11-06, for a new ordinary ETF series added to an existing US trust by a Rule 485(a) post-effective amendment, with no separate exemptive relief needed, what filing-effectiveness period normally applies, and why is it not an end-to-end launch guarantee? Distinguish initial registration of a new trust.",
+      "scores": {
+        "haiku": 0,
+        "luna": 0.5,
+        "sol": 1,
+        "opus": 1
+      },
+      "range": 1,
+      "strong_minus_small": 0.75
+    },
+    {
+      "id": "QL-24",
+      "question": "As of 2026-11-06, what four categories of conditional operational relief does Rule 6c-11(b) provide for US ETFs? Explain the limits on affiliate transactions and delayed foreign-investment delivery.",
+      "scores": {
+        "haiku": 0,
+        "luna": 0,
+        "sol": 0.5,
+        "opus": 1
+      },
+      "range": 1,
+      "strong_minus_small": 0.75
+    },
+    {
+      "id": "creation_redemption_006_who_are_typically_the_parties_involved_i",
+      "question": "As of 2026-11-06, distinguish the parties permitted by Rule 6c-11 from the main signatories and trust's status in the reviewed US AP agreement forms; contrast the Irish ICAV arrangement.",
+      "scores": {
+        "haiku": 0,
+        "luna": 0,
+        "sol": 0.5,
+        "opus": 1
+      },
+      "range": 1,
+      "strong_minus_small": 0.75
+    },
+    {
+      "id": "QL-38",
+      "question": "As of 2026-11-06, under Irish UCITS Regulation 26(2), which different dealing cut-offs are permitted for cash versus in-kind dealing and class-level currency-hedged versus unhedged classes? Distinguish the express 2026 exceptions from the older Q&A 1030 waiver approach.",
+      "scores": {
+        "haiku": 0,
+        "luna": 0.5,
+        "sol": 1,
+        "opus": 0.5
+      },
+      "range": 1,
+      "strong_minus_small": 0.5
+    },
+    {
+      "id": "QL-11",
+      "question": "As of 2026-11-06, for a US Rule 6c-11 ETF, what clearing/settlement eligibility and written agreement does an AP need? Distinguish the rule's permitted counterparties from the parties in the bank's reviewed US agreement forms.",
+      "scores": {
+        "haiku": 0,
+        "luna": 0,
+        "sol": 0.5,
+        "opus": 0.5
+      },
+      "range": 0.5,
+      "strong_minus_small": 0.5
+    },
+    {
+      "id": "QL-33",
+      "question": "For ETF securities lending, distinguish borrower/default, collateral-shortfall and cash-reinvestment risks and controls. Separate the bank's US iShares example from UCITS recall/collateral rules; do not promise collateral eliminates losses.",
+      "scores": {
+        "haiku": 0.5,
+        "luna": 0.5,
+        "sol": 1,
+        "opus": 1
+      },
+      "range": 0.5,
+      "strong_minus_small": 0.5
+    },
+    {
+      "id": "QL-37",
+      "question": "As of 2026-11-06, under Irish CBI Q&A 1088, can listed ETF and unlisted classes coexist, and which dealing, settlement, costs, minimums, rights, liquidity and price differences must the prospectus compare? Do not apply US share-class exemptive conditions.",
+      "scores": {
+        "haiku": 0.5,
+        "luna": 0.5,
+        "sol": 1,
+        "opus": 1
+      },
+      "range": 0.5,
+      "strong_minus_small": 0.5
+    },
+    {
+      "id": "QL-40",
+      "question": "As of 2026-11-06, for a US mutual fund held directly with the fund that is converting the whole fund into an ETF, what account/transfer steps might an investor need to take? Address notices, deadlines, trading access and fractional shares without assuming a fund-specific timetable or confusing conversion with adding an ETF class.",
+      "scores": {
+        "haiku": 0.5,
+        "luna": 0.5,
+        "sol": 1,
+        "opus": 1
+      },
+      "range": 0.5,
+      "strong_minus_small": 0.5
+    },
+    {
+      "id": "QL-03",
+      "question": "For a small, newly launched US '40 Act ETF over its next year, what sponsor-economics and seed-capital indicators would you assess for closure risk? Explain indicators rather than predict a guaranteed closure or survival probability.",
+      "scores": {
+        "haiku": 0.5,
+        "luna": 0.5,
+        "sol": 1,
+        "opus": 0.5
+      },
+      "range": 0.5,
+      "strong_minus_small": 0.25
+    },
+    {
+      "id": "QL-04",
+      "question": null,
+      "scores": {
+        "haiku": 1,
+        "luna": 0.5,
+        "sol": 1,
+        "opus": 1
+      },
+      "range": 0.5,
+      "strong_minus_small": 0.25
+    },
+    {
+      "id": "QL-16",
+      "question": "For a new US sponsor planning one ordinary ETF, with limited fixed-cost budget and no existing trust, board or servicing infrastructure, how should it compare a series-trust platform with building its own trust? Include the control trade-off and avoid assuming one answer suits every sponsor.",
+      "scores": {
+        "haiku": 1,
+        "luna": 0.5,
+        "sol": 1,
+        "opus": 1
+      },
+      "range": 0.5,
+      "strong_minus_small": 0.25
+    },
+    {
+      "id": "QL-20",
+      "question": "As of 2026-11-06, in a US series-trust unitary-fee model where the platform adviser contracts with a brand sponsor to assume expenses for the fee remainder, how are management-fee revenue and ordinary operating costs allocated? Identify the continuing obligation to the fund; do not invent a standard percentage split.",
+      "scores": {
+        "haiku": 0.5,
+        "luna": 1,
+        "sol": 1,
+        "opus": 1
+      },
+      "range": 0.5,
+      "strong_minus_small": 0.25
+    },
+    {
+      "id": "QL-23",
+      "question": "As of 2026-11-06, which US ETF structures can rely on Rule 6c-11 subject to its conditions, and which need separate relief? Include leveraged/inverse ETFs and the interaction with Rule 18f-4.",
+      "scores": {
+        "haiku": 0,
+        "luna": 0.5,
+        "sol": 0.5,
+        "opus": 0.5
+      },
+      "range": 0.5,
+      "strong_minus_small": 0.25
+    },
+    {
+      "id": "QL-26",
+      "question": "As of 2026-11-06, what AP-agreement and exchanged-basket records must a US ETF preserve under Rule 6c-11(d), and for how long must they be retained and readily accessible?",
+      "scores": {
+        "haiku": 0.5,
+        "luna": 0.5,
+        "sol": 1,
+        "opus": 0.5
+      },
+      "range": 0.5,
+      "strong_minus_small": 0.25
+    },
+    {
+      "id": "QL-27",
+      "question": "As of 2026-11-06, what written basket policies, custom-basket parameters, review roles and compliance records does a US Rule 6c-11 ETF need? Distinguish a custom basket from a non-standard order.",
+      "scores": {
+        "haiku": 0.5,
+        "luna": 0.5,
+        "sol": 1,
+        "opus": 0.5
+      },
+      "range": 0.5,
+      "strong_minus_small": 0.25
+    },
+    {
+      "id": "QL-36",
+      "question": "As of 2026-11-06, under the Irish UCITS ETF framework, when can a secondary-market holder redeem directly with the fund, and what notification, process and cost protections apply? Distinguish this exceptional route from ordinary exchange dealing.",
+      "scores": {
+        "haiku": 0,
+        "luna": 0.5,
+        "sol": 0.5,
+        "opus": 0.5
+      },
+      "range": 0.5,
+      "strong_minus_small": 0.25
+    },
+    {
+      "id": "creation_redemption_002_what_is_a_normal_amount_of_collateral_an",
+      "question": "As of 2026-11-06, in the bank's reviewed US ETF AP agreements, what cash collateral may be required for securities not yet delivered, what value is the percentage applied to, and is it a universal rate?",
+      "scores": {
+        "haiku": 0.5,
+        "luna": 0.5,
+        "sol": 1,
+        "opus": 0.5
+      },
+      "range": 0.5,
+      "strong_minus_small": 0.25
+    },
+    {
+      "id": "creation_redemption_004_what_costs_do_the_creation_fee_cover",
+      "question": "As of 2026-11-06, for US ETF creation/redemption transaction charges, what costs do fixed and variable fees cover, who bears them, and may their recipients differ? Distinguish fund charges from AP compensation.",
+      "scores": {
+        "haiku": 0.5,
+        "luna": 0.5,
+        "sol": 1,
+        "opus": 0.5
+      },
+      "range": 0.5,
+      "strong_minus_small": 0.25
+    },
+    {
+      "id": "QL-01",
+      "question": "As of 2026-11-06, for an ordinary US '40 Act ETF whose fund and adviser/sponsor are separate entities, does sponsor insolvency itself give the sponsor's creditors the portfolio or wipe out the shares? Distinguish asset separation from a guaranteed outcome in every insolvency.",
+      "scores": {
+        "haiku": 1,
+        "luna": 0.5,
+        "sol": 1,
+        "opus": 0.5
+      },
+      "range": 0.5,
+      "strong_minus_small": 0.0
+    },
+    {
+      "id": "QL-05",
+      "question": "As of 2026-11-06, why can an in-kind US equity ETF taxed as an IRS RIC distribute fewer capital gains than a standalone cash-dealing mutual fund holding the same stocks, for a US taxable investor? State the limits of the tax benefit.",
+      "scores": {
+        "haiku": 1,
+        "luna": 1,
+        "sol": 1,
+        "opus": 1
+      },
+      "range": 0,
+      "strong_minus_small": 0.0
+    },
+    {
+      "id": "QL-06",
+      "question": "As of 2026-11-06, for a US IRS RIC already permitted to operate ETF and mutual fund classes sharing one portfolio, can ETF-class in-kind redemptions benefit mutual fund class shareholders? Explain the mechanism and limits, without assuming every fund has share-class relief.",
+      "scores": {
+        "haiku": 1,
+        "luna": 1,
+        "sol": 1,
+        "opus": 1
+      },
+      "range": 0,
+      "strong_minus_small": 0.0
+    },
+    {
+      "id": "QL-08",
+      "question": null,
+      "scores": {
+        "haiku": 1,
+        "luna": 1,
+        "sol": 1,
+        "opus": 1
+      },
+      "range": 0,
+      "strong_minus_small": 0.0
+    },
+    {
+      "id": "QL-09",
+      "question": null,
+      "scores": {
+        "haiku": 1,
+        "luna": 1,
+        "sol": 1,
+        "opus": 1
+      },
+      "range": 0,
+      "strong_minus_small": 0.0
+    },
+    {
+      "id": "QL-10",
+      "question": "As of 2026-11-06, in ordinary dealing in a US '40 Act ETF (excluding reorganization, merger, conversion or liquidation), can an ordinary retail investor redeem individual ETF shares directly with the fund? Explain the usual alternative.",
+      "scores": {
+        "haiku": 1,
+        "luna": 1,
+        "sol": 1,
+        "opus": 1
+      },
+      "range": 0,
+      "strong_minus_small": 0.0
+    },
+    {
+      "id": "QL-12",
+      "question": null,
+      "scores": {
+        "haiku": 1,
+        "luna": 1,
+        "sol": 1,
+        "opus": 1
+      },
+      "range": 0,
+      "strong_minus_small": 0.0
+    },
+    {
+      "id": "QL-13",
+      "question": "For a US ETF using derivative positions that cannot practicably be transferred to or from an AP under its dealing arrangements, why might creations/redemptions use cash or a cash component? Contrast with transferable securities and state the limits of this explanation.",
+      "scores": {
+        "haiku": 1,
+        "luna": 1,
+        "sol": 1,
+        "opus": 1
+      },
+      "range": 0,
+      "strong_minus_small": 0.0
+    },
+    {
+      "id": "QL-15",
+      "question": null,
+      "scores": {
+        "haiku": 1,
+        "luna": 1,
+        "sol": 1,
+        "opus": 1
+      },
+      "range": 0,
+      "strong_minus_small": 0.0
+    },
+    {
+      "id": "QL-17",
+      "question": "As of 2026-11-06, for one ordinary US equity ETF on a third-party platform under a unitary fee, budgeted in USD, which one-time and recurring cost categories and payer allocations should the sponsor establish? Distinguish seed assets from expenditure and explain break-even at a positive retained margin; do not invent a current vendor quote or universal dollar range.",
+      "scores": {
+        "haiku": 0.5,
+        "luna": 0.5,
+        "sol": 0.5,
+        "opus": 0.5
+      },
+      "range": 0.0,
+      "strong_minus_small": 0.0
+    },
+    {
+      "id": "QL-19",
+      "question": "For a US '40 Act ETF launch, list the core governance, service-provider and market-infrastructure arrangements. Distinguish roles that may be bundled and index/lending arrangements needed only for the relevant strategy or program; do not imply every role needs a separately hired firm.",
+      "scores": {
+        "haiku": 0.5,
+        "luna": 0.5,
+        "sol": 0.5,
+        "opus": 0.5
+      },
+      "range": 0.0,
+      "strong_minus_small": 0.0
+    },
+    {
+      "id": "QL-22",
+      "question": "As of 2026-11-06, does appointment of a principal underwriter on a US ETF series-trust platform itself assure a sales force and asset gathering? Distinguish legal/operational distribution from separately contracted marketing and intermediary access; do not assume all platform packages are identical.",
+      "scores": {
+        "haiku": 1,
+        "luna": 1,
+        "sol": 1,
+        "opus": 1
+      },
+      "range": 0,
+      "strong_minus_small": 0.0
+    },
+    {
+      "id": "QL-25",
+      "question": "As of 2026-11-06, what public, free website holdings, price/NAV, premium/discount and spread disclosures does a US Rule 6c-11 ETF need, including timing/history and the sustained-deviation explanation? Distinguish portfolio holdings from transaction baskets.",
+      "scores": {
+        "haiku": 0.5,
+        "luna": 0.5,
+        "sol": 0.5,
+        "opus": 0.5
+      },
+      "range": 0.0,
+      "strong_minus_small": 0.0
+    },
+    {
+      "id": "QL-28",
+      "question": "As of 2026-11-06, for a US ETF requesting relief not supplied by Rule 6c-11, describe application, notice and order stages. When is Rule 0-5 expedited review available, and what does its 45-day clock mean? Do not give a universal total approval time.",
+      "scores": {
+        "haiku": 0.5,
+        "luna": 0.5,
+        "sol": 0.5,
+        "opus": 0.5
+      },
+      "range": 0.0,
+      "strong_minus_small": 0.0
+    },
+    {
+      "id": "QL-30",
+      "question": "For a US index ETF board reviewing an index licence and failed-renewal contingency, what contract terms, naming dependencies and affiliated-information issues should it examine? Treat the checklist as diligence, not a universal notice period or guaranteed substitution right.",
+      "scores": {
+        "haiku": 1,
+        "luna": 1,
+        "sol": 1,
+        "opus": 1
+      },
+      "range": 0,
+      "strong_minus_small": 0.0
+    },
+    {
+      "id": "QL-31",
+      "question": "For a US equity ETF showing repeated closing premiums or discounts over several weeks in normal markets, what should its board investigate before concluding arbitrage has failed? Check contemporaneous valuation/market hours, peers, underlying trading frictions and AP/market-maker participation; propose inquiry and corrective options rather than a single presumed cause or mandatory numerical trigger.",
+      "scores": {
+        "haiku": 1,
+        "luna": 1,
+        "sol": 1,
+        "opus": 1
+      },
+      "range": 0,
+      "strong_minus_small": 0.0
+    },
+    {
+      "id": "QL-35",
+      "question": "As of 2026-11-06, under Irish UCITS rules, where is the UCITS ETF identifier used for a mixed umbrella and for a sub-fund with listed and unlisted classes? Explain sub-fund versus listed-class identification and avoid labelling non-ETF siblings as ETFs.",
+      "scores": {
+        "haiku": 0.5,
+        "luna": 0.5,
+        "sol": 0.5,
+        "opus": 0.5
+      },
+      "range": 0.0,
+      "strong_minus_small": 0.0
+    },
+    {
+      "id": "QL-39",
+      "question": "As of 2026-11-06, for a US fund with ETF and mutual fund classes sharing a portfolio, explain cross-subsidization in both directions and the transaction-cost, cash and gains monitoring categories. Separate conceptual examples from the representative order-specific framework and do not invent universal thresholds.",
+      "scores": {
+        "haiku": 0.5,
+        "luna": 0.5,
+        "sol": 0.5,
+        "opus": 0.5
+      },
+      "range": 0.0,
+      "strong_minus_small": 0.0
+    },
+    {
+      "id": "capital_markets_001_what_are_significant_drivers_of_the_etf",
+      "question": "For a US ETF, explain how underlying-market liquidity and market-maker hedging and creation/redemption costs influence the quoted bid-ask spread. Why is historical exchange volume alone an incomplete guide? Do not rank drivers or give universal spread levels.",
+      "scores": {
+        "haiku": 1,
+        "luna": 1,
+        "sol": 1,
+        "opus": 1
+      },
+      "range": 0,
+      "strong_minus_small": 0.0
+    },
+    {
+      "id": "QL-02",
+      "question": "As of 2026-11-06, what normally happens to a US '40 Act ETF investor's holding when the ETF liquidates? Distinguish receiving remaining proceeds from losing the whole investment, and address amount, timing and taxable-account consequences without assuming a fund-specific timetable.",
+      "scores": {
+        "haiku": 1,
+        "luna": 0.5,
+        "sol": 0.5,
+        "opus": 0.5
+      },
+      "range": 0.5,
+      "strong_minus_small": -0.25
+    },
+    {
+      "id": "QL-07",
+      "question": "For a US ETF, is historical exchange share volume alone enough to assess liquidity for a new order? Explain the creation/redemption mechanism and which additional observable liquidity indicators to examine; do not promise execution capacity.",
+      "scores": {
+        "haiku": 1,
+        "luna": 1,
+        "sol": 0.5,
+        "opus": 1
+      },
+      "range": 0.5,
+      "strong_minus_small": -0.25
+    },
+    {
+      "id": "QL-14",
+      "question": "As of 2026-11-06, for a retail investor without NSCC participant access researching a US Rule 6c-11 ETF, where should the investor start for daily holdings and how might they request the actual PCF? Distinguish holdings from transaction baskets; do not assume any named fund offers a free public PCF.",
+      "scores": {
+        "haiku": 0.5,
+        "luna": 1,
+        "sol": 0.5,
+        "opus": 0.5
+      },
+      "range": 0.5,
+      "strong_minus_small": -0.25
+    },
+    {
+      "id": "QL-29",
+      "question": "For a US ETF board's diligence on a proposed exchange/LMM arrangement, what questions should it ask about selection, relevant-market expertise and capital or seed support? Distinguish temporary market-maker seed from lasting investor assets; treat the checklist as suggested inquiry rather than a mandatory approval rule.",
+      "scores": {
+        "haiku": 1,
+        "luna": 1,
+        "sol": 1,
+        "opus": 0.5
+      },
+      "range": 0.5,
+      "strong_minus_small": -0.25
+    },
+    {
+      "id": "QL-32",
+      "question": "For a US equity index ETF, define tracking error as variability of daily fund-minus-benchmark total returns over an agreed one-year period, separately from cumulative tracking difference. If error exceeds the mandate's expected range, what portfolio, pricing and operating causes should be investigated? No numerical expected range or single cause is assumed.",
+      "scores": {
+        "haiku": 1,
+        "luna": 1,
+        "sol": 1,
+        "opus": 0.5
+      },
+      "range": 0.5,
+      "strong_minus_small": -0.25
+    },
+    {
+      "id": "QL-34",
+      "question": "As of 2026-11-06, for an Irish UCITS ETF or ETF share class, distinguish transparency-policy disclosures, daily public holdings and the conditional periodic-holdings route with daily AP/market-maker arbitrage information. Use the 2026 regulations and CBI Q&A 1012 (April 2025) identified in the bank draft.",
+      "scores": {
+        "haiku": 0.5,
+        "luna": 0,
+        "sol": 0,
+        "opus": 0
+      },
+      "range": 0.5,
+      "strong_minus_small": -0.25
+    }
+  ]
+}

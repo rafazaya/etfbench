@@ -1,0 +1,68 @@
+{
+  "model": "opus",
+  "id": "QL-37",
+  "tier": "C",
+  "answer": "**Short answer:** Yes, in my understanding. The Central Bank of Ireland permits a UCITS ETF to have both listed (ETF) and unlisted share classes in one fund. I can't confirm the current wording or numbering of Q&A 1088, so check the latest CBI UCITS Q&A. **Prospectus disclosure should compare the classes on:** - **Dealing:** ETF classes deal in the primary market through authorised participants, with others trading on exchange. Unlisted classes deal directly with the fund. - **Settlement:** exchange/CSD cycles versus transfer-agent timetable. - **Costs:** TER, brokerage, spreads, duties or anti-dilution levies. - **Minimums:** creation-unit sizes versus minimum initial and holding amounts. - **Rights:** redemption differences, including direct redemption if the secondary market is disrupted. - **Liquidity:** exchange depth versus dealing frequency. - **Price:** exchange price, which can trade at a premium or discount to NAV, versus dealing at NAV. ESMA ETF guidelines (2014/937) still apply, including the \"UCITS ETF\"",
+  "original_answer": "**Short answer:** Yes, in my understanding. The Central Bank of Ireland permits a UCITS ETF to have both listed (ETF) and unlisted share classes in the same fund. I can't confirm the exact current wording or numbering of Q&A 1088, so check the latest CBI UCITS Q&A document.\n\n**Disclosure the prospectus should make clear (comparison of the classes):**\n- **Dealing:** ETF classes deal in the primary market through authorised participants, and other investors trade on exchange. Unlisted classes subscribe and redeem directly with the fund.\n- **Settlement:** exchange and CSD settlement cycles versus the transfer-agent settlement timetable.\n- **Costs:** TER, brokerage, bid-ask spreads and any duties or anti-dilution levies, which may differ.\n- **Minimums:** creation-unit sizes versus minimum initial and holding amounts.\n- **Rights:** any differences in redemption access, including direct redemption when the secondary market is disrupted.\n- **Liquidity:** depth of the exchange market versus fund-dealing frequency.\n- **Price:** exchange price, which can sit at a premium or discount to NAV, versus dealing at NAV.\n\nThe ESMA ETF guidelines (2014/937) still apply, including the \"UCITS ETF\" identifier.",
+  "void": false,
+  "words_before": 178,
+  "words_after_shorten": 151,
+  "words_final": 150,
+  "truncated": true,
+  "attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-m5s0jr5w",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "As of 2026-11-06, under Irish CBI Q&A 1088, can listed ETF and unlisted classes coexist, and which dealing, settlement, costs, minimums, rights, liquidity and price differences must the prospectus compare? Do not apply US share-class exemptive conditions.\n\nUse at most 150 words."
+      ],
+      "stdout": "opus-QL-37-initial-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ],
+  "shortening_attempts": [
+    {
+      "cwd": "/tmp/etfbench-r2-pfzeyeqp",
+      "empty_at_start": true,
+      "argv": [
+        "claude",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--tools",
+        "",
+        "--strict-mcp-config",
+        "--mcp-config",
+        "{\"mcpServers\":{}}",
+        "--setting-sources",
+        "",
+        "--no-session-persistence",
+        "--system-prompt",
+        "Answer as an ETF industry expert, as of 2026-11-06. Use at most 150 words.",
+        "--output-format",
+        "json",
+        "Shorten the following answer to at most 150 words, keeping the content. Answer from memory only; do not use tools. Return only the shortened answer.\n\n**Short answer:** Yes, in my understanding. The Central Bank of Ireland permits a UCITS ETF to have both listed (ETF) and unlisted share classes in the same fund. I can't confirm the exact current wording or numbering of Q&A 1088, so check the latest CBI UCITS Q&A document.\n\n**Disclosure the prospectus should make clear (comparison of the classes):**\n- **Dealing:** ETF classes deal in the primary market through authorised participants, and other investors trade on exchange. Unlisted classes subscribe and redeem directly with the fund.\n- **Settlement:** exchange and CSD settlement cycles versus the transfer-agent settlement timetable.\n- **Costs:** TER, brokerage, bid-ask spreads and any duties or anti-dilution levies, which may differ.\n- **Minimums:** creation-unit sizes versus minimum initial and holding amounts.\n- **Rights:** any differences in redemption access, including direct redemption when the secondary market is disrupted.\n- **Liquidity:** depth of the exchange market versus fund-dealing frequency.\n- **Price:** exchange price, which can sit at a premium or discount to NAV, versus dealing at NAV.\n\nThe ESMA ETF guidelines (2014/937) still apply, including the \"UCITS ETF\" identifier."
+      ],
+      "stdout": "opus-QL-37-shorten-1.stdout",
+      "tool_calls": [],
+      "discarded": false
+    }
+  ]
+}

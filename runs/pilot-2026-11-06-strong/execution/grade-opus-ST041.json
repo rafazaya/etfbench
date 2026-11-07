@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST041",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 0.5,
+      "reason": "Covers disclosure of the transparency policy, where portfolio information is available, and iNAV information. It does not say the disclosure goes in the prospectus, KID/KIID and marketing materials."
+    },
+    {
+      "point": 2,
+      "credit": 0.5,
+      "reason": "Gives daily public holdings as one approach. Gives periodic disclosure as conditional on daily information to APs/market makers sufficient for arbitrage. Omits the nondiscriminatory basis, the procedures for impaired arbitrage and investor information requests, and public quarter-end holdings within 30 business days."
+    },
+    {
+      "point": 3,
+      "credit": 0,
+      "reason": "Does not say holdings disclosure identifies positions and quantities. Does not mention the prospectus statement of the information supplied, or the iNAV calculation methodology and frequency when iNAV is calculated."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "wrong",
+  "rationale": "There is no central error: the answer explicitly denies that daily public full holdings are unconditional and states that the periodic route requires daily arbitrage information. However, required coverage totals 1.0 of 3, which is below half the required-point count (1.5). Under the scoring rule, less than half required coverage is graded wrong."
+}

@@ -1,0 +1,14 @@
+{
+  "blind_id": "ST060",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer says ETF sub-funds must carry 'UCITS ETF' in their name, prospectus/supplement, KID and marketing communications. It says the ETF sub-fund in a mixed umbrella is identified and non-ETF sub-funds are not. It gives the listed-class identification option and requires the supplement to state which classes are ETF classes. The constitution is not mentioned, but the document bundle is otherwise substantively covered."
+    }
+  ],
+  "central_error": null,
+  "local_error": "Quote: 'The identifier then goes in the names of the listed (ETF) classes, not the sub-fund name' and 'A mixed sub-fund is identified at class level.' Reason: Reg. 88 and CBI Q&A 1016/1088 allow the identifier at either sub-fund or listed-class level, provided the classes are clearly distinguished. Ruling out the sub-fund-level option for mixed sub-funds is a material ancillary misstatement of where the identifier may be used. It does not reverse the listed central mechanism, which concerns sub-fund-only identification or labelling non-ETF siblings as ETFs.",
+  "grade": "partial",
+  "rationale": "The required minimum is substantively covered and there is no central error. The answer allows the class-level option and never labels non-ETF siblings as ETFs. However, it wrongly states that a mixed sub-fund cannot carry the identifier at sub-fund level, and this material local falsehood caps the grade at partial. Omitting the optional pre-2026 history point does not reduce the grade."
+}

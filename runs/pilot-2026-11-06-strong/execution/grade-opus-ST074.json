@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST074",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer says ETFs 'issue and redeem shares only in large blocks called creation units' and that 'Only authorized participants (APs)... transact directly with the ETF.' It contrasts this with the investor who 'sells shares on the secondary market, on an exchange through a brokerage account.'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "The answer gives an explicit 'No' to direct redemption. It names a secondary-market exchange sale at market price, not NAV, as the usual alternative."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered and there is no central error, since the answer explicitly denies direct retail redemption. The ancillary details are consistent with ordinary ETF mechanics: typical creation unit sizes, in-kind baskets, premium/discount, spreads, AP arbitrage, and a disclosure point. None is a material falsehood."
+}

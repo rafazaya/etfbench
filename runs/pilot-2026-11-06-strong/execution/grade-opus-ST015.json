@@ -1,0 +1,24 @@
+{
+  "blind_id": "ST015",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the fund pays the unitary fee to the platform adviser. It also says the brand sponsor 'assumes the fund's expenses' and 'keeps the remainder after paying expenses,' which matches the minimum."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States 'The adviser remains contractually liable to the fund for covered expenses' and that the sponsor arrangement 'neither releases the adviser nor shifts cost risk to shareholders.' Its examples of excluded expenses are optional and accurate."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "States the sponsor 'keeps the remainder after paying expenses and covers any shortfall,' which is the residual economics. It adds 'Splits vary by contract; there is no standard percentage.' The answer omits the optional contrast with direct sponsor appointment as adviser or sub-adviser, which does not reduce credit."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All three required minimums are fully covered, for 3 of 3 coverage. The answer does not say the sponsor contract releases the adviser or that the fund owes the sponsor a guaranteed split; it explicitly rejects both. The ancillary details, such as the typical exclusions and 'often with a minimum,' are hedged and plausible, so they are not material falsehoods."
+}

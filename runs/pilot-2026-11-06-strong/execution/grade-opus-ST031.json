@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST031",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the expense ratio is collected 'from the fund's assets\u2014not as a separate charge to your brokerage account,' is 'already reflected in the ETF's NAV and reported returns,' and frames it as an annual rate ('0.20% annual expense ratio')."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "States 'The fund generally accrues expenses daily, reducing its net asset value.' The '$20 per year on an average $10,000 investment' example shows the 0.20% is an annual rate spread over time, not charged in full each day."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are covered: the indirect fund-level expense reflected in NAV at an annual rate, and daily accrual rather than the full annual rate each day. The answer contains no separate-billing claim and no full-daily-deduction claim. Its statement that expenses are 'periodically' paid from fund assets agrees with the optional point that the payment date is distinct from accrual. The remaining claims about commissions and spreads are accurate. No falsehoods were found."
+}

@@ -1,0 +1,19 @@
+{
+  "blind_id": "ST006",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States 'No' and explains that exchange volume reflects only secondary-market trading. Explains that APs create and redeem shares against the basket so supply adjusts to demand."
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Lists quoted and effective bid-ask spreads, displayed depth at the NBBO, and underlying securities' volume, spreads and market hours. Also lists the number of active APs and market makers, which covers intermediary activity."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "Both required minimums are fully covered. The answer does not present volume as a hard cap and does not guarantee execution; it explicitly states 'None of this guarantees execution at a given size or price.' The mechanism description is accurate, including in-kind or cash creation and arbitrage near NAV. There is no material local falsehood."
+}

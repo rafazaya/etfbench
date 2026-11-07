@@ -1,0 +1,14 @@
+{
+  "blind_id": "ST023",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "The answer lists all four relief categories. (1) Shares are redeemable securities while redeeming only in creation units. (2) Shares may trade at market prices, with relief from Section 22(d) and Rule 22c-1. (3) Section 17(a)(1)-(2) relief applies only to in-kind basket exchanges with first- or second-tier affiliates whose affiliation arises solely from specified shareholdings. (4) Delivery of foreign investments may be postponed for local holidays or settlement practices, as soon as practicable and within 15 days."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "The required minimum is fully covered. Affiliate relief is explicitly limited to in-kind transactions with affiliates whose status rests solely on specified holdings, and affiliation through the adviser or sponsor is excluded. Foreign delivery is capped at 15 days. Neither listed central error appears, and no material local falsehood is evident. The added 25% holding element is an imprecise ancillary detail, not a reversal of the limited-relief mechanism."
+}

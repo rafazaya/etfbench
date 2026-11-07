@@ -1,0 +1,29 @@
+{
+  "blind_id": "ST046",
+  "coverage": [
+    {
+      "point": 1,
+      "credit": 1,
+      "reason": "States the ETF must 'Adopt and implement basket construction/acceptance procedures in the ETF's and shareholders' best interests.'"
+    },
+    {
+      "point": 2,
+      "credit": 1,
+      "reason": "Requires 'detailed construction/acceptance parameters' and 'processes for revisions/deviations.' Best interests is tied to the written policies."
+    },
+    {
+      "point": 3,
+      "credit": 1,
+      "reason": "Names 'adviser-employee titles/roles responsible for reviewing each custom basket's compliance.' For custom baskets, records must retain 'the designation and a statement of compliance with custom-basket policies.'"
+    },
+    {
+      "point": 4,
+      "credit": 1,
+      "reason": "Defines a custom basket as 'non-representative or representative but different from that business day's initial basket.' States that 'Non-standard order' is an operational/commercial label, not a Rule 6c-11 category."
+    }
+  ],
+  "central_error": null,
+  "local_error": null,
+  "grade": "correct",
+  "rationale": "All four required minimums are fully covered and no central error is present. The ancillary statements are accurate: the Rule 38a-1 compliance framework, the AP agreement and basket records, five-year retention with the first two years easily accessible, and the point that timing alone does not make a basket custom. No material local falsehood is found."
+}
