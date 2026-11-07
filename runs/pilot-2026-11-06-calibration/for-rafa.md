@@ -34,3 +34,9 @@
 - **R30 QL-14 — False public-PCF mandate:** Should a false claim that 6c-11 mandates public PCF posting force wrong? S: only universal free NSCC access/basket equality explicitly central. O: public-PCF mandate also central. Default: S literal default: partial cap.
 - **R31 QL-28 — Wrong expedited clock:** Is a false notice-start/final-action clock central even when approval is not guaranteed? S: central anchor says guaranteed final relief. O: wrong starting point/end action themselves central. Default: S literal default: partial cap.
 - **R32 QL-35 — Identifier central-anchor symmetry:** Should either false class-only OR false sub-fund-only restriction force wrong? S: only sub-fund-only prohibition of class option explicitly anchored. O: both directions central. Default: S literal default: class-only error caps partial.
+
+## Rafa's decisions (2026-11-06)
+
+- **R01, partial credit:** keep the default. Half of the required points earns partial credit, one rule for every question.
+- **R29–R32, false claims on side points:** keep the default. A confidently false rule or regulatory claim outside the core question caps the answer at partial. Only errors on the core question make it wrong.
+- **R02–R28:** question-specific defaults stand, as applied. They're open to a later slow review if Rafa wants one.
