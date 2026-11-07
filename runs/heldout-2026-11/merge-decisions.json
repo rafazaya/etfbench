@@ -1,0 +1,146 @@
+[
+  {
+    "id": "HO-01",
+    "sol": "accept",
+    "opus": "fix",
+    "resolution": "Accept clearer transaction-price mechanism and accrual error anchor. Keep affirmative minima and the supported operating-expense description.",
+    "final": "retain",
+    "needs_rafa": false
+  },
+  {
+    "id": "HO-02",
+    "sol": "accept",
+    "opus": "fix",
+    "resolution": "Accept symmetric anchors for pricing authority and false 4 pm mandate; affirmative minimum retains convention status.",
+    "final": "retain",
+    "needs_rafa": false
+  },
+  {
+    "id": "HO-03",
+    "sol": "accept",
+    "opus": "accept",
+    "resolution": "Accept both reviews.",
+    "final": "retain",
+    "needs_rafa": false
+  },
+  {
+    "id": "HO-04",
+    "sol": "accept",
+    "opus": "fix",
+    "resolution": "Accept narrower personality anchor; keep affirmative minimum wording. Cross-subfund debt exposure is outside this item, so no practitioner decision needed.",
+    "final": "retain",
+    "needs_rafa": false
+  },
+  {
+    "id": "HO-05",
+    "sol": "fix",
+    "opus": "fix",
+    "resolution": "Both reviews request accounts/AGM support. Add Structure excerpts, keep full comparison, conservatively lower mixed-source tier to B; retain PFIC consequence as optional context only.",
+    "final": "retain",
+    "needs_rafa": false
+  },
+  {
+    "id": "HO-06",
+    "sol": "accept",
+    "opus": "fix",
+    "resolution": "Accept widened prompt covering pre-appointment and continuing oversight; leaves required content aligned with the actual task.",
+    "final": "retain",
+    "needs_rafa": false
+  },
+  {
+    "id": "HO-07",
+    "sol": "accept",
+    "opus": "fix",
+    "resolution": "Accept adviser-specific eligibility wording and precise reporting anchor; avoid unsupported exclusivity beyond the question.",
+    "final": "retain",
+    "needs_rafa": false
+  },
+  {
+    "id": "HO-08",
+    "sol": "accept",
+    "opus": "fix",
+    "resolution": "Accept narrowed principal-contract scope and remove optional interim point. Existing Advisory Contract Approval note has interim evidence, but expanding the task is unnecessary.",
+    "final": "retain",
+    "needs_rafa": false
+  },
+  {
+    "id": "HO-09",
+    "sol": "accept",
+    "opus": "accept",
+    "resolution": "Accept both reviews.",
+    "final": "retain",
+    "needs_rafa": false
+  },
+  {
+    "id": "HO-10",
+    "sol": "accept",
+    "opus": "fix",
+    "resolution": "Accept explicit reimbursement recipient. Restore source page locator: Participants Sources explicitly identifies release pp. 72–73; reviewer saw only the topical section.",
+    "final": "retain",
+    "needs_rafa": false
+  },
+  {
+    "id": "HO-11",
+    "sol": "accept",
+    "opus": "accept",
+    "resolution": "Accept both reviews.",
+    "final": "retain",
+    "needs_rafa": false
+  },
+  {
+    "id": "HO-12",
+    "sol": "accept",
+    "opus": "accept",
+    "resolution": "Accept both reviews. Clarify incomplete board-only answer; replace inaccessible release lead with an explicit SEC ratification query.",
+    "final": "retain",
+    "needs_rafa": false
+  },
+  {
+    "id": "HO-13",
+    "sol": "accept",
+    "opus": "accept",
+    "resolution": "Accept both reviews.",
+    "final": "retain",
+    "needs_rafa": false
+  },
+  {
+    "id": "HO-14",
+    "sol": "accept",
+    "opus": "accept",
+    "resolution": "Accept both reviews.",
+    "final": "retain",
+    "needs_rafa": false
+  },
+  {
+    "id": "HO-15",
+    "sol": "accept",
+    "opus": "fix",
+    "resolution": "Accept filing-specific scope and preserve uncertainty; no invented universal ceiling. Rafa confirmation remains listed.",
+    "final": "retain",
+    "needs_rafa": true
+  },
+  {
+    "id": "HO-16",
+    "sol": "accept",
+    "opus": "fix",
+    "resolution": "Accept scope, optional method caveats and AUM anchor. Legacy question origin is explicitly allowed by this task; retain honest public-data-lead versus demand distinction.",
+    "final": "retain",
+    "needs_rafa": true
+  },
+  {
+    "id": "HO-17",
+    "sol": "accept",
+    "opus": "fix",
+    "resolution": "Disagree with narrowing: the bank-linked HMRC source explicitly supplies taxable distributed and undistributed income. Add exact source supplement; retain original UK-taxable-individual scope and central deferral error. B remains B; no bank approval implied.",
+    "final": "retain",
+    "needs_rafa": false
+  },
+  {
+    "id": "HO-18",
+    "sol": "fix",
+    "opus": "fix",
+    "resolution": "Both reviews agree on exact PDF citation. Accept optional Vanguard detail. Reject denominator-mixing as automatic central error: numeric shares are optional side content, so false denominator claims cap partial under Rafa’s adopted rule.",
+    "final": "retain",
+    "needs_rafa": true
+  }
+]

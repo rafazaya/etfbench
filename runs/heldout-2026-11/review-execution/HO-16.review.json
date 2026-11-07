@@ -1,0 +1,50 @@
+{
+  "id": "HO-16",
+  "decision": "fix",
+  "reason": "The excerpt supports the core facts. It gives the rank order Jane Street, Virtu, GTS, Susquehanna, Citadel, and the totals 1,123 / 854 / 830 / 741 / 660 match the table sums for each venue. It supports the October 5 NYSE sheet date (not September 30), the lack of an established internal effective date for Nasdaq and Cboe, the ETP-not-ETF-only scope, and that no historical, AUM or trading-share ranking was computed. Three things need fixing. (1) Point 3 makes four separate 'unresolved' items required, including AUM and trading share. That penalizes silence on details the question does not clearly ask for. The question asks for date and universe limits, so the required minimum should be the date limit (current snapshot, not September 30) and the universe limit (ETP, not verified ETF-only). AUM and trading share should move to an optional point. (2) The key points leave out two universe limits stated in the excerpt that the question invites. Totals count exchange assignments, not deduplicated funds, and listing-transfer overlaps have not been reconciled. NYSE proper's DMM assignments are not established, so this is not an all-NYSE-venues ranking. These should be optional. (3) The central error leaves out AUM, which the excerpt explicitly says was not computed. Presenting the ranking as an AUM ranking is an equally likely misreading. Smaller points: 'inbox snapshot' is internal wording. The excerpt's recommended wording is 'dated snapshot', and contestants cannot see the inbox. The demand_source URL is the NYSE ETF resources page, which the excerpt cites as a data source, not as evidence of an issue or demand. The stated relationship 'adapted from documented issue/guidance' is not supported by the excerpt. The Virtu\u2013GTS margin is 24 assignments, so the order depends on the method (per-venue deduplication, test-account and Market Quality Supporter exclusions, grouping firms by name). Scoping to the dated snapshot is therefore essential. Tier C and the 'unapproved inbox research' grader note fit the excerpt's 'Awaiting Rafa's approval' status.",
+  "replacement": {
+    "sharpened_question": "Which five firms have the most US exchange LMM/DLP assignments (NYSE Arca LMM, Nasdaq DLP, Cboe BZX LMM) in the dated snapshot retrieved November 6, 2026, and what date and universe limitations govern that ranking?",
+    "key_points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "The ranking is Jane Street, Virtu, GTS, Susquehanna and Citadel, in that order."
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "It combines assigned ETP securities in the retrieved NYSE Arca, Nasdaq DLP and Cboe BZX lists. The NYSE sheet is dated October 5, not September 30, and no internal effective date was established for the Nasdaq or Cboe lists."
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "This is a current retrieved assignment snapshot, not a September 30 historical ranking, and it covers ETPs rather than a verified ETF-only universe."
+      },
+      {
+        "point": 4,
+        "mark": "optional",
+        "minimum": "Counts are 1,123; 854; 830; 741; 660, respectively."
+      },
+      {
+        "point": 5,
+        "mark": "optional",
+        "minimum": "Totals count exchange assignments, not globally deduplicated funds, and listing-transfer overlaps are unreconciled. NYSE proper's DMM assignments are not established as covered, so this is not an all-NYSE-venues ranking."
+      },
+      {
+        "point": 6,
+        "mark": "optional",
+        "minimum": "No AUM or trading-market-share ranking was computed."
+      }
+    ],
+    "central_errors": [
+      "Represents the snapshot as an established September 30, ETF-only, AUM or trading-market-share ranking."
+    ],
+    "demand_source": {
+      "url": "https://www.nyse.com/products/exchange-traded-products/exchange-traded-funds",
+      "location": "Previously excluded legacy top-five question; narrowed to the actual dated snapshot. The URL is a public data-source lead, not a documented user issue.",
+      "relationship": "internal legacy question; public source lead only, not documented external demand",
+      "observed_on": "2026-11-06"
+    }
+  },
+  "practitioner_judgment": "Decide whether a question motivated by an internal legacy item, with only a source-lead URL, meets held-out demand requirements. Recommended default: keep it as Tier C with the demand relationship honestly relabeled, and exclude it if your policy requires documented external demand."
+}

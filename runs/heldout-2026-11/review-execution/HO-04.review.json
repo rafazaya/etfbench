@@ -1,0 +1,23 @@
+{
+  "id": "HO-04",
+  "decision": "fix",
+  "reason": "The core facts are supported by the HO-04-bank excerpt: a sub-fund is not a separate legal person, the ICAV can sue or be sued for a particular sub-fund, and segregated liability does not create a separate entity (citing ICAV Act 2015 \u00a737). Scope, tier B, the fact answer type and the demand_source \u00a737 lead are consistent with the excerpt. Three things need fixing. (1) Required point 1 never states the direct answer 'no', so an answer could meet the minimum without saying sub-funds lack separate legal personality. It should state the negative explicitly, using the excerpt's wording. (2) Required point 2 leads with 'sub-fund liability is segregated' as a standalone claim. The excerpt only mentions segregated liability to say it does not create a separate entity, so point 2 should carry that relationship, which is what the question's second half asks about. (3) The second limb of the central error ('one sub-fund automatically pays another's debts') goes beyond the excerpt. The excerpt says nothing about whether one sub-fund's assets can meet another's liabilities, so that anchor relies on outside knowledge and should be removed. The first limb, treating segregated liability as separate personality, is directly supported.",
+  "replacement": {
+    "key_points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "No: an ICAV sub-fund is not a separate legal person; the ICAV is the legal entity and each sub-fund (e.g. each ETF) is a sub-fund of it."
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Segregated liability does not create a separate entity; instead the ICAV itself can sue or be sued in relation to a particular sub-fund."
+      }
+    ],
+    "central_errors": [
+      "Equates segregated liability with separate legal personality, e.g. says each sub-fund is its own legal entity or sues/is sued in its own name."
+    ]
+  },
+  "practitioner_judgment": "If you want to test cross-sub-fund debt exposure, first add bank or statute evidence stating the effect of segregation on sub-fund assets and liabilities. Recommended default: keep the central error limited to the personality conflation."
+}

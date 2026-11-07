@@ -1,0 +1,27 @@
+{
+  "id": "HO-01",
+  "decision": "fix",
+  "reason": "The core mechanism is directly supported by the 'Economics' bullets in HO-01-bank. The excerpt says portfolio trading costs (commissions, spreads, market impact) 'are paid through the prices of the fund's trades, so they reduce performance and show up in NAV. They aren't accrued against NAV as an expense or counted in the expense ratio.' It also says the fund 'pays its expenses out of fund assets. Together they make up the expense ratio.' These bullets have no regime tag, so they apply to a US equity ETF and the US scope is acceptable. The question asks 'how', the answer_type is mechanism, and the tier A bank evidence is adequate. The pair has three wording problems. (1) Point 2 says 'operating expenses', but the excerpt only says 'its expenses' paid out of fund assets. (2) Point 1's 'reduce the value obtained on trades' paraphrases rather than tracks the source's 'paid through the prices of the fund's trades'. (3) The excerpt draws a distinction between costs reflected in NAV and costs accrued against NAV as an expense, and neither the minima nor the central error anchors it, which leaves graders uncertain about answers that say trading costs are 'charged to NAV like an expense'. The ETF in-kind point ('the fund mostly doesn't trade to meet flows') is supported but not asked for, so it should be optional and non-penalized. Overlap with QL-04 and QL-32 is plausibly distinct on the stated classification focus, but this can't be verified from the supplied excerpts.",
+  "replacement": {
+    "key_points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Portfolio trading costs (commissions, spreads, market impact) are paid through the prices of the fund's trades, so they reduce performance and are reflected in NAV, rather than being accrued against NAV as a separate expense."
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "The expense ratio is made up of the fund's expenses paid out of fund assets; portfolio commissions, spreads and market impact are not counted in it."
+      }
+    ],
+    "central_errors": [
+      "Treats portfolio trading costs as counted in the reported expense ratio or as accrued against NAV as an expense, or says they have no effect on NAV or performance."
+    ],
+    "grader_notes": [
+      "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+      "No additional facts beyond the supplied evidence are required. Optional, not required: noting that in-kind creation/redemption with APs means an ETF mostly doesn't trade to meet flows; do not penalize its absence."
+    ]
+  },
+  "practitioner_judgment": null
+}

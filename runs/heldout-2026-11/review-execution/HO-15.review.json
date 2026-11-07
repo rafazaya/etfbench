@@ -1,0 +1,22 @@
+{
+  "id": "HO-15",
+  "decision": "fix",
+  "reason": "Point 1 is supported. The bank excerpt records Rafael's dated (2026-11-06) practitioner estimate as \"I believe\" the typical maximum variable creation/redemption fee for US ('40 Act) ETFs is 3%. It marks this as practitioner knowledge that may not be public, so the required uncertainty is grounded. The central error is also well anchored: the excerpt says Corgi's \"up to 3%\" is \"a filing example, not a universal cap.\" Point 2 goes beyond the excerpt in two ways. First, the excerpt never states that \"the fund's own SAI and dealing terms determine its actual fee.\" Second, \"dealing terms\" is not mentioned at all. The excerpt supports only two things: Corgi's filed SAI specifies \"up to 3%\", and that figure is one filing example, not a universal cap. The original question's \"how should that estimate be used alongside a fund's actual documents\" invites the unsupported general rule. The question should therefore ask what the cited filing shows and how it relates to the estimate. Scope (US '40 Act, issuer/operator, variable fee) fits the excerpt. Tier A is acceptable only as provisional. The figure rests on an unconfirmed practitioner belief backed by one filing example, and the grader notes already flag it for Rafa's confirmation.",
+  "replacement": {
+    "sharpened_question": "In Rafa's US ('40 Act) ETF practitioner estimate, what is the typical maximum variable creation/redemption fee, and what does the cited Corgi ETF Trust I SAI show about how that figure relates to a specific fund's filed terms?",
+    "change_note": "Externally motivated question scoped to the bank evidence; see demand_source. Sharpened to ask what the cited filing shows, replacing a general 'use alongside actual documents' rule. Removed unsupported 'dealing terms' and 'SAI determines actual fee' wording.",
+    "key_points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "Rafa's dated practitioner estimate (2026-11-06) is that 3% is the typical maximum variable creation/redemption fee for US ('40 Act) ETFs, presented with uncertainty (a belief/estimate, not a verified rule)."
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "Corgi ETF Trust I's filed SAI specifies variable creation/redemption transaction fees of 'up to 3%'. That is one filing example, not a universal cap."
+      }
+    ]
+  },
+  "practitioner_judgment": "Should the reference state a general rule that a fund's own SAI or dealing terms govern its actual fee? Recommended default: no, keep the fixed scope above. Rafa can add an explicit bank line supporting the general rule (and defining 'dealing terms') when confirming the 3% estimate. Until then, the pair stays provisional."
+}

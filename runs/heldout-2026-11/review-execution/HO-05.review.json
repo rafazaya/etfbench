@@ -1,0 +1,28 @@
+{
+  "id": "HO-05",
+  "decision": "fix",
+  "reason": "The core comparison is supported by HO-05-bank. The excerpt says the ICAV, 'unlike the older Irish investment plc, ... can file accounts per sub-fund and skip the AGM'. It also says 'an ICAV can elect US partnership treatment (\"check the box\") ... An Irish investment plc can't, because US tax law treats it as a corporation per se.' Four parts need fixing. (1) Point 1 says the plc 'uses umbrella accounts'. The excerpt only says the plc lacks the ICAV's per-sub-fund and no-AGM flexibility; it never names 'umbrella accounts', so the minimum should mirror the contrast actually stated. (2) Point 2 says the ICAV can 'elect US tax classification, including partnership treatment'. That implies a wider menu of elections than the excerpt supports; it names only the partnership (check-the-box) election. (3) The grader note 'election does not automatically establish a particular investor tax outcome' has no support in the excerpt and cuts against it: the excerpt says the election 'keeps US investors out of the PFIC ... rules'. 'AGM notice details' is also not in the evidence. Replace both with a supported optional PFIC mention. (4) Central errors cover only election reversal. Add reversal of the accounts/AGM contrast, since that is also a core anchor. Everything else holds. Tier A is reasonable for a two-point comparison from a single bank section. The wording is affirmative. The scope matches the question. The William Fry URL is only a demand lead and is not relied on for facts.",
+  "replacement": {
+    "key_points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "An ICAV can file accounts per sub-fund and skip the AGM; the older Irish investment plc does not have that flexibility."
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "An ICAV can elect US partnership treatment (\"check the box\"); an Irish investment plc cannot, because US tax law treats it as a corporation per se."
+      }
+    ],
+    "central_errors": [
+      "Reverses ICAV and investment plc eligibility for the US partnership (check-the-box) election.",
+      "Reverses which vehicle can file per-sub-fund accounts and skip the AGM."
+    ],
+    "grader_notes": [
+      "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+      "Use the investment-fund plc meaning. Optional, not required: noting that the ICAV is a fund-only vehicle outside Irish company law, or that the partnership election keeps US investors out of the PFIC rules. Do not require or reward claims about other US classification elections."
+    ]
+  },
+  "practitioner_judgment": "Should the PFIC consequence be required? Recommended default: keep it optional credit. The question asks about election eligibility, and the required minimum is the eligibility contrast plus the per-se corporation reason."
+}

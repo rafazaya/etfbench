@@ -1,0 +1,66 @@
+[
+  {
+    "path": "/home/rafa/code/etfbench/CLAUDE.md",
+    "sha256": "4ddbb05eea732481dafe4bb6422d3f84385e1c392409d270a669ee4cd0f28d13"
+  },
+  {
+    "path": "/home/rafa/code/etfbench/ai/knowledge-bank-decisions.md",
+    "sha256": "757b265b18272b46653360a300b4ddffcd4a6af6868df5cb66a45e7c07854cff"
+  },
+  {
+    "path": "/home/rafa/code/etfbench/questions.md",
+    "sha256": "fe2b9a6df96bc1ec6ae45957462666ecc4611b73234eb13056922013ac58d893"
+  },
+  {
+    "path": "/home/rafa/code/etfbench/runs/pilot-2026-11-06/references-reviewed.json",
+    "sha256": "3448c392bdb9211bf88ed2e467f153fba8e3b3f79cd66928de4b4f8663605767"
+  },
+  {
+    "path": "/home/rafa/code/etfbench/runs/pilot-2026-11-06-calibration/rubric.json",
+    "sha256": "6b81c89c24163ca688815f7e2689230efeb46b475d3b089882f632ef7c56d301"
+  },
+  {
+    "path": "/home/rafa/code/etfbench/runs/pilot-2026-11-06-calibration/for-rafa.md",
+    "sha256": "6f8b764868c1f178a95034a7e49d0c692a610a1a335049e4a8ba5de8e1be69bf"
+  },
+  {
+    "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Share Class Structure.md",
+    "sha256": "fc67f29e9213a21026c14c0973fa5c44c93ad962f0f6a149764a76d1adc25cdb"
+  },
+  {
+    "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Share Class Board Considerations.md",
+    "sha256": "b56ef3c01f361c8737d8361b5d9715700d054c58d148b6e47e43b7492851b14e"
+  },
+  {
+    "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF.md",
+    "sha256": "f0ec819fb6f0ee98e9c627d9c7cdfc7b13e3cbbe2423a445244e4917438e3f9d"
+  },
+  {
+    "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+    "sha256": "e7218ed4a48faad1e0096f76ca92f62409d0529ac50d7557ffd74864d5dff59a"
+  },
+  {
+    "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/Advisory Contract Approval.md",
+    "sha256": "ee13333b6c2aa283a6a787828e19c18f6e4ef2d3528799408bcbbe2b4c132dcf"
+  },
+  {
+    "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Market Mechanics.md",
+    "sha256": "3d5d70d262712084d809b78cb9cfd1d88459d29c724f43ac55e978d518a26147"
+  },
+  {
+    "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Structure and Regulation.md",
+    "sha256": "6b6a6012491b6316b6b5817829e8f78502235d68b3f639f5672e7afa088d0bd7"
+  },
+  {
+    "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Tax Efficiency.md",
+    "sha256": "5aa6a9584c572f201267197d08eb2decd45d26c4b003ed4772666aa5061abb43"
+  },
+  {
+    "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+    "sha256": "77a9b8ec63af8c4ab8b96b875bff26eb2364c01b31a96b34ffac6898ea5051ce"
+  },
+  {
+    "path": "/home/rafa/Documents/zmoot/Rafa/10 Agent Work/reviews/ETF Participants.md.review.md",
+    "sha256": "ad645406a74a6e7e9f1e4088ddaff24129675b0779ee49b60c2843c273f242b9"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "id": "HO-02",
+  "decision": "fix",
+  "reason": "The excerpt supports every element of the pair. Under US ('40 Act), it says the board sets the pricing time and NAV is struck at least once each business day. It also says 4pm ET is a convention tied to the NYSE close, not a rule. Scope, tier A, answer_type fact and the 'Explain' wording all fit. The Reddit link is only a demand lead and is not relied on as evidence, which is appropriate. Two narrow fixes are needed. (1) The question asks for the 'status' of 4 pm ET, but required point 2 drops the 'not a rule' half of the excerpt. An answer could call it a convention while implying it is also mandated and still meet the minimum. The minimum should state the status the excerpt gives. (2) The central error says 'federal rules universally require exactly 4 pm ET'. 'Universally' and 'exactly' let a plain claim that a rule requires 4 pm ET pricing escape the anchor. A second error is also worth anchoring: assigning the pricing time to the SEC, the exchange or another party instead of the board, which the excerpt directly contradicts. Point 1 and the grader notes are supported and need no change.",
+  "replacement": {
+    "key_points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "The board sets the pricing time; NAV is struck at least once each business day."
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "4 pm ET is a convention tied to the NYSE close, not a rule."
+      }
+    ],
+    "central_errors": [
+      "States that a federal rule or the SEC requires NAV to be struck at 4 pm ET.",
+      "States that the SEC, the exchange or another party other than the board sets the NAV pricing time."
+    ]
+  },
+  "practitioner_judgment": null
+}

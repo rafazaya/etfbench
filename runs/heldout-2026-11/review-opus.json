@@ -1,0 +1,406 @@
+[
+  {
+    "id": "HO-01",
+    "decision": "fix",
+    "reason": "The core mechanism is directly supported by the 'Economics' bullets in HO-01-bank. The excerpt says portfolio trading costs (commissions, spreads, market impact) 'are paid through the prices of the fund's trades, so they reduce performance and show up in NAV. They aren't accrued against NAV as an expense or counted in the expense ratio.' It also says the fund 'pays its expenses out of fund assets. Together they make up the expense ratio.' These bullets have no regime tag, so they apply to a US equity ETF and the US scope is acceptable. The question asks 'how', the answer_type is mechanism, and the tier A bank evidence is adequate. The pair has three wording problems. (1) Point 2 says 'operating expenses', but the excerpt only says 'its expenses' paid out of fund assets. (2) Point 1's 'reduce the value obtained on trades' paraphrases rather than tracks the source's 'paid through the prices of the fund's trades'. (3) The excerpt draws a distinction between costs reflected in NAV and costs accrued against NAV as an expense, and neither the minima nor the central error anchors it, which leaves graders uncertain about answers that say trading costs are 'charged to NAV like an expense'. The ETF in-kind point ('the fund mostly doesn't trade to meet flows') is supported but not asked for, so it should be optional and non-penalized. Overlap with QL-04 and QL-32 is plausibly distinct on the stated classification focus, but this can't be verified from the supplied excerpts.",
+    "replacement": {
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "Portfolio trading costs (commissions, spreads, market impact) are paid through the prices of the fund's trades, so they reduce performance and are reflected in NAV, rather than being accrued against NAV as a separate expense."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "The expense ratio is made up of the fund's expenses paid out of fund assets; portfolio commissions, spreads and market impact are not counted in it."
+        }
+      ],
+      "central_errors": [
+        "Treats portfolio trading costs as counted in the reported expense ratio or as accrued against NAV as an expense, or says they have no effect on NAV or performance."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "No additional facts beyond the supplied evidence are required. Optional, not required: noting that in-kind creation/redemption with APs means an ETF mostly doesn't trade to meet flows; do not penalize its absence."
+      ]
+    },
+    "practitioner_judgment": null
+  },
+  {
+    "id": "HO-02",
+    "decision": "fix",
+    "reason": "The excerpt supports every element of the pair. Under US ('40 Act), it says the board sets the pricing time and NAV is struck at least once each business day. It also says 4pm ET is a convention tied to the NYSE close, not a rule. Scope, tier A, answer_type fact and the 'Explain' wording all fit. The Reddit link is only a demand lead and is not relied on as evidence, which is appropriate. Two narrow fixes are needed. (1) The question asks for the 'status' of 4 pm ET, but required point 2 drops the 'not a rule' half of the excerpt. An answer could call it a convention while implying it is also mandated and still meet the minimum. The minimum should state the status the excerpt gives. (2) The central error says 'federal rules universally require exactly 4 pm ET'. 'Universally' and 'exactly' let a plain claim that a rule requires 4 pm ET pricing escape the anchor. A second error is also worth anchoring: assigning the pricing time to the SEC, the exchange or another party instead of the board, which the excerpt directly contradicts. Point 1 and the grader notes are supported and need no change.",
+    "replacement": {
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "The board sets the pricing time; NAV is struck at least once each business day."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "4 pm ET is a convention tied to the NYSE close, not a rule."
+        }
+      ],
+      "central_errors": [
+        "States that a federal rule or the SEC requires NAV to be struck at 4 pm ET.",
+        "States that the SEC, the exchange or another party other than the board sets the NAV pricing time."
+      ]
+    },
+    "practitioner_judgment": null
+  },
+  {
+    "id": "HO-03",
+    "decision": "accept",
+    "reason": "The HO-03-bank excerpt (UCITS tax treatment) directly supports both required minima. It says: 'US dividends to an Irish fund are withheld at 15% under the US–Ireland treaty if the fund passes the treaty's limitation-on-benefits test… The fund bears the tax, and investors can't reclaim it.' Point 1 (15% treaty withholding for a qualifying fund) and point 2 (the fund bears the cost and investors cannot reclaim it) restate that sentence closely. Scope: the question presupposes the LOB test is met, which matches the excerpt's condition. The excerpt's note that listed ETFs usually pass is not needed and is correctly not required. Grader notes exclude investor residence taxes and distributions, which the excerpt does not address. Both minima are affirmative, gradeable statements of the mechanism. The 'cannot reclaim' element is the source's own claim, not a negative-only placeholder. Central error: both halves contradict the cited sentence. A zero fund-level rate contradicts the 15% rate, and treating the tax as reclaimable by each investor contradicts 'investors can't reclaim it'. The error does not import unsupported figures, such as a non-treaty rate. Tier A is consistent with a single, explicit, on-point bank statement that needs no inference. The external SSGA link is used only as a demand source, not as evidence, which is appropriate. The overlap rationale (withholding incidence vs. §852(b)(6) in-kind nonrecognition) is consistent with the excerpt, which treats them as separate items.",
+    "replacement": null,
+    "practitioner_judgment": null
+  },
+  {
+    "id": "HO-04",
+    "decision": "fix",
+    "reason": "The core facts are supported by the HO-04-bank excerpt: a sub-fund is not a separate legal person, the ICAV can sue or be sued for a particular sub-fund, and segregated liability does not create a separate entity (citing ICAV Act 2015 §37). Scope, tier B, the fact answer type and the demand_source §37 lead are consistent with the excerpt. Three things need fixing. (1) Required point 1 never states the direct answer 'no', so an answer could meet the minimum without saying sub-funds lack separate legal personality. It should state the negative explicitly, using the excerpt's wording. (2) Required point 2 leads with 'sub-fund liability is segregated' as a standalone claim. The excerpt only mentions segregated liability to say it does not create a separate entity, so point 2 should carry that relationship, which is what the question's second half asks about. (3) The second limb of the central error ('one sub-fund automatically pays another's debts') goes beyond the excerpt. The excerpt says nothing about whether one sub-fund's assets can meet another's liabilities, so that anchor relies on outside knowledge and should be removed. The first limb, treating segregated liability as separate personality, is directly supported.",
+    "replacement": {
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "No: an ICAV sub-fund is not a separate legal person; the ICAV is the legal entity and each sub-fund (e.g. each ETF) is a sub-fund of it."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "Segregated liability does not create a separate entity; instead the ICAV itself can sue or be sued in relation to a particular sub-fund."
+        }
+      ],
+      "central_errors": [
+        "Equates segregated liability with separate legal personality, e.g. says each sub-fund is its own legal entity or sues/is sued in its own name."
+      ]
+    },
+    "practitioner_judgment": "If you want to test cross-sub-fund debt exposure, first add bank or statute evidence stating the effect of segregation on sub-fund assets and liabilities. Recommended default: keep the central error limited to the personality conflation."
+  },
+  {
+    "id": "HO-05",
+    "decision": "fix",
+    "reason": "The core comparison is supported by HO-05-bank. The excerpt says the ICAV, 'unlike the older Irish investment plc, ... can file accounts per sub-fund and skip the AGM'. It also says 'an ICAV can elect US partnership treatment (\"check the box\") ... An Irish investment plc can't, because US tax law treats it as a corporation per se.' Four parts need fixing. (1) Point 1 says the plc 'uses umbrella accounts'. The excerpt only says the plc lacks the ICAV's per-sub-fund and no-AGM flexibility; it never names 'umbrella accounts', so the minimum should mirror the contrast actually stated. (2) Point 2 says the ICAV can 'elect US tax classification, including partnership treatment'. That implies a wider menu of elections than the excerpt supports; it names only the partnership (check-the-box) election. (3) The grader note 'election does not automatically establish a particular investor tax outcome' has no support in the excerpt and cuts against it: the excerpt says the election 'keeps US investors out of the PFIC ... rules'. 'AGM notice details' is also not in the evidence. Replace both with a supported optional PFIC mention. (4) Central errors cover only election reversal. Add reversal of the accounts/AGM contrast, since that is also a core anchor. Everything else holds. Tier A is reasonable for a two-point comparison from a single bank section. The wording is affirmative. The scope matches the question. The William Fry URL is only a demand lead and is not relied on for facts.",
+    "replacement": {
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "An ICAV can file accounts per sub-fund and skip the AGM; the older Irish investment plc does not have that flexibility."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "An ICAV can elect US partnership treatment (\"check the box\"); an Irish investment plc cannot, because US tax law treats it as a corporation per se."
+        }
+      ],
+      "central_errors": [
+        "Reverses ICAV and investment plc eligibility for the US partnership (check-the-box) election.",
+        "Reverses which vehicle can file per-sub-fund accounts and skip the AGM."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "Use the investment-fund plc meaning. Optional, not required: noting that the ICAV is a fund-only vehicle outside Irish company law, or that the partnership election keeps US investors out of the PFIC rules. Do not require or reward claims about other US classification elections."
+      ]
+    },
+    "practitioner_judgment": "Should the PFIC consequence be required? Recommended default: keep it optional credit. The question asks about election eligibility, and the required minimum is the eligibility contrast plus the per-se corporation reason."
+  },
+  {
+    "id": "HO-06",
+    "decision": "fix",
+    "reason": "The excerpt supports the substance of the pair. Point 1 is supported: the ManCo 'checks each delegate before appointing it and keeps checking afterwards, under a written service agreement. It must challenge what delegates report, and may not simply adopt their policies (Central Bank letter to ManCo chairs, 2020)'. Point 2 is supported by Art. 13: 'delegating doesn't reduce the ManCo's liability' and it 'may not delegate so much that it becomes a letter-box entity'. Duties adds 'Keeps overseeing what it has delegated: delegating doesn't end the duty', and Risks adds 'Answers for its delegates'. The 'sufficient substance' wording follows from the letter-box bar and the July 2026 rule on 'adequate resources to manage and monitor the services provided'. Point 3 (optional) is supported: 'each managerial function has a designated person who monitors it day to day ... when issues go up to the board'. The six functions are listed. The central error matches Art. 13 directly. The minima are affirmative and need no facts beyond the evidence. Tier A is consistent with a single bank excerpt that cites primary rules (Art. 13, Central Bank 2020 letter). The one problem is scope. The question asks only about 'ongoing' oversight, but required point 1 also requires pre-appointment due diligence. An answer that fully covers ongoing monitoring and challenge would then lose credit for something the question did not ask about. The fix is to widen the question to cover oversight of delegates generally, which brings pre-appointment checks into scope without changing the key points. The demand source is used only as a lead and is not relied on for any fact.",
+    "replacement": {
+      "sharpened_question": "When an Irish UCITS ManCo delegates portfolio management and administration, what oversight must it exercise over its delegates, both before appointment and afterwards, and what responsibility does it retain?",
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source. Question widened from 'ongoing oversight' so that the pre-appointment due diligence required by key point 1 is in scope."
+    },
+    "practitioner_judgment": null
+  },
+  {
+    "id": "HO-07",
+    "decision": "fix",
+    "reason": "The excerpt supports most of the pair. It says the board can make the principal adviser the fund's valuation designee under Rule 2a-5 and that a sub-adviser can't be. It also says that, as designee, the adviser (a) reports to the board in writing at least quarterly, (b) assesses the valuation process each year and (c) reports material matters within the board-set deadline, at most 5 business days. Points 2 and 3 match the excerpt. Point 1 overreaches: 'eligibility is limited to the fund adviser other than a sub-adviser' makes an exclusivity claim the excerpt doesn't make. The excerpt only says the principal adviser is eligible and a sub-adviser isn't, so a correct answer naming another permitted designee would be penalised without support. The central error's 'eliminates board oversight' is vague. The excerpt anchors oversight in the designee's written reporting to the board, so the error should name denying that reporting. The scope fits: the excerpt covers US ('40 Act) funds, which include open-end ETFs. 'Separate fair valuation from portfolio management' falls outside the question's 'what reporting' scope, so leaving it out is fine. Tier A rests on one directly on-point bank excerpt; the SEC guide is cited only as the demand lead, which is appropriate.",
+    "replacement": {
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "The board can designate the fund's principal adviser as valuation designee under Rule 2a-5; a sub-adviser can't be the valuation designee."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "The designee reports to the board in writing at least quarterly and assesses the valuation process each year."
+        },
+        {
+          "point": 3,
+          "mark": "required",
+          "minimum": "The designee reports material matters to the board within the deadline the board sets, which can be no more than 5 business days."
+        }
+      ],
+      "central_errors": [
+        "States that a sub-adviser can be the valuation designee, or that the designee owes the board no periodic written reporting."
+      ]
+    },
+    "practitioner_judgment": null
+  },
+  {
+    "id": "HO-08",
+    "decision": "fix",
+    "reason": "Points 1 and 2 and the central error are supported by the bank excerpt. Point 1: §2(a)(4) says 'assignment' includes a change of control, so selling the adviser ends the contract. The §15(a) requirements also say the contract must 'end automatically on assignment.' Point 2: under §15(a) the advisory contract must be approved by shareholders. Board approval under §15(c) is evidenced by 'Furnishes the information the board needs to approve the contract (§15(c)).' Independent-trustee approval is shown for the sub-advisory contract, which is 'a §15 advisory contract too.' The Risks section confirms that 'A sale of the adviser ends its contracts, which then need new approvals.' Point 3 has no support in the excerpt: it says nothing about interim contracts or bridging arrangements. Even as an optional point it has to go. The original question's phrase 'approvals are needed for continued service' invites interim-contract answers the evidence can't anchor, so the question should be sharpened to the new contract's approvals. There is also a scope gap. 'Its contracts' in the excerpt includes sub-advisory contracts, and under a manager-of-managers order those need board approval but no shareholder vote. Point 2 should therefore be scoped to the principal advisory contract, with a grader note that the manager-of-managers exception is an accurate side claim. The grader note putting §15(f) safe-harbor details outside the required answer is consistent with the excerpt, which covers §15(f) only as a seller-profit condition. The interim-contract part of that note should go. Tier A suits a direct statutory mechanism with explicit section citations. The overlap decision (distinct from QL-01) is reasonable.",
+    "replacement": {
+      "sharpened_question": "If a transaction changes control of the adviser to a US ETF, what happens to its advisory contract, and what approvals does a new advisory contract need?",
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source. Sharpened from 'approvals needed for continued service' to the new contract's approvals, because the bank evidence does not cover interim/bridging arrangements. Removed unsupported optional interim-arrangement point. Scoped point 2 to the principal advisory contract.",
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "A change of control of the adviser is an assignment, and the existing advisory contract automatically terminates on assignment."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "A new principal advisory contract must be approved again, by the board (including the independent trustees) and by a shareholder vote."
+        }
+      ],
+      "central_errors": [
+        "Says the advisory contract automatically continues unchanged through the change of control/assignment."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "Section 15(f) safe-harbor details are outside the required answer.",
+        "An accurate side claim that sub-advisory contracts also terminate, and that under a manager-of-managers order a replacement sub-advisory contract needs board approval but no shareholder vote, is not an error.",
+        "Interim or bridging contracts are not graded either way: they are outside the bank evidence and not required."
+      ]
+    },
+    "practitioner_judgment": "Should interim-contract bridging be covered? Recommended default: leave it out of this item. Add it only after the bank note is updated with a cited source for the interim-contract rule and its conditions; then restore it as an optional point."
+  },
+  {
+    "id": "HO-09",
+    "decision": "accept",
+    "reason": "Both required minima and the central error are supported by excerpt HO-09-bank. Point 1 matches the unitary-fee bullet: the adviser may agree with the trust to waive part of the fee, and 'the waived amount is gone for good: it isn't recoupable.' Point 2 matches the no-unitary-fee bullet: waived amounts under an expense limitation agreement are 'typically recoupable for up to 3 years, but only while the fund stays below the lower of the cap at the time of the waiver and the cap at recoupment.' The pair's 'commonly' tracks the source's 'typically,' and 'the lower cap controls' restates the source faithfully. The central error targets the decisive contrasts: reversing which arrangement allows recoupment, or allowing recovery above the applicable caps. Scope is appropriate. The question is limited to the described US unitary-fee waiver, and the grader note correctly says contract terms control and forbids generalizing this into a legal ban on recoupment in all unitary-fee contracts. The source frames both treatments as contractual or typical, not statutory. The question is an affirmative comparison prompt, and the answer type 'comparison' matches. The SEC URL is labeled only as a demand lead, and no reference content depends on it, so no unsupported detail enters the key points. Overlap with QL-04 and QL-17 is plausibly distinct: this pair tests later recovery of waived amounts, not accrual or launch budgets. No unsupported claims need fixing.",
+    "replacement": null,
+    "practitioner_judgment": null
+  },
+  {
+    "id": "HO-10",
+    "decision": "fix",
+    "reason": "The graded content is supported by excerpt HO-10-bank. Point 1 is supported: fund policies commonly use $0.01/share and 0.5% of NAV, and the SEC called these 'generally used in the industry' in the Rule 2a-5 adopting release 'without making them a rule.' Point 2 is supported: 'Remediation follows the fund's own policy: the party responsible reimburses the fund, and material errors go to the board.' The excerpt also says the administrator's liability for NAV errors 'is decided under the fund's NAV-error procedures.' Point 3 is correctly optional and is a fair inference from the Citi example. That policy sets shareholder de minimis amounts and is internally inconsistent at the 0.5% boundary, hence 'quote the policy when precision matters.' The central error directly negates 'without making them a rule.' The scope (US, issuer/operator, mechanism) matches the excerpt, and the overlap rationale against QL-32 is sound. Tier A is defensible because the note ties the claim to the named adopting release, although only the note itself is supplied. Two fixes are needed. (1) The demand_source location cites 'pp. 72–73' of ic-34128.pdf. No supplied excerpt verifies that page range or that this URL is the Rule 2a-5 release, so the location should be restated without the unverified detail. (2) Point 2 should state who is reimbursed, matching the source ('reimburses the fund'). It should also make clear that both remediation elements are part of the minimum rather than illustrative.",
+    "replacement": {
+      "demand_source": {
+        "url": "https://www.sec.gov/files/rules/final/2020/ic-34128.pdf",
+        "location": "Rule 2a-5 adopting release discussion of NAV-error thresholds, as cited in the bank note; page location not verified against supplied excerpts.",
+        "relationship": "adapted from documented issue/guidance; not a verbatim user quotation",
+        "observed_on": "2026-11-06"
+      },
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "These thresholds describe common industry practice in fund NAV-error policies, which the SEC recognized as generally used when adopting the valuation rule (Rule 2a-5) without making them a rule."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "The fund's own NAV-error policy governs correction: the responsible party reimburses the fund, and material errors are reported to the board."
+        },
+        {
+          "point": 3,
+          "mark": "optional",
+          "minimum": "Precise boundaries and shareholder de minimis amounts depend on the particular policy, so the policy text should be checked when precision matters."
+        }
+      ]
+    },
+    "practitioner_judgment": null
+  },
+  {
+    "id": "HO-11",
+    "decision": "accept",
+    "reason": "Both required minima are directly supported by the cited bank excerpt (HO-11-bank, 'The fund' > Regulation > US ('40 Act), ETF), which says: 'In-kind ETFs are exempt from Rule 22e-4's liquidity classification and highly-liquid minimum, but still need a liquidity program and the 15% illiquid limit.' Point 1 (the program and the 15% limit still apply) and point 2 (relief from classification and the highly liquid investment minimum) restate that line without adding unsupported detail. The central error (claiming a complete exemption from the program or the 15% limit) is the direct negation of the 'but still need' clause, so it is a well-anchored error. The question's scope (which requirements continue and which get relief) matches the two key points exactly. The question says 'qualifying' while the excerpt says only 'in-kind ETFs'. The excerpt does not define the qualifying conditions, but the minima do not require them, so no unsupported content is demanded. The wording is an affirmative fact question, and the answer_type is 'fact', which is consistent. Tier A is defensible: a single explicit sentence in the bank source supports the full answer. The SEC FAQ is cited only as a demand source, not as evidence, which is appropriate. The overlap rationale (Rule 22e-4 versus Rule 6c-11) is consistent with the excerpt, which lists these as separate rules.",
+    "replacement": null,
+    "practitioner_judgment": null
+  },
+  {
+    "id": "HO-12",
+    "decision": "accept",
+    "reason": "The bank excerpt (HO-12-bank, US '40 Act independent-auditor bullet) supports every element of the pair. Point 1 (required) matches 'selected by the independent trustees (§32(a))'. Point 2 (required) matches 'with an all-independent audit committee no ratification vote is needed (Rule 18f-2(e), Rule 32a-4)'. The minimum names only Rule 32a-4, but citations are optional per grader_notes, so this does not affect grading. Point 3 (optional) matches 'Shareholders vote on the auditor trust-wide, if at all' and 'Series in one trust can have different auditors'. Marking it optional fits the question, which asks only who selects and when ratification can be omitted. The scope (US multi-series trust, issuer/operator audience) matches the excerpt. All minima are stated affirmatively. The central error contradicts points 1 and 2, so it is a valid anchor. Tier A is defensible because the answer comes directly from one explicit, statute- and rule-cited bullet that needs no synthesis. The SEC release URL is used only as a demand source and public lead, not as evidence, and no claim in the pair depends on it. The overlap check with QL-19 is plausible: this pair is about appointment authority and voting, not a provider inventory.",
+    "replacement": null,
+    "practitioner_judgment": "An answer that says only 'the board' selects the auditor, without saying independent trustees, should get partial credit on point 1, not full credit. The recommended default is that point 1 needs 'independent trustees' or an equivalent such as 'non-interested directors'."
+  },
+  {
+    "id": "HO-13",
+    "decision": "accept",
+    "reason": "The bank excerpt (HO-13-bank, 'Adviser and sub-adviser') supports every key point. Point 1 matches the statement that a manager-of-managers order (§6(c) exemptive relief) 'lets the principal adviser, with board approval, hire or replace sub-advisers and materially amend their contracts without a shareholder vote', and that 'the fund's shareholders approve the structure first, and the prospectus discloses it.' Point 2 matches 'the principal adviser oversees the sub-advisers and stays ultimately responsible for them', which the Duties section repeats. Point 3 matches 'any rise in the aggregate advisory fee rate still needs a shareholder vote.' Point 4 matches the 90-day notice line and is correctly marked optional. The required/optional split is sensible: the three required points answer both parts of the question (how replacement works without a vote, and what stays with the adviser), plus the main limit on the relief. The central error is well anchored. The excerpt says each fund group must apply for its own order, that the general rule (proposed Rule 15a-5) was withdrawn in 2009, and that the §15(a) vote applies unless the fund has an order. The question is worded affirmatively, scoped to a US fund that already has an order, and the regime and mechanism type fit. The grader note putting affiliated-sub-adviser (Carillon) conditions out of scope is consistent with the question. Other order conditions (independent-trustee majority and counsel, profitability information to the board) are reasonably left out of the minima. Tier A is defensible because each required point rests on an explicit statement in a single cited excerpt. The proxy URL is used only as a demand lead and no claim depends on it.",
+    "replacement": null,
+    "practitioner_judgment": null
+  },
+  {
+    "id": "HO-14",
+    "decision": "accept",
+    "reason": "The HO-14-bank excerpt supports both required minima. Point 1 matches the excerpt: the acquiring adviser evaluates complexity and fee duplication, the acquired adviser addresses undue influence, and each reports findings to its board by the next regular meeting. Point 2 also matches: an investment agreement terminable on no more than 60 days' notice, unless the same-adviser exception applies. The question's scope (US management investment companies relying on Rule 12d1-4 beyond statutory limits) mirrors the excerpt. 'Normally required' correctly signals the same-adviser exception, which point 2 preserves. The question is phrased affirmatively as an explain-the-mechanism prompt, and both points are central to it, so marking both as required is justified. The central error captures the main ways to get the mechanism wrong: denying any adviser assessment, or claiming the agreement is never needed. Its 'universally' wording avoids penalizing correct mention of the exception. Tier B is reasonable: the rule is cited in the excerpt, and the SEC FAQ is used only as a demand lead, not as factual support. The grader notes correctly limit required facts to the supplied evidence. The overlap decision of 'distinct' is plausible given the different rule.",
+    "replacement": null,
+    "practitioner_judgment": null
+  },
+  {
+    "id": "HO-15",
+    "decision": "fix",
+    "reason": "Point 1 is supported. The bank excerpt records Rafael's dated (2026-11-06) practitioner estimate as \"I believe\" the typical maximum variable creation/redemption fee for US ('40 Act) ETFs is 3%. It marks this as practitioner knowledge that may not be public, so the required uncertainty is grounded. The central error is also well anchored: the excerpt says Corgi's \"up to 3%\" is \"a filing example, not a universal cap.\" Point 2 goes beyond the excerpt in two ways. First, the excerpt never states that \"the fund's own SAI and dealing terms determine its actual fee.\" Second, \"dealing terms\" is not mentioned at all. The excerpt supports only two things: Corgi's filed SAI specifies \"up to 3%\", and that figure is one filing example, not a universal cap. The original question's \"how should that estimate be used alongside a fund's actual documents\" invites the unsupported general rule. The question should therefore ask what the cited filing shows and how it relates to the estimate. Scope (US '40 Act, issuer/operator, variable fee) fits the excerpt. Tier A is acceptable only as provisional. The figure rests on an unconfirmed practitioner belief backed by one filing example, and the grader notes already flag it for Rafa's confirmation.",
+    "replacement": {
+      "sharpened_question": "In Rafa's US ('40 Act) ETF practitioner estimate, what is the typical maximum variable creation/redemption fee, and what does the cited Corgi ETF Trust I SAI show about how that figure relates to a specific fund's filed terms?",
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source. Sharpened to ask what the cited filing shows, replacing a general 'use alongside actual documents' rule. Removed unsupported 'dealing terms' and 'SAI determines actual fee' wording.",
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "Rafa's dated practitioner estimate (2026-11-06) is that 3% is the typical maximum variable creation/redemption fee for US ('40 Act) ETFs, presented with uncertainty (a belief/estimate, not a verified rule)."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "Corgi ETF Trust I's filed SAI specifies variable creation/redemption transaction fees of 'up to 3%'. That is one filing example, not a universal cap."
+        }
+      ]
+    },
+    "practitioner_judgment": "Should the reference state a general rule that a fund's own SAI or dealing terms govern its actual fee? Recommended default: no, keep the fixed scope above. Rafa can add an explicit bank line supporting the general rule (and defining 'dealing terms') when confirming the 3% estimate. Until then, the pair stays provisional."
+  },
+  {
+    "id": "HO-16",
+    "decision": "fix",
+    "reason": "The excerpt supports the core facts. It gives the rank order Jane Street, Virtu, GTS, Susquehanna, Citadel, and the totals 1,123 / 854 / 830 / 741 / 660 match the table sums for each venue. It supports the October 5 NYSE sheet date (not September 30), the lack of an established internal effective date for Nasdaq and Cboe, the ETP-not-ETF-only scope, and that no historical, AUM or trading-share ranking was computed. Three things need fixing. (1) Point 3 makes four separate 'unresolved' items required, including AUM and trading share. That penalizes silence on details the question does not clearly ask for. The question asks for date and universe limits, so the required minimum should be the date limit (current snapshot, not September 30) and the universe limit (ETP, not verified ETF-only). AUM and trading share should move to an optional point. (2) The key points leave out two universe limits stated in the excerpt that the question invites. Totals count exchange assignments, not deduplicated funds, and listing-transfer overlaps have not been reconciled. NYSE proper's DMM assignments are not established, so this is not an all-NYSE-venues ranking. These should be optional. (3) The central error leaves out AUM, which the excerpt explicitly says was not computed. Presenting the ranking as an AUM ranking is an equally likely misreading. Smaller points: 'inbox snapshot' is internal wording. The excerpt's recommended wording is 'dated snapshot', and contestants cannot see the inbox. The demand_source URL is the NYSE ETF resources page, which the excerpt cites as a data source, not as evidence of an issue or demand. The stated relationship 'adapted from documented issue/guidance' is not supported by the excerpt. The Virtu–GTS margin is 24 assignments, so the order depends on the method (per-venue deduplication, test-account and Market Quality Supporter exclusions, grouping firms by name). Scoping to the dated snapshot is therefore essential. Tier C and the 'unapproved inbox research' grader note fit the excerpt's 'Awaiting Rafa's approval' status.",
+    "replacement": {
+      "sharpened_question": "Which five firms have the most US exchange LMM/DLP assignments (NYSE Arca LMM, Nasdaq DLP, Cboe BZX LMM) in the dated snapshot retrieved November 6, 2026, and what date and universe limitations govern that ranking?",
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "The ranking is Jane Street, Virtu, GTS, Susquehanna and Citadel, in that order."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "It combines assigned ETP securities in the retrieved NYSE Arca, Nasdaq DLP and Cboe BZX lists. The NYSE sheet is dated October 5, not September 30, and no internal effective date was established for the Nasdaq or Cboe lists."
+        },
+        {
+          "point": 3,
+          "mark": "required",
+          "minimum": "This is a current retrieved assignment snapshot, not a September 30 historical ranking, and it covers ETPs rather than a verified ETF-only universe."
+        },
+        {
+          "point": 4,
+          "mark": "optional",
+          "minimum": "Counts are 1,123; 854; 830; 741; 660, respectively."
+        },
+        {
+          "point": 5,
+          "mark": "optional",
+          "minimum": "Totals count exchange assignments, not globally deduplicated funds, and listing-transfer overlaps are unreconciled. NYSE proper's DMM assignments are not established as covered, so this is not an all-NYSE-venues ranking."
+        },
+        {
+          "point": 6,
+          "mark": "optional",
+          "minimum": "No AUM or trading-market-share ranking was computed."
+        }
+      ],
+      "central_errors": [
+        "Represents the snapshot as an established September 30, ETF-only, AUM or trading-market-share ranking."
+      ],
+      "demand_source": {
+        "url": "https://www.nyse.com/products/exchange-traded-products/exchange-traded-funds",
+        "location": "Previously excluded legacy top-five question; narrowed to the actual dated snapshot. The URL is a public data-source lead, not a documented user issue.",
+        "relationship": "internal legacy question; public source lead only, not documented external demand",
+        "observed_on": "2026-11-06"
+      }
+    },
+    "practitioner_judgment": "Decide whether a question motivated by an internal legacy item, with only a source-lead URL, meets held-out demand requirements. Recommended default: keep it as Tier C with the demand relationship honestly relabeled, and exclude it if your policy requires documented external demand."
+  },
+  {
+    "id": "HO-17",
+    "decision": "fix",
+    "reason": "The core mechanism is supported by HO-17-bank, but the pair goes beyond the excerpt in three places. (1) Key point 1 adds 'taxable', 'the investor's share' and 'as well as distributions'. The excerpt says only that, for a UK investor in an offshore reporting fund, 'reportable income includes undistributed excess income'. It does not mention distributions, an investor's share, or that reportable income is taxed or when. (2) The central error ('accumulating/reporting status defers all income tax until sale') depends on two unsupported details. The excerpt never mentions accumulating share classes. It also never states the timing of income tax, so the error does not directly contradict it. The anchor should instead negate what the excerpt actually says. (3) The question narrows the scope to a 'UK taxable individual' holding an 'offshore ETF', while the excerpt covers a 'UK investor in an offshore reporting fund'. This narrowing is not evidenced, so the question should be realigned. Key point 2 is supported: 'generally' in the excerpt matches 'subject to relevant exceptions', and the throughout-ownership condition is explicit. Optional key point 3 is supported and appropriately marked optional, since non-reporting treatment falls outside the question's reporting-status scope. Tier B is consistent with a single bank note citing the HMRC overview. The question uses affirmative, mechanism-type wording, and the overlap decision against QL-05/QL-06 is reasonable.",
+    "replacement": {
+      "sharpened_question": "For a UK investor holding an offshore fund (such as an offshore ETF) that has had UK reporting-fund status throughout ownership, how are undistributed excess income and disposal gains treated?",
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source. Aligned the investor/fund scope and the key point 1 and central-error wording to the HO-17-bank excerpt. Removed unsupported 'taxable', 'distributions', 'accumulating' and tax-timing details.",
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "The investor's reportable income from the reporting fund includes undistributed excess income, so undistributed income is not excluded from reportable income."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "With reporting status held throughout ownership, gains on disposal generally receive capital-gains treatment."
+        },
+        {
+          "point": 3,
+          "mark": "optional",
+          "minimum": "By contrast, gains on a non-reporting offshore fund are generally treated as offshore income gains."
+        }
+      ],
+      "central_errors": [
+        "Says undistributed (retained) excess income of a reporting fund is not part of the investor's reportable income, or says only distributed amounts count.",
+        "Says disposal gains on a fund with reporting status throughout ownership are generally treated as offshore income gains rather than capital gains."
+      ]
+    },
+    "practitioner_judgment": "Decide whether this item should test the annual timing of income tax on reportable income (the 'no deferral until sale' point). Recommended default: no. Keep the item at the excerpt's level of reportable-income inclusion plus capital-gains treatment. Add a timing or taxation key point only if a cited excerpt explicitly states when and how reportable income is taxed for UK investors."
+  },
+  {
+    "id": "HO-18",
+    "decision": "fix",
+    "reason": "The bank excerpt supports the core facts. It gives the top-three order at September 30, 2026: BlackRock/iShares USD4,648.9bn, Vanguard USD4,625.1bn and State Street/SPDR USD2,126.0bn. It notes that the top three are supported in the Lipper report's prose, while ranks 4–5 were not reliably extracted. It also supports the scope (the source's US ETF-for-sale universe and promoter taxonomy), the Lipper denominator of USD16,296.6bn, and the ICI contrast (USD16,150.2bn across 5,368 ETFs, a different coverage, with no sponsor league). Tier C fits a commercial Lipper ranking. The question asks affirmatively for a fact, and its scope matches the evidence. Four fixes are needed. (1) Point 2 bundles the required scope with a Vanguard ETF-share-class detail. The excerpt states that detail only as a bank caution ('do not ... use the whole Vanguard mutual-fund portfolio'), not as a described Lipper methodology. Requiring it would penalise an answer that states the scope correctly. Move it to the central error and an optional point. (2) The central errors omit the specific error the excerpt warns about: dividing Lipper sponsor assets by ICI's total. (3) The grader note 'check source URL in bank for spelling' is not an actionable grading instruction and should be replaced. (4) The bank's evidentiary source is the Lipper Q3 PDF (October 16 report). The supplied reports-page URL appears only as a demand lead and cannot be verified from the excerpt, so the citations should name the PDF the bank relies on.",
+    "replacement": {
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "The top three are BlackRock/iShares, Vanguard and State Street/SPDR, in that order."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "The ranking measures ETF assets by sponsor/promoter brand in LSEG Lipper's US ETF-for-sale universe at September 30, 2026. It is not a global ranking and does not use firm-wide AUM."
+        },
+        {
+          "point": 3,
+          "mark": "optional",
+          "minimum": "The Lipper denominator is USD16,296.6bn. ICI's September figure (USD16,150.2bn across 5,368 ETFs) has different coverage and gives no sponsor ranking."
+        },
+        {
+          "point": 4,
+          "mark": "optional",
+          "minimum": "Vanguard's figure reflects ETF share-class assets, not its whole mutual-fund portfolio. The Vanguard–iShares gap is narrow (about USD24bn)."
+        }
+      ],
+      "central_errors": [
+        "Uses sponsor-wide investment-management assets (for example, Vanguard's whole mutual-fund portfolio) or treats this as a global issuer ranking.",
+        "Computes sponsor shares by dividing Lipper sponsor assets by ICI's total."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "C: unapproved commercial research candidate (LSEG Lipper Q3 US ETF report, October 16, 2026). Exact AUM figures and shares are optional. Do not reward or penalise claims about ranks 4–5, which the bank could not reliably extract."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "United States — commercial ranking, official total cross-check",
+          "evidence_id": "HO-18-bank"
+        },
+        {
+          "url": "https://lipperalpha.refinitiv.com/wp-content/uploads/2026/10/26-10-16-US-ETF-Market-Report-Year-to-Date-September-26-LSEG.pdf",
+          "role": "primary commercial source cited in bank"
+        },
+        {
+          "url": "https://www.iciglobal.org/research/stats/etf/etfs-09-26",
+          "role": "official total cross-check (no sponsor ranking)"
+        },
+        {
+          "url": "https://lipperalpha.refinitiv.com/reports/2026/10/us-etf-industry-review-year-to-date-september-2026/",
+          "role": "external demand / public source lead"
+        }
+      ]
+    },
+    "practitioner_judgment": "Should the Vanguard ETF-share-class distinction be required? Recommended default: keep it optional and also list it as a central error. The excerpt gives it as a bank caution rather than as stated Lipper methodology, and the required scope point already rules out firm-wide AUM."
+  }
+]

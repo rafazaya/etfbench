@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "pair_count": 18,
+  "tiers": {
+    "A": 12,
+    "B": 4,
+    "C": 2
+  },
+  "audiences": {
+    "investor": 6,
+    "issuer/operator": 12
+  },
+  "regimes": {
+    "US": 13,
+    "UCITS": 4,
+    "UCITS / UK investor tax": 1
+  },
+  "answer_types": {
+    "mechanism": 8,
+    "fact": 8,
+    "comparison": 2
+  },
+  "sol": {
+    "accept": 16,
+    "fix": 2
+  },
+  "opus": {
+    "fix": 12,
+    "accept": 6
+  },
+  "pilot_prompts_compared": 44,
+  "duplicate_or_near_duplicate_retained": 0,
+  "practitioner_items": 3,
+  "unique_fresh_opus_sessions": 18,
+  "benchmark_answer_calls": 0,
+  "source_hash_changes": [],
+  "calibrated_scoring_rule_equal": true,
+  "goldens_unchanged": true,
+  "optional_omissions_penalized": false,
+  "limits": [
+    "Overlap decisions are editorial, not a proof of statistical independence.",
+    "No post-merge model re-review.",
+    "Three provisional practitioner defaults and Tier B/C remain unapproved.",
+    "CLI metadata includes automatic auxiliary Haiku usage."
+  ]
+}

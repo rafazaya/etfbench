@@ -1,0 +1,31 @@
+{
+  "id": "HO-10",
+  "decision": "fix",
+  "reason": "The graded content is supported by excerpt HO-10-bank. Point 1 is supported: fund policies commonly use $0.01/share and 0.5% of NAV, and the SEC called these 'generally used in the industry' in the Rule 2a-5 adopting release 'without making them a rule.' Point 2 is supported: 'Remediation follows the fund's own policy: the party responsible reimburses the fund, and material errors go to the board.' The excerpt also says the administrator's liability for NAV errors 'is decided under the fund's NAV-error procedures.' Point 3 is correctly optional and is a fair inference from the Citi example. That policy sets shareholder de minimis amounts and is internally inconsistent at the 0.5% boundary, hence 'quote the policy when precision matters.' The central error directly negates 'without making them a rule.' The scope (US, issuer/operator, mechanism) matches the excerpt, and the overlap rationale against QL-32 is sound. Tier A is defensible because the note ties the claim to the named adopting release, although only the note itself is supplied. Two fixes are needed. (1) The demand_source location cites 'pp. 72\u201373' of ic-34128.pdf. No supplied excerpt verifies that page range or that this URL is the Rule 2a-5 release, so the location should be restated without the unverified detail. (2) Point 2 should state who is reimbursed, matching the source ('reimburses the fund'). It should also make clear that both remediation elements are part of the minimum rather than illustrative.",
+  "replacement": {
+    "demand_source": {
+      "url": "https://www.sec.gov/files/rules/final/2020/ic-34128.pdf",
+      "location": "Rule 2a-5 adopting release discussion of NAV-error thresholds, as cited in the bank note; page location not verified against supplied excerpts.",
+      "relationship": "adapted from documented issue/guidance; not a verbatim user quotation",
+      "observed_on": "2026-11-06"
+    },
+    "key_points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "These thresholds describe common industry practice in fund NAV-error policies, which the SEC recognized as generally used when adopting the valuation rule (Rule 2a-5) without making them a rule."
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "The fund's own NAV-error policy governs correction: the responsible party reimburses the fund, and material errors are reported to the board."
+      },
+      {
+        "point": 3,
+        "mark": "optional",
+        "minimum": "Precise boundaries and shareholder de minimis amounts depend on the particular policy, so the policy text should be checked when precision matters."
+      }
+    ]
+  },
+  "practitioner_judgment": null
+}

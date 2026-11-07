@@ -1,0 +1,7 @@
+{
+  "id": "HO-14",
+  "decision": "accept",
+  "reason": "The HO-14-bank excerpt supports both required minima. Point 1 matches the excerpt: the acquiring adviser evaluates complexity and fee duplication, the acquired adviser addresses undue influence, and each reports findings to its board by the next regular meeting. Point 2 also matches: an investment agreement terminable on no more than 60 days' notice, unless the same-adviser exception applies. The question's scope (US management investment companies relying on Rule 12d1-4 beyond statutory limits) mirrors the excerpt. 'Normally required' correctly signals the same-adviser exception, which point 2 preserves. The question is phrased affirmatively as an explain-the-mechanism prompt, and both points are central to it, so marking both as required is justified. The central error captures the main ways to get the mechanism wrong: denying any adviser assessment, or claiming the agreement is never needed. Its 'universally' wording avoids penalizing correct mention of the exception. Tier B is reasonable: the rule is cited in the excerpt, and the SEC FAQ is used only as a demand lead, not as factual support. The grader notes correctly limit required facts to the supplied evidence. The overlap decision of 'distinct' is plausible given the different rule.",
+  "replacement": null,
+  "practitioner_judgment": null
+}

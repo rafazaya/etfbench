@@ -1,0 +1,7 @@
+{
+  "id": "HO-11",
+  "decision": "accept",
+  "reason": "Both required minima are directly supported by the cited bank excerpt (HO-11-bank, 'The fund' > Regulation > US ('40 Act), ETF), which says: 'In-kind ETFs are exempt from Rule 22e-4's liquidity classification and highly-liquid minimum, but still need a liquidity program and the 15% illiquid limit.' Point 1 (the program and the 15% limit still apply) and point 2 (relief from classification and the highly liquid investment minimum) restate that line without adding unsupported detail. The central error (claiming a complete exemption from the program or the 15% limit) is the direct negation of the 'but still need' clause, so it is a well-anchored error. The question's scope (which requirements continue and which get relief) matches the two key points exactly. The question says 'qualifying' while the excerpt says only 'in-kind ETFs'. The excerpt does not define the qualifying conditions, but the minima do not require them, so no unsupported content is demanded. The wording is an affirmative fact question, and the answer_type is 'fact', which is consistent. Tier A is defensible: a single explicit sentence in the bank source supports the full answer. The SEC FAQ is cited only as a demand source, not as evidence, which is appropriate. The overlap rationale (Rule 22e-4 versus Rule 6c-11) is consistent with the excerpt, which lists these as separate rules.",
+  "replacement": null,
+  "practitioner_judgment": null
+}

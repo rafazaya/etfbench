@@ -1,0 +1,31 @@
+{
+  "id": "HO-08",
+  "decision": "fix",
+  "reason": "Points 1 and 2 and the central error are supported by the bank excerpt. Point 1: \u00a72(a)(4) says 'assignment' includes a change of control, so selling the adviser ends the contract. The \u00a715(a) requirements also say the contract must 'end automatically on assignment.' Point 2: under \u00a715(a) the advisory contract must be approved by shareholders. Board approval under \u00a715(c) is evidenced by 'Furnishes the information the board needs to approve the contract (\u00a715(c)).' Independent-trustee approval is shown for the sub-advisory contract, which is 'a \u00a715 advisory contract too.' The Risks section confirms that 'A sale of the adviser ends its contracts, which then need new approvals.' Point 3 has no support in the excerpt: it says nothing about interim contracts or bridging arrangements. Even as an optional point it has to go. The original question's phrase 'approvals are needed for continued service' invites interim-contract answers the evidence can't anchor, so the question should be sharpened to the new contract's approvals. There is also a scope gap. 'Its contracts' in the excerpt includes sub-advisory contracts, and under a manager-of-managers order those need board approval but no shareholder vote. Point 2 should therefore be scoped to the principal advisory contract, with a grader note that the manager-of-managers exception is an accurate side claim. The grader note putting \u00a715(f) safe-harbor details outside the required answer is consistent with the excerpt, which covers \u00a715(f) only as a seller-profit condition. The interim-contract part of that note should go. Tier A suits a direct statutory mechanism with explicit section citations. The overlap decision (distinct from QL-01) is reasonable.",
+  "replacement": {
+    "sharpened_question": "If a transaction changes control of the adviser to a US ETF, what happens to its advisory contract, and what approvals does a new advisory contract need?",
+    "change_note": "Externally motivated question scoped to the bank evidence; see demand_source. Sharpened from 'approvals needed for continued service' to the new contract's approvals, because the bank evidence does not cover interim/bridging arrangements. Removed unsupported optional interim-arrangement point. Scoped point 2 to the principal advisory contract.",
+    "key_points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "A change of control of the adviser is an assignment, and the existing advisory contract automatically terminates on assignment."
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "A new principal advisory contract must be approved again, by the board (including the independent trustees) and by a shareholder vote."
+      }
+    ],
+    "central_errors": [
+      "Says the advisory contract automatically continues unchanged through the change of control/assignment."
+    ],
+    "grader_notes": [
+      "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+      "Section 15(f) safe-harbor details are outside the required answer.",
+      "An accurate side claim that sub-advisory contracts also terminate, and that under a manager-of-managers order a replacement sub-advisory contract needs board approval but no shareholder vote, is not an error.",
+      "Interim or bridging contracts are not graded either way: they are outside the bank evidence and not required."
+    ]
+  },
+  "practitioner_judgment": "Should interim-contract bridging be covered? Recommended default: leave it out of this item. Add it only after the bank note is updated with a cited source for the interim-contract rule and its conditions; then restore it as an optional point."
+}

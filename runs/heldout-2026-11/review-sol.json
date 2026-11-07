@@ -1,0 +1,120 @@
+[
+  {
+    "id": "HO-01",
+    "reviewer": "Codex Sol (author, source review independent of Opus)",
+    "decision": "accept",
+    "reason": "Required minima and explicit core-error anchors match the cited bank excerpt; scope is distinct from pilot and optional details do not gate full credit."
+  },
+  {
+    "id": "HO-02",
+    "reviewer": "Codex Sol (author, source review independent of Opus)",
+    "decision": "accept",
+    "reason": "Required minima and explicit core-error anchors match the cited bank excerpt; scope is distinct from pilot and optional details do not gate full credit."
+  },
+  {
+    "id": "HO-03",
+    "reviewer": "Codex Sol (author, source review independent of Opus)",
+    "decision": "accept",
+    "reason": "Required minima and explicit core-error anchors match the cited bank excerpt; scope is distinct from pilot and optional details do not gate full credit."
+  },
+  {
+    "id": "HO-04",
+    "reviewer": "Codex Sol (author, source review independent of Opus)",
+    "decision": "accept",
+    "reason": "Required minima and explicit core-error anchors match the cited bank excerpt; scope is distinct from pilot and optional details do not gate full credit."
+  },
+  {
+    "id": "HO-05",
+    "reviewer": "Codex Sol (author, source review independent of Opus)",
+    "decision": "fix",
+    "reason": "The trust excerpt does not explicitly support the plc accounts/AGM contrast. Add the existing Structure note excerpts and conservatively classify the mixed reference B.",
+    "replacement": {
+      "tier": "B",
+      "additional_bank_sections": [
+        "ETF Structure and Regulation.md / Irish ICAV",
+        "ETF Structure and Regulation.md / Irish investment plc"
+      ]
+    }
+  },
+  {
+    "id": "HO-06",
+    "reviewer": "Codex Sol (author, source review independent of Opus)",
+    "decision": "accept",
+    "reason": "Required minima and explicit core-error anchors match the cited bank excerpt; scope is distinct from pilot and optional details do not gate full credit."
+  },
+  {
+    "id": "HO-07",
+    "reviewer": "Codex Sol (author, source review independent of Opus)",
+    "decision": "accept",
+    "reason": "Required minima and explicit core-error anchors match the cited bank excerpt; scope is distinct from pilot and optional details do not gate full credit."
+  },
+  {
+    "id": "HO-08",
+    "reviewer": "Codex Sol (author, source review independent of Opus)",
+    "decision": "accept",
+    "reason": "Required minima and explicit core-error anchors match the cited bank excerpt; scope is distinct from pilot and optional details do not gate full credit."
+  },
+  {
+    "id": "HO-09",
+    "reviewer": "Codex Sol (author, source review independent of Opus)",
+    "decision": "accept",
+    "reason": "Required minima and explicit core-error anchors match the cited bank excerpt; scope is distinct from pilot and optional details do not gate full credit."
+  },
+  {
+    "id": "HO-10",
+    "reviewer": "Codex Sol (author, source review independent of Opus)",
+    "decision": "accept",
+    "reason": "Required minima and explicit core-error anchors match the cited bank excerpt; scope is distinct from pilot and optional details do not gate full credit."
+  },
+  {
+    "id": "HO-11",
+    "reviewer": "Codex Sol (author, source review independent of Opus)",
+    "decision": "accept",
+    "reason": "Required minima and explicit core-error anchors match the cited bank excerpt; scope is distinct from pilot and optional details do not gate full credit."
+  },
+  {
+    "id": "HO-12",
+    "reviewer": "Codex Sol (author, source review independent of Opus)",
+    "decision": "accept",
+    "reason": "Required minima and explicit core-error anchors match the cited bank excerpt; scope is distinct from pilot and optional details do not gate full credit."
+  },
+  {
+    "id": "HO-13",
+    "reviewer": "Codex Sol (author, source review independent of Opus)",
+    "decision": "accept",
+    "reason": "Required minima and explicit core-error anchors match the cited bank excerpt; scope is distinct from pilot and optional details do not gate full credit."
+  },
+  {
+    "id": "HO-14",
+    "reviewer": "Codex Sol (author, source review independent of Opus)",
+    "decision": "accept",
+    "reason": "Required minima and explicit core-error anchors match the cited bank excerpt; scope is distinct from pilot and optional details do not gate full credit."
+  },
+  {
+    "id": "HO-15",
+    "reviewer": "Codex Sol (author, source review independent of Opus)",
+    "decision": "accept",
+    "reason": "Required minima and explicit core-error anchors match the cited bank excerpt; scope is distinct from pilot and optional details do not gate full credit."
+  },
+  {
+    "id": "HO-16",
+    "reviewer": "Codex Sol (author, source review independent of Opus)",
+    "decision": "accept",
+    "reason": "Required minima and explicit core-error anchors match the cited bank excerpt; scope is distinct from pilot and optional details do not gate full credit."
+  },
+  {
+    "id": "HO-17",
+    "reviewer": "Codex Sol (author, source review independent of Opus)",
+    "decision": "accept",
+    "reason": "Required minima and explicit core-error anchors match the cited bank excerpt; scope is distinct from pilot and optional details do not gate full credit."
+  },
+  {
+    "id": "HO-18",
+    "reviewer": "Codex Sol (author, source review independent of Opus)",
+    "decision": "fix",
+    "reason": "Replace inferred Lipper landing-page address with the exact PDF linked in the inbox.",
+    "replacement": {
+      "demand_url": "https://lipperalpha.refinitiv.com/wp-content/uploads/2026/10/26-10-16-US-ETF-Market-Report-Year-to-Date-September-26-LSEG.pdf"
+    }
+  }
+]

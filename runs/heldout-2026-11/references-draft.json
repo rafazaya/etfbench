@@ -1,0 +1,1043 @@
+{
+  "status": "provisional held-out references; not goldens",
+  "prepared_on": "2026-11-06",
+  "model_runs_authorized": false,
+  "tier_policy": "A: approved Participants units 1–9, approved AP/fee lines or task-authorized Rafa vouched facts. B: other bank text. C: sourced inbox candidates. Mixed answers take the least-approved required source.",
+  "scoring_rule": {
+    "correct": "Every required minimum covered, no central error and no material local falsehood. Optional omissions never reduce grade.",
+    "partial": "No central error; sum of required-point coverage (0, 0.5 for substantive incomplete bundle, 1) is at least half the required-point count and at least one requested core fact is supplied. A material local falsehood caps at partial.",
+    "wrong": "Any explicit central error, or less than half required coverage, or no substantive requested fact. Silence is omission, not falsehood. Do not infer false claims from missing caveats."
+  },
+  "pairs": [
+    {
+      "id": "HO-01",
+      "original_question": "For a US equity ETF, how do the portfolio's brokerage commissions, spreads and market impact affect NAV and the reported expense ratio?",
+      "sharpened_question": null,
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source.",
+      "tier": "A",
+      "audience": "investor",
+      "regime": "US",
+      "answer_type": "mechanism",
+      "answer_as_of": "2026-11-06",
+      "demand_source": {
+        "url": "https://www.reddit.com/r/eupersonalfinance/comments/1jzl78y",
+        "location": "Question asks for TER plus transaction costs; regime narrowed to US.",
+        "relationship": "adapted from documented issue/guidance; not a verbatim user quotation",
+        "observed_on": "2026-11-06"
+      },
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "Portfolio trading costs reduce the value obtained on trades and therefore reduce NAV and investment performance."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "The expense ratio measures fund operating expenses; portfolio commissions, spreads and market impact are outside that measure."
+        }
+      ],
+      "central_errors": [
+        "Treats portfolio trading costs as part of the reported operating expense ratio or as having no effect on NAV."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "No additional facts beyond the supplied evidence are required."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "The fund",
+          "evidence_id": "HO-01-bank"
+        },
+        {
+          "url": "https://www.reddit.com/r/eupersonalfinance/comments/1jzl78y",
+          "role": "external demand / public source lead"
+        }
+      ],
+      "overlap_check": {
+        "nearest_pilot_ids": [
+          "QL-04",
+          "QL-32"
+        ],
+        "decision": "distinct",
+        "reason": "Measures accounting classification of trading costs, rather than collection of the expense ratio or variability of tracking returns."
+      }
+    },
+    {
+      "id": "HO-02",
+      "original_question": "For a US open-end ETF, who sets the NAV pricing time and how frequently must NAV be struck? Explain the status of the usual 4 pm ET time.",
+      "sharpened_question": null,
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source.",
+      "tier": "A",
+      "audience": "investor",
+      "regime": "US",
+      "answer_type": "fact",
+      "answer_as_of": "2026-11-06",
+      "demand_source": {
+        "url": "https://www.reddit.com/r/ETFs/comments/10wjt5r",
+        "location": "Investor asks for latest intraday NAV; adapted to official NAV timing.",
+        "relationship": "adapted from documented issue/guidance; not a verbatim user quotation",
+        "observed_on": "2026-11-06"
+      },
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "The board sets the pricing time; NAV is struck at least once each business day."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "4 pm ET is a convention associated with the NYSE close."
+        }
+      ],
+      "central_errors": [
+        "States that federal rules universally require exactly 4 pm ET pricing."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "No additional facts beyond the supplied evidence are required."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "The fund",
+          "evidence_id": "HO-02-bank"
+        },
+        {
+          "url": "https://www.reddit.com/r/ETFs/comments/10wjt5r",
+          "role": "external demand / public source lead"
+        }
+      ],
+      "overlap_check": {
+        "nearest_pilot_ids": [
+          "QL-08",
+          "QL-25"
+        ],
+        "decision": "distinct",
+        "reason": "Asks who determines official NAV timing, rather than price convergence or website disclosure."
+      }
+    },
+    {
+      "id": "HO-03",
+      "original_question": "For an Irish UCITS ETF holding US stocks and meeting the US–Ireland treaty limitation-on-benefits test, what withholding applies to US dividends, and who bears that tax?",
+      "sharpened_question": null,
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source.",
+      "tier": "A",
+      "audience": "investor",
+      "regime": "UCITS",
+      "answer_type": "mechanism",
+      "answer_as_of": "2026-11-06",
+      "demand_source": {
+        "url": "https://www.ssga.com/hk/en/institutional/insights/considerations-for-non-us-investors-us-etfs-vs-irish-ucits",
+        "location": "Industry investor comparison: investment-level withholding.",
+        "relationship": "adapted from documented issue/guidance; not a verbatim user quotation",
+        "observed_on": "2026-11-06"
+      },
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "US dividends to the qualifying Irish fund are subject to 15% withholding under the treaty."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "The fund bears the withholding cost; its investors cannot reclaim the fund's tax."
+        }
+      ],
+      "central_errors": [
+        "Applies a zero fund-level withholding rate or treats the fund withholding as directly reclaimable by each ETF investor."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "Investor residence taxes and investor-level distributions are outside scope."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "The fund",
+          "evidence_id": "HO-03-bank"
+        },
+        {
+          "url": "https://www.ssga.com/hk/en/institutional/insights/considerations-for-non-us-investors-us-etfs-vs-irish-ucits",
+          "role": "external demand / public source lead"
+        }
+      ],
+      "overlap_check": {
+        "nearest_pilot_ids": [
+          "QL-05",
+          "QL-06"
+        ],
+        "decision": "distinct",
+        "reason": "Tests treaty withholding incidence, separate from US in-kind capital-gains nonrecognition."
+      }
+    },
+    {
+      "id": "HO-04",
+      "original_question": "Does an Irish ICAV sub-fund have separate legal personality, and how does that relate to segregated liability?",
+      "sharpened_question": null,
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source.",
+      "tier": "B",
+      "audience": "issuer/operator",
+      "regime": "UCITS",
+      "answer_type": "fact",
+      "answer_as_of": "2026-11-06",
+      "demand_source": {
+        "url": "https://www.irishstatutebook.ie/eli/2015/act/2/enacted/en/print",
+        "location": "ICAV Act section 37 addresses sub-fund status.",
+        "relationship": "adapted from documented issue/guidance; not a verbatim user quotation",
+        "observed_on": "2026-11-06"
+      },
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "The ICAV is the legal entity; each sub-fund is part of it."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "Sub-fund liability is segregated; the ICAV can sue or be sued in relation to a particular sub-fund."
+        }
+      ],
+      "central_errors": [
+        "Equates segregated liability with separate legal personality or says one sub-fund automatically pays another’s debts."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "No additional facts beyond the supplied evidence are required."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Structure and Regulation.md",
+          "section": "Irish ICAV",
+          "evidence_id": "HO-04-bank"
+        },
+        {
+          "url": "https://www.irishstatutebook.ie/eli/2015/act/2/enacted/en/print",
+          "role": "external demand / public source lead"
+        }
+      ],
+      "overlap_check": {
+        "nearest_pilot_ids": [
+          "QL-01"
+        ],
+        "decision": "distinct",
+        "reason": "Concerns sibling sub-fund legal personality, rather than sponsor insolvency."
+      }
+    },
+    {
+      "id": "HO-05",
+      "original_question": "Compare an Irish ICAV with an Irish investment plc for per-sub-fund accounts, annual general meetings and US tax-classification elections.",
+      "sharpened_question": null,
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source.",
+      "tier": "A",
+      "audience": "issuer/operator",
+      "regime": "UCITS",
+      "answer_type": "comparison",
+      "answer_as_of": "2026-11-06",
+      "demand_source": {
+        "url": "https://www.williamfry.com/knowledge/icav-act-signed-into-law/",
+        "location": "Industry explanation of ICAV choices; question adapted.",
+        "relationship": "adapted from documented issue/guidance; not a verbatim user quotation",
+        "observed_on": "2026-11-06"
+      },
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "An ICAV can produce per-sub-fund accounts and dispense with an AGM; the older investment plc uses umbrella accounts and an AGM."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "An ICAV can elect US tax classification, including partnership treatment; an Irish investment plc is a per-se corporation for US tax."
+        }
+      ],
+      "central_errors": [
+        "Reverses ICAV and investment plc election eligibility."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "Use the investment-fund plc meaning. AGM notice details are optional; election does not automatically establish a particular investor tax outcome."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "The trust (umbrella vehicle)",
+          "evidence_id": "HO-05-bank"
+        },
+        {
+          "url": "https://www.williamfry.com/knowledge/icav-act-signed-into-law/",
+          "role": "external demand / public source lead"
+        }
+      ],
+      "overlap_check": {
+        "nearest_pilot_ids": [],
+        "decision": "distinct",
+        "reason": "Legal vehicle comparison absent from pilot."
+      }
+    },
+    {
+      "id": "HO-06",
+      "original_question": "When an Irish UCITS ManCo delegates portfolio management and administration, what ongoing oversight and responsibility does it retain?",
+      "sharpened_question": null,
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source.",
+      "tier": "A",
+      "audience": "issuer/operator",
+      "regime": "UCITS",
+      "answer_type": "mechanism",
+      "answer_as_of": "2026-11-06",
+      "demand_source": {
+        "url": "https://www.centralbank.ie/news/article/evolving-supervisory-approach-funds-sector-remarks-by-patricia-dunne-at-irish-funds-asset-manager-forum-9-november-2023",
+        "location": "CBI guidance on delegation and retained responsibility.",
+        "relationship": "adapted from documented issue/guidance; not a verbatim user quotation",
+        "observed_on": "2026-11-06"
+      },
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "The ManCo checks delegates before appointment and monitors and challenges them afterwards under written service arrangements."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "Delegation preserves the ManCo's responsibility and liability; it must retain sufficient substance to perform oversight."
+        },
+        {
+          "point": 3,
+          "mark": "optional",
+          "minimum": "Designated persons monitor the six managerial functions and escalate issues to the board."
+        }
+      ],
+      "central_errors": [
+        "Says delegation transfers away the ManCo’s responsibility or permits an empty letter-box entity."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "No additional facts beyond the supplied evidence are required."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "Management company (UCITS)",
+          "evidence_id": "HO-06-bank"
+        },
+        {
+          "url": "https://www.centralbank.ie/news/article/evolving-supervisory-approach-funds-sector-remarks-by-patricia-dunne-at-irish-funds-asset-manager-forum-9-november-2023",
+          "role": "external demand / public source lead"
+        }
+      ],
+      "overlap_check": {
+        "nearest_pilot_ids": [
+          "QL-19"
+        ],
+        "decision": "distinct",
+        "reason": "Tests continuing delegate oversight, rather than launch provider inventory."
+      }
+    },
+    {
+      "id": "HO-07",
+      "original_question": "For a US open-end ETF, which adviser can the board appoint as valuation designee under Rule 2a-5, and what reporting to the board follows?",
+      "sharpened_question": null,
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source.",
+      "tier": "A",
+      "audience": "issuer/operator",
+      "regime": "US",
+      "answer_type": "fact",
+      "answer_as_of": "2026-11-06",
+      "demand_source": {
+        "url": "https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/good-faith-determinations-fair-value-small-entity-compliance-guide",
+        "location": "SEC guide: who may perform fair-value determinations and board oversight.",
+        "relationship": "adapted from documented issue/guidance; not a verbatim user quotation",
+        "observed_on": "2026-11-06"
+      },
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "The board may designate the principal adviser as valuation designee; eligibility is limited to the fund adviser other than a sub-adviser."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "The designee reports in writing at least quarterly and assesses the valuation process annually."
+        },
+        {
+          "point": 3,
+          "mark": "required",
+          "minimum": "Material matters are reported within the board-set deadline, at most five business days."
+        }
+      ],
+      "central_errors": [
+        "Makes a sub-adviser eligible as valuation designee or eliminates board oversight."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "No additional facts beyond the supplied evidence are required."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "Adviser and sub-adviser",
+          "evidence_id": "HO-07-bank"
+        },
+        {
+          "url": "https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/good-faith-determinations-fair-value-small-entity-compliance-guide",
+          "role": "external demand / public source lead"
+        }
+      ],
+      "overlap_check": {
+        "nearest_pilot_ids": [
+          "QL-19"
+        ],
+        "decision": "distinct",
+        "reason": "Specific valuation delegation eligibility and reporting, absent from launch checklist."
+      }
+    },
+    {
+      "id": "HO-08",
+      "original_question": "If a transaction changes control of the adviser to a US ETF, what happens to its advisory contract and what approvals are needed for continued service?",
+      "sharpened_question": null,
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source.",
+      "tier": "A",
+      "audience": "issuer/operator",
+      "regime": "US",
+      "answer_type": "mechanism",
+      "answer_as_of": "2026-11-06",
+      "demand_source": {
+        "url": "https://www.stblaw.com/about-us/publications/view/2018/02/07/key-considerations-in-evaluating-asset-management-deals",
+        "location": "Industry guidance: advisory-contract consequences of control transactions.",
+        "relationship": "adapted from documented issue/guidance; not a verbatim user quotation",
+        "observed_on": "2026-11-06"
+      },
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "A change of control constitutes assignment and automatically terminates the existing advisory contract."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "A replacement advisory contract needs the required board/independent-director and shareholder approvals."
+        },
+        {
+          "point": 3,
+          "mark": "optional",
+          "minimum": "An eligible interim arrangement can bridge service under its own conditions."
+        }
+      ],
+      "central_errors": [
+        "Says the advisory contract automatically continues unchanged through assignment."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "Interim-contract conditions and section 15(f) safe-harbor details are outside the required answer."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "Adviser and sub-adviser",
+          "evidence_id": "HO-08-bank"
+        },
+        {
+          "url": "https://www.stblaw.com/about-us/publications/view/2018/02/07/key-considerations-in-evaluating-asset-management-deals",
+          "role": "external demand / public source lead"
+        }
+      ],
+      "overlap_check": {
+        "nearest_pilot_ids": [
+          "QL-01"
+        ],
+        "decision": "distinct",
+        "reason": "Control sale and contract termination differ from sponsor insolvency/asset protection."
+      }
+    },
+    {
+      "id": "HO-09",
+      "original_question": "Compare recoupment of a fee waiver in the bank's US ETF unitary-fee arrangement with reimbursement under an ordinary expense-limitation agreement.",
+      "sharpened_question": null,
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source.",
+      "tier": "A",
+      "audience": "investor",
+      "regime": "US",
+      "answer_type": "comparison",
+      "answer_as_of": "2026-11-06",
+      "demand_source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1544318/000000000012036561/filename1.pdf",
+        "location": "SEC staff comment asks for clarity on subsequent recoupment; comparison scoped to bank arrangements.",
+        "relationship": "adapted from documented issue/guidance; not a verbatim user quotation",
+        "observed_on": "2026-11-06"
+      },
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "In the described unitary-fee waiver arrangement, waived amounts are permanently forgone."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "An ordinary expense cap commonly permits recoupment for up to three years, subject to both the original and current cap: the lower cap controls."
+        }
+      ],
+      "central_errors": [
+        "Reverses the two arrangements’ recoupment treatment or grants unlimited recovery above the applicable caps."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "Contract terms control; do not generalize this bank unitary-waiver example into a legal ban on recoupment in all unitary-fee contracts."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "Adviser and sub-adviser",
+          "evidence_id": "HO-09-bank"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1544318/000000000012036561/filename1.pdf",
+          "role": "external demand / public source lead"
+        }
+      ],
+      "overlap_check": {
+        "nearest_pilot_ids": [
+          "QL-04",
+          "QL-17"
+        ],
+        "decision": "distinct",
+        "reason": "Tests later recovery of fee waivers, rather than daily accrual or launch budgets."
+      }
+    },
+    {
+      "id": "HO-10",
+      "original_question": "For a US ETF administrator, how should the commonly used $0.01-per-share and 0.5%-of-NAV error thresholds be understood, and what governs correction?",
+      "sharpened_question": null,
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source.",
+      "tier": "A",
+      "audience": "issuer/operator",
+      "regime": "US",
+      "answer_type": "mechanism",
+      "answer_as_of": "2026-11-06",
+      "demand_source": {
+        "url": "https://www.sec.gov/files/rules/final/2020/ic-34128.pdf",
+        "location": "SEC valuation release pp. 72–73 discusses NAV-error threshold comments.",
+        "relationship": "adapted from documented issue/guidance; not a verbatim user quotation",
+        "observed_on": "2026-11-06"
+      },
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "These thresholds describe common industry practice recognized by the SEC in the valuation release."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "The fund's NAV-error policy governs remediation, including reimbursement by the responsible party and reporting material errors to the board."
+        },
+        {
+          "point": 3,
+          "mark": "optional",
+          "minimum": "Precise boundaries and shareholder de minimis amounts depend on the particular policy."
+        }
+      ],
+      "central_errors": [
+        "Treats the two thresholds as a universally mandated SEC correction rule."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "No additional facts beyond the supplied evidence are required."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "Fund accountant / administrator",
+          "evidence_id": "HO-10-bank"
+        },
+        {
+          "url": "https://www.sec.gov/files/rules/final/2020/ic-34128.pdf",
+          "role": "external demand / public source lead"
+        }
+      ],
+      "overlap_check": {
+        "nearest_pilot_ids": [
+          "QL-32"
+        ],
+        "decision": "distinct",
+        "reason": "Operational NAV-error remediation differs from diagnosing tracking error."
+      }
+    },
+    {
+      "id": "HO-11",
+      "original_question": "Which Rule 22e-4 liquidity requirements continue to apply to a qualifying US in-kind ETF, and which classification/minimum requirements receive relief?",
+      "sharpened_question": null,
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source.",
+      "tier": "A",
+      "audience": "issuer/operator",
+      "regime": "US",
+      "answer_type": "fact",
+      "answer_as_of": "2026-11-06",
+      "demand_source": {
+        "url": "https://www.sec.gov/rules-regulations/staff-guidance/division-investment-management-frequently-asked-questions/investment-company-liquidity-risk-management-programs-frequently-asked-questions",
+        "location": "SEC liquidity FAQ: In-Kind ETFs.",
+        "relationship": "adapted from documented issue/guidance; not a verbatim user quotation",
+        "observed_on": "2026-11-06"
+      },
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "A qualifying in-kind ETF retains a liquidity risk-management program and the 15% illiquid-investment limit."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "It receives relief from the liquidity classification requirement and highly liquid investment minimum."
+        }
+      ],
+      "central_errors": [
+        "Claims a complete exemption from liquidity risk management or from the 15% limit."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "No additional facts beyond the supplied evidence are required."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "The fund",
+          "evidence_id": "HO-11-bank"
+        },
+        {
+          "url": "https://www.sec.gov/rules-regulations/staff-guidance/division-investment-management-frequently-asked-questions/investment-company-liquidity-risk-management-programs-frequently-asked-questions",
+          "role": "external demand / public source lead"
+        }
+      ],
+      "overlap_check": {
+        "nearest_pilot_ids": [
+          "QL-23",
+          "QL-24"
+        ],
+        "decision": "distinct",
+        "reason": "Rule 22e-4 program relief is distinct from Rule 6c-11 operational relief."
+      }
+    },
+    {
+      "id": "HO-12",
+      "original_question": "For a US multi-series ETF trust, who selects the independent auditor and when can shareholder ratification be omitted?",
+      "sharpened_question": null,
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source.",
+      "tier": "A",
+      "audience": "issuer/operator",
+      "regime": "US",
+      "answer_type": "fact",
+      "answer_as_of": "2026-11-06",
+      "demand_source": {
+        "url": "https://www.sec.gov/rules/final/ic-24816.htm",
+        "location": "SEC audit-committee release underlying the ratification exemption.",
+        "relationship": "adapted from documented issue/guidance; not a verbatim user quotation",
+        "observed_on": "2026-11-06"
+      },
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "The independent trustees select the auditor."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "An all-independent audit committee permits omission of shareholder ratification under Rule 32a-4."
+        },
+        {
+          "point": 3,
+          "mark": "optional",
+          "minimum": "If a shareholder auditor vote is held, it is trust-wide; different series may use different auditors."
+        }
+      ],
+      "central_errors": [
+        "Assigns auditor selection exclusively to the adviser or says shareholders must always ratify."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "No additional facts beyond the supplied evidence are required."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "The trust (umbrella vehicle)",
+          "evidence_id": "HO-12-bank"
+        },
+        {
+          "url": "https://www.sec.gov/rules/final/ic-24816.htm",
+          "role": "external demand / public source lead"
+        }
+      ],
+      "overlap_check": {
+        "nearest_pilot_ids": [
+          "QL-19"
+        ],
+        "decision": "distinct",
+        "reason": "Auditor appointment authority and voting exemption rather than provider inventory."
+      }
+    },
+    {
+      "id": "HO-13",
+      "original_question": "For a US ETF with an approved manager-of-managers structure and applicable exemptive order, how can a sub-adviser be replaced without a fresh shareholder vote, and what responsibility remains with the principal adviser?",
+      "sharpened_question": null,
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source.",
+      "tier": "A",
+      "audience": "issuer/operator",
+      "regime": "US",
+      "answer_type": "mechanism",
+      "answer_as_of": "2026-11-06",
+      "demand_source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/0000811527/000135448810002730/hmark_def14a.htm",
+        "location": "Shareholder proxy explains manager-of-managers approval and operation.",
+        "relationship": "adapted from documented issue/guidance; not a verbatim user quotation",
+        "observed_on": "2026-11-06"
+      },
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "The order permits the principal adviser to replace sub-advisers with board approval under its conditions; shareholders approve the structure initially and the prospectus discloses it."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "The principal adviser continues overseeing sub-advisers and remains ultimately responsible."
+        },
+        {
+          "point": 3,
+          "mark": "required",
+          "minimum": "An increase in the aggregate advisory fee rate still needs shareholder approval."
+        },
+        {
+          "point": 4,
+          "mark": "optional",
+          "minimum": "Shareholders receive notice of a new sub-adviser within 90 days."
+        }
+      ],
+      "central_errors": [
+        "Treats every fund as automatically entitled to change sub-advisers without relief or board approval."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "Order-specific affiliated-sub-adviser conditions are outside this question."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Participants.md",
+          "section": "Adviser and sub-adviser",
+          "evidence_id": "HO-13-bank"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000811527/000135448810002730/hmark_def14a.htm",
+          "role": "external demand / public source lead"
+        }
+      ],
+      "overlap_check": {
+        "nearest_pilot_ids": [
+          "QL-19"
+        ],
+        "decision": "distinct",
+        "reason": "Sub-adviser change-vote relief rather than launch provider checklist."
+      }
+    },
+    {
+      "id": "HO-14",
+      "original_question": "For US management investment companies relying on Rule 12d1-4 beyond statutory fund-of-funds limits, what adviser findings and interfund agreement are normally required?",
+      "sharpened_question": null,
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source.",
+      "tier": "B",
+      "audience": "issuer/operator",
+      "regime": "US",
+      "answer_type": "mechanism",
+      "answer_as_of": "2026-11-06",
+      "demand_source": {
+        "url": "https://www.sec.gov/rules-regulations/staff-guidance/fund-funds-arrangements-frequently-asked-questions",
+        "location": "SEC fund-of-funds FAQ: investment agreements.",
+        "relationship": "adapted from documented issue/guidance; not a verbatim user quotation",
+        "observed_on": "2026-11-06"
+      },
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "The acquiring adviser evaluates complexity and fee duplication, and the acquired adviser addresses undue influence; each reports findings to its board by the next regular meeting."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "The funds enter an investment agreement terminable on no more than 60 days' notice, subject to the same-adviser exception."
+        }
+      ],
+      "central_errors": [
+        "Says the rule imposes no adviser assessment or universally dispenses with the interfund agreement."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "No additional facts beyond the supplied evidence are required."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Structure and Regulation.md",
+          "section": "Funds investing in other funds",
+          "evidence_id": "HO-14-bank"
+        },
+        {
+          "url": "https://www.sec.gov/rules-regulations/staff-guidance/fund-funds-arrangements-frequently-asked-questions",
+          "role": "external demand / public source lead"
+        }
+      ],
+      "overlap_check": {
+        "nearest_pilot_ids": [
+          "QL-23",
+          "QL-24"
+        ],
+        "decision": "distinct",
+        "reason": "Fund-of-funds controls under a different rule; absent from pilot."
+      }
+    },
+    {
+      "id": "HO-15",
+      "original_question": "In Rafa's US ETF practitioner estimate, what is a typical maximum variable creation/redemption fee, and how should that estimate be used alongside a fund's actual documents?",
+      "sharpened_question": null,
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source.",
+      "tier": "A",
+      "audience": "issuer/operator",
+      "regime": "US",
+      "answer_type": "fact",
+      "answer_as_of": "2026-11-06",
+      "demand_source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/2078265/000182912625010217/corgietftrusti_n-1aa.htm",
+        "location": "Previously excluded legacy question; newly vouched estimate with filed example.",
+        "relationship": "adapted from documented issue/guidance; not a verbatim user quotation",
+        "observed_on": "2026-11-06"
+      },
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "Rafa's dated practitioner estimate is 3% as a typical maximum variable creation/redemption fee, expressed with uncertainty."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "The fund's own SAI and dealing terms determine its actual fee; the Corgi filing supplies an example of up to 3%."
+        }
+      ],
+      "central_errors": [
+        "Presents 3% as a universal statutory ceiling or guarantees that every ETF charges that amount."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "Practitioner estimate is vouched in task context but bank retains “I believe”; preserve uncertainty. This is provisional and for Rafa confirmation."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Market Mechanics.md",
+          "section": "Basket controls and publication",
+          "evidence_id": "HO-15-bank"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2078265/000182912625010217/corgietftrusti_n-1aa.htm",
+          "role": "external demand / public source lead"
+        }
+      ],
+      "overlap_check": {
+        "nearest_pilot_ids": [
+          "creation_redemption_004_what_costs_do_the_creation_fee_cover"
+        ],
+        "decision": "distinct",
+        "reason": "Tests a qualified numerical maximum estimate; pilot asks purpose/payer/recipient only."
+      }
+    },
+    {
+      "id": "HO-16",
+      "original_question": "Which five firms lead by US exchange LMM/DLP assignment counts in the inbox snapshot retrieved November 6, 2026, and what date/universe limitations govern that ranking?",
+      "sharpened_question": null,
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source.",
+      "tier": "C",
+      "audience": "issuer/operator",
+      "regime": "US",
+      "answer_type": "fact",
+      "answer_as_of": "2026-11-06",
+      "demand_source": {
+        "url": "https://www.nyse.com/products/exchange-traded-products/exchange-traded-funds",
+        "location": "Previously excluded legacy top-five question; narrowed to the actual inbox dataset.",
+        "relationship": "adapted from documented issue/guidance; not a verbatim user quotation",
+        "observed_on": "2026-11-06"
+      },
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "The ranking is Jane Street, Virtu, GTS, Susquehanna and Citadel, in that order."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "It combines assigned ETP securities in the retrieved NYSE Arca, Nasdaq DLP and Cboe BZX lists; the NYSE sheet is dated October 5 and the other lists have no established internal effective date."
+        },
+        {
+          "point": 3,
+          "mark": "required",
+          "minimum": "This is a current retrieved assignment snapshot with ETP coverage; September 30 historical, ETF-only, AUM and trading-share rankings remain unresolved."
+        },
+        {
+          "point": 4,
+          "mark": "optional",
+          "minimum": "Counts are 1,123; 854; 830; 741; 660, respectively."
+        }
+      ],
+      "central_errors": [
+        "Represents the snapshot as an established September 30 ETF-only or trading-market-share ranking."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "Unapproved inbox research. Accept normalized Susquehanna/SIG and Citadel Securities names; exact counts optional."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "Candidate: Who are the 5 largest ETF lead market makers? (research 2026-11-06; Q3 target 2026-09-30)",
+          "evidence_id": "HO-16-bank"
+        },
+        {
+          "url": "https://www.nyse.com/products/exchange-traded-products/exchange-traded-funds",
+          "role": "external demand / public source lead"
+        }
+      ],
+      "overlap_check": {
+        "nearest_pilot_ids": [
+          "QL-29"
+        ],
+        "decision": "distinct",
+        "reason": "Ranking data was excluded from the 44; pilot LMM question is board selection diligence."
+      }
+    },
+    {
+      "id": "HO-17",
+      "original_question": "For a UK taxable individual holding an offshore ETF with UK reporting-fund status throughout ownership, how are undistributed reportable income and disposal gains treated?",
+      "sharpened_question": null,
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source.",
+      "tier": "B",
+      "audience": "investor",
+      "regime": "UCITS / UK investor tax",
+      "answer_type": "mechanism",
+      "answer_as_of": "2026-11-06",
+      "demand_source": {
+        "url": "https://www.gov.uk/hmrc-internal-manuals/investment-funds/ifm12446",
+        "location": "HMRC investor overview: reporting and non-reporting funds.",
+        "relationship": "adapted from documented issue/guidance; not a verbatim user quotation",
+        "observed_on": "2026-11-06"
+      },
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "Taxable reportable income includes the investor's share of undistributed excess income as well as distributions."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "With reporting status throughout ownership, disposal generally receives capital-gains treatment, subject to relevant exceptions."
+        },
+        {
+          "point": 3,
+          "mark": "optional",
+          "minimum": "Non-reporting offshore fund gains generally receive offshore-income-gain treatment."
+        }
+      ],
+      "central_errors": [
+        "Says accumulating/reporting status defers all income tax until sale."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "No additional facts beyond the supplied evidence are required."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/20 Knowledge/Finance/ETF/ETF Tax Efficiency.md",
+          "section": "Investor residence also matters",
+          "evidence_id": "HO-17-bank"
+        },
+        {
+          "url": "https://www.gov.uk/hmrc-internal-manuals/investment-funds/ifm12446",
+          "role": "external demand / public source lead"
+        }
+      ],
+      "overlap_check": {
+        "nearest_pilot_ids": [
+          "QL-05",
+          "QL-06"
+        ],
+        "decision": "distinct",
+        "reason": "Investor-level UK income recognition, rather than US fund capital-gains mechanism."
+      }
+    },
+    {
+      "id": "HO-18",
+      "original_question": "At September 30, 2026, which three ETF sponsor brands lead the US Lipper ETF-for-sale universe by assets, and what measurement scope applies?",
+      "sharpened_question": null,
+      "change_note": "Externally motivated question scoped to the bank evidence; see demand_source.",
+      "tier": "C",
+      "audience": "investor",
+      "regime": "US",
+      "answer_type": "fact",
+      "answer_as_of": "2026-11-06",
+      "demand_source": {
+        "url": "https://lipperalpha.refinitiv.com/reports/2026/10/us-etf-industry-review-year-to-date-september-2026/",
+        "location": "Previously excluded legacy top-three issuer question; scoped to the sourced Q3 inbox candidate.",
+        "relationship": "adapted from documented issue/guidance; not a verbatim user quotation",
+        "observed_on": "2026-11-06"
+      },
+      "key_points": [
+        {
+          "point": 1,
+          "mark": "required",
+          "minimum": "The top three are BlackRock/iShares, Vanguard and State Street/SPDR, in that order."
+        },
+        {
+          "point": 2,
+          "mark": "required",
+          "minimum": "The measure is ETF sponsor/promoter-brand assets in Lipper's US ETF-for-sale universe at September 30, 2026; it uses ETF share-class assets for Vanguard."
+        },
+        {
+          "point": 3,
+          "mark": "optional",
+          "minimum": "The Lipper denominator is USD16,296.6bn and differs from ICI’s coverage."
+        }
+      ],
+      "central_errors": [
+        "Uses sponsor-wide investment-management assets or treats this as a global issuer ranking."
+      ],
+      "grader_notes": [
+        "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+        "C: unapproved commercial research candidate. Exact AUM figures and shares are optional; check source URL in bank for spelling."
+      ],
+      "citations": [
+        {
+          "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+          "section": "United States — commercial ranking, official total cross-check",
+          "evidence_id": "HO-18-bank"
+        },
+        {
+          "url": "https://lipperalpha.refinitiv.com/reports/2026/10/us-etf-industry-review-year-to-date-september-2026/",
+          "role": "external demand / public source lead"
+        }
+      ],
+      "overlap_check": {
+        "nearest_pilot_ids": [],
+        "decision": "distinct",
+        "reason": "Ranking excluded from pilot; distinct from LMM assignments and sponsor economics."
+      }
+    }
+  ]
+}

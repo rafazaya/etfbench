@@ -1,0 +1,31 @@
+{
+  "id": "HO-17",
+  "decision": "fix",
+  "reason": "The core mechanism is supported by HO-17-bank, but the pair goes beyond the excerpt in three places. (1) Key point 1 adds 'taxable', 'the investor's share' and 'as well as distributions'. The excerpt says only that, for a UK investor in an offshore reporting fund, 'reportable income includes undistributed excess income'. It does not mention distributions, an investor's share, or that reportable income is taxed or when. (2) The central error ('accumulating/reporting status defers all income tax until sale') depends on two unsupported details. The excerpt never mentions accumulating share classes. It also never states the timing of income tax, so the error does not directly contradict it. The anchor should instead negate what the excerpt actually says. (3) The question narrows the scope to a 'UK taxable individual' holding an 'offshore ETF', while the excerpt covers a 'UK investor in an offshore reporting fund'. This narrowing is not evidenced, so the question should be realigned. Key point 2 is supported: 'generally' in the excerpt matches 'subject to relevant exceptions', and the throughout-ownership condition is explicit. Optional key point 3 is supported and appropriately marked optional, since non-reporting treatment falls outside the question's reporting-status scope. Tier B is consistent with a single bank note citing the HMRC overview. The question uses affirmative, mechanism-type wording, and the overlap decision against QL-05/QL-06 is reasonable.",
+  "replacement": {
+    "sharpened_question": "For a UK investor holding an offshore fund (such as an offshore ETF) that has had UK reporting-fund status throughout ownership, how are undistributed excess income and disposal gains treated?",
+    "change_note": "Externally motivated question scoped to the bank evidence; see demand_source. Aligned the investor/fund scope and the key point 1 and central-error wording to the HO-17-bank excerpt. Removed unsupported 'taxable', 'distributions', 'accumulating' and tax-timing details.",
+    "key_points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "The investor's reportable income from the reporting fund includes undistributed excess income, so undistributed income is not excluded from reportable income."
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "With reporting status held throughout ownership, gains on disposal generally receive capital-gains treatment."
+      },
+      {
+        "point": 3,
+        "mark": "optional",
+        "minimum": "By contrast, gains on a non-reporting offshore fund are generally treated as offshore income gains."
+      }
+    ],
+    "central_errors": [
+      "Says undistributed (retained) excess income of a reporting fund is not part of the investor's reportable income, or says only distributed amounts count.",
+      "Says disposal gains on a fund with reporting status throughout ownership are generally treated as offshore income gains rather than capital gains."
+    ]
+  },
+  "practitioner_judgment": "Decide whether this item should test the annual timing of income tax on reportable income (the 'no deferral until sale' point). Recommended default: no. Keep the item at the excerpt's level of reportable-income inclusion plus capital-gains treatment. Add a timing or taxation key point only if a cited excerpt explicitly states when and how reportable income is taxed for UK investors."
+}

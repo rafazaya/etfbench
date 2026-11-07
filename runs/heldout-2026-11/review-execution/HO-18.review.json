@@ -1,0 +1,57 @@
+{
+  "id": "HO-18",
+  "decision": "fix",
+  "reason": "The bank excerpt supports the core facts. It gives the top-three order at September 30, 2026: BlackRock/iShares USD4,648.9bn, Vanguard USD4,625.1bn and State Street/SPDR USD2,126.0bn. It notes that the top three are supported in the Lipper report's prose, while ranks 4\u20135 were not reliably extracted. It also supports the scope (the source's US ETF-for-sale universe and promoter taxonomy), the Lipper denominator of USD16,296.6bn, and the ICI contrast (USD16,150.2bn across 5,368 ETFs, a different coverage, with no sponsor league). Tier C fits a commercial Lipper ranking. The question asks affirmatively for a fact, and its scope matches the evidence. Four fixes are needed. (1) Point 2 bundles the required scope with a Vanguard ETF-share-class detail. The excerpt states that detail only as a bank caution ('do not ... use the whole Vanguard mutual-fund portfolio'), not as a described Lipper methodology. Requiring it would penalise an answer that states the scope correctly. Move it to the central error and an optional point. (2) The central errors omit the specific error the excerpt warns about: dividing Lipper sponsor assets by ICI's total. (3) The grader note 'check source URL in bank for spelling' is not an actionable grading instruction and should be replaced. (4) The bank's evidentiary source is the Lipper Q3 PDF (October 16 report). The supplied reports-page URL appears only as a demand lead and cannot be verified from the excerpt, so the citations should name the PDF the bank relies on.",
+  "replacement": {
+    "key_points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "The top three are BlackRock/iShares, Vanguard and State Street/SPDR, in that order."
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "The ranking measures ETF assets by sponsor/promoter brand in LSEG Lipper's US ETF-for-sale universe at September 30, 2026. It is not a global ranking and does not use firm-wide AUM."
+      },
+      {
+        "point": 3,
+        "mark": "optional",
+        "minimum": "The Lipper denominator is USD16,296.6bn. ICI's September figure (USD16,150.2bn across 5,368 ETFs) has different coverage and gives no sponsor ranking."
+      },
+      {
+        "point": 4,
+        "mark": "optional",
+        "minimum": "Vanguard's figure reflects ETF share-class assets, not its whole mutual-fund portfolio. The Vanguard\u2013iShares gap is narrow (about USD24bn)."
+      }
+    ],
+    "central_errors": [
+      "Uses sponsor-wide investment-management assets (for example, Vanguard's whole mutual-fund portfolio) or treats this as a global issuer ranking.",
+      "Computes sponsor shares by dividing Lipper sponsor assets by ICI's total."
+    ],
+    "grader_notes": [
+      "Use the frozen calibrated scoring_rule. Treat silence as omission; material false side claims cap partial. Grade the stated scope; citations and exact wording are optional.",
+      "C: unapproved commercial research candidate (LSEG Lipper Q3 US ETF report, October 16, 2026). Exact AUM figures and shares are optional. Do not reward or penalise claims about ranks 4\u20135, which the bank could not reliably extract."
+    ],
+    "citations": [
+      {
+        "path": "/home/rafa/Documents/zmoot/Rafa/00 Inbox/ETF inbox.md",
+        "section": "United States \u2014 commercial ranking, official total cross-check",
+        "evidence_id": "HO-18-bank"
+      },
+      {
+        "url": "https://lipperalpha.refinitiv.com/wp-content/uploads/2026/10/26-10-16-US-ETF-Market-Report-Year-to-Date-September-26-LSEG.pdf",
+        "role": "primary commercial source cited in bank"
+      },
+      {
+        "url": "https://www.iciglobal.org/research/stats/etf/etfs-09-26",
+        "role": "official total cross-check (no sponsor ranking)"
+      },
+      {
+        "url": "https://lipperalpha.refinitiv.com/reports/2026/10/us-etf-industry-review-year-to-date-september-2026/",
+        "role": "external demand / public source lead"
+      }
+    ]
+  },
+  "practitioner_judgment": "Should the Vanguard ETF-share-class distinction be required? Recommended default: keep it optional and also list it as a central error. The excerpt gives it as a bank caution rather than as stated Lipper methodology, and the required scope point already rules out firm-wide AUM."
+}

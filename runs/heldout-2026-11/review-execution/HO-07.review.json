@@ -1,0 +1,28 @@
+{
+  "id": "HO-07",
+  "decision": "fix",
+  "reason": "The excerpt supports most of the pair. It says the board can make the principal adviser the fund's valuation designee under Rule 2a-5 and that a sub-adviser can't be. It also says that, as designee, the adviser (a) reports to the board in writing at least quarterly, (b) assesses the valuation process each year and (c) reports material matters within the board-set deadline, at most 5 business days. Points 2 and 3 match the excerpt. Point 1 overreaches: 'eligibility is limited to the fund adviser other than a sub-adviser' makes an exclusivity claim the excerpt doesn't make. The excerpt only says the principal adviser is eligible and a sub-adviser isn't, so a correct answer naming another permitted designee would be penalised without support. The central error's 'eliminates board oversight' is vague. The excerpt anchors oversight in the designee's written reporting to the board, so the error should name denying that reporting. The scope fits: the excerpt covers US ('40 Act) funds, which include open-end ETFs. 'Separate fair valuation from portfolio management' falls outside the question's 'what reporting' scope, so leaving it out is fine. Tier A rests on one directly on-point bank excerpt; the SEC guide is cited only as the demand lead, which is appropriate.",
+  "replacement": {
+    "key_points": [
+      {
+        "point": 1,
+        "mark": "required",
+        "minimum": "The board can designate the fund's principal adviser as valuation designee under Rule 2a-5; a sub-adviser can't be the valuation designee."
+      },
+      {
+        "point": 2,
+        "mark": "required",
+        "minimum": "The designee reports to the board in writing at least quarterly and assesses the valuation process each year."
+      },
+      {
+        "point": 3,
+        "mark": "required",
+        "minimum": "The designee reports material matters to the board within the deadline the board sets, which can be no more than 5 business days."
+      }
+    ],
+    "central_errors": [
+      "States that a sub-adviser can be the valuation designee, or that the designee owes the board no periodic written reporting."
+    ]
+  },
+  "practitioner_judgment": null
+}
